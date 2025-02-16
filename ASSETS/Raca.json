@@ -1,0 +1,67 @@
+[
+  {
+    "b": "Anão",
+    "uuid": "44E18FA16105E2F932AE863CA3152B2E",
+    "a": "pt"
+  },
+  {
+    "b": "Anão da Colina",
+    "uuid": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "a": "pt"
+  },
+  {
+    "b": "Elfo",
+    "uuid": "1638EB318564E71129772FC3F8847992",
+    "a": "pt"
+  },
+  {
+    "b": "Alto Elfo",
+    "uuid": "F540B1E3C9F15F8202BB07D6B355106C",
+    "a": "pt"
+  },
+  {
+    "b": "Halfling",
+    "uuid": "BA096F0473D7018211C28DD51C42ECD8",
+    "a": "pt"
+  },
+  {
+    "b": "Halfling Pés Leves",
+    "uuid": "797136AEC80C53FBB3192A544656102C",
+    "a": "pt"
+  },
+  {
+    "b": "Humano",
+    "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "a": "pt"
+  },
+  {
+    "b": "Draconato",
+    "uuid": "3AD976AE9713ACD3045C24963585AF94",
+    "a": "pt"
+  },
+  {
+    "b": "Gnomo",
+    "uuid": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "a": "pt"
+  },
+  {
+    "b": "Gnomo das Rochas",
+    "uuid": "5CD46431358BA16D5D8A410EE313EFA7",
+    "a": "pt"
+  },
+  {
+    "b": "Meio Elfo",
+    "uuid": "CB396E9936397E3078B2C9F94DAE58B6",
+    "a": "pt"
+  },
+  {
+    "b": "Meio Orc",
+    "uuid": "D54C62D3589F5C09582058E36EFCCBDC",
+    "a": "pt"
+  },
+  {
+    "b": "Tiefling",
+    "uuid": "45926CBFE02091BA6C664E416C4A20BE",
+    "a": "pt"
+  }
+]

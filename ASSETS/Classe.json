@@ -1,0 +1,74 @@
+[
+  {
+    "b": "Bárbaro",
+    "uuid": "A5E89D3735FE621E3F3B4F943079755A",
+    "e": 12,
+    "a": "pt"
+  },
+  {
+    "b": "Bardo",
+    "uuid": "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Bruxo",
+    "uuid": "BE7427B68511031EFF6654CA8EC058E4",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Clérigo",
+    "uuid": "8C61F8EDB313E7F7CFFB7A1A50991165",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Druida",
+    "uuid": "2718AD086213B7F0CC96B21CD87DC6B5",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Feiticeiro",
+    "uuid": "5C7EC183E8C43F9D1A6C44645CAB39AC",
+    "e": 6,
+    "a": "pt"
+  },
+  {
+    "b": "Guerreiro",
+    "uuid": "D954B3794ECBA734299805297D6B90EF",
+    "e": 10,
+    "a": "pt"
+  },
+  {
+    "b": "Ladino",
+    "uuid": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Mago",
+    "uuid": "DD61B226A538F1C99C5053140935B4F8",
+    "e": 6,
+    "a": "pt"
+  },
+  {
+    "b": "Monge",
+    "uuid": "011224AF9458F1A76289CA44D28FE856",
+    "e": 8,
+    "a": "pt"
+  },
+  {
+    "b": "Paladino",
+    "uuid": "35654E025C3AA7B5F5C85015E902F4B8",
+    "e": 10,
+    "a": "pt"
+  },
+  {
+    "b": "Patrulheiro",
+    "uuid": "5817BF17BC0F7F865E685695DFA3EB11",
+    "e": 10,
+    "a": "pt"
+  }
+]

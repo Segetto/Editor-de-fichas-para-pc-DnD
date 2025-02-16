@@ -1,0 +1,1893 @@
+{
+    "a": [{
+        "A": "",
+        "B": "Assassino de aluguel.",
+        "C": "Syph naceu de uma elfa que foi raptada, ele viveu em uma favela subterrânea de uma cidade, 10 anos depois de ter nascido sua mãe foi morta em sua frente, ele se culpa por não ter sido forte o suficiente para protegê-la.\nEle viveu como um assasino de aluguel, sendo um criminoso que consegue entrar e sair de qualquer situação sem ser percebido, ele tem procurado os culpados da morte de sua mãe desde estão em busca de vingar o assasinato que cometeram.",
+        "D": "pqr655ngamrecoaeucv15s5j7kic_character.png",
+        "E": "pqr655ngamrecoaeucv15s5j7kalliesOrganizations.png",
+        "uuid": "pqr655ngamrecoaeucv15s5j7k",
+        "id": 0,
+        "a": "Sylph Darkpine",
+        "b": "CB396E9936397E3078B2C9F94DAE58B6",
+        "c": "90039257C703218B199C446AC4EBA238",
+        "d": 49225,
+        "e": false,
+        "f": 4,
+        "g": 1,
+        "h": 5,
+        "i": 12,
+        "j": 84,
+        "k": 0,
+        "l": 84,
+        "m": 7.5,
+        "n": 0,
+        "o": 0,
+        "p": 0,
+        "0": "Branco",
+        "q": 0,
+        "1": "Branco",
+        "r": 1000,
+        "2": "f40vpvp3uvfsmtpt0vkfp35hhg",
+        "3": "Criminoso",
+        "s": 0,
+        "t": 49,
+        "4": "Eu sempre tenho um plano para quando as coisas dão errado.",
+        "u": 1.65,
+        "5": "Eu sou leal aos meus amigos, não a qualquer ideal, e todos sabem que posso viajar até o Estige por aqueles que me importo.",
+        "6": "Alguém que amo morreu por causa de um erro que cometi. Isso nunca acontecerá novamente.",
+        "v": 50,
+        "w": 0,
+        "7": "Um inocente foi preso por um crime que eu cometi. Por mim tudo bem.",
+        "x": 0,
+        "8": "",
+        "9": "",
+        "y": 7.5,
+        "z": "Roxoesbranquiçado"
+    }],
+    "b": [{
+        "a": "pt",
+        "b": "Caótico neutro",
+        "c": "É a tendência das criaturas que seguem seus caprichos, mantendo sua liberdade pessoal acima de tudo. Muitos bárbaros e ladinos, e alguns bardos, são caóticos e neutros.",
+        "d": false,
+        "uuid": "90039257C703218B199C446AC4EBA238"
+    }],
+    "c": [{
+        "a": "pt",
+        "b": "Meio Elfo",
+        "c": "",
+        "d": false,
+        "e": false,
+        "f": 0,
+        "g": 0,
+        "h": true,
+        "uuid": "CB396E9936397E3078B2C9F94DAE58B6"
+    }],
+    "d": [{
+        "a": {
+            "a": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+            "b": "pqr655ngamrecoaeucv15s5j7k",
+            "c": 9,
+            "uuid": "m2efq4k6pmja5m7n0t11ca5p5m"
+        },
+        "b": {
+            "a": "pt",
+            "b": "Ladino",
+            "c": "",
+            "d": false,
+            "e": 8,
+            "f": true,
+            "uuid": "66DDC67E7D8B9AE65FAFC661A1E9C807"
+        }
+    }],
+    "e": [
+        {
+            "a": "STRENGTH",
+            "b": 11,
+            "c": false,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "keoi3pm19urtu0m45bbts53uvs"
+        },
+        {
+            "a": "DEXTERITY",
+            "b": 20,
+            "c": true,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "8gv9r0ugk49ftja4fjugqaeiuj"
+        },
+        {
+            "a": "CONSTITUTION",
+            "b": 18,
+            "c": false,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "52fhvpmoob6guoqkkem1270nfp"
+        },
+        {
+            "a": "INTELLIGENCE",
+            "b": 18,
+            "c": true,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "f40vpvp3uvfsmtpt0vkfp35hhg"
+        },
+        {
+            "a": "WISDOM",
+            "b": 16,
+            "c": false,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "f9a5o443jg58t39ls9mfidsiug"
+        },
+        {
+            "a": "CHARISMA",
+            "b": 16,
+            "c": false,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "fstpad9otn2g1aq8qdv5kcpo1e"
+        }
+    ],
+    "f": [
+        {"a": {
+            "a": "ATHLETICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "keoi3pm19urtu0m45bbts53uvs",
+            "uuid": "m5nrci5bk3jmla2btr7jco5im7"
+        }},
+        {"a": {
+            "a": "ACROBATICS",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "8gv9r0ugk49ftja4fjugqaeiuj",
+            "uuid": "b6jrfac5kvbndkag8045vcirfs"
+        }},
+        {"a": {
+            "a": "STEALTH",
+            "b": true,
+            "c": true,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "8gv9r0ugk49ftja4fjugqaeiuj",
+            "uuid": "vqb1tpnl1otalp5cm7menv9cah"
+        }},
+        {"a": {
+            "a": "SLEIGHT_OF_HAND",
+            "b": true,
+            "c": true,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "8gv9r0ugk49ftja4fjugqaeiuj",
+            "uuid": "v6jmieb9de5hf86if1c2t6c7di"
+        }},
+        {"a": {
+            "a": "ARCANA",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f40vpvp3uvfsmtpt0vkfp35hhg",
+            "uuid": "lhn3bmu8bdvvcs6pue6dsth7nn"
+        }},
+        {"a": {
+            "a": "HISTORY",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f40vpvp3uvfsmtpt0vkfp35hhg",
+            "uuid": "5gouuif4jgc2pa2mi82f1olnd8"
+        }},
+        {"a": {
+            "a": "INVESTIGATION",
+            "b": true,
+            "c": true,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f40vpvp3uvfsmtpt0vkfp35hhg",
+            "uuid": "loj0ell6m0m5j3745tnl4ooa73"
+        }},
+        {"a": {
+            "a": "NATURE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f40vpvp3uvfsmtpt0vkfp35hhg",
+            "uuid": "ktfoo8gi2q98kfa3piipbdop11"
+        }},
+        {"a": {
+            "a": "RELIGION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f40vpvp3uvfsmtpt0vkfp35hhg",
+            "uuid": "nm4seug0n90k353ftetlfjoi8u"
+        }},
+        {"a": {
+            "a": "INSIGHT",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f9a5o443jg58t39ls9mfidsiug",
+            "uuid": "4d6uemebkjga9amig5tlb4ahvs"
+        }},
+        {"a": {
+            "a": "ANIMAL_HANDLING",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f9a5o443jg58t39ls9mfidsiug",
+            "uuid": "l4n34mk34289tibgf6c7308q1o"
+        }},
+        {"a": {
+            "a": "MEDICINE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f9a5o443jg58t39ls9mfidsiug",
+            "uuid": "5qdl3huphe5i282172q0pjs7e8"
+        }},
+        {"a": {
+            "a": "PERCEPTION",
+            "b": true,
+            "c": true,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f9a5o443jg58t39ls9mfidsiug",
+            "uuid": "h5548sc85e1fsiu25t4blgs1og"
+        }},
+        {"a": {
+            "a": "SURVIVAL",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "f9a5o443jg58t39ls9mfidsiug",
+            "uuid": "ccuq0ppbh6on9e912469a51jv8"
+        }},
+        {"a": {
+            "a": "PERFORMANCE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "fstpad9otn2g1aq8qdv5kcpo1e",
+            "uuid": "tip11ghskl51oh7aklao46n7hc"
+        }},
+        {"a": {
+            "a": "DECEPTION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "fstpad9otn2g1aq8qdv5kcpo1e",
+            "uuid": "i0tf7mkick09f3si5b523fofbi"
+        }},
+        {"a": {
+            "a": "INTIMIDATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "fstpad9otn2g1aq8qdv5kcpo1e",
+            "uuid": "b708iama76a8en7alfm09d2klk"
+        }},
+        {"a": {
+            "a": "PERSUASION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "pqr655ngamrecoaeucv15s5j7k",
+            "f": "fstpad9otn2g1aq8qdv5kcpo1e",
+            "uuid": "gfk7grohnpamed7b0q6b74nl81"
+        }}
+    ],
+    "g": [
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "bo7teo9d2j7rg82pucmikb39pp"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "pn4ejvo12t8fcf53rkqqj9k39n"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "u07c4hnmacirme9it6881emimk"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "ieqj40tc7nfnu6cdruhup677q4"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "6fkogo3to30bd9otuo7cs1nlhd"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "i5gtpcbiiba7isbs5jrjpmocao"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "4vjn0i0k9cccu96i9cf7u65g4h"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "uvrc2ia277uot8im8o3291rp05"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "9md4plaj2b2mqh7u66viua00j1"
+        }
+    ],
+    "h": [
+        {
+            "a": 0,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "1j3r1vc6069n0o298b9r045nbn"
+        },
+        {
+            "a": 1,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "oocpaltvp9t6m6306k98bp6hng"
+        },
+        {
+            "a": 2,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "a27nlc41j4d3g4guqd5kfpnmb5"
+        },
+        {
+            "a": 3,
+            "b": true,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "hkrak1nr5o8snfinddndfdne2d"
+        },
+        {
+            "a": 4,
+            "b": true,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "kdmmkrsmurbp8nb9c1p2l7siov"
+        },
+        {
+            "a": 5,
+            "b": false,
+            "c": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "t6phua2mb3no7fo68lc4dhltbu"
+        }
+    ],
+    "i": [
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "9822810FE68E42BB459E016473630D46",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "",
+                "uuid": "ause74c7fvap9rl5qkuq9iptro"
+            },
+            "b": {
+                "uuid": "9822810FE68E42BB459E016473630D46",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 25,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Arco Curto",
+                "v": "",
+                "w": "Munição (distância 24/96), duas mãos",
+                "x": "Munição (distância 80/320), duas mãos",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 6,
+                "b": false,
+                "d": "9822810FE68E42BB459E016473630D46",
+                "uuid": "B5857D3E500EA169B9810A093153CDC6"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "+1",
+                "uuid": "4o396uau9i0adut6gb0fmd92c1"
+            },
+            "b": {
+                "uuid": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "a": "pt",
+                "b": "",
+                "c": 10,
+                "d": "GP",
+                "e": 5,
+                "f": 10,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 11,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "8F5927A16191C5F06FFB6D71806B1F17",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "+1 de acerto e dano",
+                "uuid": "9lhdapin1q53qcac931id46g3o"
+            },
+            "b": {
+                "uuid": "8F5927A16191C5F06FFB6D71806B1F17",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 25,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "r": 6,
+                "s": 0,
+                "t": false,
+                "u": "Rapieira",
+                "v": "",
+                "w": "Acuidade",
+                "x": "Acuidade",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 8,
+                "b": false,
+                "d": "8F5927A16191C5F06FFB6D71806B1F17",
+                "uuid": "8d9ekli03fmmm1h0sjrv87324p"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "afputpb386fe7803hoa6fm6d49",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "t5lh8hragqhsi57vikpi1oss59"
+            },
+            "b": {
+                "uuid": "afputpb386fe7803hoa6fm6d49",
+                "a": "pt",
+                "b": "",
+                "c": 160,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Pacote de assaltante",
+                "v": "Inclui uma mochila, um saco com 1.000 esferas de metal, 3 metros de linha, um sino, 5 velas, um pé de cabra, um martelo, 10 pítons, uma lanterna coberta, 2 frascos de óleo, 5 dias de rações, uma caixa de fogo e um cantil. O kit também possui 15 metros de corda de cânhamo amarrada ao lado dele",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "j8u4t306fiidiklghojtboasmc",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "lk43710ej7uv366c2fbb98gogc"
+            },
+            "b": {
+                "uuid": "j8u4t306fiidiklghojtboasmc",
+                "a": "pt",
+                "b": "",
+                "c": 2500,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Ferramentas de ladrão ",
+                "v": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/12",
+                "uuid": "imm5oatn92l9648qcm3mpahps4"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "08F9ED9421B238637CA001FC88BE59E1",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "",
+                "uuid": "u63h36dc7458kiv8nv91ckl5b5"
+            },
+            "b": {
+                "uuid": "08F9ED9421B238637CA001FC88BE59E1",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 75,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Besta de Mão",
+                "v": "",
+                "w": "Munição (distância 9/36), leve, recarga",
+                "x": "Munição (distância 30/120), leve, recarga",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 6,
+                "b": false,
+                "d": "08F9ED9421B238637CA001FC88BE59E1",
+                "uuid": "3060149F2F37B234561EDF2A7AA6D02A"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "078D83CCA054449C05AE725DB2CE7B2A",
+                "c": 2,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "ct2s88umch96r1td13rt3p3u8l"
+            },
+            "b": {
+                "uuid": "078D83CCA054449C05AE725DB2CE7B2A",
+                "a": "pt",
+                "b": "",
+                "c": 2,
+                "d": "CP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Frasco misterioso",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/20 virotes",
+                "uuid": "ig71kut5od7kehs9e47ee8gpgm"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D769F761EECA833F98843A7010A4597C",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "fraquinho de areia",
+                "uuid": "8fhjc4aj3k583lrq8niglq75m3"
+            },
+            "b": {
+                "uuid": "D769F761EECA833F98843A7010A4597C",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Garrafa de vidro",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/3",
+                "uuid": "bmv4b1aip66hp3nplplmpe2ea6"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "c": 3,
+                "d": true,
+                "e": false,
+                "f": "2 - Adaga +1",
+                "uuid": "l55jhr7a67vuj7emqkdj50dnba"
+            },
+            "b": {
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
+                "w": "Acuidade, leve, arremesso (distância 6/18)",
+                "x": "Acuidade, leve, arremesso (distância 20/60)",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 4,
+                "b": false,
+                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "uuid": "g5cvp74s9oglgk1akuek039jec"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "3blcguqot50bj59tfc1v6i3opo",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "",
+                "uuid": "kceteshat2ivrgmr6gkq3vjt4v"
+            },
+            "b": {
+                "uuid": "3blcguqot50bj59tfc1v6i3opo",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 2,
+                "d": "CP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "r": 0,
+                "s": 6,
+                "t": true,
+                "u": "Adaga Venenosa",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.\n2d10 de dano se não passar no teste de resistência de constituição CD 15.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 4,
+                "b": false,
+                "d": "3blcguqot50bj59tfc1v6i3opo",
+                "uuid": "qe7vdhu563skl5j4tgcolqu5v9"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "c": 1,
+                "d": false,
+                "e": true,
+                "f": "",
+                "uuid": "nb5rlsad9esm7pl6pgin4mbdio"
+            },
+            "b": {
+                "uuid": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "a": "pt",
+                "b": "",
+                "c": 45,
+                "d": "GP",
+                "e": 6.5,
+                "f": 13,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 12,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro Batido",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        }
+    ],
+    "j": [
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "7B92E9B419144479363E0D083CB7C9A0",
+                "c": "",
+                "uuid": "138o2j8a6gfhhptnevsilf1i0a"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Armas Simples",
+                "d": true,
+                "uuid": "7B92E9B419144479363E0D083CB7C9A0"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "5EB61404A7ED5A4505BBD9DE95BD1E8D",
+                "c": "",
+                "uuid": "4rko4g6q03s98qigpsoii174aj"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Espada Curta",
+                "d": true,
+                "uuid": "5EB61404A7ED5A4505BBD9DE95BD1E8D"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "0FE2F53D3E4D6EC8D868954692F7CF12",
+                "c": "",
+                "uuid": "bndan2mh7r0tkj6svjj068kakp"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Rapieira",
+                "d": true,
+                "uuid": "0FE2F53D3E4D6EC8D868954692F7CF12"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "C2180EDE1D949506DC7DBDC54BA189D9",
+                "c": "",
+                "uuid": "lh8r33dm8l5f712ju6j80o68m3"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Besta de Mão",
+                "d": true,
+                "uuid": "C2180EDE1D949506DC7DBDC54BA189D9"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "AE14AD15E16E0D8A57EE5790F61CB1C3",
+                "c": "",
+                "uuid": "nu500v45qv91caifrjki283gvn"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Espada Longa",
+                "d": true,
+                "uuid": "AE14AD15E16E0D8A57EE5790F61CB1C3"
+            }
+        }
+    ],
+    "k": [{
+        "a": {
+            "a": "pqr655ngamrecoaeucv15s5j7k",
+            "b": "BE4BA4A3D10E126169DDF93AF63BA44D",
+            "c": "",
+            "uuid": "5s3ua6k1lsnhmov4t6b23vhqr5"
+        },
+        "b": {
+            "a": "pt",
+            "b": false,
+            "c": "Armaduras Leves",
+            "d": true,
+            "uuid": "BE4BA4A3D10E126169DDF93AF63BA44D"
+        }
+    }],
+    "l": [{
+        "a": {
+            "a": "pqr655ngamrecoaeucv15s5j7k",
+            "b": "D5EF836CBF48D28E14D8A0057258152E",
+            "c": "proficiência dobrada",
+            "uuid": "fmlqn1q8vbam2d1m43ddnbn97i"
+        },
+        "b": {
+            "a": "pt",
+            "b": false,
+            "c": "Ferramentas de Ladrão",
+            "d": true,
+            "uuid": "D5EF836CBF48D28E14D8A0057258152E"
+        }
+    }],
+    "m": [
+        {
+            "a": {
+                "a": "4B3706998CDC145AD1E05AB0824D0365",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "g36i01s6on14iqrc2i5br122dv"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Proficiências",
+                "e": "Armaduras: Armaduras leves\nArmas: Armas simples, bestas de mão, espadas longas, rapieiras, espadas curtas\nFerramentas: Ferramentas de ladrão\nTestes de Resistência: Destreza, Inteligência\nPerícias: Escolha quatro dentre Acrobacia, Atletismo, Atuação, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão e Prestidigitação",
+                "f": true,
+                "uuid": "4B3706998CDC145AD1E05AB0824D0365"
+            }
+        },
+        {
+            "a": {
+                "a": "14B74D75B2943A14D0D6DD81E979DEF4",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "uj5bf6ijv9m1gfrhu8f6aqn9en"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Equipamento",
+                "e": "Você começa com o seguinte equipamento, além do equipamento concedido pelo seu antecedente:\n - (a) uma rapieira ou (b) uma espada longa\n - (a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta\n - (a) um pacote de assaltante ou (b) um pacote de aventureiro ou (c) um pacote de explorador\n - Armadura de couro, duas adagas e ferramentas de ladrão",
+                "f": true,
+                "uuid": "14B74D75B2943A14D0D6DD81E979DEF4"
+            }
+        },
+        {
+            "a": {
+                "a": "D7EDF8C0ECD52DD59E05669C53921D8D",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "8harveivq8al5e9ei7hqssvra"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Especialização",
+                "e": "No 1º nível, você escolhe duas de suas perícias que seja proficiente, ou uma perícia que seja proficiente e ferramentas de ladrão. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que fizer com elas.\nNo 6º nível, você pode escolher outras duas de suas proficiências (em perícias ou ferramentas de ladrão) para ganhar esse benefício.",
+                "f": true,
+                "uuid": "D7EDF8C0ECD52DD59E05669C53921D8D"
+            }
+        },
+        {
+            "a": {
+                "a": "CC12F21B293159CC0C4A4F77C1350B72",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "88ku0ua7utgp83k6prn1d03tsa"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Ataque Furtivo",
+                "e": "A partir do 1º nível, você sabe como atacar sutilmente e explorar a distração de seus inimigos. Uma vez por turno, você pode adicionar 1d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância.\nVocê não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 1,5 metro de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque.\nA quantidade de dano extra aumenta conforme você ganha níveis nessa classe, como mostrado na coluna Ataque Furtivo da tabela O Ladino.",
+                "f": true,
+                "uuid": "CC12F21B293159CC0C4A4F77C1350B72"
+            }
+        },
+        {
+            "a": {
+                "a": "715C0C00A06CBC0521DD11D60DA4CB08",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "an06s0vniu7s5f8frg42v91nk4"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Gíria de Ladrão",
+                "e": "Durante seu treinamento você aprendeu as gírias de ladrão, um misto de dialeto, jargão e códigos secretos que permitem você passar mensagens secretas durante uma conversa aparentemente normal. Somente outra criatura que conheça essas gírias de ladrão entende as mensagens. Leva-se quatro vezes mais tempo para transmitir essa mensagem do que falar a mesma ideia claramente.\nAlém disso, você entende um conjunto de sinais secretos e símbolos usados para transmitir mensagens curtas e simples, como saber se uma área é perigosa ou se é território de uma guilda de ladrões, se o saque está próximo, se as pessoas na área são alvos fáceis ou até mesmo indicar lugares seguros para ladinos se esconderem.",
+                "f": true,
+                "uuid": "715C0C00A06CBC0521DD11D60DA4CB08"
+            }
+        },
+        {
+            "a": {
+                "a": "54CA2517C746AB153F0138B3D5DBD454",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "if7idv3ea0iid55e83igd5ok21"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Ação Ardilosa",
+                "e": "A partir do 2º nível, seu pensamento rápido e agilidade faz você se mover e agir rapidamente. Você pode usar uma ação bônus durante cada um de seus turnos em combate. Esta ação pode ser usada somente para Disparada, Desengajar ou Esconder.",
+                "f": true,
+                "uuid": "54CA2517C746AB153F0138B3D5DBD454"
+            }
+        },
+        {
+            "a": {
+                "a": "A15F1C0DEEA943C084CB636D00E7DFBF",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "kv9pqha1tjndan8rd7i35e0sur"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Arquétipo de Ladino",
+                "e": "No 3º nível, você escolhe um arquétipo que se esforçará para se equiparar através de exercícios de suas habilidades de ladino: Assassino, Ladrão ou Trapaceiro Arcano, todos detalhados no final da descrição da classe. Sua escolha garante a você características no 3º nível e de novo no 9º, 13º e 17º nível.",
+                "f": true,
+                "uuid": "A15F1C0DEEA943C084CB636D00E7DFBF"
+            }
+        },
+        {
+            "a": {
+                "a": "4A8196CB214177CFA1A3AAD9B52873E1",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "k5g2pjnr4rjoqid6npblh52f2e"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Arquétipos de Ladino",
+                "e": "Ladinos possuem muitas características em comum, incluindo a ênfase no aperfeiçoamento de suas perícias, na precisão e aproximação mortal em combate, e nos seus reflexos cada vez mais rápidos. Mas, diferentes ladinos orientam seus talentos em direções variadas, personificadas pelos vários arquétipos de ladino. Seu arquétipo escolhido reflete o seu foco \u2013 não necessariamente a indicação de sua profissão, mas a descrição de suas técnicas preferidas.",
+                "f": true,
+                "uuid": "4A8196CB214177CFA1A3AAD9B52873E1"
+            }
+        },
+        {
+            "a": {
+                "a": "35b6kv72d0mn4r4umm2fbpqifo",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "fvterugd8cj2fsj8p9bv0hv7db"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": true,
+                "d": "TRAPACEIRO ARCANO",
+                "e": "Alguns ladinos aprimoram suas finas perícias de furtividade e agilidade com magia, aprendendo truques de encantamento e ilusão. Esses ladinos incluem não somente batedores de carteira e assaltantes, mas também trapaceiros, enganadores e um número significativo de \r\naventureiros.",
+                "f": true,
+                "uuid": "35b6kv72d0mn4r4umm2fbpqifo"
+            }
+        },
+        {
+            "a": {
+                "a": "2d25amrtqdopvb6jbgd94m6t1v",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "oip31f56duqrvrtcv4kc6sbgm8"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": true,
+                "d": "Conjuração",
+                "e": "Quando você alcançar o 3° nível, você adquire a \r\nhabilidade de conjurar magias. Veja o capítulo 10 para as \r\nregras gerais de conjuração e o capítulo 11 para a lista de \r\nmagias de mago.\r\nTruques. Você aprende três truques: mãos mágicas e \r\noutros dois truques, à sua escolha, da lista de magias de \r\nmago. Você aprende um truque de mago adicional, à sua \r\nescolha, no 10° nível.\r\nEspaços de Magia. A tabela Conjuração de \r\nTrapaceiro Arcano mostra quantos espaços de magia de \r\n1° nível e superiores você possui disponíveis para \r\nconjuração. Para conjurar uma dessas magias, você deve \r\ngastar uma espaço de magia do nível da magia ou \r\nsuperior. Você recobra todos os espaços de magia gastos \r\nquando você completa um descanso longo.\r\nPor exemplo, se você quiser conjurar a magia de 1° \r\nnível enfeitiçar pessoa e você tiver um espaço de magia de \r\n1° nível e um de 2° nível disponíveis, você poderá conjurar \r\nenfeitiçar pessoa usando qualquer dos dois espaços.\r\nMagias Conhecidas de 1° Nível e Superiores. Você \r\nconhece três magias de 1° nível, à sua escolha, as quais \r\nduas delas você deve escolher das magias de \r\nencantamento e ilusão da lista de magias de mago.\r\nA coluna Magias Conhecidas na tabela Conjuração do \r\nTrapaceiro Arcano mostra quando você aprende mais \r\nmagias de mago, de 1° nível ou superior. Cada uma \r\ndessas magias deve ser uma magia de encantamento ou \r\nilusão, à sua escolha, de um nível a que você tenha \r\nacesso, como mostrado na tabela. Por exemplo, quando \r\nvocê alcança o 7° nível da classe, você pode aprender uma \r\nnova magia de 1° ou 2° nível.\r\nAs magias que você aprende no 8°, 14° e 20° nível \r\npodem vir de qualquer escola de magia.\r\nAlém disso, quando você adquire um nível nessa \r\nclasse, você pode escolher uma magia de mago que você \r\nconheça e substituí-la por outra magia da lista de magias \r\nde mago, que também deve ser de um nível ao qual você \r\ntenha espaços de magia e deve ser uma magia de \r\nencantamento ou ilusão, exceto as magias substituídas no \r\n8°, 14° e 20º nível.\nHABILIDADE DE CONJURAÇÃO. Sua habilidade de conjuração é Inteligência para suas magias de mago, portanto, você usa sua Inteligência sempre que alguma magia se referir à sua habilidade de conjurar magias. \r\nAlém disso, você usa o seu modificador de Inteligência para definir a CD dos testes de resistência para as magias de mago que você conjura e quando você realiza uma \r\njogada de ataque com uma magia.\r\nCD para suas magias = 8 + bônus de proficiência + seu modificador de Inteligência\r\nModificador de ataque de magia = seu bônus de proficiência + seu modificador de Inteligência",
+                "f": true,
+                "uuid": "2d25amrtqdopvb6jbgd94m6t1v"
+            }
+        },
+        {
+            "a": {
+                "a": "staegcjm2s9k58a27vh7q6c9ak",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "l3m8hurf4gmsobhbtsc4r62scf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": true,
+                "d": "Mãos mágicas malabaristas",
+                "e": "A partir do 3° nível, quando você conjurar mãos mágicas, \r\nvocê pode fazer a mão espectral ficar invisível e poderá \r\nrealizar as seguintes tarefas adicionais:\r\n Você pode guardar um objeto que a mão estiver \r\nsegurando em um recipiente vestido ou carregado por \r\noutra criatura.\r\n Você pode recuperar um objeto guardado em um \r\nrecipiente vestido ou carregado por outra criatura.\r\n Você pode usar ferramentas de ladrão para abrir \r\nfechaduras ou desarmar armadilhas à distância.\r\nVocê pode realizar qualquer dessas tarefas sem ser \r\nnotado por uma criatura se for bem sucedido num teste de \r\nDestreza (Prestidigitação) resistido por um teste de \r\nSabedoria (Percepção) da criatura.\r\nAlém disso, você pode usar a ação bônus concedida por \r\nsua Ação Ardilosa para controlar a mão.",
+                "f": true,
+                "uuid": "staegcjm2s9k58a27vh7q6c9ak"
+            }
+        },
+        {
+            "a": {
+                "a": "9E13A16408CE81E1C5272AEA34E6F948",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "2au2car8c0236fk0aakdi01hp3"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Incremento no Valor de Habilidade",
+                "e": "Quando você atinge o 4° nível e novamente no 8°, 10°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
+                "f": true,
+                "uuid": "9E13A16408CE81E1C5272AEA34E6F948"
+            }
+        },
+        {
+            "a": {
+                "a": "D1BACAC290EDF5C3B7CB263D81281482",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "e3m1p2fnj8uo5668vcutrga74d"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Esquiva Sobrenatural",
+                "e": "A partir do 5º nível, quando um inimigo que você possa ver o acerta com um ataque, você pode usar sua reação para reduzir pela metade o dano sofrido.",
+                "f": true,
+                "uuid": "D1BACAC290EDF5C3B7CB263D81281482"
+            }
+        },
+        {
+            "a": {
+                "a": "F409187A5E60A4F06907A37F9C832990",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "m24qvaheh951r70rqa9d5i9b9s"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Evasão",
+                "e": "A partir do 7º nível, você pode esquivar-se agilmente de certos efeitos em área, como o sopro flamejante de um dragão vermelho ou uma magia tempestade de gelo.\nQuando você for alvo de um efeito que exige um teste de resistência de Destreza para sofrer metade do dano, você não sofre dano algum se passar, e somente metade do dano se falhar.",
+                "f": true,
+                "uuid": "F409187A5E60A4F06907A37F9C832990"
+            }
+        },
+        {
+            "a": {
+                "a": "k0tbjr76sbhjc689rl04re6f0u",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "ivn2nuslmrjo8ajvtv2ber6kkd"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": true,
+                "d": "Emboscada mágica",
+                "e": "A partir do 9° nível, se você estiver escondido de uma criatura quando conjurar uma magia nela, a criatura terá desvantagem em qualquer teste de resistência que ela fizer contra a magia nesse turno.",
+                "f": true,
+                "uuid": "k0tbjr76sbhjc689rl04re6f0u"
+            }
+        }
+    ],
+    "n": [
+        {
+            "a": {
+                "a": "C41FC38C0B89AD4A36A6295F2B1B288E",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "b7pg6ssr2th0gd0hdv72ob1i4d"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Aumento no Valor de Habilidade",
+                "e": "Seu valor de Carisma aumenta em 2 e outros dois valores de habilidade, à sua escolha, aumentam em 1.",
+                "f": true,
+                "uuid": "C41FC38C0B89AD4A36A6295F2B1B288E"
+            }
+        },
+        {
+            "a": {
+                "a": "C6323B2E9274DE98FD5354FED500FAD7",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "3cljkm6f6chmjq5rra1u43b5ba"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Idade",
+                "e": "Meio-elfos atingem a maturidade ao mesmo tempo que os humanos atingem a idade adulta, por volta dos 20 anos. Eles vivem muito mais que os humanos, no entanto, raramente ultrapassam os 180 anos.",
+                "f": true,
+                "uuid": "C6323B2E9274DE98FD5354FED500FAD7"
+            }
+        },
+        {
+            "a": {
+                "a": "06967FBA8518F4C459F9B7D13A265D0A",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "n6jic0mfl80ueqccmc5ops83vh"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Tendência",
+                "e": "Meio-elfos compartilham a veia caótica da sua herança élfica. Eles valorizam tanto a sua liberdade quanto sua expressão criativa, não demonstrando qualquer apresso por líderes ou seguidores. Eles se irritam com regras, ressentindo com exigências de outros e, as vezes, se provam incertos, ou pelo menos, imprevisíveis.",
+                "f": true,
+                "uuid": "06967FBA8518F4C459F9B7D13A265D0A"
+            }
+        },
+        {
+            "a": {
+                "a": "5471AD089D1678A4065BD1B89C33EA3C",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "pbs51kvb66ovngr7v6jek6bv1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Tamanho",
+                "e": "Meio-elfos tem aproximadamente a mesma altura dos humanos, variando entre 1,50 metro e 1,80 metro. Seu tamanho é Médio.",
+                "f": true,
+                "uuid": "5471AD089D1678A4065BD1B89C33EA3C"
+            }
+        },
+        {
+            "a": {
+                "a": "0A93B7E063F9F0BECC2788BF36FF12C7",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "t9vpbbvnc7i21v2cqn2oq3qac0"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Deslocamento",
+                "e": "Seu deslocamento base de caminhada é 9 metros.",
+                "f": true,
+                "uuid": "0A93B7E063F9F0BECC2788BF36FF12C7"
+            }
+        },
+        {
+            "a": {
+                "a": "5B0FA3C28DA1F140A6425C3C42D2412A",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "bvn9ld9mdm7hh4nnhmp1ib94fm"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Visão no Escuro",
+                "e": "Graças ao seu sangue élfico, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+                "f": true,
+                "uuid": "5B0FA3C28DA1F140A6425C3C42D2412A"
+            }
+        },
+        {
+            "a": {
+                "a": "4B1752AA5BBCFA63EBB557276CF7A6EC",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "dd9252bcgesdf8njqm7i89v5d7"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Ancestral Feérico",
+                "e": "Você possui vantagem em testes de resistência contra encantamento e magia não pode colocar você pra dormir.",
+                "f": true,
+                "uuid": "4B1752AA5BBCFA63EBB557276CF7A6EC"
+            }
+        },
+        {
+            "a": {
+                "a": "AEB7AAB08705A97CF2603EE7B2723688",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "t6nvisbtbl6qhm2u7n91ctf1h9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Versatilidade em Perícia",
+                "e": "Você ganha proficiência em duas perícias, à sua escolha.",
+                "f": true,
+                "uuid": "AEB7AAB08705A97CF2603EE7B2723688"
+            }
+        },
+        {
+            "a": {
+                "a": "C8127471918CBEDEB2BB00DA2396C57E",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "lat8g20qvvem0q5p9950qcfq58"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Idiomas",
+                "e": "Você sabe falar, ler e escrever Comum, Élfico e um idioma adicional, à sua escolha.",
+                "f": true,
+                "uuid": "C8127471918CBEDEB2BB00DA2396C57E"
+            }
+        }
+    ],
+    "o": [
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "7n6tk99i7q9em157c50j811sj2",
+                "c": "",
+                "uuid": "h6kvo9vfbamak6o8abtmja8u0d"
+            },
+            "b": {
+                "a": "pt",
+                "b": true,
+                "c": "Sempre a espera de perigo, você ganha os seguintes benefícios:\r\nVocê recebe +5 de bônus em iniciativa.\r\nVocê não pode ser surpreso enquanto estiver consciente.\r\nOutras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você.",
+                "d": "ALERTA",
+                "e": true,
+                "uuid": "7n6tk99i7q9em157c50j811sj2"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "ssircap2nd6qqtqo4uel7mlspj",
+                "c": "",
+                "uuid": "dq2fk5p3hfmnsp6jt65csabmt"
+            },
+            "b": {
+                "a": "pt",
+                "b": true,
+                "c": "Você é excepcionalmente rápido e ágil. Você ganha os \nseguintes benefícios:  \nSeu deslocamento aumenta em 3 metros. \nQuando você usa a ação de Disparada, mover-se \natravés de terreno difícil não lhe custa qualquer \nmovimento adicional neste turno. \nQuando você realiza um ataque corpo-a-corpo contra uma criatura, você não provoca ataques de oportunidade para essa criatura pelo resto do turno, independentemente de ter atingido ou não.",
+                "d": "mobilidade",
+                "e": true,
+                "uuid": "ssircap2nd6qqtqo4uel7mlspj"
+            }
+        }
+    ],
+    "p": [
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "7E47E0099B0DC5B64DF0D614D89997B3",
+                "c": "",
+                "uuid": "8fio98pthq20qbs6vbpo4tjmot"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Élfico",
+                "d": "O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+                "e": "Elfos",
+                "f": "Élfico",
+                "g": true,
+                "uuid": "7E47E0099B0DC5B64DF0D614D89997B3"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "53EF31A0D71C9A1D4849A23A8001A87C",
+                "c": "",
+                "uuid": "pdlirscn0ggvil4tohdj25p9jp"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Comum",
+                "d": "",
+                "e": "Humanos",
+                "f": "Comum",
+                "g": true,
+                "uuid": "53EF31A0D71C9A1D4849A23A8001A87C"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D7E0C283829246E5E15CC2EF71D15038",
+                "c": "",
+                "uuid": "k1n437o34bq5hmvr3q8af9lk0a"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Dracônico",
+                "d": "O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+                "e": "Dragões, Draconatos.",
+                "f": "Dracônico",
+                "g": true,
+                "uuid": "D7E0C283829246E5E15CC2EF71D15038"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "2amqsb6nskjf2bd95ajdscfcg2",
+                "c": "",
+                "uuid": "6fc392vmichc1aiqqaafei5epa"
+            },
+            "b": {
+                "a": "pt",
+                "b": true,
+                "c": "Girias de ladrão ",
+                "d": "Entendimento da linguagem dos ladrões, permite entender palavras e gírias com um significado especifico para ladrões.",
+                "e": "ladrões ",
+                "f": "",
+                "g": true,
+                "uuid": "2amqsb6nskjf2bd95ajdscfcg2"
+            }
+        }
+    ],
+    "q": [{"a": {
+        "a": "Contato criminal",
+        "b": "Você possui contatos de confiança que agem como seus informantes em uma rede criminosa. Você sabe como se comunicar com eles mesmo em grandes distâncias. Você conhece em especial os mensageiros locais, mestres de caravana corruptos, e marinheiros escusos que podem transmitir seus recados.",
+        "c": 1,
+        "d": "pqr655ngamrecoaeucv15s5j7k",
+        "uuid": "gh51phlae73ki9vi7j8oi5l6hq"
+    }}],
+    "r": [
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 1,
+                "c": "4D3837242F68724C720FB416B51DBE29",
+                "e": false,
+                "uuid": "vifsau6d88gad46v4tb2qvnecj"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Sono",
+                "c": "Essa magia põem as criaturas num entorpecimento mágico. Jogue 5d8; o total é a quantidade de pontos de vida de criaturas afetados pela magia. As criaturas numa área de 6 metros de raio, centrada no ponto escolhido, dentro do alcance, são afetadas em ordem ascendente dos pontos de vida atuais delas (ignorando criaturas inconscientes).\nComeçando com as criaturas com menos pontos de vida atuais, cada criatura afetada por essa magia cai inconsciente até a magia acabar, sofrer dano ou alguém usar sua ação para sacudi-la ou esbofeteá-la até acordar. Subtraia os pontos de vida de cada criatura do total antes de seguir para a próxima criatura com menos pontos de vida atuais. Os pontos de vida atuais da criatura devem ser iguais ou menores que o valor restante para que a criatura possa ser afetada.\nMortos-vivos e criaturas imunes a serem enfeitiçadas não são afetadas por essa magia.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2º nível ou superior, jogue 2d8 adicionais para cada nível do espaço acima do 1°.",
+                "d": "encantamento",
+                "e": "1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (um punhado de areia fina, pétalas de rosas ou um grilo)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "4D3837242F68724C720FB416B51DBE29"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 1,
+                "c": "2791D2D233B62FA4BD8B8862F34F9DAF",
+                "e": false,
+                "uuid": "dfgkho5ph0guho0kveq8imp9rn"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Leque Cromático",
+                "c": "Um feixe ofuscante de luzes coloridas ordenadas, surge da sua mão. Role 6d10; o total é a quantidade de pontos de vida de criaturas que essa magia pode afetar. As criaturas num cone de 4,5 metros, originado de você, são afetadas em ordem ascendente dos seus pontos de vida (ignorando criaturas inconsciente e que não podem ver).\nComeçando com as criaturas que tiverem menos pontos de vida, cada criatura afetada por essa magia ficará cega até o fim da magia. Subtraia os pontos de vida de cada criatura do total antes de considerar os pontos de vida da próxima criatura. Os pontos de vida de uma criatura devem ser iguais ou menores que o total restante para que essa criatura seja afetada\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 2° nível ou superior, jogue 2d10 adicionais para cada nível do espaço acima do 1°.",
+                "d": "ilusão",
+                "e": "1 rodada",
+                "f": "1 ação",
+                "g": "Pessoal (cone de 4,5 m)",
+                "h": "Pessoal (cone de 15 ft)",
+                "i": "V, S, M (um punhado de pó ou areia nas cores vermelha, amarela e azul)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "2791D2D233B62FA4BD8B8862F34F9DAF"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 2,
+                "c": "4C4103102885F43BB9B78D56E7F9FEA6",
+                "e": false,
+                "uuid": "d9dr0pib5tsk1cktn4hh0q3nq1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Reflexos",
+                "c": "Três duplicatas ilusórias de você aparecem no seu espaço. Até a magia acabar, as duplicatas se movem com você e copiam as suas ações, trocando de posição, tornando impossível rastrear qual imagem é real. Você pode usar sua ação para dissipar as duplicatas ilusórias.\nCada vez que uma criatura mirar você com um ataque enquanto a magia durar, role um d20 para determinar se o ataque, em vez de você, mira uma das suas duplicatas.\nSe você tiver três duplicatas, você deve rolar um 6 ou maior para mudar o alvo do ataque para uma duplicata. Com duas duplicatas, você deve rolar um 8 ou maior. Comuma duplicata, você deve rolar um 11 ou maior.\nA CA de uma duplicata é igual a 10 + seu modificador de Destreza. Se um ataque atingir uma duplicata, ela é destruída. Uma duplicata só pode ser destruída por um ataque que a atinja. Ela ignora todos os outros danos e efeitos. A magia acaba quando todas as três duplicatas forem destruídas.\nUma criatura não pode ser afetada por essa magia se não puder enxergar, se ela contar com outros sentidos além da visão, como percepção às cegas, ou se ela puder perceber ilusões como falsas, como com visão verdadeira.",
+                "d": "ilusão",
+                "e": "1 minuto",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "4C4103102885F43BB9B78D56E7F9FEA6"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 0,
+                "c": "gpqv0nbajduj1jsvivvevtd3de",
+                "e": false,
+                "uuid": "70dhd455ockftri8shhg7re66b"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Lâmina Crescente",
+                "c": "Você brande a arma usada no lançamento da magia e faz um ataque corpo a corpo com ela contra uma criatura a até 1,5 metro de você. Em um golpe,\no alvo sofre os efeitos normais do ataque com arma e então fica coberto por uma energia crescente até o início do seu próximo turno. Se o alvo se mover voluntariamente 1,5 metro ou mais antes disso, o alvo sofre 1d8 de dano trovejante e a magia termina.\n\nEm níveis superiores. No 5º nível,\no ataque corpo a corpo causa 1d8 de dano trovejante extra ao alvo ao acertar, e o dano que o alvo sofre ao se mover aumenta para 2d8. Ambas as jogadas de dano aumentam em 1d8 no 11º nível (2d8 e 3d8) e novamente no 17º nível (3d8 e 4d8).",
+                "d": "evocação",
+                "e": "1 rodada",
+                "f": "1 ação",
+                "g": "1,5",
+                "h": "5",
+                "i": "uma arma",
+                "j": true,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "gpqv0nbajduj1jsvivvevtd3de"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 0,
+                "c": "pgj6uetotaug2ufdfe35i9si21",
+                "e": false,
+                "uuid": "53vdnnatbmnrvv7g4e0vtq9j36"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Lâmina de Chamas",
+                "c": "Você brande a arma usada no lançamento da magia e faz um ataque corpo a corpo com ela contra uma criatura a até 1,5 metro de você. Se acertar, o alvo sofre os efeitos normais do ataque com arma, e você pode fazer com que o fogo verde salte do alvo para uma criatura diferente de sua escolha que você possa ver a até 1,5 metro dele.\nA segunda criatura sofre dano de fogo igual ao seu modificador de habilidade de conjuração.\n\nEm níveis superiores. No 5º nível, o ataque corpo a corpo causa 1d8 de dano de fogo extra ao alvo ao acertar, e o dano de fogo à segunda criatura aumenta para 1d8 + seu modificador de habilidade de conjuração.\nAmbas as jogadas de dano aumentam em 1d8 no 11º nível (2d8 e 2d8) e no 17º nível (3d8 e 3d8).",
+                "d": "evocação",
+                "e": "instantânea",
+                "f": "1 ação",
+                "g": "1,5",
+                "h": "5",
+                "i": "uma arma",
+                "j": true,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "pgj6uetotaug2ufdfe35i9si21"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 0,
+                "c": "0CAF6032D2E212FA0B8592C6E6EF8A84",
+                "e": false,
+                "uuid": "1r7f7f64o3v5hmlbnpbni73dbk"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Mãos Mágicas",
+                "c": "Uma mão espectral flutuante aparece num ponto, à sua escolha, dentro do alcance. A mão permanece pela duração ou até você dissipa-la com uma ação. A mão some se estiver a mais de 9 metros de você ou se você conjurar essa magia novamente.\nVocê pode usar sua ação para controlar a mão. Você pode usar a mão para manipular um objeto, abrir uma porta ou recipiente destrancado, guardar ou pegar um item de um recipiente aberto ou derramar o conteúdo de um frasco. Você pode mover a mão até 9 metros a cada vez que a usa.\nA mão não pode atacar, ativar itens mágicos ou carregar mais de 5 quilos.",
+                "d": "conjuração",
+                "e": "1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "0CAF6032D2E212FA0B8592C6E6EF8A84"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 1,
+                "c": "CAC28CFC119D235DA93800FA652CB0D3",
+                "e": false,
+                "uuid": "appqne5tnciarsor07im8mgmbl"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Convocar Familiar",
+                "c": "Você adquire os serviços de uma familiar, um espírito que toma a forma de um animal, à sua escolha: aranha, caranguejo, cavalo marinho, coruja, corvo, doninha, gato, falcão, lagarto, morcego, peixe (arenque), polvo, rato, rã (sapo) ou serpente venenosa. Aparecendo em um espaço desocupado dentro do alcance, o familiar tem as mesmas estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés de uma besta.\nSeu familiar até independentemente de você, mas ele sempre obedece aos seus comandos. Em combate, ele rola sua a própria iniciativa e age no seu próprio turno. Um familiar não pode atacar, mas ele pode realizar outras ações, como de costume.\nQuando um familiar cai a 0 pontos de vida, ele desaparece, não deixando qualquer corpo físico para trás. Ele reaparece depois de você conjurar essa magia novamente.\nEnquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, com uma ação, você pode ver através dos olhos do familiar e ouvir através dos ouvidos dele, até o início do seu próximo turno, adquirindo os benefícios de qualquer sentido especial que o familiar possua. Durante esse período, você estará cego e surdo em relação aos seus próprios sentidos.\nCom uma ação, você pode, temporariamente, dispensar seu familiar. Ele desaparece dentro de uma bolsa dimensional onde ele aguarda sua convocação. Alternativamente, você pode dispensa-lo para sempre. Com uma ação, enquanto ele estiver temporariamente dispensado, você pode fazê-lo reaparecer em qualquer espaço desocupado a até 9 metros de você.\nVocê não pode ter mais de um familiar por vez. Se você conjurar essa magia enquanto já tiver um familiar, ao invés disso, você faz seu familiar existente adotar uma nova forma. Escolha uma das formas da lista acima. Seu familiar se transforma na criatura escolhida.\nFinalmente, quando você conjura uma magia com alcance de toque, seu familiar pode transmitir a magia, como se ele tivesse conjurado ela. Seu familiar precisa estar a até 30 metros de você e deve usar a reação dele para transmitir a magia quando você a conjurar. Se a magia necessitar de uma jogada de ataque, você usa seu modificador de ataque para essa jogada.",
+                "d": "conjuração",
+                "e": "Instantânea",
+                "f": "1 hora",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S, M (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
+                "j": false,
+                "k": 1,
+                "l": true,
+                "m": true,
+                "uuid": "CAC28CFC119D235DA93800FA652CB0D3"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 2,
+                "c": "9A0C19CD7931B36A9996B80847EE2648",
+                "e": false,
+                "uuid": "5o8u8lgjih662hj0dqhe5baqkn"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Invisibilidade",
+                "c": "Uma criatura que você tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo esteja vestindo ou carregando fica invisível enquanto estiver de posse do alvo. A magia termina para o alvo caso ele ataque ou conjure uma magia.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 3° nível ou superior, você pode afetar um alvo adicional para cada nível do espaço acima do 2°.",
+                "d": "ilusão",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (uma pestana envolta em gomaarábica)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "9A0C19CD7931B36A9996B80847EE2648"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": 1,
+                "c": "90EF467A5F029CA6A9CEF24DCD83154C",
+                "e": false,
+                "uuid": "nfbp1bskn04fp03dsan72k2pro"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Passos Longos",
+                "c": "Você toca uma criatura. O deslocamento do alvo aumenta em 3 metros, até a magia acabar.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 1°.",
+                "d": "transmutacao",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (um pouco de barro)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "90EF467A5F029CA6A9CEF24DCD83154C"
+            }
+        }
+    ],
+    "s": [],
+    "t": [
+        {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "k1g3ceeuarbcgrlvee81krdfgi"
+        },
+        {
+            "a": 1,
+            "b": 4,
+            "c": 3,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "afti93ogi92p10kbteut41se8d"
+        },
+        {
+            "a": 2,
+            "b": 2,
+            "c": 2,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "adiqlnvio8s5gg1u8v751vb33d"
+        },
+        {
+            "a": 3,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "odf7nf3fv56un5uqjbmaqkhoe1"
+        },
+        {
+            "a": 4,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "lr6kc9feud4lu9pq4i0mc9rq7l"
+        },
+        {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "tcjk13nng912pf2d1s741lfstl"
+        },
+        {
+            "a": 6,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "j0nt2br7gpjhggimsupn5ifi8v"
+        },
+        {
+            "a": 7,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "davq38sbujelmqav8pj0supurh"
+        },
+        {
+            "a": 8,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "rn68ln4u7ef6vcrt06vks56215"
+        },
+        {
+            "a": 9,
+            "b": 0,
+            "c": 0,
+            "d": "pqr655ngamrecoaeucv15s5j7k",
+            "uuid": "d7qc3sgnf84n30oeiphf9kml4s"
+        }
+    ]
+}

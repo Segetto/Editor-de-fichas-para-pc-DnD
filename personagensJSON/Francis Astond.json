@@ -1,0 +1,542 @@
+{
+    "a": [{
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "df11tab4vs6l7toirip2bnh1pic_character.png",
+        "E": "df11tab4vs6l7toirip2bnh1palliesOrganizations.png",
+        "uuid": "df11tab4vs6l7toirip2bnh1p",
+        "id": 0,
+        "a": "Francis Astond",
+        "b": 111,
+        "d": 11523,
+        "e": false,
+        "f": 2,
+        "g": 0,
+        "h": 0,
+        "i": 9,
+        "j": 115,
+        "k": 0,
+        "l": 115,
+        "m": 7.5,
+        "n": 0,
+        "o": 0,
+        "p": 0,
+        "0": "",
+        "q": 0,
+        "1": "",
+        "r": 0,
+        "3": "Nobre",
+        "s": 0,
+        "t": 0,
+        "4": "",
+        "u": 0,
+        "5": "",
+        "6": "",
+        "v": 0,
+        "w": 0,
+        "7": "",
+        "x": 0,
+        "8": "",
+        "9": "",
+        "y": 7.5,
+        "z": ""
+    }],
+    "b": [],
+    "c": [{
+        "b": "Humano",
+        "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
+    }],
+    "d": [
+        {
+            "a": {
+                "a": "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+                "c": 1
+            },
+            "b": {
+                "b": "Bardo",
+                "uuid": "4FB3D7A12EA923B5E8EC3CDA14564CD2"
+            }
+        },
+        {
+            "a": {
+                "a": "BE7427B68511031EFF6654CA8EC058E4",
+                "c": 1
+            },
+            "b": {
+                "b": "Bruxo",
+                "uuid": "BE7427B68511031EFF6654CA8EC058E4"
+            }
+        },
+        {
+            "a": {
+                "a": "8C61F8EDB313E7F7CFFB7A1A50991165",
+                "c": 1
+            },
+            "b": {
+                "b": "Clérigo",
+                "uuid": "8C61F8EDB313E7F7CFFB7A1A50991165"
+            }
+        },
+        {
+            "a": {
+                "a": "2718AD086213B7F0CC96B21CD87DC6B5",
+                "c": 1
+            },
+            "b": {
+                "b": "Druida",
+                "uuid": "2718AD086213B7F0CC96B21CD87DC6B5"
+            }
+        },
+        {
+            "a": {
+                "a": "5C7EC183E8C43F9D1A6C44645CAB39AC",
+                "c": 1
+            },
+            "b": {
+                "b": "Feiticeiro",
+                "uuid": "5C7EC183E8C43F9D1A6C44645CAB39AC"
+            }
+        }
+    ],
+    "e": [
+        {
+            "a": "STRENGTH",
+            "b": 20,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "j": 0,
+            "uuid": "g3d1j6inkl9k4h9r5isdl6ua5p"
+        },
+        {
+            "a": "DEXTERITY",
+            "b": 13,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "9hmadfhc3d7u0u0856jjdn1in4"
+        },
+        {
+            "a": "CONSTITUTION",
+            "b": 19,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "3iun3f0574tm2q61infho3nqtf"
+        },
+        {
+            "a": "INTELLIGENCE",
+            "b": 17,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "h34hn24absiikjojogdk4getv5"
+        },
+        {
+            "a": "WISDOM",
+            "b": 15,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "f6ttnf6mdhth1ikgt6rkfj27s8"
+        },
+        {
+            "a": "CHARISMA",
+            "b": 11,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gt9di81ijmt5qcvkcn14j9vi92"
+        }
+    ],
+    "f": [
+        {"a": {
+            "a": "ATHLETICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "g3d1j6inkl9k4h9r5isdl6ua5p",
+            "uuid": "hemgjbff9log6pll4adsqs65sq"
+        }},
+        {"a": {
+            "a": "ACROBATICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "tm3h6k30jlplntmmbd0oskru1i"
+        }},
+        {"a": {
+            "a": "STEALTH",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "ardgk96val32onqkivgm177cad"
+        }},
+        {"a": {
+            "a": "SLEIGHT_OF_HAND",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "d1veu97bagjsra8fg0c1v1dnsh"
+        }},
+        {"a": {
+            "a": "ARCANA",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "ro1to56fuqu4u7omqcvc7qi601"
+        }},
+        {"a": {
+            "a": "HISTORY",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "kq0bchdr4749qo16lke0cpjuo5"
+        }},
+        {"a": {
+            "a": "INVESTIGATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "unf5gcmj55ici0jm7tghlfs6r6"
+        }},
+        {"a": {
+            "a": "NATURE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "uda87gj86loea8ae68p2cspitp"
+        }},
+        {"a": {
+            "a": "RELIGION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "i9elppa43oj50sfjlhhfn2an9s"
+        }},
+        {"a": {
+            "a": "INSIGHT",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "3s01e6j5buc1a761aimgmf9ug1"
+        }},
+        {"a": {
+            "a": "ANIMAL_HANDLING",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "419755nqo7u10g3m0bucauh0v6"
+        }},
+        {"a": {
+            "a": "MEDICINE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "8acon307v93oifio2lnvrlf5t6"
+        }},
+        {"a": {
+            "a": "PERCEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "ddajb37tnhhlbumghj1jtlv9g4"
+        }},
+        {"a": {
+            "a": "SURVIVAL",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "jfdlptecrd7q5cpsp2utun7hne"
+        }},
+        {"a": {
+            "a": "PERFORMANCE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "di0vovsfd9sr7e4japc9q0oork"
+        }},
+        {"a": {
+            "a": "DECEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "m8m16lb3pqtto2uj3em2nmqbgj"
+        }},
+        {"a": {
+            "a": "INTIMIDATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "r9h601nabsqvu7rc17ekk1k7ck"
+        }},
+        {"a": {
+            "a": "PERSUASION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "thnqdvtlnqcm8pg2gf3jk4d87g"
+        }}
+    ],
+    "g": [
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "oqupe3f30k8l7pqndb1quec8uq"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "t6m32k8msfpaeauu1f8jndph4a"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "qse7rhshnre6buhluuods5o932"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "3571cbd5lkbj01r9rmvuoc3374"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "kjejfeha85lb4pmt7k2trkbau8"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "4pholmg9obacv3eoltunvopdrj"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "9lkjvl3tg5n1irhtk50fh1fkuf"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "1rpt0ik6jp34r0j85n64t2a8dm"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "mpnm7trvmb8q1lbejro6nsv316"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "72ehibumbkao94ho2f8dabo9k2"
+        },
+        {
+            "a": 12,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "c227givjcrojcte2juqd4508lp"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "24qanq8qv6me95phljpmlth3cj"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "c6jeg2k7si1kc20qkqdpk3htqo"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "pqcnao9bkto97cv9u3k2hribn3"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "knug4hc0u44tpsljab4ih0luba"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "u3ie5br0lt5n12mevp0ju6v9l0"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "eo7l6qkl2pbms9hv10tm3l92k5"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "v8ui2ospfnscio2jqeti7dcdud"
+        }
+    ],
+    "h": [
+        {
+            "a": 0,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gv06v0e3knd1hnp1j7dof6iul4"
+        },
+        {
+            "a": 1,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "7m1j7vdsf1n6d3u54t46mrr0pp"
+        },
+        {
+            "a": 2,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "hg6bd5b98jb834v0332ghvnloo"
+        },
+        {
+            "a": 3,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "ffcjn4t0q0cki8o2rr2ogq9a57"
+        },
+        {
+            "a": 4,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "tbciptp1vpt6e2491fmco86fd8"
+        },
+        {
+            "a": 5,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "hk3pfi122ijp021vehg7o8aumd"
+        }
+    ],
+    "i": [],
+    "j": [],
+    "k": [],
+    "l": [],
+    "m": [],
+    "n": [],
+    "o": [],
+    "p": [],
+    "q": [],
+    "r": [],
+    "s": [],
+    "t": [
+        {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "fhr8qd8okjk4gnjepolcn33fml"
+        },
+        {
+            "a": 1,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "24shgpad5t2qn163ms4bhtau33"
+        },
+        {
+            "a": 2,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "b5fr0r9fq48i11mfvo6rcfngfj"
+        },
+        {
+            "a": 3,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "r04cqaqgdb0jc7lm7rf06e13of"
+        },
+        {
+            "a": 4,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "lh5qcfldj29mtm5p5lsfm6n0hf"
+        },
+        {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gno9celnpd7katgf3m8q3hv81c"
+        },
+        {
+            "a": 6,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "n5rcgf04gr5hb19gqv8uhukgub"
+        },
+        {
+            "a": 7,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "bml8dgabu70gsr8gbs75vajulf"
+        },
+        {
+            "a": 8,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "k6lhumcic5vjovddnga6kva6ot"
+        },
+        {
+            "a": 9,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "b9eqvk5l6ogoreolqgm72fbf66"
+        }
+    ]
+}
