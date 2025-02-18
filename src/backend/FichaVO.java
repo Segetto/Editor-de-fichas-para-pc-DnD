@@ -25,6 +25,7 @@ import visual.Opcoes;
  */
 public class FichaVO {
 
+    jsonParser leitor = new jsonParser();
     private static Timer timer;
 
     public String FichaLerString(JSONObject ficha, String campo, int i) {
@@ -98,16 +99,18 @@ public class FichaVO {
             }
         });
     }
-    public void JanelaP(JPanel janela){
+
+    public void JanelaP(JPanel janela) {
         janela.requestFocusInWindow();
-        
-         janela.addMouseListener(new java.awt.event.MouseAdapter() {
+
+        janela.addMouseListener(new java.awt.event.MouseAdapter() {
 
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 janela.requestFocusInWindow();
             }
         });
     }
+
     public void XpP(String personagemCaminho, JSONObject ficha, JTextField XpLabel) {
         XpLabel.setText("" + FichaLerInt(ficha, "xp", 0));
         IntCampo(XpLabel);
@@ -174,6 +177,49 @@ public class FichaVO {
                 SalvarFicha(ficha, personagemCaminho);
             }
         });
+    }
+
+    public void PericiasP(JSONObject ficha, JPanel PericiasContainer) {
+        JSONArray Pericias = new JSONArray(leitor.LerArray("ASSETS/Pericias.json"));
+        System.out.println(Pericias);
+        PericiasContainer.setLayout(new GridLayout(12, 1));
+        PericiasContainer.setBounds(500, 50, 10, 10);
+
+        String[] Status = {"Força", "Destreza", "Inteligência", "Sabedoria", "Carisma"};
+        for (int i = 0; i < Pericias.length(); i++) {
+            int PericiasLength = Pericias.getJSONObject(i).getJSONArray("a").length();
+            JPanel PericiaRow = new JPanel();
+            PericiaRow.setLayout(new GridLayout(PericiasLength, 1));
+
+            JLabel PericiaStatus = new JLabel(Status[i]);
+            PericiaStatus.setBounds(10, 10, 0, 0);
+            PericiaStatus.setHorizontalAlignment(SwingConstants.CENTER);
+            PericiasContainer.add(PericiaStatus);
+            PericiaRow.setBounds(10, 30 * PericiasLength, 50, 10 * PericiasLength);
+            PericiaRow.setBackground(new java.awt.Color(23, 23, 23));
+            for (int j = 0; j < PericiasLength; j++) {
+                JPanel pericia = new JPanel();
+                pericia.setLayout(new GridLayout(1, 3));
+                JCheckBox checkbox = new JCheckBox();
+                JLabel mod = new JLabel();
+                mod.setText(mod(0, FichaLerInt(ficha, "Status", i)));
+                JLabel PericiaLabel = new JLabel(Pericias.getJSONObject(i).getJSONArray("a").getJSONObject(j).getString("a"));
+                pericia.add(checkbox);
+                pericia.add(mod);
+                checkbox.setBackground(new java.awt.Color(23, 23, 23));
+                checkbox.setBounds(30, 30, 0, 0);
+                PericiaLabel.setBounds(30, 30, 0, 0);
+                PericiaLabel.setOpaque(false);
+                pericia.setOpaque(false);
+                pericia.setBounds(30, 100, 0, 0);
+                mod.setBounds(30, 30, 0, 0);
+
+                pericia.add(PericiaLabel);
+                PericiaRow.add(pericia);
+
+            }
+            PericiasContainer.add(PericiaRow);
+        }
     }
 
     public void RacaP(String personagemCaminho, JSONObject ficha, JLabel RacaSelect) {
@@ -248,7 +294,7 @@ public class FichaVO {
             }
         }
         int width = (int) Math.floor(ClassesText.length() * 4);
-        if(width > 300){
+        if (width > 300) {
             width = 300;
         }
         System.out.println(width);
@@ -400,7 +446,7 @@ public class FichaVO {
     public String mod(int Status, int bonus) {
         String modifier = "0";
         int num = (int) Math.floor((Status - 10) / 2) + bonus;
-        
+
         if (num > 0) {
             modifier = "+" + num;
         } else {
@@ -421,12 +467,14 @@ public class FichaVO {
 
         return Bonus;
     }
-    public void ProfP(JSONObject ficha, JLabel BonusProficienciaLabel){
-        
+
+    public void ProfP(JSONObject ficha, JLabel BonusProficienciaLabel) {
+
         BonusProficienciaLabel.setText("+" + Proficiencia(ficha));
     }
-    public void PericiasP(String personagemCaminho, JSONObject ficha, JCheckBox ModCheck, JLabel ModRes, int Status) {
-        
+
+    public void ResistenciaP(String personagemCaminho, JSONObject ficha, JCheckBox ModCheck, JLabel ModRes, int Status) {
+
         if (ficha.getJSONArray("e").getJSONObject(Status).getBoolean("c")) {
             ModCheck.setSelected(true);
             ModRes.setText("" + mod(FichaLerInt(ficha, "Status", Status), Proficiencia(ficha)));
