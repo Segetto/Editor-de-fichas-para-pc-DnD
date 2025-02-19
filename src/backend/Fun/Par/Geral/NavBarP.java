@@ -23,9 +23,9 @@ public class NavBarP {
                 } else if (source == MochilaNavBar) {
                     targetPosition = 672; // Posição para os outros elementos
                 } else if (source == FeiticosNavBar) {
-                    targetPosition = 1310;
+                    targetPosition = 672*2;
                 } else if (source == CaracteristicasNavBar) {
-                    targetPosition = 1947;
+                    targetPosition = 672*3;
                 } else {
                     return; // Evita erro se a fonte não for um dos JLabels esperados
                 }

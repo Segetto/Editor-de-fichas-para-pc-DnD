@@ -4,10 +4,6 @@
  */
 package visual;
 
-import javax.swing.*;
-import javax.swing.event.*;
-import java.awt.*;
-import java.awt.event.*;
 import backend.jsonParser;
 import backend.Fun.trocarPainel;
 
@@ -15,7 +11,7 @@ import static backend.Fun.Par.Geral.AlinhamentoP.AlinhamentoP;
 import static backend.Fun.Par.Geral.AntecedenteP.AntecedenteP;
 import static backend.Fun.Par.Geral.ClassesP.ClassesP;
 import static backend.Fun.Par.Geral.JanelaP.JanelaP;
-import backend.Fun.Par.Geral.NavBarP;
+import static backend.Fun.Par.Geral.NavBarP.NavBarP;
 import static backend.Fun.Par.Geral.CAP.CAP;
 import static backend.Fun.Par.Geral.IniciativaP.IniciativaP;
 import static backend.Fun.Par.Geral.NomeP.NomeP;
@@ -27,10 +23,8 @@ import static backend.Fun.Par.Geral.SalvarP.SalvarP;
 import static backend.Fun.Par.Geral.StatusP.StatusP;
 import static backend.Fun.Par.Geral.VidaP.VidaP;
 import static backend.Fun.Par.Geral.XpP.XpP;
-import static backend.Fun.Par.Geral.NavBarP.NavBarP;
+import static backend.Fun.Par.Geral.ScrollP.ScrollP;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import org.json.JSONObject;
 
 /**
@@ -39,21 +33,20 @@ import org.json.JSONObject;
  */
 public class personagemFicha extends javax.swing.JFrame {
 
-
     /**
      * Creates new form personagemFicha
+     *
      * @param personagem
      */
-    
     public personagemFicha(String personagem) {
         initComponents();
-        
-        jScrollPane.getVerticalScrollBar().setUnitIncrement(10);
+
         String personagemCaminho = "personagensJSON/" + personagem + ".json";
-        JSONObject ficha = new JSONObject(jsonParser.LerArquivo(personagemCaminho));        
-        
+        JSONObject ficha = new JSONObject(jsonParser.LerArquivo(personagemCaminho));
+
         JanelaP(jPanel2);
-        NavBarP.NavBarP(AppScrollPane, GeralNavBar, MochilaNavBar, FeiticosNavBar, CaracteristicasNavBar);
+        ScrollP(jScrollPaneGeral, jScrollPaneMochila, jScrollPaneFeiticos, jScrollPaneCarClasse);
+        NavBarP(AppScrollPane, GeralNavBar, MochilaNavBar, FeiticosNavBar, CaracteristicasNavBar);
         StatusP(personagemCaminho, ForLabel, ForMod, ficha, 0);
         StatusP(personagemCaminho, DesLabel, DesMod, ficha, 1);
         StatusP(personagemCaminho, ConLabel, ConMod, ficha, 2);
@@ -78,8 +71,7 @@ public class personagemFicha extends javax.swing.JFrame {
         PericiasP(personagemCaminho, ficha, PericiasContainer);
         CAP(ficha, BonusCALabel);
         IniciativaP(ficha, BonusIniciativaLabel);
-        
-        
+
     }
 
     /**
@@ -99,7 +91,7 @@ public class personagemFicha extends javax.swing.JFrame {
         CaracteristicasNavBar = new javax.swing.JLabel();
         AppScrollPane = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        jScrollPane = new javax.swing.JScrollPane();
+        jScrollPaneGeral = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
@@ -181,14 +173,19 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel14 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
         BonusCALabel = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
-        jLabel20 = new javax.swing.JLabel();
-        jPanel12 = new javax.swing.JPanel();
-        jLabel21 = new javax.swing.JLabel();
-        jPanel13 = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
+        jScrollPaneMochila = new javax.swing.JScrollPane();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel24 = new javax.swing.JLabel();
+        jScrollPaneFeiticos = new javax.swing.JScrollPane();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jScrollPaneCarClasse = new javax.swing.JScrollPane();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel26 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel8.setBackground(new java.awt.Color(23, 23, 23));
 
         jPanel7.setBackground(new java.awt.Color(53, 53, 53));
 
@@ -217,7 +214,7 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addGap(0, 122, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(GeralNavBar)
                 .addGap(34, 34, 34)
                 .addComponent(MochilaNavBar)
@@ -225,7 +222,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(FeiticosNavBar)
                 .addGap(34, 34, 34)
                 .addComponent(CaracteristicasNavBar)
-                .addGap(0, 123, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -246,9 +243,9 @@ public class personagemFicha extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(23, 23, 23));
 
-        jScrollPane.setBorder(null);
-        jScrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane.setPreferredSize(new java.awt.Dimension(672, 444));
+        jScrollPaneGeral.setBorder(null);
+        jScrollPaneGeral.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPaneGeral.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel2.setBackground(new java.awt.Color(23, 23, 23));
         jPanel2.setPreferredSize(new java.awt.Dimension(672, 1855));
@@ -881,12 +878,10 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel43)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
                 .addGap(0, 53, Short.MAX_VALUE)
-                .addComponent(BonusIniciativaLabel)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel43)
+                    .addComponent(BonusIniciativaLabel))
                 .addGap(0, 54, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
@@ -917,19 +912,19 @@ public class personagemFicha extends javax.swing.JFrame {
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel44)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(BonusCALabel)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel44)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addGap(0, 15, Short.MAX_VALUE)
                 .addComponent(BonusCALabel)
-                .addGap(15, 15, 15)
+                .addGap(0, 15, Short.MAX_VALUE)
                 .addComponent(jLabel44)
                 .addGap(15, 15, 15))
         );
@@ -1066,103 +1061,114 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(26, 26, 26))
         );
 
-        jScrollPane.setViewportView(jPanel2);
+        jScrollPaneGeral.setViewportView(jPanel2);
 
-        jPanel6.setBackground(new java.awt.Color(23, 23, 23));
-        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195), 2));
-        jPanel6.setPreferredSize(new java.awt.Dimension(400, 600));
+        jScrollPaneMochila.setBorder(null);
+        jScrollPaneMochila.setPreferredSize(new java.awt.Dimension(672, 438));
 
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setText("Mochila");
+        jPanel15.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel15.setPreferredSize(new java.awt.Dimension(400, 600));
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(279, Short.MAX_VALUE)
-                .addComponent(jLabel20)
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Mochila");
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addContainerGap(342, Short.MAX_VALUE)
+                .addComponent(jLabel24)
                 .addGap(277, 277, 277))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
                 .addGap(116, 116, 116)
-                .addComponent(jLabel20)
+                .addComponent(jLabel24)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel12.setBackground(new java.awt.Color(23, 23, 23));
-        jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195), 2));
-        jPanel12.setPreferredSize(new java.awt.Dimension(400, 600));
+        jScrollPaneMochila.setViewportView(jPanel15);
 
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("Feitiços");
+        jScrollPaneFeiticos.setBorder(null);
+        jScrollPaneFeiticos.setPreferredSize(new java.awt.Dimension(672, 438));
 
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
-                .addContainerGap(282, Short.MAX_VALUE)
-                .addComponent(jLabel21)
+        jPanel16.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel16.setPreferredSize(new java.awt.Dimension(400, 600));
+
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setText("Feitiços");
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                .addContainerGap(345, Short.MAX_VALUE)
+                .addComponent(jLabel25)
                 .addGap(277, 277, 277))
         );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
                 .addGap(116, 116, 116)
-                .addComponent(jLabel21)
+                .addComponent(jLabel25)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel13.setBackground(new java.awt.Color(23, 23, 23));
-        jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195), 2));
-        jPanel13.setPreferredSize(new java.awt.Dimension(400, 600));
+        jScrollPaneFeiticos.setViewportView(jPanel16);
 
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setText("Caracteristicas de Classe");
+        jScrollPaneCarClasse.setBorder(null);
+        jScrollPaneCarClasse.setPreferredSize(new java.awt.Dimension(672, 438));
 
-        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
-        jPanel13.setLayout(jPanel13Layout);
-        jPanel13Layout.setHorizontalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel13Layout.createSequentialGroup()
-                .addGap(0, 236, Short.MAX_VALUE)
-                .addComponent(jLabel22)
-                .addGap(0, 235, Short.MAX_VALUE))
+        jPanel17.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel17.setPreferredSize(new java.awt.Dimension(400, 600));
+
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setText("Caracteristicas de Classe");
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                .addContainerGap(257, Short.MAX_VALUE)
+                .addComponent(jLabel26)
+                .addGap(277, 277, 277))
         );
-        jPanel13Layout.setVerticalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel13Layout.createSequentialGroup()
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
                 .addGap(116, 116, 116)
-                .addComponent(jLabel22)
+                .addComponent(jLabel26)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        jScrollPaneCarClasse.setViewportView(jPanel17);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 603, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 603, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, 603, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34))
+                .addComponent(jScrollPaneGeral, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPaneMochila, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPaneFeiticos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPaneCarClasse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE)
-                    .addComponent(jScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE)
-                    .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPaneMochila, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPaneGeral, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPaneFeiticos, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPaneCarClasse, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, 0))
         );
 
@@ -1172,21 +1178,19 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(AppScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(AppScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 673, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(AppScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(AppScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, 456, Short.MAX_VALUE)
                 .addGap(0, 0, 0))
         );
 
@@ -1195,15 +1199,16 @@ public class personagemFicha extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 0, 0)
+                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(0, 0, 0)
-                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(6, 6, 6))
         );
 
         pack();
@@ -1282,7 +1287,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel BonusCALabel;
     private javax.swing.JLabel BonusIniciativaLabel;
     private javax.swing.JLabel BonusProficienciaLabel;
-    private javax.swing.JLabel BonusProficienciaLabel1;
     private javax.swing.JTextField CarLabel;
     private javax.swing.JLabel CarMod;
     private javax.swing.JCheckBox CarResCheck;
@@ -1336,9 +1340,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
@@ -1349,7 +1354,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel5;
@@ -1361,9 +1365,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1371,8 +1376,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JScrollPane jScrollPane;
+    private javax.swing.JScrollPane jScrollPaneCarClasse;
+    private javax.swing.JScrollPane jScrollPaneFeiticos;
+    private javax.swing.JScrollPane jScrollPaneGeral;
+    private javax.swing.JScrollPane jScrollPaneMochila;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JButton salvarBotao;
     // End of variables declaration//GEN-END:variables
