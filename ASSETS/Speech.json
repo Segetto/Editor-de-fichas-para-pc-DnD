@@ -1,0 +1,229 @@
+[
+  {
+    "uuid": "F73D5B33709F1AD1E923FE73772CE1F4",
+    "c": "Abissal",
+    "e": "Demônios",
+    "f": "Infernal",
+    "a": "pt"
+  },
+  {
+    "uuid": "725D943A24203D13B3315E5DF4F95D33",
+    "c": "Anão",
+    "d": "O idioma Anão é repleto de consoantes duras e sons guturais, e essa característica influencia, como um sotaque, qualquer outro idioma que o anão falar.",
+    "e": "Anões",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "B70702745AAFCE180AA3A920AE90D15C",
+    "c": "Celestial",
+    "e": "Celestiais",
+    "f": "Celestial",
+    "a": "pt"
+  },
+  {
+    "uuid": "53EF31A0D71C9A1D4849A23A8001A87C",
+    "c": "Comum",
+    "e": "Humanos",
+    "f": "Comum",
+    "a": "pt"
+  },
+  {
+    "uuid": "D7E0C283829246E5E15CC2EF71D15038",
+    "c": "Dracônico",
+    "d": "O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+    "e": "Dragões, Draconatos.",
+    "f": "Dracônico",
+    "a": "pt"
+  },
+  {
+    "uuid": "7E47E0099B0DC5B64DF0D614D89997B3",
+    "c": "Élfico",
+    "d": "O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+    "e": "Elfos",
+    "f": "Élfico",
+    "a": "pt"
+  },
+  {
+    "uuid": "03AC67A413833D08773D124DDDD5C23F",
+    "c": "Gigante",
+    "e": "Ogros, Gigantes",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "20A29905FAD19F090BDC7E25DEF0073A",
+    "c": "Gnômico",
+    "d": "A linguagem Gnômica, que usa o alfabeto Anão, é conhecida por suas técnicas de dissertação e por seus catálogos de conhecimento sobre o mundo natural.",
+    "e": "Gnomos",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "77813F6B750B057956C5A7041E488FCC",
+    "c": "Goblinoide",
+    "e": "Goblinoides",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "98EF75355CBBE54F296671FBE9AC6080",
+    "c": "Halfling",
+    "d": "A linguagem Halfling não é secreta, mas os halflings são relutantes em compartilhá-la com os outros. Eles escrevem muito pouco, por isso eles não possuem uma literatura rica. No entanto, sua tradição oral é muito forte. Quase todos os halflings falam o idioma Comum para conversar com as pessoas das terras que habitam, ou através das quais eles estejam viajando.",
+    "e": "Halflings",
+    "f": "Comum",
+    "a": "pt"
+  },
+  {
+    "uuid": "CBC25546FEAB80F701466036BA370E00",
+    "c": "Infernal",
+    "e": "Diabos",
+    "f": "Infernal",
+    "a": "pt"
+  },
+  {
+    "uuid": "FB99C1899AE2F8CA44701DDE562B4049",
+    "c": "Orc",
+    "e": "Orcs",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "79B6ECF4A7B32651D5FB523080E836D4",
+    "c": "Primordial",
+    "e": "Elementais",
+    "f": "Anão",
+    "a": "pt"
+  },
+  {
+    "uuid": "BDA2125AEFF0BAA27C3498C344CA440C",
+    "c": "Subcomum",
+    "e": "Comerciantes do subterrâneo",
+    "f": "Comum",
+    "a": "pt"
+  },
+  {
+    "uuid": "53A2690F98F28B9A3EAA9DF36C3917A3",
+    "c": "Silvestre",
+    "e": "Criaturas feéricas",
+    "f": "Élfico",
+    "a": "pt"
+  },
+  {
+    "uuid": "F44BDA83D49EA736B293102C1EA18938",
+    "c": "Subterrâneo",
+    "f": "Comum",
+    "a": "pt"
+  },
+  {
+    "uuid": "90D90F1EE18C3708A27C4C0893A53EEE",
+    "c": "Common",
+    "e": "Humans",
+    "f": "Common",
+    "a": "en"
+  },
+  {
+    "uuid": "8F7ED26B467DFE95C3EFC5B55BF4F514",
+    "c": "Dwarvish",
+    "e": "Dwarves",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "EFD8A68640278425AA7F2B1768BFFEF5",
+    "c": "Elvish",
+    "e": "Elves",
+    "f": "Elvish",
+    "a": "en"
+  },
+  {
+    "uuid": "13AA005A1D749C3B9302148D26C932E3",
+    "c": "Giant",
+    "e": "Ogres, giants",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "84984F8A900CB5C8BC3763AB44661307",
+    "c": "Gnomish",
+    "e": "Gnomes",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "A908C0416F7B770286716499E6059BC1",
+    "c": "Goblin",
+    "e": "Goblinoids",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "D52475745DF0969840F39DE554B767BB",
+    "c": "Halfling",
+    "e": "Halflings",
+    "f": "Common",
+    "a": "en"
+  },
+  {
+    "uuid": "F0074DB7438345AD42078B4B498594F2",
+    "c": "Orc",
+    "e": "Orcs",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "97FEA5640614807D2BB5B02537A0C402",
+    "c": "Abyssal",
+    "e": "Demons",
+    "f": "Infernal",
+    "a": "en"
+  },
+  {
+    "uuid": "1FC664F7335DDEBE036FF4B10A11967C",
+    "c": "Celestial",
+    "e": "Celestials",
+    "f": "Celestial",
+    "a": "en"
+  },
+  {
+    "uuid": "89B3A6A1D6F3392F20CF8D2E83F975D2",
+    "c": "Draconic",
+    "e": "Dragons, dragonborn",
+    "f": "Draconic",
+    "a": "en"
+  },
+  {
+    "uuid": "3EA04D9279F187A6BF8EE3E6B3E55747",
+    "c": "Deep Speech",
+    "e": "Aboleths, cloakers",
+    "a": "en"
+  },
+  {
+    "uuid": "B375F9B3F2BB7084399BD5EDE0F81410",
+    "c": "Infernal",
+    "e": "Devils",
+    "f": "Infernal",
+    "a": "en"
+  },
+  {
+    "uuid": "18318245BD2A52C56C7124041AA362AB",
+    "c": "Primordial",
+    "e": "Elementals",
+    "f": "Dwarvish",
+    "a": "en"
+  },
+  {
+    "uuid": "62F61CB23B9A870EA883C9ADABC5E5AB",
+    "c": "Sylvan",
+    "e": "Fey creatures",
+    "f": "Elvish",
+    "a": "en"
+  },
+  {
+    "uuid": "83F8150C337D1EA84629B527D05DE12C",
+    "c": "Undercommon",
+    "e": "Underworld traders",
+    "f": "Elvish",
+    "a": "en"
+  }
+]

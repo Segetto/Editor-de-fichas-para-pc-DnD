@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import backend.jsonParser;
-import backend.trocarPainel;
+import backend.Funcoes.trocarPainel;
 import java.awt.Color;
 
 /**

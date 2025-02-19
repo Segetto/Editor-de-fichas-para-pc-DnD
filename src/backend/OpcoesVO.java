@@ -8,7 +8,10 @@ import javax.swing.*;
 import java.awt.*;
 import visual.Opcoes;
 import backend.jsonParser;
-import backend.FichaVO;
+import static backend.Funcoes.FichaLer.FichaLerString;
+import static backend.Funcoes.RacaLabel.RacaLabel;
+import static backend.Funcoes.SalvarFicha.SalvarFicha;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import org.json.JSONArray;
@@ -25,7 +28,6 @@ public class OpcoesVO {
         String OpcaoCaminho = "ASSETS/" + TipoOpcao + ".json";
         jsonParser leitor = new jsonParser();
         JSONArray opcoes = new JSONArray(leitor.LerArray(OpcaoCaminho));
-        FichaVO FichaVo = new FichaVO();
         for (int i = 0; i < opcoes.length(); i++) {
             JRadioButton opcao = new JRadioButton(opcoes.getJSONObject(i).getString("b"));
             BotoesGrupo.add(opcao);
@@ -34,7 +36,7 @@ public class OpcoesVO {
             Painel.setBackground(new Color(23, 23, 23));
             OpcaoEvent(opcao, ficha, i, opcoes);
             opcao.setBackground(new Color(23, 23, 23));
-            if (opcao.getText().equals(FichaVo.FichaLerString(ficha, TipoOpcao, i))) {
+            if (opcao.getText().equals(FichaLerString(ficha, TipoOpcao, i))) {
                 opcao.setSelected(true);
             }
 
@@ -64,9 +66,8 @@ public class OpcoesVO {
         sair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                FichaVO FichaVo = new FichaVO();
-                FichaVo.RacaLabel(ficha, RacaSelect);
-                FichaVo.SalvarFicha(ficha, personagemCaminho);
+                RacaLabel(ficha, RacaSelect);
+                SalvarFicha(ficha, personagemCaminho);
             }
         });
     }

@@ -9,7 +9,8 @@ import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 import backend.ClassesVO;
-import backend.FichaVO;
+import static backend.Funcoes.SalvarFicha.SalvarFicha;
+import static backend.Funcoes.ClassesLabel.ClassesLabel;
 import org.json.JSONObject;
 import visual.personagemFicha;
 
@@ -23,7 +24,7 @@ public class Classes extends javax.swing.JFrame {
     /**
      * Creates new form Classes
      */
-    public Classes(String personagemCaminho, JSONObject ficha, JLabel ClassesLabel, String nome, JLabel LevelLabel) {
+    public Classes(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, String nome, JLabel LevelLabel) {
         initComponents();
 
         ClassesVO Classes = new ClassesVO();
@@ -33,9 +34,8 @@ public class Classes extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
-                FichaVO FichaVo = new FichaVO();
-                FichaVo.ClassesLabel(ficha, ClassesLabel, LevelLabel);
-                FichaVo.SalvarFicha(ficha, personagemCaminho);
+                ClassesLabel(ficha, ClasseLabel, LevelLabel);
+                SalvarFicha(ficha, personagemCaminho);
             }
         });
     }

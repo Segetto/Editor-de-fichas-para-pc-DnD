@@ -62,105 +62,16 @@
         "h": true,
         "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
     }],
-    "d": [
-        {
-            "a": {
-                "a": "A5E89D3735FE621E3F3B4F943079755A",
-                "c": 1
-            },
-            "b": {
-                "b": "Bárbaro",
-                "uuid": "A5E89D3735FE621E3F3B4F943079755A"
-            }
+    "d": [{
+        "a": {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "c": 9
         },
-        {
-            "a": {
-                "a": "4FB3D7A12EA923B5E8EC3CDA14564CD2",
-                "c": 1
-            },
-            "b": {
-                "b": "Bardo",
-                "uuid": "4FB3D7A12EA923B5E8EC3CDA14564CD2"
-            }
-        },
-        {
-            "a": {
-                "a": "BE7427B68511031EFF6654CA8EC058E4",
-                "c": 1
-            },
-            "b": {
-                "b": "Bruxo",
-                "uuid": "BE7427B68511031EFF6654CA8EC058E4"
-            }
-        },
-        {
-            "a": {
-                "a": "8C61F8EDB313E7F7CFFB7A1A50991165",
-                "c": 1
-            },
-            "b": {
-                "b": "Clérigo",
-                "uuid": "8C61F8EDB313E7F7CFFB7A1A50991165"
-            }
-        },
-        {
-            "a": {
-                "a": "2718AD086213B7F0CC96B21CD87DC6B5",
-                "c": 1
-            },
-            "b": {
-                "b": "Druida",
-                "uuid": "2718AD086213B7F0CC96B21CD87DC6B5"
-            }
-        },
-        {
-            "a": {
-                "a": "5C7EC183E8C43F9D1A6C44645CAB39AC",
-                "c": 1
-            },
-            "b": {
-                "b": "Feiticeiro",
-                "uuid": "5C7EC183E8C43F9D1A6C44645CAB39AC"
-            }
-        },
-        {
-            "a": {
-                "a": "D954B3794ECBA734299805297D6B90EF",
-                "c": 1
-            },
-            "b": {
-                "b": "Guerreiro",
-                "uuid": "D954B3794ECBA734299805297D6B90EF"
-            }
-        },
-        {
-            "a": {
-                "a": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": 1
-            },
-            "b": {
-                "b": "Ladino",
-                "uuid": "66DDC67E7D8B9AE65FAFC661A1E9C807"
-            }
-        },
-        {
-            "a": {
-                "a": "DD61B226A538F1C99C5053140935B4F8",
-                "b": "btgln1ldr4mbderngsfenvddqq",
-                "c": 9,
-                "uuid": "cti71nfvu1hgfh7p982f9qbul3"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Mago",
-                "c": "",
-                "d": false,
-                "e": 6,
-                "f": true,
-                "uuid": "DD61B226A538F1C99C5053140935B4F8"
-            }
+        "b": {
+            "b": "Mago",
+            "uuid": "DD61B226A538F1C99C5053140935B4F8"
         }
-    ],
+    }],
     "e": [
         {
             "a": "STRENGTH",
@@ -171,7 +82,7 @@
         },
         {
             "a": "DEXTERITY",
-            "b": 11,
+            "b": 12,
             "c": false,
             "d": "btgln1ldr4mbderngsfenvddqq",
             "uuid": "8fnlno14ie4l39c8f3rq8mh1ar"

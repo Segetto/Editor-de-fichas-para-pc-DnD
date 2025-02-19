@@ -1,0 +1,84 @@
+[
+    {
+        "a": [{
+                "a": "Atletismo",
+                "uuid": "6s021ain355fu8399374k771jc"
+            }]
+    },
+    {
+        "a": [{
+                "a": "Acrobacia",
+                "uuid": "6iqvm36lth8d0e3vllv8h94g3k"
+            },
+            {
+                "a": "Furtividade",
+                "uuid": "k6ogmeurpghgsbcme8o3uq7kjo"
+            },
+            {
+                "a": "Prestidigitação",
+                "uuid": "2vnljsl6lujsc3ht5if2u6h598"
+            }]
+    },
+    {
+        "a": [{
+                "a": "Arcanismo",
+                "uuid": "bb3v8phgsded20sndo13at5sht"
+            },
+            {
+                "a": "História",
+                "uuid": "jq3a859m1ahughc5vep2n3cu4a"
+            },
+            {
+                "a": "Investigação",
+                "uuid": "hq4o54k831g2i7dmasj9r66o81"
+            },
+            {
+                "a": "Natureza",
+                "uuid": "o5enqubhg5jjffjuv84g7lt7ag"
+            },
+            {
+                "a": "Religião",
+                "uuid": "bhtmg0rjm3qis8ters6ditb52m"
+            }]
+    },
+    {
+        "a": [{
+                "a": "Intuição",
+                "uuid": "1t8b1f4fvsvos45eq3ueesg20u"
+            },
+            {
+                "a": "Lidar com animais",
+                "uuid": "klp2oo30vjl30kv3gehcpr5167"
+            },
+            {
+                "a": "Medicina",
+                "uuid": "h4s9evm12mvikcihc12buiejer"
+            },
+            {
+                "a": "Percepção",
+                "uuid": "pp650ikf1bgbfmb2q71p90h5tl"
+            },
+            {
+                "a": "Sobrevivência",
+                "uuid": "gn78tcs2fepj83futl32gki6eu"
+            }]
+    },
+    {
+        "a": [{
+                "a": "Atuação",
+                "uuid": "dg5f0vfhrocel7193crq0q949p"
+            },
+            {
+                "a": "Blefar",
+                "uuid": "uooq29ka2pjjrk032lkp541j4n"
+            },
+            {
+                "a": "Intimdação",
+                "uuid": "c85en801hqunaodbfqcuqslg23"
+            },
+            {
+                "a": "Enganação",
+                "uuid": "evtgu05cd37stfius3n1dsi176"
+            }]
+    }
+]

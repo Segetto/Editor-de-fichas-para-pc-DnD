@@ -20,7 +20,7 @@ import org.json.JSONObject;
  */
 public class jsonParser {
 
-    public String LerArquivo(String caminho) {
+    public static String LerArquivo(String caminho) {
         String valores;  // Inicializando antes do bloco try-catch
         try {
             String caminhoArquivo = caminho;
@@ -41,7 +41,7 @@ public class jsonParser {
         return valores;  // Retorna o valor ou a mensagem de erro
     }
 
-    public String LerArray(String caminho) {
+    public static String LerArray(String caminho) {
         String valores;  // Inicializando antes do bloco try-catch
         try {
             String caminhoArquivo = caminho;
