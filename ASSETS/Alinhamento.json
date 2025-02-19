@@ -52,59 +52,5 @@
     "b": "Caótico mal",
     "c": "É a tendência de criaturas que agem com violência arbitrária, estimulada por sua ganância, ódio ou sede de sangue. Demônios, dragões vermelhos e orcs são caóticos e maus.",
     "a": "pt"
-  },
-  {
-    "uuid": "0C0568C5C5A995A54D5939A88FFAC718",
-    "b": "Lawful good",
-    "c": "Creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.",
-    "a": "en"
-  },
-  {
-    "uuid": "032871581CE695C913F3E683D8432494",
-    "b": "Neutral good",
-    "c": "Folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.",
-    "a": "en"
-  },
-  {
-    "uuid": "C182DD328227C3FA461DD4267B647221",
-    "b": "Chaotic good",
-    "c": "Creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.",
-    "a": "en"
-  },
-  {
-    "uuid": "BE1B824A6049B3F346D23AD653853D9B",
-    "b": "Lawful neutral",
-    "c": "Individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.",
-    "a": "en"
-  },
-  {
-    "uuid": "B39EF195AB2116C44524DB56D3B035F7",
-    "b": "Neutral",
-    "c": "Is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.",
-    "a": "en"
-  },
-  {
-    "uuid": "842087B7C971782B4D69E0B38DA33E11",
-    "b": "Chaotic neutral",
-    "c": "Creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.",
-    "a": "en"
-  },
-  {
-    "uuid": "976F7F305D1D218FCB99FA65E13BF7A2",
-    "b": "Lawful evil",
-    "c": "Creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.",
-    "a": "en"
-  },
-  {
-    "uuid": "B4896B6F2989FD88EE1427635CA48D53",
-    "b": "Neutral evil",
-    "c": "Is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.",
-    "a": "en"
-  },
-  {
-    "uuid": "1288EDB6C06CFFC5108A6150A3FF3B9B",
-    "b": "Chaotic evil",
-    "c": "Creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.",
-    "a": "en"
   }
 ]

@@ -14,8 +14,8 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 import backend.jsonParser;
-import backend.Funcoes.Rand;
-import backend.Funcoes.trocarPainel;
+import backend.Fun.Rand;
+import backend.Fun.trocarPainel;
 import java.awt.FlowLayout;
 import javax.swing.event.*;
 import org.json.JSONObject;
@@ -117,7 +117,6 @@ public class ClassesVO {
 
                         }
                     }
-                    System.out.println(ficha.getJSONArray("d"));
                     spinner.setValue(1);
                     spinner.setVisible(false);
                     ClasseRow.revalidate();

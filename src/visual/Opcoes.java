@@ -13,10 +13,10 @@ import org.json.JSONObject;
 public class Opcoes extends javax.swing.JFrame {
 OpcoesVO OpcoesVo = new OpcoesVO();
    
-    public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha) {
+    public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha, String ArrayNome) {
         initComponents();
         jScrollPane2.getVerticalScrollBar().setUnitIncrement(5);
-       OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel);
+       OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
         OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha);
     }
 

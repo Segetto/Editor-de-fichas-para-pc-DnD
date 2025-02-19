@@ -18,7 +18,7 @@
         "i": 9,
         "j": 83,
         "k": 0,
-        "l": 71,
+        "l": 83,
         "m": 7.5,
         "n": 0,
         "o": 0,
@@ -45,10 +45,7 @@
         "z": "azuis"
     }],
     "b": [{
-        "a": "pt",
         "b": "Leal neutro",
-        "c": "É a tendência dos indivíduos que agem de acordo com as leis, tradições ou códigos pessoais. Muitos monges e alguns magos são leais e neutros.",
-        "d": false,
         "uuid": "E4758A075C8D74A6F6FB0E4DF3B8EBB3"
     }],
     "c": [{

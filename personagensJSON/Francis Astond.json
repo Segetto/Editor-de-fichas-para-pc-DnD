@@ -42,7 +42,10 @@
         "y": 7.5,
         "z": ""
     }],
-    "b": [],
+    "b": [{
+        "b": "Caótico bom",
+        "uuid": "5812E1AF60D451834834A20176C904CC"
+    }],
     "c": [{
         "b": "Humano",
         "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
@@ -50,8 +53,18 @@
     "d": [
         {
             "a": {
+                "a": "A5E89D3735FE621E3F3B4F943079755A",
+                "c": 11
+            },
+            "b": {
+                "b": "Bárbaro",
+                "uuid": "A5E89D3735FE621E3F3B4F943079755A"
+            }
+        },
+        {
+            "a": {
                 "a": "4FB3D7A12EA923B5E8EC3CDA14564CD2",
-                "c": 1
+                "c": 4
             },
             "b": {
                 "b": "Bardo",
@@ -61,41 +74,11 @@
         {
             "a": {
                 "a": "BE7427B68511031EFF6654CA8EC058E4",
-                "c": 1
+                "c": 3
             },
             "b": {
                 "b": "Bruxo",
                 "uuid": "BE7427B68511031EFF6654CA8EC058E4"
-            }
-        },
-        {
-            "a": {
-                "a": "8C61F8EDB313E7F7CFFB7A1A50991165",
-                "c": 1
-            },
-            "b": {
-                "b": "Clérigo",
-                "uuid": "8C61F8EDB313E7F7CFFB7A1A50991165"
-            }
-        },
-        {
-            "a": {
-                "a": "2718AD086213B7F0CC96B21CD87DC6B5",
-                "c": 1
-            },
-            "b": {
-                "b": "Druida",
-                "uuid": "2718AD086213B7F0CC96B21CD87DC6B5"
-            }
-        },
-        {
-            "a": {
-                "a": "5C7EC183E8C43F9D1A6C44645CAB39AC",
-                "c": 1
-            },
-            "b": {
-                "b": "Feiticeiro",
-                "uuid": "5C7EC183E8C43F9D1A6C44645CAB39AC"
             }
         }
     ],
@@ -111,14 +94,14 @@
         {
             "a": "DEXTERITY",
             "b": 13,
-            "c": false,
+            "c": true,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "9hmadfhc3d7u0u0856jjdn1in4"
         },
         {
             "a": "CONSTITUTION",
             "b": 19,
-            "c": false,
+            "c": true,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "3iun3f0574tm2q61infho3nqtf"
         },
@@ -132,7 +115,7 @@
         {
             "a": "WISDOM",
             "b": 15,
-            "c": false,
+            "c": true,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "f6ttnf6mdhth1ikgt6rkfj27s8"
         },
@@ -147,7 +130,7 @@
     "f": [
         {"a": {
             "a": "ATHLETICS",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -183,7 +166,7 @@
         }},
         {"a": {
             "a": "ARCANA",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -192,7 +175,7 @@
         }},
         {"a": {
             "a": "HISTORY",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -219,7 +202,7 @@
         }},
         {"a": {
             "a": "RELIGION",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -246,7 +229,7 @@
         }},
         {"a": {
             "a": "MEDICINE",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -264,7 +247,7 @@
         }},
         {"a": {
             "a": "SURVIVAL",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -273,7 +256,7 @@
         }},
         {"a": {
             "a": "PERFORMANCE",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -300,7 +283,7 @@
         }},
         {"a": {
             "a": "PERSUASION",
-            "b": false,
+            "b": true,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",

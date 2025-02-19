@@ -9,8 +9,8 @@ import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 import backend.ClassesVO;
-import static backend.Funcoes.SalvarFicha.SalvarFicha;
-import static backend.Funcoes.ClassesLabel.ClassesLabel;
+import static backend.Fun.SalvarFicha.SalvarFicha;
+import static backend.Fun.ClassesLabel.ClassesLabel;
 import org.json.JSONObject;
 import visual.personagemFicha;
 
