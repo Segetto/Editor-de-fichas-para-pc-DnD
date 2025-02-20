@@ -24,6 +24,7 @@ import static backend.Fun.Par.Geral.StatusP.StatusP;
 import static backend.Fun.Par.Geral.VidaP.VidaP;
 import static backend.Fun.Par.Geral.XpP.XpP;
 import static backend.Fun.Par.Geral.ScrollP.ScrollP;
+import static backend.Fun.Par.Geral.TesteSalvamentoP.TesteSalvamentoP;
 
 import org.json.JSONObject;
 
@@ -59,6 +60,13 @@ public class personagemFicha extends javax.swing.JFrame {
         ResistenciaP(personagemCaminho, ficha, IntResCheck, IntResMod, 3);
         ResistenciaP(personagemCaminho, ficha, SabResCheck, SabResMod, 4);
         ResistenciaP(personagemCaminho, ficha, CarResCheck, CarResMod, 5);
+        TesteSalvamentoP(personagemCaminho, ficha, Sucesso1, 0);
+        TesteSalvamentoP(personagemCaminho, ficha, Sucesso2, 1);
+        TesteSalvamentoP(personagemCaminho, ficha, Sucesso3, 2);
+        TesteSalvamentoP(personagemCaminho, ficha, Fracesso1, 3);
+        TesteSalvamentoP(personagemCaminho, ficha, Fracesso2, 4);
+        TesteSalvamentoP(personagemCaminho, ficha, Fracesso3, 5);
+
         ProfP(ficha, BonusProficienciaLabel);
         VidaP(personagemCaminho, ficha, VidaAtual, VidaTotal, VidaCura, VidaDano);
         SalvarP(ficha, salvarBotao, personagemCaminho);
@@ -173,6 +181,16 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel14 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
         BonusCALabel = new javax.swing.JLabel();
+        jPanel19 = new javax.swing.JPanel();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        Sucesso1 = new javax.swing.JCheckBox();
+        Sucesso2 = new javax.swing.JCheckBox();
+        Sucesso3 = new javax.swing.JCheckBox();
+        Fracesso1 = new javax.swing.JCheckBox();
+        Fracesso2 = new javax.swing.JCheckBox();
+        Fracesso3 = new javax.swing.JCheckBox();
         jScrollPaneMochila = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
@@ -922,10 +940,112 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(0, 15, Short.MAX_VALUE)
+                .addGap(0, 16, Short.MAX_VALUE)
                 .addComponent(BonusCALabel)
-                .addGap(0, 15, Short.MAX_VALUE)
+                .addGap(0, 14, Short.MAX_VALUE)
                 .addComponent(jLabel44)
+                .addGap(15, 15, 15))
+        );
+
+        jPanel19.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel19.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(35, 35, 195), 2, true));
+        jPanel19.setPreferredSize(new java.awt.Dimension(221, 221));
+
+        jLabel46.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel46.setText("Testes de Salvamento");
+
+        jLabel47.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel47.setText("Sucessos:");
+
+        jLabel48.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel48.setText("Fracessos:");
+
+        Sucesso1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sucesso1ActionPerformed(evt);
+            }
+        });
+
+        Sucesso2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sucesso2ActionPerformed(evt);
+            }
+        });
+
+        Sucesso3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sucesso3ActionPerformed(evt);
+            }
+        });
+
+        Fracesso1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Fracesso1ActionPerformed(evt);
+            }
+        });
+
+        Fracesso2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Fracesso2ActionPerformed(evt);
+            }
+        });
+
+        Fracesso3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Fracesso3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
+        jPanel19.setLayout(jPanel19Layout);
+        jPanel19Layout.setHorizontalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel46)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap(28, Short.MAX_VALUE)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addComponent(jLabel47)
+                        .addGap(18, 18, 18)
+                        .addComponent(Sucesso1)
+                        .addGap(18, 18, 18)
+                        .addComponent(Sucesso2))
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addComponent(jLabel48)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Fracesso1)
+                        .addGap(18, 18, 18)
+                        .addComponent(Fracesso2)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Fracesso3)
+                    .addComponent(Sucesso3))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+        jPanel19Layout.setVerticalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel19Layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel47)
+                        .addComponent(Sucesso1))
+                    .addComponent(Sucesso2)
+                    .addComponent(Sucesso3))
+                .addGap(14, 14, 14)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel48)
+                    .addComponent(Fracesso1)
+                    .addComponent(Fracesso2)
+                    .addComponent(Fracesso3))
+                .addGap(15, 15, 15)
+                .addComponent(jLabel46)
                 .addGap(15, 15, 15))
         );
 
@@ -981,12 +1101,17 @@ public class personagemFicha extends javax.swing.JFrame {
                                             .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(23, 23, 23)
+                                        .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                                .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE)
-                                                .addGap(23, 23, 23)
-                                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                                .addGap(193, 193, 193)
+                                                .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(0, 0, Short.MAX_VALUE)
+                                                .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(23, 23, 23)
+                                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(4, 4, 4))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1053,7 +1178,10 @@ public class personagemFicha extends javax.swing.JFrame {
                         .addGap(23, 23, 23)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(23, 23, 23)
+                                .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 327, Short.MAX_VALUE)
                         .addComponent(salvarBotao)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1249,6 +1377,30 @@ public class personagemFicha extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ForLabelActionPerformed
 
+    private void Sucesso1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sucesso1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sucesso1ActionPerformed
+
+    private void Sucesso2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sucesso2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sucesso2ActionPerformed
+
+    private void Sucesso3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sucesso3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sucesso3ActionPerformed
+
+    private void Fracesso1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fracesso1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Fracesso1ActionPerformed
+
+    private void Fracesso2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fracesso2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Fracesso2ActionPerformed
+
+    private void Fracesso3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fracesso3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Fracesso3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1285,6 +1437,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JTextField AntecedenteLabel;
     private javax.swing.JScrollPane AppScrollPane;
     private javax.swing.JLabel BonusCALabel;
+    private javax.swing.JLabel BonusCALabel1;
     private javax.swing.JLabel BonusIniciativaLabel;
     private javax.swing.JLabel BonusProficienciaLabel;
     private javax.swing.JTextField CarLabel;
@@ -1307,6 +1460,9 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel ForMod;
     private javax.swing.JCheckBox ForResCheck;
     private javax.swing.JLabel ForResMod;
+    private javax.swing.JCheckBox Fracesso1;
+    private javax.swing.JCheckBox Fracesso2;
+    private javax.swing.JCheckBox Fracesso3;
     private javax.swing.JLabel GeralNavBar;
     private javax.swing.JTextField IntLabel;
     private javax.swing.JLabel IntMod;
@@ -1321,6 +1477,9 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel SabMod;
     private javax.swing.JCheckBox SabResCheck;
     private javax.swing.JLabel SabResMod;
+    private javax.swing.JCheckBox Sucesso1;
+    private javax.swing.JCheckBox Sucesso2;
+    private javax.swing.JCheckBox Sucesso3;
     private javax.swing.JTextField VidaAtual;
     private javax.swing.JLabel VidaCura;
     private javax.swing.JLabel VidaDano;
@@ -1356,6 +1515,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -1369,6 +1532,8 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;

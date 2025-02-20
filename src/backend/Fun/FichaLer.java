@@ -75,5 +75,18 @@ public class FichaLer {
         }
         return resultadoInt;
     }
+public static boolean FichaLerBool(JSONObject ficha, String campo, int i) {
+        boolean resultadoBoolean = false;
+        switch (campo) {
+            case "Salvamento":
+                if (ficha.getJSONArray("a").length() > 0) {
+                    resultadoBoolean = ficha.getJSONArray("h").getJSONObject(i).getBoolean("b");
+                }
+                break;
+            
+
+        }
+        return resultadoBoolean;
+    }
 
 }
