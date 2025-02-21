@@ -62,27 +62,21 @@ public class jsonParser {
         return valores;  // Retorna o valor ou a mensagem de erro
     }
 
-    public void sobrescreverArquivo(String CaminhoArquivo, String ArquivoString, String NovoCaminho) {
+    public void sobrescreverArquivo(String CaminhoArquivo, String ArquivoString) {
         try {
             String caminhoArquivo = CaminhoArquivo;
             JSONObject ArquivoNovo = new JSONObject(ArquivoString);
             FileWriter file = new FileWriter(caminhoArquivo, false);
             file.write(ArquivoNovo.toString(4)); // O '4' é para formatar o JSON com uma indentação de 4 espaços
             file.close();
-            File AntigoNome = new File(CaminhoArquivo);
-            File NovoNome = new File(NovoCaminho);
-            if (!AntigoNome.exists()) {
-                System.out.println("O arquivo original não existe.");
-                return;
-            }
-            if (AntigoNome.renameTo(NovoNome)) {
+           
                 System.out.println("Arquivo JSON sobrescrito com sucesso.");
-            } else {
-                System.out.println("Falha ao renomear o arquivo." + "\n Caminho: " + NovoCaminho);
-            }
+            
+                
+            
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Falha ao sobrescrever o arquivo. \n Erro: " + e);
         }
     }
 }

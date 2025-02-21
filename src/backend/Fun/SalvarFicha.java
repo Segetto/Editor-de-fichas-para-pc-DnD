@@ -15,6 +15,6 @@ import org.json.JSONObject;
 public class SalvarFicha {
      public static void SalvarFicha(JSONObject ficha, String personagemCaminho) {
         jsonParser leitor = new jsonParser();
-        leitor.sobrescreverArquivo(personagemCaminho, ficha.toString(), "personagensJSON/" + FichaLerString(ficha, "nome", 0) + ".json");
-    }
+        leitor.sobrescreverArquivo(personagemCaminho, ficha.toString());
+     }
 }

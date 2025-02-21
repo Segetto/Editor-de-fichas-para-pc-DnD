@@ -10,7 +10,7 @@ import java.util.Random;
  * @author Admin
  */
 public class Rand {
-    public static String Id(int extensao){
+    public static String NovoId(int extensao){
           String caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         Random rand = new Random();
         StringBuilder codigo = new StringBuilder();

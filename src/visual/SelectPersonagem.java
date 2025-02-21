@@ -4,6 +4,9 @@
  */
 package visual;
 
+import static backend.Fun.Rand.NovoId;
+import org.json.*;
+import static backend.Fun.FichaLer.FichaLerString;
 import com.formdev.flatlaf.FlatDarkLaf;
 import javax.swing.*;
 import java.io.File;
@@ -29,16 +32,41 @@ public class SelectPersonagem extends javax.swing.JFrame {
     /**
      * Creates new form SelectPersonagem
      */
+    class Item {
+
+        private String id;
+        private String nome;
+
+        public Item(String id, String nome) {
+            this.id = id;
+            this.nome = nome;
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        @Override
+        public String toString() {
+            return nome; // Mostra apenas o nome na JComboBox
+        }
+    }
+
     public SelectPersonagem() {
         initComponents();
-        Arrays.stream(arquivos).filter(File::isFile).forEach(arquivo -> jComboBox1.addItem(arquivo.getName().replace(".json", "")));
+        Arrays.stream(arquivos).filter(File::isFile).forEach(arquivo -> {
+            String nomeArquivo = arquivo.getName();
+            JSONObject ficha = new JSONObject(jsonParser.LerArquivo("personagensJSON/" + nomeArquivo));
+            jComboBox1.addItem(new Item(nomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
+
+        });
 
         jComboBox1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Quando a seleção mudar, troca para o segundo JFrame
-                jsonParser leitor = new jsonParser();
-                String selectedOption = (String) jComboBox1.getSelectedItem();
+                Item selectedItem = (Item) jComboBox1.getSelectedItem();
+                String selectedOption = selectedItem.getId();
                 dispose();
                 personagemFicha novoFrame = new personagemFicha(selectedOption);
                 trocarPainel mudar = new trocarPainel();
@@ -59,9 +87,10 @@ public class SelectPersonagem extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jButton1 = new javax.swing.JButton();
-        labelFicha = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<Item>();
+        AdicionarPersonagemExistenteBotao = new javax.swing.JButton();
+        NovoPersongemBotao = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -84,48 +113,67 @@ public class SelectPersonagem extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(79, 79, 79));
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("adicionar personagem");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        AdicionarPersonagemExistenteBotao.setBackground(new java.awt.Color(79, 79, 79));
+        AdicionarPersonagemExistenteBotao.setForeground(new java.awt.Color(255, 255, 255));
+        AdicionarPersonagemExistenteBotao.setText("Adicionar personagem existente");
+        AdicionarPersonagemExistenteBotao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                AdicionarPersonagemExistenteBotaoActionPerformed(evt);
             }
         });
 
-        labelFicha.setForeground(new java.awt.Color(255, 255, 255));
+        NovoPersongemBotao.setBackground(new java.awt.Color(79, 79, 79));
+        NovoPersongemBotao.setForeground(new java.awt.Color(255, 255, 255));
+        NovoPersongemBotao.setText("Criar novo personagem");
+        NovoPersongemBotao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                NovoPersongemBotaoActionPerformed(evt);
+            }
+        });
+
+        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("ou");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(161, 161, 161)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(labelFicha, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(162, 162, 162))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(NovoPersongemBotao)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(AdicionarPersonagemExistenteBotao)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(231, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(233, 233, 233))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(62, 62, 62)
+                .addGap(53, 53, 53)
                 .addComponent(jLabel1)
-                .addGap(18, 18, 18)
+                .addGap(23, 23, 23)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(65, 65, 65)
-                .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(labelFicha, javax.swing.GroupLayout.DEFAULT_SIZE, 22, Short.MAX_VALUE)
-                .addGap(31, 31, 31))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                .addComponent(NovoPersongemBotao)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
+                .addComponent(AdicionarPersonagemExistenteBotao)
+                .addGap(38, 38, 38))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -133,39 +181,53 @@ public class SelectPersonagem extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(0, 50, Short.MAX_VALUE)
+                .addContainerGap(27, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 50, Short.MAX_VALUE))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(0, 50, Short.MAX_VALUE)
+                .addContainerGap(28, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 50, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 538, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void NovoPersongemBotaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NovoPersongemBotaoActionPerformed
+        try {
+            String CaminhoOrigem = "ASSETS/Novo Personagem.json";
+            String uuid = NovoId(32);
+            Files.copy(Paths.get(CaminhoOrigem), Paths.get("personagensJSON/" + uuid + ".json"));
+            personagemFicha novoFrame = new personagemFicha(uuid);
+            trocarPainel mudar = new trocarPainel();
+            mudar.painelChange(novoFrame);
+            dispose();
+        } catch (IOException e) {
+            System.out.println("Erro: " + e);
+        }
+    }//GEN-LAST:event_NovoPersongemBotaoActionPerformed
+
+    private void AdicionarPersonagemExistenteBotaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdicionarPersonagemExistenteBotaoActionPerformed
         // TODO add your handling code here:
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setDialogTitle("Selecione um Arquivo");
@@ -173,9 +235,13 @@ public class SelectPersonagem extends javax.swing.JFrame {
         if (result == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
             String destinationPath = "personagensJSON/" + selectedFile.getName();
+            String novoNomeArquivo = NovoId(32) + ".json";
+            File destinoArquivo = new File("personagensJSON/", novoNomeArquivo);
             try {
-                Files.copy(Paths.get(selectedFile.getAbsolutePath()), Paths.get(destinationPath));
-                jComboBox1.addItem(selectedFile.getName().replace(".json", ""));
+                Files.copy(Paths.get(selectedFile.getAbsolutePath()), destinoArquivo.toPath());
+                String nomeArquivo = selectedFile.getName();
+                JSONObject ficha = new JSONObject(jsonParser.LerArquivo(destinoArquivo.getAbsolutePath()));
+                jComboBox1.addItem(new Item(nomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
             } catch (IOException e) {
                 System.out.println("Erro ao enviar o arquivo: " + e);
             }
@@ -183,7 +249,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
         } else {
             System.out.println("Nenhum arquivo selecionado.");
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_AdicionarPersonagemExistenteBotaoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -201,7 +267,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
             UIManager.put("Spinner.buttonArrowColor", new Color(255, 255, 255));
             UIManager.put("Spinner.buttonBackground", new Color(23, 23, 23));
             UIManager.put("Spinner.buttonSeparatorColor", new Color(23, 23, 23));
-            
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -217,11 +283,12 @@ public class SelectPersonagem extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JButton AdicionarPersonagemExistenteBotao;
+    private javax.swing.JButton NovoPersongemBotao;
+    private javax.swing.JComboBox<Item> jComboBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JLabel labelFicha;
     // End of variables declaration//GEN-END:variables
 }

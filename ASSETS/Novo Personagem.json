@@ -1,0 +1,379 @@
+{
+    "a": [{
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "df11tab4vs6l7toirip2bnh1pic_character.png",
+        "E": "df11tab4vs6l7toirip2bnh1palliesOrganizations.png",
+        "uuid": "df11tab4vs6l7toirip2bnh1p",
+        "id": 0,
+        "a": "Novo Personagem",
+        "b": 0,
+        "d": 0,
+        "e": false,
+        "f": 0,
+        "g": 0,
+        "h": 0,
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "l": 0,
+        "m": 0,
+        "n": 0,
+        "o": 0,
+        "p": 0,
+        "0": "",
+        "q": 0,
+        "1": "",
+        "r": 0,
+        "3": "",
+        "s": 0,
+        "t": 0,
+        "4": "",
+        "u": 0,
+        "5": "",
+        "6": "",
+        "v": 0,
+        "w": 0,
+        "7": "",
+        "x": 0,
+        "8": "",
+        "9": "",
+        "y": 0,
+        "z": ""
+    }],
+    "b": [],
+    "c": [],
+    "d": [],
+    "e": [
+        {
+            "a": "STRENGTH",
+            "b": 10,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "j": 0,
+            "uuid": "g3d1j6inkl9k4h9r5isdl6ua5p"
+        },
+        {
+            "a": "DEXTERITY",
+            "b": 10,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "9hmadfhc3d7u0u0856jjdn1in4"
+        },
+        {
+            "a": "CONSTITUTION",
+            "b": 10,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "3iun3f0574tm2q61infho3nqtf"
+        },
+        {
+            "a": "INTELLIGENCE",
+            "b": 10,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "h34hn24absiikjojogdk4getv5"
+        },
+        {
+            "a": "WISDOM",
+            "b": 10,
+            "c": true,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "f6ttnf6mdhth1ikgt6rkfj27s8"
+        },
+        {
+            "a": "CHARISMA",
+            "b": 10,
+            "c": false,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gt9di81ijmt5qcvkcn14j9vi92"
+        }
+    ],
+    "f": [
+        {"a": {
+            "a": "ATHLETICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "g3d1j6inkl9k4h9r5isdl6ua5p",
+            "uuid": "hemgjbff9log6pll4adsqs65sq"
+        }},
+        {"a": {
+            "a": "ACROBATICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "tm3h6k30jlplntmmbd0oskru1i"
+        }},
+        {"a": {
+            "a": "STEALTH",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "ardgk96val32onqkivgm177cad"
+        }},
+        {"a": {
+            "a": "SLEIGHT_OF_HAND",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "d1veu97bagjsra8fg0c1v1dnsh"
+        }},
+        {"a": {
+            "a": "ARCANA",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "ro1to56fuqu4u7omqcvc7qi601"
+        }},
+        {"a": {
+            "a": "HISTORY",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "kq0bchdr4749qo16lke0cpjuo5"
+        }},
+        {"a": {
+            "a": "INVESTIGATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "unf5gcmj55ici0jm7tghlfs6r6"
+        }},
+        {"a": {
+            "a": "NATURE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "uda87gj86loea8ae68p2cspitp"
+        }},
+        {"a": {
+            "a": "RELIGION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "i9elppa43oj50sfjlhhfn2an9s"
+        }},
+        {"a": {
+            "a": "INSIGHT",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "3s01e6j5buc1a761aimgmf9ug1"
+        }},
+        {"a": {
+            "a": "ANIMAL_HANDLING",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "419755nqo7u10g3m0bucauh0v6"
+        }},
+        {"a": {
+            "a": "MEDICINE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "8acon307v93oifio2lnvrlf5t6"
+        }},
+        {"a": {
+            "a": "PERCEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "ddajb37tnhhlbumghj1jtlv9g4"
+        }},
+        {"a": {
+            "a": "SURVIVAL",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "jfdlptecrd7q5cpsp2utun7hne"
+        }},
+        {"a": {
+            "a": "PERFORMANCE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "di0vovsfd9sr7e4japc9q0oork"
+        }},
+        {"a": {
+            "a": "DECEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "m8m16lb3pqtto2uj3em2nmqbgj"
+        }},
+        {"a": {
+            "a": "INTIMIDATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "r9h601nabsqvu7rc17ekk1k7ck"
+        }},
+        {"a": {
+            "a": "PERSUASION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "thnqdvtlnqcm8pg2gf3jk4d87g"
+        }}
+    ],
+    "g": [],
+    "h": [
+        {
+            "a": 0,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gv06v0e3knd1hnp1j7dof6iul4"
+        },
+        {
+            "a": 1,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "7m1j7vdsf1n6d3u54t46mrr0pp"
+        },
+        {
+            "a": 2,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "hg6bd5b98jb834v0332ghvnloo"
+        },
+        {
+            "a": 3,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "ffcjn4t0q0cki8o2rr2ogq9a57"
+        },
+        {
+            "a": 4,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "tbciptp1vpt6e2491fmco86fd8"
+        },
+        {
+            "a": 5,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "hk3pfi122ijp021vehg7o8aumd"
+        }
+    ],
+    "i": [],
+    "j": [],
+    "k": [],
+    "l": [],
+    "m": [],
+    "n": [],
+    "o": [],
+    "p": [],
+    "q": [],
+    "r": [],
+    "s": [],
+    "t": [
+        {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "fhr8qd8okjk4gnjepolcn33fml"
+        },
+        {
+            "a": 1,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "24shgpad5t2qn163ms4bhtau33"
+        },
+        {
+            "a": 2,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "b5fr0r9fq48i11mfvo6rcfngfj"
+        },
+        {
+            "a": 3,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "r04cqaqgdb0jc7lm7rf06e13of"
+        },
+        {
+            "a": 4,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "lh5qcfldj29mtm5p5lsfm6n0hf"
+        },
+        {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "gno9celnpd7katgf3m8q3hv81c"
+        },
+        {
+            "a": 6,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "n5rcgf04gr5hb19gqv8uhukgub"
+        },
+        {
+            "a": 7,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "bml8dgabu70gsr8gbs75vajulf"
+        },
+        {
+            "a": 8,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "k6lhumcic5vjovddnga6kva6ot"
+        },
+        {
+            "a": 9,
+            "b": 0,
+            "c": 0,
+            "d": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "b9eqvk5l6ogoreolqgm72fbf66"
+        }
+    ]
+}
