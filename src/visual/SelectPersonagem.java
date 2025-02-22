@@ -116,6 +116,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
         AdicionarPersonagemExistenteBotao.setBackground(new java.awt.Color(79, 79, 79));
         AdicionarPersonagemExistenteBotao.setForeground(new java.awt.Color(255, 255, 255));
         AdicionarPersonagemExistenteBotao.setText("Adicionar personagem existente");
+        AdicionarPersonagemExistenteBotao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         AdicionarPersonagemExistenteBotao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AdicionarPersonagemExistenteBotaoActionPerformed(evt);
@@ -125,6 +126,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
         NovoPersongemBotao.setBackground(new java.awt.Color(79, 79, 79));
         NovoPersongemBotao.setForeground(new java.awt.Color(255, 255, 255));
         NovoPersongemBotao.setText("Criar novo personagem");
+        NovoPersongemBotao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         NovoPersongemBotao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 NovoPersongemBotaoActionPerformed(evt);
