@@ -15,7 +15,7 @@
         "f": 4,
         "g": 1,
         "h": 5,
-        "i": 12,
+        "i": 0,
         "j": 84,
         "k": 0,
         "l": 84,
@@ -82,7 +82,7 @@
     "e": [
         {
             "a": "STRENGTH",
-            "b": 11,
+            "b": 12,
             "c": false,
             "d": "pqr655ngamrecoaeucv15s5j7k",
             "uuid": "keoi3pm19urtu0m45bbts53uvs"
