@@ -79,11 +79,15 @@ public static boolean FichaLerBool(JSONObject ficha, String campo, int i) {
         boolean resultadoBoolean = false;
         switch (campo) {
             case "Salvamento":
-                if (ficha.getJSONArray("a").length() > 0) {
+                if (ficha.getJSONArray("h").length() > 0) {
                     resultadoBoolean = ficha.getJSONArray("h").getJSONObject(i).getBoolean("b");
                 }
                 break;
-            
+            case "Inspiracao":
+                if (ficha.getJSONArray("a").length() > 0) {
+                    resultadoBoolean = ficha.getJSONArray("a").getJSONObject(i).getBoolean("e");
+                }
+                break;
 
         }
         return resultadoBoolean;

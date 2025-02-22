@@ -25,6 +25,7 @@ import static backend.Fun.Par.Geral.VidaP.VidaP;
 import static backend.Fun.Par.Geral.XpP.XpP;
 import static backend.Fun.Par.Geral.ScrollP.ScrollP;
 import static backend.Fun.Par.Geral.TesteSalvamentoP.TesteSalvamentoP;
+import static backend.Fun.Par.Geral.InspiracaoP.InspiracaoP;
 
 import org.json.JSONObject;
 
@@ -79,7 +80,7 @@ public class personagemFicha extends javax.swing.JFrame {
         PericiasP(personagemCaminho, ficha, PericiasContainer);
         CAP(ficha, BonusCALabel);
         IniciativaP(ficha, BonusIniciativaLabel);
-
+        InspiracaoP(personagemCaminho, ficha, InspiracaoLabel);
     }
 
     /**
@@ -191,6 +192,9 @@ public class personagemFicha extends javax.swing.JFrame {
         Fracesso1 = new javax.swing.JCheckBox();
         Fracesso2 = new javax.swing.JCheckBox();
         Fracesso3 = new javax.swing.JCheckBox();
+        jPanel18 = new javax.swing.JPanel();
+        jLabel45 = new javax.swing.JLabel();
+        InspiracaoLabel = new javax.swing.JLabel();
         jScrollPaneMochila = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
@@ -630,7 +634,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(PericiasContainer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel3Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel18)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -640,7 +644,7 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(jLabel18)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addGap(15, 15, 15)
                 .addComponent(PericiasContainer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
         );
@@ -940,7 +944,7 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addGap(0, 15, Short.MAX_VALUE)
+                .addGap(15, 15, 15)
                 .addComponent(BonusCALabel)
                 .addGap(15, 15, 15)
                 .addComponent(jLabel44)
@@ -1049,6 +1053,40 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(15, 15, 15))
         );
 
+        jPanel18.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel18.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(35, 35, 195), 2, true));
+        jPanel18.setPreferredSize(new java.awt.Dimension(221, 221));
+
+        jLabel45.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel45.setText("Iniciativa");
+
+        InspiracaoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/Unchecked.png"))); // NOI18N
+        InspiracaoLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel45)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(InspiracaoLabel)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                .addGap(0, 15, Short.MAX_VALUE)
+                .addComponent(InspiracaoLabel)
+                .addGap(0, 15, Short.MAX_VALUE)
+                .addComponent(jLabel45)
+                .addGap(15, 15, 15))
+        );
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -1082,10 +1120,11 @@ public class personagemFicha extends javax.swing.JFrame {
                                     .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
                                     .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE))
                                 .addGap(23, 23, 23)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(23, 23, 23)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel19, javax.swing.GroupLayout.DEFAULT_SIZE, 214, Short.MAX_VALUE)
+                                    .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 214, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(17, 17, 17))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
@@ -1161,7 +1200,9 @@ public class personagemFicha extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(23, 23, 23)
-                        .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(26, 26, 26)
+                        .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(23, 23, 23)
@@ -1450,6 +1491,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JCheckBox Fracesso2;
     private javax.swing.JCheckBox Fracesso3;
     private javax.swing.JLabel GeralNavBar;
+    private javax.swing.JLabel InspiracaoLabel;
     private javax.swing.JTextField IntLabel;
     private javax.swing.JLabel IntMod;
     private javax.swing.JCheckBox IntResCheck;
@@ -1500,6 +1542,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
@@ -1516,6 +1559,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
