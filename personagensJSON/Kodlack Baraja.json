@@ -363,250 +363,6 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "c": 2,
-                "d": true,
-                "e": false,
-                "f": "",
-                "uuid": "occ9nm41p6vl9kaavvqldgum5j"
-            },
-            "b": {
-                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "a": "pt",
-                "b": "perfurante",
-                "c": 2,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXORSTR",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Adaga",
-                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
-                "w": "Acuidade, leve, arremesso (distância 6/18)",
-                "x": "Acuidade, leve, arremesso (distância 20/60)",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 4,
-                "b": false,
-                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "uuid": "g5cvp74s9oglgk1akuek039jec"
-            }]
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "C4057AA2847E517F02D4DBEC24B5453B",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "169cf9pn9lnikr7kha17hktbjd"
-            },
-            "b": {
-                "uuid": "C4057AA2847E517F02D4DBEC24B5453B",
-                "a": "pt",
-                "b": "",
-                "c": 5,
-                "d": "GP",
-                "e": 2,
-                "f": 4,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Foco Arcano - Cajado",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "74988DD2F1399550F5DC3A80213600D9",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "1bnldvn6l00cof9b00o3kt0q5t"
-            },
-            "b": {
-                "uuid": "74988DD2F1399550F5DC3A80213600D9",
-                "a": "pt",
-                "b": "",
-                "c": 50,
-                "d": "GP",
-                "e": 1.5,
-                "f": 3,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Grimório",
-                "v": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "n9eo83i6g1j5nk1fqurpu8pl4r",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "4vpmsej0e311a0tekqfd4vtiec"
-            },
-            "b": {
-                "uuid": "n9eo83i6g1j5nk1fqurpu8pl4r",
-                "a": "pt",
-                "b": "",
-                "c": 400,
-                "d": "CP",
-                "e": 0.5,
-                "f": 0,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": true,
-                "u": "Pacote de estudioso",
-                "v": "Inclui uma mochila, um livro de estudo, um vidro de tinta, uma caneta tinteiro, 10 folhas de pergaminho, um saquinho de areia e uma pequena faca.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "6s9ap9657epk1e09r0l904qg95"
-            },
-            "b": {
-                "uuid": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "a": "pt",
-                "b": "cortante",
-                "c": 15,
-                "d": "GP",
-                "e": 1.5,
-                "f": 3,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Espada Longa",
-                "v": "",
-                "w": "Versátil (1d10)",
-                "x": "Versátil (1d10)",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 8,
-                "b": false,
-                "d": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "uuid": "EB9974FFDE83F7A1834B95FCF8EF017B"
-            }]
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "2899CE102C418966134437C2CB9C64FC",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "-Carne do Remorhaz 1\n-Capa de grimório 1\n-Livro de necrômancia 1\n-Pedrinha que brilha 1\n-Cristal que brilha 1\n-Papel de pergaminho 23\n-Pergaminho de enviar mensagem 1\n-Pergaminho de glifo de vigilância 4\n-Diario de um necromante 1\n-Pilha de ossos humanos 2\n-Poção desconhecida 1\n-Grimório do estudante de necrômancia 1\n-Grimório da samara 1\n-Diário do estudante de \nnêcromancia 1\nfrasco\n-frasco de sangue de dragão 1\n-poção de cura 1\n-cristal de raio 5\n-Dragões e seus inimigos. \n-Magia profanada: Hemomância. \n-Os ritos e costumes: Culto do Dragão. \n-Manual arcano: Conjuração máxima.\n-Manual arcano: Técnica conjurada \n-Klauth, o incinerador - A montanha de Quelle",
-                "uuid": "40fnfvflog0lf8cguhv9rd7qkk"
-            },
-            "b": {
-                "uuid": "2899CE102C418966134437C2CB9C64FC",
-                "a": "pt",
-                "b": "",
-                "c": 2,
-                "d": "GP",
-                "e": 2.5,
-                "f": 5,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Mochila",
-                "v": "",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": "00CE379CF6D788794771D7D7701574B5",
                 "c": 1,
                 "d": false,
@@ -725,6 +481,22 @@
                 "z": true
             },
             "c": []
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Alabarda",
+                "v": "",
+                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Alabarda",
+                "v": "",
+                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
+            }
         }
     ],
     "j": [

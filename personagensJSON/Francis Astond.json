@@ -439,7 +439,40 @@
             "uuid": "hk3pfi122ijp021vehg7o8aumd"
         }
     ],
-    "i": [],
+    "i": [
+        {
+            "a": {},
+            "b": {
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Azagaia",
+                "v": "",
+                "uuid": "0BA0F1CDC2248BBC350D9D3D5E8D61ED"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Orbe",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Machadinha",
+                "v": "",
+                "uuid": "3F2405A75349AC1F7C78B989D2BB21CD"
+            }
+        }
+    ],
     "j": [],
     "k": [],
     "l": [],

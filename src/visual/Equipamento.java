@@ -3,21 +3,32 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package visual;
-import backend.OpcoesVO;
+
+import org.json.*;
+import backend.Fun.Par.Mochila.EquipamentosJanelaP;
+import static backend.Fun.Par.Mochila.ItensPanelP.ItensPanelP;
 import javax.swing.*;
-import org.json.JSONObject;
+import java.awt.event.*;
+
 /**
  *
  * @author Admin
  */
-public class Opcoes extends javax.swing.JFrame {
-OpcoesVO OpcoesVo = new OpcoesVO();
-   
-    public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha, String ArrayNome) {
+public class Equipamento extends javax.swing.JFrame {
+
+    /**
+     * Creates new form Equipamento
+     */
+    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha) {
         initComponents();
-        jScrollPane2.getVerticalScrollBar().setUnitIncrement(5);
-       OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
-        OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha);
+        EquipamentosJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha);
+        BotaoSair.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
+            }
+        });
+
     }
 
     /**
@@ -29,13 +40,13 @@ OpcoesVO OpcoesVo = new OpcoesVO();
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        BotoesGrupo = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         BotaoSair = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
-        OpcaoContainer = new javax.swing.JPanel();
-        OpcaoPainel = new javax.swing.JPanel();
+        EquipamentoPainel = new javax.swing.JPanel();
+        EquipamentoSelect = new javax.swing.JComboBox<>();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -57,62 +68,54 @@ OpcoesVO OpcoesVo = new OpcoesVO();
         jScrollPane2.setBorder(null);
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-        OpcaoContainer.setBackground(new java.awt.Color(23, 23, 23));
+        EquipamentoPainel.setBackground(new java.awt.Color(23, 23, 23));
 
-        OpcaoPainel.setBackground(new java.awt.Color(23, 23, 23));
-        OpcaoPainel.setOpaque(false);
-        OpcaoPainel.setPreferredSize(new java.awt.Dimension(185, 0));
-
-        javax.swing.GroupLayout OpcaoPainelLayout = new javax.swing.GroupLayout(OpcaoPainel);
-        OpcaoPainel.setLayout(OpcaoPainelLayout);
-        OpcaoPainelLayout.setHorizontalGroup(
-            OpcaoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 187, Short.MAX_VALUE)
+        javax.swing.GroupLayout EquipamentoPainelLayout = new javax.swing.GroupLayout(EquipamentoPainel);
+        EquipamentoPainel.setLayout(EquipamentoPainelLayout);
+        EquipamentoPainelLayout.setHorizontalGroup(
+            EquipamentoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 232, Short.MAX_VALUE)
         );
-        OpcaoPainelLayout.setVerticalGroup(
-            OpcaoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        EquipamentoPainelLayout.setVerticalGroup(
+            EquipamentoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 406, Short.MAX_VALUE)
         );
 
-        javax.swing.GroupLayout OpcaoContainerLayout = new javax.swing.GroupLayout(OpcaoContainer);
-        OpcaoContainer.setLayout(OpcaoContainerLayout);
-        OpcaoContainerLayout.setHorizontalGroup(
-            OpcaoContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(OpcaoContainerLayout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(OpcaoPainel, javax.swing.GroupLayout.DEFAULT_SIZE, 187, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
-        );
-        OpcaoContainerLayout.setVerticalGroup(
-            OpcaoContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(OpcaoContainerLayout.createSequentialGroup()
-                .addComponent(OpcaoPainel, javax.swing.GroupLayout.DEFAULT_SIZE, 406, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
-        );
+        jScrollPane2.setViewportView(EquipamentoPainel);
 
-        jScrollPane2.setViewportView(OpcaoContainer);
+        EquipamentoSelect.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Arma", "Armadura", "Escudo", "Outros" }));
+
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Tipo de equipamento:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(0, 33, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1)
+                    .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 34, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 113, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(BotaoSair)
-                .addGap(0, 114, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
+                .addContainerGap(17, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(86, 86, 86)
                 .addComponent(BotaoSair)
-                .addGap(20, 20, 20))
+                .addGap(24, 24, 24))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -144,9 +147,9 @@ OpcoesVO OpcoesVo = new OpcoesVO();
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 1, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 1, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -154,6 +157,7 @@ OpcoesVO OpcoesVo = new OpcoesVO();
 
     private void BotaoSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoSairActionPerformed
         dispose();
+
     }//GEN-LAST:event_BotaoSairActionPerformed
 
     /**
@@ -173,13 +177,13 @@ OpcoesVO OpcoesVo = new OpcoesVO();
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Opcoes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Equipamento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Opcoes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Equipamento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Opcoes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Equipamento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Opcoes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Equipamento.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
@@ -192,9 +196,9 @@ OpcoesVO OpcoesVo = new OpcoesVO();
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotaoSair;
-    private javax.swing.ButtonGroup BotoesGrupo;
-    private javax.swing.JPanel OpcaoContainer;
-    private javax.swing.JPanel OpcaoPainel;
+    private javax.swing.JPanel EquipamentoPainel;
+    private javax.swing.JComboBox<String> EquipamentoSelect;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;

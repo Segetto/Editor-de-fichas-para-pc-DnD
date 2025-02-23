@@ -14,7 +14,8 @@ import org.json.JSONObject;
  * @author Admin
  */
 public class IniciativaP {
-        public static void IniciativaP(JSONObject ficha, JLabel IniciativaP){
+
+    public static void IniciativaP(JSONObject ficha, JLabel IniciativaP) {
         IniciativaP.setText("" + mod(FichaLerInt(ficha, "Status", 1), 0));
     }
 }
