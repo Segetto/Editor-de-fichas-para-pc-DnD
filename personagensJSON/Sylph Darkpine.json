@@ -479,6 +479,14 @@
             }
         },
         {
+            "a": {},
+            "b": {
+                "u": "Alabarda",
+                "v": "",
+                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
+            }
+        },
+        {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
@@ -640,6 +648,14 @@
             }]
         },
         {
+            "a": {},
+            "b": {
+                "u": "Arco Longo",
+                "v": "",
+                "uuid": "0E679E998A201676AB652F6B31A961E0"
+            }
+        },
+        {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "6EE5585CF75328CBAE9EEE6C893170FF",
@@ -777,6 +793,22 @@
                 "z": true
             },
             "c": []
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Cristal",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "F34DC1632899B70766FDD5E81B2BD8C1"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Orbe",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
+            }
         },
         {
             "a": {
@@ -938,6 +970,14 @@
                 "d": "8F5927A16191C5F06FFB6D71806B1F17",
                 "uuid": "8d9ekli03fmmm1h0sjrv87324p"
             }]
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Roldana e polia",
+                "v": "Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a roldana e polia permitem içar até quatro vezes o peso que você ergueria normalmente.",
+                "uuid": "E77E7F100E573FC46D8F52ED9A0791B0"
+            }
         }
     ],
     "j": [

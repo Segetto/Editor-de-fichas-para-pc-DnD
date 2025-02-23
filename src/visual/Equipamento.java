@@ -5,6 +5,7 @@
 package visual;
 
 import org.json.*;
+import static backend.Fun.Par.Geral.ScrollP.ScrollP;
 import backend.Fun.Par.Mochila.EquipamentosJanelaP;
 import static backend.Fun.Par.Mochila.ItensPanelP.ItensPanelP;
 import javax.swing.*;
@@ -21,6 +22,7 @@ public class Equipamento extends javax.swing.JFrame {
      */
     public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha) {
         initComponents();
+        jScrollPaneItens.getVerticalScrollBar().setUnitIncrement(10);
         EquipamentosJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
@@ -43,7 +45,7 @@ public class Equipamento extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         BotaoSair = new javax.swing.JButton();
-        jScrollPane2 = new javax.swing.JScrollPane();
+        jScrollPaneItens = new javax.swing.JScrollPane();
         EquipamentoPainel = new javax.swing.JPanel();
         EquipamentoSelect = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
@@ -64,9 +66,9 @@ public class Equipamento extends javax.swing.JFrame {
             }
         });
 
-        jScrollPane2.setBackground(new java.awt.Color(23, 23, 23));
-        jScrollPane2.setBorder(null);
-        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPaneItens.setBackground(new java.awt.Color(23, 23, 23));
+        jScrollPaneItens.setBorder(null);
+        jScrollPaneItens.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
         EquipamentoPainel.setBackground(new java.awt.Color(23, 23, 23));
 
@@ -81,7 +83,7 @@ public class Equipamento extends javax.swing.JFrame {
             .addGap(0, 406, Short.MAX_VALUE)
         );
 
-        jScrollPane2.setViewportView(EquipamentoPainel);
+        jScrollPaneItens.setViewportView(EquipamentoPainel);
 
         EquipamentoSelect.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Arma", "Armadura", "Escudo", "Outros" }));
 
@@ -95,14 +97,11 @@ public class Equipamento extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(0, 33, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPaneItens, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1)
-                    .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotaoSair))
                 .addGap(0, 34, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(BotaoSair)
-                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -112,7 +111,7 @@ public class Equipamento extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPaneItens, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(86, 86, 86)
                 .addComponent(BotaoSair)
                 .addGap(24, 24, 24))
@@ -201,6 +200,6 @@ public class Equipamento extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPaneItens;
     // End of variables declaration//GEN-END:variables
 }

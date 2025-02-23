@@ -360,168 +360,6 @@
         {
             "a": {
                 "a": "jema1585f0m2j5eea36jrai2hq",
-                "b": "9822810FE68E42BB459E016473630D46",
-                "c": 1,
-                "d": true,
-                "e": false,
-                "f": "",
-                "uuid": "726c3hqb3jh0ue3ogqejc7gcmu"
-            },
-            "b": {
-                "uuid": "9822810FE68E42BB459E016473630D46",
-                "a": "pt",
-                "b": "perfurante",
-                "c": 25,
-                "d": "GP",
-                "e": 1,
-                "f": 2,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXTERITY",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Arco Curto",
-                "v": "",
-                "w": "Munição (distância 24/96), duas mãos",
-                "x": "Munição (distância 80/320), duas mãos",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 6,
-                "b": false,
-                "d": "9822810FE68E42BB459E016473630D46",
-                "uuid": "B5857D3E500EA169B9810A093153CDC6"
-            }]
-        },
-        {
-            "a": {
-                "a": "jema1585f0m2j5eea36jrai2hq",
-                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "20/16 +1 de fogo",
-                "uuid": "rm8m9gg24rol6b9cej98rllmdi"
-            },
-            "b": {
-                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "a": "pt",
-                "b": "",
-                "c": 1,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Aljava",
-                "v": "Uma aljava pode guardar até 20 flechas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "jema1585f0m2j5eea36jrai2hq",
-                "b": "afputpb386fe7803hoa6fm6d49",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "vg6esn2vteh97nhhhh4a93346r"
-            },
-            "b": {
-                "uuid": "afputpb386fe7803hoa6fm6d49",
-                "a": "pt",
-                "b": "",
-                "c": 160,
-                "d": "CP",
-                "e": 0.5,
-                "f": 0,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": true,
-                "u": "Pacote de assaltante",
-                "v": "Inclui uma mochila, um saco com 1.000 esferas de metal, 3 metros de linha, um sino, 5 velas, um pé de cabra, um martelo, 10 pítons, uma lanterna coberta, 2 frascos de óleo, 5 dias de rações, uma caixa de fogo e um cantil. O kit também possui 15 metros de corda de cânhamo amarrada ao lado dele",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "jema1585f0m2j5eea36jrai2hq",
-                "b": "2F18668F602E0DA0E8806A30B4EC0DEF",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "i17e2g7t58m8k6cgchgs33fbee"
-            },
-            "b": {
-                "uuid": "2F18668F602E0DA0E8806A30B4EC0DEF",
-                "a": "pt",
-                "b": "",
-                "c": 10,
-                "d": "GP",
-                "e": 5,
-                "f": 10,
-                "g": 1,
-                "h": "UN",
-                "i": "ARMOR",
-                "j": 11,
-                "k": "DEXTERITY",
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Armadura de Couro",
-                "v": "",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "jema1585f0m2j5eea36jrai2hq",
                 "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
                 "c": 1,
                 "d": true,
@@ -608,43 +446,12 @@
             }]
         },
         {
-            "a": {
-                "a": "jema1585f0m2j5eea36jrai2hq",
-                "b": "j8u4t306fiidiklghojtboasmc",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "rlu08mjnn84ft2mau7tdlcffni"
-            },
+            "a": {},
             "b": {
-                "uuid": "j8u4t306fiidiklghojtboasmc",
-                "a": "pt",
-                "b": "",
-                "c": 2500,
-                "d": "CP",
-                "e": 0.5,
-                "f": 0,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": true,
-                "u": "Ferramentas de ladrão ",
-                "v": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
+                "u": "Alabarda",
+                "v": "",
+                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
+            }
         },
         {
             "a": {
@@ -678,6 +485,129 @@
                 "t": false,
                 "u": "Algibeira",
                 "v": "Uma bolsa de pano ou couro que pode armazenar até 20 munições de funda ou 50 munições de zarabatana, entre outras coisas. Para armazenar componentes de magia, veja bolsa de componentes, também descrita nessa seção.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "jema1585f0m2j5eea36jrai2hq",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/16 +1 de fogo",
+                "uuid": "rm8m9gg24rol6b9cej98rllmdi"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "jema1585f0m2j5eea36jrai2hq",
+                "b": "9822810FE68E42BB459E016473630D46",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "",
+                "uuid": "726c3hqb3jh0ue3ogqejc7gcmu"
+            },
+            "b": {
+                "uuid": "9822810FE68E42BB459E016473630D46",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 25,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Arco Curto",
+                "v": "",
+                "w": "Munição (distância 24/96), duas mãos",
+                "x": "Munição (distância 80/320), duas mãos",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 6,
+                "b": false,
+                "d": "9822810FE68E42BB459E016473630D46",
+                "uuid": "B5857D3E500EA169B9810A093153CDC6"
+            }]
+        },
+        {
+            "a": {
+                "a": "jema1585f0m2j5eea36jrai2hq",
+                "b": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "i17e2g7t58m8k6cgchgs33fbee"
+            },
+            "b": {
+                "uuid": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "a": "pt",
+                "b": "",
+                "c": 10,
+                "d": "GP",
+                "e": 5,
+                "f": 10,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 11,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro",
+                "v": "",
                 "w": "",
                 "x": "",
                 "y": "",
@@ -724,6 +654,69 @@
                 "z": true
             },
             "c": []
+        },
+        {
+            "a": {
+                "a": "jema1585f0m2j5eea36jrai2hq",
+                "b": "j8u4t306fiidiklghojtboasmc",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "rlu08mjnn84ft2mau7tdlcffni"
+            },
+            "b": {
+                "uuid": "j8u4t306fiidiklghojtboasmc",
+                "a": "pt",
+                "b": "",
+                "c": 2500,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Ferramentas de ladrão ",
+                "v": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Cajado",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "C4057AA2847E517F02D4DBEC24B5453B"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Cristal",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "F34DC1632899B70766FDD5E81B2BD8C1"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Foco Arcano - Orbe",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
+            }
         },
         {
             "a": {
@@ -776,6 +769,45 @@
                     "uuid": "490mrml1gqjahdlk0757br6lca"
                 }
             ]
+        },
+        {
+            "a": {
+                "a": "jema1585f0m2j5eea36jrai2hq",
+                "b": "afputpb386fe7803hoa6fm6d49",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "vg6esn2vteh97nhhhh4a93346r"
+            },
+            "b": {
+                "uuid": "afputpb386fe7803hoa6fm6d49",
+                "a": "pt",
+                "b": "",
+                "c": 160,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Pacote de assaltante",
+                "v": "Inclui uma mochila, um saco com 1.000 esferas de metal, 3 metros de linha, um sino, 5 velas, um pé de cabra, um martelo, 10 pítons, uma lanterna coberta, 2 frascos de óleo, 5 dias de rações, uma caixa de fogo e um cantil. O kit também possui 15 metros de corda de cânhamo amarrada ao lado dele",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
         }
     ],
     "j": [

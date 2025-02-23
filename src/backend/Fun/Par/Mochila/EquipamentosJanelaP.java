@@ -25,6 +25,28 @@ public class EquipamentosJanelaP {
     public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha) {
         String Opcao = (String) Opcoes.getSelectedItem();
         AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha);
+        java.util.List<JSONObject> lista = new java.util.ArrayList<>();
+        for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
+            lista.add(ficha.getJSONArray("i").getJSONObject(i));
+        }
+
+        // Ordenando a lista com base no campo "b.u"
+        Collections.sort(lista, new Comparator<JSONObject>() {
+            @Override
+            public int compare(JSONObject a, JSONObject b) {
+                Collator collator = Collator.getInstance(new Locale("pt", "BR"));
+                collator.setStrength(Collator.PRIMARY); // Ignora diferenças de acento
+                String nomeA = a.getJSONObject("b").getString("u");
+                String nomeB = b.getJSONObject("b").getString("u");
+                return collator.compare(nomeA, nomeB);
+            }
+        });
+
+        // Convertendo de volta para JSONArray
+        JSONArray jsonArrayOrdenado = new JSONArray(lista);
+        ficha.put("i", jsonArrayOrdenado);
+        SalvarFicha(ficha, personagemCaminho);
+
         Opcoes.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -36,6 +58,7 @@ public class EquipamentosJanelaP {
     }
 
     public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha) {
+
         PainelItens.removeAll();
         PainelItens.revalidate();
         PainelItens.repaint();

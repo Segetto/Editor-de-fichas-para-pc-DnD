@@ -89,6 +89,7 @@ public class personagemFicha extends javax.swing.JFrame {
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
         ItensPanelP(personagemCaminho, ficha, PainelItens);
         EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens);
+        jScrollPaneMochilaItens.getVerticalScrollBar().setUnitIncrement(10);
     }
 
     /**
@@ -215,7 +216,7 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         AddEquip = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        jScrollPaneMochilaItens = new javax.swing.JScrollPane();
         PainelItens = new javax.swing.JPanel();
         jScrollPaneFeiticos = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
@@ -1367,9 +1368,9 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jScrollPane1.setBorder(null);
-        jScrollPane1.setOpaque(false);
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(606, 200));
+        jScrollPaneMochilaItens.setBorder(null);
+        jScrollPaneMochilaItens.setOpaque(false);
+        jScrollPaneMochilaItens.setPreferredSize(new java.awt.Dimension(606, 200));
 
         PainelItens.setBackground(new java.awt.Color(23, 23, 23));
         PainelItens.setMaximumSize(new java.awt.Dimension(43, 606));
@@ -1385,7 +1386,7 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGap(0, 432, Short.MAX_VALUE)
         );
 
-        jScrollPane1.setViewportView(PainelItens);
+        jScrollPaneMochilaItens.setViewportView(PainelItens);
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -1396,7 +1397,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(AddEquip, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1406,7 +1407,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE))
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE))
         );
 
         jScrollPaneMochila.setViewportView(jPanel15);
@@ -1744,11 +1745,11 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPaneCarClasse;
     private javax.swing.JScrollPane jScrollPaneFeiticos;
     private javax.swing.JScrollPane jScrollPaneGeral;
     private javax.swing.JScrollPane jScrollPaneMochila;
+    private javax.swing.JScrollPane jScrollPaneMochilaItens;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JButton salvarBotao;
