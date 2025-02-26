@@ -77,4 +77,21 @@ public class jsonParser {
             System.out.println("Falha ao sobrescrever o arquivo. \n Erro: " + e);
         }
     }
+    public void sobrescreverArray(String CaminhoArquivo, String ArquivoString) {
+        try {
+            String caminhoArquivo = CaminhoArquivo;
+            JSONArray ArquivoNovo = new JSONArray(ArquivoString);
+            FileWriter file = new FileWriter(caminhoArquivo, false);
+            file.write(ArquivoNovo.toString(4)); // O '4' é para formatar o JSON com uma indentação de 4 espaços
+            file.close();
+           
+                System.out.println("Arquivo JSON sobrescrito com sucesso.");
+            
+                
+            
+
+        } catch (IOException e) {
+            System.out.println("Falha ao sobrescrever o arquivo. \n Erro: " + e);
+        }
+    }
 }

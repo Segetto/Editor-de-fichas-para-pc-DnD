@@ -44,8 +44,8 @@
         "t": false,
         "u": "Adaga",
         "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
-        "w": "Acuidade, leve, arremesso (distância 6/18)",
-        "x": "Acuidade, leve, arremesso (distância 20/60)"
+        "w": "Acuidade, leve, arremesso (distância 6/18)"
+       
     },
     {
         "a": "pt",
@@ -77,8 +77,8 @@
         "s": 0,
         "t": false,
         "u": "Alabarda",
-        "w": "Pesada, alcance, duas mãos",
-        "x": "Pesada, alcance, duas mãos"
+        "w": "Pesada, alcance, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -178,8 +178,8 @@
         "s": 0,
         "t": false,
         "u": "Arco Curto",
-        "w": "Munição (distância 24/96), duas mãos",
-        "x": "Munição (distância 80/320), duas mãos"
+        "w": "Munição (distância 24/96), duas mãos"
+       
     },
     {
         "a": "pt",
@@ -197,8 +197,8 @@
         "s": 0,
         "t": false,
         "u": "Arco Longo",
-        "w": "pesada, duas mãos",
-        "x": "pesada, duas mãos"
+        "w": "pesada, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -319,8 +319,8 @@
         "s": 0,
         "t": false,
         "u": "Azagaia",
-        "w": "Arremesso (distância 9/36)",
-        "x": "Arremesso (distância 30/120)"
+        "w": "Arremesso (distância 9/36)"
+       
     },
     {
         "a": "pt",
@@ -391,8 +391,8 @@
         "s": 0,
         "t": false,
         "u": "Besta de Mão",
-        "w": "Munição (distância 9/36), leve, recarga",
-        "x": "Munição (distância 30/120), leve, recarga"
+        "w": "Munição (distância 9/36), leve, recarga"
+       
     },
     {
         "a": "pt",
@@ -410,8 +410,8 @@
         "s": 0,
         "t": false,
         "u": "Besta Leve",
-        "w": "Munição (distância 24/96), recarga, duas mãos",
-        "x": "Munição (distância 80/320), recarga, duas mãos"
+        "w": "Munição (distância 24/96), recarga, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -429,8 +429,8 @@
         "s": 0,
         "t": false,
         "u": "Besta Pesada",
-        "w": "Munição (distância 9/36), pesada, recarga, duas mãos",
-        "x": "Munição (distância 30/120), pesada, recarga, duas mãos"
+        "w": "Munição (distância 9/36), pesada, recarga, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -462,8 +462,8 @@
         "s": 0,
         "t": false,
         "u": "Bordão",
-        "w": "Versátil (1d8)",
-        "x": "Versátil (1d8)"
+        "w": "Versátil (1d8)"
+       
     },
     {
         "a": "pt",
@@ -580,8 +580,8 @@
         "s": 0,
         "t": false,
         "u": "Chicote",
-        "w": "Acuidade, alcance",
-        "x": "Acuidade, alcance"
+        "w": "Acuidade, alcance"
+       
     },
     {
         "a": "pt",
@@ -599,8 +599,8 @@
         "s": 0,
         "t": false,
         "u": "Cimitarra",
-        "w": "Acuidade, leve",
-        "x": "Acuidade, leve"
+        "w": "Acuidade, leve"
+       
     },
     {
         "a": "pt",
@@ -618,8 +618,8 @@
         "s": 0,
         "t": false,
         "u": "Clava Grande",
-        "w": "Pesada, duas mãos",
-        "x": "Pesada, duas mãos"
+        "w": "Pesada, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -738,8 +738,8 @@
         "s": 0,
         "t": false,
         "u": "Dardo",
-        "w": "Acuidade, arremesso (distância 6/18)",
-        "x": "Acuidade, arremesso (distância 20/60)"
+        "w": "Acuidade, arremesso (distância 6/18)"
+       
     },
     {
         "a": "pt",
@@ -812,8 +812,8 @@
         "s": 0,
         "t": false,
         "u": "Espada Curta",
-        "w": "Acuidade, leve",
-        "x": "Acuidade, leve"
+        "w": "Acuidade, leve"
+       
     },
     {
         "a": "pt",
@@ -831,8 +831,8 @@
         "s": 0,
         "t": false,
         "u": "Espada Grande",
-        "w": "Pesada, duas mãos",
-        "x": "Pesada, duas mãos"
+        "w": "Pesada, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -850,8 +850,8 @@
         "s": 0,
         "t": false,
         "u": "Espada Longa",
-        "w": "Versátil (1d10)",
-        "x": "Versátil (1d10)"
+        "w": "Versátil (1d10)"
+       
     },
     {
         "a": "pt",
@@ -1050,8 +1050,8 @@
         "s": 0,
         "t": false,
         "u": "Foice Curta",
-        "w": "Leve",
-        "x": "Leve"
+        "w": "Leve"
+       
     },
     {
         "a": "pt",
@@ -1082,8 +1082,8 @@
         "s": 0,
         "t": false,
         "u": "Funda",
-        "w": "Munição (distância 9/36)",
-        "x": "Munição (distância 30/120)"
+        "w": "Munição (distância 9/36)"
+       
     },
     {
         "a": "pt",
@@ -1101,8 +1101,8 @@
         "s": 0,
         "t": false,
         "u": "Galive",
-        "w": "Pesada, alcance, duas mãos",
-        "x": "Pesada, alcance, duas mãos"
+        "w": "Pesada, alcance, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -1231,8 +1231,8 @@
         "s": 0,
         "t": false,
         "u": "Lança",
-        "w": "Arremesso (distância 6/18), versátil (1d8)",
-        "x": "Arremesso (distância 20/60), versátil (1d8)"
+        "w": "Arremesso (distância 6/18), versátil (1d8)"
+       
     },
     {
         "a": "pt",
@@ -1250,8 +1250,8 @@
         "s": 0,
         "t": false,
         "u": "Lança de Montaria",
-        "w": "Alcance, especial",
-        "x": "Alcance, especial"
+        "w": "Alcance, especial"
+       
     },
     {
         "a": "pt",
@@ -1269,8 +1269,8 @@
         "s": 0,
         "t": false,
         "u": "Lança Longa",
-        "w": "Pesada, alcance, duas mãos",
-        "x": "Pesada, alcance, duas mãos"
+        "w": "Pesada, alcance, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -1358,8 +1358,8 @@
         "s": 0,
         "t": false,
         "u": "Maça",
-        "w": "-",
-        "x": "-"
+        "w": "-"
+       
     },
     {
         "a": "pt",
@@ -1377,8 +1377,8 @@
         "s": 0,
         "t": false,
         "u": "Maça Estrela",
-        "w": "-",
-        "x": "-"
+        "w": "-"
+       
     },
     {
         "a": "pt",
@@ -1396,8 +1396,8 @@
         "s": 0,
         "t": false,
         "u": "Machadinha",
-        "w": "Leve, arremesso (distância 6/18)",
-        "x": "Leve, arremesso (distância 20/60)"
+        "w": "Leve, arremesso (distância 6/18)"
+       
     },
     {
         "a": "pt",
@@ -1415,8 +1415,8 @@
         "s": 0,
         "t": false,
         "u": "Machado de Batalha",
-        "w": "Versátil (1d10)",
-        "x": "Versátil (1d10)"
+        "w": "Versátil (1d10)"
+       
     },
     {
         "a": "pt",
@@ -1434,8 +1434,8 @@
         "s": 0,
         "t": false,
         "u": "Machado Grande",
-        "w": "Pesada, duas mãos",
-        "x": "Pesada, duas mãos"
+        "w": "Pesada, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -1453,8 +1453,8 @@
         "s": 0,
         "t": false,
         "u": "Malho",
-        "w": "Pesada, duas mãos",
-        "x": "Pesada, duas mãos"
+        "w": "Pesada, duas mãos"
+       
     },
     {
         "a": "pt",
@@ -1472,8 +1472,8 @@
         "s": 0,
         "t": false,
         "u": "Mangual",
-        "w": "-",
-        "x": "-"
+        "w": "-"
+       
     },
     {
         "a": "pt",
@@ -1530,8 +1530,8 @@
         "s": 0,
         "t": false,
         "u": "Martelo de Guerra",
-        "w": "Versátil (1d10)",
-        "x": "Versátil (1d10)"
+        "w": "Versátil (1d10)"
+       
     },
     {
         "a": "pt",
@@ -1549,8 +1549,8 @@
         "s": 0,
         "t": false,
         "u": "Martelo Leve",
-        "w": "Leve, arremesso (distância 6/18)",
-        "x": "Leve, arremesso (distância 20/60)"
+        "w": "Leve, arremesso (distância 6/18)"
+       
     },
     {
         "a": "pt",
@@ -1772,8 +1772,8 @@
         "s": 0,
         "t": false,
         "u": "Picareta de Guerra",
-        "w": "-",
-        "x": "-"
+        "w": "-"
+       
     },
     {
         "a": "pt",
@@ -1831,8 +1831,8 @@
         "s": 0,
         "t": false,
         "u": "Porrete",
-        "w": "Leve",
-        "x": "Leve"
+        "w": "Leve"
+       
     },
     {
         "a": "pt",
@@ -1905,8 +1905,8 @@
         "s": 0,
         "t": false,
         "u": "Rapieira",
-        "w": "Acuidade",
-        "x": "Acuidade"
+        "w": "Acuidade"
+       
     },
     {
         "a": "pt",
@@ -1924,8 +1924,8 @@
         "s": 0,
         "t": false,
         "u": "Rede",
-        "w": "Especial, arremesso (distância 1,5/4,5)",
-        "x": "Especial, arremesso (distância 5/15)"
+        "w": "Especial, arremesso (distância 1,5/4,5)"
+       
     },
     {
         "a": "pt",
@@ -2166,8 +2166,8 @@
         "s": 0,
         "t": false,
         "u": "Tridente",
-        "w": "Arremesso (6/18), versátil (1d8)",
-        "x": "Arremesso (20/60), versátil (1d8)"
+        "w": "Arremesso (6/18), versátil (1d8)"
+       
     },
     {
         "a": "pt",
@@ -2224,8 +2224,8 @@
         "s": 0,
         "t": false,
         "u": "Zarabatana",
-        "w": "Dano 1, Munição (distância 7,5/30), recarga",
-        "x": "Dano 1, Munição (distância 25/100), recarga"
+        "w": "Dano 1, Munição (distância 7,5/30), recarga"
+       
     },
     {
         "a": "pt",

@@ -28,7 +28,7 @@ import static backend.Fun.Par.Geral.TesteSalvamentoP.*;
 import static backend.Fun.Par.Geral.InspiracaoP.*;
 import static backend.Fun.Par.Geral.PercepcaoPassivaP.*;
 import static backend.Fun.Par.Geral.MovimentacaoP.*;
-import static backend.Fun.Par.Mochila.ItensPanelP.*;
+import static backend.Fun.Par.Inventario.InventarioPanelP.*;
 import static backend.Fun.Par.Geral.EqupamentosAddP.EquipamentosAddP;
 
 import org.json.JSONObject;
@@ -238,12 +238,12 @@ public class personagemFicha extends javax.swing.JFrame {
 
         MochilaNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
         MochilaNavBar.setForeground(new java.awt.Color(255, 255, 255));
-        MochilaNavBar.setText("Mochila");
+        MochilaNavBar.setText("Inventário");
         MochilaNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         FeiticosNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
         FeiticosNavBar.setForeground(new java.awt.Color(255, 255, 255));
-        FeiticosNavBar.setText("Feitiços");
+        FeiticosNavBar.setText("Magias");
         FeiticosNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         CaracteristicasNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N

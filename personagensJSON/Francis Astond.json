@@ -80,6 +80,16 @@
                 "b": "Bruxo",
                 "uuid": "BE7427B68511031EFF6654CA8EC058E4"
             }
+        },
+        {
+            "a": {
+                "a": "UN84PJXJAAR3AXP2LPEEJWKUZPC9KS9E",
+                "c": 4
+            },
+            "b": {
+                "b": "Ranger revisado",
+                "uuid": "UN84PJXJAAR3AXP2LPEEJWKUZPC9KS9E"
+            }
         }
     ],
     "e": [
@@ -443,9 +453,57 @@
         {
             "a": {},
             "b": {
+                "u": "Malho",
+                "v": "",
+                "uuid": "F92167419AD15E876E680663E8360B38"
+            }
+        },
+        {
+            "a": {},
+            "b": {
                 "u": "Adaga",
                 "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
                 "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Arco Longo",
+                "v": "",
+                "uuid": "0E679E998A201676AB652F6B31A961E0"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Besta de Mão",
+                "v": "",
+                "uuid": "08F9ED9421B238637CA001FC88BE59E1"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Besta Pesada",
+                "v": "",
+                "uuid": "3D9880F2528541337CFD2ABDCF8230EF"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Chicote",
+                "v": "",
+                "uuid": "BAA3BEBB5A052DA6FB63EC232819F2DE"
+            }
+        },
+        {
+            "a": {},
+            "b": {
+                "u": "Cimitarra",
+                "v": "",
+                "uuid": "F36AA3D28A9B77E1967F5D6D8BC11641"
             }
         },
         {
@@ -459,17 +517,9 @@
         {
             "a": {},
             "b": {
-                "u": "Foco Arcano - Orbe",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
-            }
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Machadinha",
+                "u": "Arco Curto",
                 "v": "",
-                "uuid": "3F2405A75349AC1F7C78B989D2BB21CD"
+                "uuid": "9822810FE68E42BB459E016473630D46"
             }
         }
     ],

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package backend.Fun.Par.Mochila;
+package backend.Fun.Par.Inventario;
 
 import static backend.jsonParser.LerArray;
 import static backend.Fun.SalvarFicha.SalvarFicha;
@@ -20,11 +20,11 @@ import java.util.*;
  *
  * @author Admin
  */
-public class EquipamentosJanelaP {
+public class InventarioJanelaP {
 
-    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha) {
+    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados) {
         String Opcao = (String) Opcoes.getSelectedItem();
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha);
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados);
         java.util.List<JSONObject> lista = new java.util.ArrayList<>();
         for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
             lista.add(ficha.getJSONArray("i").getJSONObject(i));
@@ -51,13 +51,13 @@ public class EquipamentosJanelaP {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String NewOpcao = (String) Opcoes.getSelectedItem();
-                AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, NewOpcao, PainelItensFicha);
+                AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, NewOpcao, PainelItensFicha, AdicionarSelecionados);
 
             }
         });
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados) {
 
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -70,17 +70,11 @@ public class EquipamentosJanelaP {
         gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
         gbc.insets = new Insets(0, 0, 5, 0); // Espaço entre os itens
         JSONArray itens = new JSONArray(LerArray("ASSETS/Equipamento.json"));
-        int QtdItensFicha = 0;
+        JSONArray ItensNovos = new JSONArray();
         for (int i = 0; i < itens.length(); i++) {
             JPanel PainelItem = new JPanel();
             JCheckBox check = new JCheckBox();
-            if (ficha.getJSONArray("i").length() != 0 && ficha.getJSONArray("i").length() > QtdItensFicha) {
-                if (ficha.getJSONArray("i").getJSONObject(QtdItensFicha).getJSONObject("b").getString("uuid").equals(itens.getJSONObject(i).getString("uuid"))) {
-                    check.setSelected(true);
-                    QtdItensFicha++;
 
-                }
-            }
             PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
             JPanel PainelNomeItem = new JPanel(new FlowLayout(FlowLayout.LEFT));
             JLabel NomeItem = new JLabel(itens.getJSONObject(i).getString("u"));
@@ -100,16 +94,18 @@ public class EquipamentosJanelaP {
             PainelDescricaoItem.add(DescricaoItem);
 
             gbc.gridy = i; // Define a posição na grade
-            PainelItem.setOpaque(false);
             PainelNomeItem.setOpaque(false);
             PainelDescricaoItem.setOpaque(false);
             PainelItem.add(PainelNomeItem, BorderLayout.NORTH);
             PainelNomeItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             PainelNomeItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
+
             if (TipoItem.equals(itens.getJSONObject(i).getString("i"))) {
+                PainelItem.setOpaque(false);
                 PainelItens.add(PainelItem, gbc);
+                PainelItens.revalidate();
+                PainelItens.repaint();
             }
-            int QtdItensFichaComp = QtdItensFicha - 1;
             int iComp = i;
             PainelNomeItem.addMouseListener(new MouseAdapter() {
                 @Override
@@ -124,48 +120,49 @@ public class EquipamentosJanelaP {
                     PainelItem.repaint();
                 }
             });
+
             check.addItemListener(new ItemListener() {
+                int posicao = 0;
 
                 public void itemStateChanged(ItemEvent e) {
+                    JSONObject NovoItem = new JSONObject();
                     if (e.getStateChange() == ItemEvent.SELECTED) {
                         String descricao = "";
                         if (itens.getJSONObject(iComp).has("v")) {
                             descricao = itens.getJSONObject(iComp).getString("v");
                         }
-                        ficha.getJSONArray("i").put(new JSONObject()
+                        NovoItem
                                 .put("a", new JSONObject())
                                 .put("b", new JSONObject()
                                         .put("uuid", itens.getJSONObject(iComp).getString("uuid"))
                                         .put("u", itens.getJSONObject(iComp).getString("u"))
-                                        .put("v", descricao)
-                                ));
+                                        .put("v", descricao));
+                        ItensNovos.put(NovoItem);
+                        System.out.println("Itens no vetor: " + ItensNovos);
+                        System.out.println("Item adicionado: " + NovoItem);
+                        System.out.println("Tamanho do vetor: " + ItensNovos.length());
+                        posicao = ItensNovos.length() - 1;
                     } else {
-                        ficha.getJSONArray("i").remove(QtdItensFichaComp);
+                        System.out.println("Item removido: " + ItensNovos.getJSONObject(posicao));
+                        ItensNovos.remove(posicao);
+                        System.out.println("Itens no vetor: " + ItensNovos);
                     }
-                    java.util.List<JSONObject> lista = new java.util.ArrayList<>();
-                    for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
-                        lista.add(ficha.getJSONArray("i").getJSONObject(i));
-                    }
-
-                    // Ordenando a lista com base no campo "b.u"
-                    Collections.sort(lista, new Comparator<JSONObject>() {
-                        @Override
-                        public int compare(JSONObject a, JSONObject b) {
-                            Collator collator = Collator.getInstance(new Locale("pt", "BR"));
-                            collator.setStrength(Collator.PRIMARY); // Ignora diferenças de acento
-                            String nomeA = a.getJSONObject("b").getString("u");
-                            String nomeB = b.getJSONObject("b").getString("u");
-                            return collator.compare(nomeA, nomeB);
-                        }
-                    });
-
-                    // Convertendo de volta para JSONArray
-                    JSONArray jsonArrayOrdenado = new JSONArray(lista);
-                    ficha.put("i", jsonArrayOrdenado);
-                    SalvarFicha(ficha, personagemCaminho);
                 }
             });
-
         }
+        AdicionarSelecionados.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                ItensNovos.forEach(Item -> {
+                    ficha.getJSONArray("i").put(Item);
+                });
+
+                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
+                SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
+                SalvarFicha(ficha, personagemCaminho);
+
+            }
+        });
+
     }
 }
