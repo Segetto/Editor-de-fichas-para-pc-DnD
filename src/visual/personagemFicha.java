@@ -51,6 +51,10 @@ public class personagemFicha extends javax.swing.JFrame {
         JSONObject ficha = new JSONObject(jsonParser.LerArquivo(personagemCaminho));
 
         JanelaP(jPanel2);
+        JanelaP(jPanel15);
+        JanelaP(PainelItens);
+        JanelaP(jPanel8);
+
         ScrollP(jScrollPaneGeral, jScrollPaneMochila, jScrollPaneFeiticos, jScrollPaneCarClasse);
         NavBarP(AppScrollPane, GeralNavBar, MochilaNavBar, FeiticosNavBar, CaracteristicasNavBar);
         StatusP(personagemCaminho, ForLabel, ForMod, ficha, 0);
@@ -1407,7 +1411,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE))
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE))
         );
 
         jScrollPaneMochila.setViewportView(jPanel15);

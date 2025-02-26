@@ -132,7 +132,9 @@ public class InventarioJanelaP {
                             descricao = itens.getJSONObject(iComp).getString("v");
                         }
                         NovoItem
-                                .put("a", new JSONObject())
+                                .put("a", new JSONObject()
+                                        .put("f", itens.getJSONObject(iComp).getString("f"))
+                                )
                                 .put("b", new JSONObject()
                                         .put("uuid", itens.getJSONObject(iComp).getString("uuid"))
                                         .put("u", itens.getJSONObject(iComp).getString("u"))

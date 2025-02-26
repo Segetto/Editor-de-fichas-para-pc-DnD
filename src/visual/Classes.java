@@ -6,7 +6,7 @@ package visual;
 
 import javax.swing.*;
 import java.awt.event.*;
-import backend.ClassesVO;
+import backend.ClassesP;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import static backend.Fun.ClassesLabel.ClassesLabel;
 import static backend.Fun.Par.ClassesJanela.NewClasseP.NewClasseP;
@@ -25,7 +25,7 @@ public class Classes extends javax.swing.JFrame {
     public Classes(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, String nome, JLabel LevelLabel) {
         initComponents();
 
-        ClassesVO Classes = new ClassesVO();
+        ClassesP Classes = new ClassesP();
         Classes.ClassesOptions(ClassesPainel, ficha);
 
         BotaoSair.addActionListener(new ActionListener() {

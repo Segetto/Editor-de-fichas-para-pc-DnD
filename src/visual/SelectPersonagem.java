@@ -19,6 +19,8 @@ import java.awt.event.ActionListener;
 import backend.jsonParser;
 import backend.Fun.trocarPainel;
 import java.awt.Color;
+import java.awt.Insets;
+import javax.swing.border.MatteBorder;
 
 /**
  *
@@ -269,7 +271,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
             UIManager.put("Spinner.buttonArrowColor", new Color(255, 255, 255));
             UIManager.put("Spinner.buttonBackground", new Color(23, 23, 23));
             UIManager.put("Spinner.buttonSeparatorColor", new Color(23, 23, 23));
-
+            
         } catch (Exception e) {
             e.printStackTrace();
         }

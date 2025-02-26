@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package visual;
-import backend.OpcoesVO;
+import backend.OpcoesP;
 import javax.swing.*;
 import org.json.JSONObject;
 /**
@@ -11,7 +11,7 @@ import org.json.JSONObject;
  * @author Admin
  */
 public class Opcoes extends javax.swing.JFrame {
-OpcoesVO OpcoesVo = new OpcoesVO();
+OpcoesP OpcoesVo = new OpcoesP();
    
     public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha, String ArrayNome) {
         initComponents();

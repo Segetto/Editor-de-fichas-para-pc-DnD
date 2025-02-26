@@ -25,7 +25,7 @@ import org.json.JSONArray;
  *
  * @author Admin
  */
-public class ClassesVO {
+public class ClassesP {
 
     jsonParser arquivo = new jsonParser();
 

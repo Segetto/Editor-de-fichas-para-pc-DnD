@@ -21,7 +21,7 @@ import org.json.JSONObject;
  *
  * @author Admin
  */
-public class OpcoesVO {
+public class OpcoesP {
 
     public void AddOpcoes(JSONObject ficha, String TipoOpcao, ButtonGroup BotoesGrupo, JPanel Painel, String ArrayNome) {
         Painel.setLayout(new BoxLayout(Painel, BoxLayout.Y_AXIS));
