@@ -122,14 +122,14 @@ public class InventarioPanelP {
                         Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
                     }
                 }
-                JLabel InfArmaAtaque = new JLabel("Ataque");
+                JLabel InfArmaAtaque = new JLabel("-");
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("d")) {
                     InfArmaAtaque.setText("" + mod(Status, Proficiencia(ficha)));
                 } else {
                     InfArmaAtaque.setText(mod(Status, 0));
                 }
-                JLabel InfArmaDano = new JLabel("Dano");
-                JLabel InfArmaTipo = new JLabel("Tipo de dano");
+                JLabel InfArmaDano = new JLabel("-");
+                JLabel InfArmaTipo = new JLabel("-");
                 PInfArmaAtaque.add(InfArmaAtaqueT);
                 PInfArmaAtaque.add(InfArmaAtaque);
                 PInfArmaDano.add(InfArmaDanoT);
