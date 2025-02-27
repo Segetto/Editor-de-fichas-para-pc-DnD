@@ -86,9 +86,9 @@
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Component id="GeralNavBar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Component id="MochilaNavBar" min="-2" max="-2" attributes="0"/>
+                      <Component id="InventarioNavBar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Component id="FeiticosNavBar" min="-2" max="-2" attributes="0"/>
+                      <Component id="MagiasNavBar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                       <Component id="CaracteristicasNavBar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -102,10 +102,10 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                               <Component id="GeralNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="MochilaNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="InventarioNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="FeiticosNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MagiasNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="CaracteristicasNavBar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -129,7 +129,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="MochilaNavBar">
+            <Component class="javax.swing.JLabel" name="InventarioNavBar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="SansSerif" size="16" style="0"/>
@@ -143,7 +143,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="FeiticosNavBar">
+            <Component class="javax.swing.JLabel" name="MagiasNavBar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="SansSerif" size="16" style="0"/>
@@ -165,7 +165,7 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Caracteristicas de classe"/>
+                <Property name="text" type="java.lang.String" value="Especializa&#xe7;&#xe3;o"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
                 </Property>
@@ -194,11 +194,11 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jScrollPaneGeral" min="-2" pref="672" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                          <Component id="jScrollPaneMochila" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPaneInventario" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                          <Component id="jScrollPaneFeiticos" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPaneMagias" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                          <Component id="jScrollPaneCarClasse" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPaneEspecializacao" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -207,10 +207,10 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jScrollPaneMochila" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPaneInventario" alignment="0" max="32767" attributes="0"/>
                               <Component id="jScrollPaneGeral" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jScrollPaneFeiticos" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jScrollPaneCarClasse" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPaneMagias" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPaneEspecializacao" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
@@ -2282,7 +2282,7 @@
                     </Container>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JScrollPane" name="jScrollPaneMochila">
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneInventario">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="null"/>
@@ -2442,7 +2442,7 @@
                     </Container>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JScrollPane" name="jScrollPaneFeiticos">
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneMagias">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="null"/>
@@ -2497,7 +2497,7 @@
                     </Container>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JScrollPane" name="jScrollPaneCarClasse">
+                <Container class="javax.swing.JScrollPane" name="jScrollPaneEspecializacao">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="null"/>

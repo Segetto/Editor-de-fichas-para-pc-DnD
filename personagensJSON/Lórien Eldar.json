@@ -446,14 +446,6 @@
             }]
         },
         {
-            "a": {},
-            "b": {
-                "u": "Alabarda",
-                "v": "",
-                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
-            }
-        },
-        {
             "a": {
                 "a": "jema1585f0m2j5eea36jrai2hq",
                 "b": "E9AB298C647EB712474FA096667ABDF3",
@@ -693,30 +685,6 @@
                 "z": true
             },
             "c": []
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Foco Arcano - Cajado",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "C4057AA2847E517F02D4DBEC24B5453B"
-            }
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Foco Arcano - Cristal",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "F34DC1632899B70766FDD5E81B2BD8C1"
-            }
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Foco Arcano - Orbe",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
-            }
         },
         {
             "a": {

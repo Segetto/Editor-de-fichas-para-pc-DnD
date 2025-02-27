@@ -13,7 +13,7 @@ import org.json.JSONObject;
  */
 public class Proficiencia {
      public static int Proficiencia(JSONObject ficha) {
-        int Bonus = 0;
+        int Bonus;
         int nivel = 0;
 
         for (int i = 0; i < ficha.getJSONArray("d").length(); i++) {

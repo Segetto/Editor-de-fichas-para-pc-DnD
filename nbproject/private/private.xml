@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Mochila/EquipamentosJanelaP.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Mochila/ItensPanelP.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/personagensJSON/Kodlack%20Baraja.json</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Geral/AntecedenteP.java</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/visual/personagemFicha.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/visual/SelectPersonagem.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Geral/JanelaP.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Inventario/InventarioPanelP.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Inventario/InformacoesAdicionaisP.java</file>
         </group>
     </open-files>
 </project-private>

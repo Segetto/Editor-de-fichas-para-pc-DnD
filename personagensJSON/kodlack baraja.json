@@ -10,15 +10,15 @@
         "a": "Kodlack Baraja",
         "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
         "c": "E4758A075C8D74A6F6FB0E4DF3B8EBB3",
-        "d": 49225,
-        "e": false,
+        "d": 56130,
+        "e": true,
         "f": 4,
         "g": 0,
         "h": 0,
         "i": 9,
         "j": 83,
         "k": 0,
-        "l": 71,
+        "l": 83,
         "m": 7.5,
         "n": 0,
         "o": 0,
@@ -292,43 +292,55 @@
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "diku1g5uctfpvt7js5lql3125u"
+            "uuid": "e1sja7kn1cks9evi819gj8omkk"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "46bdsp8on1ovar6gvls8v7c5ei"
+            "uuid": "850uqlg6564vv67eu8su2bu8tm"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "776bl6crqh795nl2035qlrfd0j"
+            "uuid": "je7kr3npfg1rf61svji1737gh4"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "5e2nh2gjev1a1rvpk9porda4ga"
+            "uuid": "ngj7lned0ghl4rt8644bjc7f9l"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "pnu7onfq190quvmhcof3koupro"
+            "uuid": "r42j5sdvi4vglee48q26rhsk1h"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "hhhivhb08uqa6m3kjofholltoq"
+            "uuid": "g2pk8d094r1eulfl7umvpf5l2d"
         },
         {
             "a": 6,
             "b": false,
             "c": "btgln1ldr4mbderngsfenvddqq",
-            "uuid": "rnc0h21fra87mt5ih9050e0f36"
+            "uuid": "bi6luesmst9d3oavtt40srln3k"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "5scq9s12jguf2ch98u2hhgliag"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "sol9k60hp2pk139r4qve9vudmc"
         }
     ],
     "h": [
@@ -374,10 +386,10 @@
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "c": 2,
+                "c": 1,
                 "d": true,
                 "e": false,
-                "f": "Informações adicionais",
+                "f": "",
                 "uuid": "occ9nm41p6vl9kaavvqldgum5j"
             },
             "b": {
@@ -413,206 +425,6 @@
                 "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
                 "uuid": "g5cvp74s9oglgk1akuek039jec"
             }]
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "C4057AA2847E517F02D4DBEC24B5453B",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "Informações adicionais",
-                "uuid": "169cf9pn9lnikr7kha17hktbjd"
-            },
-            "b": {
-                "uuid": "C4057AA2847E517F02D4DBEC24B5453B",
-                "a": "pt",
-                "b": "",
-                "c": 5,
-                "d": "GP",
-                "e": 2,
-                "f": 4,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Foco Arcano - Cajado",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "74988DD2F1399550F5DC3A80213600D9",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "Informações adicionais",
-                "uuid": "1bnldvn6l00cof9b00o3kt0q5t"
-            },
-            "b": {
-                "uuid": "74988DD2F1399550F5DC3A80213600D9",
-                "a": "pt",
-                "b": "",
-                "c": 50,
-                "d": "GP",
-                "e": 1.5,
-                "f": 3,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Grimório",
-                "v": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "n9eo83i6g1j5nk1fqurpu8pl4r",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "4vpmsej0e311a0tekqfd4vtiec"
-            },
-            "b": {
-                "uuid": "n9eo83i6g1j5nk1fqurpu8pl4r",
-                "a": "pt",
-                "b": "",
-                "c": 400,
-                "d": "CP",
-                "e": 0.5,
-                "f": 0,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": true,
-                "u": "Pacote de estudioso",
-                "v": "Inclui uma mochila, um livro de estudo, um vidro de tinta, uma caneta tinteiro, 10 folhas de pergaminho, um saquinho de areia e uma pequena faca.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "6s9ap9657epk1e09r0l904qg95"
-            },
-            "b": {
-                "uuid": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "a": "pt",
-                "b": "cortante",
-                "c": 15,
-                "d": "GP",
-                "e": 1.5,
-                "f": 3,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Espada Longa",
-                "v": "",
-                "w": "Versátil (1d10)",
-                "x": "Versátil (1d10)",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 8,
-                "b": false,
-                "d": "691679D7316F2DBC2518CC6BD4F79BB2",
-                "uuid": "EB9974FFDE83F7A1834B95FCF8EF017B"
-            }]
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": "2899CE102C418966134437C2CB9C64FC",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "-Carne do Remorhaz 1\n-Capa de grimório 1\n-Livro de necrômancia 1\n-Pedrinha que brilha 1\n-Cristal que brilha 1\n-Papel de pergaminho 23\n-Pergaminho de enviar mensagem 1\n-Pergaminho de glifo de vigilância 4\n-Diario de um necromante 1\n-Pilha de ossos humanos 2\n-Poção desconhecida 1\n-Grimório do estudante de necrômancia 1\n-Grimório da samara 1\n-Diário do estudante de \nnêcromancia 1\nfrasco\n-frasco de sangue de dragão 1\n-poção de cura 1\n-cristal de raio 5\n-Dragões e seus inimigos. \n-Magia profanada: Hemomância. \n-Os ritos e costumes: Culto do Dragão. \n-Manual arcano: Conjuração máxima.\n-Manual arcano: Técnica conjurada \n-Klauth, o incinerador \n- A montanha de Quelle",
-                "uuid": "40fnfvflog0lf8cguhv9rd7qkk"
-            },
-            "b": {
-                "uuid": "2899CE102C418966134437C2CB9C64FC",
-                "a": "pt",
-                "b": "",
-                "c": 2,
-                "d": "GP",
-                "e": 2.5,
-                "f": 5,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Mochila",
-                "v": "",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
         },
         {
             "a": {
@@ -661,6 +473,89 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "6s9ap9657epk1e09r0l904qg95"
+            },
+            "b": {
+                "uuid": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "a": "pt",
+                "b": "cortante",
+                "c": 15,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Espada Longa",
+                "v": "",
+                "w": "Versátil (1d10)",
+                "x": "Versátil (1d10)",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 8,
+                "b": false,
+                "d": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "uuid": "EB9974FFDE83F7A1834B95FCF8EF017B"
+            }]
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "C4057AA2847E517F02D4DBEC24B5453B",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "169cf9pn9lnikr7kha17hktbjd"
+            },
+            "b": {
+                "uuid": "C4057AA2847E517F02D4DBEC24B5453B",
+                "a": "pt",
+                "b": "",
+                "c": 5,
+                "d": "GP",
+                "e": 2,
+                "f": 4,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Foco Arcano - Cajado",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": "0E8CF6420504225A0971FF5B7DEF506C",
                 "c": 2,
                 "d": false,
@@ -690,6 +585,45 @@
                 "t": false,
                 "u": "Foco Arcano - Orbe",
                 "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "74988DD2F1399550F5DC3A80213600D9",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "1bnldvn6l00cof9b00o3kt0q5t"
+            },
+            "b": {
+                "uuid": "74988DD2F1399550F5DC3A80213600D9",
+                "a": "pt",
+                "b": "",
+                "c": 50,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Grimório",
+                "v": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias.",
                 "w": "",
                 "x": "",
                 "y": "",
@@ -733,6 +667,112 @@
                 "x": "",
                 "y": "",
                 "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "2899CE102C418966134437C2CB9C64FC",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "-Carne do Remorhaz 1\n-Capa de grimório 1\n-Livro de necrômancia 1\n-Pedrinha que brilha 1\n-Cristal que brilha 1\n-Papel de pergaminho 23\n-Pergaminho de enviar mensagem 1\n-Pergaminho de glifo de vigilância 4\n-Diario de um necromante 1\n-Pilha de ossos humanos 2\n-Poção desconhecida 1\n-Grimório do estudante de necrômancia 1\n-Grimório da samara 1\n-Diário do estudante de \nnêcromancia 1\nfrasco\n-frasco de sangue de dragão 1\n-poção de cura 1\n-cristal de raio 5\n-Dragões e seus inimigos. \n-Magia profanada: Hemomância. \n-Os ritos e costumes: Culto do Dragão. \n-Manual arcano: Conjuração máxima.\n-Manual arcano: Técnica conjurada \n-Klauth, o incinerador - A montanha de Quelle",
+                "uuid": "40fnfvflog0lf8cguhv9rd7qkk"
+            },
+            "b": {
+                "uuid": "2899CE102C418966134437C2CB9C64FC",
+                "a": "pt",
+                "b": "",
+                "c": 2,
+                "d": "GP",
+                "e": 2.5,
+                "f": 5,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Mochila",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "n9eo83i6g1j5nk1fqurpu8pl4r",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "4vpmsej0e311a0tekqfd4vtiec"
+            },
+            "b": {
+                "uuid": "n9eo83i6g1j5nk1fqurpu8pl4r",
+                "a": "pt",
+                "b": "",
+                "c": 400,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Pacote de estudioso",
+                "v": "Inclui uma mochila, um livro de estudo, um vidro de tinta, uma caneta tinteiro, 10 folhas de pergaminho, um saquinho de areia e uma pequena faca.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
+                "w": "Acuidade, leve, arremesso (distância 6/18)"
             },
             "c": []
         }
@@ -1234,13 +1274,22 @@
             }
         }
     ],
-    "q": [{"a": {
-        "a": "Pesquisador",
-        "b": "Quando tentar obter ou recuperar um fragmento de conhecimento que você não saiba, você descobre aonde e com quem pode obter essa informação. Normalmente ela será adquirida em bibliotecas, arquivos de escribas, universidade ou outros sábios e pessoas aptas. Seu Mestre pode decidir que o conhecimento que busca está escondido em algum lugar quase inacessível, ou é simplesmente impossível de se obter. Desvendar os segredos mais profundos do multiverso pode requerer uma campanha inteira.",
-        "c": 1,
-        "d": "btgln1ldr4mbderngsfenvddqq",
-        "uuid": "doed15ee7himoh7ccfn4tamk27"
-    }}],
+    "q": [
+        {"a": {
+            "a": "Pesquisador",
+            "b": "Quando tentar obter ou recuperar um fragmento de conhecimento que você não saiba, você descobre aonde e com quem pode obter essa informação. Normalmente ela será adquirida em bibliotecas, arquivos de escribas, universidade ou outros sábios e pessoas aptas. Seu Mestre pode decidir que o conhecimento que busca está escondido em algum lugar quase inacessível, ou é simplesmente impossível de se obter. Desvendar os segredos mais profundos do multiverso pode requerer uma campanha inteira.",
+            "c": 1,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "doed15ee7himoh7ccfn4tamk27"
+        }},
+        {"a": {
+            "a": "Fraqueza a gelo",
+            "b": "Você possui fraqueza a dano de gelo",
+            "c": 2,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "glkc4ns08mqi9blttjl0irjv2"
+        }}
+    ],
     "r": [
         {
             "a": {
@@ -1322,7 +1371,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 1,
                 "c": "CAC28CFC119D235DA93800FA652CB0D3",
-                "e": false,
+                "e": true,
                 "uuid": "6hervr8l12kjjan7jb68gtp7e1"
             },
             "b": {
@@ -1697,7 +1746,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
                 "c": "C12A37A65BBBFF61177E159FC5A449C1",
-                "e": false,
+                "e": true,
                 "uuid": "ps6018a1qka9s8pruj3ncfbgjv"
             },
             "b": {
@@ -1847,7 +1896,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 1,
                 "c": "331DBABE2743DFC86996186D0887CF88",
-                "e": true,
+                "e": false,
                 "uuid": "21ui64bmmp29gqtvgmagu8an4i"
             },
             "b": {
@@ -2072,7 +2121,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 1,
                 "c": "913110B21AFAB0096EE452EEE85F16D4",
-                "e": true,
+                "e": false,
                 "uuid": "e77kl0ovbbk79kvqolmliuf861"
             },
             "b": {
@@ -2147,7 +2196,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
                 "c": "4A7DB4B42B5990BB3DC166F6FB8C214C",
-                "e": false,
+                "e": true,
                 "uuid": "8i93mfl8cmavb2i47em2sanr8e"
             },
             "b": {
@@ -2247,7 +2296,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 2,
                 "c": "A5DFD562F72CF7CEB4B72589466B29D9",
-                "e": false,
+                "e": true,
                 "uuid": "vfj9ispjkr4m83la10hfm18k60"
             },
             "b": {
@@ -2422,7 +2471,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
                 "c": "339187F6124603E08EADA5BBBD14F5F8",
-                "e": true,
+                "e": false,
                 "uuid": "uncqpspn5gvgsph3ksep8l8pg7"
             },
             "b": {
@@ -2447,7 +2496,7 @@
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
                 "c": "6DB339EAD8174025888918059F1D0272",
-                "e": true,
+                "e": false,
                 "uuid": "cpo9sumtckor23r67fl8rk30eg"
             },
             "b": {
@@ -2838,28 +2887,28 @@
         {
             "a": 2,
             "b": 3,
-            "c": 0,
+            "c": 3,
             "d": "btgln1ldr4mbderngsfenvddqq",
             "uuid": "rgd6dvf8l8a4tnadtlhdqsl0ta"
         },
         {
             "a": 3,
             "b": 3,
-            "c": 0,
+            "c": 3,
             "d": "btgln1ldr4mbderngsfenvddqq",
             "uuid": "1gi7lkt9e7suoub6575bmmvo1v"
         },
         {
             "a": 4,
             "b": 3,
-            "c": 2,
+            "c": 3,
             "d": "btgln1ldr4mbderngsfenvddqq",
             "uuid": "vgmujd9tmdfua7cg0hibmptr6c"
         },
         {
             "a": 5,
             "b": 1,
-            "c": 0,
+            "c": 1,
             "d": "btgln1ldr4mbderngsfenvddqq",
             "uuid": "j9cn2thofv797p5jp3olv7ico6"
         },

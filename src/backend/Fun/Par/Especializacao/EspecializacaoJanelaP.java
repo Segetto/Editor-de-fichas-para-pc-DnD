@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package backend.Fun.Par.Inventario;
+package backend.Fun.Par.Especializacao;
 
 import static backend.jsonParser.LerArray;
 import static backend.Fun.SalvarFicha.SalvarFicha;
@@ -15,13 +15,12 @@ import java.awt.*;
 import java.awt.event.*;
 import java.text.Collator;
 import java.util.*;
-import backend.Fun.VirtualObjects.*;
 
 /**
  *
  * @author Admin
  */
-public class InventarioJanelaP {
+public class EspecializacaoJanelaP {
 
     public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados) {
         String Opcao = (String) Opcoes.getSelectedItem();
@@ -146,12 +145,29 @@ public class InventarioJanelaP {
                 int posicao = 0;
 
                 public void itemStateChanged(ItemEvent e) {
+                    JSONObject NovoItem = new JSONObject();
                     if (e.getStateChange() == ItemEvent.SELECTED) {
-                        
-                        ItensNovos.put(NewItemFichaVO.NovoItemFicha(itens, iComp));
+                        String descricao = "";
+                        if (itens.getJSONObject(iComp).has("v")) {
+                            descricao = itens.getJSONObject(iComp).getString("v");
+                        }
+                        NovoItem
+                                .put("a", new JSONObject()
+                                        .put("f", itens.getJSONObject(iComp).getString("f"))
+                                )
+                                .put("b", new JSONObject()
+                                        .put("uuid", itens.getJSONObject(iComp).getString("uuid"))
+                                        .put("u", itens.getJSONObject(iComp).getString("u"))
+                                        .put("v", descricao));
+                        ItensNovos.put(NovoItem);
+                        System.out.println("Itens no vetor: " + ItensNovos);
+                        System.out.println("Item adicionado: " + NovoItem);
+                        System.out.println("Tamanho do vetor: " + ItensNovos.length());
                         posicao = ItensNovos.length() - 1;
                     } else {
+                        System.out.println("Item removido: " + ItensNovos.getJSONObject(posicao));
                         ItensNovos.remove(posicao);
+                        System.out.println("Itens no vetor: " + ItensNovos);
                     }
                 }
             });
@@ -163,7 +179,7 @@ public class InventarioJanelaP {
                     ficha.getJSONArray("i").put(Item);
                 });
 
-                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
+                EspecializacaoPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
                 SalvarFicha(ficha, personagemCaminho);
 

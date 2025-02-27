@@ -4,7 +4,6 @@
  */
 package backend.Fun.Par.Inventario;
 
-import static backend.Fun.FichaLer.FichaLerString;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import javax.swing.JTextArea;
 import javax.swing.event.DocumentEvent;

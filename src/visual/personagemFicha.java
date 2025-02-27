@@ -55,8 +55,8 @@ public class personagemFicha extends javax.swing.JFrame {
         JanelaP(PainelItens);
         JanelaP(jPanel8);
 
-        ScrollP(jScrollPaneGeral, jScrollPaneMochila, jScrollPaneFeiticos, jScrollPaneCarClasse);
-        NavBarP(AppScrollPane, GeralNavBar, MochilaNavBar, FeiticosNavBar, CaracteristicasNavBar);
+        ScrollP(jScrollPaneGeral, jScrollPaneInventario, jScrollPaneMagias, jScrollPaneEspecializacao);
+        NavBarP(AppScrollPane, GeralNavBar, InventarioNavBar, MagiasNavBar, CaracteristicasNavBar);
         StatusP(personagemCaminho, ForLabel, ForMod, ficha, 0);
         StatusP(personagemCaminho, DesLabel, DesMod, ficha, 1);
         StatusP(personagemCaminho, ConLabel, ConMod, ficha, 2);
@@ -108,8 +108,8 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel8 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         GeralNavBar = new javax.swing.JLabel();
-        MochilaNavBar = new javax.swing.JLabel();
-        FeiticosNavBar = new javax.swing.JLabel();
+        InventarioNavBar = new javax.swing.JLabel();
+        MagiasNavBar = new javax.swing.JLabel();
         CaracteristicasNavBar = new javax.swing.JLabel();
         AppScrollPane = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
@@ -215,17 +215,17 @@ public class personagemFicha extends javax.swing.JFrame {
         jLabel51 = new javax.swing.JLabel();
         MovimentacaoText = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
-        jScrollPaneMochila = new javax.swing.JScrollPane();
+        jScrollPaneInventario = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         AddEquip = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jScrollPaneMochilaItens = new javax.swing.JScrollPane();
         PainelItens = new javax.swing.JPanel();
-        jScrollPaneFeiticos = new javax.swing.JScrollPane();
+        jScrollPaneMagias = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
-        jScrollPaneCarClasse = new javax.swing.JScrollPane();
+        jScrollPaneEspecializacao = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
 
@@ -240,19 +240,19 @@ public class personagemFicha extends javax.swing.JFrame {
         GeralNavBar.setText("Geral");
         GeralNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        MochilaNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        MochilaNavBar.setForeground(new java.awt.Color(255, 255, 255));
-        MochilaNavBar.setText("Inventário");
-        MochilaNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        InventarioNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        InventarioNavBar.setForeground(new java.awt.Color(255, 255, 255));
+        InventarioNavBar.setText("Inventário");
+        InventarioNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        FeiticosNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        FeiticosNavBar.setForeground(new java.awt.Color(255, 255, 255));
-        FeiticosNavBar.setText("Magias");
-        FeiticosNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MagiasNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        MagiasNavBar.setForeground(new java.awt.Color(255, 255, 255));
+        MagiasNavBar.setText("Magias");
+        MagiasNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         CaracteristicasNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
         CaracteristicasNavBar.setForeground(new java.awt.Color(255, 255, 255));
-        CaracteristicasNavBar.setText("Caracteristicas de classe");
+        CaracteristicasNavBar.setText("Especialização");
         CaracteristicasNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -263,9 +263,9 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(GeralNavBar)
                 .addGap(34, 34, 34)
-                .addComponent(MochilaNavBar)
+                .addComponent(InventarioNavBar)
                 .addGap(34, 34, 34)
-                .addComponent(FeiticosNavBar)
+                .addComponent(MagiasNavBar)
                 .addGap(34, 34, 34)
                 .addComponent(CaracteristicasNavBar)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -277,9 +277,9 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(GeralNavBar)
-                        .addComponent(MochilaNavBar))
+                        .addComponent(InventarioNavBar))
                     .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(FeiticosNavBar)
+                        .addComponent(MagiasNavBar)
                         .addComponent(CaracteristicasNavBar)))
                 .addGap(0, 19, Short.MAX_VALUE))
         );
@@ -1328,8 +1328,8 @@ public class personagemFicha extends javax.swing.JFrame {
 
         jScrollPaneGeral.setViewportView(jPanel2);
 
-        jScrollPaneMochila.setBorder(null);
-        jScrollPaneMochila.setPreferredSize(new java.awt.Dimension(672, 438));
+        jScrollPaneInventario.setBorder(null);
+        jScrollPaneInventario.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel15.setBackground(new java.awt.Color(23, 23, 23));
         jPanel15.setMinimumSize(new java.awt.Dimension(672, 0));
@@ -1414,10 +1414,10 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE))
         );
 
-        jScrollPaneMochila.setViewportView(jPanel15);
+        jScrollPaneInventario.setViewportView(jPanel15);
 
-        jScrollPaneFeiticos.setBorder(null);
-        jScrollPaneFeiticos.setPreferredSize(new java.awt.Dimension(672, 438));
+        jScrollPaneMagias.setBorder(null);
+        jScrollPaneMagias.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel16.setBackground(new java.awt.Color(23, 23, 23));
         jPanel16.setPreferredSize(new java.awt.Dimension(400, 600));
@@ -1442,10 +1442,10 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPaneFeiticos.setViewportView(jPanel16);
+        jScrollPaneMagias.setViewportView(jPanel16);
 
-        jScrollPaneCarClasse.setBorder(null);
-        jScrollPaneCarClasse.setPreferredSize(new java.awt.Dimension(672, 438));
+        jScrollPaneEspecializacao.setBorder(null);
+        jScrollPaneEspecializacao.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel17.setBackground(new java.awt.Color(23, 23, 23));
         jPanel17.setPreferredSize(new java.awt.Dimension(400, 600));
@@ -1470,7 +1470,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPaneCarClasse.setViewportView(jPanel17);
+        jScrollPaneEspecializacao.setViewportView(jPanel17);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1479,21 +1479,21 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jScrollPaneGeral, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneMochila, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPaneInventario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneFeiticos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPaneMagias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneCarClasse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPaneEspecializacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPaneMochila, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPaneInventario, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPaneGeral, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPaneFeiticos, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPaneCarClasse, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jScrollPaneMagias, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPaneEspecializacao, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, 0))
         );
 
@@ -1656,7 +1656,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel DesMod;
     private javax.swing.JCheckBox DesResCheck;
     private javax.swing.JLabel DesResMod;
-    private javax.swing.JLabel FeiticosNavBar;
     private javax.swing.JTextField ForLabel;
     private javax.swing.JLabel ForMod;
     private javax.swing.JCheckBox ForResCheck;
@@ -1670,9 +1669,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel IntMod;
     private javax.swing.JCheckBox IntResCheck;
     private javax.swing.JLabel IntResMod;
+    private javax.swing.JLabel InventarioNavBar;
     private javax.swing.JTextField LabelNome;
     private javax.swing.JLabel LevelLabel;
-    private javax.swing.JLabel MochilaNavBar;
+    private javax.swing.JLabel MagiasNavBar;
     private javax.swing.JTextField MovimentacaoText;
     private javax.swing.JPanel PainelItens;
     private javax.swing.JLabel PercepcaoPassivaLabel;
@@ -1749,10 +1749,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JScrollPane jScrollPaneCarClasse;
-    private javax.swing.JScrollPane jScrollPaneFeiticos;
+    private javax.swing.JScrollPane jScrollPaneEspecializacao;
     private javax.swing.JScrollPane jScrollPaneGeral;
-    private javax.swing.JScrollPane jScrollPaneMochila;
+    private javax.swing.JScrollPane jScrollPaneInventario;
+    private javax.swing.JScrollPane jScrollPaneMagias;
     private javax.swing.JScrollPane jScrollPaneMochilaItens;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
