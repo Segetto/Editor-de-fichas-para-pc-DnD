@@ -29,9 +29,11 @@ import static backend.Fun.Par.Geral.InspiracaoP.*;
 import static backend.Fun.Par.Geral.PercepcaoPassivaP.*;
 import static backend.Fun.Par.Geral.MovimentacaoP.*;
 import static backend.Fun.Par.Inventario.InventarioPanelP.*;
-import static backend.Fun.Par.Geral.EqupamentosAddP.EquipamentosAddP;
-
-import org.json.JSONObject;
+import static backend.Fun.Par.Inventario.EqupamentosAddP.EquipamentosAddP;
+import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
+import backend.Fun.Par.Especializacao.EspecializacaoJanelaP;
+import backend.Fun.Par.Especializacao.EspecializacoesAddP;
+import org.json.*;
 
 /**
  *
@@ -49,6 +51,23 @@ public class personagemFicha extends javax.swing.JFrame {
 
         String personagemCaminho = "personagensJSON/" + personagem + ".json";
         JSONObject ficha = new JSONObject(jsonParser.LerArquivo(personagemCaminho));
+        String equipamentosCaminho = "ASSETS/Equipamento.json";
+        String CarRacaCaminho = "ASSETS/CarRaca.json";
+        String CarClasseCaminho = "ASSETS/CarClasse.json";
+        String IdiomasCaminho = "ASSETS/Idiomas.json";
+        String TalentosCaminho = "ASSETS/Talentos.json";
+        String RacasCaminho = "ASSETS/Raca.json";
+        String ClassesCaminho = "ASSETS/Classe.json";
+
+        JSONArray Inventario = new JSONArray(jsonParser.LerArray(equipamentosCaminho));
+        JSONArray CarRaca = new JSONArray(jsonParser.LerArray(CarRacaCaminho));
+        JSONArray CarClasse = new JSONArray(jsonParser.LerArray(CarClasseCaminho));
+        JSONArray Idiomas = new JSONArray(jsonParser.LerArray(IdiomasCaminho));
+        JSONArray Talentos = new JSONArray(jsonParser.LerArray(TalentosCaminho));
+
+        JSONArray Racas = new JSONArray(jsonParser.LerArray(RacasCaminho));
+        JSONArray Classes = new JSONArray(jsonParser.LerArray(ClassesCaminho));
+
 
         JanelaP(jPanel2);
         JanelaP(jPanel15);
@@ -92,8 +111,17 @@ public class personagemFicha extends javax.swing.JFrame {
         PercepcaoPassivaP(ficha, PercepcaoPassivaLabel);
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
         ItensPanelP(personagemCaminho, ficha, PainelItens);
-        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens);
+        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario);
+        EspecializacaoPanelP(personagemCaminho, ficha, PCarClasseC, "m", "d", "e", PainelEspecializacoes);
+        EspecializacaoPanelP(personagemCaminho, ficha, PCarRacaC, "n", "d", "e", PainelEspecializacoes);
+        EspecializacaoPanelP(personagemCaminho, ficha, PIdiomasC, "p", "c", "d", PainelEspecializacoes);
+        EspecializacaoPanelP(personagemCaminho, ficha, PTalentosC, "o", "d", "c", PainelEspecializacoes);
+
         jScrollPaneMochilaItens.getVerticalScrollBar().setUnitIncrement(10);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);
     }
 
     /**
@@ -226,8 +254,32 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel16 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jScrollPaneEspecializacao = new javax.swing.JScrollPane();
-        jPanel17 = new javax.swing.JPanel();
+        PainelEspecializacoes = new javax.swing.JPanel();
+        PCarRaca = new javax.swing.JPanel();
+        PCarRacaT = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        PCarRacaC = new javax.swing.JPanel();
+        PCarClasse = new javax.swing.JPanel();
+        PCarClasseT = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        PCarClasseC = new javax.swing.JPanel();
+        PTalentos = new javax.swing.JPanel();
+        PTalentosT = new javax.swing.JPanel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        PTalentosC = new javax.swing.JPanel();
+        PIdiomas = new javax.swing.JPanel();
+        PIdiomasT = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        PIdiomasC = new javax.swing.JPanel();
+        PCarExtra = new javax.swing.JPanel();
+        PCarExtraT = new javax.swing.JPanel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        PCarExtraC = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -499,7 +551,7 @@ public class personagemFicha extends javax.swing.JFrame {
         ClassesRow.setBackground(new java.awt.Color(23, 23, 23));
 
         ClasseLabel.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        ClasseLabel.setForeground(new java.awt.Color(101, 172, 219));
+        ClasseLabel.setForeground(new java.awt.Color(101, 219, 219));
         ClasseLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         ClasseLabel.setText("Selecione a sua classe");
         ClasseLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -603,12 +655,12 @@ public class personagemFicha extends javax.swing.JFrame {
         jLabel17.setText("Xp:");
 
         RacaSelect.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        RacaSelect.setForeground(new java.awt.Color(101, 172, 219));
+        RacaSelect.setForeground(new java.awt.Color(101, 219, 219));
         RacaSelect.setText("Selecione");
         RacaSelect.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         LevelLabel.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        LevelLabel.setForeground(new java.awt.Color(101, 172, 219));
+        LevelLabel.setForeground(new java.awt.Color(101, 219, 219));
         LevelLabel.setText("Selecione");
 
         XpLabel.setBackground(new java.awt.Color(23, 23, 23));
@@ -620,7 +672,7 @@ public class personagemFicha extends javax.swing.JFrame {
 
         AntecedenteLabel.setBackground(new java.awt.Color(23, 23, 23));
         AntecedenteLabel.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        AntecedenteLabel.setForeground(new java.awt.Color(101, 172, 219));
+        AntecedenteLabel.setForeground(new java.awt.Color(101, 219, 219));
         AntecedenteLabel.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         AntecedenteLabel.setText("Digite seu antecedente");
         AntecedenteLabel.setBorder(null);
@@ -903,7 +955,7 @@ public class personagemFicha extends javax.swing.JFrame {
         jLabel23.setText("Alinhamento:");
 
         AlinhamentoSelect.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
-        AlinhamentoSelect.setForeground(new java.awt.Color(101, 172, 219));
+        AlinhamentoSelect.setForeground(new java.awt.Color(101, 219, 219));
         AlinhamentoSelect.setText("Selecione");
         AlinhamentoSelect.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
@@ -1447,30 +1499,362 @@ public class personagemFicha extends javax.swing.JFrame {
         jScrollPaneEspecializacao.setBorder(null);
         jScrollPaneEspecializacao.setPreferredSize(new java.awt.Dimension(672, 438));
 
-        jPanel17.setBackground(new java.awt.Color(23, 23, 23));
-        jPanel17.setPreferredSize(new java.awt.Dimension(400, 600));
+        PainelEspecializacoes.setBackground(new java.awt.Color(23, 23, 23));
+        PainelEspecializacoes.setPreferredSize(new java.awt.Dimension(400, 600));
 
-        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel26.setText("Caracteristicas de Classe");
+        PCarRaca.setOpaque(false);
 
-        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
-        jPanel17.setLayout(jPanel17Layout);
-        jPanel17Layout.setHorizontalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
-                .addContainerGap(257, Short.MAX_VALUE)
-                .addComponent(jLabel26)
-                .addGap(277, 277, 277))
+        PCarRacaT.setBackground(new java.awt.Color(35, 35, 35));
+
+        jLabel21.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel21.setText("Caracteristicas de raça");
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarRacaTLayout = new javax.swing.GroupLayout(PCarRacaT);
+        PCarRacaT.setLayout(PCarRacaTLayout);
+        PCarRacaTLayout.setHorizontalGroup(
+            PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaTLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 357, Short.MAX_VALUE)
+                .addComponent(jLabel27)
+                .addGap(6, 6, 6))
         );
-        jPanel17Layout.setVerticalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(116, 116, 116)
-                .addComponent(jLabel26)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        PCarRacaTLayout.setVerticalGroup(
+            PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarRacaTLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                    .addComponent(jLabel27))
+                .addContainerGap())
         );
 
-        jScrollPaneEspecializacao.setViewportView(jPanel17);
+        PCarRacaC.setOpaque(false);
+
+        javax.swing.GroupLayout PCarRacaCLayout = new javax.swing.GroupLayout(PCarRacaC);
+        PCarRacaC.setLayout(PCarRacaCLayout);
+        PCarRacaCLayout.setHorizontalGroup(
+            PCarRacaCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarRacaCLayout.setVerticalGroup(
+            PCarRacaCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarRacaLayout = new javax.swing.GroupLayout(PCarRaca);
+        PCarRaca.setLayout(PCarRacaLayout);
+        PCarRacaLayout.setHorizontalGroup(
+            PCarRacaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarRacaLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addGroup(PCarRacaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(PCarRacaC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarRacaT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        PCarRacaLayout.setVerticalGroup(
+            PCarRacaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        PCarClasse.setOpaque(false);
+
+        PCarClasseT.setBackground(new java.awt.Color(35, 35, 35));
+
+        jLabel22.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel22.setText("Caracteristicas de Classe");
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarClasseTLayout = new javax.swing.GroupLayout(PCarClasseT);
+        PCarClasseT.setLayout(PCarClasseTLayout);
+        PCarClasseTLayout.setHorizontalGroup(
+            PCarClasseTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseTLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 339, Short.MAX_VALUE)
+                .addComponent(jLabel28)
+                .addContainerGap())
+        );
+        PCarClasseTLayout.setVerticalGroup(
+            PCarClasseTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarClasseTLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PCarClasseTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                    .addComponent(jLabel28))
+                .addContainerGap())
+        );
+
+        PCarClasseC.setOpaque(false);
+
+        javax.swing.GroupLayout PCarClasseCLayout = new javax.swing.GroupLayout(PCarClasseC);
+        PCarClasseC.setLayout(PCarClasseCLayout);
+        PCarClasseCLayout.setHorizontalGroup(
+            PCarClasseCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarClasseCLayout.setVerticalGroup(
+            PCarClasseCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarClasseLayout = new javax.swing.GroupLayout(PCarClasse);
+        PCarClasse.setLayout(PCarClasseLayout);
+        PCarClasseLayout.setHorizontalGroup(
+            PCarClasseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarClasseLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarClasseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarClasseC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarClasseT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarClasseLayout.setVerticalGroup(
+            PCarClasseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PTalentos.setOpaque(false);
+
+        PTalentosT.setBackground(new java.awt.Color(35, 35, 35));
+
+        jLabel24.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel24.setText("Talentos");
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PTalentosTLayout = new javax.swing.GroupLayout(PTalentosT);
+        PTalentosT.setLayout(PTalentosTLayout);
+        PTalentosTLayout.setHorizontalGroup(
+            PTalentosTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosTLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel24)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel29)
+                .addContainerGap())
+        );
+        PTalentosTLayout.setVerticalGroup(
+            PTalentosTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PTalentosTLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PTalentosTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                    .addComponent(jLabel29))
+                .addContainerGap())
+        );
+
+        PTalentosC.setOpaque(false);
+
+        javax.swing.GroupLayout PTalentosCLayout = new javax.swing.GroupLayout(PTalentosC);
+        PTalentosC.setLayout(PTalentosCLayout);
+        PTalentosCLayout.setHorizontalGroup(
+            PTalentosCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PTalentosCLayout.setVerticalGroup(
+            PTalentosCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PTalentosLayout = new javax.swing.GroupLayout(PTalentos);
+        PTalentos.setLayout(PTalentosLayout);
+        PTalentosLayout.setHorizontalGroup(
+            PTalentosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PTalentosLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PTalentosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PTalentosC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentosT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PTalentosLayout.setVerticalGroup(
+            PTalentosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PIdiomas.setOpaque(false);
+
+        PIdiomasT.setBackground(new java.awt.Color(35, 35, 35));
+
+        jLabel26.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel26.setText("Idiomas");
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PIdiomasTLayout = new javax.swing.GroupLayout(PIdiomasT);
+        PIdiomasT.setLayout(PIdiomasTLayout);
+        PIdiomasTLayout.setHorizontalGroup(
+            PIdiomasTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasTLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel26)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel30)
+                .addContainerGap())
+        );
+        PIdiomasTLayout.setVerticalGroup(
+            PIdiomasTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PIdiomasTLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PIdiomasTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                    .addComponent(jLabel30))
+                .addContainerGap())
+        );
+
+        PIdiomasC.setOpaque(false);
+
+        javax.swing.GroupLayout PIdiomasCLayout = new javax.swing.GroupLayout(PIdiomasC);
+        PIdiomasC.setLayout(PIdiomasCLayout);
+        PIdiomasCLayout.setHorizontalGroup(
+            PIdiomasCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PIdiomasCLayout.setVerticalGroup(
+            PIdiomasCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PIdiomasLayout = new javax.swing.GroupLayout(PIdiomas);
+        PIdiomas.setLayout(PIdiomasLayout);
+        PIdiomasLayout.setHorizontalGroup(
+            PIdiomasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PIdiomasLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PIdiomasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PIdiomasC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomasT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PIdiomasLayout.setVerticalGroup(
+            PIdiomasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(PIdiomasT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(PIdiomasC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        PCarExtra.setOpaque(false);
+
+        PCarExtraT.setBackground(new java.awt.Color(35, 35, 35));
+
+        jLabel31.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel31.setText("Caracteristicas extras");
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarExtraTLayout = new javax.swing.GroupLayout(PCarExtraT);
+        PCarExtraT.setLayout(PCarExtraTLayout);
+        PCarExtraTLayout.setHorizontalGroup(
+            PCarExtraTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarExtraTLayout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel31)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel32)
+                .addContainerGap())
+        );
+        PCarExtraTLayout.setVerticalGroup(
+            PCarExtraTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarExtraTLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PCarExtraTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                    .addComponent(jLabel32))
+                .addContainerGap())
+        );
+
+        PCarExtraC.setOpaque(false);
+
+        javax.swing.GroupLayout PCarExtraCLayout = new javax.swing.GroupLayout(PCarExtraC);
+        PCarExtraC.setLayout(PCarExtraCLayout);
+        PCarExtraCLayout.setHorizontalGroup(
+            PCarExtraCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarExtraCLayout.setVerticalGroup(
+            PCarExtraCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarExtraLayout = new javax.swing.GroupLayout(PCarExtra);
+        PCarExtra.setLayout(PCarExtraLayout);
+        PCarExtraLayout.setHorizontalGroup(
+            PCarExtraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarExtraLayout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarExtraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarExtraC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarExtraT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarExtraLayout.setVerticalGroup(
+            PCarExtraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarExtraLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(PCarExtraT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(PCarExtraC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        javax.swing.GroupLayout PainelEspecializacoesLayout = new javax.swing.GroupLayout(PainelEspecializacoes);
+        PainelEspecializacoes.setLayout(PainelEspecializacoesLayout);
+        PainelEspecializacoesLayout.setHorizontalGroup(
+            PainelEspecializacoesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PainelEspecializacoesLayout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addGroup(PainelEspecializacoesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarRaca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PCarClasse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PTalentos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarExtra, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(57, 57, 57))
+        );
+        PainelEspecializacoesLayout.setVerticalGroup(
+            PainelEspecializacoesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PainelEspecializacoesLayout.createSequentialGroup()
+                .addGap(37, 37, 37)
+                .addComponent(PCarRaca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PCarClasse, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PTalentos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PIdiomas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PCarExtra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(206, Short.MAX_VALUE))
+        );
+
+        jScrollPaneEspecializacao.setViewportView(PainelEspecializacoes);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1483,7 +1867,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(jScrollPaneMagias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneEspecializacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPaneEspecializacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(0, 0, 0))
         );
         jPanel1Layout.setVerticalGroup(
@@ -1674,6 +2058,22 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel LevelLabel;
     private javax.swing.JLabel MagiasNavBar;
     private javax.swing.JTextField MovimentacaoText;
+    private javax.swing.JPanel PCarClasse;
+    private javax.swing.JPanel PCarClasseC;
+    private javax.swing.JPanel PCarClasseT;
+    private javax.swing.JPanel PCarExtra;
+    private javax.swing.JPanel PCarExtraC;
+    private javax.swing.JPanel PCarExtraT;
+    private javax.swing.JPanel PCarRaca;
+    private javax.swing.JPanel PCarRacaC;
+    private javax.swing.JPanel PCarRacaT;
+    private javax.swing.JPanel PIdiomas;
+    private javax.swing.JPanel PIdiomasC;
+    private javax.swing.JPanel PIdiomasT;
+    private javax.swing.JPanel PTalentos;
+    private javax.swing.JPanel PTalentosC;
+    private javax.swing.JPanel PTalentosT;
+    private javax.swing.JPanel PainelEspecializacoes;
     private javax.swing.JPanel PainelItens;
     private javax.swing.JLabel PercepcaoPassivaLabel;
     private javax.swing.JPanel PericiasContainer;
@@ -1704,10 +2104,19 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
@@ -1738,7 +2147,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;

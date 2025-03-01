@@ -1,0 +1,1801 @@
+[
+  {
+    "uuid": "FA6E0740AC7994B92F264F8F5ECC79F9",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Constituição aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "621F93B4BD4EFB41653731A267EEA36C",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Idade",
+    "e": "Anões tornam-se maduros na mesma proporção que os humanos, mas são considerados jovens até atingirem a idade de 50 anos. Em média, eles vivem 350 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "DB67B50B651EB7ACC884625045192366",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Tendência",
+    "e": "A maioria dos anões é leal, pois acreditam firmemente nos benefícios de uma sociedade bem organizada. Eles tendem para o bem, com um forte senso de honestidade e uma crença de que todos merecem compartilhar os benefícios de uma ordem social justa.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3F791E270C1F86BD4F4CF6087AC19C6F",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Tamanho",
+    "e": "Anões estão entre 1,20 e 1,50 metro de altura e pesam cerca de 75 kg. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "7D5B321BCB49F447B69BA69CDCA78798",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é de 7,5 metros. Seu deslocamento não é reduzido quando estiver usando armadura pesada.",
+    "a": "pt"
+  },
+  {
+    "uuid": "455E9C0AA7C80F7F0198E56D6A634B57",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Visão no Escuro",
+    "e": "Acostumado à vida subterrânea, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "621B84AB04CC9FD07DE8A2138DF2882D",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Resiliência Anã",
+    "e": "Você possui vantagem em testes de resistência contra venenos e resistência contra dano de veneno (explicado no capítulo 9).",
+    "a": "pt"
+  },
+  {
+    "uuid": "75D0D1AC8C761D1AAAF6B6EC33239127",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Treinamento Anão em Combate",
+    "e": "Você tem proficiência com machados de batalha, machadinhas, martelos leves e martelos de guerra.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4EDBBA1AA84695F2025A9D8AD9008DCE",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Proficiência com Ferramentas",
+    "e": "Você tem proficiência em uma ferramenta de artesão à sua escolha entre: ferramentas de ferreiro, suprimentos de cervejeiro ou ferramentas de pedreiro.",
+    "a": "pt"
+  },
+  {
+    "uuid": "0B5FD5DB1004D5680E4CBA0E51863E9F",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Especialização em Rochas",
+    "e": "Sempre que você realizar um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e adiciona o dobro do seu bônus de proficiência ao teste, ao invés do seu bônus de proficiência normal.",
+    "a": "pt"
+  },
+  {
+    "uuid": "250216C9504E08E4E4FCA129D57EB6A1",
+    "b": "44E18FA16105E2F932AE863CA3152B2E",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Anão. O idioma Anão é repleto de consoantes duras e sons guturais, e essa característica influencia, como um sotaque, qualquer outro idioma que o anão falar.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3C22C1900E62AC4A2E42ADE7815EC20B",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Constituição aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "25834E6EC1BCB4BBAFC2EFF71F81C823",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Idade",
+    "e": "Anões tornam-se maduros na mesma proporção que os humanos, mas são considerados jovens até atingirem a idade de 50 anos. Em média, eles vivem 350 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "BFBE8DEE97379F956C243EAFB35ECF2F",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Tendência",
+    "e": "A maioria dos anões é leal, pois acreditam firmemente nos benefícios de uma sociedade bem organizada. Eles tendem para o bem, com um forte senso de honestidade e uma crença de que todos merecem compartilhar os benefícios de uma ordem social justa.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D84F115B59D0A74EBB87050F3C026815",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Tamanho",
+    "e": "Anões estão entre 1,20 e 1,50 metro de altura e pesam cerca de 75 kg. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "51A0244C840D3BFFA839DCD9989F263D",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é de 7,5 metros. Seu deslocamento não é reduzido quando estiver usando armadura pesada.",
+    "a": "pt"
+  },
+  {
+    "uuid": "83CAEDFDBC042F473C87606673AE8530",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Visão no Escuro",
+    "e": "Acostumado à vida subterrânea, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E3AFDCF913606C5B1246990EEA7C136D",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Resiliência Anã",
+    "e": "Você possui vantagem em testes de resistência contra venenos e resistência contra dano de veneno (explicado no capítulo 9).",
+    "a": "pt"
+  },
+  {
+    "uuid": "D8E1F4CCDADB838F6A864B39D55D8803",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Treinamento Anão em Combate",
+    "e": "Você tem proficiência com machados de batalha, machadinhas, martelos leves e martelos de guerra.",
+    "a": "pt"
+  },
+  {
+    "uuid": "DD749D450F62810DEA4E98889965CFC6",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Proficiência com Ferramentas",
+    "e": "Você tem proficiência em uma ferramenta de artesão à sua escolha entre: ferramentas de ferreiro, suprimentos de cervejeiro ou ferramentas de pedreiro.",
+    "a": "pt"
+  },
+  {
+    "uuid": "87292EC17ED797E286B9B5BC8F1C6890",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Especialização em Rochas",
+    "e": "Sempre que você realizar um teste de Inteligência (História) relacionado à origem de um trabalho em pedra, você é considerado proficiente na perícia História e adiciona o dobro do seu bônus de proficiência ao teste, ao invés do seu bônus de proficiência normal.",
+    "a": "pt"
+  },
+  {
+    "uuid": "145A742FF6CCE59F2991C0C6641B4FEB",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Anão. O idioma Anão é repleto de consoantes duras e sons guturais, e essa característica influencia, como um sotaque, qualquer outro idioma que o anão falar.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E0BFCAA689EF2579446A4FAD42427E47",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Sabedoria aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5B1CFB6C78B8F4D1B281E91A1DA69702",
+    "b": "26A2F536DD4CEF9E4996C0B40637FCFB",
+    "d": "Tenacidade Anã",
+    "e": "Seu máximo de pontos de vida aumentam em 1, e cada vez que o anão da colina sobe um nível, ele recebe 1 ponto de vida adicional.",
+    "a": "pt"
+  },
+  {
+    "uuid": "AFE5D9383ACD18C8302EBFBE2BE84349",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Destreza aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "822781D2306D2D3DEECD5E6D7FC01231",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Idade",
+    "e": "Embora os elfos atinjam a maturidade física com praticamente a mesma idade dos humanos, a compreensão élfica da idade adulta vai além da maturidade física, abrangendo sua experiência sobre o mundo. Um elfo tipicamente assume a idade adulta e um nome adulto com cerca de 100 anos de idade e pode viver 750 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "1E2533FE6C973F25255C7504997C79A5",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Tendência",
+    "e": "Elfos amam a liberdade, a diversidade e a expressão pessoal, então eles inclinam-se forte e suavemente para aspectos do caos. Eles valorizam e protegem a liberdade dos outros como a sua própria, e são geralmente mais bondosos que o contrário. Os drow são exceção. Seu exílio no Subterrâneo fez deles perversos e perigosos. Drow são geralmente mais maus que o contrário.",
+    "a": "pt"
+  },
+  {
+    "uuid": "471E4AB80BC6D5952D2017BCB87E3AE1",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Tamanho",
+    "e": "Elfos medem entre 1,50 a 1,80 metro de altura e possuem constituição delgada. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "117C586137E4CB8B303FFE3C82748225",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D3C6F9ADFB3EF329D4F88ED9B9CE05B5",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Visão no Escuro",
+    "e": "Acostumado às florestas crepusculares e ao céu noturno, você possui uma visão superior em condições de escuridão e na penumbra. Você pode enxergar na penumbra a até 18 metros como se fosse na luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D56756BB03A50343B1A2B57FDF9EA938",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Sentidos Aguçados",
+    "e": "Você tem proficiência na perícia Percepção.",
+    "a": "pt"
+  },
+  {
+    "uuid": "ADE32543DFF7710A381C21AB17F77DFD",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Ancestral Feérico",
+    "e": "Você tem vantagem nos testes de resistência para resistir a ser enfeitiçado e magias não podem colocá-lo para dormir.",
+    "a": "pt"
+  },
+  {
+    "uuid": "1828D28D41CBAFF3FB2569D92F0F70C9",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Transe",
+    "e": "Elfos não precisam dormir. Ao invés disso, eles meditam profundamente, permanecendo semiconscientes, durante 4 horas por dia. (A palavra em idioma comum para tal meditação é \"transe\".) Enquanto medita, um elfo é capaz de sonhar de certo modo. Esses sonhos na verdade são exercícios mentais que se tornam reflexos através de anos de prática. Depois de descansar dessa forma, você ganha os mesmos benefícios que um humano depois de 8 horas de sono.",
+    "a": "pt"
+  },
+  {
+    "uuid": "2D2CD14D1E0F0EFBD4F2629373958AC9",
+    "b": "1638EB318564E71129772FC3F8847992",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Élfico. O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+    "a": "pt"
+  },
+  {
+    "uuid": "58BB3EA1AFFE612CFD21F253C19926E9",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Destreza aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "362CCB4F196873524DA580E32645A2F2",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Idade",
+    "e": "Embora os elfos atinjam a maturidade física com praticamente a mesma idade dos humanos, a compreensão élfica da idade adulta vai além da maturidade física, abrangendo sua experiência sobre o mundo. Um elfo tipicamente assume a idade adulta e um nome adulto com cerca de 100 anos de idade e pode viver 750 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "385B421C2E7A4077D2F776B7B8451F4D",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Tendência",
+    "e": "Elfos amam a liberdade, a diversidade e a expressão pessoal, então eles inclinam-se forte e suavemente para aspectos do caos. Eles valorizam e protegem a liberdade dos outros como a sua própria, e são geralmente mais bondosos que o contrário. Os drow são exceção. Seu exílio no Subterrâneo fez deles perversos e perigosos. Drow são geralmente mais maus que o contrário.",
+    "a": "pt"
+  },
+  {
+    "uuid": "356C4283D4F31D20EEBB93C814BAB9AD",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Tamanho",
+    "e": "Elfos medem entre 1,50 a 1,80 metro de altura e possuem constituição delgada. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3C64997AA96921D5690FE1A6C40E7B71",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5A562DD6601FE7F589ED7834AC760FBF",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Visão no Escuro",
+    "e": "Acostumado às florestas crepusculares e ao céu noturno, você possui uma visão superior em condições de escuridão e na penumbra. Você pode enxergar na penumbra a até 18 metros como se fosse na luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D76261A7E8A8D808A4282E8AEE20643E",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Sentidos Aguçados",
+    "e": "Você tem proficiência na perícia Percepção.",
+    "a": "pt"
+  },
+  {
+    "uuid": "B585EF4841C73D0F4A834423B2C4E34C",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Ancestral Feérico",
+    "e": "Você tem vantagem nos testes de resistência para resistir a ser enfeitiçado e magias não podem colocá-lo para dormir.",
+    "a": "pt"
+  },
+  {
+    "uuid": "B708E4E4F006AAA6D2D2F15241BAEC8F",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Transe",
+    "e": "Elfos não precisam dormir. Ao invés disso, eles meditam profundamente, permanecendo semiconscientes, durante 4 horas por dia. (A palavra em idioma comum para tal meditação é \"transe\".) Enquanto medita, um elfo é capaz de sonhar de certo modo. Esses sonhos na verdade são exercícios mentais que se tornam reflexos através de anos de prática. Depois de descansar dessa forma, você ganha os mesmos benefícios que um humano depois de 8 horas de sono.",
+    "a": "pt"
+  },
+  {
+    "uuid": "FEF61993E0AD24271D304DBB9D5CDA5F",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Élfico. O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4A8FA13342F4E2612724640F07547DC2",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Inteligência aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "11A7A189C903ABFFF8D6E64FF360F957",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Treinamento Élfico com Armas",
+    "e": "Você possui proficiência com espadas longas, espadas curtas, arcos longos e arcos curtos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "8A0D9BBB3180371B0C049520F408EC93",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Truque",
+    "e": "Você conhece um truque, à sua escolha, da lista de truques do mago. Inteligência é a habilidade usado para conjurar este truque.",
+    "a": "pt"
+  },
+  {
+    "uuid": "EF5E4377F67D92E64E6633B27344BCCD",
+    "b": "F540B1E3C9F15F8202BB07D6B355106C",
+    "d": "Idioma Adicional",
+    "e": "Você pode falar, ler e escrever um idioma adicional à sua escolha.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4976925D3C1A71EDF5A7DBBA3F1B8726",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Destreza aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4021629CB09ECBEE80AC831B743A1841",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Idade",
+    "e": "Um halfling atinge a idade adulta aos 20 anos e pode chegar a 150 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "B5888328011EDAA9A9B06E68785AB6B4",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Tendência",
+    "e": "A maioria dos halflings é leal e boa. Via de regra, eles possuem um bom coração e são amáveis, odeiam ver o sofrimento dos outros e não toleram a opressão. Eles também são muito ordeiros e tradicionais, fortemente apegados à sua comunidade e ao conforto de suas antigas tradições.",
+    "a": "pt"
+  },
+  {
+    "uuid": "CBF1432F90DF6BCE6C62DA81AAF27A34",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Tamanho",
+    "e": "Halflings medem cerca de 0,90 metro de altura e pesam aproximadamente 20 kg. Seu tamanho é Pequeno.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5C3443B6908CE5EDC01A263EB8A20048",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 7,5 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "455738BF1C42BE63287BBDDEAFED2403",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Sortudo",
+    "e": "Quando você obtiver um 1 natural em uma jogada de ataque, teste de habilidade ou teste de resistência, você pode jogar de novo o dado e deve utilizar o novo resultado.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D6CF15C6FFCF4EBE45CE3660F6130A64",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Bravura",
+    "e": "Você tem vantagem em testes de resistência contra ficar amedrontado.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E24C613D9857CDCF2BF2A95ED59E76D2",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Agilidade Halfling",
+    "e": "Você pode mover-se através do espaço de qualquer criatura que for de um tamanho maior que o seu.",
+    "a": "pt"
+  },
+  {
+    "uuid": "0D4E5A9F68F86698C1B147BA35D1B25B",
+    "b": "BA096F0473D7018211C28DD51C42ECD8",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Halfling. A linguagem Halfling não é secreta, mas os halflings são relutantes em compartilhá-la com os outros. Eles escrevem muito pouco, por isso eles não possuem uma literatura rica. No entanto, sua tradição oral é muito forte. Quase todos os halflings falam o idioma Comum para conversar com as pessoas das terras que habitam, ou através das quais eles estejam viajando.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4AC71A5BDEF4F1EF497013047CC57404",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Destreza aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "FAC1371559698FF74C22D815EB659DE0",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Idade",
+    "e": "Um halfling atinge a idade adulta aos 20 anos e pode chegar a 150 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "FF5EC1F157D3B012B3095BE1F345585D",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Tendência",
+    "e": "A maioria dos halflings é leal e boa. Via de regra, eles possuem um bom coração e são amáveis, odeiam ver o sofrimento dos outros e não toleram a opressão. Eles também são muito ordeiros e tradicionais, fortemente apegados à sua comunidade e ao conforto de suas antigas tradições.",
+    "a": "pt"
+  },
+  {
+    "uuid": "9B65B33608899FBAF4A488A5F2076BEA",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Tamanho",
+    "e": "Halflings medem cerca de 0,90 metro de altura e pesam aproximadamente 20 kg. Seu tamanho é Pequeno.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3806D4CD55956C10255C1C1529BDDFF1",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 7,5 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C14344BF1748AF7F50C775690D4D3069",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Sortudo",
+    "e": "Quando você obtiver um 1 natural em uma jogada de ataque, teste de habilidade ou teste de resistência, você pode jogar de novo o dado e deve utilizar o novo resultado.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4ACB0360DEBA6E61BA0052FFEB9B37AB",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Bravura",
+    "e": "Você tem vantagem em testes de resistência contra ficar amedrontado.",
+    "a": "pt"
+  },
+  {
+    "uuid": "6AFC0FF39BF3D65E5ADFE5749CDEB97E",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Agilidade Halfling",
+    "e": "Você pode mover-se através do espaço de qualquer criatura que for de um tamanho maior que o seu.",
+    "a": "pt"
+  },
+  {
+    "uuid": "82B042B72B2B1A0FFB17A0EDE44B1374",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Halfling. A linguagem Halfling não é secreta, mas os halflings são relutantes em compartilhá-la com os outros. Eles escrevem muito pouco, por isso eles não possuem uma literatura rica. No entanto, sua tradição oral é muito forte. Quase todos os halflings falam o idioma Comum para conversar com as pessoas das terras que habitam, ou através das quais eles estejam viajando.",
+    "a": "pt"
+  },
+  {
+    "uuid": "046D98D98E951EADF6B504FA7D98F3DA",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Carisma aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "43321AE57DB4A428665219E2E8519900",
+    "b": "797136AEC80C53FBB3192A544656102C",
+    "d": "Furtividade Natural",
+    "e": "Você pode tentar se esconder mesmo quando possuir apenas a cobertura de uma criatura que for no mínimo um tamanho maior que o seu.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E530682C86C2467B7BC4A2702FD2156D",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Todos os seus valores de habilidade aumentam em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "1A35BE6B5A789B5A8CCBAD9DAF4D8E42",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Idade",
+    "e": "Os humanos chegam à idade adulta no final da adolescência e vivem menos de um século.",
+    "a": "pt"
+  },
+  {
+    "uuid": "B2001375E3C13884B46F45DCD060AD0D",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Tendência",
+    "e": "Os humanos não possuem inclinação a nenhuma tendência em especial. Os melhores e os piores são encontrados entre eles.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5F0F9E39AF7E511FB72A2A1D38EDAA63",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Tamanho",
+    "e": "Os humanos variam muito em altura e peso, podem ter quase 1,50 metro ou mais de 1,80 metro. Independentemente da sua posição entre esses valores, o seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "7FD02117AB38BBC453A4C3337CA2DBBA",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "A46E47BE8CCB7AE50FB7B608B4AD0280",
+    "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e outro idioma adicional, à sua escolha. Os humanos normalmente aprendem os idiomas dos povos que convivem, incluindo dialetos obscuros. Eles gostam de rechear seu discurso com palavras emprestadas de outras línguas: xingamentos orcs, expressões musicais élficas, frases militares anãs e outros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "CCB9738993B08E1E8B258AEB2C32A307",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Força aumenta em 2 e seu valor de Carisma aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "F54357112A0FEBE2B5A57D8B58593037",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Idade",
+    "e": "Draconatos jovens crescem rapidamente. Eles caminham horas após nascerem, adquirindo o tamanho e desenvolvimento semelhante a de uma criança humana de 10 anos com 3 anos de idade e alcançam a maturidade aos 15. Eles costumam viver até os 80.",
+    "a": "pt"
+  },
+  {
+    "uuid": "6E9C125BE13AFFE37B5DAEB07A4C3B30",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Tendência",
+    "e": "Os draconatos tendem aos extremos, realizando uma escolha consciente de um lado ou do outro da guerra cósmica entre o bem e o mal (representada por Bahamut e Tiamat, respectivamente). A maioria dos draconatos é boa, mas os que vão para o lado de Tiamat podem se tornar vilões terríveis.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4DAE7D1ADD21DF45966E955D0AD5BA65",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Tamanho",
+    "e": "Os draconatos são mais altos e mais pesados que os humanos, geralmente possuindo mais de 1,80 metro e normalmente pesando mais de 125 kg. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5785ACBC2BC70F26B0833CA1A31F9531",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Ancestral Dracônico",
+    "e": "(Dragão / Tipo de Dano / Arma de Sopro)\nAzul / Elétrico / Linha de 1.5m/9m (teste de Des)\nBranco / Frio / Cone de 4.5m (Teste de Com)\nBronze / Elétrico / Linha de 1.5m/9m (testede Des)\n Cobre / Acido / Linha de 1.5m/9m (teste de Des)\n Latão / Fogo / Linha de 1.5m/9m (teste de Des)\nNegro / Acido / Linha de 1.5m/9m (teste de Des)\nOuro / Fogo / Cone de 4,5m (teste de Des)\nPrata / Frio / Cone de 4,5m (teste de Con)\nVerde / Veneno / Cone de 4,5m (teste de Con)\nVermelho / Fogo / Cone de 4,5m (teste de Des)\n",
+    "a": "pt"
+  },
+  {
+    "uuid": "EF4432FFBE35C0DBF1BED500538589E0",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3406BE026E8FF119EC001C4624633B5B",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Ancestral Dracônico",
+    "e": "Você possui um ancestral dracônico. Escolha um tipo de dragão da tabela Ancestral Dracônico. Sua arma de sopro e resistência a dano são determinadas pelo tipo de dragão, como mostrado na tabela.",
+    "a": "pt"
+  },
+  {
+    "uuid": "85475FAE49CCE24D8B2B2AEE651DD58B",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Arma de Sopro",
+    "e": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele.\nQuando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível.\nDepois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
+    "a": "pt"
+  },
+  {
+    "uuid": "70A1E41FCF372F390EDFC750544E15CB",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Resistência a Dano",
+    "e": "Você possui resistência ao tipo de dano associado ao seu ancestral dracônico.",
+    "a": "pt"
+  },
+  {
+    "uuid": "899A582CC9BBBB283B1202AAADB3BE1D",
+    "b": "3AD976AE9713ACD3045C24963585AF94",
+    "d": "Idiomas",
+    "e": "Você pode falar, ler e escrever Comum e Dracônico. O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+    "a": "pt"
+  },
+  {
+    "uuid": "CAB7E5444E1AA5D6BF59C7D1576D4940",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Inteligência aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "90E396294033E07E88C9AD747234B118",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Idade",
+    "e": "Gnomos amadurecem a mesma proporção que os humanos e, a maioria, atinge a idade adulta por volta dos 40 anos. Eles podem viver entre 350 e 500 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "1A4D9053410F8DAFB656F381D7665A59",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Tendência",
+    "e": "Os gnomos geralmente são bons. Os que tendem para a ordem são sábios, engenheiros, pesquisadores, escolásticos, investigadores ou inventores. Os que tendem ao caos são menestréis, engenhoqueiros, andarilhos ou joalheiros caprichosos. Gnomos são bons de coração e, até mesmo os trapaceiros entre eles tendem a ser mais brincalhões que perversos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "797F74C0650936D1D7A281CCF8D94356",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Tamanho",
+    "e": "Os gnomos tem entre 0,90 e 1,20 metro e seu peso médio é de 20 kg. Seu tamanho é Pequeno.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E2C32C30E75C5B3676F7A4CDF859B284",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 7,5 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "9EAB4912B2CD898C61A6AC691A59FC2D",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Visão no Escuro",
+    "e": "Acostumado à vida subterrânea, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "74C95B3BD4BB54FB687F96198D66C5A9",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Esperteza Gnômica",
+    "e": "Você possui vantagem em todos os testes de resistência de Inteligência, Sabedoria e Carisma contra magia.",
+    "a": "pt"
+  },
+  {
+    "uuid": "B2C380B138D2C6759B10BD4526DA36DA",
+    "b": "FF7539A5D00406535B7B1BB6EF4DC83A",
+    "d": "Idiomas",
+    "e": "Você sabe falar, ler e escrever Comum e Gnômico. A linguagem Gnômica, que usa o alfabeto Anão, é conhecida por suas técnicas de dissertação e por seus catálogos de conhecimento sobre o mundo natural.",
+    "a": "pt"
+  },
+  {
+    "uuid": "416D58E4E3DF1B6B7826E9775C9FA484",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Inteligência aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "CFF22453B54476DB2C63E8B055222767",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Idade",
+    "e": "Gnomos amadurecem a mesma proporção que os humanos e, a maioria, atinge a idade adulta por volta dos 40 anos. Eles podem viver entre 350 e 500 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "D331E5C3A8A99C4F8664DD672DEF7847",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Tendência",
+    "e": "Os gnomos geralmente são bons. Os que tendem para a ordem são sábios, engenheiros, pesquisadores, escolásticos, investigadores ou inventores. Os que tendem ao caos são menestréis, engenhoqueiros, andarilhos ou joalheiros caprichosos. Gnomos são bons de coração e, até mesmo os trapaceiros entre eles tendem a ser mais brincalhões que perversos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3C646D26995D310EE67F052DC4F4C276",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Tamanho",
+    "e": "Os gnomos tem entre 0,90 e 1,20 metro e seu peso médio é de 20 kg. Seu tamanho é Pequeno.",
+    "a": "pt"
+  },
+  {
+    "uuid": "42926C234F8EFFF30146A9E57C69FB2C",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 7,5 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "50115A453DE4A23820EF2E93FFFE00E2",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Visão no Escuro",
+    "e": "Acostumado à vida subterrânea, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "33B1CA7B197B7A293DC0EE5C664A7DF1",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Esperteza Gnômica",
+    "e": "Você possui vantagem em todos os testes de resistência de Inteligência, Sabedoria e Carisma contra magia.",
+    "a": "pt"
+  },
+  {
+    "uuid": "180A1774765723287AFC4EFE9972B709",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Idiomas",
+    "e": "Você sabe falar, ler e escrever Comum e Gnômico. A linguagem Gnômica, que usa o alfabeto Anão, é conhecida por suas técnicas de dissertação e por seus catálogos de conhecimento sobre o mundo natural.",
+    "a": "pt"
+  },
+  {
+    "uuid": "E97D5DFC80F783378B41F852914E026A",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Constituição aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "7AC20734E794E8E548A590D77CEA1265",
+    "b": "5CD46431358BA16D5D8A410EE313EFA7",
+    "d": "Engenhoqueiro",
+    "e": "Você possui proficiência com ferramentas de artesão (ferramentas de engenhoqueiro). Usando essas ferramentas, você pode gastar 1 hora e 10 po em materiais para construir um mecanismo Miúdo (CA 5, 1 pv). O mecanismo para de funcionar após 24 horas (a não ser que você gaste 1 hora reparando-o para manter o mecanismo funcionando), ou quando você usa sua ação para desmantelá-lo; nesse momento, você pode recuperar o material usado para criá-lo. Você pode ter até três desses mecanismos ativos ao mesmo tempo.\nQuando você criar um mecanismo, escolha uma das seguintes opções:\nBrinquedo Mecânico. Esse brinquedo é um animal, monstro ou pessoa mecânica, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 1,5 metro pelo chão em cada um dos seus turnos em uma direção aleatória. Ele faz barulhos apropriados a criatura que ele representa.\nIsqueiro Mecânico. O mecanismo produz uma miniatura de chama, que você pode usar para acender uma vela, tocha ou fogueira. Usar o mecanismo requer sua ação.\nCaixa de Música. Quando aberta, essa caixa de música toca uma canção a um volume moderado. A caixa para de tocar quando alcança o fim da música ou quando é fechada.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C41FC38C0B89AD4A36A6295F2B1B288E",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Carisma aumenta em 2 e outros dois valores de habilidade, à sua escolha, aumentam em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C6323B2E9274DE98FD5354FED500FAD7",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Idade",
+    "e": "Meio-elfos atingem a maturidade ao mesmo tempo que os humanos atingem a idade adulta, por volta dos 20 anos. Eles vivem muito mais que os humanos, no entanto, raramente ultrapassam os 180 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "06967FBA8518F4C459F9B7D13A265D0A",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Tendência",
+    "e": "Meio-elfos compartilham a veia caótica da sua herança élfica. Eles valorizam tanto a sua liberdade quanto sua expressão criativa, não demonstrando qualquer apresso por líderes ou seguidores. Eles se irritam com regras, ressentindo com exigências de outros e, as vezes, se provam incertos, ou pelo menos, imprevisíveis.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5471AD089D1678A4065BD1B89C33EA3C",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Tamanho",
+    "e": "Meio-elfos tem aproximadamente a mesma altura dos humanos, variando entre 1,50 metro e 1,80 metro. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "0A93B7E063F9F0BECC2788BF36FF12C7",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5B0FA3C28DA1F140A6425C3C42D2412A",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Visão no Escuro",
+    "e": "Graças ao seu sangue élfico, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4B1752AA5BBCFA63EBB557276CF7A6EC",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Ancestral Feérico",
+    "e": "Você possui vantagem em testes de resistência contra encantamento e magia não pode colocar você pra dormir.",
+    "a": "pt"
+  },
+  {
+    "uuid": "AEB7AAB08705A97CF2603EE7B2723688",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Versatilidade em Perícia",
+    "e": "Você ganha proficiência em duas perícias, à sua escolha.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C8127471918CBEDEB2BB00DA2396C57E",
+    "b": "CB396E9936397E3078B2C9F94DAE58B6",
+    "d": "Idiomas",
+    "e": "Você sabe falar, ler e escrever Comum, Élfico e um idioma adicional, à sua escolha.",
+    "a": "pt"
+  },
+  {
+    "uuid": "AB9A26A94920BA0D1E5BBD1C5653DCD0",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Força aumenta em 2 e seu valor de Constituição aumenta em 1.",
+    "a": "pt"
+  },
+  {
+    "uuid": "3F59162C1B1594A5FF9F59F694BFB98F",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Idade",
+    "e": "Os meio-orcs amadurecem um pouco antes dos humanos, atingindo a idade adulta aos 14 anos. Eles envelhecem notavelmente mais rápido e, raramente, vivem mais de 75 anos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "5A8429D4DB837D2DA6982CC3EB955745",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Tendência",
+    "e": "Meio-orcs tem uma tendência inata ao caos devido aos seus parentes orcs e não são fortemente inclinados ao bem. Meio-orcs que cresceram entre orcs e desejam viver e estão dispostos a passar sua vida entre eles, tendem a ser malignos.",
+    "a": "pt"
+  },
+  {
+    "uuid": "8280C5988DBE316F2098579FF8EC5A4F",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Tamanho",
+    "e": "Meio-orcs são de certa forma maiores e mais largos que os humanos, medindo entre 1,80 metro e 2,10 metros. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4E308E4D8D3186CEEA80243581A58214",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "7C32F5BBD41270C3CA71A110C74CC0A2",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Visão no Escuro",
+    "e": "Graças ao seu sangue orc, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "ED37C15F498A6C72BA3F5BC2DEF77770",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Ameaçador",
+    "e": "Você adquire proficiência na perícia Intimidação.",
+    "a": "pt"
+  },
+  {
+    "uuid": "39FB2D7553F6467B2656FF2519696EC7",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Resistência Implacável",
+    "e": "Quando você é reduzido a 0 pontos de vida mas não é completamente morto, você pode voltar para 1 ponto de vida. Você não pode usar essa característica novamente até completar um descanso longo.",
+    "a": "pt"
+  },
+  {
+    "uuid": "6CE9E7DCA86B61AEAC78EE177C2363B2",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Ataques Selvagens",
+    "e": "Quando você atinge um ataque crítico com uma arma corpo-a-corpo, você pode rolar um dos dados de dano da arma mais uma vez e adicioná-lo ao dano extra causado pelo acerto crítico.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C195974C4B7E715B2128041341450F25",
+    "b": "D54C62D3589F5C09582058E36EFCCBDC",
+    "d": "Idiomas",
+    "e": "Você sabe falar, ler e escrever Comum, Orc. O Orc é um idioma ríspido, possuindo uma linguagem de consoantes duras. Ele não possui alfabeto próprio, mas usa o alfabeto Anão.",
+    "a": "pt"
+  },
+  {
+    "uuid": "EF054E7A2EE8E87CE8CF669DB541865A",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Aumento no Valor de Habilidade",
+    "e": "Seu valor de Inteligência aumenta em 1 e seu valor de Carisma aumenta em 2.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4911F9FF5A02E8F0B8EAA29A172B82CD",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Idade",
+    "e": "Os tieflings amadurecem ao mesmo tempo que os humanos, mas vivem alguns anos a mais.",
+    "a": "pt"
+  },
+  {
+    "uuid": "444145F90F2EF36463A5E0220F8BE1B3",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Tendência",
+    "e": "Tieflings não possuem uma tendência inata ao mal, mas muitos acabam por abraçá-lo. Maligno ou não, uma natureza independente inclina a maioria dos tieflings ao alinhamento caótico.",
+    "a": "pt"
+  },
+  {
+    "uuid": "4FA6408F5384D8AD10C74BF56C76E72F",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Tamanho",
+    "e": "Os tieflings possuem o mesmo tamanho e compleição dos humanos. Seu tamanho é Médio.",
+    "a": "pt"
+  },
+  {
+    "uuid": "05135C7CBF84F4C718132BD143CACDB9",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Deslocamento",
+    "e": "Seu deslocamento base de caminhada é 9 metros.",
+    "a": "pt"
+  },
+  {
+    "uuid": "C65135C08197FD1427017CD5807771B7",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Visão no Escuro",
+    "e": "Graças a sua herança infernal, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+    "a": "pt"
+  },
+  {
+    "uuid": "ED7550F8E1B3A79D89E16B3468F5E3B4",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Resistência Infernal",
+    "e": "Você possui resistência a dano de fogo.",
+    "a": "pt"
+  },
+  {
+    "uuid": "39C4480DC9444E5E627D6836536B124F",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Legado Infernal",
+    "e": "Você conhece o truque taumaturgia. Quando você atingir o 3° nível, você poderá conjurar a magia repreensão infernal como uma magia de 2° nível. Quando você atingir o 5° nível, você também poderá conjurar a magia escuridão. Você precisa terminar um descanso longo para poder usar as magias desse traço novamente. Sua habilidade de conjuração para essas magias é Carisma.",
+    "a": "pt"
+  },
+  {
+    "uuid": "9902A3F1AB71AAD3083000893517B75B",
+    "b": "45926CBFE02091BA6C664E416C4A20BE",
+    "d": "Idiomas",
+    "e": "Você sabe falar, ler e escrever Comum e Infernal.",
+    "a": "pt"
+  },
+  {
+    "uuid": "93D30AF41245E99B3D5F551B326E4797",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Ability Score Increase",
+    "e": "Your Strength score increases by 2, and your Charisma score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "605D55A02E942F6FBA43C033EC89CA37",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Age",
+    "e": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach Adulthood by 15. They live to be around 80.",
+    "a": "en"
+  },
+  {
+    "uuid": "0786923E2E6EAB176BACAB70A48D0AF8",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Alignment",
+    "e": "Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.",
+    "a": "en"
+  },
+  {
+    "uuid": "1197BE6A0F24F8F0066843FEAF3B19D6",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Size",
+    "e": "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "BF257C9D19203AF57003E3E2D55489ED",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "8FA8BF714D3C322AB6E297636C253AD8",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Dragon Damage Type Breath Weapon",
+    "e": "- Black Acid 5 by 30 ft. line (Dex. save)\n- Blue Lightning 5 by 30 ft. line (Dex. save)\n- Brass Fire 5 by 30 ft. line (Dex. save)\n- Bronze Lightning 5 by 30 ft. line (Dex. save)\n- Copper Acid 5 by 30 ft. line (Dex. save)\n- Gold Fire 15 ft. cone (Dex. save)\n- Green Poison 15 ft. cone (Con. save)\n- Red Fire 15 ft. cone (Dex. save)\n- Silver Cold 15 ft. cone (Con. save)\n- White Cold 15 ft. cone (Con. save)",
+    "a": "en"
+  },
+  {
+    "uuid": "3B56508A455087A40477CC3D90341559",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Draconic Ancestry",
+    "e": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage Resistance are determined by the dragon type, as shown in the table.",
+    "a": "en"
+  },
+  {
+    "uuid": "982F75F565A942575D0E060F2A04FA7E",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Breath Weapon",
+    "e": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.\nWhen you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\nAfter you use your breath weapon, you can’t use it again until you complete a short or Long Rest.",
+    "a": "en"
+  },
+  {
+    "uuid": "09F5E11DB7EB17AE436ADDC3B9888943",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Damage Resistance",
+    "e": "You have Resistance to the damage type associated with your draconic ancestry.",
+    "a": "en"
+  },
+  {
+    "uuid": "19866C65C60B29889FC319CB138E7AAD",
+    "b": "5FEF2BE1D78576BF62AAF78AAC3CECD9",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The Language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
+    "a": "en"
+  },
+  {
+    "uuid": "6E82B1C8E46A52995C4B5A43C177D173",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Ability Score Increase",
+    "e": "Your Constitution score increases by 2.",
+    "a": "en"
+  },
+  {
+    "uuid": "D508C57582AC086E456CFC26FDAEA4AB",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Age",
+    "e": "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "8678DDDC01EAF822A79C22BCB91940DC",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Alignment",
+    "e": "Most Dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of Fair Play and a belief that everyone deserves to share in the benefits of a just order.",
+    "a": "en"
+  },
+  {
+    "uuid": "CDEA392563C75E9FC416F4F41120623E",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Size",
+    "e": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "DCF89A00BA8E3391886B3E8FC0964476",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet. Your speed is not reduced by wearing Heavy Armor.",
+    "a": "en"
+  },
+  {
+    "uuid": "37D4B2B87AAD3AD6CD5843066E9EB27A",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Darkvision",
+    "e": "Accustomed to life underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "DAFBA98D683E3B4CAACF9E4D2E340F70",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Dwarven Resilience",
+    "e": "You have advantage on saving throws against poison, and you have Resistance against poison damage.",
+    "a": "en"
+  },
+  {
+    "uuid": "4716A1E253C25DF215F990FEAF093381",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Dwarven Combat Training",
+    "e": "You have proficiency with the Battleaxe, Handaxe, Light Hammer, and Warhammer.",
+    "a": "en"
+  },
+  {
+    "uuid": "580CEE98130694A02B24B6D07D48F099",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Tool Proficiency",
+    "e": "You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.",
+    "a": "en"
+  },
+  {
+    "uuid": "50BEDD6CD92F9983E1F10DAB797B28B2",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Stonecunning",
+    "e": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+    "a": "en"
+  },
+  {
+    "uuid": "71DC748348593F2FF20021662CE013B3",
+    "b": "C4F352EB0F765D680BE7E5BB46620DD9",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other Language a dwarf might speak.",
+    "a": "en"
+  },
+  {
+    "uuid": "BA815D72FC08EE9166424579177DF1F9",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Ability Score Increase",
+    "e": "Your Constitution score increases by 2.\nYour Wisdom score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "225B41FA48A6932074B3F36B3D48708A",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Age",
+    "e": "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "D8B333C18B7EC89D876E620212583DEB",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Alignment",
+    "e": "Most Dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of Fair Play and a belief that everyone deserves to share in the benefits of a just order.",
+    "a": "en"
+  },
+  {
+    "uuid": "FB29933AD55188DDA18A089F12E9D048",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Size",
+    "e": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "6C99BCC1A10E80880DEEDE0220B676EE",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet. Your speed is not reduced by wearing Heavy Armor.",
+    "a": "en"
+  },
+  {
+    "uuid": "0AFEB03E4A0B72C5883AF9FD35637431",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Darkvision",
+    "e": "Accustomed to life underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "04995AB15E0D61FDD2988A5E2C94EABC",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Dwarven Resilience",
+    "e": "You have advantage on saving throws against poison, and you have Resistance against poison damage.",
+    "a": "en"
+  },
+  {
+    "uuid": "DF866FA7ECE13A74B51A8754DDE4CECC",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Dwarven Combat Training",
+    "e": "You have proficiency with the Battleaxe, Handaxe, Light Hammer, and Warhammer.",
+    "a": "en"
+  },
+  {
+    "uuid": "DBF4B60F96DD257D6BF1547284C93F0E",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Tool Proficiency",
+    "e": "You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.",
+    "a": "en"
+  },
+  {
+    "uuid": "3BC4034D1D3310D172C09A95E1B3FF64",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Stonecunning",
+    "e": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+    "a": "en"
+  },
+  {
+    "uuid": "2223D3BF04E4923311B2DC845D95165C",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other Language a dwarf might speak.",
+    "a": "en"
+  },
+  {
+    "uuid": "337C9E30D506B2AC7A70486B867854E0",
+    "b": "DFB5B047C37FB5E9A11F011BE753FFDA",
+    "d": "Dwarven Toughness",
+    "e": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+    "a": "en"
+  },
+  {
+    "uuid": "00BAF21215C5C95FD7D4DAC6C808188E",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Ability Score Increase",
+    "e": "Your Dexterity score increases by 2.",
+    "a": "en"
+  },
+  {
+    "uuid": "04D562DE225F11BFDE4EC562C3CDC72E",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Age",
+    "e": "Although elves reach physical maturity at about the same age as humans, the elven understanding of Adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims Adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+    "a": "en"
+  },
+  {
+    "uuid": "EE786EA29CDADAAF3051158D21A1FFEB",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Alignment",
+    "e": "Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
+    "a": "en"
+  },
+  {
+    "uuid": "302E5E454746956E152D466938AC9329",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Size",
+    "e": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "1B90FC6F70F21FFA4C3F8D3635F9D480",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "83A688255BAE784E58CAD04E2F04244A",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Darkvision",
+    "e": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "DD2F4C9D843125566ECECCFCCF646DEB",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Keen Senses",
+    "e": "You have proficiency in the Perception skill.",
+    "a": "en"
+  },
+  {
+    "uuid": "FC17EF6B9E5874568FD6390966F8D92E",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Fey Ancestry",
+    "e": "You have advantage on saving throws against being Charmed, and magic can’t put you to sleep.",
+    "a": "en"
+  },
+  {
+    "uuid": "EE82FEF9D642B86D110FF717F09F436B",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Trance",
+    "e": "Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After Resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+    "a": "en"
+  },
+  {
+    "uuid": "DDBD13CB8F48A9B0D6111AF612F4BB34",
+    "b": "D91F4ECDB73D56CC0E6C09B748F524F7",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their Language so they can add Elvish ballads to their repertoires.",
+    "a": "en"
+  },
+  {
+    "uuid": "C10A60FFB17957A5159F8F740A2DEC28",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Ability Score Increase",
+    "e": "Your Dexterity score increases by 2.\nYour Intelligence score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "F49448486F89E3C85C4CFEDEFBF0273A",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Age",
+    "e": "Although elves reach physical maturity at about the same age as humans, the elven understanding of Adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims Adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+    "a": "en"
+  },
+  {
+    "uuid": "5DF5DB97C9B7CB8153AF3F5DD19348A7",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Alignment",
+    "e": "Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
+    "a": "en"
+  },
+  {
+    "uuid": "9922B72D2FC337C005371A3FBDF78915",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Size",
+    "e": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "E736D36D6E385AB3D0860D7F6B22764C",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "BEFE8F86DBFA38CA6F42D6C389C02A65",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Darkvision",
+    "e": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "A4746626A30F6BE3A9FEBAC9F9E8D868",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Keen Senses",
+    "e": "You have proficiency in the Perception skill.",
+    "a": "en"
+  },
+  {
+    "uuid": "FE914E03C73B91046AA2CFE8D6F02AE1",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Fey Ancestry",
+    "e": "You have advantage on saving throws against being Charmed, and magic can’t put you to sleep.",
+    "a": "en"
+  },
+  {
+    "uuid": "6F086A73C67314CB3A3B3D78310CB094",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Trance",
+    "e": "Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After Resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+    "a": "en"
+  },
+  {
+    "uuid": "1FA2E848373BF3E014DB1FDBADDA9357",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their Language so they can add Elvish ballads to their repertoires.",
+    "a": "en"
+  },
+  {
+    "uuid": "279347571EEF10628ED8D5D89B6A30FB",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Elf Weapon Training",
+    "e": "You have proficiency with the Longsword, Shortsword, Shortbow, and Longbow.",
+    "a": "en"
+  },
+  {
+    "uuid": "D1327B2EDBED8FB959292CB9ECE17B6A",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Cantrip",
+    "e": "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
+    "a": "en"
+  },
+  {
+    "uuid": "320A9BEC49700F00255A9A19EE9F5E30",
+    "b": "5FFC148B3D0E57729E02885056DADD67",
+    "d": "Extra Language?",
+    "e": "You can speak, read, and write one extra Language of your choice.",
+    "a": "en"
+  },
+  {
+    "uuid": "B9606A6BB88306AE0864F7DC7C4C439C",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Ability Score Increase",
+    "e": "Your Intelligence score increases by 2.",
+    "a": "en"
+  },
+  {
+    "uuid": "D0A80DE1955018A3A17AF77FE196A9B7",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Age",
+    "e": "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "7F83B49F7CD09649AF6302FE79FD2310",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Alignment",
+    "e": "Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
+    "a": "en"
+  },
+  {
+    "uuid": "AC5FB36568DBE65869EF17C51801D0E7",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Size",
+    "e": "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
+    "a": "en"
+  },
+  {
+    "uuid": "BE38A43EECA8E47E50D4BF7579805348",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "CF6534B513D08413B5C89138F3F0D3A6",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Darkvision",
+    "e": "Accustomed to life underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "2C61DA9A25EA97714B6644ADA141107F",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Gnome Cunning",
+    "e": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
+    "a": "en"
+  },
+  {
+    "uuid": "F33A86F2EE146369F4216628E261C1EB",
+    "b": "93C6F902F9B15848121280608BC9A859",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Gnomish. The Gnomish Language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+    "a": "en"
+  },
+  {
+    "uuid": "0385ED2F61BCCE065F451772BBF2C7F1",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Ability Score Increase",
+    "e": "Your Intelligence score increases by 2.\nYour Constitution score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "133B1058ADDDC265F5CD3F49D2918B88",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Age",
+    "e": "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "94AFE9C14F73E91D101333BF9A6B5B69",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Alignment",
+    "e": "Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
+    "a": "en"
+  },
+  {
+    "uuid": "C9C890B57422012693B32C23AA64766E",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Size",
+    "e": "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
+    "a": "en"
+  },
+  {
+    "uuid": "2DFA1E53E4AB3FFF04E5659288049753",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "00C15B65429A93642A5A9A3DBDDF257B",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Darkvision",
+    "e": "Accustomed to life underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "69E1D862290701142BD99F9CA274C0C2",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Gnome Cunning",
+    "e": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
+    "a": "en"
+  },
+  {
+    "uuid": "EB1860609EE89EEB881CCF09E2AEE232",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Gnomish. The Gnomish Language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+    "a": "en"
+  },
+  {
+    "uuid": "C1DBD6B0AC6A3C867A9A114C5E9BBE50",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Artificer’s Lore",
+    "e": "Whenever you make an Intelligence (History) check related to Magic Items, alchemical Objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.",
+    "a": "en"
+  },
+  {
+    "uuid": "CC27282D41EF53A63D13DBEF64CC3E03",
+    "b": "1CABC261688C44BE329334E74110B2C7",
+    "d": "Tinker",
+    "e": "You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:\n- Clockwork Toy: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n- Fire Starter: The device produces a miniature flame, which you can use to light a Candle, torch, or campfire. Using the device requires your action.\n- Music Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.",
+    "a": "en"
+  },
+  {
+    "uuid": "25F51BABF2D36FB9205C775D9EC2270D",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Ability Score Increase",
+    "e": "Your Charisma score increases by 2, and two other Ability Scores of your choice increase by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "A9087736A6F79CFCBD912BF69EB64E26",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Age",
+    "e": "Half-elves mature at the same rate humans do and reach Adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "4CA13D426F0276AD8361871F69F431F2",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Alignment",
+    "e": "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others’ demands, and sometimes prove unreliable, or at least unpredictable.",
+    "a": "en"
+  },
+  {
+    "uuid": "E994F8BCF581E3B6BB72259A7516E946",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Size",
+    "e": "Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "3777FE31568B1312951AD7EEB7D60B8A",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "416FEBE61BA50A1DB3A7ADF30B70485A",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Darkvision",
+    "e": "Thanks to your elf blood, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "18F99021F28DA30CC236791256E1A1A8",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Fey Ancestry",
+    "e": "You have advantage on saving throws against being Charmed, and magic can’t put you to sleep.",
+    "a": "en"
+  },
+  {
+    "uuid": "60E035FCA2D68239A8E8275287FA624C",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Skill Versatility",
+    "e": "You gain proficiency in two skills of your choice.",
+    "a": "en"
+  },
+  {
+    "uuid": "7AF1CA1B72184DAF7AF970386739731D",
+    "b": "C6FEA9F6AAB44F964D4D9E9521C380F5",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common, Elvish, and one extra Language of your choice.",
+    "a": "en"
+  },
+  {
+    "uuid": "4B2C36ED82540AB13A22591B3D2BE371",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Ability Score Increase",
+    "e": "Your Strength score increases by 2, and your Constitution score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "ECC9FD3E12527170CBE68B0900BCF673",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Age",
+    "e": "Half-Orcs mature a little faster than humans, reaching Adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+    "a": "en"
+  },
+  {
+    "uuid": "7160E915A9F6AE93214A24F8B64B2B76",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Alignment",
+    "e": "Half-Orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-Orcs raised among orcs and willing to live out their lives among them are usually evil.",
+    "a": "en"
+  },
+  {
+    "uuid": "AB5AF376ADD8B8B528DB9DDE48F033E3",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Size",
+    "e": "Half-Orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "C479677FA7F2C7FD9E6B738C2BBC9EC2",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "25711928EE24F51783DA5C3CAEEB7D1D",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Darkvision",
+    "e": "Thanks to your orc blood, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "E964D4353BD82A850643D7AF22FF565C",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Menacing",
+    "e": "You gain proficiency in the Intimidation skill.",
+    "a": "en"
+  },
+  {
+    "uuid": "FA08F7DE730422E9736E797147820735",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Relentless Endurance",
+    "e": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a Long Rest.",
+    "a": "en"
+  },
+  {
+    "uuid": "4B961FEBC28DDA3ABF0F5AC35D18244A",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Savage Attacks",
+    "e": "When you score a critical hit with a melee weapon Attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.",
+    "a": "en"
+  },
+  {
+    "uuid": "B658E86918AEF4C72CC961F3EEC0B88F",
+    "b": "019D1236C2F823929B81531D161DE409",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Orc. Orc is a harsh, grating Language with hard consonants. It has no script of its own but is written in the Dwarvish script.",
+    "a": "en"
+  },
+  {
+    "uuid": "F231583FC93D3F65B2911BCF7260820A",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Ability Score Increase",
+    "e": "Your Dexterity score increases by 2.",
+    "a": "en"
+  },
+  {
+    "uuid": "5D1D23B1D63FB9002AC2B7DBF187C270",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Age",
+    "e": "A halfling reaches Adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+    "a": "en"
+  },
+  {
+    "uuid": "EEED7686A6A55945623383C519C5EE27",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Alignment",
+    "e": "Most Halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+    "a": "en"
+  },
+  {
+    "uuid": "87EECFAD2EA556F4BABE1420282E5B35",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Size",
+    "e": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+    "a": "en"
+  },
+  {
+    "uuid": "89BA381B653C4267239EFC2D4F64EED2",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "9233FC3F20CFF315C6D0CAF71F688C7D",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Lucky",
+    "e": "When you roll a 1 on the d20 for an Attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+    "a": "en"
+  },
+  {
+    "uuid": "2DAD8D7D9BA935A6205215EF071F5EA1",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Brave",
+    "e": "You have advantage on saving throws against being Frightened.",
+    "a": "en"
+  },
+  {
+    "uuid": "EC96A4A9A837F59FF74DAF8D3B47AB88",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Halfling Nimbleness",
+    "e": "You can move through the space of any creature that is of a size larger than yours.",
+    "a": "en"
+  },
+  {
+    "uuid": "1DBF6072764E42F34E900C1EFB9087FA",
+    "b": "DA47CFA181BA09D72DF537246A55B5FE",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Halfling. The Halfling Language isn’t secret, but Halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all Halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+    "a": "en"
+  },
+  {
+    "uuid": "0943AD457A389FA95162B7CB4EE4B5C7",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Ability Score Increase",
+    "e": "Your Dexterity score increases by 2.\nYour Charisma score increases by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "527297A3C6760F0E604711AC1CA101DC",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Age",
+    "e": "A halfling reaches Adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+    "a": "en"
+  },
+  {
+    "uuid": "0A2BA0D3F967DA6BFBD53F62ED5577AE",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Alignment",
+    "e": "Most Halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+    "a": "en"
+  },
+  {
+    "uuid": "30E50F6488CA9BF82B24CEE107D19D59",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Size",
+    "e": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+    "a": "en"
+  },
+  {
+    "uuid": "436C9641A95EBF54B64BF9F938549784",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Speed",
+    "e": "Your base walking speed is 25 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "A4CBFB574FE17A08EBD353829A3530F7",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Lucky",
+    "e": "When you roll a 1 on the d20 for an Attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+    "a": "en"
+  },
+  {
+    "uuid": "B317E184A15DABFBDB823B612DDD38F6",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Brave",
+    "e": "You have advantage on saving throws against being Frightened.",
+    "a": "en"
+  },
+  {
+    "uuid": "22102B3A6D2330DDEBB8C029FCF9D8AB",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Halfling Nimbleness",
+    "e": "You can move through the space of any creature that is of a size larger than yours.",
+    "a": "en"
+  },
+  {
+    "uuid": "0233F0DFE3BEE3354424F45E3231D003",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Halfling. The Halfling Language isn’t secret, but Halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all Halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+    "a": "en"
+  },
+  {
+    "uuid": "BAD6A0BC8A1BEB26E45A2FF2E0944111",
+    "b": "E630C7831BE74EB4DE72B4C4C5B1650D",
+    "d": "Naturally Stealthy",
+    "e": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+    "a": "en"
+  },
+  {
+    "uuid": "64F5011DE2A3E4374EA3657E5E66A0A2",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Ability Score Increase",
+    "e": "Your Ability Scores each increase by 1.",
+    "a": "en"
+  },
+  {
+    "uuid": "4F8B1D1773B190B972CAF321751CD563",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Age",
+    "e": "Humans reach Adulthood in their late teens and live less than a century.",
+    "a": "en"
+  },
+  {
+    "uuid": "DA7C3E5A65045EFCB774D63A5478295E",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Alignment",
+    "e": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+    "a": "en"
+  },
+  {
+    "uuid": "221EF3EA306A5FC0543E90658CF3E9BE",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Size",
+    "e": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "6BD2898FC321C5A5DD240D8A65EADEA3",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "A7B30A3AF74D42B4917F142F9E55AC5B",
+    "b": "1C5163F6DD3DDC7D2BF8889001FFAA7F",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and one extra Language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their Speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
+    "a": "en"
+  },
+  {
+    "uuid": "BC51F2039AFD169A357442ED4B944A97",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Ability Score Increase",
+    "e": "Your Intelligence score increases by 1, and your Charisma score increases by 2.",
+    "a": "en"
+  },
+  {
+    "uuid": "A9EBBC692EBEFC5ADA499F5B588AA118",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Age",
+    "e": "Tieflings mature at the same rate as humans but live a few years longer.",
+    "a": "en"
+  },
+  {
+    "uuid": "FFB6C0DD79B18B42E2D5B0868038017A",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Alignment",
+    "e": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+    "a": "en"
+  },
+  {
+    "uuid": "809936211FD991C6D9812C3C78E19DCE",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Size",
+    "e": "Tieflings are about the same size and build as humans. Your size is Medium.",
+    "a": "en"
+  },
+  {
+    "uuid": "C4CC7B0C87678E2093AECD009299EB4D",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Speed",
+    "e": "Your base walking speed is 30 feet.",
+    "a": "en"
+  },
+  {
+    "uuid": "B0E4C9F12C9D3EF1FBAC8DDDF25D26F9",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Darkvision",
+    "e": "Thanks to your infernal heritage, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.",
+    "a": "en"
+  },
+  {
+    "uuid": "770B8DC9ACD77261EE38E92FB221422B",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Hellish Resistance",
+    "e": "You have Resistance to fire damage.",
+    "a": "en"
+  },
+  {
+    "uuid": "DF894A4CA9983FF74007D7227B587B78",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Infernal Legacy",
+    "e": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a Long Rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spellcasting ability for these Spells.",
+    "a": "en"
+  },
+  {
+    "uuid": "51EB51E062AEF3004060EF5A295163AF",
+    "b": "6BAEDA9D87928D7E16392BD00CE68C47",
+    "d": "Languages",
+    "e": "You can speak, read, and write Common and Infernal.",
+    "a": "en"
+  }
+]

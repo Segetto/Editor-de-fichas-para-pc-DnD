@@ -20,10 +20,10 @@ public class Equipamento extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha) {
+    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JSONArray itens) {
         initComponents();
         jScrollPaneItens.getVerticalScrollBar().setUnitIncrement(10);
-        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens);
+        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens, itens);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -94,6 +94,7 @@ public class Equipamento extends javax.swing.JFrame {
         AdicionarNovosItens.setForeground(new java.awt.Color(122, 255, 255));
         AdicionarNovosItens.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AdicionarNovosItens.setText("Adicionar");
+        AdicionarNovosItens.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

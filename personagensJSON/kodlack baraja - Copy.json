@@ -1,0 +1,2783 @@
+{
+    "a": [{
+        "A": "",
+        "B": "",
+        "C": "Nascido em uma aldeia de guerreiros, kodlak nunca teve talento com a espada e sempre sentiu como se faltasse algo em sua vida, até o dia em que um dragão atacou a sua vila, dizimando diversos aldeões, inclusive seis pais, incapazes de lidar com o hálito gélido que o dragão expelia e com o constante voo do gigantesco réptil. Quando a esperança parecia perdida, um mago aventureiro apareceu, conjurou uma magia de fogo e acabou facilmente com o dragão, kodlack, que até então jamais tinha visto magia na sua vida, se culpou pela morte de seus pais, dizendo que era sua culpa não ser forte para protege-los, kodlack então, determinado a se fortalecer nos caminhos arcanospara que nunca mais perdesse aqueles que eram importantes para ele, foi até a taverna da vila, e implorou ao aventureiro para lhe ensinar os magia, o mago aceitou, e então ensinou-lhe algumas magias básicas cujas quais ele anotou em seu grimório dado a kodlack por ele, o mago ficou na cidade por pouco tempo, pois os guerreiros da vila consideravam a magia como algo nefasto e perigoso. Após a partida de seu mentor, kodlack passou a estudar magia por conta própria, mas devido a baixa quantidade de livros arcanos em seu vilarejo, ele não conseguiu aprender muito, e também passou a ser odiado pelos outros moradores, que o chamavam de fraco, covarde e de monstro. Aos 19 anos, kodlack abandonou sua vila para aprofundar seus conhecimentos mágicos.",
+        "D": "btgln1ldr4mbderngsfenvddqqic_character.png",
+        "E": "btgln1ldr4mbderngsfenvddqqalliesOrganizations.png",
+        "uuid": "btgln1ldr4mbderngsfenvddqq",
+        "id": 0,
+        "a": "Kodlack Baraja TESTE",
+        "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+        "c": "E4758A075C8D74A6F6FB0E4DF3B8EBB3",
+        "d": 56130,
+        "e": true,
+        "f": 4,
+        "g": 0,
+        "h": 0,
+        "i": 9,
+        "j": 83,
+        "k": 0,
+        "l": 83,
+        "m": 7.5,
+        "n": 0,
+        "o": 0,
+        "p": 0,
+        "0": "clara",
+        "q": 0,
+        "1": "castanho",
+        "r": 1000,
+        "2": "q7plhnc5lrg509ri8sm699a97m",
+        "3": "sábio",
+        "s": 0,
+        "t": 19,
+        "4": "Eu voluntariamente escuto cada lado, e seus argumentos, \r\nantes de tomar uma decisão final.",
+        "u": 1.83,
+        "5": "Emoções não devem nublar seu pensamento lógico",
+        "6": "É meu dever proteger meus estudantes",
+        "v": 72,
+        "w": 0,
+        "7": "Eu falo sem antes pensar em minhas palavras,\r\ninvariavelmente insultando outros.",
+        "x": 0,
+        "8": "",
+        "9": "",
+        "y": 7.5,
+        "z": "azuis"
+    }],
+    "b": [{
+        "a": "pt",
+        "b": "Leal neutro",
+        "c": "É a tendência dos indivíduos que agem de acordo com as leis, tradições ou códigos pessoais. Muitos monges e alguns magos são leais e neutros.",
+        "d": false,
+        "uuid": "E4758A075C8D74A6F6FB0E4DF3B8EBB3"
+    }],
+    "c": [{
+        "a": "pt",
+        "b": "Humano",
+        "c": "",
+        "d": false,
+        "e": false,
+        "f": 0,
+        "g": 0,
+        "h": true,
+        "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
+    }],
+    "d": [{
+        "a": {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "btgln1ldr4mbderngsfenvddqq",
+            "c": 9,
+            "uuid": "cti71nfvu1hgfh7p982f9qbul3"
+        },
+        "b": {
+            "a": "pt",
+            "b": "Mago",
+            "c": "",
+            "d": false,
+            "e": 6,
+            "f": true,
+            "uuid": "DD61B226A538F1C99C5053140935B4F8"
+        }
+    }],
+    "e": [
+        {
+            "a": "STRENGTH",
+            "b": 10,
+            "c": false,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "pqagsu0khi67ibfseesi86td0u"
+        },
+        {
+            "a": "DEXTERITY",
+            "b": 12,
+            "c": false,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "8fnlno14ie4l39c8f3rq8mh1ar"
+        },
+        {
+            "a": "CONSTITUTION",
+            "b": 20,
+            "c": false,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "cghkqathgngf1hq9ka1ishbn04"
+        },
+        {
+            "a": "INTELLIGENCE",
+            "b": 20,
+            "c": true,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "q7plhnc5lrg509ri8sm699a97m"
+        },
+        {
+            "a": "WISDOM",
+            "b": 16,
+            "c": true,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "j64bc82orhb36pnirubm3c45v1"
+        },
+        {
+            "a": "CHARISMA",
+            "b": 12,
+            "c": true,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "2m2kf5rmnonfgll0bt11oaas6d"
+        }
+    ],
+    "f": [
+        {"a": {
+            "a": "ATHLETICS",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "pqagsu0khi67ibfseesi86td0u",
+            "uuid": "6s021ain355fu8399374k771jc"
+        }},
+        {"a": {
+            "a": "ACROBATICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "8fnlno14ie4l39c8f3rq8mh1ar",
+            "uuid": "6iqvm36lth8d0e3vllv8h94g3k"
+        }},
+        {"a": {
+            "a": "STEALTH",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "8fnlno14ie4l39c8f3rq8mh1ar",
+            "uuid": "k6ogmeurpghgsbcme8o3uq7kjo"
+        }},
+        {"a": {
+            "a": "SLEIGHT_OF_HAND",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "8fnlno14ie4l39c8f3rq8mh1ar",
+            "uuid": "2vnljsl6lujsc3ht5if2u6h598"
+        }},
+        {"a": {
+            "a": "ARCANA",
+            "b": true,
+            "c": true,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "q7plhnc5lrg509ri8sm699a97m",
+            "uuid": "bb3v8phgsded20sndo13at5sht"
+        }},
+        {"a": {
+            "a": "HISTORY",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "q7plhnc5lrg509ri8sm699a97m",
+            "uuid": "jq3a859m1ahughc5vep2n3cu4a"
+        }},
+        {"a": {
+            "a": "INVESTIGATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "q7plhnc5lrg509ri8sm699a97m",
+            "uuid": "hq4o54k831g2i7dmasj9r66o81"
+        }},
+        {"a": {
+            "a": "NATURE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "q7plhnc5lrg509ri8sm699a97m",
+            "uuid": "o5enqubhg5jjffjuv84g7lt7ag"
+        }},
+        {"a": {
+            "a": "RELIGION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "q7plhnc5lrg509ri8sm699a97m",
+            "uuid": "bhtmg0rjm3qis8ters6ditb52m"
+        }},
+        {"a": {
+            "a": "INSIGHT",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "j64bc82orhb36pnirubm3c45v1",
+            "uuid": "1t8b1f4fvsvos45eq3ueesg20u"
+        }},
+        {"a": {
+            "a": "ANIMAL_HANDLING",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "j64bc82orhb36pnirubm3c45v1",
+            "uuid": "klp2oo30vjl30kv3gehcpr5167"
+        }},
+        {"a": {
+            "a": "MEDICINE",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "j64bc82orhb36pnirubm3c45v1",
+            "uuid": "h4s9evm12mvikcihc12buiejer"
+        }},
+        {"a": {
+            "a": "PERCEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "j64bc82orhb36pnirubm3c45v1",
+            "uuid": "pp650ikf1bgbfmb2q71p90h5tl"
+        }},
+        {"a": {
+            "a": "SURVIVAL",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "j64bc82orhb36pnirubm3c45v1",
+            "uuid": "gn78tcs2fepj83futl32gki6eu"
+        }},
+        {"a": {
+            "a": "PERFORMANCE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "2m2kf5rmnonfgll0bt11oaas6d",
+            "uuid": "dg5f0vfhrocel7193crq0q949p"
+        }},
+        {"a": {
+            "a": "DECEPTION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "2m2kf5rmnonfgll0bt11oaas6d",
+            "uuid": "uooq29ka2pjjrk032lkp541j4n"
+        }},
+        {"a": {
+            "a": "INTIMIDATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "2m2kf5rmnonfgll0bt11oaas6d",
+            "uuid": "c85en801hqunaodbfqcuqslg23"
+        }},
+        {"a": {
+            "a": "PERSUASION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "btgln1ldr4mbderngsfenvddqq",
+            "f": "2m2kf5rmnonfgll0bt11oaas6d",
+            "uuid": "evtgu05cd37stfius3n1dsi176"
+        }}
+    ],
+    "g": [
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "e1sja7kn1cks9evi819gj8omkk"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "850uqlg6564vv67eu8su2bu8tm"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "je7kr3npfg1rf61svji1737gh4"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "ngj7lned0ghl4rt8644bjc7f9l"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "r42j5sdvi4vglee48q26rhsk1h"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "g2pk8d094r1eulfl7umvpf5l2d"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "bi6luesmst9d3oavtt40srln3k"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "5scq9s12jguf2ch98u2hhgliag"
+        },
+        {
+            "a": 6,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "sol9k60hp2pk139r4qve9vudmc"
+        }
+    ],
+    "h": [
+        {
+            "a": 0,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "93mhab3cgn7bqpo9poa08405hh"
+        },
+        {
+            "a": 1,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "bjkv1srb0r7oee0m1lc7pcn0td"
+        },
+        {
+            "a": 2,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "c4bagt2lsfq29jkuf331rdhb3q"
+        },
+        {
+            "a": 3,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "fvh1j5fn08a9g3p66rjgif6bce"
+        },
+        {
+            "a": 4,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "eurq3h4ljsl1ljfp552dibji7h"
+        },
+        {
+            "a": 5,
+            "b": false,
+            "c": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "t723v206egkpi57qngul4cqvps"
+        }
+    ],
+    "i": [
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "Informações adicionais",
+                "uuid": "occ9nm41p6vl9kaavvqldgum5j"
+            },
+            "b": {
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "1": "1d4",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
+                "w": "Acuidade, leve, arremesso (distância 6/18)",
+                "x": "Acuidade, leve, arremesso (distância 20/60)",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 4,
+                "b": false,
+                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "uuid": "g5cvp74s9oglgk1akuek039jec"
+            }]
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "00CE379CF6D788794771D7D7701574B5",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "Informações adicionais",
+                "uuid": "je0ebr44f5fgvm91a0o7vnse51"
+            },
+            "b": {
+                "uuid": "00CE379CF6D788794771D7D7701574B5",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 10,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "1": "1d6",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Espada Curta",
+                "v": "",
+                "w": "Acuidade, leve",
+                "x": "Acuidade, leve",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 6,
+                "b": false,
+                "d": "00CE379CF6D788794771D7D7701574B5",
+                "uuid": "1F1CA784EEEA187EE735A124593FB46C"
+            }]
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "6s9ap9657epk1e09r0l904qg95"
+            },
+            "b": {
+                "uuid": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "a": "pt",
+                "b": "cortante",
+                "c": 15,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "1": "1d8",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Espada Longa",
+                "v": "",
+                "w": "Versátil (1d10)",
+                "x": "Versátil (1d10)",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 8,
+                "b": false,
+                "d": "691679D7316F2DBC2518CC6BD4F79BB2",
+                "uuid": "EB9974FFDE83F7A1834B95FCF8EF017B"
+            }]
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "C4057AA2847E517F02D4DBEC24B5453B",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "169cf9pn9lnikr7kha17hktbjd"
+            },
+            "b": {
+                "uuid": "C4057AA2847E517F02D4DBEC24B5453B",
+                "a": "pt",
+                "b": "",
+                "c": 5,
+                "d": "GP",
+                "e": 2,
+                "f": 4,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Foco Arcano - Cajado",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "0E8CF6420504225A0971FF5B7DEF506C",
+                "c": 2,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "dlg133qseltn9uk1pnaiu56esr"
+            },
+            "b": {
+                "uuid": "0E8CF6420504225A0971FF5B7DEF506C",
+                "a": "pt",
+                "b": "",
+                "c": 20,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Foco Arcano - Orbe",
+                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "74988DD2F1399550F5DC3A80213600D9",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "1bnldvn6l00cof9b00o3kt0q5t"
+            },
+            "b": {
+                "uuid": "74988DD2F1399550F5DC3A80213600D9",
+                "a": "pt",
+                "b": "",
+                "c": 50,
+                "d": "GP",
+                "e": 1.5,
+                "f": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Grimório",
+                "v": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "l3pujq0dje46ptbj9m2eb51nnu",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "691p2evjf56fupgigicl6fcevr"
+            },
+            "b": {
+                "uuid": "l3pujq0dje46ptbj9m2eb51nnu",
+                "a": "pt",
+                "b": "",
+                "c": 0,
+                "d": "CP",
+                "e": 0,
+                "f": 0,
+                "g": 0,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Grimório Arcano",
+                "v": "\n\r\nEnquanto você estiver segurando este livro encadernado em couro, você pode usá-lo como um foco arcano para seus feitiços de mago, e você ganha um bônus\rpara jogadas de ataque de feitiço e para a CD de teste de\rresistência de seus feitiços de mago. O bônus é determinado\rpela raridade do livro. \nVocê pode usar este livro como um\rlivro de feitiços.\r\nAlém disso, quando você usa o recurso de _Recuperação\rArcana_ pode aumentar em 1 o número de níveis de espaços de magia que você recupera.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "2899CE102C418966134437C2CB9C64FC",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "-Carne do Remorhaz 1\n-Capa de grimório 1\n-Livro de necrômancia 1\n-Pedrinha que brilha 1\n-Cristal que brilha 1\n-Papel de pergaminho 23\n-Pergaminho de enviar mensagem 1\n-Pergaminho de glifo de vigilância 4\n-Diario de um necromante 1\n-Pilha de ossos humanos 2\n-Poção desconhecida 1\n-Grimório do estudante de necrômancia 1\n-Grimório da samara 1\n-Diário do estudante de \nnêcromancia 1\nfrasco\n-frasco de sangue de dragão 1\n-poção de cura 1\n-cristal de raio 5\n-Dragões e seus inimigos. \n-Magia profanada: Hemomância. \n-Os ritos e costumes: Culto do Dragão. \n-Manual arcano: Conjuração máxima.\n-Manual arcano: Técnica conjurada \n-Klauth, o incinerador - A montanha de Quelle",
+                "uuid": "40fnfvflog0lf8cguhv9rd7qkk"
+            },
+            "b": {
+                "uuid": "2899CE102C418966134437C2CB9C64FC",
+                "a": "pt",
+                "b": "",
+                "c": 2,
+                "d": "GP",
+                "e": 2.5,
+                "f": 5,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Mochila",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "n9eo83i6g1j5nk1fqurpu8pl4r",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "4vpmsej0e311a0tekqfd4vtiec"
+            },
+            "b": {
+                "uuid": "n9eo83i6g1j5nk1fqurpu8pl4r",
+                "a": "pt",
+                "b": "",
+                "c": 400,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Pacote de estudioso",
+                "v": "Inclui uma mochila, um livro de estudo, um vidro de tinta, uma caneta tinteiro, 10 folhas de pergaminho, um saquinho de areia e uma pequena faca.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        }
+    ],
+    "j": [
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "8A5E8B12DC9AB29BD3A74BB03C762E73",
+                "c": "",
+                "uuid": "rvvhpcj67tigeg4fj2udu2g5b9"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Adaga",
+                "d": true,
+                "uuid": "8A5E8B12DC9AB29BD3A74BB03C762E73"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "C454E2B853BE9D368786311A3DDCF59B",
+                "c": "",
+                "uuid": "mk6s08sjmvsv9d76ha46mprf49"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Bordão",
+                "d": true,
+                "uuid": "C454E2B853BE9D368786311A3DDCF59B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "0B6A9C6797CFA6228C16D00760702E7E",
+                "c": "",
+                "uuid": "pgkk06mvo1of7dkdnad30o562b"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Dardo",
+                "d": true,
+                "uuid": "0B6A9C6797CFA6228C16D00760702E7E"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "BDC0CF8F80149B553AABDB99E1230454",
+                "c": "",
+                "uuid": "fssrt1u0nr15j205tkeg1b9avv"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Besta Leve",
+                "d": true,
+                "uuid": "BDC0CF8F80149B553AABDB99E1230454"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "3BA171C2AB87FA9CF49C9C8017321C5B",
+                "c": "",
+                "uuid": "n5a2stoonad9fi1qrbt0ol60lh"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Funda",
+                "d": true,
+                "uuid": "3BA171C2AB87FA9CF49C9C8017321C5B"
+            }
+        }
+    ],
+    "k": [],
+    "l": [],
+    "m": [
+        {
+            "a": {
+                "a": "7562E22757D1F925C323AD10AF1289CA",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "200hhnp6egvr2un08gthjh99er"
+            },
+            "b": {
+                "a": "pt",
+                "b": "DD61B226A538F1C99C5053140935B4F8",
+                "c": false,
+                "d": "Conjuração",
+                "e": "Como um estudante da magia arcana, você possui um livro de magias (ou grimório) que revela os primeiros vislumbres de seu verdadeiro poder. Consulte o capítulo 10 para as regras gerais sobre conjuração de magias e o capítulo 11 para conferir a lista de magias de mago.\n\nTruques\nA partir do 1º nível, você conhece três truques à sua escolha da lista de magias de mago. Você aprende truques adicionais conforme avança de nível, como mostra a coluna Truques Conhecidos na tabela O Mago.\n\nGrimório\nNo 1º nível, você possui um grimório contendo seis magias de mago de 1º nível, à sua escolha. Um grimório não contém truques.\n\nPreparando e Conurando Magias\nA tabela O Mago mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa usar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.\nVocê prepara a lista de magias de mago que estarão disponíveis para serem conjuradas. Para tanto, você escolhe um número de magias de mago de seu grimório igual ao seu modificador de Inteligência + seu nível de mago (mínimo de uma magia). As magias precisam ser de um nível que você tenha espaços de magia.\nPor exemplo, se você é um mago de 3º nível, você possui 4 espaços de magia de 1º nível e 2 espaços de magia de 2º nível. Com Inteligência 16, sua lista de magias preparadas pode incluir seis magias de 1º e 2º nível de seu grimório, em qualquer combinação. Se você preparar a magia de 1º nível mísseis mágicos, você poderá conjurá-la utilizando um espaço de 1º ou 2º nível de magia. Conjurar a magia não a remove de sua lista de magias preparadas.\nVocê pode mudar sua lista de magias preparadas quando terminar um descanso longo. Preparar uma nova lista de magias de mago requer que você gaste um tempo estudando seu grimório e memorizando as palavras e gestos, para efetivamente conjurar a magia: ao menos 1 minuto por nível de magia para cada magia da sua lista.\n\nHabilidade de Conjuração\nInteligência é a sua habilidade para você conjurar suas magias de mago, pois os magos aprendem novas magias através de estudo e memorização. Você usa sua Inteligência sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Inteligência para definir a CD dos testes de resistência para as magias de mago que você conjura e quando você realiza uma jogada de ataque com uma magia.\n\nCD para suas magias = 8 + bônus de proficiência + seu modificador de Inteligência\n\nModificador de ataque de magia = seu bônus de proficiência + seu modificador de Inteligência\n\nConjuração de Ritual\nVocê pode conjurar qualquer magia de mago como um ritual se ela possuir o descritor ritual, desde que a possua em seu grimório. Você não precisa ter essa magia preparada.\nFoco de Conjuração\nVocê pode usar um foco arcano (encontrado no capítulo 5) como foco de conjuração das suas magias de mago.\n\nAprendendo Magias de 1º Nível ou Superior\nA cada nível de mago adquirido, você pode adicionar duas magias de mago à sua escolha em seu grimório. Cada uma dessas magias deve ser de um nível que você possua espaços de magia, conforme mostra a tabela O Mago. Em suas aventuras, você pode encontrar outras magias e adicioná-las em seu grimório (consulte a caixa de texto \"O Seu Grimório\").",
+                "f": true,
+                "uuid": "7562E22757D1F925C323AD10AF1289CA"
+            }
+        },
+        {
+            "a": {
+                "a": "67A8D57F856450CD208DEE36016A807B",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "6o8f118dp4lltf824fhs5fcmcd"
+            },
+            "b": {
+                "a": "pt",
+                "b": "DD61B226A538F1C99C5053140935B4F8",
+                "c": false,
+                "d": "Incremento no Valor de Habilidade",
+                "e": "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
+                "f": true,
+                "uuid": "67A8D57F856450CD208DEE36016A807B"
+            }
+        }
+    ],
+    "n": [
+        {
+            "a": {
+                "a": "nff73257e6mh7ur7qm41upub2o",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "opqa2pau25as3er6uu5pjfetum"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": true,
+                "d": "aumento no valor de habilidade",
+                "e": "Dois valores de habilidade,\r\nà sua escolha, aumentam em 1.",
+                "f": true,
+                "uuid": "nff73257e6mh7ur7qm41upub2o"
+            }
+        },
+        {
+            "a": {
+                "a": "7FD02117AB38BBC453A4C3337CA2DBBA",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "mk7r04or0e5c7p0qe19tvd8rfd"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": false,
+                "d": "Deslocamento",
+                "e": "Seu deslocamento base de caminhada é 9 metros.",
+                "f": true,
+                "uuid": "7FD02117AB38BBC453A4C3337CA2DBBA"
+            }
+        },
+        {
+            "a": {
+                "a": "1A35BE6B5A789B5A8CCBAD9DAF4D8E42",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "dlutneimkm6lt9vjqm0d37vna1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": false,
+                "d": "Idade",
+                "e": "Os humanos chegam à idade adulta no final da adolescência e vivem menos de um século.",
+                "f": true,
+                "uuid": "1A35BE6B5A789B5A8CCBAD9DAF4D8E42"
+            }
+        },
+        {
+            "a": {
+                "a": "A46E47BE8CCB7AE50FB7B608B4AD0280",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "6nv1b25ttcu185sebf81jkcv0r"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": false,
+                "d": "Idiomas",
+                "e": "Você pode falar, ler e escrever Comum e outro idioma adicional, à sua escolha. Os humanos normalmente aprendem os idiomas dos povos que convivem, incluindo dialetos obscuros. Eles gostam de rechear seu discurso com palavras emprestadas de outras línguas: xingamentos orcs, expressões musicais élficas, frases militares anãs e outros.",
+                "f": true,
+                "uuid": "A46E47BE8CCB7AE50FB7B608B4AD0280"
+            }
+        },
+        {
+            "a": {
+                "a": "eec3ss0usrp253iqqmrkkktp6d",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "7gbov1933sc4q8t72e2p38cigs"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": true,
+                "d": "perícia",
+                "e": "Você ganha proficiência em uma perícia, à sua \r\nescolha.",
+                "f": true,
+                "uuid": "eec3ss0usrp253iqqmrkkktp6d"
+            }
+        },
+        {
+            "a": {
+                "a": "uc81p2e22q489h6l4r4ca52502",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "p8n7d2bl9lp5cbb9to3omrkidf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": true,
+                "d": "Talento",
+                "e": "Você adquire um talento de sua escolha",
+                "f": true,
+                "uuid": "uc81p2e22q489h6l4r4ca52502"
+            }
+        },
+        {
+            "a": {
+                "a": "5F0F9E39AF7E511FB72A2A1D38EDAA63",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "ucpmdojak32de8dhuic3i9eemc"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": false,
+                "d": "Tamanho",
+                "e": "Os humanos variam muito em altura e peso, podem ter quase 1,50 metro ou mais de 1,80 metro. Independentemente da sua posição entre esses valores, o seu tamanho é Médio.",
+                "f": true,
+                "uuid": "5F0F9E39AF7E511FB72A2A1D38EDAA63"
+            }
+        },
+        {
+            "a": {
+                "a": "B2001375E3C13884B46F45DCD060AD0D",
+                "b": "btgln1ldr4mbderngsfenvddqq",
+                "c": "",
+                "uuid": "bac52rhtmg0a8sktu14akh6e4t"
+            },
+            "b": {
+                "a": "pt",
+                "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
+                "c": false,
+                "d": "Tendência",
+                "e": "Os humanos não possuem inclinação a nenhuma tendência em especial. Os melhores e os piores são encontrados entre eles.",
+                "f": true,
+                "uuid": "B2001375E3C13884B46F45DCD060AD0D"
+            }
+        }
+    ],
+    "o": [
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "bcai95dk6s1otc53vl1f76qr99",
+                "c": "",
+                "uuid": "o78vv0v1o8gmge8f2dca4m68ov"
+            },
+            "b": {
+                "a": "pt",
+                "b": true,
+                "c": "Pré-requisito: Capacidade de conjurar pelo menos uma magia\n\r\nVocê praticou a conjuração de magias no meio do combate, aprendendo técnicas que lhe concedem os seguintes benefícios:\r\n\u2022 Você tem vantagem em testes de resistência de Constituição para manter sua concentração em uma magia quando você sofrer dano.\r\n\u2022 Você pode realizar os componentes somáticos de uma magia mesmo quando está com armas ou um escudo \r\nem uma ou ambas as mãos.\r\n\u2022 Quando o movimento de uma criatura hostil provocar um ataque de oportunidade para você, você pode usar sua reação para conjurar uma magia na criatura, aoinvés de realizar o ataque de oportunidade. A magia deve ter um tempo de conjuração de 1 ação e deve ter apenas uma criatura como alvo.",
+                "d": "Conjurador de guerra",
+                "e": true,
+                "uuid": "bcai95dk6s1otc53vl1f76qr99"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "kmo761eg046p0thqft3ffo1s6",
+                "c": "",
+                "uuid": "gmlpnh8i7ch6n164aq0hmpubae"
+            },
+            "b": {
+                "a": "pt",
+                "b": true,
+                "c": "Quando você ganha esse talento, escolha um dos tipos de \r\ndano a seguir: ácido, elétrico, fogo, frio ou trovão.\r\nAs magias que você conjurar ignoram resistência a \r\ndano do tipo escolhido. Além disso, quando você rola o \r\ndano para uma magia que você conjurar que causar dano \r\ndesse tipo, você pode tratar qualquer 1 num dado de dano \r\ncomo um 2.\r\nVocê pode escolher esse talento diversas vezes. A cada \r\nvez que o fizer, você deve escolher um tipo diferente de \r\ndano.",
+                "d": "adepto elemental",
+                "e": true,
+                "uuid": "kmo761eg046p0thqft3ffo1s6"
+            }
+        }
+    ],
+    "p": [
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "53EF31A0D71C9A1D4849A23A8001A87C",
+                "c": "",
+                "uuid": "93q7fe665s4kmn3nm2f0vleiir"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Comum",
+                "d": "",
+                "e": "Humanos",
+                "f": "Comum",
+                "g": true,
+                "uuid": "53EF31A0D71C9A1D4849A23A8001A87C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "D7E0C283829246E5E15CC2EF71D15038",
+                "c": "",
+                "uuid": "hu3ssi7e4sv1nunba02ffnfjr9"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Dracônico",
+                "d": "O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+                "e": "Dragões, Draconatos.",
+                "f": "Dracônico",
+                "g": true,
+                "uuid": "D7E0C283829246E5E15CC2EF71D15038"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "7E47E0099B0DC5B64DF0D614D89997B3",
+                "c": "",
+                "uuid": "1accdphfsooadu56eg9vtvd7qp"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Élfico",
+                "d": "O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+                "e": "Elfos",
+                "f": "Élfico",
+                "g": true,
+                "uuid": "7E47E0099B0DC5B64DF0D614D89997B3"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": "B70702745AAFCE180AA3A920AE90D15C",
+                "c": "",
+                "uuid": "e2fsola8t5aa5ddqi84gg5krfr"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Celestial",
+                "d": "",
+                "e": "Celestiais",
+                "f": "Celestial",
+                "g": true,
+                "uuid": "B70702745AAFCE180AA3A920AE90D15C"
+            }
+        }
+    ],
+    "q": [
+        {"a": {
+            "a": "Pesquisador",
+            "b": "Quando tentar obter ou recuperar um fragmento de conhecimento que você não saiba, você descobre aonde e com quem pode obter essa informação. Normalmente ela será adquirida em bibliotecas, arquivos de escribas, universidade ou outros sábios e pessoas aptas. Seu Mestre pode decidir que o conhecimento que busca está escondido em algum lugar quase inacessível, ou é simplesmente impossível de se obter. Desvendar os segredos mais profundos do multiverso pode requerer uma campanha inteira.",
+            "c": 1,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "doed15ee7himoh7ccfn4tamk27"
+        }},
+        {"a": {
+            "a": "Fraqueza a gelo",
+            "b": "Você possui fraqueza a dano de gelo",
+            "c": 2,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "glkc4ns08mqi9blttjl0irjv2"
+        }}
+    ],
+    "r": [
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
+                "e": false,
+                "uuid": "1ap3nd588idf3egakmnd8d2655"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio de Gelo",
+                "c": "Um raio frigido de luz azul clara parte em direção de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, ele sofre 1d8 de dano de frio e seu deslocamento é reduzido em 3 metros até o começo do seu próximo turno.\nO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "AA587241C9A969D82BFFFBD0CBABD253",
+                "e": false,
+                "uuid": "qkfdo17ttna84df8v71cepkfl0"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Toque Arrepiante",
+                "c": "Você cria uma mão esquelética fantasmagórica no espaço de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra a criatura para afeta-la com o frio sepulcral. Se atingir, a criatura sofre 1d8 de dano necrótico e não poderá recuperar pontos de vida até o início do seu próximo turno. Até lá, a mão ficará presa ao alvo.\nSe você atingir um alvo morto-vivo, ele terá desvantagem nas jogadas de ataque contra você até o final do seu próximo turno.\nO dano dessa magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+                "d": "necromância",
+                "e": "1 rodada",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "AA587241C9A969D82BFFFBD0CBABD253"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "BD61C436903DB2D0A88FE7342E515113",
+                "e": false,
+                "uuid": "ncvqut54cpfm0nkn0jlre7f7al"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Globo de Luz",
+                "c": "Você cria até quatro luzes do tamanho de tochas dentro do alcance, fazendo-as parecerem tochas, lanternas ou esferas luminosas que flutuam no ar pela duração. Você também pode combinar as quatro luzes em uma forma luminosa, vagamente humanoide, de tamanho Médio. Qualquer que seja a forma que você escolher, cada luz produz penumbra num raio de 3 metros.\nCom uma ação bônus, no seu turno, você pode mover as luzes, até 18 metros, para um novo local dentro do alcance. Uma luz deve estar a, pelo menos, 6 metros de outra luz criada por essa magia e uma luz some se exceder o alcance da magia.",
+                "d": "evocação",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (um pouco de fósforo ou wychwood ou um inseto luminoso)",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "BD61C436903DB2D0A88FE7342E515113"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "CAC28CFC119D235DA93800FA652CB0D3",
+                "e": true,
+                "uuid": "6hervr8l12kjjan7jb68gtp7e1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Convocar Familiar",
+                "c": "Você adquire os serviços de uma familiar, um espírito que toma a forma de um animal, à sua escolha: aranha, caranguejo, cavalo marinho, coruja, corvo, doninha, gato, falcão, lagarto, morcego, peixe (arenque), polvo, rato, rã (sapo) ou serpente venenosa. Aparecendo em um espaço desocupado dentro do alcance, o familiar tem as mesmas estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés de uma besta.\nSeu familiar até independentemente de você, mas ele sempre obedece aos seus comandos. Em combate, ele rola sua a própria iniciativa e age no seu próprio turno. Um familiar não pode atacar, mas ele pode realizar outras ações, como de costume.\nQuando um familiar cai a 0 pontos de vida, ele desaparece, não deixando qualquer corpo físico para trás. Ele reaparece depois de você conjurar essa magia novamente.\nEnquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, com uma ação, você pode ver através dos olhos do familiar e ouvir através dos ouvidos dele, até o início do seu próximo turno, adquirindo os benefícios de qualquer sentido especial que o familiar possua. Durante esse período, você estará cego e surdo em relação aos seus próprios sentidos.\nCom uma ação, você pode, temporariamente, dispensar seu familiar. Ele desaparece dentro de uma bolsa dimensional onde ele aguarda sua convocação. Alternativamente, você pode dispensa-lo para sempre. Com uma ação, enquanto ele estiver temporariamente dispensado, você pode fazê-lo reaparecer em qualquer espaço desocupado a até 9 metros de você.\nVocê não pode ter mais de um familiar por vez. Se você conjurar essa magia enquanto já tiver um familiar, ao invés disso, você faz seu familiar existente adotar uma nova forma. Escolha uma das formas da lista acima. Seu familiar se transforma na criatura escolhida.\nFinalmente, quando você conjura uma magia com alcance de toque, seu familiar pode transmitir a magia, como se ele tivesse conjurado ela. Seu familiar precisa estar a até 30 metros de você e deve usar a reação dele para transmitir a magia quando você a conjurar. Se a magia necessitar de uma jogada de ataque, você usa seu modificador de ataque para essa jogada.",
+                "d": "conjuração",
+                "e": "Instantânea",
+                "f": "1 hora",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S, M (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
+                "j": false,
+                "k": 1,
+                "l": true,
+                "m": true,
+                "uuid": "CAC28CFC119D235DA93800FA652CB0D3"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "27B82C2A97E3CBCFE37303322836000B",
+                "e": false,
+                "uuid": "2theehpn267j9hvi6ra7n2cqd9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Proteção Contra o Bem e o Mal",
+                "c": "Até a magia acabar, uma criatura voluntária que você tocar estará protegida contra certos tipos de criaturas: aberrações, celestiais, corruptores, elementais, fadas e mortos-vivos.\nA proteção garante diversos benefícios. As criaturas desse tipo tem desvantagem nas jogadas de ataque contra o alvo. O alvo não pode ser enfeitiçado, amedrontado ou possuído por elas. Se o alvo já estiver enfeitiçado, amedrontado ou possuído por uma dessas criaturas, o alvo terá vantagem em qualquer novo teste de resistência contra o efeito relevante.",
+                "d": "abjuração",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (água benta ou pó de prata e ferro, consumidos pela magia)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "27B82C2A97E3CBCFE37303322836000B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "99B6CF62F2751F957EC1C373C3358934",
+                "e": true,
+                "uuid": "bekk9b5jkjq22p9ei0qfrdngue"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Escudo Arcano",
+                "c": "Uma barreira de energia invisível aparece e protege você. Até o início do seu próximo turno, você recebe +5 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dano de mísseis mágicos.",
+                "d": "abjuração",
+                "e": "1 rodada",
+                "f": "1 reação, que você faz quando é atingido por um ataque ou alvo da magia mísseis mágicos",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "99B6CF62F2751F957EC1C373C3358934"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "42C625650D6653D9748ABA72B44CDFB3",
+                "e": true,
+                "uuid": "5d4n82hhe58okq5hl74jdav2pc"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Orbe Cromática",
+                "c": "Você arremessa uma esfera de energia de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você escolhe ácido, frio, fogo, elétrico, veneno ou trovejante para o tipo de orbe que você cria e, então, realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano do tipo escolhido.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 1°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "27 m",
+                "h": "90 ft",
+                "i": "V, S, M (um diamante valendo, no mínimo, 50 po)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "42C625650D6653D9748ABA72B44CDFB3"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "B67E49FD76E981E0F19FBE457D7D4D15",
+                "e": false,
+                "uuid": "4a897cmfnog802v3rtmrsihqe9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Enfeitiçar Pessoa",
+                "c": "Você tenta enfeitiçar um humanoide que você possa ver dentro do alcance. Ele deve realizar um teste de resistência de Sabedoria, e recebe vantagem nesse teste se você ou seus companheiros estiverem lutando com ele. Se ele falhar, ficará enfeitiçado por você até a magia acabar ou até você ou seus companheiros fizerem qualquer coisa nociva contra ele. A criatura enfeitiçada reconhece você como um conhecido amigável. Quando a magia acabar, a criatura saberá que foi enfeitiçada por você.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 1°. As criaturas devem estar a até 9 metros umas das outras quando você for afeta-las.",
+                "d": "encantamento",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "B67E49FD76E981E0F19FBE457D7D4D15"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "EFF0510C3B7010B2CC5FCF710DB298DD",
+                "e": false,
+                "uuid": "mmfu0n6qt1u62p6tr86uldljlf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio de Bruxa",
+                "c": "Um raio crepitante de energia azul é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo. Faça um ataque à distância com magia contra a criatura. Se atingir, o alvo sofrerá 1d12 de dano elétrico e, em cada um dos seus turnos, pela duração, você pode usar sua ação para causar 1d12 de dano elétrico ao alvo, automaticamente. A magia acaba se você usar sua ação para fazer qualquer outra coisa. A magia também acaba se o alvo estiver fora do alcance da magia ou se você tiver cobertura total para ele.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano inicial aumenta em 1d12 para cada nível do espaço acima do 1°.",
+                "d": "evocação",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (um galho de uma árvore que tenha sido atingida por um relâmpago)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "EFF0510C3B7010B2CC5FCF710DB298DD"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "F935B6AC0B092A569C4281B565F94EDD",
+                "e": false,
+                "uuid": "dfj9nr3aoo8vt1gq8ljhmateap"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Identificação",
+                "c": "Você escolhe um objeto que você deve tocar durante toda a conjuração da magia. Se ele for um item mágico ou algum outro objeto imbuído por magia, você descobre suas propriedades e como usá-lo, se exige sintonia para ser usado e quantas cargas ele tem, se aplicável. Você descobre se quaisquer magias estão afetando o item e quais eles são. Se o item foi criado por magia, você descobre que magia o criou.\nSe você, ao invés, tocar uma criatura durante toda a conjuração, você descobre quais magias, se houver alguma, estão afetando-a atualmente.",
+                "d": "adivinhação",
+                "e": "Instantânea",
+                "f": "1 minuto",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
+                "j": false,
+                "k": 1,
+                "l": true,
+                "m": true,
+                "uuid": "F935B6AC0B092A569C4281B565F94EDD"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "1695C34429B32A6441E345C25413A4BC",
+                "e": true,
+                "uuid": "6c2qfp8pn3ummn00jnuvjn96kt"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Riso Histérico de Tasha",
+                "c": "Uma criatura, à sua escolha, que você possa ver, dentro do alcance, acha tudo hilariantemente engraçado e cai na gargalhada, se essa magia afeta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria ou cairá no chão, ficando incapacitado e incapaz de se levantar pela duração. Uma criatura com valor de Inteligência 4 ou inferior não é afetada.\nAo final de cada um dos turnos dela e, toda vez que sofrer dano, o alvo pode realizar outro teste de resistência de Sabedoria. O alvo terá vantagem no teste de resistência se ele for garantido por ele ter sofrido dano. Se obtiver sucesso, a magia acaba.",
+                "d": "encantamento",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (pequenas tortas e uma pena que é balançada no ar)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "1695C34429B32A6441E345C25413A4BC"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "1D64D6C7B7232E75931E1615F2B9A2D4",
+                "e": false,
+                "uuid": "6m8a37er2o0cpi9r2h63k2fi0d"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio do Enfraquecimento",
+                "c": "Um raio negro de energia enervante parte do seu dedo em direção de uma criatura, dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo causará metade do dano com ataques com armas que usem Força, até a magia acabar.\nNo final de cada um dos turnos do alvo, ele pode realizar um teste de resistência de Constituição contra a magia. Se obtiver sucesso, a magia acaba.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "1D64D6C7B7232E75931E1615F2B9A2D4"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "E2060061E984FF6943C53A18A758ADFB",
+                "e": false,
+                "uuid": "crk7iifkbeigrsdu7i6518s7ao"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Coroa da Loucura",
+                "c": "Um humanoide, à sua escolha, que você possa ver dentro do alcance, deve ser bem sucedido num teste de resistência de Sabedoria ou ficará enfeitiçado por você pela duração. Enquanto o alvo estiver enfeitiçado dessa forma, uma coroa retorcida de ferro denteado aparece na cabeça dele e a loucura brilha em seus olhos.\nA criatura enfeitiçada deve usar sua ação antes de se mover, em cada um dos turnos dela, para realizar um ataque corpo-a-corpo contra uma criatura, diferente de si mesma, que você escolher mentalmente.\nO alvo pode agir normalmente no turno dele se você não escolher uma criatura ou se você não estiver dentro do alcance.\nNos seus turnos subsequentes, você deve usar sua ação para manter o controle sobre o alvo, ou a magia termina. Igualmente, o alvo pode realizar um teste de resistência de Sabedoria no final de cada um dos turnos dele. Se obtiver sucesso, a magia termina.",
+                "d": "encantamento",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "E2060061E984FF6943C53A18A758ADFB"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "7B8CC8DCC73BD714F2F006E00526390D",
+                "e": true,
+                "uuid": "t36buib7skq8eq8i5lcgg9ern9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio Ardente",
+                "c": "Você cria três raios de fogo e os arremessa em alvos dentro do alcance. Você pode arremessa-los em um alvo ou em vários.\nRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano de fogo.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 3° nível ou superior, você cria um raio adicional para cada nível do espaço acima do 2°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "7B8CC8DCC73BD714F2F006E00526390D"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "ED3DAA84AB27105CA8CC610805A8CEA1",
+                "e": false,
+                "uuid": "g501di3ovut5iu45jdun9tlptq"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Sugestão",
+                "c": "Você sugere um curso de atividade (limitado a uma ou duas sentenças) e, magicamente, influencia um criatura que você possa ver, dentro do alcance, e que possa ouvir e compreender você. Criaturas que não podem ser enfeitiçadas são imunes a esse efeito. A sugestão deve ser formulada de modo que o curso de ação soe razoável. Dizer para a criatura se esfaquear, se arremessar em uma lança, tocar fogo em si mesma ou fazer algum outro ato obviamente nocivo anulará o efeito da magia.\nO alvo deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, ele seguirá o curso de ação que você descreveu, da melhor forma possível. O curso de ação sugerido pode continuar por toda a duração. Se a atividade sugerida puder ser completada em um tempo menor, a magia termina quando o alvo completar o que lhe foi dito para que fizesse.\nVocê pode, também, especificar condições que irão ativar uma atividade especial pela duração. Por exemplo, você poderia sugerir a um cavaleiro que entregasse seu cavalo de guerra ao primeiro mendigo que ele encontrar. Se a condição não for satisfeita antes da magia expirar, a atividade não será concluída.\nSe você ou um dos seus companheiros causar dano a uma criatura afetada por essa magia, a magia termina.",
+                "d": "encantamento",
+                "e": "Concentração, até 8 horas",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, M (uma língua de cobra e, ou um pedaço de favo de mel ou uma gota de azeite doce)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "ED3DAA84AB27105CA8CC610805A8CEA1"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "C43E23AB89939917A60FBE629D9F722A",
+                "e": true,
+                "uuid": "12nds2vhl7p9k4pnif2krd6cps"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Bola de Fogo",
+                "c": "Um veio brilhante lampeja na ponta do seu dedo em direção a um ponto que você escolher, dentro do alcance, e então eclode com um estampido baixo, explodindo em chamas. Cada criatura em uma esfera de 6 metros de raio, centrada no ponto, deve realizar um teste de resistência de Destreza. Um alvo sofre 8d6 de dano de fogo se falhar na resistência, ou metade desse dano se obtiver sucesso.\nO fogo se espalha, dobrando esquinas. Ele incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "45 m",
+                "h": "150 ft",
+                "i": "V, S, M (uma minúscula bola de guano de morcego e enxofre)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "C43E23AB89939917A60FBE629D9F722A"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "68FB3E51A8C0245DAE4264EF1A0FE46D",
+                "e": false,
+                "uuid": "nm1r8r23aq5hu19plup2ru6b7b"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Visão no Escuro",
+                "c": "Você toca uma criatura voluntária para conceder a ela a habilidade de ver nas trevas. Pela duração, a criatura terá visão no escuro com alcance de 18 metros.",
+                "d": "transmutacao",
+                "e": "8 horas",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (ou um pedaço de cenoura seca ou uma ágata)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "68FB3E51A8C0245DAE4264EF1A0FE46D"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "54D40A660E8CA318F0545739C66EC03C",
+                "e": false,
+                "uuid": "occopiap6q9kptohsmppj8qtdt"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Prestidigicação",
+                "c": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance: ? Você cria, instantaneamente, um efeito sensorial inofensivo, como uma chuva de faíscas, um sopro de vento, notas musicais suaves ou um odor estranho.\n - Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n - Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico.\n - Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria inorgânica por 1 hora.\n - Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície por 1 hora.\n - Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\nSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
+                "d": "transmutacao",
+                "e": "Até 1 hora",
+                "f": "1 ação",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "54D40A660E8CA318F0545739C66EC03C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "C12A37A65BBBFF61177E159FC5A449C1",
+                "e": true,
+                "uuid": "ps6018a1qka9s8pruj3ncfbgjv"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Proteção Contra a Energia",
+                "c": "Pela duração, a criatura voluntária que você tocar terá resistência a um tipo de dano de sua escolha: ácido, elétrico, fogo, frio ou trovejante.",
+                "d": "abjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "C12A37A65BBBFF61177E159FC5A449C1"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "4205197A24BF8CA0EC1A29050949BCA6",
+                "e": false,
+                "uuid": "6efk4ba62df802fnpg72jpends"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Respirar na Água",
+                "c": "Essa magia concede a até dez criaturas voluntária que você possa ver, dentro do alcance, a habilidade de respirar embaixo d\u2019água até a magia acabar. As criaturas afetadas também mantem sua forma normal de respiração.",
+                "d": "transmutacao",
+                "e": "24 horas",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (um pedaço de cana ou palha)",
+                "j": false,
+                "k": 3,
+                "l": true,
+                "m": true,
+                "uuid": "4205197A24BF8CA0EC1A29050949BCA6"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "6AEA1C2D29D9159CABBA14BF280A29B9",
+                "e": false,
+                "uuid": "igrsf9o0d5h5ua2am2fb3h887f"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Toque Vampírico",
+                "c": "O toque da sua mão coberta de sombras pode drenar a força vital dos outros para curar seus ferimentos. Realize um ataque corpo-a-corpo com magia contra uma criatura ao seu alcance. Se atingir, o alvo sofre 3d6 de dano necrótico e você recupera pontos de vida igual à metade do dano necrótico causado. Até a magia acabar, você pode realizar o ataque novamente, no seu turno, com uma ação.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "6AEA1C2D29D9159CABBA14BF280A29B9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "1438224E73FAB6ACA644CEED7CA6D6BE",
+                "e": false,
+                "uuid": "cokqu0thp55e3adi2i37agmi2a"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Relêmpago",
+                "c": "Um relâmpago forma uma linha de 30 metros de comprimento e 1,5 metro de largura que é disparado por você em uma direção, à sua escolha. Cada criatura na linha deve realizar um teste de resistência de Destreza. Uma criatura sofre 8d6 de dano elétrico se falhar na resistência ou metade desse dano se obtiver sucesso.\nO relâmpago incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "Pessoal (linha de 30 m)",
+                "h": "Pessoal (linha de 100 ft)",
+                "i": "V, S, M (um pouco de pelo e uma haste de âmbar, cristal ou vidro)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "1438224E73FAB6ACA644CEED7CA6D6BE"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "58543C399ECB451EC2EDF23AD55B0CF9",
+                "e": false,
+                "uuid": "93al4h1brkgjfr09l4ojo810th"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Metamorfose",
+                "c": "Essa magia transforma uma criatura que você possa ver, dentro do alcance, em uma nova forma. Uma criatura involuntária deve realizar um teste de resistência de Sabedoria para evitar o efeito. Um metamorfo obtém sucesso automaticamente nesse teste de resistência.\nA transformação permanece pela duração, ou até o alvo cair a 0 pontos de vida ou morrer. A nova forma pode ser qualquer besta a qual o nível de desafio seja igual ou menor que o do alvo (ou o nível do alvo, se ele não possuir um nível de desafio). As estatísticas de jogo do alvo, incluindo seus valores de habilidades mentais, são substituídas pelas estatísticas da besta escolhida. Ele mantem sua tendência e personalidade.\nO alvo assume os pontos de vida da sua nova forma. Quando ele reverter a sua forma normal, a criatura retorna à quantidade de pontos de vida que ela tinha antes da transformação. Se ela reverter como resultado de ter caído a 0 pontos de vida, qualquer dano excedente é recebido pela sua forma normal. Contato que o dano excedente não reduza os pontos de vida da forma normal da criatura a 0, ela não cairá inconsciente. Essa magia não pode afetar um alvo com 0 pontos de vida.\nA criatura é limitada em suas ações pela natureza da sua nova forma e ela não pode falar, conjurar magias ou realizar qualquer outra ação que precise de mãos ou de vocalização.\nO equipamento do alvo mescla-se a sua nova forma. O alvo não pode ativar, empunhar ou, de outra forma, se beneficiar de qualquer de seus equipamentos.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (um casulo de lagarta)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "58543C399ECB451EC2EDF23AD55B0CF9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "8F4EEA786D078C859588132DF69C9E6C",
+                "e": false,
+                "uuid": "v6b1n6rvk9gublfk58vn1097s"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Escudo de Fogo",
+                "c": "Finas e discretas chamas rodeiam seu corpo pela duração, emitindo luz plena em 3 metros de raio e penumbra por mais 3 metros adicionais. Você pode terminar a magia prematuramente usando sua ação para dissipa-la.\nAs chamas lhe conferem um escudo quente ou um escudo frio, à sua escolha. O escudo quente lhe garante resistência a dano de frio e o escudo frio lhe concede resistência a dano de fogo.\nAlém disso, sempre que uma criatura a 1,5 metro de você atingir você com um ataque corpo-a-corpo, o escudo expele chamas. O atacante sofre 2d8 de dano de fogo do escudo quente ou 2d8 de dano de frio do escudo frio.",
+                "d": "evocação",
+                "e": "10 minutos",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (um pouco de fósforo ou um vaga-lume)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "8F4EEA786D078C859588132DF69C9E6C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "331DBABE2743DFC86996186D0887CF88",
+                "e": false,
+                "uuid": "21ui64bmmp29gqtvgmagu8an4i"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Vitalidade Falsa",
+                "c": "Reforçando-se com uma vitalidade necromântica ilusória, você ganha 1d4 + 4 pontos de vida temporários pela duração.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você ganha 5 pontos de vida temporários adicionais para cada nível do espaço de magia acima do 1°.",
+                "d": "necromância",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (uma pequena quantidade de álcool ou bebidas destiladas)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "331DBABE2743DFC86996186D0887CF88"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "F6954977C1E2E816F81FD8057EEDFF98",
+                "e": false,
+                "uuid": "pfkgh1ealcvf7iv5ibao9i20gj"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio Adoecente",
+                "c": "Um raio adoecente de energia esverdeada chicoteia na direção de uma criatura dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofrerá 2d8 de dano de veneno e deve realizar um teste de resistência de Constituição. Se falhar na resistência, ele também ficará envenenado até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano da magia aumenta em 1d8 para cada nível do espaço acima do 1°.",
+                "d": "necromância",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "F6954977C1E2E816F81FD8057EEDFF98"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "C252BF9E1642E6A9A013B109501A4155",
+                "e": false,
+                "uuid": "met6994n1ml434tdg7dn8qg855"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Teia",
+                "c": "Você conjura uma massa de teias espessas e pegajosas num ponto, à sua escolha, dentro do alcance. As teias preenchem um cubo de 6 metros naquele ponto, pela duração. As teias são terreno difícil e causam escuridão leve na área delas.\nSe as teias não estiverem sendo suportadas por duas massas sólidas (como duas paredes ou árvores) ou em camadas sobre um chão, parede ou teto, a teia conjurada desaba sobre si mesma e a magia termina no início do seu próximo turno. As teias em camadas sobre uma superfície plana terão 1,5 metro de profundidade.\nCada criatura que começar seu turno nas teias ou entrar nelas durante seu turno, deve realizar um teste de resistência de Destreza. Se falhar na resistência, a criatura estará impedida enquanto permanecer nas teias ou até se libertar.\nUma criatura impedida pelas teias pode usar sua ação para realizar um teste de Força contra a CD da magia. Se obtiver sucesso, ela não estará mais impedida.\nAs teias são inflamáveis. Qualquer cubo de 1,5 metro de teia exposto ao fogo, é consumida por ele em 1 rodada, causando 2d4 de dano de fogo a qualquer criatura que começar seu turno nas chamas.",
+                "d": "conjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (um pedaço de teia de aranha)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "C252BF9E1642E6A9A013B109501A4155"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "4B956A58525678C1274E045B4D5C1557",
+                "e": false,
+                "uuid": "tkueksbkkqd5fe5ppflqt845er"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Animar Mortos",
+                "c": "Essa magia cria um servo morto-vivo. Escolha uma pilha de ossos ou um corpo de um humanoide Médio ou Pequeno dentro do alcance. Sua magia imbui o alvo com uma imitação corrompida de vida, erguendo-o como uma criatura morta-viva. O alvo se torna um esqueleto, se você escolheu ossos, ou um zumbi, se você escolheu um corpo (o Mestre tem as estatísticas de jogo da criatura). Em cada um dos seus turnos, você pode usar uma ação bônus para comandar mentalmente qualquer criatura que você criou com essa magia, se a criatura estiver a até 18 metros de você (se você controla diversas criaturas, você pode comandar qualquer uma ou todas elas ao mesmo tempo, emitindo o mesmo comando para cada uma). Você decide qual ação a criatura irá fazer e para onde ela irá se mover durante o próximo turno dela, ou você pode emitir um comando geral, como para guardar uma câmara ou corredor especifico. Se você não der nenhum comando, as criaturas apenas se defenderão contra criaturas hostis. Uma vez que receba uma ordem, a criatura continuará a segui-la até a tarefa estar concluída. A criatura fica sob seu controle por 24 horas, depois disso ela para de obedecer aos seus comandos. Para manter o controle da criatura por mais 24 horas, você deve conjurar essa magia na criatura novamente, antes das 24 horas atuais terminarem. Esse uso da magia recupera seu controle sobre até quatro criaturas que você tenha animado com essa magia, ao invés de animar uma nova.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, você pode animar ou recuperar o controle de duas criaturas mortas-vivas para cada nível do espaço acima do 3°. Cada uma dessas criaturas deve vir de um corpo ou pilha de ossos diferente.",
+                "d": "necromância",
+                "e": "Instantânea",
+                "f": "1 minuto",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S, M (uma gota de sangue, um pedaço de carne e uma punhado de pó de osso)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "4B956A58525678C1274E045B4D5C1557"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "DA044330A7AE48496DC8764075E7BD31",
+                "e": false,
+                "uuid": "m4sdmhf5v0ps0bo8pg20snqsr6"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Rogar Maldição",
+                "c": "Você toca uma criatura e a criatura deve ser bem sucedida em um teste de resistência de Sabedoria ou será amaldiçoada pela duração da magia. Quando você conjura essa magia, escolha a natureza da maldição dentre as seguintes opções:\n - Escolha um valor de habilidade. Enquanto amaldiçoado, o alvo tem desvantagem em testes de habilidade e testes de resistência feitos com esse valor de habilidade,\n - Enquanto amaldiçoado, o alvo tem desvantagem nas jogadas de ataque contra você.\n - Enquanto amaldiçoado, o alvo deve realizar um teste de resistência de Sabedoria no começo de cada um dos turnos dela. Se ela falhar, ela perderá sua ação aquele turno, não fazendo nada.\n - Enquanto o alvo estiver amaldiçoado, seus ataques e magias causam 1d8 de dano necrótico extra a ele.\nUma magia remover maldição termina esse efeito. Com a permissão do Mestre, você pode escolher um efeito alternativo de maldição, mas ele não deve ser mais poderoso que os descritos acima. O Mestre tem a palavra final sobre o efeito de uma maldição.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível, a duração da concentração sobe para 10 minutos. Se você usar um espaço de magia de 5° ou 6° nível, a duração será de 8 horas. Se você usar um espaço de magia de 7° ou 8° nível, a duração será de 24 horas. Se você usar um espaço de magia de 9° nível, a magia dura até ser dissipada. Usar um espaço de magia de 5° nível ou superior faz com que a duração não necessite de concentração.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "DA044330A7AE48496DC8764075E7BD31"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0",
+                "e": false,
+                "uuid": "5fdfs0irsrmm7mpn1fn99ahsiq"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Malogro",
+                "c": "Energia necromântica inunda uma criatura, à sua escolha, que você possa ver dentro do alcance, drenando sua umidade e vitalidade. O alvo deve realizar um teste de resistência de Concentração. O alvo sofre 8d8 de dano necrótico se falhar no teste, ou metade desse dano se obtiver sucesso. Essa magia não surte efeito em mortosvivos ou constructos.\nSe você afetar uma criatura planta ou planta mágica, ela faz seu teste de resistência com desvantagem e a magia causa o máximo de dano a ela.\nSe você afetar uma planta não-mágica que não seja uma criatura, como uma árvore ou arbusto, ele não faz um teste de resistência; ela simplesmente seca e morre.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 4°.",
+                "d": "necromância",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "0E0F9D10C4D31E185A1E66449FC89AC9",
+                "e": false,
+                "uuid": "r1mk06gp1c78jal0d2ke1cjg9m"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Pele de Pedra",
+                "c": "Essa magia transforma a pele de uma criatura voluntária que você tocar em rocha sólida. Até a magia acabar, o alvo tem resistência a dano de concussão, cortante e perfurante não-mágico.",
+                "d": "abjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (pó de diamante no valor de 100 po, consumido pela magia)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "0E0F9D10C4D31E185A1E66449FC89AC9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "858F877B42D2E478A01E4E167C735CE4",
+                "e": true,
+                "uuid": "2d1q0ici5mmcaabhcnjeoom8vu"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Portal Dimensional",
+                "c": "Você se teletransporte da sua posição atual para qualquer local dentro do alcance. Você aparece exatamente no local desejado. Pode ser um lugar que você possa ver, um que você possa visualizar ou um que você possa descrever indicando a distância e direção, como \u201c60 metros diretamente pra baixo\u201d ou \u201c90 metros, subindo para noroeste num ângulo de 45 graus\u201d.\nVocê pode levar objetos com você, contanto que o peso deles não exceda o que você pode carregar. Você também pode levar uma criatura voluntária do seu tamanho ou menor, que esteja carregando equipamento até o limite da capacidade de carga dela. A criatura deve estar a 1,5 metro de você quando você conjurar a magia.\nSe você aparecer em um lugar que já esteja ocupado por um objeto ou uma criatura, você e qualquer criatura viajando com você, sofrem 4d6 de dano de energia cada um e a magia falha em teletransportar vocês.",
+                "d": "conjuração",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "150 m",
+                "h": "500 ft",
+                "i": "V",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "858F877B42D2E478A01E4E167C735CE4"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "BD57E0AA3B23A6D6449F293C9BE9B241",
+                "e": false,
+                "uuid": "cglo021ql5rcutp4c9ovtgruat"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Névoa Mortal",
+                "c": "Você cria uma esfera de nevoeiro venenoso de cor amarelo-esverdeado, com 6 metros de raio, centrado em um ponto, à sua escolha, dentro do alcance. O nevoeiro se espalha, dobrando esquinas. Ele permanece pela duração ou até um vento forte dispersar o nevoeiro, terminando a magia. Sua área é de escuridão densa.\nQuando uma criatura entra na área da magia pela primeira vez no turno dela ou começa seu turno lá, essa criatura deve realizar um teste de resistência de Constituição. A criatura sofre 5d8 de dano de veneno, ou metade desse dano, se passar no teste. As criaturas serão afetadas mesmo se prenderem a respiração ou não precisarem respirar.\nO nevoeiro se afasta 3 metros de você no começo de cada um dos seus turnos, deslizando pela superfície do solo. Os vapores são mais pesados que o ar, mantendo-se nos níveis mais baixos do terreno, até mesmo caindo em aberturas.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 5°.",
+                "d": "conjuração",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "BD57E0AA3B23A6D6449F293C9BE9B241"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "913110B21AFAB0096EE452EEE85F16D4",
+                "e": false,
+                "uuid": "e77kl0ovbbk79kvqolmliuf861"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Armadura Arcana",
+                "c": "Você toca uma criatura voluntária que não esteja vestindo armadura e uma energia mágica protetora a envolve até a magia acabar. A CA base do alvo se torna 13 + o modificador de Destreza dele. A magia acaba se o alvo colocar uma armadura ou se você dissipa-la usando uma ação.",
+                "d": "abjuração",
+                "e": "8 horas",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (um pedaço de couro curado)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "913110B21AFAB0096EE452EEE85F16D4"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "BDD8A3901BBEC081C19287ACD43D819B",
+                "e": true,
+                "uuid": "vqfcdh6mroj4v99hdlokpop3bj"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Ver o Invisível",
+                "c": "Pela duração, você vê criaturas e objetos invisíveis como se eles fossem visíveis e você pode ver no Plano Etéreo. Criaturas e objetos etéreos parecem espectrais e translúcidos.",
+                "d": "adivinhação",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (um pouco de talco e um pó de prata polvilhado)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "BDD8A3901BBEC081C19287ACD43D819B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "255A48F0F9B1552F3485A5D6221F5F76",
+                "e": true,
+                "uuid": "plbifumlsr0l3fs48pnn4i3t8l"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Contramágica",
+                "c": "Você tenta interromper uma criatura no processo de conjuração de uma magia. Se a criatura estiver conjurando uma magia de 3° nível ou inferior, a magia falha e não gera nenhum efeito. Se ela estiver conjurando uma magia de 4° nível ou superior, faça um teste de habilidade usando sua habilidade de conjuração. A CD é igual a 10 + o nível da magia. Caso seja bem sucedido, a magia da criatura falha e não gera nenhum efeito.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível ou superior, a magia interrompida não vai gerar efeito se o nível dela for menor ou igual ao nível do espaço de magia que você usar.",
+                "d": "abjuração",
+                "e": "Instantânea",
+                "f": "1 reação, que você realiza quando vê uma criatura a até 18 metros conjurando uma magia",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "255A48F0F9B1552F3485A5D6221F5F76"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "4A7DB4B42B5990BB3DC166F6FB8C214C",
+                "e": true,
+                "uuid": "8i93mfl8cmavb2i47em2sanr8e"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Voo",
+                "c": "Você toca uma criatura voluntária. O alvo ganha deslocamento de voo de 18 metros, pela duração. Quando a magia acabar, o alvo cai se ainda estiver no ar, a não ser que ele possa impedir a queda.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 3°.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (uma pena da asa de qualquer pássaro)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "4A7DB4B42B5990BB3DC166F6FB8C214C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "A714A244DFA359002EBDE008C4EC83FA",
+                "e": false,
+                "uuid": "c5c29v9uqgd0s36s56tvliqf6n"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Invisibilidade Maior",
+                "c": "Você ou uma criatura que você possa tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo estiver vestindo ou carregando fica invisível enquanto estiver de posse do alvo.",
+                "d": "ilusão",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "A714A244DFA359002EBDE008C4EC83FA"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "1DF022F668AC4EBD5746EDE45B6FA67E",
+                "e": false,
+                "uuid": "d8jspcvkafc0h70s913afarknf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Tempestade de Gelo",
+                "c": "Uma rajada de pedras de gelo batem no chão em um cilindro de 6 metros de raio por 12 metros de altura, centrado num ponto dentro do alcance. Cada criatura no cilindro deve realizar um teste de resistência de Destreza. Uma criatura sofre 2d8 de dano de concussão e 4d6 de dano de frio se falhar na resistência ou metade desse dano se obtiver sucesso.\nO granizo torna a área da tempestade em terreno difícil até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano de concussão aumenta em 1d8 para cada nível do espaço acima do 4°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "90 m",
+                "h": "300 ft",
+                "i": "V, S, M (um pouco de poeira e algumas gotas de água)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "1DF022F668AC4EBD5746EDE45B6FA67E"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "52156B71A5EBC86E9B505D25B7B451E9",
+                "e": false,
+                "uuid": "31fu18fribg9viudvm70odr9j0"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Telecinésia",
+                "c": "Você adquire a habilidade de mover ou manipular criaturas ou objetos através do pensamento. Quando você conjura a magia e, com sua ação a cada turno, pela duração, você pode exercer sua vontade sobre uma criatura ou objeto que você possa ver, dentro do alcance, causando os efeitos apropriados abaixo. Você pode afetar o mesmo alvo rodada após rodada, ou escolher um novo a qualquer momento. Se você mudar de alvos, o alvo anterior não será mais afetado pela magia.\n - Criatura. Você pode tentar mover uma criatura Enorme ou menor. Faça um teste de habilidade com sua habilidade de conjuração resistido por um teste Força da criatura. Se você vencer a disputa, você move a criatura até 9 metros em qualquer direção, incluindo para cima, mas não além do alcance da magia. Até o final do seu próximo turno, a criatura estará impedida pelo seu agarrão telecinético. Uma criatura erguida para cima estará suspensa no ar.\nEm rodadas subsequente, você pode usar sua ação para tentar manter seu agarrão telecinético na criatura repetindo o teste resistido.\n - Objeto. Você pode tentar mover um objeto pesando até 500 quilos. Se o objeto não estiver sendo vestido ou carregado, você o move, automaticamente, até 9 metros em qualquer direção, mas não além do alcance dessa magia.\nSe o objeto estiver sendo vestido ou carregado por uma criatura, você deve realizar um teste de habilidade com sua habilidade de conjuração resistido por um teste de Força da criatura. Se você for bem sucedido, você arranca o objeto da criatura e o move até 9 metros, em qualquer direção, mas não além do alcance dessa magia.\nVocê pode exercer um controle refinado sobre os objetos com seu agarrão telecinético, como manipular ferramentas simples, abrir uma porta ou um recipiente, guardar ou recuperar um item de um recipiente aberto ou derramar o conteúdo de um frasco.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "52156B71A5EBC86E9B505D25B7B451E9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "A5DFD562F72CF7CEB4B72589466B29D9",
+                "e": true,
+                "uuid": "vfj9ispjkr4m83la10hfm18k60"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Cegueira/Surdez",
+                "c": "Você pode cegar ou ensurdecer um oponente. Escolha uma criatura que você possa ver dentro do alcance para fazer um teste de resistência de Constituição. Se ela falhar, ficará ou cega ou surda (à sua escolha) pela duração. No final de cada um dos turnos dele, o alvo pode realizar um teste de resistência de Constituição. Se obtiver sucesso, a magia termina.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 3° nível ou superior, você pode afetar uma criatura adicional para cada nível de espaço acima do 2°.",
+                "d": "necromância",
+                "e": "1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "A5DFD562F72CF7CEB4B72589466B29D9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "052E0A2692EF852CEF910E548240D760",
+                "e": false,
+                "uuid": "en5h6knotfpvlkr3gfhl550tbe"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Círculo de Teletransporte",
+                "c": "À medida que você conjura essa magia, você desenha um círculo de 3 metros de diâmetro no chão, inscrevendo selos que conectam sua localização a um círculo de teletransporte permanente, à sua escolha, cuja sequência de selos você conheça e esteja no mesmo plano de existência que você. Um portal cintilante se abre dentro do círculo que você desenhou e permanece aberto até o final do seu próximo turno. Qualquer criatura que entrar no portal, instantaneamente, aparecerá a 1,5 metro do círculo de destino ou no espaço desocupado mais próximo, se o espaço estiver ocupado.\nMuitos templos principais, guildas e outros locais importantes possuem círculos de teletransporte permanentes inscritos em algum lugar dos seus confins. Cada círculo desse inclui uma sequência única de selos \u2013 uma sequência de runas mágicas dispostas em um padrão específico. Quando você adquire a capacidade de conjurar essa magia pela primeira vez, você aprende a sequência de selos de dois destinos no Plano Material, determinadas pelo Mestre. Você pode aprender sequências de selos adicionais durante suas aventuras. Você pode consignar uma nova sequência de selos a memória após estuda-la por 1 minuto.\nVocê pode criar um círculo de teletransporte permanente ao conjurar essa magia no mesmo local a cada dia por um ano. Você não precisa usar o círculo para se teletransportar quando você conjurar a magia desse modo.",
+                "d": "conjuração",
+                "e": "1 rodada",
+                "f": "1 minuto",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, M (giz e tintas raros infundidos com pedras preciosas no valor de 50 po, consumidos pela magia)",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "052E0A2692EF852CEF910E548240D760"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "3FFE50554150111F0A4CA41E8AAC5A37",
+                "e": false,
+                "uuid": "e6n13e41oa4rcgftcgasa2b8un"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Conhecimento Lendário",
+                "c": "Nomeie ou descreva uma pessoa, local ou objeto. A magia traz a sua mente um breve resumo do conhecimento significativo sobre a coisa que você nomeou. O conhecimento deve consistir em contos atuais, histórias esquecidas ou, até mesmo, conhecimento secreto que nunca foi amplamente divulgado. Se a coisa que você nomeou não for de importância lendária, você não recebe qualquer informação sofre ela. Quanto mais informação você possuir sobre a coisa, mais precisa e detalhada será a informação que você receberá.\nA informação que você aprende é precisa, mas pode ser redigida em linguagem figurada. Por exemplo, se você possuir um misterioso machado mágico na mão, a magia pode proporcionar essa informação: \u201cAi do malfeitor cuja mão toca o machado, até mesmo seu cabo corta a mão dos malignos. Só um verdadeiro Filho da Pedra, adorador e adorado de Moradin, pode despertar os verdadeiros poderes do machado e apenas com a palavra sagrada Rudnogg nos lábios.\u201d",
+                "d": "adivinhação",
+                "e": "Instantânea",
+                "f": "10 minutos",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (incenso valendo, no mínimo, 250 po, consumido pela magia e quatro tiras de marfim valendo, no mínimo, 50 po cada)",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "3FFE50554150111F0A4CA41E8AAC5A37"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "CBB2158346C8942675F2793BD065E407",
+                "e": false,
+                "uuid": "9g3hkt8auvnv3i7tdamfbu2k13"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Moldar Rochas",
+                "c": "Você toca um objeto de pedra de tamanho Médio ou menor, ou uma seção de rocha com não mais de 1,5 metro em qualquer dimensão e modela-a em qualquer forma que sirva aos seus propósitos. Então, por exemplo, você poderia modelar uma pedra grande em uma arma, ídolo ou caixão, ou fazer uma pequena passagem através de um muro, contanto que o muro não tenha mais de 1,5 metro de espessura. Você poderia, também, modelar uma porta de pedra ou sua moldura para selar a porta. O objeto que você cria pode ter até duas dobradiças e um trinco, mas detalhes mecânicos mais complexos não são possíveis.",
+                "d": "transmutacao",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (barro mole, que deve ser trabalhado aproximadamente com a forma desejada para o objeto de pedra)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "CBB2158346C8942675F2793BD065E407"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "72E416DBC27BAC205D858FAC241AF04B",
+                "e": false,
+                "uuid": "mired0tf5aa3eq4e31tgu75vc9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Fabricar",
+                "c": "Você converte matéria-prima em produtos do mesmo material. Por exemplo, você pode construir uma ponte de madeira usando um amontoado de árvores, uma corda de um pedaço de cânhamo e roupas usando linho ou lã.\nEscolha matérias-primas que você possa ver, dentro do alcance. Você pode fabricar um objeto Grande ou menor (contido em 3 metros cúbicos ou em oito cubos de 1,5 metro conectados), tendo uma quantidade suficiente de matéria-prima. Se você estiver trabalhando com metal, pedra ou outra substância mineral, no entanto, o objeto fabricado não pode ser maior que Médio (contido em apenas 1,5 metro cúbico). A quantidade de objetos feitos por essa magia é proporcional com a quantidade de matéria-prima.\nCriaturas ou itens mágicos não podem ser criados ou transmutados por essa magia. Você também não pode usá-la para criar itens que, geralmente, requerem um alto grau de perícia, como joalheria, armas, vidros ou armaduras, a não ser que você tenha proficiência com o tipo de ferramenta de artesanato usada para construir tais objetos.",
+                "d": "transmutacao",
+                "e": "Instantânea",
+                "f": "10 minutos",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "72E416DBC27BAC205D858FAC241AF04B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "6F468FEFEF14E5DB445B2DCBE9194C5A",
+                "e": true,
+                "uuid": "hdpaa2teiujh8tru98qi99a2v4"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Animar Objetos",
+                "c": "Objetos ganham vida ao seu comando. Escolha até dez objetos não-mágicos dentro do alcance, que não estejam sendo vestidos ou carregados. Alvos Médios contam como dois objetos, alvos Grandes contam como quatro objetos e alvos Enormes contam como oito objetos. Você não pode animar um objeto maior que Enorme. Cada alvo se anima e torna-se uma criatura sob seu controle até o final da magia ou até ser reduzido a 0 pontos de vida. Com uma ação bônus, você pode comandar mentalmente qualquer criatura que você criar com essa magia se a criatura estiver a até 150 metros de você (se você controla várias criaturas, você pode comandar qualquer ou todas elas ao mesmo tempo, emitindo o mesmo comando para cada uma). Você decide qual ação a criatura irá fazer e para onde ela irá se mover durante o próximo turno dela, ou você pode emitir um comando geral, como para guardar uma câmara ou corredor especifico. Se você não der nenhum comando, as criaturas apenas se defenderão contra criaturas hostis. Uma vez que receba uma ordem, a criatura continuará a segui-la até a tarefa estar concluída.\nEstatísticas de objeto animado:\n(Tamanho; PV; CA; Ataque; Força; Destreza)\nMiúdo; 20; 18; +8 para atingir, 1d4 + 4 dano; 4; 18\nPequeno; 25; 16; +6 para atingir, 1d8 +  2 dano; 6; 14\nMédio; 40; 13; +5 para atingir, 2d6 + 1 dano; 10; 12\nGrande; 50; 10; +6 para atingir, 2d10 + 2 dano; 14; 10\nEnorme; 80; 10; +8 para atingir, 2d12 + 4 dano; 18; 6\nUm objeto animado é um constructo com CA, pontos de vida, ataques, Força e Destreza determinados pelo seu tamanho. Sua Constituição é 10 e sua Inteligência e Sabedoria são 3 e seu Carisma é 1. Seu deslocamento é 9 metros; se o objeto não tiver pernas ou outros apêndices que ele possa usar para locomoção, ao invés, ele terá deslocamento de voo 9 metros e poderá planar. Se o objeto estiver firmemente preso a uma superfície ou objeto maior, como uma corrente presa a uma parede, seu deslocamento será 0. Ele tem percepção às cegas num raio de 9 metros e é cego além dessa distância. Quando o objeto animado cair a 0 pontos de vida, ele reverte a sua forma normal de objeto e qualquer dano restante é transferido para sua forma de objeto original.\nSe você ordenar a um objeto que ataque, ele pode realizar um único ataque corpo-a-corpo contra uma criatura a até 1,5 metro dele. Ele realiza um ataque de pancada com um bônus de ataque e dano de concussão determinado pelo seu tamanho. O Mestre pode definir que um objeto especifico inflige dano cortante ou perfurante, baseado na forma dele.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, você pode animar dois objetos adicionais para cada nível do espaço acima do 5°.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "6F468FEFEF14E5DB445B2DCBE9194C5A"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "757E6192C5AF46C7A0E418B80EAC219A",
+                "e": false,
+                "uuid": "srvr9va9dh5miu7o1utkcp4619"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Recuo Acelerado",
+                "c": "Essa magia permite que você se mova a um ritmo incrível. Quando você conjura essa magia e, a partir de então, com uma ação bônus em cada um dos seus turnos, até a magia acabar, você pode realizar a ação de Disparada.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação bônus",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "757E6192C5AF46C7A0E418B80EAC219A"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "339187F6124603E08EADA5BBBD14F5F8",
+                "e": false,
+                "uuid": "uncqpspn5gvgsph3ksep8l8pg7"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Lentidão",
+                "c": "Você altera o tempo ao redor de até seis criaturas, à sua escolha, num cubo de 12 metros, dentro do alcance. Cada criatura deve ser bem sucedida num teste de resistência de Sabedoria ou será afetada por essa magia pela duração.\nO deslocamento de um alvo afetado é reduzido à metade, ele sofre \u20132 de penalidade na CA e nos testes de resistência de Destreza e não pode usar reações. No turno dele, ele pode usar ou uma ação ou uma ação bônus, mas não ambas. Independentemente das habilidades ou itens mágicos da criatura, ela não poderá realizar mais de um ataque corpo-a-corpo ou à distância durante o turno dela.\nSe a criatura tentar conjurar uma magia com tempo de conjuração maior que 1 rodada, jogue um d20. Se cair 11 ou maior, a magia não surte efeito até o próximo turno da criatura e a criatura deve usar sua ação nesse turno para completar a magia. Se ela não puder, a magia é perdida.\nUma criatura afetada por essa magia faz outro teste de resistência de Sabedoria no final do turno dela. Se passar na resistência, o efeito acaba nela.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (uma gota de melaço)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "339187F6124603E08EADA5BBBD14F5F8"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "6DB339EAD8174025888918059F1D0272",
+                "e": false,
+                "uuid": "cpo9sumtckor23r67fl8rk30eg"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Velocidade",
+                "c": "Escolha uma criatura voluntária que você possa ver, dentro do alcance. Até a magia acabar, o deslocamento do alvo é dobrado, ele ganha +2 de bônus na CA, ele tem vantagem em testes de resistência de Destreza e ganha uma ação adicional em cada um dos turnos dele. A ação pode ser usada apenas para realizar as ações de Atacar (um ataque com arma, apenas), Disparada, Desengajar, Esconder ou Usar um Objeto.\nQuando a magia acabar, o alvo não poderá se mover ou realizar ações até depois do seu próximo turno, à medida que uma onda de letargia toma conta dele.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (uma raspa de raiz de alcaçuz)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "6DB339EAD8174025888918059F1D0272"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "A7EE7B8700E0FD5DF9404AB30BE8A6D1",
+                "e": false,
+                "uuid": "2gra4rm83v838gjeakm68bdtbm"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Muralha de Energia",
+                "c": "Uma muralha invisível de energia aparece do nada num ponto, à sua escolha, dentro do alcance. A muralha aparece em qualquer orientação que você escolher, como uma barreira horizontal ou vertical ou em uma angulação. Ela pode estar flutuando no ar ou apoiada em uma superfície sólida. Você pode molda-la em uma cúpula hemisférica ou uma esfera com um raio de até dez painéis de 3 metros por 3 metros. Cada painel deve ser contíguo com outro painel. Em qualquer formato, a muralha terá 0,6 centímetros de espessura. Ela permanece pela duração. Se a muralha passar pelo espaço ocupado por uma criatura quando ela surgir, a criatura será empurrada para um dos lados da muralha (você escolhe qual lado).\nNada pode passar fisicamente através da muralha. Ela é imune a todos os danos e não pode ser dissipada por dissipar magia. A magia desintegrar destrói a muralha instantaneamente, no entanto. A muralha também se estende ao Plano Etéreo, bloqueando a viagem etérea através dela.",
+                "d": "evocação",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (um pouco de pó feito de uma gema transparente esmagada)",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "A7EE7B8700E0FD5DF9404AB30BE8A6D1"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "AB2231901D098F68EFEAC636A9814AED",
+                "e": false,
+                "uuid": "3u02a6ploeckv4d9puhcfr1k6e"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Mão de Bigby",
+                "c": "Você cria uma mão Grande de energia cintilante e translucida em um espaço desocupado que você possa ver dentro do alcance. A mão permanece pela duração da magia e ela se move ao seu comando, imitando os movimentos da sua própria mão.\nA mão é um objeto com CA 20 e pontos de vida igual ao seu máximo de pontos de vida. Se ela cair a 0 pontos de vida, a magia termina. Ela tem Força 26 (+8) e Destreza 10 (+0). A mão não preenche o espaço dela.\nQuando você conjura essa magia você pode, com uma ação bônus, nos seus turnos subsequentes, mover a mão até 18 metros e então causar um dos seguintes efeitos com ela.\n - Mão Esmagadora. A mão tenta agarrar uma criatura Enorme ou menor a 1,5 metro dela. Você usa o valor de Força da mão para determinar o agarrão. Se o alvo for Médio ou menor, você terá vantagem no teste. Enquanto a mão estiver agarrando o alvo, você pode usar uma ação bônus para fazer a mão esmaga-lo. Quando o fizer, o alvo sofre dano de concussão igual a 2d6 + seu modificador de habilidade de conjuração.\n - Mão Interposta. A mão se interpõem entre você e uma criatura a sua escolha até você lhe dar um comando diferente. A mão se move para ficar entre você e o alvo, concedendo a você meia-cobertura contra o alvo. O alvo não pode se mover através do espaço da mão se o valor de Força dele for menor ou igual ao valor de Força da mão. Se o valor de Força dele for maior que o valor de Força da mão, o alvo pode se mover até você através do espaço da mão, mas aquele espaço será considerado terreno difícil para o alvo.\n - Mão Poderosa. A mão tenta empurrar uma criatura a 1,5 metro dela em uma direção a sua escolha. Realize um teste com a Força da mão, resistido por um teste de Força (Atletismo) do alvo. Se o alvo for Médio ou menor, você tem vantagem no teste. Se você for bem sucedido, a mão empurra o alvo até 1,5 metro mais uma quantidade de metros igual ao modificador da sua habilidade de conjuração multiplicado por 1,5. A mão se move com o alvo, permanecendo a 1,5 metro dele.\n - Punho Cerrado. A mão golpeia uma criatura ou objeto a 1,5 metro dela. Realize uma jogada de ataque corpo-a-corpo com magia para a mão usando suas estatísticas de jogo. Se atingir, o alvo sofre 4d8 de dano de energia.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano da opção punho cerrado aumenta em 2d8 e o dano da mão esmagadora aumenta em 2d6 para cada nível do espaço acima do 5°.",
+                "d": "evocação",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (uma casca de ovo e uma luva de couro de cobra)",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "AB2231901D098F68EFEAC636A9814AED"
+            }
+        }
+    ],
+    "s": [
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
+            "c": 0,
+            "uuid": "72EF5186E09B4B8121222C08E4183D06"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "AA587241C9A969D82BFFFBD0CBABD253",
+            "c": 0,
+            "uuid": "881185CCF9B20537447B11DB3C2FAE05"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "BD61C436903DB2D0A88FE7342E515113",
+            "c": 0,
+            "uuid": "926035D6AB127D6396827DF542A4F502"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "CAC28CFC119D235DA93800FA652CB0D3",
+            "c": 0,
+            "uuid": "8E296CF7AE17500D9B2EE87BE0D31C08"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "27B82C2A97E3CBCFE37303322836000B",
+            "c": 0,
+            "uuid": "3992BBAAC5901189CE7CD76DEDA14940"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "99B6CF62F2751F957EC1C373C3358934",
+            "c": 0,
+            "uuid": "1517919A3EFACB88467191E192B2DAC6"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "42C625650D6653D9748ABA72B44CDFB3",
+            "c": 0,
+            "uuid": "E2097BDC93BFEDCCAAB60C4F7319C1BE"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "B67E49FD76E981E0F19FBE457D7D4D15",
+            "c": 0,
+            "uuid": "B625540F9A756FE35F41A6F0B21A2F19"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "EFF0510C3B7010B2CC5FCF710DB298DD",
+            "c": 0,
+            "uuid": "532D55E5C13C522DB9993D804236E37E"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "F935B6AC0B092A569C4281B565F94EDD",
+            "c": 0,
+            "uuid": "7FA237798C39810C901C8D8D1DF6DA73"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "1695C34429B32A6441E345C25413A4BC",
+            "c": 0,
+            "uuid": "19344D5C71AD165CFF3C1BCB939ACA16"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "1D64D6C7B7232E75931E1615F2B9A2D4",
+            "c": 0,
+            "uuid": "38C46E4ADF222F9FCF9E16EA542F05C5"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "E2060061E984FF6943C53A18A758ADFB",
+            "c": 0,
+            "uuid": "87939CE0C536B7737D668524E6103C8D"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "7B8CC8DCC73BD714F2F006E00526390D",
+            "c": 0,
+            "uuid": "95D320EF752C8FAF96652260139236E5"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "ED3DAA84AB27105CA8CC610805A8CEA1",
+            "c": 0,
+            "uuid": "6568E5A666CE84D958C46FD736F3257F"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "C43E23AB89939917A60FBE629D9F722A",
+            "c": 0,
+            "uuid": "22088A27A5C1B9148A82FEFBC885B5D7"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "68FB3E51A8C0245DAE4264EF1A0FE46D",
+            "c": 0,
+            "uuid": "9AA824DB16AF76E8D33C337C37BA81DD"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "54D40A660E8CA318F0545739C66EC03C",
+            "c": 0,
+            "uuid": "762DABCBC22314EC24FD620A62C3ED75"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "C12A37A65BBBFF61177E159FC5A449C1",
+            "c": 0,
+            "uuid": "4535F522C70954D1B8B21AA2D898D688"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "4205197A24BF8CA0EC1A29050949BCA6",
+            "c": 0,
+            "uuid": "BA09706A3D4CFFD807B06A307F724A3B"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "6AEA1C2D29D9159CABBA14BF280A29B9",
+            "c": 0,
+            "uuid": "DA9A21CBDADC5A3D54DEAA1C650FA5BA"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "1438224E73FAB6ACA644CEED7CA6D6BE",
+            "c": 0,
+            "uuid": "707B84C061694217195DB5FDD5149826"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "58543C399ECB451EC2EDF23AD55B0CF9",
+            "c": 0,
+            "uuid": "9133E3CF893C640C19170A94F6AD6C4E"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "8F4EEA786D078C859588132DF69C9E6C",
+            "c": 0,
+            "uuid": "F1C0ADE991151B3404DC199E6219DA8D"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "331DBABE2743DFC86996186D0887CF88",
+            "c": 0,
+            "uuid": "98FD7DBCC513B1E246B22E56AD35DE8F"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "F6954977C1E2E816F81FD8057EEDFF98",
+            "c": 0,
+            "uuid": "DE283D1209DD5719C61921701DC72059"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "C252BF9E1642E6A9A013B109501A4155",
+            "c": 0,
+            "uuid": "E7BB247C156A0FBEF479A1C6CACE1323"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "4B956A58525678C1274E045B4D5C1557",
+            "c": 0,
+            "uuid": "B889E18704683CF0D6098EE9FD07496C"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "DA044330A7AE48496DC8764075E7BD31",
+            "c": 0,
+            "uuid": "259716897D9048AF671B59D2F17D95BF"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0",
+            "c": 0,
+            "uuid": "013CA66560829C24EC71C41C8AE948DE"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "0E0F9D10C4D31E185A1E66449FC89AC9",
+            "c": 0,
+            "uuid": "CEEAF4F6A7EEFFFD61D6B66F4D076C45"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "858F877B42D2E478A01E4E167C735CE4",
+            "c": 0,
+            "uuid": "2ED91454D82F526EDB0A33A4EC1E4CCD"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "BD57E0AA3B23A6D6449F293C9BE9B241",
+            "c": 0,
+            "uuid": "D3DC0D1211C657A0A13141D70C503F7F"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "913110B21AFAB0096EE452EEE85F16D4",
+            "c": 0,
+            "uuid": "BFCD44A4EF79E6DB9E11B86830C4C2D0"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "BDD8A3901BBEC081C19287ACD43D819B",
+            "c": 0,
+            "uuid": "B02AFBA78E3DF881B804D91D11FC653A"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "255A48F0F9B1552F3485A5D6221F5F76",
+            "c": 0,
+            "uuid": "BE65470BA50DAE5AA140278C441A733C"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "4A7DB4B42B5990BB3DC166F6FB8C214C",
+            "c": 0,
+            "uuid": "F4D660A33329B0F9E89EEF507890EC89"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "A714A244DFA359002EBDE008C4EC83FA",
+            "c": 0,
+            "uuid": "5F3AE361F855FF412C45372DDE5FFEFB"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "1DF022F668AC4EBD5746EDE45B6FA67E",
+            "c": 0,
+            "uuid": "6C491AB05D34F2A7180B3C36CE3CC32A"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "52156B71A5EBC86E9B505D25B7B451E9",
+            "c": 0,
+            "uuid": "E37AFD9FDF1113C58A31355EBD7EF72E"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "052E0A2692EF852CEF910E548240D760",
+            "c": 0,
+            "uuid": "2BD72687AF33CCB4677598A749996A1D"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "3FFE50554150111F0A4CA41E8AAC5A37",
+            "c": 0,
+            "uuid": "2CC43137126946A9DCD2805E07F6F957"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "CBB2158346C8942675F2793BD065E407",
+            "c": 0,
+            "uuid": "876B683068FAEBDBDD88492958ECE967"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "72E416DBC27BAC205D858FAC241AF04B",
+            "c": 0,
+            "uuid": "F75F82389E26FBC9A4ABC918566E30B9"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "6F468FEFEF14E5DB445B2DCBE9194C5A",
+            "c": 0,
+            "uuid": "EC2DA2FE3A13AA4017540EE87D2F5059"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "757E6192C5AF46C7A0E418B80EAC219A",
+            "c": 0,
+            "uuid": "6BA6286C6A4335950B4ABB205F597A1C"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "339187F6124603E08EADA5BBBD14F5F8",
+            "c": 0,
+            "uuid": "900E54584DB770DD47025E754FB660A1"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "6DB339EAD8174025888918059F1D0272",
+            "c": 0,
+            "uuid": "DC657EACE573ED05DC2634FFFB8279B3"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "A7EE7B8700E0FD5DF9404AB30BE8A6D1",
+            "c": 0,
+            "uuid": "B8DCC451872332AD76413CCFAAF7588E"
+        },
+        {
+            "a": "DD61B226A538F1C99C5053140935B4F8",
+            "b": "AB2231901D098F68EFEAC636A9814AED",
+            "c": 0,
+            "uuid": "B1133BCB188AFA79898A73AEE990E6D3"
+        }
+    ],
+    "t": [
+        {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "ipflktv54thcajeghidh2tgbcl"
+        },
+        {
+            "a": 1,
+            "b": 4,
+            "c": 3,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "j1o8rsju8tff6c17g1rojbuv8n"
+        },
+        {
+            "a": 2,
+            "b": 3,
+            "c": 3,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "rgd6dvf8l8a4tnadtlhdqsl0ta"
+        },
+        {
+            "a": 3,
+            "b": 3,
+            "c": 3,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "1gi7lkt9e7suoub6575bmmvo1v"
+        },
+        {
+            "a": 4,
+            "b": 3,
+            "c": 3,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "vgmujd9tmdfua7cg0hibmptr6c"
+        },
+        {
+            "a": 5,
+            "b": 1,
+            "c": 1,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "j9cn2thofv797p5jp3olv7ico6"
+        },
+        {
+            "a": 6,
+            "b": 0,
+            "c": 0,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "bmt7sqjja3ir79npegtvpuqm59"
+        },
+        {
+            "a": 7,
+            "b": 0,
+            "c": 0,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "ggvs7ka8u6gdsrcr8kiu8k0can"
+        },
+        {
+            "a": 8,
+            "b": 0,
+            "c": 0,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "lu10vv0dgf2960iit7kaiogo9n"
+        },
+        {
+            "a": 9,
+            "b": 0,
+            "c": 0,
+            "d": "btgln1ldr4mbderngsfenvddqq",
+            "uuid": "9k6mr0fcfhqv1rktnsrnu4s374"
+        }
+    ]
+}

@@ -9,6 +9,7 @@ import java.awt.*;
 import static backend.Fun.Proficiencia.Proficiencia;
 import static backend.Fun.Mod.mod;
 import static backend.Fun.Par.Inventario.InformacoesAdicionaisP.InformacoesP;
+import backend.jsonParser;
 import java.awt.event.*;
 import org.json.*;
 import javax.swing.*;
@@ -21,6 +22,7 @@ import javax.swing.border.*;
 public class InventarioPanelP {
 
     public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens) {
+        Color cor = new Color(255, 255, 255);
         PainelItens.removeAll();
         PainelItens.revalidate();
         PainelItens.repaint();
@@ -69,12 +71,12 @@ public class InventarioPanelP {
             RemoverItem.setForeground(new Color(255, 105, 105));
             RemoverItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             JLabel NomeItem = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("u"));
+            NomeItem.setForeground(cor);
             ImageIcon icone = new ImageIcon("src/visual/res/down.png");
             JLabel SetaItem = new JLabel(icone);
             SetaItem.setBounds(0, 0, icone.getIconWidth(), icone.getIconHeight());
             NomeItem.setPreferredSize(new Dimension(540, 15));
             NomeItem.setHorizontalAlignment(SwingConstants.LEFT);
-
             JPanel PainelDescricaoItem = new JPanel();
             JPanel PainelTituloItem = new JPanel();
             PainelTituloItem.setLayout(new BoxLayout(PainelTituloItem, BoxLayout.Y_AXIS));
@@ -87,7 +89,7 @@ public class InventarioPanelP {
             RemoverItemPainel.setOpaque(false);
             PainelDescricaoItem.add(PInfAdicionais);
             PainelDescricaoItem.add(RemoverItemPainel);
-            
+
             gbc.gridy = i;
             PainelItem.setOpaque(false);
             PainelNomeItem.setOpaque(false);
@@ -96,7 +98,7 @@ public class InventarioPanelP {
             PainelDescricaoItem.setPreferredSize(new Dimension(300, PainelDescricaoItem.getPreferredSize().height));
             PainelTituloItem.add(PainelNomeItem);
             if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("Arma") || ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("WEAPON")) {
-                JPanel PInfArma = new JPanel(new FlowLayout());
+                JPanel PInfArma = new JPanel(new GridLayout(1, 3));
                 PInfArma.setOpaque(false);
                 JPanel PInfArmaAtaque = new JPanel();
                 PInfArmaAtaque.setLayout(new BoxLayout(PInfArmaAtaque, BoxLayout.Y_AXIS));
@@ -110,36 +112,75 @@ public class InventarioPanelP {
                 JLabel InfArmaAtaqueT = new JLabel("Ataque");
                 JLabel InfArmaDanoT = new JLabel("Dano");
                 JLabel InfArmaTipoT = new JLabel("Tipo de dano");
-                int Status = 0;
-                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("q").equals("STRENGTH")) {
-                    Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
-                } else if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("q").equals("DEXTERITY")) {
-                    Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                } else {
-                    if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
-                        Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                    } else {
+                int Status;
+                switch (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("q")) {
+                    case "STRENGTH" ->
                         Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                    case "DEXTERITY" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                    default -> {
+                        if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
+                            Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                        } else {
+                            Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                        }
                     }
                 }
                 JLabel InfArmaAtaque = new JLabel("-");
+                String Modificador;
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("d")) {
-                    InfArmaAtaque.setText("" + mod(Status, Proficiencia(ficha)));
+                    Modificador = mod(Status, Proficiencia(ficha));
                 } else {
-                    InfArmaAtaque.setText(mod(Status, 0));
+                    Modificador = mod(Status, 0);
                 }
+                if (Modificador.equals("0")) {
+                    Modificador = "";
+                }
+                InfArmaAtaque.setText("1d20" + Modificador);
                 JLabel InfArmaDano = new JLabel("-");
-                JLabel InfArmaTipo = new JLabel("-");
+                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("1")) {
+                    InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1"));
+                } else {
+                    JSONArray inventario = new JSONArray(jsonParser.LerArray("ASSETS/Equipamento.json"));
+                    for (int j = 0; j < inventario.length(); j++) {
+                        if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("uuid").equals(inventario.getJSONObject(j).getString("uuid"))) {
+                            ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").put("1", inventario.getJSONObject(j).getString("1"));
+                            SalvarFicha(ficha, personagemCaminho);
+                            InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1"));
+                            j = inventario.length();
+                        }
+                    }
+                }
+                JLabel InfArmaTipo = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("b"));
+
+                InfArmaAtaqueT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaAtaque.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaDanoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaDano.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaTipoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaTipo.setAlignmentX(Component.CENTER_ALIGNMENT);
+
                 PInfArmaAtaque.add(InfArmaAtaqueT);
+                PInfArmaAtaque.add(Box.createRigidArea(new Dimension(0, 5)));
                 PInfArmaAtaque.add(InfArmaAtaque);
                 PInfArmaDano.add(InfArmaDanoT);
+                PInfArmaDano.add(Box.createRigidArea(new Dimension(0, 5)));
                 PInfArmaDano.add(InfArmaDano);
                 PInfArmaTipo.add(InfArmaTipoT);
+                PInfArmaTipo.add(Box.createRigidArea(new Dimension(0, 5)));
                 PInfArmaTipo.add(InfArmaTipo);
                 PInfArma.add(PInfArmaAtaque);
                 PInfArma.add(PInfArmaDano);
                 PInfArma.add(PInfArmaTipo);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 0)));
                 PainelTituloItem.add(PInfArma);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
+                InfArmaAtaqueT.setForeground(cor);
+                InfArmaAtaque.setForeground(cor);
+                InfArmaDanoT.setForeground(cor);
+                InfArmaDano.setForeground(cor);
+                InfArmaTipoT.setForeground(cor);
+                InfArmaTipo.setForeground(cor);
             }
             PainelItem.add(PainelTituloItem);
             PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));

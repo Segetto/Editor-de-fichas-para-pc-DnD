@@ -18,11 +18,12 @@ import javax.swing.border.*;
  */
 public class EspecializacaoPanelP {
 
-    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens) {
-        PainelItens.removeAll();
-        PainelItens.revalidate();
-        PainelItens.repaint();
-        PainelItens.setLayout(new GridBagLayout());
+    public static void EspecializacaoPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelCaracteristicas, String VetorNome, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoes) {
+        PainelCaracteristicas.removeAll();
+        PainelCaracteristicas.revalidate();
+        PainelCaracteristicas.repaint();
+        int HeightInicialJanela = 192;
+        PainelCaracteristicas.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.fill = GridBagConstraints.BOTH; // Expande horizontal e verticalmente
         gbc.weightx = 1.0; // Permite expansão horizontal
@@ -30,18 +31,18 @@ public class EspecializacaoPanelP {
         gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
         gbc.insets = new Insets(0, 0, 10, 0); // Espaço entre os itens
 
-        for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
-            JPanel PainelItem = new JPanel();
-            PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
+        for (int i = 0; i < ficha.getJSONArray(VetorNome).length(); i++) {
+            JPanel PainelCaracteristica = new JPanel();
+            PainelCaracteristica.setLayout(new BoxLayout(PainelCaracteristica, BoxLayout.Y_AXIS));
             JPanel PainelNomeItem = new JPanel(new FlowLayout(FlowLayout.LEFT));
-            JLabel RemoverItem = new JLabel("Remover item");
+            JLabel RemoverItem = new JLabel("Remover Caracteristíca");
             String placeholder = "Informações adicionais";
             String Texto = placeholder;
 
-            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").has("f") && !ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getString("f").equals("")) {
-                Texto = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getString("f");
+            if (ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").has("c") && !ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").getString("c").equals("")) {
+                Texto = ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").getString("c");
             }
-            JTextArea InformacoesAdicionais = new JTextArea(3, 20);
+            JTextArea InformacoesAdicionais = new JTextArea(3, 5);
             InformacoesAdicionais.setText(Texto);
             JPanel PainelInformacoesAdicionais = new JPanel(new FlowLayout());
             InformacoesTamanho(InformacoesAdicionais);
@@ -61,21 +62,21 @@ public class EspecializacaoPanelP {
             PainelInformacoesAdicionais.setOpaque(false);
             RemoverItem.setPreferredSize(new Dimension(84, 15));
             JPanel RemoverItemPainel = new JPanel();
-            RemoverItemPainel.setPreferredSize(new Dimension(500, 20));
+            RemoverItemPainel.setPreferredSize(new Dimension(470, 20));
             RemoverItem.setPreferredSize(new Dimension(84, 20));
 
             RemoverItem.setForeground(new Color(255, 105, 105));
             RemoverItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            JLabel NomeItem = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("u"));
+            JLabel NomeItem = new JLabel(ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(TituloCaminho));
             ImageIcon icone = new ImageIcon("src/visual/res/down.png");
             JLabel SetaItem = new JLabel(icone);
             SetaItem.setBounds(0, 0, icone.getIconWidth(), icone.getIconHeight());
-            NomeItem.setPreferredSize(new Dimension(540, 15));
+            NomeItem.setPreferredSize(new Dimension(470, 15));
             NomeItem.setHorizontalAlignment(SwingConstants.LEFT);
 
             JPanel PainelDescricaoItem = new JPanel();
             PainelDescricaoItem.setLayout(new BoxLayout(PainelDescricaoItem, BoxLayout.Y_AXIS));
-            JLabel DescricaoItem = new JLabel("<html><div style='width: 404px; padding: 7px;'>" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("v") + "</div></html>");
+            JLabel DescricaoItem = new JLabel("<html><div style='width: 304px; padding: 7px;'>" + ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(DescricaoCaminho) + "</div></html>");
             PainelNomeItem.add(NomeItem);
             PainelNomeItem.add(SetaItem);
             PainelDescricaoItem.add(DescricaoItem);
@@ -85,29 +86,48 @@ public class EspecializacaoPanelP {
             PainelDescricaoItem.add(RemoverItemPainel);
 
             gbc.gridy = i;
-            PainelItem.setOpaque(false);
+            PainelCaracteristica.setOpaque(false);
             PainelNomeItem.setOpaque(false);
             PainelDescricaoItem.setOpaque(false);
             PainelDescricaoItem.setPreferredSize(new Dimension(300, PainelDescricaoItem.getPreferredSize().height));
-            PainelItem.add(PainelNomeItem, BorderLayout.NORTH);
+            PainelCaracteristica.add(PainelNomeItem);
             PainelNomeItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             PainelNomeItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
-            PainelItens.add(PainelItem, gbc);
+            PainelCaracteristicas.add(PainelCaracteristica, gbc);
+
             PainelNomeItem.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
+                    int heightChange = 0;
+
                     if (PainelDescricaoItem.getParent() != null) {
-                        PainelItem.remove(PainelDescricaoItem);
+                        PainelCaracteristica.remove(PainelDescricaoItem);
                         ImageIcon icone = new ImageIcon("src/visual/res/down.png");
                         SetaItem.setIcon(icone);
+                        for (Component comp : PainelEspecializacoes.getComponents()) {
+                            if (comp instanceof JPanel) {
+                                JPanel panel = (JPanel) comp;
+                                // Faça algo com cada JPanel encontrado
+                                heightChange += panel.getPreferredSize().height;
+                            }
+                        }
+                        PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChange + HeightInicialJanela)));
                     } else {
-                        PainelItem.add(PainelDescricaoItem);
+                        PainelCaracteristica.add(PainelDescricaoItem);
                         ImageIcon icone = new ImageIcon("src/visual/res/up.png");
                         SetaItem.setIcon(icone);
-
+                        for (Component comp : PainelEspecializacoes.getComponents()) {
+                            if (comp instanceof JPanel) {
+                                JPanel panel = (JPanel) comp;
+                                // Faça algo com cada JPanel encontrado
+                                heightChange += panel.getPreferredSize().height;
+                            }
+                        }
+                        PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChange + HeightInicialJanela)));
                     }
-                    PainelItem.revalidate();
-                    PainelItem.repaint();
+                    System.out.println(PainelCaracteristicas.getHeight());
+                    PainelCaracteristica.revalidate();
+                    PainelCaracteristica.repaint();
                 }
             });
             int RemoveI = i;
@@ -116,12 +136,14 @@ public class EspecializacaoPanelP {
                 @Override
 
                 public void mouseClicked(MouseEvent e) {
-                    PainelItens.remove(PainelItem);
-                    ficha.getJSONArray("i").remove(RemoveI);
-                    PainelItens.revalidate();
-                    PainelItens.repaint();
-                    SalvarFicha(ficha, personagemCaminho);
+                    PainelCaracteristicas.remove(PainelCaracteristica);
+                    for (int j = 0; j < ficha.getJSONArray(VetorNome).length(); j++) {
 
+                    }
+                    ficha.getJSONArray(VetorNome).remove(RemoveI);
+                    PainelCaracteristicas.revalidate();
+                    PainelCaracteristicas.repaint();
+                    SalvarFicha(ficha, personagemCaminho);
                 }
             });
             InformacoesAdicionais.addFocusListener(new FocusListener() {
@@ -144,6 +166,18 @@ public class EspecializacaoPanelP {
                 }
             });
         }
+        int height = 0;
+        for (Component comp : PainelEspecializacoes.getComponents()) {
+            if (comp instanceof JPanel) {
+                JPanel panel = (JPanel) comp;
+                // Faça algo com cada JPanel encontrado
+                height += panel.getPreferredSize().height;
+            }
+        }
+        PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), height + HeightInicialJanela));
+        System.out.println(height);
+        PainelEspecializacoes.revalidate();
+        PainelEspecializacoes.repaint();
     }
 
     public static void InformacoesTamanho(JTextArea InformacoesAdicionais) {

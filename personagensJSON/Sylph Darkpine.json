@@ -409,6 +409,7 @@
                 "n": 0,
                 "o": 0,
                 "q": "DEXORSTR",
+                "1": "1d4",
                 "r": 0,
                 "s": 0,
                 "t": false,
@@ -425,6 +426,35 @@
                 "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
                 "uuid": "g5cvp74s9oglgk1akuek039jec"
             }]
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "1": "1d4",
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
+                "w": "Acuidade, leve, arremesso (distância 6/18)"
+            },
+            "c": []
         },
         {
             "a": {
@@ -469,22 +499,6 @@
                 "d": "3blcguqot50bj59tfc1v6i3opo",
                 "uuid": "qe7vdhu563skl5j4tgcolqu5v9"
             }]
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Alabarda",
-                "v": "",
-                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
-            }
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Alabarda",
-                "v": "",
-                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E"
-            }
         },
         {
             "a": {
@@ -630,6 +644,7 @@
                 "n": 0,
                 "o": 0,
                 "q": "DEXTERITY",
+                "1": "1d6",
                 "r": 0,
                 "s": 0,
                 "t": false,
@@ -646,14 +661,6 @@
                 "d": "9822810FE68E42BB459E016473630D46",
                 "uuid": "B5857D3E500EA169B9810A093153CDC6"
             }]
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Arco Longo",
-                "v": "",
-                "uuid": "0E679E998A201676AB652F6B31A961E0"
-            }
         },
         {
             "a": {
@@ -696,14 +703,6 @@
             "c": []
         },
         {
-            "a": {},
-            "b": {
-                "u": "Azagaia",
-                "v": "",
-                "uuid": "0BA0F1CDC2248BBC350D9D3D5E8D61ED"
-            }
-        },
-        {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "08F9ED9421B238637CA001FC88BE59E1",
@@ -730,6 +729,7 @@
                 "n": 0,
                 "o": 0,
                 "q": "DEXTERITY",
+                "1": "1d6",
                 "r": 0,
                 "s": 0,
                 "t": false,
@@ -746,14 +746,6 @@
                 "d": "08F9ED9421B238637CA001FC88BE59E1",
                 "uuid": "3060149F2F37B234561EDF2A7AA6D02A"
             }]
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Chicote",
-                "v": "",
-                "uuid": "BAA3BEBB5A052DA6FB63EC232819F2DE"
-            }
         },
         {
             "a": {
@@ -793,22 +785,6 @@
                 "z": true
             },
             "c": []
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Foco Arcano - Cristal",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "F34DC1632899B70766FDD5E81B2BD8C1"
-            }
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Foco Arcano - Orbe",
-                "v": "Um foco arcano é um item especial \u2013 um orbe, um cristal, um bastão, um cajado especialmente construído, uma varinha de madeira, ou algum item semelhante \u2013 projetado para canalizar o poder de magias arcanas.",
-                "uuid": "0E8CF6420504225A0971FF5B7DEF506C"
-            }
         },
         {
             "a": {
@@ -954,6 +930,7 @@
                 "n": 0,
                 "o": 0,
                 "q": "DEXTERITY",
+                "1": "1d8",
                 "r": 6,
                 "s": 0,
                 "t": false,
@@ -970,14 +947,6 @@
                 "d": "8F5927A16191C5F06FFB6D71806B1F17",
                 "uuid": "8d9ekli03fmmm1h0sjrv87324p"
             }]
-        },
-        {
-            "a": {},
-            "b": {
-                "u": "Roldana e polia",
-                "v": "Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a roldana e polia permitem içar até quatro vezes o peso que você ergueria normalmente.",
-                "uuid": "E77E7F100E573FC46D8F52ED9A0791B0"
-            }
         }
     ],
     "j": [

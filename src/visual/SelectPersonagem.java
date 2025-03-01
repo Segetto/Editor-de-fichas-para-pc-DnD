@@ -60,9 +60,8 @@ public class SelectPersonagem extends javax.swing.JFrame {
             String nomeArquivo = arquivo.getName();
             JSONObject ficha = new JSONObject(jsonParser.LerArquivo("personagensJSON/" + nomeArquivo));
             jComboBox1.addItem(new Item(nomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
-
         });
-
+        
         jComboBox1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

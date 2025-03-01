@@ -1,55 +1,55 @@
 {
     "a": [{
-            "A": "",
-            "B": "",
-            "C": "",
-            "D": "df11tab4vs6l7toirip2bnh1pic_character.png",
-            "E": "df11tab4vs6l7toirip2bnh1palliesOrganizations.png",
-            "uuid": "df11tab4vs6l7toirip2bnh1p",
-            "id": 0,
-            "a": "Francis Astond",
-            "b": 111,
-            "d": 11523,
-            "e": false,
-            "f": 2,
-            "g": 0,
-            "h": 0,
-            "i": 9,
-            "j": 115,
-            "k": 0,
-            "l": 115,
-            "m": 7.5,
-            "n": 0,
-            "o": 0,
-            "p": 0,
-            "0": "",
-            "q": 0,
-            "1": "",
-            "r": 0,
-            "3": "Nobre",
-            "s": 0,
-            "t": 0,
-            "4": "",
-            "u": 0,
-            "5": "",
-            "6": "",
-            "v": 0,
-            "w": 0,
-            "7": "",
-            "x": 0,
-            "8": "",
-            "9": "",
-            "y": 7.5,
-            "z": ""
-        }],
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "df11tab4vs6l7toirip2bnh1pic_character.png",
+        "E": "df11tab4vs6l7toirip2bnh1palliesOrganizations.png",
+        "uuid": "df11tab4vs6l7toirip2bnh1p",
+        "id": 0,
+        "a": "Francis Astond",
+        "b": 111,
+        "d": 11523,
+        "e": false,
+        "f": 2,
+        "g": 0,
+        "h": 0,
+        "i": 9,
+        "j": 115,
+        "k": 0,
+        "l": 115,
+        "m": 7.5,
+        "n": 0,
+        "o": 0,
+        "p": 0,
+        "0": "",
+        "q": 0,
+        "1": "",
+        "r": 0,
+        "3": "Nobre",
+        "s": 0,
+        "t": 0,
+        "4": "",
+        "u": 0,
+        "5": "",
+        "6": "",
+        "v": 0,
+        "w": 0,
+        "7": "",
+        "x": 0,
+        "8": "",
+        "9": "",
+        "y": 7.5,
+        "z": ""
+    }],
     "b": [{
-            "b": "Caótico bom",
-            "uuid": "5812E1AF60D451834834A20176C904CC"
-        }],
+        "b": "Caótico bom",
+        "uuid": "5812E1AF60D451834834A20176C904CC"
+    }],
     "c": [{
-            "b": "Humano",
-            "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
-        }],
+        "b": "Humano",
+        "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
+    }],
     "d": [
         {
             "a": {
@@ -138,204 +138,168 @@
         }
     ],
     "f": [
-        {
-            "a": {
-                "a": "ATHLETICS",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "g3d1j6inkl9k4h9r5isdl6ua5p",
-                "uuid": "hemgjbff9log6pll4adsqs65sq"
-            }
-        },
-        {
-            "a": {
-                "a": "ACROBATICS",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "9hmadfhc3d7u0u0856jjdn1in4",
-                "uuid": "tm3h6k30jlplntmmbd0oskru1i"
-            }
-        },
-        {
-            "a": {
-                "a": "STEALTH",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "9hmadfhc3d7u0u0856jjdn1in4",
-                "uuid": "ardgk96val32onqkivgm177cad"
-            }
-        },
-        {
-            "a": {
-                "a": "SLEIGHT_OF_HAND",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "9hmadfhc3d7u0u0856jjdn1in4",
-                "uuid": "d1veu97bagjsra8fg0c1v1dnsh"
-            }
-        },
-        {
-            "a": {
-                "a": "ARCANA",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "h34hn24absiikjojogdk4getv5",
-                "uuid": "ro1to56fuqu4u7omqcvc7qi601"
-            }
-        },
-        {
-            "a": {
-                "a": "HISTORY",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "h34hn24absiikjojogdk4getv5",
-                "uuid": "kq0bchdr4749qo16lke0cpjuo5"
-            }
-        },
-        {
-            "a": {
-                "a": "INVESTIGATION",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "h34hn24absiikjojogdk4getv5",
-                "uuid": "unf5gcmj55ici0jm7tghlfs6r6"
-            }
-        },
-        {
-            "a": {
-                "a": "NATURE",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "h34hn24absiikjojogdk4getv5",
-                "uuid": "uda87gj86loea8ae68p2cspitp"
-            }
-        },
-        {
-            "a": {
-                "a": "RELIGION",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "h34hn24absiikjojogdk4getv5",
-                "uuid": "i9elppa43oj50sfjlhhfn2an9s"
-            }
-        },
-        {
-            "a": {
-                "a": "INSIGHT",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
-                "uuid": "3s01e6j5buc1a761aimgmf9ug1"
-            }
-        },
-        {
-            "a": {
-                "a": "ANIMAL_HANDLING",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
-                "uuid": "419755nqo7u10g3m0bucauh0v6"
-            }
-        },
-        {
-            "a": {
-                "a": "MEDICINE",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
-                "uuid": "8acon307v93oifio2lnvrlf5t6"
-            }
-        },
-        {
-            "a": {
-                "a": "PERCEPTION",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
-                "uuid": "ddajb37tnhhlbumghj1jtlv9g4"
-            }
-        },
-        {
-            "a": {
-                "a": "SURVIVAL",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
-                "uuid": "jfdlptecrd7q5cpsp2utun7hne"
-            }
-        },
-        {
-            "a": {
-                "a": "PERFORMANCE",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "gt9di81ijmt5qcvkcn14j9vi92",
-                "uuid": "di0vovsfd9sr7e4japc9q0oork"
-            }
-        },
-        {
-            "a": {
-                "a": "DECEPTION",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "gt9di81ijmt5qcvkcn14j9vi92",
-                "uuid": "m8m16lb3pqtto2uj3em2nmqbgj"
-            }
-        },
-        {
-            "a": {
-                "a": "INTIMIDATION",
-                "b": false,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "gt9di81ijmt5qcvkcn14j9vi92",
-                "uuid": "r9h601nabsqvu7rc17ekk1k7ck"
-            }
-        },
-        {
-            "a": {
-                "a": "PERSUASION",
-                "b": true,
-                "c": false,
-                "d": false,
-                "e": "df11tab4vs6l7toirip2bnh1p",
-                "f": "gt9di81ijmt5qcvkcn14j9vi92",
-                "uuid": "thnqdvtlnqcm8pg2gf3jk4d87g"
-            }
-        }
+        {"a": {
+            "a": "ATHLETICS",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "g3d1j6inkl9k4h9r5isdl6ua5p",
+            "uuid": "hemgjbff9log6pll4adsqs65sq"
+        }},
+        {"a": {
+            "a": "ACROBATICS",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "tm3h6k30jlplntmmbd0oskru1i"
+        }},
+        {"a": {
+            "a": "STEALTH",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "ardgk96val32onqkivgm177cad"
+        }},
+        {"a": {
+            "a": "SLEIGHT_OF_HAND",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "9hmadfhc3d7u0u0856jjdn1in4",
+            "uuid": "d1veu97bagjsra8fg0c1v1dnsh"
+        }},
+        {"a": {
+            "a": "ARCANA",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "ro1to56fuqu4u7omqcvc7qi601"
+        }},
+        {"a": {
+            "a": "HISTORY",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "kq0bchdr4749qo16lke0cpjuo5"
+        }},
+        {"a": {
+            "a": "INVESTIGATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "unf5gcmj55ici0jm7tghlfs6r6"
+        }},
+        {"a": {
+            "a": "NATURE",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "uda87gj86loea8ae68p2cspitp"
+        }},
+        {"a": {
+            "a": "RELIGION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "h34hn24absiikjojogdk4getv5",
+            "uuid": "i9elppa43oj50sfjlhhfn2an9s"
+        }},
+        {"a": {
+            "a": "INSIGHT",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "3s01e6j5buc1a761aimgmf9ug1"
+        }},
+        {"a": {
+            "a": "ANIMAL_HANDLING",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "419755nqo7u10g3m0bucauh0v6"
+        }},
+        {"a": {
+            "a": "MEDICINE",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "8acon307v93oifio2lnvrlf5t6"
+        }},
+        {"a": {
+            "a": "PERCEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "ddajb37tnhhlbumghj1jtlv9g4"
+        }},
+        {"a": {
+            "a": "SURVIVAL",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "f6ttnf6mdhth1ikgt6rkfj27s8",
+            "uuid": "jfdlptecrd7q5cpsp2utun7hne"
+        }},
+        {"a": {
+            "a": "PERFORMANCE",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "di0vovsfd9sr7e4japc9q0oork"
+        }},
+        {"a": {
+            "a": "DECEPTION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "m8m16lb3pqtto2uj3em2nmqbgj"
+        }},
+        {"a": {
+            "a": "INTIMIDATION",
+            "b": false,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "r9h601nabsqvu7rc17ekk1k7ck"
+        }},
+        {"a": {
+            "a": "PERSUASION",
+            "b": true,
+            "c": false,
+            "d": false,
+            "e": "df11tab4vs6l7toirip2bnh1p",
+            "f": "gt9di81ijmt5qcvkcn14j9vi92",
+            "uuid": "thnqdvtlnqcm8pg2gf3jk4d87g"
+        }}
     ],
     "g": [
         {
@@ -485,7 +449,182 @@
             "uuid": "hk3pfi122ijp021vehg7o8aumd"
         }
     ],
-    "i": [],
+    "i": [
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "1": "1d4",
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
+                "w": "Acuidade, leve, arremesso (distância 6/18)"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "cortante",
+                "c": 20,
+                "d": "GP",
+                "e": 3,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "1": "1d10",
+                "t": false,
+                "u": "Alabarda",
+                "v": "",
+                "w": "Pesada, alcance, duas mãos"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 50,
+                "d": "GP",
+                "e": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "0E679E998A201676AB652F6B31A961E0",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "1": "1d8",
+                "t": false,
+                "u": "Arco Longo",
+                "v": "",
+                "w": "pesada, duas mãos"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 10,
+                "d": "GP",
+                "e": 0.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "B016C5F2C20262369B730BB8061AED00",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "1": "1",
+                "t": false,
+                "u": "Zarabatana",
+                "v": "",
+                "w": "Dano 1, Munição (distância 7,5/30), recarga"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 5,
+                "d": "GP",
+                "e": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "F973A3E9705888BBBE815DB7BFBF57EC",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "1": "1d6",
+                "t": false,
+                "u": "Tridente",
+                "v": "",
+                "w": "Arremesso (6/18), versátil (1d8)"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "f": ""
+            },
+            "b": {
+                "b": "-",
+                "c": 1,
+                "d": "GP",
+                "e": 1.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "7A5DC89B16E2AFEE2F111D09D4E5828B",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "1": "-",
+                "t": false,
+                "u": "Rede",
+                "v": "",
+                "w": "Especial, arremesso (distância 1,5/4,5)"
+            },
+            "c": []
+        }
+    ],
     "j": [],
     "k": [],
     "l": [],
