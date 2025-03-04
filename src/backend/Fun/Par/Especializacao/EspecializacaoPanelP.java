@@ -84,7 +84,7 @@ public class EspecializacaoPanelP {
             RemoverItemPainel.setOpaque(false);
             PainelDescricaoItem.add(PainelInformacoesAdicionais);
             PainelDescricaoItem.add(RemoverItemPainel);
-
+            final String idItemFicha = ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").getString("uuid");
             gbc.gridy = i;
             PainelCaracteristica.setOpaque(false);
             PainelNomeItem.setOpaque(false);
@@ -136,11 +136,21 @@ public class EspecializacaoPanelP {
                 @Override
 
                 public void mouseClicked(MouseEvent e) {
-                    PainelCaracteristicas.remove(PainelCaracteristica);
                     for (int j = 0; j < ficha.getJSONArray(VetorNome).length(); j++) {
-
+                        if (ficha.getJSONArray(VetorNome).getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                            PainelCaracteristicas.remove(PainelCaracteristica);
+                            ficha.getJSONArray(VetorNome).remove(j);
+                        }
                     }
-                    ficha.getJSONArray(VetorNome).remove(RemoveI);
+                    int heightChangeDelete = 0;
+                    for (Component comp : PainelEspecializacoes.getComponents()) {
+                            if (comp instanceof JPanel) {
+                                JPanel panel = (JPanel) comp;
+                                // Faça algo com cada JPanel encontrado
+                                heightChangeDelete += panel.getPreferredSize().height;
+                            }
+                        }
+                        PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChangeDelete + HeightInicialJanela)));
                     PainelCaracteristicas.revalidate();
                     PainelCaracteristicas.repaint();
                     SalvarFicha(ficha, personagemCaminho);

@@ -11,6 +11,8 @@ import static backend.Fun.Mod.mod;
 import static backend.Fun.Par.Inventario.InformacoesAdicionaisP.InformacoesP;
 import backend.jsonParser;
 import java.awt.event.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import org.json.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -21,7 +23,7 @@ import javax.swing.border.*;
  */
 public class InventarioPanelP {
 
-    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens) {
+    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JLabel CALabel) {
         Color cor = new Color(255, 255, 255);
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -32,7 +34,8 @@ public class InventarioPanelP {
         gbc.weightx = 1.0; // Permite expansão horizontal
         gbc.weighty = 0.0; // Não cresce infinitamente
         gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
-        gbc.insets = new Insets(0, 0, 10, 0); // Espaço entre os itens
+        gbc.insets = new Insets(0, 0, 0, 0); // Espaço entre os itens
+        ButtonGroup grupoArmaduras = new ButtonGroup();
 
         for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
             JPanel PainelItem = new JPanel();
@@ -84,12 +87,65 @@ public class InventarioPanelP {
             JLabel DescricaoItem = new JLabel("<html><div style='width: 404px; padding: 7px;'>" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("v") + "</div></html>");
             PainelNomeItem.add(NomeItem);
             PainelNomeItem.add(SetaItem);
-            PainelDescricaoItem.add(DescricaoItem);
+            JPanel PInfItem = new JPanel(new GridLayout(1, 3));
+            PInfItem.setOpaque(false);
+            JPanel PInfItemPeso = new JPanel();
+            PInfItemPeso.setLayout(new BoxLayout(PInfItemPeso, BoxLayout.Y_AXIS));
+            PInfItemPeso.setOpaque(false);
+            JPanel PInfItemUn = new JPanel();
+            PInfItemUn.setLayout(new BoxLayout(PInfItemUn, BoxLayout.Y_AXIS));
+            PInfItemUn.setOpaque(false);
+            JPanel PInfItemPreco = new JPanel();
+            PInfItemPreco.setLayout(new BoxLayout(PInfItemPreco, BoxLayout.Y_AXIS));
+            PInfItemPreco.setOpaque(false);
+            JLabel InfItemPesoT = new JLabel("Peso");
+            JLabel InfItemUnT = new JLabel("Quantidade");
+            JLabel InfItemPrecoT = new JLabel("Preço");
+
+            JLabel InfItemPeso = new JLabel("-");
+            InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getDouble("e") + "Kg");
+            JLabel InfItemUn = new JLabel("-");
+            InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("g") + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("h"));
+
+            JLabel InfItemPreco = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("c") + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("d"));
+
+            InfItemPesoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+            InfItemPeso.setAlignmentX(Component.CENTER_ALIGNMENT);
+            InfItemUnT.setAlignmentX(Component.CENTER_ALIGNMENT);
+            InfItemUn.setAlignmentX(Component.CENTER_ALIGNMENT);
+            InfItemPrecoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+            InfItemPreco.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+            PInfItemPeso.add(InfItemPesoT);
+            PInfItemPeso.add(Box.createRigidArea(new Dimension(0, 5)));
+            PInfItemPeso.add(InfItemPeso);
+            PInfItemUn.add(InfItemUnT);
+            PInfItemUn.add(Box.createRigidArea(new Dimension(0, 5)));
+            PInfItemUn.add(InfItemUn);
+            PInfItemPreco.add(InfItemPrecoT);
+            PInfItemPreco.add(Box.createRigidArea(new Dimension(0, 5)));
+            PInfItemPreco.add(InfItemPreco);
+            PInfItem.add(PInfItemPreco);
+            PInfItem.add(PInfItemPeso);
+            PInfItem.add(PInfItemUn);
+            PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 10)));
+            PainelDescricaoItem.add(PInfItem);
+            PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 0)));
+            InfItemPesoT.setForeground(cor);
+            InfItemPeso.setForeground(cor);
+            InfItemUnT.setForeground(cor);
+            InfItemUn.setForeground(cor);
+            InfItemPrecoT.setForeground(cor);
+            InfItemPreco.setForeground(cor);
+            JPanel PDescricaoTextoItem = new JPanel();
+            PDescricaoTextoItem.add(DescricaoItem);
+            PDescricaoTextoItem.setOpaque(false);
+            PainelDescricaoItem.add(PDescricaoTextoItem);
             RemoverItemPainel.add(RemoverItem);
             RemoverItemPainel.setOpaque(false);
             PainelDescricaoItem.add(PInfAdicionais);
             PainelDescricaoItem.add(RemoverItemPainel);
-
+            final String idItemFicha = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getString("uuid");
             gbc.gridy = i;
             PainelItem.setOpaque(false);
             PainelNomeItem.setOpaque(false);
@@ -138,15 +194,19 @@ public class InventarioPanelP {
                 }
                 InfArmaAtaque.setText("1d20" + Modificador);
                 JLabel InfArmaDano = new JLabel("-");
+                String ModDano = mod(Status, 0);
+                if (ModDano.equals("0")) {
+                    ModDano = "";
+                }
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("1")) {
-                    InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1"));
+                    InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1") + ModDano);
                 } else {
                     JSONArray inventario = new JSONArray(jsonParser.LerArray("ASSETS/Equipamento.json"));
                     for (int j = 0; j < inventario.length(); j++) {
                         if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("uuid").equals(inventario.getJSONObject(j).getString("uuid"))) {
                             ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").put("1", inventario.getJSONObject(j).getString("1"));
                             SalvarFicha(ficha, personagemCaminho);
-                            InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1"));
+                            InfArmaDano.setText(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1") + ModDano);
                             j = inventario.length();
                         }
                     }
@@ -182,6 +242,102 @@ public class InventarioPanelP {
                 InfArmaTipoT.setForeground(cor);
                 InfArmaTipo.setForeground(cor);
             }
+            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("Armadura") || ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("ARMOR")) {
+                JPanel PInfArmadura = new JPanel(new GridLayout(1, 4));
+                PInfArmadura.setOpaque(false);
+                JPanel PInfArmaduraPreparada = new JPanel();
+                PInfArmaduraPreparada.setLayout(new BoxLayout(PInfArmaduraPreparada, BoxLayout.Y_AXIS));
+                PInfArmaduraPreparada.setOpaque(false);
+                JPanel PInfArmaduraForca = new JPanel();
+                PInfArmaduraForca.setLayout(new BoxLayout(PInfArmaduraForca, BoxLayout.Y_AXIS));
+                PInfArmaduraForca.setOpaque(false);
+                JPanel PInfArmaduraCA = new JPanel();
+                PInfArmaduraCA.setLayout(new BoxLayout(PInfArmaduraCA, BoxLayout.Y_AXIS));
+                PInfArmaduraCA.setOpaque(false);
+                JPanel PInfArmaduraDesvantagem = new JPanel();
+                PInfArmaduraDesvantagem.setLayout(new BoxLayout(PInfArmaduraDesvantagem, BoxLayout.Y_AXIS));
+                PInfArmaduraDesvantagem.setOpaque(false);
+                JLabel InfArmaduraPreparadaT = new JLabel("Preparado");
+                JLabel InfArmaduraCAT = new JLabel("CA");
+                JLabel InfArmaduraForcaT = new JLabel("Força mínima");
+                JLabel InfArmaduraDesvantagemT = new JLabel("Furtividade");
+                JLabel InfArmaduraDesvantagem = new JLabel("Normal");
+
+                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("m")) {
+                    InfArmaduraDesvantagem.setText("Desvantagem");
+                }
+                int Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                JRadioButton InfArmaduraPreparada = new JRadioButton();
+                grupoArmaduras.add(InfArmaduraPreparada);
+                String CA = mod(Status, ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j"));
+                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l") != 0 && Math.floor((Status / 2) - 5) > ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l")) {
+                    Status = 14;
+                    CA = mod(Status, ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j"));
+
+                }
+                if (!ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("k")) {
+                    CA = "" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j");
+                }
+                InfArmaduraPreparada.setSelected(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("e"));
+                JLabel InfArmaduraForca = new JLabel("-");
+                InfArmaduraForca.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("n"));
+                JLabel InfArmaduraCA = new JLabel(CA);
+                if (InfArmaduraPreparada.isSelected()) {
+                    CALabel.setText(CA);
+                }
+                InfArmaduraPreparadaT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraPreparada.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraCAT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraForca.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraForcaT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraCA.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraDesvantagemT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraDesvantagem.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                PInfArmaduraPreparada.add(InfArmaduraPreparadaT);
+                PInfArmaduraPreparada.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraPreparada.add(InfArmaduraPreparada);
+                PInfArmaduraForca.add(InfArmaduraForcaT);
+                PInfArmaduraForca.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraForca.add(InfArmaduraForca);
+                PInfArmaduraCA.add(InfArmaduraCAT);
+                PInfArmaduraCA.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraCA.add(InfArmaduraCA);
+                PInfArmaduraDesvantagem.add(InfArmaduraDesvantagemT);
+                PInfArmaduraDesvantagem.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraDesvantagem.add(InfArmaduraDesvantagem);
+                PInfArmadura.add(PInfArmaduraPreparada);
+                PInfArmadura.add(PInfArmaduraForca);
+                PInfArmadura.add(PInfArmaduraCA);
+                PInfArmadura.add(PInfArmaduraDesvantagem);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 0)));
+                PainelTituloItem.add(PInfArmadura);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
+                InfArmaduraPreparadaT.setForeground(cor);
+                InfArmaduraPreparada.setForeground(cor);
+                InfArmaduraCAT.setForeground(cor);
+                InfArmaduraForca.setForeground(cor);
+                InfArmaduraForcaT.setForeground(cor);
+                InfArmaduraCA.setForeground(cor);
+                InfArmaduraDesvantagemT.setForeground(cor);
+                InfArmaduraDesvantagem.setForeground(cor);
+
+                String CAComp = CA;
+                InfArmaduraPreparada.addItemListener(new ItemListener() {
+                    @Override
+                    public void itemStateChanged(ItemEvent e) {
+                        for (int j = 0; j < ficha.getJSONArray("i").length(); j++) {
+                            if (ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                                ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").put("e", InfArmaduraPreparada.isSelected());
+                            }
+                        }
+                        if (InfArmaduraPreparada.isSelected()) {
+                            CALabel.setText(CAComp);
+                        }
+                        SalvarFicha(ficha, personagemCaminho);
+                    }
+                });
+            }
             PainelItem.add(PainelTituloItem);
             PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             PainelTituloItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
@@ -203,20 +359,24 @@ public class InventarioPanelP {
                     PainelItem.repaint();
                 }
             });
-            int RemoveI = i;
             RemoverItem.addMouseListener(new MouseAdapter() {
 
                 @Override
 
                 public void mouseClicked(MouseEvent e) {
-                    PainelItens.remove(PainelItem);
-                    ficha.getJSONArray("i").remove(RemoveI);
+                    for (int j = 0; j < ficha.getJSONArray("i").length(); j++) {
+                        if (ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                            PainelItens.remove(PainelItem);
+                            ficha.getJSONArray("i").remove(j);
+                        }
+                    }
                     PainelItens.revalidate();
                     PainelItens.repaint();
                     SalvarFicha(ficha, personagemCaminho);
 
                 }
             });
+
             InformacoesAdicionais.addFocusListener(new FocusListener() {
                 @Override
                 public void focusGained(FocusEvent e) {

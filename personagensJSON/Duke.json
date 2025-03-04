@@ -65,10 +65,17 @@
     "d": [{
         "a": {
             "a": "DD61B226A538F1C99C5053140935B4F8",
-            "c": 1
+            "b": "ke305301qqicpt94l9hfr08nl3",
+            "c": 1,
+            "uuid": "ggljk6jb96dn0ejslucvqn3o9m"
         },
         "b": {
+            "a": "pt",
             "b": "Mago",
+            "c": "",
+            "d": false,
+            "e": 6,
+            "f": true,
             "uuid": "DD61B226A538F1C99C5053140935B4F8"
         }
     }],
@@ -455,19 +462,19 @@
     "m": [
         {
             "a": {
-                "a": "48C54E935E041655066D5FFBDC7143D2",
+                "a": "7562E22757D1F925C323AD10AF1289CA",
                 "b": "ke305301qqicpt94l9hfr08nl3",
                 "c": "",
-                "uuid": "2tlpu8ikqq8bvoq93n7imn8uag"
+                "uuid": "2qi6562tlig0ni3et403c7egg8"
             },
             "b": {
                 "a": "pt",
                 "b": "DD61B226A538F1C99C5053140935B4F8",
                 "c": false,
-                "d": "Proficiência",
-                "e": "Armaduras: Nenhuma\nArmas: Adagas, dardos, fundas, bordões, bestas leves\nFerramentas: Nenhuma\nTestes de Resistência: Inteligência, Sabedoria\nPerícias: Escolha duas dentre Arcanismo, História, Intuição, Investigação, Medicina e Religião",
+                "d": "Conjuração",
+                "e": "Como um estudante da magia arcana, você possui um livro de magias (ou grimório) que revela os primeiros vislumbres de seu verdadeiro poder. Consulte o capítulo 10 para as regras gerais sobre conjuração de magias e o capítulo 11 para conferir a lista de magias de mago.\n\nTruques\nA partir do 1º nível, você conhece três truques à sua escolha da lista de magias de mago. Você aprende truques adicionais conforme avança de nível, como mostra a coluna Truques Conhecidos na tabela O Mago.\n\nGrimório\nNo 1º nível, você possui um grimório contendo seis magias de mago de 1º nível, à sua escolha. Um grimório não contém truques.\n\nPreparando e Conurando Magias\nA tabela O Mago mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa usar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.\nVocê prepara a lista de magias de mago que estarão disponíveis para serem conjuradas. Para tanto, você escolhe um número de magias de mago de seu grimório igual ao seu modificador de Inteligência + seu nível de mago (mínimo de uma magia). As magias precisam ser de um nível que você tenha espaços de magia.\nPor exemplo, se você é um mago de 3º nível, você possui 4 espaços de magia de 1º nível e 2 espaços de magia de 2º nível. Com Inteligência 16, sua lista de magias preparadas pode incluir seis magias de 1º e 2º nível de seu grimório, em qualquer combinação. Se você preparar a magia de 1º nível mísseis mágicos, você poderá conjurá-la utilizando um espaço de 1º ou 2º nível de magia. Conjurar a magia não a remove de sua lista de magias preparadas.\nVocê pode mudar sua lista de magias preparadas quando terminar um descanso longo. Preparar uma nova lista de magias de mago requer que você gaste um tempo estudando seu grimório e memorizando as palavras e gestos, para efetivamente conjurar a magia: ao menos 1 minuto por nível de magia para cada magia da sua lista.\n\nHabilidade de Conjuração\nInteligência é a sua habilidade para você conjurar suas magias de mago, pois os magos aprendem novas magias através de estudo e memorização. Você usa sua Inteligência sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Inteligência para definir a CD dos testes de resistência para as magias de mago que você conjura e quando você realiza uma jogada de ataque com uma magia.\n\nCD para suas magias = 8 + bônus de proficiência + seu modificador de Inteligência\n\nModificador de ataque de magia = seu bônus de proficiência + seu modificador de Inteligência\n\nConjuração de Ritual\nVocê pode conjurar qualquer magia de mago como um ritual se ela possuir o descritor ritual, desde que a possua em seu grimório. Você não precisa ter essa magia preparada.\nFoco de Conjuração\nVocê pode usar um foco arcano (encontrado no capítulo 5) como foco de conjuração das suas magias de mago.\n\nAprendendo Magias de 1º Nível ou Superior\nA cada nível de mago adquirido, você pode adicionar duas magias de mago à sua escolha em seu grimório. Cada uma dessas magias deve ser de um nível que você possua espaços de magia, conforme mostra a tabela O Mago. Em suas aventuras, você pode encontrar outras magias e adicioná-las em seu grimório (consulte a caixa de texto \"O Seu Grimório\").",
                 "f": true,
-                "uuid": "48C54E935E041655066D5FFBDC7143D2"
+                "uuid": "7562E22757D1F925C323AD10AF1289CA"
             }
         },
         {
@@ -489,19 +496,36 @@
         },
         {
             "a": {
-                "a": "7562E22757D1F925C323AD10AF1289CA",
+                "a": "67A8D57F856450CD208DEE36016A807B",
                 "b": "ke305301qqicpt94l9hfr08nl3",
                 "c": "",
-                "uuid": "2qi6562tlig0ni3et403c7egg8"
+                "uuid": "ebqh2pjgt1o7ec0lq729p2039m"
             },
             "b": {
                 "a": "pt",
                 "b": "DD61B226A538F1C99C5053140935B4F8",
                 "c": false,
-                "d": "Conjuração",
-                "e": "Como um estudante da magia arcana, você possui um livro de magias (ou grimório) que revela os primeiros vislumbres de seu verdadeiro poder. Consulte o capítulo 10 para as regras gerais sobre conjuração de magias e o capítulo 11 para conferir a lista de magias de mago.\n\nTruques\nA partir do 1º nível, você conhece três truques à sua escolha da lista de magias de mago. Você aprende truques adicionais conforme avança de nível, como mostra a coluna Truques Conhecidos na tabela O Mago.\n\nGrimório\nNo 1º nível, você possui um grimório contendo seis magias de mago de 1º nível, à sua escolha. Um grimório não contém truques.\n\nPreparando e Conurando Magias\nA tabela O Mago mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa usar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.\nVocê prepara a lista de magias de mago que estarão disponíveis para serem conjuradas. Para tanto, você escolhe um número de magias de mago de seu grimório igual ao seu modificador de Inteligência + seu nível de mago (mínimo de uma magia). As magias precisam ser de um nível que você tenha espaços de magia.\nPor exemplo, se você é um mago de 3º nível, você possui 4 espaços de magia de 1º nível e 2 espaços de magia de 2º nível. Com Inteligência 16, sua lista de magias preparadas pode incluir seis magias de 1º e 2º nível de seu grimório, em qualquer combinação. Se você preparar a magia de 1º nível mísseis mágicos, você poderá conjurá-la utilizando um espaço de 1º ou 2º nível de magia. Conjurar a magia não a remove de sua lista de magias preparadas.\nVocê pode mudar sua lista de magias preparadas quando terminar um descanso longo. Preparar uma nova lista de magias de mago requer que você gaste um tempo estudando seu grimório e memorizando as palavras e gestos, para efetivamente conjurar a magia: ao menos 1 minuto por nível de magia para cada magia da sua lista.\n\nHabilidade de Conjuração\nInteligência é a sua habilidade para você conjurar suas magias de mago, pois os magos aprendem novas magias através de estudo e memorização. Você usa sua Inteligência sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Inteligência para definir a CD dos testes de resistência para as magias de mago que você conjura e quando você realiza uma jogada de ataque com uma magia.\n\nCD para suas magias = 8 + bônus de proficiência + seu modificador de Inteligência\n\nModificador de ataque de magia = seu bônus de proficiência + seu modificador de Inteligência\n\nConjuração de Ritual\nVocê pode conjurar qualquer magia de mago como um ritual se ela possuir o descritor ritual, desde que a possua em seu grimório. Você não precisa ter essa magia preparada.\nFoco de Conjuração\nVocê pode usar um foco arcano (encontrado no capítulo 5) como foco de conjuração das suas magias de mago.\n\nAprendendo Magias de 1º Nível ou Superior\nA cada nível de mago adquirido, você pode adicionar duas magias de mago à sua escolha em seu grimório. Cada uma dessas magias deve ser de um nível que você possua espaços de magia, conforme mostra a tabela O Mago. Em suas aventuras, você pode encontrar outras magias e adicioná-las em seu grimório (consulte a caixa de texto \"O Seu Grimório\").",
+                "d": "Incremento no Valor de Habilidade",
+                "e": "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
                 "f": true,
-                "uuid": "7562E22757D1F925C323AD10AF1289CA"
+                "uuid": "67A8D57F856450CD208DEE36016A807B"
+            }
+        },
+        {
+            "a": {
+                "a": "48C54E935E041655066D5FFBDC7143D2",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "2tlpu8ikqq8bvoq93n7imn8uag"
+            },
+            "b": {
+                "a": "pt",
+                "b": "DD61B226A538F1C99C5053140935B4F8",
+                "c": false,
+                "d": "Proficiência",
+                "e": "Armaduras: Nenhuma\nArmas: Adagas, dardos, fundas, bordões, bestas leves\nFerramentas: Nenhuma\nTestes de Resistência: Inteligência, Sabedoria\nPerícias: Escolha duas dentre Arcanismo, História, Intuição, Investigação, Medicina e Religião",
+                "f": true,
+                "uuid": "48C54E935E041655066D5FFBDC7143D2"
             }
         },
         {
@@ -537,94 +561,9 @@
                 "f": true,
                 "uuid": "613C0CEADE80673416AD26D8E11EE9DE"
             }
-        },
-        {
-            "a": {
-                "a": "67A8D57F856450CD208DEE36016A807B",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "ebqh2pjgt1o7ec0lq729p2039m"
-            },
-            "b": {
-                "a": "pt",
-                "b": "DD61B226A538F1C99C5053140935B4F8",
-                "c": false,
-                "d": "Incremento no Valor de Habilidade",
-                "e": "Quando você atinge o 4° nível e novamente no 8°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
-                "f": true,
-                "uuid": "67A8D57F856450CD208DEE36016A807B"
-            }
         }
     ],
     "n": [
-        {
-            "a": {
-                "a": "CCB9738993B08E1E8B258AEB2C32A307",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "rs6job6ckqrnntqj6704l2bvd6"
-            },
-            "b": {
-                "a": "pt",
-                "b": "3AD976AE9713ACD3045C24963585AF94",
-                "c": false,
-                "d": "Aumento no Valor de Habilidade",
-                "e": "Seu valor de Força aumenta em 2 e seu valor de Carisma aumenta em 1.",
-                "f": true,
-                "uuid": "CCB9738993B08E1E8B258AEB2C32A307"
-            }
-        },
-        {
-            "a": {
-                "a": "F54357112A0FEBE2B5A57D8B58593037",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "attchc32tm51ugftvu8l5av6or"
-            },
-            "b": {
-                "a": "pt",
-                "b": "3AD976AE9713ACD3045C24963585AF94",
-                "c": false,
-                "d": "Idade",
-                "e": "Draconatos jovens crescem rapidamente. Eles caminham horas após nascerem, adquirindo o tamanho e desenvolvimento semelhante a de uma criança humana de 10 anos com 3 anos de idade e alcançam a maturidade aos 15. Eles costumam viver até os 80.",
-                "f": true,
-                "uuid": "F54357112A0FEBE2B5A57D8B58593037"
-            }
-        },
-        {
-            "a": {
-                "a": "6E9C125BE13AFFE37B5DAEB07A4C3B30",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "54puu2qe0ptah7sfb1q1dc7pau"
-            },
-            "b": {
-                "a": "pt",
-                "b": "3AD976AE9713ACD3045C24963585AF94",
-                "c": false,
-                "d": "Tendência",
-                "e": "Os draconatos tendem aos extremos, realizando uma escolha consciente de um lado ou do outro da guerra cósmica entre o bem e o mal (representada por Bahamut e Tiamat, respectivamente). A maioria dos draconatos é boa, mas os que vão para o lado de Tiamat podem se tornar vilões terríveis.",
-                "f": true,
-                "uuid": "6E9C125BE13AFFE37B5DAEB07A4C3B30"
-            }
-        },
-        {
-            "a": {
-                "a": "4DAE7D1ADD21DF45966E955D0AD5BA65",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "idt5kr67524tncud8nifvmrfqf"
-            },
-            "b": {
-                "a": "pt",
-                "b": "3AD976AE9713ACD3045C24963585AF94",
-                "c": false,
-                "d": "Tamanho",
-                "e": "Os draconatos são mais altos e mais pesados que os humanos, geralmente possuindo mais de 1,80 metro e normalmente pesando mais de 125 kg. Seu tamanho é Médio.",
-                "f": true,
-                "uuid": "4DAE7D1ADD21DF45966E955D0AD5BA65"
-            }
-        },
         {
             "a": {
                 "a": "5785ACBC2BC70F26B0833CA1A31F9531",
@@ -640,23 +579,6 @@
                 "e": "(Dragão / Tipo de Dano / Arma de Sopro)\nAzul / Elétrico / Linha de 1.5m/9m (teste de Des)\nBranco / Frio / Cone de 4.5m (Teste de Com)\nBronze / Elétrico / Linha de 1.5m/9m (testede Des)\n Cobre / Acido / Linha de 1.5m/9m (teste de Des)\n Latão / Fogo / Linha de 1.5m/9m (teste de Des)\nNegro / Acido / Linha de 1.5m/9m (teste de Des)\nOuro / Fogo / Cone de 4,5m (teste de Des)\nPrata / Frio / Cone de 4,5m (teste de Con)\nVerde / Veneno / Cone de 4,5m (teste de Con)\nVermelho / Fogo / Cone de 4,5m (teste de Des)\n",
                 "f": true,
                 "uuid": "5785ACBC2BC70F26B0833CA1A31F9531"
-            }
-        },
-        {
-            "a": {
-                "a": "EF4432FFBE35C0DBF1BED500538589E0",
-                "b": "ke305301qqicpt94l9hfr08nl3",
-                "c": "",
-                "uuid": "5a2naqp677gu22qt5vmho9eb45"
-            },
-            "b": {
-                "a": "pt",
-                "b": "3AD976AE9713ACD3045C24963585AF94",
-                "c": false,
-                "d": "Deslocamento",
-                "e": "Seu deslocamento base de caminhada é 9 metros.",
-                "f": true,
-                "uuid": "EF4432FFBE35C0DBF1BED500538589E0"
             }
         },
         {
@@ -678,19 +600,70 @@
         },
         {
             "a": {
-                "a": "70A1E41FCF372F390EDFC750544E15CB",
+                "a": "85475FAE49CCE24D8B2B2AEE651DD58B",
                 "b": "ke305301qqicpt94l9hfr08nl3",
                 "c": "",
-                "uuid": "3utbsnc859aehe0724i107bv23"
+                "uuid": "o3qn5ns4taad0c2m4d21ro0cta"
             },
             "b": {
                 "a": "pt",
                 "b": "3AD976AE9713ACD3045C24963585AF94",
                 "c": false,
-                "d": "Resistência a Dano",
-                "e": "Você possui resistência ao tipo de dano associado ao seu ancestral dracônico.",
+                "d": "Arma de Sopro",
+                "e": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele.\nQuando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível.\nDepois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
                 "f": true,
-                "uuid": "70A1E41FCF372F390EDFC750544E15CB"
+                "uuid": "85475FAE49CCE24D8B2B2AEE651DD58B"
+            }
+        },
+        {
+            "a": {
+                "a": "CCB9738993B08E1E8B258AEB2C32A307",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "rs6job6ckqrnntqj6704l2bvd6"
+            },
+            "b": {
+                "a": "pt",
+                "b": "3AD976AE9713ACD3045C24963585AF94",
+                "c": false,
+                "d": "Aumento no Valor de Habilidade",
+                "e": "Seu valor de Força aumenta em 2 e seu valor de Carisma aumenta em 1.",
+                "f": true,
+                "uuid": "CCB9738993B08E1E8B258AEB2C32A307"
+            }
+        },
+        {
+            "a": {
+                "a": "EF4432FFBE35C0DBF1BED500538589E0",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "5a2naqp677gu22qt5vmho9eb45"
+            },
+            "b": {
+                "a": "pt",
+                "b": "3AD976AE9713ACD3045C24963585AF94",
+                "c": false,
+                "d": "Deslocamento",
+                "e": "Seu deslocamento base de caminhada é 9 metros.",
+                "f": true,
+                "uuid": "EF4432FFBE35C0DBF1BED500538589E0"
+            }
+        },
+        {
+            "a": {
+                "a": "F54357112A0FEBE2B5A57D8B58593037",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "attchc32tm51ugftvu8l5av6or"
+            },
+            "b": {
+                "a": "pt",
+                "b": "3AD976AE9713ACD3045C24963585AF94",
+                "c": false,
+                "d": "Idade",
+                "e": "Draconatos jovens crescem rapidamente. Eles caminham horas após nascerem, adquirindo o tamanho e desenvolvimento semelhante a de uma criança humana de 10 anos com 3 anos de idade e alcançam a maturidade aos 15. Eles costumam viver até os 80.",
+                "f": true,
+                "uuid": "F54357112A0FEBE2B5A57D8B58593037"
             }
         },
         {
@@ -712,42 +685,58 @@
         },
         {
             "a": {
-                "a": "85475FAE49CCE24D8B2B2AEE651DD58B",
+                "a": "70A1E41FCF372F390EDFC750544E15CB",
                 "b": "ke305301qqicpt94l9hfr08nl3",
                 "c": "",
-                "uuid": "o3qn5ns4taad0c2m4d21ro0cta"
+                "uuid": "3utbsnc859aehe0724i107bv23"
             },
             "b": {
                 "a": "pt",
                 "b": "3AD976AE9713ACD3045C24963585AF94",
                 "c": false,
-                "d": "Arma de Sopro",
-                "e": "Você pode usar uma ação para exalar energia destrutiva. Seu ancestral dracônico determina o tamanho, formado e tipo de dano que você expele.\nQuando você usa sua arma de sopro, cada criatura na área exalada deve realizar um teste de resistência, o tipo do teste é determinado pelo seu ancestral dracônico. A CD do teste de resistência é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano num fracasso e metade desse dano num sucesso. O dano aumenta para 3d6 no 6° nível, 4d6 no 11° nível e 5d6 no 16° nível.\nDepois de usar sua arma de sopro, você não poderá utilizá-la novamente até completar um descanso curto ou longo.",
+                "d": "Resistência a Dano",
+                "e": "Você possui resistência ao tipo de dano associado ao seu ancestral dracônico.",
                 "f": true,
-                "uuid": "85475FAE49CCE24D8B2B2AEE651DD58B"
+                "uuid": "70A1E41FCF372F390EDFC750544E15CB"
+            }
+        },
+        {
+            "a": {
+                "a": "4DAE7D1ADD21DF45966E955D0AD5BA65",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "idt5kr67524tncud8nifvmrfqf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "3AD976AE9713ACD3045C24963585AF94",
+                "c": false,
+                "d": "Tamanho",
+                "e": "Os draconatos são mais altos e mais pesados que os humanos, geralmente possuindo mais de 1,80 metro e normalmente pesando mais de 125 kg. Seu tamanho é Médio.",
+                "f": true,
+                "uuid": "4DAE7D1ADD21DF45966E955D0AD5BA65"
+            }
+        },
+        {
+            "a": {
+                "a": "6E9C125BE13AFFE37B5DAEB07A4C3B30",
+                "b": "ke305301qqicpt94l9hfr08nl3",
+                "c": "",
+                "uuid": "54puu2qe0ptah7sfb1q1dc7pau"
+            },
+            "b": {
+                "a": "pt",
+                "b": "3AD976AE9713ACD3045C24963585AF94",
+                "c": false,
+                "d": "Tendência",
+                "e": "Os draconatos tendem aos extremos, realizando uma escolha consciente de um lado ou do outro da guerra cósmica entre o bem e o mal (representada por Bahamut e Tiamat, respectivamente). A maioria dos draconatos é boa, mas os que vão para o lado de Tiamat podem se tornar vilões terríveis.",
+                "f": true,
+                "uuid": "6E9C125BE13AFFE37B5DAEB07A4C3B30"
             }
         }
     ],
     "o": [],
     "p": [
-        {
-            "a": {
-                "a": "ke305301qqicpt94l9hfr08nl3",
-                "b": "D7E0C283829246E5E15CC2EF71D15038",
-                "c": "",
-                "uuid": "50sjmk7e8laltk2a829kr8oobl"
-            },
-            "b": {
-                "a": "pt",
-                "b": false,
-                "c": "Dracônico",
-                "d": "O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
-                "e": "Dragões, Draconatos.",
-                "f": "Dracônico",
-                "g": true,
-                "uuid": "D7E0C283829246E5E15CC2EF71D15038"
-            }
-        },
         {
             "a": {
                 "a": "ke305301qqicpt94l9hfr08nl3",
@@ -764,6 +753,24 @@
                 "f": "Comum",
                 "g": true,
                 "uuid": "53EF31A0D71C9A1D4849A23A8001A87C"
+            }
+        },
+        {
+            "a": {
+                "a": "ke305301qqicpt94l9hfr08nl3",
+                "b": "D7E0C283829246E5E15CC2EF71D15038",
+                "c": "",
+                "uuid": "50sjmk7e8laltk2a829kr8oobl"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Dracônico",
+                "d": "O idioma Dracônico é conhecido por ser uma das mais antigas línguas e ainda é usado no estudo de magia. A linguagem soa áspera para a maioria das criaturas, incluindo várias consoantes e silabas firmes.",
+                "e": "Dragões, Draconatos.",
+                "f": "Dracônico",
+                "g": true,
+                "uuid": "D7E0C283829246E5E15CC2EF71D15038"
             }
         },
         {

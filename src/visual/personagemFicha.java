@@ -29,7 +29,7 @@ import static backend.Fun.Par.Geral.InspiracaoP.*;
 import static backend.Fun.Par.Geral.PercepcaoPassivaP.*;
 import static backend.Fun.Par.Geral.MovimentacaoP.*;
 import static backend.Fun.Par.Inventario.InventarioPanelP.*;
-import static backend.Fun.Par.Inventario.EqupamentosAddP.EquipamentosAddP;
+import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
 import backend.Fun.Par.Especializacao.EspecializacaoJanelaP;
 import backend.Fun.Par.Especializacao.EspecializacoesAddP;
@@ -68,7 +68,7 @@ public class personagemFicha extends javax.swing.JFrame {
         JSONArray Racas = new JSONArray(jsonParser.LerArray(RacasCaminho));
         JSONArray Classes = new JSONArray(jsonParser.LerArray(ClassesCaminho));
 
-
+        
         JanelaP(jPanel2);
         JanelaP(jPanel15);
         JanelaP(PainelItens);
@@ -110,8 +110,8 @@ public class personagemFicha extends javax.swing.JFrame {
         InspiracaoP(personagemCaminho, ficha, InspiracaoLabel);
         PercepcaoPassivaP(ficha, PercepcaoPassivaLabel);
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
-        ItensPanelP(personagemCaminho, ficha, PainelItens);
-        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario);
+        ItensPanelP(personagemCaminho, ficha, PainelItens, BonusCALabel);
+        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario, BonusCALabel);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarClasseC, "m", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarRacaC, "n", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PIdiomasC, "p", "c", "d", PainelEspecializacoes);
@@ -1519,18 +1519,16 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaTLayout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addComponent(jLabel21)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 357, Short.MAX_VALUE)
-                .addComponent(jLabel27)
-                .addGap(6, 6, 6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 313, Short.MAX_VALUE)
+                .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         PCarRacaTLayout.setVerticalGroup(
             PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PCarRacaTLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaTLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-                    .addComponent(jLabel27))
+                .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PCarRacaC.setOpaque(false);
@@ -1583,18 +1581,16 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseTLayout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 339, Short.MAX_VALUE)
-                .addComponent(jLabel28)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 321, Short.MAX_VALUE)
+                .addComponent(jLabel28))
         );
         PCarClasseTLayout.setVerticalGroup(
             PCarClasseTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PCarClasseTLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseTLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PCarClasseTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-                    .addComponent(jLabel28))
+                .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PCarClasseC.setOpaque(false);
@@ -1649,17 +1645,15 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addComponent(jLabel24)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel29)
-                .addContainerGap())
+                .addComponent(jLabel29))
         );
         PTalentosTLayout.setVerticalGroup(
             PTalentosTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PTalentosTLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosTLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PTalentosTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-                    .addComponent(jLabel29))
+                .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PTalentosC.setOpaque(false);
@@ -1714,17 +1708,15 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addComponent(jLabel26)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel30)
-                .addContainerGap())
+                .addComponent(jLabel30))
         );
         PIdiomasTLayout.setVerticalGroup(
             PIdiomasTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PIdiomasTLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasTLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PIdiomasTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-                    .addComponent(jLabel30))
+                .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PIdiomasC.setOpaque(false);
@@ -1778,17 +1770,15 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addComponent(jLabel31)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel32)
-                .addContainerGap())
+                .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         PCarExtraTLayout.setVerticalGroup(
             PCarExtraTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PCarExtraTLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarExtraTLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PCarExtraTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
-                    .addComponent(jLabel32))
+                .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jLabel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         PCarExtraC.setOpaque(false);
@@ -1851,7 +1841,7 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(PIdiomas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(37, 37, 37)
                 .addComponent(PCarExtra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(206, Short.MAX_VALUE))
+                .addContainerGap(191, Short.MAX_VALUE))
         );
 
         jScrollPaneEspecializacao.setViewportView(PainelEspecializacoes);

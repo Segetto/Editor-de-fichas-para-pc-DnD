@@ -5,7 +5,7 @@
 package backend.Fun.VirtualObjects;
 
 import org.json.*;
-
+import backend.Fun.Rand;
 /**
  *
  * @author Admin
@@ -59,6 +59,8 @@ public class NewItemFichaVO {
                 .put("a", new JSONObject()
                         .put("f", "")
                         .put("d", false)
+                        .put("e", false)
+                        .put("uuid", Rand.NovoId(32))
                 )
                 .put("b", new JSONObject()
                         .put("b", TipoArma)
@@ -75,12 +77,12 @@ public class NewItemFichaVO {
                         .put("m", FurtividadeDesvantagem) //Desvantagem de furtividade armadura
                         .put("n", StatusMinimo) //Status necessário armadura
                         .put("o", CABonusEscudo) //Bonus CA escudo
-                        .put("q", StatusArma) //Bonus CA escudo
+                        .put("q", StatusArma) //Status da arma
                         .put("t", itens.getJSONObject(pos).getBoolean("t")) //É customizado
                         .put("u", itens.getJSONObject(pos).getString("u")) //Nome
                         .put("v", descricao)
-                        .put("w", PropriedadeArma))
-                .put("c", new JSONArray());  //Propriedade especial da arma
+                        .put("w", PropriedadeArma)) //Propriedade especial da arma
+                .put("c", new JSONArray());  
         return NovoItem;
     }
 }

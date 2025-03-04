@@ -5,7 +5,6 @@
 package backend.Fun.Par.Inventario;
 
 import static backend.Fun.Mod.mod;
-import static backend.Fun.Proficiencia.Proficiencia;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import org.json.*;
 import javax.swing.*;
@@ -14,8 +13,6 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.*;
 import java.awt.event.*;
-import java.text.Collator;
-import java.util.*;
 import backend.Fun.VirtualObjects.*;
 
 /**
@@ -24,42 +21,12 @@ import backend.Fun.VirtualObjects.*;
  */
 public class InventarioJanelaP {
 
-    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens) {
+    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel) {
         String Opcao = (String) Opcoes.getSelectedItem();
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens);
-        java.util.List<JSONObject> lista = new java.util.ArrayList<>();
-        for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
-            lista.add(ficha.getJSONArray("i").getJSONObject(i));
-        }
-
-        // Ordenando a lista com base no campo "b.u"
-        Collections.sort(lista, new Comparator<JSONObject>() {
-            @Override
-            public int compare(JSONObject a, JSONObject b) {
-                Collator collator = Collator.getInstance(new Locale("pt", "BR"));
-                collator.setStrength(Collator.PRIMARY); // Ignora diferenças de acento
-                String nomeA = a.getJSONObject("b").getString("u");
-                String nomeB = b.getJSONObject("b").getString("u");
-                return collator.compare(nomeA, nomeB);
-            }
-        });
-
-        // Convertendo de volta para JSONArray
-        JSONArray jsonArrayOrdenado = new JSONArray(lista);
-        ficha.put("i", jsonArrayOrdenado);
-        SalvarFicha(ficha, personagemCaminho);
-
-        Opcoes.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String NewOpcao = (String) Opcoes.getSelectedItem();
-                AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, NewOpcao, PainelItensFicha, AdicionarSelecionados, itens);
-
-            }
-        });
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel);
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel) {
 
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -73,179 +40,260 @@ public class InventarioJanelaP {
         gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
         gbc.insets = new Insets(0, 0, 5, 0); // Espaço entre os itens
         JSONArray ItensNovos = new JSONArray();
+        JPanel[] OpcoesVetor = new JPanel[itens.length()];
+
         for (int i = 0; i < itens.length(); i++) {
-            if (TipoItem.equals(itens.getJSONObject(i).getString("i"))) {
 
-                JPanel PainelItem = new JPanel();
-                JCheckBox check = new JCheckBox();
+            JPanel PainelItem = new JPanel();
+            JCheckBox check = new JCheckBox();
 
-                PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
-                JPanel PainelTituloItem = new JPanel();
-                PainelTituloItem.setLayout(new BoxLayout(PainelTituloItem, BoxLayout.Y_AXIS));
-                JPanel PainelNomeItem = new JPanel(new BorderLayout());
-                JLabel NomeItem = new JLabel(itens.getJSONObject(i).getString("u"));
-                NomeItem.setForeground(cor);
-                ImageIcon Icone = new ImageIcon("src/visual/res/SmallDown.png");
-                JLabel UpOrDown = new JLabel(Icone);
+            PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
+            JPanel PainelTituloItem = new JPanel();
+            PainelTituloItem.setLayout(new BoxLayout(PainelTituloItem, BoxLayout.Y_AXIS));
+            JPanel PainelNomeItem = new JPanel(new BorderLayout());
+            JLabel NomeItem = new JLabel(itens.getJSONObject(i).getString("u"));
+            NomeItem.setForeground(cor);
+            ImageIcon Icone = new ImageIcon("src/visual/res/SmallDown.png");
+            JLabel UpOrDown = new JLabel(Icone);
 
-                NomeItem.setHorizontalAlignment(SwingConstants.CENTER);
+            NomeItem.setHorizontalAlignment(SwingConstants.CENTER);
 
-                JPanel PainelDescricaoItem = new JPanel();
-                JLabel DescricaoItem = new JLabel();
-                int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
-                if (itens.getJSONObject(i).has("v")) {
-                    DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(i).getString("v") + "</body></html>");
-                } else {
-                    DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
-                }
-                DescricaoItem.setLocation(0, 0);
-                PainelNomeItem.add(check, BorderLayout.WEST);
-                PainelNomeItem.add(NomeItem, BorderLayout.CENTER);
-                PainelNomeItem.add(UpOrDown, BorderLayout.EAST);
-
-                PainelDescricaoItem.add(DescricaoItem);
-                gbc.gridy = i; // Define a posição na grade
-                PainelNomeItem.setOpaque(false);
-                PainelDescricaoItem.setOpaque(false);
-                PainelTituloItem.add(PainelNomeItem);
-                if (itens.getJSONObject(i).getString("i").equals("Arma") || itens.getJSONObject(i).getString("i").equals("WEAPON")) {
-                    JPanel PInfArma = new JPanel(new GridLayout(1, 3));
-                    PInfArma.setOpaque(false);
-                    JPanel PInfArmaAtaque = new JPanel();
-                    PInfArmaAtaque.setLayout(new BoxLayout(PInfArmaAtaque, BoxLayout.Y_AXIS));
-                    PInfArmaAtaque.setOpaque(false);
-                    JPanel PInfArmaDano = new JPanel();
-                    PInfArmaDano.setLayout(new BoxLayout(PInfArmaDano, BoxLayout.Y_AXIS));
-                    PInfArmaDano.setOpaque(false);
-                    JPanel PInfArmaTipo = new JPanel();
-                    PInfArmaTipo.setLayout(new BoxLayout(PInfArmaTipo, BoxLayout.Y_AXIS));
-                    PInfArmaTipo.setOpaque(false);
-                    JLabel InfArmaAtaqueT = new JLabel("Ataque");
-                    JLabel InfArmaDanoT = new JLabel("Dano");
-                    JLabel InfArmaTipoT = new JLabel("Tipo de dano");
-                    int Status;
-                    switch (itens.getJSONObject(i).getString("q")) {
-                        case "STRENGTH" ->
-                            Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
-                        case "DEXTERITY" ->
-                            Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                        default -> {
-                            if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
-                                Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                            } else {
-                                Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
-                            }
-                        }
-                    }
-                    JLabel InfArmaAtaque = new JLabel("-");
-                    String Modificador;
-                    Modificador = mod(Status, 0);
-                    if (Modificador.equals("0")) {
-                        Modificador = "";
-                    }
-                    InfArmaAtaque.setText("1d20" + Modificador);
-                    JLabel InfArmaDano = new JLabel("-");
-                    InfArmaDano.setText(itens.getJSONObject(i).getString("1"));
-                    JLabel InfArmaTipo = new JLabel(itens.getJSONObject(i).getString("b"));
-
-                    InfArmaAtaqueT.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    InfArmaAtaque.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    InfArmaDanoT.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    InfArmaDano.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    InfArmaTipoT.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    InfArmaTipo.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    Font fonte = new Font("SansSerif", Font.PLAIN, 10);
-                    InfArmaAtaqueT.setForeground(cor);
-                    InfArmaAtaque.setForeground(cor);
-                    InfArmaDanoT.setForeground(cor);
-                    InfArmaDano.setForeground(cor);
-                    InfArmaTipoT.setForeground(cor);
-                    InfArmaTipo.setForeground(cor);
-                    PInfArmaAtaque.add(InfArmaAtaqueT);
-                    PInfArmaAtaque.add(Box.createRigidArea(new Dimension(0, 5)));
-                    PInfArmaAtaque.add(InfArmaAtaque);
-                    PInfArmaDano.add(InfArmaDanoT);
-                    PInfArmaDano.add(Box.createRigidArea(new Dimension(0, 5)));
-                    PInfArmaDano.add(InfArmaDano);
-                    PInfArmaTipo.add(InfArmaTipoT);
-                    PInfArmaTipo.add(Box.createRigidArea(new Dimension(0, 5)));
-                    PInfArmaTipo.add(InfArmaTipo);
-                    PInfArma.add(PInfArmaAtaque);
-                    PInfArma.add(PInfArmaDano);
-                    PInfArma.add(PInfArmaTipo);
-                    PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 5)));
-                    PainelTituloItem.add(PInfArma);
-                    PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
-
-                }
-                PainelItem.add(PainelTituloItem);
-                PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-                PainelTituloItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
-                PainelTituloItem.setOpaque(false);
-                PainelItem.setOpaque(false);
-                PainelItens.add(PainelItem, gbc);
-                PainelItens.revalidate();
-                PainelItens.repaint();
-
-                int iComp = i;
-
-                SwingUtilities.getWindowAncestor(PainelItens).addComponentListener(new ComponentAdapter() {
-                    @Override
-                    public void componentResized(ComponentEvent e) {
-                        int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
-                        // Atualiza o texto, ajustando a largura do body no HTML
-                        if (itens.getJSONObject(iComp).has("v")) {
-                            DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(iComp).getString("v") + "</body></html>");
-                        } else {
-                            DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
-                        }
-                    }
-                });
-                PainelTituloItem.addMouseListener(new MouseAdapter() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                        if (PainelDescricaoItem.getParent() != null) {
-                            ImageIcon Icone = new ImageIcon("src/visual/res/SmallDown.png");
-                            UpOrDown.setIcon(Icone);
-                            PainelItem.remove(PainelDescricaoItem);
-                        } else {
-                            PainelItem.add(PainelDescricaoItem);
-                            ImageIcon Icone = new ImageIcon("src/visual/res/SmallUp.png");
-                            UpOrDown.setIcon(Icone);
-                        }
-                        PainelItem.revalidate();
-                        PainelItem.repaint();
-                    }
-                });
-
-                check.addItemListener(new ItemListener() {
-                    int posicao = 0;
-
-                    public void itemStateChanged(ItemEvent e) {
-                        if (e.getStateChange() == ItemEvent.SELECTED) {
-
-                            ItensNovos.put(NewItemFichaVO.NovoItemFicha(itens, iComp));
-                            posicao = ItensNovos.length() - 1;
-                        } else {
-                            ItensNovos.remove(posicao);
-                        }
-                    }
-                });
+            JPanel PainelDescricaoItem = new JPanel();
+            JLabel DescricaoItem = new JLabel();
+            int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
+            if (itens.getJSONObject(i).has("v")) {
+                DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(i).getString("v") + "</body></html>");
+            } else {
+                DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
             }
-            AdicionarSelecionados.addMouseListener(new MouseAdapter() {
+            DescricaoItem.setLocation(0, 0);
+            PainelNomeItem.add(check, BorderLayout.WEST);
+            PainelNomeItem.add(NomeItem, BorderLayout.CENTER);
+            PainelNomeItem.add(UpOrDown, BorderLayout.EAST);
+
+            PainelDescricaoItem.add(DescricaoItem);
+            gbc.gridy = i; // Define a posição na grade
+            PainelNomeItem.setOpaque(false);
+            PainelDescricaoItem.setOpaque(false);
+            PainelTituloItem.add(PainelNomeItem);
+            if (itens.getJSONObject(i).getString("i").equals("Arma") || itens.getJSONObject(i).getString("i").equals("WEAPON")) {
+                JPanel PInfArma = new JPanel(new GridLayout(1, 3));
+                PInfArma.setOpaque(false);
+                JPanel PInfArmaAtaque = new JPanel();
+                PInfArmaAtaque.setLayout(new BoxLayout(PInfArmaAtaque, BoxLayout.Y_AXIS));
+                PInfArmaAtaque.setOpaque(false);
+                JPanel PInfArmaDano = new JPanel();
+                PInfArmaDano.setLayout(new BoxLayout(PInfArmaDano, BoxLayout.Y_AXIS));
+                PInfArmaDano.setOpaque(false);
+                JPanel PInfArmaTipo = new JPanel();
+                PInfArmaTipo.setLayout(new BoxLayout(PInfArmaTipo, BoxLayout.Y_AXIS));
+                PInfArmaTipo.setOpaque(false);
+                JLabel InfArmaAtaqueT = new JLabel("Ataque");
+                JLabel InfArmaDanoT = new JLabel("Dano");
+                JLabel InfArmaTipoT = new JLabel("Tipo de dano");
+                int Status;
+                switch (itens.getJSONObject(i).getString("q")) {
+                    case "STRENGTH" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                    case "DEXTERITY" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                    default -> {
+                        if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
+                            Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                        } else {
+                            Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                        }
+                    }
+                }
+                JLabel InfArmaAtaque = new JLabel("-");
+                String Modificador;
+                Modificador = mod(Status, 0);
+                if (Modificador.equals("0")) {
+                    Modificador = "";
+                }
+                InfArmaAtaque.setText("1d20" + Modificador);
+                JLabel InfArmaDano = new JLabel("-");
+                InfArmaDano.setText(itens.getJSONObject(i).getString("1"));
+                JLabel InfArmaTipo = new JLabel(itens.getJSONObject(i).getString("b"));
+
+                InfArmaAtaqueT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaAtaque.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaDanoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaDano.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaTipoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaTipo.setAlignmentX(Component.CENTER_ALIGNMENT);
+                Font fonte = new Font("SansSerif", Font.PLAIN, 10);
+                InfArmaAtaqueT.setForeground(cor);
+                InfArmaAtaque.setForeground(cor);
+                InfArmaDanoT.setForeground(cor);
+                InfArmaDano.setForeground(cor);
+                InfArmaTipoT.setForeground(cor);
+                InfArmaTipo.setForeground(cor);
+                PInfArmaAtaque.add(InfArmaAtaqueT);
+                PInfArmaAtaque.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaAtaque.add(InfArmaAtaque);
+                PInfArmaDano.add(InfArmaDanoT);
+                PInfArmaDano.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaDano.add(InfArmaDano);
+                PInfArmaTipo.add(InfArmaTipoT);
+                PInfArmaTipo.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaTipo.add(InfArmaTipo);
+                PInfArma.add(PInfArmaAtaque);
+                PInfArma.add(PInfArmaDano);
+                PInfArma.add(PInfArmaTipo);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 5)));
+                PainelTituloItem.add(PInfArma);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
+
+            }
+            if (itens.getJSONObject(i).getString("i").equals("Armadura") || itens.getJSONObject(i).getString("i").equals("ARMOR")) {
+                JPanel PInfArmadura = new JPanel(new GridLayout(1, 3));
+                PInfArmadura.setOpaque(false);
+                JPanel PInfArmaduraForca = new JPanel();
+                PInfArmaduraForca.setLayout(new BoxLayout(PInfArmaduraForca, BoxLayout.Y_AXIS));
+                PInfArmaduraForca.setOpaque(false);
+                JPanel PInfArmaduraCA = new JPanel();
+                PInfArmaduraCA.setLayout(new BoxLayout(PInfArmaduraCA, BoxLayout.Y_AXIS));
+                PInfArmaduraCA.setOpaque(false);
+                JPanel PInfArmaduraDesvantagem = new JPanel();
+                PInfArmaduraDesvantagem.setLayout(new BoxLayout(PInfArmaduraDesvantagem, BoxLayout.Y_AXIS));
+                PInfArmaduraDesvantagem.setOpaque(false);
+                JLabel InfArmaduraCAT = new JLabel("CA");
+                JLabel InfArmaduraForcaT = new JLabel("Força mínima");
+                JLabel InfArmaduraDesvantagemT = new JLabel("Furtividade");
+                JLabel InfArmaduraDesvantagem = new JLabel("Normal");
+
+                if (itens.getJSONObject(i).has("m")) {
+                    InfArmaduraDesvantagem.setText("Desvantagem");
+                }
+                int Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                String CA = mod(Status, itens.getJSONObject(i).getInt("j"));
+                JLabel InfArmaduraForca = new JLabel("-");
+                int ForcaMin = 0;
+                if (itens.getJSONObject(i).has("n")) {
+                    ForcaMin = itens.getJSONObject(i).getInt("n");
+                }
+                InfArmaduraForca.setText("" + ForcaMin);
+                JLabel InfArmaduraCA = new JLabel(CA);
+                InfArmaduraCAT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraForca.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraForcaT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraCA.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraDesvantagemT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfArmaduraDesvantagem.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                PInfArmaduraForca.add(InfArmaduraForcaT);
+                PInfArmaduraForca.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraForca.add(InfArmaduraForca);
+                PInfArmaduraCA.add(InfArmaduraCAT);
+                PInfArmaduraCA.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraCA.add(InfArmaduraCA);
+                PInfArmaduraDesvantagem.add(InfArmaduraDesvantagemT);
+                PInfArmaduraDesvantagem.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfArmaduraDesvantagem.add(InfArmaduraDesvantagem);
+                PInfArmadura.add(PInfArmaduraForca);
+                PInfArmadura.add(PInfArmaduraCA);
+                PInfArmadura.add(PInfArmaduraDesvantagem);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 5)));
+                PainelTituloItem.add(PInfArmadura);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
+                InfArmaduraCAT.setForeground(cor);
+                InfArmaduraForca.setForeground(cor);
+                InfArmaduraForcaT.setForeground(cor);
+                InfArmaduraCA.setForeground(cor);
+                InfArmaduraDesvantagemT.setForeground(cor);
+                InfArmaduraDesvantagem.setForeground(cor);
+
+            }
+            PainelItem.add(PainelTituloItem);
+            PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            PainelTituloItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
+            PainelTituloItem.setOpaque(false);
+            PainelItem.setOpaque(false);
+            PainelItem.setName(itens.getJSONObject(i).getString("i"));
+
+            int iComp = i;
+
+            SwingUtilities.getWindowAncestor(PainelItens).addComponentListener(new ComponentAdapter() {
+                @Override
+                public void componentResized(ComponentEvent e) {
+                    int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
+                    // Atualiza o texto, ajustando a largura do body no HTML
+                    if (itens.getJSONObject(iComp).has("v")) {
+                        DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(iComp).getString("v") + "</body></html>");
+                    } else {
+                        DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
+                    }
+                }
+            });
+            PainelTituloItem.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    ItensNovos.forEach(Item -> {
-                        ficha.getJSONArray("i").put(Item);
-                    });
-
-                    InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
-                    SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
-                    SalvarFicha(ficha, personagemCaminho);
-
+                    if (PainelDescricaoItem.getParent() != null) {
+                        ImageIcon Icone = new ImageIcon("src/visual/res/SmallDown.png");
+                        UpOrDown.setIcon(Icone);
+                        PainelItem.remove(PainelDescricaoItem);
+                    } else {
+                        PainelItem.add(PainelDescricaoItem);
+                        ImageIcon Icone = new ImageIcon("src/visual/res/SmallUp.png");
+                        UpOrDown.setIcon(Icone);
+                    }
+                    PainelItem.revalidate();
+                    PainelItem.repaint();
                 }
             });
 
+            check.addItemListener(new ItemListener() {
+                int posicao = 0;
+
+                public void itemStateChanged(ItemEvent e) {
+                    if (e.getStateChange() == ItemEvent.SELECTED) {
+
+                        ItensNovos.put(NewItemFichaVO.NovoItemFicha(itens, iComp));
+                        posicao = ItensNovos.length() - 1;
+                    } else {
+                        ItensNovos.remove(posicao);
+                    }
+                }
+            });
+
+            OpcoesVetor[i] = PainelItem;
+
         }
+
+        AdicionarSelecionados.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                for (Object ItemNewTemp : ItensNovos) {
+                    ficha.getJSONArray("i").put(ItemNewTemp);
+                }
+                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel);
+                SwingUtilities.getWindowAncestor(AdicionarSelecionados).setVisible(false);
+                SalvarFicha(ficha, personagemCaminho);
+
+            }
+        });
+        ExibirOpcoes(TipoItem, PainelItens, OpcoesVetor, gbc);
+        OpcaoSelect.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String NewOpcao = (String) OpcaoSelect.getSelectedItem();
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc);
+
+            }
+        });
+    }
+
+    public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc) {
+        PainelOpcoes.removeAll();
+        for (Component Opcao : OpcoesLista) {
+            if (TipoOpcoes.equals(Opcao.getName())) {
+                PainelOpcoes.add(Opcao, gbc);
+                gbc.gridy++;
+
+            }
+        }
+        PainelOpcoes.revalidate();
+        PainelOpcoes.repaint();
     }
 }

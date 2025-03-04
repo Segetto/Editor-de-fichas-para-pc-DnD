@@ -20,14 +20,14 @@ public class Equipamento extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JSONArray itens) {
+    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JSONArray itens, JLabel BonusCALabel) {
         initComponents();
         jScrollPaneItens.getVerticalScrollBar().setUnitIncrement(10);
-        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens, itens);
+        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens, itens, BonusCALabel);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ItensPanelP(personagemCaminho, ficha, PainelItensFicha);
+                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel);
             }
         });
 

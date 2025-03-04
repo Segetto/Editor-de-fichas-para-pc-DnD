@@ -7,7 +7,7 @@
         "E": "pqr655ngamrecoaeucv15s5j7kalliesOrganizations.png",
         "uuid": "pqr655ngamrecoaeucv15s5j7k",
         "id": 0,
-        "a": "Sylph Darkpine",
+        "a": "sylph darkpine",
         "b": "CB396E9936397E3078B2C9F94DAE58B6",
         "c": "90039257C703218B199C446AC4EBA238",
         "d": 49225,
@@ -15,7 +15,7 @@
         "f": 4,
         "g": 1,
         "h": 5,
-        "i": 0,
+        "i": 12,
         "j": 84,
         "k": 0,
         "l": 84,
@@ -82,7 +82,7 @@
     "e": [
         {
             "a": "STRENGTH",
-            "b": 12,
+            "b": 11,
             "c": false,
             "d": "pqr655ngamrecoaeucv15s5j7k",
             "uuid": "keoi3pm19urtu0m45bbts53uvs"
@@ -385,241 +385,6 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "c": 3,
-                "d": true,
-                "e": false,
-                "f": "2 - Adaga +1",
-                "uuid": "l55jhr7a67vuj7emqkdj50dnba"
-            },
-            "b": {
-                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "a": "pt",
-                "b": "perfurante",
-                "c": 2,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXORSTR",
-                "1": "1d4",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Adaga",
-                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
-                "w": "Acuidade, leve, arremesso (distância 6/18)",
-                "x": "Acuidade, leve, arremesso (distância 20/60)",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 4,
-                "b": false,
-                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "uuid": "g5cvp74s9oglgk1akuek039jec"
-            }]
-        },
-        {
-            "a": {
-                "d": false,
-                "f": ""
-            },
-            "b": {
-                "b": "perfurante",
-                "c": 2,
-                "d": "GP",
-                "e": 0.5,
-                "g": 1,
-                "h": "UN",
-                "i": "Arma",
-                "j": 0,
-                "k": "",
-                "l": 0,
-                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXORSTR",
-                "1": "1d4",
-                "t": false,
-                "u": "Adaga",
-                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
-                "w": "Acuidade, leve, arremesso (distância 6/18)"
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "3blcguqot50bj59tfc1v6i3opo",
-                "c": 1,
-                "d": true,
-                "e": false,
-                "f": "",
-                "uuid": "kceteshat2ivrgmr6gkq3vjt4v"
-            },
-            "b": {
-                "uuid": "3blcguqot50bj59tfc1v6i3opo",
-                "a": "pt",
-                "b": "perfurante",
-                "c": 2,
-                "d": "CP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "WEAPON",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXORSTR",
-                "r": 0,
-                "s": 6,
-                "t": true,
-                "u": "Adaga Venenosa",
-                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.\n2d10 de dano se não passar no teste de resistência de constituição CD 15.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": [{
-                "a": 4,
-                "b": false,
-                "d": "3blcguqot50bj59tfc1v6i3opo",
-                "uuid": "qe7vdhu563skl5j4tgcolqu5v9"
-            }]
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "20/12",
-                "uuid": "imm5oatn92l9648qcm3mpahps4"
-            },
-            "b": {
-                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "a": "pt",
-                "b": "",
-                "c": 1,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Aljava",
-                "v": "Uma aljava pode guardar até 20 flechas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "20/20 virotes",
-                "uuid": "ig71kut5od7kehs9e47ee8gpgm"
-            },
-            "b": {
-                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "a": "pt",
-                "b": "",
-                "c": 1,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Aljava",
-                "v": "Uma aljava pode guardar até 20 flechas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "20/3",
-                "uuid": "bmv4b1aip66hp3nplplmpe2ea6"
-            },
-            "b": {
-                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
-                "a": "pt",
-                "b": "",
-                "c": 1,
-                "d": "GP",
-                "e": 0.5,
-                "f": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": false,
-                "u": "Aljava",
-                "v": "Uma aljava pode guardar até 20 flechas.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "9822810FE68E42BB459E016473630D46",
                 "c": 1,
                 "d": true,
@@ -665,25 +430,25 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "b": "2F18668F602E0DA0E8806A30B4EC0DEF",
                 "c": 1,
                 "d": false,
-                "e": true,
-                "f": "",
-                "uuid": "nb5rlsad9esm7pl6pgin4mbdio"
+                "e": false,
+                "f": "+1",
+                "uuid": "4o396uau9i0adut6gb0fmd92c1"
             },
             "b": {
-                "uuid": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "uuid": "2F18668F602E0DA0E8806A30B4EC0DEF",
                 "a": "pt",
                 "b": "",
-                "c": 45,
+                "c": 10,
                 "d": "GP",
-                "e": 6.5,
-                "f": 13,
+                "e": 5,
+                "f": 10,
                 "g": 1,
                 "h": "UN",
                 "i": "ARMOR",
-                "j": 12,
+                "j": 11,
                 "k": "DEXTERITY",
                 "l": 0,
                 "m": false,
@@ -693,8 +458,170 @@
                 "r": 0,
                 "s": 0,
                 "t": false,
-                "u": "Armadura de Couro Batido",
+                "u": "Armadura de Couro",
                 "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "8F5927A16191C5F06FFB6D71806B1F17",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "+1 de acerto e dano",
+                "uuid": "9lhdapin1q53qcac931id46g3o"
+            },
+            "b": {
+                "uuid": "8F5927A16191C5F06FFB6D71806B1F17",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 25,
+                "d": "GP",
+                "e": 1,
+                "f": 2,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXTERITY",
+                "1": "1d8",
+                "r": 6,
+                "s": 0,
+                "t": false,
+                "u": "Rapieira",
+                "v": "",
+                "w": "Acuidade",
+                "x": "Acuidade",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 8,
+                "b": false,
+                "d": "8F5927A16191C5F06FFB6D71806B1F17",
+                "uuid": "8d9ekli03fmmm1h0sjrv87324p"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "afputpb386fe7803hoa6fm6d49",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "t5lh8hragqhsi57vikpi1oss59"
+            },
+            "b": {
+                "uuid": "afputpb386fe7803hoa6fm6d49",
+                "a": "pt",
+                "b": "",
+                "c": 160,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Pacote de assaltante",
+                "v": "Inclui uma mochila, um saco com 1.000 esferas de metal, 3 metros de linha, um sino, 5 velas, um pé de cabra, um martelo, 10 pítons, uma lanterna coberta, 2 frascos de óleo, 5 dias de rações, uma caixa de fogo e um cantil. O kit também possui 15 metros de corda de cânhamo amarrada ao lado dele",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "j8u4t306fiidiklghojtboasmc",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "lk43710ej7uv366c2fbb98gogc"
+            },
+            "b": {
+                "uuid": "j8u4t306fiidiklghojtboasmc",
+                "a": "pt",
+                "b": "",
+                "c": 2500,
+                "d": "CP",
+                "e": 0.5,
+                "f": 0,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": true,
+                "u": "Ferramentas de ladrão ",
+                "v": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/12",
+                "uuid": "imm5oatn92l9648qcm3mpahps4"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
                 "w": "",
                 "x": "",
                 "y": "",
@@ -750,45 +677,6 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "j8u4t306fiidiklghojtboasmc",
-                "c": 1,
-                "d": false,
-                "e": false,
-                "f": "",
-                "uuid": "lk43710ej7uv366c2fbb98gogc"
-            },
-            "b": {
-                "uuid": "j8u4t306fiidiklghojtboasmc",
-                "a": "pt",
-                "b": "",
-                "c": 2500,
-                "d": "CP",
-                "e": 0.5,
-                "f": 0,
-                "g": 1,
-                "h": "UN",
-                "i": "NORMAL",
-                "j": 0,
-                "l": 0,
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "STRENGTH",
-                "r": 0,
-                "s": 0,
-                "t": true,
-                "u": "Ferramentas de ladrão ",
-                "v": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
-                "w": "",
-                "x": "",
-                "y": "",
-                "z": true
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "078D83CCA054449C05AE725DB2CE7B2A",
                 "c": 2,
                 "d": false,
@@ -818,6 +706,45 @@
                 "t": false,
                 "u": "Frasco misterioso",
                 "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "20/20 virotes",
+                "uuid": "ig71kut5od7kehs9e47ee8gpgm"
+            },
+            "b": {
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
+                "a": "pt",
+                "b": "",
+                "c": 1,
+                "d": "GP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "NORMAL",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
                 "w": "",
                 "x": "",
                 "y": "",
@@ -867,21 +794,21 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "afputpb386fe7803hoa6fm6d49",
+                "b": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
                 "c": 1,
                 "d": false,
                 "e": false,
-                "f": "",
-                "uuid": "t5lh8hragqhsi57vikpi1oss59"
+                "f": "20/3",
+                "uuid": "bmv4b1aip66hp3nplplmpe2ea6"
             },
             "b": {
-                "uuid": "afputpb386fe7803hoa6fm6d49",
+                "uuid": "D11ECE5E9E56E39C2EC2E8CC4BF37894",
                 "a": "pt",
                 "b": "",
-                "c": 160,
-                "d": "CP",
+                "c": 1,
+                "d": "GP",
                 "e": 0.5,
-                "f": 0,
+                "f": 1,
                 "g": 1,
                 "h": "UN",
                 "i": "NORMAL",
@@ -893,9 +820,9 @@
                 "q": "STRENGTH",
                 "r": 0,
                 "s": 0,
-                "t": true,
-                "u": "Pacote de assaltante",
-                "v": "Inclui uma mochila, um saco com 1.000 esferas de metal, 3 metros de linha, um sino, 5 velas, um pé de cabra, um martelo, 10 pítons, uma lanterna coberta, 2 frascos de óleo, 5 dias de rações, uma caixa de fogo e um cantil. O kit também possui 15 metros de corda de cânhamo amarrada ao lado dele",
+                "t": false,
+                "u": "Aljava",
+                "v": "Uma aljava pode guardar até 20 flechas.",
                 "w": "",
                 "x": "",
                 "y": "",
@@ -906,21 +833,21 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "8F5927A16191C5F06FFB6D71806B1F17",
-                "c": 1,
+                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "c": 3,
                 "d": true,
                 "e": false,
-                "f": "+1 de acerto e dano",
-                "uuid": "9lhdapin1q53qcac931id46g3o"
+                "f": "2 - Adaga +1",
+                "uuid": "l55jhr7a67vuj7emqkdj50dnba"
             },
             "b": {
-                "uuid": "8F5927A16191C5F06FFB6D71806B1F17",
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
                 "a": "pt",
                 "b": "perfurante",
-                "c": 25,
+                "c": 2,
                 "d": "GP",
-                "e": 1,
-                "f": 2,
+                "e": 0.5,
+                "f": 1,
                 "g": 1,
                 "h": "UN",
                 "i": "WEAPON",
@@ -929,24 +856,108 @@
                 "m": false,
                 "n": 0,
                 "o": 0,
-                "q": "DEXTERITY",
-                "1": "1d8",
-                "r": 6,
+                "q": "DEXORSTR",
+                "1": "1d4",
+                "r": 0,
                 "s": 0,
                 "t": false,
-                "u": "Rapieira",
-                "v": "",
-                "w": "Acuidade",
-                "x": "Acuidade",
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
+                "w": "Acuidade, leve, arremesso (distância 6/18)",
+                "x": "Acuidade, leve, arremesso (distância 20/60)",
                 "y": "",
                 "z": true
             },
             "c": [{
-                "a": 8,
+                "a": 4,
                 "b": false,
-                "d": "8F5927A16191C5F06FFB6D71806B1F17",
-                "uuid": "8d9ekli03fmmm1h0sjrv87324p"
+                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "uuid": "g5cvp74s9oglgk1akuek039jec"
             }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "3blcguqot50bj59tfc1v6i3opo",
+                "c": 1,
+                "d": true,
+                "e": false,
+                "f": "",
+                "uuid": "kceteshat2ivrgmr6gkq3vjt4v"
+            },
+            "b": {
+                "uuid": "3blcguqot50bj59tfc1v6i3opo",
+                "a": "pt",
+                "b": "perfurante",
+                "c": 2,
+                "d": "CP",
+                "e": 0.5,
+                "f": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "WEAPON",
+                "j": 0,
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "r": 0,
+                "s": 6,
+                "t": true,
+                "u": "Adaga Venenosa",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.\n2d10 de dano se não passar no teste de resistência de constituição CD 15.",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 4,
+                "b": false,
+                "d": "3blcguqot50bj59tfc1v6i3opo",
+                "uuid": "qe7vdhu563skl5j4tgcolqu5v9"
+            }]
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "c": 1,
+                "d": false,
+                "e": true,
+                "f": "",
+                "uuid": "nb5rlsad9esm7pl6pgin4mbdio"
+            },
+            "b": {
+                "uuid": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "a": "pt",
+                "b": "",
+                "c": 45,
+                "d": "GP",
+                "e": 6.5,
+                "f": 13,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 12,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro Batido",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
         }
     ],
     "j": [
@@ -1059,91 +1070,6 @@
     "m": [
         {
             "a": {
-                "a": "4B3706998CDC145AD1E05AB0824D0365",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "g36i01s6on14iqrc2i5br122dv"
-            },
-            "b": {
-                "a": "pt",
-                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": false,
-                "d": "Proficiências",
-                "e": "Armaduras: Armaduras leves\nArmas: Armas simples, bestas de mão, espadas longas, rapieiras, espadas curtas\nFerramentas: Ferramentas de ladrão\nTestes de Resistência: Destreza, Inteligência\nPerícias: Escolha quatro dentre Acrobacia, Atletismo, Atuação, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão e Prestidigitação",
-                "f": true,
-                "uuid": "4B3706998CDC145AD1E05AB0824D0365"
-            }
-        },
-        {
-            "a": {
-                "a": "14B74D75B2943A14D0D6DD81E979DEF4",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "uj5bf6ijv9m1gfrhu8f6aqn9en"
-            },
-            "b": {
-                "a": "pt",
-                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": false,
-                "d": "Equipamento",
-                "e": "Você começa com o seguinte equipamento, além do equipamento concedido pelo seu antecedente:\n - (a) uma rapieira ou (b) uma espada longa\n - (a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta\n - (a) um pacote de assaltante ou (b) um pacote de aventureiro ou (c) um pacote de explorador\n - Armadura de couro, duas adagas e ferramentas de ladrão",
-                "f": true,
-                "uuid": "14B74D75B2943A14D0D6DD81E979DEF4"
-            }
-        },
-        {
-            "a": {
-                "a": "D7EDF8C0ECD52DD59E05669C53921D8D",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "8harveivq8al5e9ei7hqssvra"
-            },
-            "b": {
-                "a": "pt",
-                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": false,
-                "d": "Especialização",
-                "e": "No 1º nível, você escolhe duas de suas perícias que seja proficiente, ou uma perícia que seja proficiente e ferramentas de ladrão. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que fizer com elas.\nNo 6º nível, você pode escolher outras duas de suas proficiências (em perícias ou ferramentas de ladrão) para ganhar esse benefício.",
-                "f": true,
-                "uuid": "D7EDF8C0ECD52DD59E05669C53921D8D"
-            }
-        },
-        {
-            "a": {
-                "a": "CC12F21B293159CC0C4A4F77C1350B72",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "88ku0ua7utgp83k6prn1d03tsa"
-            },
-            "b": {
-                "a": "pt",
-                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": false,
-                "d": "Ataque Furtivo",
-                "e": "A partir do 1º nível, você sabe como atacar sutilmente e explorar a distração de seus inimigos. Uma vez por turno, você pode adicionar 1d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância.\nVocê não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 1,5 metro de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque.\nA quantidade de dano extra aumenta conforme você ganha níveis nessa classe, como mostrado na coluna Ataque Furtivo da tabela O Ladino.",
-                "f": true,
-                "uuid": "CC12F21B293159CC0C4A4F77C1350B72"
-            }
-        },
-        {
-            "a": {
-                "a": "715C0C00A06CBC0521DD11D60DA4CB08",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "an06s0vniu7s5f8frg42v91nk4"
-            },
-            "b": {
-                "a": "pt",
-                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": false,
-                "d": "Gíria de Ladrão",
-                "e": "Durante seu treinamento você aprendeu as gírias de ladrão, um misto de dialeto, jargão e códigos secretos que permitem você passar mensagens secretas durante uma conversa aparentemente normal. Somente outra criatura que conheça essas gírias de ladrão entende as mensagens. Leva-se quatro vezes mais tempo para transmitir essa mensagem do que falar a mesma ideia claramente.\nAlém disso, você entende um conjunto de sinais secretos e símbolos usados para transmitir mensagens curtas e simples, como saber se uma área é perigosa ou se é território de uma guilda de ladrões, se o saque está próximo, se as pessoas na área são alvos fáceis ou até mesmo indicar lugares seguros para ladinos se esconderem.",
-                "f": true,
-                "uuid": "715C0C00A06CBC0521DD11D60DA4CB08"
-            }
-        },
-        {
-            "a": {
                 "a": "54CA2517C746AB153F0138B3D5DBD454",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
@@ -1195,19 +1121,19 @@
         },
         {
             "a": {
-                "a": "35b6kv72d0mn4r4umm2fbpqifo",
+                "a": "CC12F21B293159CC0C4A4F77C1350B72",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "fvterugd8cj2fsj8p9bv0hv7db"
+                "uuid": "88ku0ua7utgp83k6prn1d03tsa"
             },
             "b": {
                 "a": "pt",
                 "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
-                "c": true,
-                "d": "TRAPACEIRO ARCANO",
-                "e": "Alguns ladinos aprimoram suas finas perícias de furtividade e agilidade com magia, aprendendo truques de encantamento e ilusão. Esses ladinos incluem não somente batedores de carteira e assaltantes, mas também trapaceiros, enganadores e um número significativo de \r\naventureiros.",
+                "c": false,
+                "d": "Ataque Furtivo",
+                "e": "A partir do 1º nível, você sabe como atacar sutilmente e explorar a distração de seus inimigos. Uma vez por turno, você pode adicionar 1d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância.\nVocê não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 1,5 metro de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque.\nA quantidade de dano extra aumenta conforme você ganha níveis nessa classe, como mostrado na coluna Ataque Furtivo da tabela O Ladino.",
                 "f": true,
-                "uuid": "35b6kv72d0mn4r4umm2fbpqifo"
+                "uuid": "CC12F21B293159CC0C4A4F77C1350B72"
             }
         },
         {
@@ -1229,36 +1155,53 @@
         },
         {
             "a": {
-                "a": "staegcjm2s9k58a27vh7q6c9ak",
+                "a": "k0tbjr76sbhjc689rl04re6f0u",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "l3m8hurf4gmsobhbtsc4r62scf"
+                "uuid": "ivn2nuslmrjo8ajvtv2ber6kkd"
             },
             "b": {
                 "a": "pt",
                 "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
                 "c": true,
-                "d": "Mãos mágicas malabaristas",
-                "e": "A partir do 3° nível, quando você conjurar mãos mágicas, \r\nvocê pode fazer a mão espectral ficar invisível e poderá \r\nrealizar as seguintes tarefas adicionais:\r\n Você pode guardar um objeto que a mão estiver \r\nsegurando em um recipiente vestido ou carregado por \r\noutra criatura.\r\n Você pode recuperar um objeto guardado em um \r\nrecipiente vestido ou carregado por outra criatura.\r\n Você pode usar ferramentas de ladrão para abrir \r\nfechaduras ou desarmar armadilhas à distância.\r\nVocê pode realizar qualquer dessas tarefas sem ser \r\nnotado por uma criatura se for bem sucedido num teste de \r\nDestreza (Prestidigitação) resistido por um teste de \r\nSabedoria (Percepção) da criatura.\r\nAlém disso, você pode usar a ação bônus concedida por \r\nsua Ação Ardilosa para controlar a mão.",
+                "d": "Emboscada mágica",
+                "e": "A partir do 9° nível, se você estiver escondido de uma criatura quando conjurar uma magia nela, a criatura terá desvantagem em qualquer teste de resistência que ela fizer contra a magia nesse turno.",
                 "f": true,
-                "uuid": "staegcjm2s9k58a27vh7q6c9ak"
+                "uuid": "k0tbjr76sbhjc689rl04re6f0u"
             }
         },
         {
             "a": {
-                "a": "9E13A16408CE81E1C5272AEA34E6F948",
+                "a": "14B74D75B2943A14D0D6DD81E979DEF4",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "2au2car8c0236fk0aakdi01hp3"
+                "uuid": "uj5bf6ijv9m1gfrhu8f6aqn9en"
             },
             "b": {
                 "a": "pt",
                 "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
                 "c": false,
-                "d": "Incremento no Valor de Habilidade",
-                "e": "Quando você atinge o 4° nível e novamente no 8°, 10°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
+                "d": "Equipamento",
+                "e": "Você começa com o seguinte equipamento, além do equipamento concedido pelo seu antecedente:\n - (a) uma rapieira ou (b) uma espada longa\n - (a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta\n - (a) um pacote de assaltante ou (b) um pacote de aventureiro ou (c) um pacote de explorador\n - Armadura de couro, duas adagas e ferramentas de ladrão",
                 "f": true,
-                "uuid": "9E13A16408CE81E1C5272AEA34E6F948"
+                "uuid": "14B74D75B2943A14D0D6DD81E979DEF4"
+            }
+        },
+        {
+            "a": {
+                "a": "D7EDF8C0ECD52DD59E05669C53921D8D",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "8harveivq8al5e9ei7hqssvra"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Especialização",
+                "e": "No 1º nível, você escolhe duas de suas perícias que seja proficiente, ou uma perícia que seja proficiente e ferramentas de ladrão. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que fizer com elas.\nNo 6º nível, você pode escolher outras duas de suas proficiências (em perícias ou ferramentas de ladrão) para ganhar esse benefício.",
+                "f": true,
+                "uuid": "D7EDF8C0ECD52DD59E05669C53921D8D"
             }
         },
         {
@@ -1297,23 +1240,108 @@
         },
         {
             "a": {
-                "a": "k0tbjr76sbhjc689rl04re6f0u",
+                "a": "715C0C00A06CBC0521DD11D60DA4CB08",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "ivn2nuslmrjo8ajvtv2ber6kkd"
+                "uuid": "an06s0vniu7s5f8frg42v91nk4"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Gíria de Ladrão",
+                "e": "Durante seu treinamento você aprendeu as gírias de ladrão, um misto de dialeto, jargão e códigos secretos que permitem você passar mensagens secretas durante uma conversa aparentemente normal. Somente outra criatura que conheça essas gírias de ladrão entende as mensagens. Leva-se quatro vezes mais tempo para transmitir essa mensagem do que falar a mesma ideia claramente.\nAlém disso, você entende um conjunto de sinais secretos e símbolos usados para transmitir mensagens curtas e simples, como saber se uma área é perigosa ou se é território de uma guilda de ladrões, se o saque está próximo, se as pessoas na área são alvos fáceis ou até mesmo indicar lugares seguros para ladinos se esconderem.",
+                "f": true,
+                "uuid": "715C0C00A06CBC0521DD11D60DA4CB08"
+            }
+        },
+        {
+            "a": {
+                "a": "9E13A16408CE81E1C5272AEA34E6F948",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "2au2car8c0236fk0aakdi01hp3"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Incremento no Valor de Habilidade",
+                "e": "Quando você atinge o 4° nível e novamente no 8°, 10°, 12°, 16° e 19° nível, você pode aumentar um valor de habilidade, à sua escolha, em 2 ou você pode aumentar dois valores de habilidade, à sua escolha, em 1. Como padrão, você não pode elevar um valor de habilidade acima de 20 com essa característica.",
+                "f": true,
+                "uuid": "9E13A16408CE81E1C5272AEA34E6F948"
+            }
+        },
+        {
+            "a": {
+                "a": "staegcjm2s9k58a27vh7q6c9ak",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "l3m8hurf4gmsobhbtsc4r62scf"
             },
             "b": {
                 "a": "pt",
                 "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
                 "c": true,
-                "d": "Emboscada mágica",
-                "e": "A partir do 9° nível, se você estiver escondido de uma criatura quando conjurar uma magia nela, a criatura terá desvantagem em qualquer teste de resistência que ela fizer contra a magia nesse turno.",
+                "d": "Mãos mágicas malabaristas",
+                "e": "A partir do 3° nível, quando você conjurar mãos mágicas, \r\nvocê pode fazer a mão espectral ficar invisível e poderá \r\nrealizar as seguintes tarefas adicionais:\r\n Você pode guardar um objeto que a mão estiver \r\nsegurando em um recipiente vestido ou carregado por \r\noutra criatura.\r\n Você pode recuperar um objeto guardado em um \r\nrecipiente vestido ou carregado por outra criatura.\r\n Você pode usar ferramentas de ladrão para abrir \r\nfechaduras ou desarmar armadilhas à distância.\r\nVocê pode realizar qualquer dessas tarefas sem ser \r\nnotado por uma criatura se for bem sucedido num teste de \r\nDestreza (Prestidigitação) resistido por um teste de \r\nSabedoria (Percepção) da criatura.\r\nAlém disso, você pode usar a ação bônus concedida por \r\nsua Ação Ardilosa para controlar a mão.",
                 "f": true,
-                "uuid": "k0tbjr76sbhjc689rl04re6f0u"
+                "uuid": "staegcjm2s9k58a27vh7q6c9ak"
+            }
+        },
+        {
+            "a": {
+                "a": "4B3706998CDC145AD1E05AB0824D0365",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "g36i01s6on14iqrc2i5br122dv"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": false,
+                "d": "Proficiências",
+                "e": "Armaduras: Armaduras leves\nArmas: Armas simples, bestas de mão, espadas longas, rapieiras, espadas curtas\nFerramentas: Ferramentas de ladrão\nTestes de Resistência: Destreza, Inteligência\nPerícias: Escolha quatro dentre Acrobacia, Atletismo, Atuação, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão e Prestidigitação",
+                "f": true,
+                "uuid": "4B3706998CDC145AD1E05AB0824D0365"
+            }
+        },
+        {
+            "a": {
+                "a": "35b6kv72d0mn4r4umm2fbpqifo",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "fvterugd8cj2fsj8p9bv0hv7db"
+            },
+            "b": {
+                "a": "pt",
+                "b": "66DDC67E7D8B9AE65FAFC661A1E9C807",
+                "c": true,
+                "d": "TRAPACEIRO ARCANO",
+                "e": "Alguns ladinos aprimoram suas finas perícias de furtividade e agilidade com magia, aprendendo truques de encantamento e ilusão. Esses ladinos incluem não somente batedores de carteira e assaltantes, mas também trapaceiros, enganadores e um número significativo de \r\naventureiros.",
+                "f": true,
+                "uuid": "35b6kv72d0mn4r4umm2fbpqifo"
             }
         }
     ],
     "n": [
+        {
+            "a": {
+                "a": "4B1752AA5BBCFA63EBB557276CF7A6EC",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "dd9252bcgesdf8njqm7i89v5d7"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Ancestral Feérico",
+                "e": "Você possui vantagem em testes de resistência contra encantamento e magia não pode colocar você pra dormir.",
+                "f": true,
+                "uuid": "4B1752AA5BBCFA63EBB557276CF7A6EC"
+            }
+        },
         {
             "a": {
                 "a": "C41FC38C0B89AD4A36A6295F2B1B288E",
@@ -1329,57 +1357,6 @@
                 "e": "Seu valor de Carisma aumenta em 2 e outros dois valores de habilidade, à sua escolha, aumentam em 1.",
                 "f": true,
                 "uuid": "C41FC38C0B89AD4A36A6295F2B1B288E"
-            }
-        },
-        {
-            "a": {
-                "a": "C6323B2E9274DE98FD5354FED500FAD7",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "3cljkm6f6chmjq5rra1u43b5ba"
-            },
-            "b": {
-                "a": "pt",
-                "b": "CB396E9936397E3078B2C9F94DAE58B6",
-                "c": false,
-                "d": "Idade",
-                "e": "Meio-elfos atingem a maturidade ao mesmo tempo que os humanos atingem a idade adulta, por volta dos 20 anos. Eles vivem muito mais que os humanos, no entanto, raramente ultrapassam os 180 anos.",
-                "f": true,
-                "uuid": "C6323B2E9274DE98FD5354FED500FAD7"
-            }
-        },
-        {
-            "a": {
-                "a": "06967FBA8518F4C459F9B7D13A265D0A",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "n6jic0mfl80ueqccmc5ops83vh"
-            },
-            "b": {
-                "a": "pt",
-                "b": "CB396E9936397E3078B2C9F94DAE58B6",
-                "c": false,
-                "d": "Tendência",
-                "e": "Meio-elfos compartilham a veia caótica da sua herança élfica. Eles valorizam tanto a sua liberdade quanto sua expressão criativa, não demonstrando qualquer apresso por líderes ou seguidores. Eles se irritam com regras, ressentindo com exigências de outros e, as vezes, se provam incertos, ou pelo menos, imprevisíveis.",
-                "f": true,
-                "uuid": "06967FBA8518F4C459F9B7D13A265D0A"
-            }
-        },
-        {
-            "a": {
-                "a": "5471AD089D1678A4065BD1B89C33EA3C",
-                "b": "pqr655ngamrecoaeucv15s5j7k",
-                "c": "",
-                "uuid": "pbs51kvb66ovngr7v6jek6bv1"
-            },
-            "b": {
-                "a": "pt",
-                "b": "CB396E9936397E3078B2C9F94DAE58B6",
-                "c": false,
-                "d": "Tamanho",
-                "e": "Meio-elfos tem aproximadamente a mesma altura dos humanos, variando entre 1,50 metro e 1,80 metro. Seu tamanho é Médio.",
-                "f": true,
-                "uuid": "5471AD089D1678A4065BD1B89C33EA3C"
             }
         },
         {
@@ -1401,36 +1378,70 @@
         },
         {
             "a": {
-                "a": "5B0FA3C28DA1F140A6425C3C42D2412A",
+                "a": "C6323B2E9274DE98FD5354FED500FAD7",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "bvn9ld9mdm7hh4nnhmp1ib94fm"
+                "uuid": "3cljkm6f6chmjq5rra1u43b5ba"
             },
             "b": {
                 "a": "pt",
                 "b": "CB396E9936397E3078B2C9F94DAE58B6",
                 "c": false,
-                "d": "Visão no Escuro",
-                "e": "Graças ao seu sangue élfico, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
+                "d": "Idade",
+                "e": "Meio-elfos atingem a maturidade ao mesmo tempo que os humanos atingem a idade adulta, por volta dos 20 anos. Eles vivem muito mais que os humanos, no entanto, raramente ultrapassam os 180 anos.",
                 "f": true,
-                "uuid": "5B0FA3C28DA1F140A6425C3C42D2412A"
+                "uuid": "C6323B2E9274DE98FD5354FED500FAD7"
             }
         },
         {
             "a": {
-                "a": "4B1752AA5BBCFA63EBB557276CF7A6EC",
+                "a": "C8127471918CBEDEB2BB00DA2396C57E",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "dd9252bcgesdf8njqm7i89v5d7"
+                "uuid": "lat8g20qvvem0q5p9950qcfq58"
             },
             "b": {
                 "a": "pt",
                 "b": "CB396E9936397E3078B2C9F94DAE58B6",
                 "c": false,
-                "d": "Ancestral Feérico",
-                "e": "Você possui vantagem em testes de resistência contra encantamento e magia não pode colocar você pra dormir.",
+                "d": "Idiomas",
+                "e": "Você sabe falar, ler e escrever Comum, Élfico e um idioma adicional, à sua escolha.",
                 "f": true,
-                "uuid": "4B1752AA5BBCFA63EBB557276CF7A6EC"
+                "uuid": "C8127471918CBEDEB2BB00DA2396C57E"
+            }
+        },
+        {
+            "a": {
+                "a": "5471AD089D1678A4065BD1B89C33EA3C",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "pbs51kvb66ovngr7v6jek6bv1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Tamanho",
+                "e": "Meio-elfos tem aproximadamente a mesma altura dos humanos, variando entre 1,50 metro e 1,80 metro. Seu tamanho é Médio.",
+                "f": true,
+                "uuid": "5471AD089D1678A4065BD1B89C33EA3C"
+            }
+        },
+        {
+            "a": {
+                "a": "06967FBA8518F4C459F9B7D13A265D0A",
+                "b": "pqr655ngamrecoaeucv15s5j7k",
+                "c": "",
+                "uuid": "n6jic0mfl80ueqccmc5ops83vh"
+            },
+            "b": {
+                "a": "pt",
+                "b": "CB396E9936397E3078B2C9F94DAE58B6",
+                "c": false,
+                "d": "Tendência",
+                "e": "Meio-elfos compartilham a veia caótica da sua herança élfica. Eles valorizam tanto a sua liberdade quanto sua expressão criativa, não demonstrando qualquer apresso por líderes ou seguidores. Eles se irritam com regras, ressentindo com exigências de outros e, as vezes, se provam incertos, ou pelo menos, imprevisíveis.",
+                "f": true,
+                "uuid": "06967FBA8518F4C459F9B7D13A265D0A"
             }
         },
         {
@@ -1452,19 +1463,19 @@
         },
         {
             "a": {
-                "a": "C8127471918CBEDEB2BB00DA2396C57E",
+                "a": "5B0FA3C28DA1F140A6425C3C42D2412A",
                 "b": "pqr655ngamrecoaeucv15s5j7k",
                 "c": "",
-                "uuid": "lat8g20qvvem0q5p9950qcfq58"
+                "uuid": "bvn9ld9mdm7hh4nnhmp1ib94fm"
             },
             "b": {
                 "a": "pt",
                 "b": "CB396E9936397E3078B2C9F94DAE58B6",
                 "c": false,
-                "d": "Idiomas",
-                "e": "Você sabe falar, ler e escrever Comum, Élfico e um idioma adicional, à sua escolha.",
+                "d": "Visão no Escuro",
+                "e": "Graças ao seu sangue élfico, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
                 "f": true,
-                "uuid": "C8127471918CBEDEB2BB00DA2396C57E"
+                "uuid": "5B0FA3C28DA1F140A6425C3C42D2412A"
             }
         }
     ],
@@ -1506,24 +1517,6 @@
         {
             "a": {
                 "a": "pqr655ngamrecoaeucv15s5j7k",
-                "b": "7E47E0099B0DC5B64DF0D614D89997B3",
-                "c": "",
-                "uuid": "8fio98pthq20qbs6vbpo4tjmot"
-            },
-            "b": {
-                "a": "pt",
-                "b": false,
-                "c": "Élfico",
-                "d": "O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
-                "e": "Elfos",
-                "f": "Élfico",
-                "g": true,
-                "uuid": "7E47E0099B0DC5B64DF0D614D89997B3"
-            }
-        },
-        {
-            "a": {
-                "a": "pqr655ngamrecoaeucv15s5j7k",
                 "b": "53EF31A0D71C9A1D4849A23A8001A87C",
                 "c": "",
                 "uuid": "pdlirscn0ggvil4tohdj25p9jp"
@@ -1555,6 +1548,24 @@
                 "f": "Dracônico",
                 "g": true,
                 "uuid": "D7E0C283829246E5E15CC2EF71D15038"
+            }
+        },
+        {
+            "a": {
+                "a": "pqr655ngamrecoaeucv15s5j7k",
+                "b": "7E47E0099B0DC5B64DF0D614D89997B3",
+                "c": "",
+                "uuid": "8fio98pthq20qbs6vbpo4tjmot"
+            },
+            "b": {
+                "a": "pt",
+                "b": false,
+                "c": "Élfico",
+                "d": "O Élfico é um idioma fluido, com entonações sutis e gramática complexa. A literatura élfica é rica e diversa, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem essa língua para que possam adicionar canções élficas ao seu repertório.",
+                "e": "Elfos",
+                "f": "Élfico",
+                "g": true,
+                "uuid": "7E47E0099B0DC5B64DF0D614D89997B3"
             }
         },
         {

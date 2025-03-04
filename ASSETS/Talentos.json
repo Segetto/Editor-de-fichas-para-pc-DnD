@@ -1,680 +1,674 @@
 [
-  {
-    "uuid": "3187AF6D0CA4EA648859D9160EC6B329",
-    "d": "Agarrador",
-    "c": "Pré-requisito: Força 13 ou maior\nVocê desenvolveu a perícia necessária para se prender a alguém em um combate engajado. Você recebe os seguintes benefícios:\n - Você tem vantagem nas jogadas de ataque contra uma criatura agarrada.\n - Você pode usar sua ação para tentar imobilizar uma criatura agarrada por você. Para tanto, realize outro teste de agarrar. Se você for bem sucedido, você e a criatura estarão ambos impedidos até o agarre terminar.",
-    "a": "pt"
-  }, 
-  { 
-      "uuid":"10982429556008190467908621531227", 
-      "d": "ACROBATA", 
-      "c": " Você se torna mais ágil, ganhando os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia Acrobacia. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Com uma ação bônus, você pode fazer um teste de Destreza de CD 15 (Acrobacia). Se você conseguir, terreno difícil não lhe custa deslocamento extra até o final do turno atual.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"79432049702869504879041711080430", 
-      "d": "ADEPTO ELEMENTAL", 
-      "c": " Pré-requisito: Capacidade de conjurar pelo menos \n uma magia Quando você ganha esse talento, escolha um dos tipos de dano a seguir: ácido, elétrico, fogo, frio ou trovão. As magias que você conjurar ignoram resistência a dano do tipo escolhido. Além disso, quando você rola o dano para uma magia que você conjurar que causar dano desse tipo, você pode tratar qualquer 1 num dado de dano como um 2. Você pode escolher esse talento diversas vezes. A cada vez que o fizer, você deve escolher um tipo diferente de dano.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"40810211811596673355769768839831", 
-      "d": "ADEPTO MARCIAL", 
-      "c": " Você tem treinamento marcial que permite a você realizar manobras de combate especiais. Você ganha os seguintes benefícios: Você aprende duas manobras, à sua escolha, das que estão disponíveis ao arquétipo Mestre de Batalha na classe guerreiro. Se a manobra que você usar obrigar um alvo a realizar um teste de resistência, a CD do teste de resistência será igual a 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha). Se você já tiver dados de superioridade, você ganha um adicional; do contrário, você terá um dado de superioridade, que é um d6. Esse dado é usado para abastecer suas manobras. Um dado de superioridade é gasto quando você o usa. Você recupera seus dados de superioridade gastos quando termina um descanso curto ou longo. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"73966466191807462059591125982497", 
-      "d": "AGILIDADE RASTEIRA", 
-      "c": " Pré-requisito: Anão, Gnomo ou Halfling \n Você é excepcionalmente ágil para sua raça. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Destreza em 1, até um máximo de 20. Aumente seu deslocamento para 1,5 metros. Você ganha proficiência na perícia Acrobacia ou Atletismo. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"95638286866809929242580731758026", 
-      "d": "AGRESSÃO ORC", 
-      "c": " Pré-requisito: Meio-Orc \n Com uma ação bônus, você pode mover seu deslocamento em direção a um inimigo de sua escolha que você possa ver ou ouvir. Você deve terminar este movimento mais perto do inimigo do que começou.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"39988676380618826008973794315190", 
-      "d": "ALERTA", 
-      "c": " Sempre a espera de perigo, você ganha os seguintes benefícios: Você recebe +5 de bônus em iniciativa. Você não pode ser surpreso enquanto estiver consciente. Outras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"17409641008774446853378196030299", 
-      "d": "ALQUIMISTA", 
-      "c": " Você tem estudado os segredos da alquimia, tornando-se um mestre em sua prática, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, para no máximo 20. Você ganha proficiência com os suprimentos de alquimista. Se você já for proficiente, dobre o seu bônus de proficiência nos testes que você fizer com estes suprimentos. Como uma ação, você pode identificar uma poção a até 1,5 metros de você, como se você a tivesse provado. Você deve poder ver o líquido para este benefício funcionar. Durante o seu descanso curto, você pode aprimorar temporariamente a potência de uma poção de cura de qualquer raridade. Para usar este benefício, você deve ter os suprimentos de alquimista com você, e uma poção ao seu alcance. Se a poção for utilizada a até 1 hora após o término do descanso curto, a criatura que bebeu a poção pode desistir de jogar os dados da poção e recuperar o número máximo de pontos de vida que a poção pode restaurar.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"92011834253285287835951995156801", 
-      "d": "ALTA MAGIA DROW", 
-      "c": " Pré-requisito: Elfo (drow) \n Você aprende mais magias típicas do seu povo. Você aprende detectar magia e pode conjurá-la à vontade, sem gastar espaços de magia. Você também aprende levitar e dissipar magia, cada um dos qual você pode conjurar uma vez sem gastar um espaço de magia. Você recupera a habilidade de conjurar a magia desta forma quando você terminar um descanso longo. Carisma é sua habilidade de conjuração para essas magias.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"70143193668082458870209929150102", 
-      "d": "AMBIDESTRO", 
-      "c": " Você dominou o estilo de luta com duas armas, ganhando os seguintes benefícios: Você ganha +1 de bônus na CA enquanto estiver empunhando uma arma corpo-a-corpo em cada mão. Você pode usar combater com duas armas mesmo que a arma de uma mão que você está empunhando não seja leve. Você pode sacar ou guardar duas armas de uma mão quando você, normalmente, seria capaz de sacar ou guardar apenas uma.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"45407270092929645123495562467889", 
-      "d": "AMEAÇADOR", 
-      "c": " Você se torna temível para os outros, ganhando os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia Intimidação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de ataque em seu turno, você pode substituir um ataquepor uma tentativa de desmoralizar um humanoide que você possa ver a até 9 metros de você que possa ver e ouvilo. Faça um teste de Carisma (Intimidação) contestado por um teste de Sabedoria (Intuição) do alvo. Se o seu teste for bem-sucedido, o alvo fica assustado até o final do seu próximo turno. Se o seu teste falhar, o alvo não pode ser assustado por você desta maneira por 1 hora. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"96072598214748066579299592237804", 
-      "d": "AMIGO ANIMAL", 
-      "c": " Pré-requisito: Gnomo (floresta) \n Sua amizade com os animais se aprofunda misticamente. Você ganha os seguintes benefícios: Você ganha proficiência na perícia Lidar com Animais. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela. Você aprende a magia falar com animais e pode conjurar ela à vontade, sem gastar um espaço de magia. Você também aprende a magia amizade animal, e você pode conjurar ela uma vez com este feito, sem gastar um espaço de magia. Você recupera a capacidade de conjurá-la desta maneira quando você terminar um descanso longo. A inteligência é sua habilidade de conjuração para essas magias.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"21006804807929257650081188108352", 
-      "d": "AMIGO DE TODOS", 
-      "c": " Pré-requisito: Meio-Elfo \n Você desenvolve sua personalidade magnética para facilitar seu caminho através do mundo. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência nas perícias Enganação e Persuasão. Se você já for proficiente em qualquer uma delas, seu bônus de proficiência é dobrado para qualquer teste que você fizer com essa perícia.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"25080888869343995032902552549072", 
-      "d": "ARCANISTA", 
-      "c": " Você estuda as artes arcanas, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia Arcanismo. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você aprende as magias prestidigitação e detectar magia. Você pode conjurar detectar magia uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"94876150648831616374817812320451", 
-  "d": "ARROMBADOR",
-       "c": " Você se orgulha de sua velocidade e estudos minuciosos de certas atividades clandestinas. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, para no máximo 20. Você ganha proficiência com as ferramentas de ladrão. Se você já é proficiente, dobre o seu bônus de proficiência nos testes feitos com estas ferramentas.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"88006905945187350246756263798069", 
-      "d": "ARTISTA", 
-      "c": " Você domina a atuação de modo que você pode comandar qualquer palco. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia atuação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Durante a atuação, você pode tentar distrair um humanoide que você possa ver e que pode ver e ouvi-lo. Faça um teste de Carisma (Atuação) contestado por um teste de Sabedoria (Intuição) do humanoide. Se o seu teste for bem sucedido, você pega a atenção do humanoide o suficiente para fazer com que a Sabedoria (Percepção) e a Inteligência (Investigação) sejam feitos com desvantagem até que você pare de se apresentar.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"25426395023130554471997883084176", 
-      "d": "ASAS DE DRAGÃO", 
-      "c": " Pré-requisito: Draconato \n Você cria asas dracônicas. Com suas asas, você tem um deslocamento de vôo de 6 metros se você não estiver usando armadura pesada e não estiver excedendo sua capacidade de carga.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"58444298151162386673100823062438", 
-      "d": "ASAS URD", 
-      "c": " Pré-requisito: Kobold \n Você desenvolveu asas de couro, transformando-se em um urd. Você recebe os seguintes beneficios: Aumente seu valor de Destreza em 1, até o máximo de 20. Você ganha um descolamento de voo de 9 metros. Para usar esse deslocamento você não pode estar usando armadura média ou pesada.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"91130632358139198037914114590841", 
-      "d": "ATACANTE BESTIAL", 
-      "c": " Uma vez por turno, quando você rolar o dano para um ataque corpo-a-corpo com arma, você pode jogar novamente o dado de dano da arma e usar qualquer dos valores. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"36686352628103054328707189340518", 
-      "d": "ATIRADOR AGUÇADO", 
-      "c": " Você dominou o uso de armas à distância e pode realizar tiros que seriam impossíveis para outros. Você ganha os seguintes benefícios: Atacar um alvo além da distância normal não impõe desvantagem nas suas jogadas de ataque com armas à distância. Seus ataques com armas à distância ignoram meia cobertura e três-quartos de cobertura. Antes de realizar um ataque com uma arma à distância na qual você seja proficiente, você pode escolher sofrer –5 de penalidade na jogada de ataque. Se o ataque atingir, você adiciona +10 no dano do ataque.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"65745972377439811005765955286584", 
-      "d": "ATIRADOR DE MAGIA", 
-      "c": " Pré-requisito: Capacidade de conjurar pelo menos \n uma magia Você aprendeu técnicas para aprimorar seus ataques com certos tipos de magia, ganhando os seguintes benefícios: Quando você conjura uma magia que requer que você realize uma jogada de ataque, o alcance da magia é dobrado. Seus ataques à distância com magia ignoram meia cobertura ou três-quartos de cobertura. Você aprende um truque que requer uma jogada de ataque. Escolha o truque da lista de magias do bardo, bruxo, clérigo, druida, feiticeiro ou mago. Sua habilidade de conjuração para esse truque depende da lista de magia a qual você escolheu o truque: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"04508302133648054334047274996130", 
-      "d": "ATLETA",
-      "c": " Você passou por extenso treinamento físico para ganhar os seguintes benefícios: Aumente seu valor de Força ou Destreza em 1, até o máximo de 20. Quando você estiver caído, se levantar requer apenas 1,5 m do seu deslocamento. Escalar não custa movimento adicional a você. Você pode realizar um salto em distância correndo ou um salto em altura correndo se movendo apenas um passo de ajuste de 1,5 m, ao invés de 3 m.",
-      "a": "pt"
-  }, 
-  {
-    "uuid":"41436421940222523445496460397226",
-    "d": "ATOR",
-    "c": "Perito em mimica e dramaturgia, você recebe os seguintes benefícios: Aumente seu valor de Carisma em 1, até o máximo de 20. Você tem vantagem em testes de Carisma (Atuação) e Carisma (Enganação) quando você estiver tentando se passar por uma pessoa diferente. Você pode imitar a articulação de outra pessoa ou os sons feitos por outras criaturas. Você deve ter ouvido a pessoa falando ou ouvido a criatura fazendo o som por, pelo menos, 1 minuto. Um sucesso num teste de Sabedoria (Intuição) resistido pelo seu teste de Carisma (Enganação) permite que um ouvinte determine que o efeito é falso.",
-    "a": "pt"
-  },
-  { 
-      "uuid":"80222888745608749292099561784249", 
-      "d": "BEM DESCANSADO", 
-      "c": " Pré-requisito: Bugbear \n Suas cochiladas o deixam revigorado quando você está acordado. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Destreza em 1, até o máximo de 20. Quando você usa um dado de vida durante um descanso curto, recupera 1d6 pontos de vidas adicionais. No final de um descanso longo, você ganha inspiração (descrita no capítulo 4 do Livro do Jogador).",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"25254065843741456746744259071201", 
-  "d": "CHAMAS DE PHLEGETHOS",
-       "c": " Pré-requisito: Tiefling \n Você aprende a invocar o fogo do inferno para servir seus comandos. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência ou Carisma em 1, até um máximo de 20. Quando você rolar dano de fogo para uma magia que você conjurar, você pode rolar novamente qualquer rolagem de 1 no dado de dano de fogo, mas você deve usar a nova rolagem, mesmo que seja outro 1. Sempre que você conjurar um feitiço que inflige dano de fogo, você pode fazer com que as chamas o envolvam até o final do próximo turno. As chamas não prejudicam você ou seus pertences, e eles lançam luz brilhante a ate 9 metros e luz fraca por mais 9 metros. Enquanto as chamas estão presentes, qualquer criatura a até 1,5 metros de você que ataque com um ataque corpo a corpo leva 1d4 de dano de fogo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"18284193077455550483673267072688", 
-      "d": "COMBATENTE MONTADO", 
-      "c": " Você é um oponente perigoso de se enfrentar quando está montado. Enquanto estiver montado e não estiver incapacitado, você ganha os seguintes benefícios: Você tem vantagem nas jogadas de ataque corpoa-corpo contra qualquer criatura desmontada que seja menor que a sua montaria. Você pode forçar que um ataque direcionado a sua montaria seja direcionado a você, em seu lugar. Se sua montaria for alvo de um efeito que permita a ela realizar um teste de resistência de Destreza para reduzir o dano à metade, ao invés disso, ela não sofre qualquer dano se for bem sucedida no teste de resistência, e apenas metade se falhar.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"18809708502741999499798000583043", 
-      "d": "CONJURADOR DE GUERRA", 
-      "c": " Pré-requisito: Capacidade de conjurar pelo menos uma \n magia Você praticou a conjuração de magias no meio do combate, aprendendo técnicas que lhe concedem os seguintes benefícios: Você tem vantagem em testes de resistência de Constituição para manter sua concentração em uma magia quando você sofrer dano. Você pode realizar os componentes somáticos de uma magia mesmo quando está com armas ou um escudo em uma ou ambas as mãos. Quando o movimento de uma criatura hostil provocar um ataque de oportunidade para você, você pode usar sua reação para conjurar uma magia na criatura, ao invés de realizar o ataque de oportunidade. A magia deve ter um tempo de conjuração de 1 ação e deve ter apenas uma criatura como alvo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"37019082718375455838580035452545", 
-  "d": "CONJURADOR DE RITUAL",
-       "c": " Pré-requisito: Inteligência ou Sabedoria 13 ou maior \n Você aprendeu um número de magias que você pode conjurar como rituais. Essas magias são escritas em um livro de rituais, o qual deve estar em suas mãos enquanto você conjura uma dessas magias. Quando você escolhe esse talento, você adquire um livro de rituais que contem duas magias de 1° nível, à sua escolha. Escolha uma das seguintes classes: bardo, bruxo, clérigo, druida, feiticeiro ou mago. Você deve escolher suas magias da lista de magias dessa classe e as magias escolhidas devem ter o descritor ritual. A classe que você escolheu também determina a habilidade de conjuração dessas magias: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago. Se você encontrar uma magia na forma escrita, como a contida em um pergaminho de magia ou o grimório de um mago, você é capaz de adicioná-la ao seu livro de rituais. A magia deve estar na lista de magias da classe escolhida, o nível da magia não pode ser maior que metade do seu nível (arredondado para cima) e deve conter o descritor ritual. O processo para copiar a magia no seu livro de rituais leva 2 horas por nível da magia e custa 50 po por nível. O custo representa os componentes materiais que você gasta para experimentar a magia até dominá-la, bem como as finas tintas utilizadas para escrevê-la.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"24309033073025848870899337696033", 
-      "d": "CONSTITUIÇÃO INFERNAL", 
-      "c": " Pré-requisito: Tiefling \n O sangue diabólico corre forte em você. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até um máximo de 20. Você tem resistência a dano de frio e venenoso. Você tem vantagem em teste de resistência contra ser envenenado.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"29016915400377234845631568027731", 
-  "d": "CRIADOR DE MARAVILHAS",
-       "c": " Pré-requisito: Gnomo (rochas) \n Você domina as técnicas do seu povo. Você ganha os seguintes benefícios: Aumente seu valor de Destreza ou Inteligência em 1, até um máximo de 20. Quando você faz um teste usando sua proficiência com as ferramentas de artesão, você adiciona o dobro do seu bônus de proficiência ao teste. Quando você faz um dispositivo com suas ferramentas de artesão, você tem as seguintes opções adicionais para o que você faz: Alarme. Este dispositivo detecta quando uma criatura se move para dentro de 4,5 metros dele sem falar em voz alta uma senha escolhida quando você o cria. Um turno depois que uma criatura se move em alcance, o alarme faz um toque estridente que dura 1 minuto e pode ser ouvido a até 90 metros de distância. Calculadora. Este dispositivo torna fácil fazer somas. Elevador. Este dispositivo pode ser usado como um bloco e roldana, permitindo seu usuário içar cinco vezes o peso que o usuário normalmente pode levantar. Cronometrista. Este relógio de bolso mantém o tempo exato. Sensor Climático. Quando usado como uma ação, este dispositivo prevê condições meteorológicas em um raio de 1,6 km durante as próximas 4 horas, mostrando um símbolo (nuvens, sol/lua, chuva ou neve) para cada hora.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"33071978805488758526389872418609", 
-      "d": "CURANDEIRO", 
-      "c": " Você é um cirurgião capacitado, permitindo que você trate de ferimentos rapidamente, trazendo seus aliados de volta à luta. Você adquire os seguintes benefícios: Quando você usar um kit de primeiros-socorros para estabilizar uma criatura morrendo, a criatura recupera 1 ponto de vida, ao invés disso. Com uma ação, você pode gastar um uso do kit de primeiros-socorros para tratar de uma criatura e restaurar 1d6 + 4 pontos de vida mais uma quantidade de pontos de vida adicionais igual ao número total de Dados de Vida da criatura. A criatura não pode recuperar pontos de vida através desse talento novamente até ter terminado um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"63881945213034573922857862780167", 
-      "d": "DEDOS RÁPIDOS", 
-      "c": " Seus dedos ágeis e agilidade permitem que você execute truques de mão. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia prestidigitação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Como uma ação bônus, você pode fazer um teste de Destreza (Prestidigitação) para plantar algo em outra pessoa, ocultar um objeto em uma criatura, roubar uma bolsa ou tirar algo de um bolso. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"51414413533201928660619900214264", 
-  "d": "DEFENDER A LEGIÃO", 
-  "c": " Pré-requisito: Hobgoblin \n Você nasceu para a vida na legião. Você recebe os seguintes beneficios: Aumente seu valor de Constituição ou Inteligência em 1, até o máximo de 20. Você pode dar um dano adicional de 2d6 em uma criatura que acerte com um ataque corpo-a- corpo com arma se a criatura estiver a até 1,5 metros de um aliado que não esteja incapacitado. Você pode usar essa característica apenas uma vez por combate. Você pode estender o beneficio de sua característica Rosto Salvador para um aliado. Como uma reação, se um aliado erra uma jogada de ataque ou falha num teste de resistência ou de habilidade, você pode conceder um bônus na jogada igual ao número de aliados que o possam ver a até 9 metros (incluindo você, bônus máximo de +5). Uma vez que utilize essa característica, não pode usa-la novamente até finalizar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"41068171247815813166836641664966", 
-      "d": "DESAPARECER", 
-      "c": " Pré-requisito: Gnomo \n Você pode extrair sua herança mágica para escapar do perigo. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Quando você recebe dano, você pode usar uma reação para tornar-se magicamente invisível até o final de seu próximo turno ou até você atacar, causar dano, ou forçar alguém a fazer um teste de resistência. Depois de usar essa habilidade, você não pode fazer isso novamente até que você termine um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"64422637768464794286089096288848", 
-      "d": "DETERMINAÇÃO HUMANA", 
-      "c": " Pré-requisito: Humano \n Você está cheio de uma determinação que pode trazer o inacessível ao seu alcance. Você ganha os seguintes benefícios: Aumente seu valor de uma habilidade em 1, até um máximo de 20. Quando você faz um ataque, um teste de habilidade ou um teste de resistência, você pode fazer isso com vantagem. Depois de usar essa habilidade, você não pode usá-la novamente até que você termine um descanso curto ou longo. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"74178838670885994830887695391910", 
-      "d": "DIPLOMATA", 
-      "c": " Você domina as artes da diplomacia, obtendo os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia Persuasão. e você já for proficiente nesta Perícia, você adiciona o dobro do seu bônus de proficiência aos testes feitos com ela. Se você gastar 1 minuto falando com alguém que possa entender o que você diz, você pode fazer um teste de Carisma (Persuasão) contestado por um teste de Sabedoria (Intuição) da criatura. Se você ou seus companheiros estão lutando contra a criatura, seu teste falha automaticamente. Se o teste for bem-sucedido, o alvo é encantado por você enquanto permanecer a até 18 metros de você e por 1 minuto depois disso.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"36109643868053443396494452051835", 
-      "d": "DOMADOR DE ANIMAIS", 
-      "c": " Você dominou as técnicas necessárias para treinar e lidar com animais. Você ganha os seguintes benefícios. Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia Adestrar Animais. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você pode usar uma ação bônus em seu turno para comandar uma besta amigável a até 18 metros de você que possa ouvi-lo e que não está atualmente seguindo o comando de outra pessoa. Você decide que ação a besta tomará e para onde se moverá durante seu próximo turno, ou emitirá um comando geral que durará 1 minuto, como para proteger uma determinada área.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"31957303053586236015425605907349", 
-      "d": "DUELISTA DEFENSIVO", 
-      "c": " Pré-requisito: Destreza 13 ou maior \n Quando você estiver empunhando uma arma de acuidade com a qual você seja proficiente e outra criatura atingir você com um ataque corpo-a-corpo, você pode usar sua reação para adicionar seu bônus de proficiência a sua CA para esse ataque, potencialmente fazendo o ataque errar. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"28146309898097113106481566021473", 
-      "d": "ELOQUENTE", 
-      "c": " Você desenvolveu sua habilidade de conversação para enganar melhor os outros. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia enganação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de Ataque em seu turno, você pode substituir um ataque com uma tentativa de enganar um humanoide que você possa ver a até 9 metros de você que possa ver e ouvir você. Faça um teste de Carisma (Enganação) contestado por um teste de Sabedoria (Intuição) do alvo. Se o seu teste for bem-sucedido, seu movimento não provocará ataques de oportunidade do alvo e seus ataques contra ele terão vantagem. Ambos os benefícios duram até o final do seu róximo turno ou até que você use essa habilidade em um alvo diferente. Se o seu teste falhar, o alvo não pode ser enganado por você desta maneira por 1 hora.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"75174311738273987416684701097016", 
-      "d": "EMPÁTICO", 
-      "c": " Você possui perspicácia afiada em como as outras pessoas pensam e sentem. Você ganha os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia Intuição. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que fizer com ela. Você pode usar sua ação para tentar obter uma visão misteriosa sobre um humanoide que você possa ver a até 1,5 metros de você. Faça um teste de Sabedoria (Intuição) contestado por um teste de Carisma (Enganação) do alvo. Se o seu teste for bem-sucedido, você terá vantagem nas rolagens de de ataque e nos testes de habilidade contra o alvo até o final de seu próximo turno.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"74239576776570360755581045159689", 
-  "d": "ESPECIALISTA EM BESTA",
-       "c": " Graças a sua pratica extensiva com bestas, você ganha os seguintes benefícios: Você ignora a qualidade de recarga de bestas nas quais você é proficiente. Estar a 1,5 m de uma criatura hostil não impõe desvantagem nas suas jogadas de ataque à distância. Quando você usa a ação de Ataque e ataca com uma arma de uma mão, você pode usar sua ação bônus para atacar com uma besta de mão carregada que você esteja empunhando.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"91689740143191736218906776633115", 
-      "d": "ESPECIALISTA EM BRIGA", 
-      "c": " Acostumado a brigas de bar usando qualquer coisa como armas, e na falta, os punhos, você ganha os seguintes benefícios: Aumente o valor de Força ou Constituição em 1, até o máximo de 20. Seus ataques desarmados causam 1d4 de dano. Quando você atinge uma criatura com um ataque desarmado ou com uma arma improvisada, no seu turno, você pode usar uma ação bônus para tentar agarrar o alvo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"59162838621567008298711768757033", 
-      "d": "EXPLORADOR DE CAVERNAS", 
-      "c": " Alerta às armadilhas escondidas e portas secretas encontradas em muitas masmorras, você ganha os seguintes benefícios: Você tem vantagem em testes de Sabedoria (Percepção) e de Inteligência (Investigação) feitos para detectar a presença de portas secretas. Você tem vantagem em testes de resistência feitos para evitar ou resistir a armadilhas. Você tem resistência ao dano causado por armadilhas. Você pode procurar armadilhas enquanto viaja a um ritmo normal, ao invés de metade do ritmo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"32492847954533379173121935628709", 
-  "d": "FORMA DE SERPENTE",
-       "c": " Pré-requisito: Yuan-ti Puro-Sangue \n Você liberou mais da sua herança dos homens serpente. Você recebe os seguintes benefícios: Aumente seu valor de Inteligência ou Carisma em 1, até o máximo de 20. Você pode usar uma ação para se transformar em uma cobra de tamanho Médio ou retornar para sua forma original. Suas estatísticas são as mesmas em cada forma. Qualquer equipamento que estiver usando ou carregando não é transformado. Se você morrer, permanece na forma atual. Enquanto estiver na forma de cobra, você ganha Mordida como um ataque natural, que pode ser usada para realizar ataques desarmados. Se você acertar o ataque, causa 1d4 +modificador de Força de dano perfurante, ao invés do dano de concussão característico de um ataque desarmado. Caso acerte o alvo, você pode escolher causar 2d6 de dano venenoso adicional. Uma vez que cause esse dano venenoso adicional, não pode fazê-lo novamente até terminar um descanso longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"35166408231910373544007844755583", 
-      "d": "FÚRIA ORC", 
-      "c": " Pré-requisito: Meio-Orc \n Sua fúria queima incansavelmente. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Constituição em 1, até um máximo de 20. Quando você ataca com um ataque feito com uma arma simples ou marcial, você pode rolar um dado de dano da arma adicional e adicioná-lo como dano extra do tipo de dano da arma. Depois de usar essa habilidade, você não pode usá-la novamente até que você termine um descanso curto ou longo. Imediatamente após você usar sua característica de resistência implacável, você pode usar sua reação para fazer um ataque com arma.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"55467368905212932054020768829389", 
-      "d": "FURTIVO", 
-      "c": " Você sabe como se esconder melhor. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia furtividade. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Se você estiver escondido, você pode mover-se até 3 metros no aberto sem revelar-se, se você terminar o deslocamento em uma posição onde você não está claramente visível.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"55593531439303567032117903039196", 
-  "d": "GOURMAND",
-       "c": " Você dominou uma variedade de receitas especiais, permitindo que você prepare pratos exóticos com diversos efeitos úteis. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, para no máximo 20. Você ganha proficiência com os utensílios de cozinheiro. Se você já for proficiente, dobre o seu bônus de proficiência nos testes realizados com estes utensílios. Como uma ação, você pode inspecionar uma bebida ou um prato de comida a até 1,5 metros de você e determinar se algum deles está envenenado, desde que você possa ver e cheirar. Durante um descanso longo, você pode preparar e servir uma refeição que ajuda você e seus aliados a recuperarem-se das mazelas de suas aventuras, desde que você possua comida adequada, os utensílios de cozinheiros e outros suprimentos à mão. A refeição alimenta até 6 pessoas e cada uma delas recupera 2 Dados de Vida adicionais ao final de seus respectivos descansos longo. Além disso, aqueles que partilharam da refeição possuem vantagem nos testes de resistência de Constituição realizados contra doenças pelas próximas 24 horas.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"56048422393081935010155592623876", 
-      "d": "GRACIOSIDADE FELINA", 
-      "c": " Pré-requisito: Tabaxi \n Seus incríveis reflexos e agilidade são melhorados ainda mais. Você recebe os seguintes beneficios. Aumente seu valor de Destreza em 1, até o máximo de 20. Você pode usar seu traço Agilidade Felina duas vezes antes de ter que permanecer sem se mover em um turno para poder usar o traço novamente. Você ainda pode usar esta característica somente uma vez por turno quando se move. Você não recebe dano de queda de até 6 metros ou menos, caso não esteja incapacitado.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"38721571805983251979830650814690", 
-      "d": "GUARDIÃO DO CÉU", 
-      "c": " Pré-requisito: Aarakocra \n Você foi treinado para ser um batedor dos céus e em combate aéreo. Você recebe os seguintes benefícios: Aumente seu valor de Destreza ou Sabedoria em 1, até o máximo de 20. Você ganha proficiência na pericia Percepção caso ainda não possua. Você adiciona o dobro de seu bônus de proficiência para os testes de Percepção em testes relacionados à visão. Uma vez por turno, se você estiver voando e realizar um mergulho de pelo menos 9 metros em direção ao alvo e o então atingir com um ataque corpo-a-corpo com arma, o ataque causa 1d6 de dano adicional ao alvo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"46230046689267553105754129469988", 
-  "d": "HERANÇA DAO",
-       "c": " Pré-requisito: Genasi (terra) \n Você manifesta mais do poder mágico de sua herança dao. Você recebe os seguintes benefícios: Aumente seu valor de Força ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você ganha armadura natural. Quando não estiver vestindo armadura, sua CA é calculada como 13 + modificador de Destreza. Você pode usar um escudo e ainda ganhar esse benefício.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"67319203084329791444095538303827", 
-      "d": "HERANÇA DJINN", 
-      "c": " Pré-requisito: Genasi (ar) \n Você manifesta mais do poder mágico de sua herança djinn. Você recebe os seguintes benefícios: Aumente seu valor de Destreza ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você tem resistência a dano elétrico e trovejante.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"83650413604636907616226582476809", 
-      "d": "HERANÇA EFREET", 
-      "c": " Pré-requisito: Genasi (fogo) \n Você manifesta mais do poder mágico de sua herança efreet. Você recebe os seguintes beneficios: Aumente seu valor de Inteligência ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Sua visão no escuro com um alcance de 36 metros.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"46856970098125196202052461413828", 
-      "d": "HERANÇA MARID", 
-      "c": " Pré-requisito: Genasi (água) \n Você manifesta mais do poder mágico de sua herança madrid Você recebe os seguintes beneficios: Aumente seu valor de Sabedoria ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você tem Resistência a Frio.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"49067228359419113963071158352214", 
-      "d": "HISTORIADOR", 
-      "c": " Seu estudo da história recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia História. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de Ajuda para ajudar o teste de habilidade de outra criatura, você pode fazer um teste de CD 15 Inteligência (História). Em  um sucesso, o teste da criatura ganha um bônus igual ao seu bônus de proficiência, à medida que compartilhar conselhos pertinentes e exemplos históricos. Para receber esse bônus, a criatura deve ser capaz de entender o que você está dizendo.",
-      "a": "pt"
-  },  
-  { 
-      "uuid":"23763767514375461439517854908074", 
-      "d": "IMOBILIZADOR", 
-      "c": " Pré-requisito: Força 13 ou maior \n Você desenvolveu a perícia necessária para se prender a alguém em um combate engajado. Você recebe os seguintes benefícios: Você tem vantagem nas jogadas de ataque contra uma criatura agarrada. Você pode usar sua ação para tentar imobilizar uma criatura agarrada por você. Para tanto, realize outro teste de agarrar. Se você for bem-sucedido, você e a criatura estarão ambos impedidos até o agarre terminar.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"49023062389369695199621294411891", 
-      "d": "INICIADO EM MAGIA", 
-      "c": " Escolha uma classe: bardo, bruxo, clérigo, druida, feiticeiro ou mago. Você aprende dois truques da lista de magias da classe escolhida. Além disso, escolha uma magia de 1° nível da mesma lista. Você aprende essa magia e pode conjura-la com o menor nível possível. Uma vez que a conjure, você precisa terminar um descanso longo para poder conjura-la novamente. Essa restrição aplica-se apenas à magia adquirida através desse talento. Sua habilidade de conjuração depende da classe que você escolher: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"81920793517602167568358481285535", 
-      "d": "INVESTIDA PODEROSA", 
-      "c": " Quando você usa a ação de Disparada, você pode usar sua ação bônus para realizar um ataque corpo-acorpo com arma ou para empurrar uma criatura. Se você se mover, pelo menos, 3 metros em linha reta, imediatamente antes de realizar essa ação bônus, você pode tanto ganhar +5 de bônus na jogada de dano do ataque (se você escolher realizar um ataque corpo-a-corpo e atingir) ou empurrar o alvo até 3 metros de você (se você escolher empurrar e for bem sucedido). ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"53652546468992813591451728872030", 
-      "d": "INVESTIGADOR", 
-      "c": " Você tem um olho para o detalhe e pode pegar as pistas menores. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia investigação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você pode usar a ação de procurar como uma ação bônus.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"95289220197406666739305444897466", 
-      "d": "LÍDER INSPIRADOR", 
-      "c": " Pré-requisito: Carisma 13 ou maior \n Você pode gastar 10 minutos inspirando seus companheiros, suportando a vontade deles de lutar. Quando fizer isso, escolha até seis criaturas amigáveis (que pode incluir você) a até 9 metros de você que possam ver ou ouvir você e possam te compreender. Cada criatura ganha pontos de vida temporários igual ao seu nível + seu modificador de Carisma. Uma criatura não pode ganhar pontos de vida temporários desse talento novamente até terminar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"32783267073111415531153511828822", 
-  "d": "MAESTRIA COM LANÇA",
-       "c": " Embora a lança seja uma arma simples de se aprender, ela recompensa todo o tempo que você leva para dominá-la. Você ganha os seguintes benefícios: Você ganha +1 de bônus nas jogadas de ataque realizados com a lança. Quando você usar uma lança, o dado de dano da lança muda de d6 para d8 e de d8 para d10 quando você a estiver empunhando com as duas mãos. (Este benefício não possui efeito se outra característica já tiver aprimorado o dado de dano da arma). Você pode ajustar sua lança para receber uma investida. Como uma ação bônus, escolha uma criatura que você possa ver a até 6 m de você. Se esta criatura se mover para dentro do alcance de sua lança em seu próximo turno, você pode fazer um ataque corpo-a-corpo com sua lança como uma reação. Se o ataque acertar, o alvo sofre um dano adicional de 1d8 perfurante, ou um dano adicional de 1d10 perfurante se você estiver empunhando a lança com as duas mãos. Você não pode usar esta habilidade se a criatura usar a ação Desengajar antes de se mover. Como uma ação bônus no seu turno, você pode aumentar seu alcance com a lança em 1,5 m pelo resto do seu turno.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"07043973599433410966143732058658", 
-      "d": "MAESTRIA EM ARMA DE HASTE", 
-      "c": " Você consegue manter seus inimigos afastados utilizando armas de haste. Você ganha os seguintes benefícios: Quando você realiza a ação de Ataque e ataca com uma glaive, alabarda ou bordão, você pode usar uma ação bônus para realizar um ataque corpo-a-corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de habilidade do ataque primário. O dado de dano da arma para esse ataque é um d4 e o ataque causa dano de concussão. Enquanto você estiver empunhando uma glaive, alabarda, lança longa ou bastão, as outras criaturas provocam um ataque de oportunidade a você quando entrarem no seu alcance.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"08901668497797496219440177010034", 
-      "d": "MAESTRIA EM ARMADURA MÉDIA", 
-      "c": " Pré-requisito: Proficiência em armadura média \n Você praticou seus movimentos usando armaduras pesadas para ganhar os seguintes benefícios: Vestir uma armadura média não lhe impõe desvantagem em testes de Destreza (Furtividade). Quando você estiver vestindo uma armadura média, você pode adicionar 3, ao invés de 2, à sua CA, se você tiver Destreza 16 ou maior.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"57130368322817358845207774509064", 
-      "d": "MAESTRIA EM ARMADURA PESADA", 
-      "c": " Pré-requisito: Proficiência em armadura pesada \n Você pode usar sua armadura para defletir ataques potencialmente fatais a outros. Você ganha os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Quando você estiver vestindo uma armadura pesada, dano de concussão, cortante e perfurante que você receba de ataques não-mágicos será reduzido em 3.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"19930882825654713853642401827602", 
-  "d": "MAGIA BESTIAL FIRBOLG",
-       "c": " Pré-requisito: Firbolg \n Sua conexão com os animais se toma mais profunda. Você aprende a magia falar com animais e pode conjura-la à vontade, sem utilizar um espaço de magia. Você também aprende as magias amizade animal e sentido bestial, que você pode conjurar uma vez cada, sem gastar espaços de magia. Você recupera a habilidade de conjurar essas duas magias com essa característica terminando um descanso longo. Sabedoria é sua habilidade de conjuração para todas as três magias. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"65037757196522630117833986465180", 
-      "d": "MAGIA DAS PROFUNDEZAS TRITÔNICAS", 
-      "c": " Pré-requisito: Tritão \n Você domina mais que a magia elemental do ar e da água. Você aprende a magia criar ou destruir água e pode conjura-la como uma magia de 1o nível a vontade, sem gastar espaço de magia. Você também aprende as magias vento protetor e respirar na água, que pode conjurar uma vez cada, sem gastar espaços de magia. Você recupera a habilidade de conjurar essas duas magias com essa caracteristica terminando um descanso longo. Carisma é sua habilidade de conjuração para todas as três magias.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"63880166429828117000772056930153", 
-      "d": "MAGIA DO ELFO DA FLORESTA", 
-      "c": " Pré-requisito: Elfo (floresta) \n Você aprende a magia primitiva da floresta. Você aprende um truque de Druida a sua escolha. Você também aprende passos longos e passos sem pegadas, cada um do qual você pode conjurar uma vez sem gastar um espaço de magia. Você recupera a habilidade de conjurar estas magias desta forma quando você terminar um descanso longo. Sabedoria é sua habilidade de conjuração para essas magias.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"18500229941115888754613446821356", 
-      "d": "MAGIA SVIRFNEBLIN", 
-      "c": " Pré-Requisito: Gnomo (gnomo das profundezas) \n Você herdou a habilidade de conjuração inata dos seus ancestrais. Esta habilidade permite você conjurar não detecção em si mesmo sem limite e sem precisar de componente material. Você também pode lançar cada uma das seguintes magias com esta habilidade: cegueira/surdez, borrão e disfarce. Você recupera a habilidade de lançar estas magias novamente quando terminar um descanso longo. Inteligência é sua habilidade de conjuração para estas magias.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"73397705533164125349794010999063", 
-      "d": "MÃOS DESTRUIDORAS",
-      "c": " Você se tornou um mestre da machadinha, machado de batalha, machado grande, martelo de guerra e malho. Você ganha os seguintes benefícios quando estiver usando uma destas armas: Você ganha +1 de bônus nas jogadas de ataque que fizer com a arma. Toda vez que você tiver vantagem nas jogadas de ataque corpo-a-corpo feitas com a arma e acertar, você pode derrubar o oponente se o resultado menor dentre os dois d20 ainda acertar o oponente. Toda vez que você sofrer desvantagem em uma jogada de ataque corpo-a-corpo feita com a arma, o alvo sofre dano de concussão igual ao seu modificador de Força (mínimo de 0) se o ataque errar, mas se o maior resultado de um dos d20 acertar o oponente. Se você usar a ação Ajudar para prestar auxílio a um ataque corpo-a-corpo de um aliado, enquanto você estiver empunhando a arma, você pode empurrar o escudo do oponente momentaneamente. Além de o aliado ganhar vantagem na jogada de ataque, o aliado também ganha +2 de bônus na jogada de ataque se o alvo estiver usando um escudo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"58489729571646060801108981886659", 
-      "d": "MATADOR DE CONJURADORES", 
-      "c": " Você praticou técnicas úteis em combate corpo-a-corpo contra conjuradores, ganhando os seguintes benefícios: Quando uma criatura a até 1,5 m de você conjurar uma magia, você pode usar sua reação para realizar um ataque corpo-a-corpo contra ela. Quando você causa dano em uma criatura que está se concentrando em uma magia, a criatura terá desvantagem no teste de resistência que ela fizer para manter a concentração. Você tem vantagem em testes de resistência contra magias conjuradas por criaturas a até 1,5 m de você.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"10455167929188097301488537425405", 
-  "d": "MÉDICO",
-       "c": " Você domina as artes médicas, obtendo os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia medicina. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Durante um descanso curto, você pode limpar e dar pontos nas feridas de até seis animais e humanoides dispostos. Faça um teste de Sabedoria CD 15 (Medicina) para cada criatura. Em um sucesso, se uma criatura gastar um Dado de Vida durante este descanso, essa criatura pode renunciar a rolagem e em vez disso recuperar o número máximo de pontos de vida que o dado pode restaurar. Uma criatura pode fazê-lo apenas uma vez por descanso, independentemente de quantos dados de vida ela gaste.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"05821178531149238117533626380455", 
-  "d": "MEDO DE DRAGÃO", 
-  "c": " Pré-requisito: Draconato \n Quando irritado, você irradia ameaça. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Carisma em 1, até um máximo de 20. Em vez de exalar energia destrutiva, você pode rugir e gastar um uso de seu ataque de sopro para forçar cada criatura de sua escolha a até 9 metros de fazer um teste de resistência de Sabedoria (CD 8 + seu bônus de proficiência + seu modificador Carisma). Um alvo é bem sucedido automaticamente se ele não puder ouvi-lo ou vê- lo. Em um fracasso, um alvo fica assustado por 1 minuto. Se o alvo assustado tomar qualquer dano, ele pode repetir o teste de resistência, terminando o efeito sobre si mesmo em um sucesso.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"89341574164208569391983307485535", 
-      "d": "MENTE AFIADA", 
-      "c": " Você tem uma mente que pode cronometrar o tempo e memorizar direção e detalhes com precisão absurda. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até o máximo de 20. Você sempre sabe qual a direção do norte. Você sempre sabe o número de horas restantes para o próximo nascer ou pôr do sol. Você pode relembrar, com precisão, qualquer coisa que você tenha visto ou ouvido no último mês.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"37328081216192637187576362674056", 
-  "d": "MESTRE DA LÂMINA",
-       "c": " Você se tornou um mestre da espada curta, espada longa, cimitarra, rapieira e espada larga. Você ganha os seguintes benefícios quando estiver empunhando alguma destas armas: Você ganha +1 nas jogadas de ataque que fizer com a arma. No seu turno, você pode usar sua reação para assumir uma postura de aparar, desde que você esteja empunhando a arma. Ao fazê-lo, você ganha +1 de bônus na sua CA até o começo do seu próximo turno ou até você não estiver mais empunhando a arma. Quando fizer um ataque de oportunidade com a arma, você possui vantagem nas jogadas de ataque.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"28826310529498363524515034245436", 
-      "d": "MESTRE DE ARMAS", 
-      "c": " Você tem praticado extensamente com uma variedade de armas, ganhando os seguintes benefícios: Aumente o valor de Força ou Destreza em 1, até o máximo de 20. Você ganha proficiência com quatro armas simples ou marciais, à sua escolha.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"88728003696750843516583248591107", 
-      "d": "MESTRE DE ARMAS GRANDES", 
-      "c": " Você aprendeu a usar o peso em sua vantagem, deixando o balanço potencializar seus golpes. Você recebe os seguintes benefícios: No seu turno, quando você atingir um acerto crítico com uma arma corpo-a-corpo ou reduzir os pontos de vida de uma criatura a 0, você pode realizar um ataque corpo-a-corpo com arma, com uma ação bônus. Antes de você realizar um ataque corpo-a-corpo com uma arma pesada na qual você seja proficiente, você pode escolher sofrer –5 de penalidade em sua jogada de ataque. Se o ataque atingir, você adiciona +10 ao dano do ataque.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"68853615235021932917649354273698", 
-      "d": "MESTRE DE ESCUDO", 
-      "c": " Você não usa escudos apenas para proteção, mas também de forma ofensiva. Você ganha os seguintes benefícios enquanto estiver empunhando um escudo: Se você realizar a ação de Ataque no seu turno, você pode usar uma ação bônus para tentar empurrar uma criatura, a até 1,5 m de você, com seu escudo. Se você não estiver incapacitado, você pode adicionar seu bônus de CA do escudo a qualquer teste de resistência de Destreza que você fizer contra uma magia ou outro efeito nocivo que tenha você como alvo. Se você for alvo de um efeito que permita realizar um teste de resistência de Destreza para sofrer apenas metade do dano, você pode usar sua reação para não sofrer dano se passar no teste de resistência, interpondo seu escudo entre você e a fonte do efeito. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"76265193034759833734620779012668", 
-      "d": "MESTRE DO DISFARCE", 
-      "c": " Você tem aperfeiçoado sua habilidade em moldar sua personalidade e ler a personalidade dos outros. Você ganha os seguintes benefícios: Aumente o seu valor de Carisma em 1, para no máximo 20. Você ganha proficiência com o kit de disfarce. Se você já for proficiente, dobre o seu bônus de proficiência nos testes realizados com este kit. Se você gastar 1 hora observando uma criatura, você pode, então, dedicar 8 horas de seu tempo para criar um disfarce que você possa rapidamente vestir e imitar aquela criatura. Fazer o disfarce requer um kit de disfarce. Você deve realizar um teste normalmente para disfarçar-se, mas pode assumir o disfarce como uma ação.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"52605940541131782954967415639505", 
-      "d": "MESTRE DO MANGUAL", 
-      "c": " O mangual é uma arma capciosa, a qual você deve gastar incontáveis horas para dominá-la. Você ganha os seguintes benefícios: Você ganha +1 de bônus nas jogadas de ataques realizados com um mangual. Como uma ação bônus em seu turno, você pode se preparar para estender seu mangual e sobrepujar o escudo do alvo. Até o final de seu próximo turno, suas jogadas de ataque com o mangual ganham +2 de bônus contra qualquer alvo que estiver usando um escudo. Quando você acertar um ataque de oportunidade usando um mangual, o alvo deve passar em um teste de resistência de Força (CD 8 + seu bônus de proficiência + seu modificador de Força) ou será derrubado.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"71754807029120155858068609024937", 
-  "d": "MESTRE DO MIMETISMO",
-       "c": " Pré-requisito: Kenku \n Você aprendeu a mimetizar temporariamente até mesmo os treinamentos dos outros. Você recebe os seguintes beneficios: Aumente seu valor de Sabedora ou Destreza em 1, até o máximo de 20. Quando uma criatura que possa ver usa uma pericia ou ferramenta, você pode usar sua reação para ganhar proficiência naquela pericia ou ferramenta. Proficiências recebidas dessa forma tem duração de 1 hora, e você pode mimetizar somente uma proficiência de cada vez. Uma vez que use essa caracteristica, não pode usá-la novamente até terminar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"99367641286830827099654840262628", 
-  "d": "MOBILIDADE", 
-  "c": " Você é excepcionalmente rápido e ágil. Você ganha os seguintes benefícios: Seu deslocamento aumenta em 3 metros. Quando você usa a ação de Disparada, mover- se através de terreno difícil não lhe custa qualquer movimento adicional neste turno. Quando você realiza um ataque corpo-a-corpo contra uma criatura, você não provoca ataques de oportunidade para essa criatura pelo resto do turno, independentemente de ter atingido ou não.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"56688075242315696834160278333987", 
-      "d": "MUSCULOSO", 
-      "c": " Você se torna mais forte, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até um máximo de 20. Você ganha proficiência na Perícia Atletismo. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você conta como se você fosse de um tamanho maior para determinar sua capacidade de carga.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"84038115845648341209929120138096", 
-      "d": "NATURALISTA", 
-      "c": " Seu extenso estudo da natureza recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia Natureza. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende as magias druidismo e detectar veneno e doença. Você pode conjurar detectar veneno e doença uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"64842107251894232270758432499287", 
-  "d": "OBSERVADO",
-       "c": " Rápido em perceber os detalhes do ambiente, você ganha os seguintes benefícios: Aumente seu valor de Inteligência ou Sabedoria em 1, até o máximo de 20. Se você puder ver a boca de uma criatura enquanto ela fala um idioma que você compreende, você pode interpretar o que ela está dizendo ao ler os seus lábios. Você tem +5 de bônus nos seus valores passivos de Sabedoria (Percepção) e Inteligência (Investigação).",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"01642824114018155546987379909557", 
-      "d": "OCULTAR O DRAGÃO", 
-      "c": " Pré-requisito: Draconato \n Você herdou o poder e a majestade de seus antepassados dragões. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Carisma em 1, até um máximo de 20. Você cria garras retráteis nas pontas de seus dedos. Estender ou retrair as garras não requer ação. As garras são armas naturais, que você pode usar para fazer ataques desarmados. Se você atacar com eles, você causa dano cortante igual a 1d4 + seu modificador de Força, em vez do dano de golpear normal para um ataque desarmado. Suas escamas endurecem; Você ganha um bônus de +1 na CA enquanto não estiver usando armadura.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"13621817249709338800542521567516", 
-      "d": "OCULTAR O FARPADO", 
-      "c": " Pré-requisito: Tiefling \n Um de seus antepassados era um demônio farpado ou outro demônio espinhoso. Protrusões de barba saem da sua cabeça. Você ganha os seguintes benefícios: Aumente seu valor de Constituição ou Carisma em 1, até um máximo de 20. Com uma ação bônus, você pode fazer com que pequenas farpas sobressaiam por todo o corpo ou fazer com que elas se retraiam. No início de cada um de seus turnos, enquanto as farpas estão para fora, você causa 1d6 de dano perfurante a qualquer criatura lutando contra você ou qualquer criatura agarrada por você. Você ganha proficiência na perícia Intimidação. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"77648577198371653496112445838144", 
-  "d": "PAGANDO DE PATRÃO",
-       "c": " Pré-requisito: Goblin \n Você se acostumou a usar os outros para evitar ser atacado. Você ganha os seguintes beneficios: Aumente seu valor de Destreza em 1, até o máximo de 20. Quando uma criatura que possa ver lhe escolhe como alvo para de um ataque e outra criatura está a 1,5 metros de alcance, você pode usar sua reação para impor desvantagem a seu teste de ataque. Uma vez que usou esta característica, não pode usar novamente até terminar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"97901221514719696357353393954820", 
-      "d": "PERCEPTIVO", 
-      "c": " Você aprimora seus sentidos até que se tornem afiados. Você ganha os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia percepção. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Estar em uma área levemente obscurecida não impõe desvantagem em seus testes de Sabedoria (Percepção) se você puder ver e ouvir.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"39928721680626204218167816538531", 
-      "d": "PERITO", 
-      "c": " Você ganha proficiência em qualquer combinação de três perícias ou ferramentas, à sua escolha.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"29396877098684238865351038323659", 
-      "d": "POLIGLOTA", 
-      "c": " Você estudou línguas e códigos, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, até o máximo de 20. Você aprende três idiomas, à sua escolha. Você é capaz de criar criptogramas escritos. Outros não podem decifrar um código criado por você a não ser que você os ensine, elas sejam bem sucedidas num teste de inteligência (CD igual ao seu valor de Inteligência + seu bônus de proficiência) ou usem mágica para decifrá-lo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"08387238151120316609724926306177", 
-  "d": "PORTADOR DO RANCOR",
-       "c": " Pré-requisito: Anão \n Você tem um ódio profundo por um tipo particular de criatura. Escolha um tipo de criatura para serem seus inimigos, para suportar a carga de sua ira: aberrações, bestas, celestiais, constructos, dragões, elementais, demonios, gigantes, monstruosidades, limos, plantas, ou mortos-vivos. Alternativamente, você pode escolher duas raças de humanoide (como gnolls e orcs). Você ganha os seguintes benefícios: Aumente seu valor de Força, Constituição ou Sabedoria em 1, até um máximo de 20. Durante a primeira rodada de qualquer combate contra os inimigos escolhidos, as suas rolagens de ataque contra qualquer um deles têm vantagem. Quando qualquer um de seus inimigos escolhidos faz um ataque de oportunidade contra você, ele faz o ataque com desvantagem. Sempre que você fizer um teste de Inteligência (Arcanismo, História, Natureza ou Religião) para recuperar informações sobre seus inimigos escolhidos, você adicionará o dobro do seu bônus de proficiência ao teste, mesmo que você não seja normalmente proficiente.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"57904376659728106916174309731228", 
-      "d": "PRECISÃO ÉLFICA", 
-      "c": " Pré-requisito: Elfo ou Meio-Elfo \n Você tem uma pontaria misteriosa. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Sempre que você tiver vantagem em um teste de ataque, você pode rolar novamente um dos dados uma vez.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"72930256261733017012272654327063", 
-      "d": "PRODÍGIO", 
-      "c": " Pré-requisito: Meio-Elfo ou Humano \n Você tem um dom para aprender coisas novas. Você ganha os seguintes benefícios: Aumente seu valor de uma habilidade em 1, até um máximo de 20. Você ganha proficiência em uma perícia de sua escolha, proficiência em uma ferramenta de sua escolha, e fluência em uma língua de sua escolha.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"95328259769393697275950167319860", 
-      "d": "PROTEÇÃO ANGELICAL", 
-      "c": " Pré-requisito: Aasimar \n A resistência inata à magia possuída pelos anjos se estende a você. Você recebe vantagem em testes de resistência contra magias e outros efeitos mágicos.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"54842801466325351945435409057541", 
-      "d": "PROTEÇÃO LEVE", 
-      "c": " Você treinou até dominar o uso de armaduras leves, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura leves. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"45950152777395781417449671730553", 
-      "d": "PROTEÇÃO MODERADA", 
-      "c": " Pré-requisito: Proficiência em armadura leve \n Você treinou até dominar o uso de armaduras médias e escudos, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura média e escudos.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"58437898356991616944789721554812", 
-      "d": "PROTEÇÃO PESADA", 
-      "c": " Pré-requisito: Proficiência em armadura média \n Você treinou até dominar o uso de armaduras pesadas, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura pesada.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"57101015519946119912068386903750", 
-      "d": "PROTETOR TORTLE", 
-      "c": " Pré-requisito: Tortle \n Você dominou a técnica de usar seu casco para proteger tanto você quanto os outros. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Sabedoria em 1, até o màximo de 20. Sua característica armadura natural agora concede uma CA base 18. Cmmo de costume, seu modificador de Destreza não afeta esse número. Como uma reação, quando for você forçado a realizar um teste de resistência, escolha qualquer número de criaturas a até 1,5 metros de alcance. Cada uma das criaturas escolhidas consideram que estejam como em meia cobertura contra qualquer ataque ou efeito, enquanto estiverem a até 1,5 metros de você até o começo do seu próximo tumo. Uma vez usada essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"29774038245543812527188284987566", 
-      "d": "RESILIÊNCIA ANÃ", 
-      "c": " Pré-requisito: Anão \n Você tem o sangue dos heróis anões fluindo através de suas veias. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até um máximo de 20. Sempre que você usar a ação Esquiva em combate, você pode gastar um Dado de Vida para curar a si mesmo. Role o dado, adicione seu modificador Constituição, e recupere um número de pontos de vida igual ao total (mínimo de 1). ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"35759263899277783856514630253275", 
-      "d": "RESILIENTE", 
-      "c": " Escolha um valor de habilidade. Você ganha os seguintes benefícios: Aumente o valor de habilidade escolhido em 1, até o máximo de 20. Você ganha proficiência em testes de resistência usando a habilidade escolhida.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"16299670496631935169881152218720", 
-      "d": "RESISTÊNCIA DA MONTANHA", 
-      "c": " Pré-requisito: Golias \n Sua habilidade de ignorar alguns ferimentos é lendária, mesmo para os padrões de sua raça. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Constituição em 1, até o màximo de 20. Quando você usa o traço racial Resistência da Pedra como reação para reduzir o dano, ao invés de rolar um d 12 e adicionar seu modificador de Constituição, pode escolher ganhar resistência ao tipo de dano do ataque desencadeador até o começo do seu próximo tumo. Se o ataque desencadeador causar mais de um tipo de dano, escolha um deles. Depois de usar essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"82028651181862176672255609667584", 
-      "d": "RESISTENTE", 
-      "c": " Duro e resistente, você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até o máximo de 20. Quando você rolar um Dado de Vida para recuperar pontos de vida, o valor mínimo de pontos de vida que você recupera dessa rolagem será igual a duas vezes seu modificador de Constituição (mínimo de 2).",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"61825604138795180776479770361197", 
-      "d": "ROBUSTO", 
-      "c": " Seu máximo de pontos de vida aumenta em um valor igual a duas vezes seu nível quando você adquire esse talento. Toda vez que você ganhar um nível, após isso, seu máximo de pontos de vida aumenta em 2 pontos de vida adicionais.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"17756823500282328113981903712064", 
-      "d": "SANGUE TANARUKK",
-      "c": " Pré-requisito: Ore \n Seja através de magia ou por um ancestral, você foi tocado pelo poder corruptor de Baphomet. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Constituição em 1, até o màximo de 20. Você tem resistência a dano de fogo e veneno. Você ganha Mordida como um ataque natural, que pode ser usada para realizar ataques desarmados. Se você acertar o ataque, causa 1d6 +modificador de Força de dano perfurante, ao invés do dano de concussão característico de um ataque desarmado.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"37119699111029552170392806394886", 
-      "d": "SEGUNDA CHANCE", 
-      "c": " Pré-requisito: Halfling \n A sorte o favorece. Você ganha os seguintes benefícios: Aumente seu valor de Destreza, Constituição ou Carisma em 1, até um máximo de 20. Quando uma criatura que você possa ver o acerta com uma rolagem de ataque, você pode usar sua reação para forçar essa criatura rolar novamente o ataque. Depois de usar essa habilidade, você não pode fazer isso novamente até que você termine um descanso curto ou longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"52347346021072271257683778209908", 
-      "d": "SENTINELA", 
-      "c": " Você domina técnicas para obter vantagem a cada vez que qualquer inimigo baixar a guarda, ganhando os seguintes benefícios: Quando você atinge uma criatura com um ataque de oportunidade, o deslocamento da criatura se torna 0 pelo resto do turno. As criaturas provocam ataques de oportunidade de você mesmo se realizarem a ação de Desengajar antes de saírem do seu alcance. Quando uma criatura a até 1,5 m de você realizar um ataque contra um alvo diferente de você (e o alvo não possuir esse talento), você pode usar sua reação para realizar um ataque corpo-a-corpo com arma contra a criatura atacante.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"05025764773538102751618673085248", 
-  "d": "SOBREVIVENTE",     
-  "c": " Você domina a sabedoria dos lugares selvagens, obtendo os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia sobrevivência. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende a magia alarme. Você pode conjurar alarme uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você termina um descanso longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"51646727795661036335392062099292", 
-      "d": "SORRATEIRO", 
-      "c": " Pré-requisito: Destreza 13 ou maior \n Você é especialista em espreitar através das sombras. Você ganha os seguintes benefícios: Você pode tentar se esconder quando estiver levemente obscurecido para a criatura de quem você está tentando se esconder. Quando você estiver escondido de uma criatura e errar um ataque à distância contra ela, realizar esse ataque não revelará sua posição. Penumbra não impõem desvantagem nos seus testes de Sabedoria (Percepção) relacionados a visão.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"77769531375625945665277354327444", 
-      "d": "SORTE ABUNDANTE", 
-      "c": " Pré-requisito: Halfling \n Sempre que um aliado que você possa ver a até 9 metros de você rolar um 1 no d20 em uma rolagem de ataque, teste de habilidade, ou um teste de resistência, você pode usar sua reação para deixar o aliado rolar novamente o dado. O aliado deve usar a nova rolagem.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"29646728942710245907476610568484", 
-      "d": "SORTUDO", 
-      "c": " Você tem uma sorte inexplicável que parece surgir nos momentos exatos. Você tem 3 pontos de sorte. A qualquer momento que você realizar uma jogada de ataque, teste de habilidade ou teste de resistência, você pode gastar um ponto de sorte para rolar um d20 adicional. Você pode escolher gastar um dos seus pontos de sorte depois de rolar o dado, mas antes de saber o resultado da jogada. Você escolhe qual dos d20s irá usar para a jogada de ataque, teste de habilidade ou teste de resistência. Você também pode gastar um ponto de sorte quando uma jogada de ataque for feita contra você. Role um d20, e então escolha se o ataque irá usar a jogada do atacante ou a sua. Se mais de uma criatura gastar um ponto de sorte para influenciar uma mesma jogada, os pontos se cancelam mutuamente; nenhum dado adicional é rolado. Você recupera seus pontos de sorte gastos após terminar um descanso longo. ",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"92001012436579181345450426479757", 
-      "d": "TELEPORTAÇÃO FEÉRICA", 
-      "c": " Pré-requisito: Elfo (alto) \n Extraindo sua ascendência feérica, você aprendeu como teletransportar. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você aprende a magia passo nebuloso e pode conjurá-la uma vez sem gastar espaço de magia. Você recupera a capacidade de conjurá-la desta forma quando você terminar um descanso curto ou longo. Inteligência é a sua habilidade de conjuração para este feitiço.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"24969281808766139368057188177848", 
-      "d": "TEÓLOGO", 
-      "c": " Seu extenso estudo da religião recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia religião. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende a magia taumaturgia e detectar o bem e mal. Você pode conjurar detectar o bem e mal uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
-      "a": "pt"
-  }, 
-  { 
-      "uuid":"28550352955030119343192039440810", 
-      "d": "TOQUE DE SESS'INEK", 
-      "c": " Pré-requisito: Povo-Lagarto \n Você personifica a conduta demoníaca de um lagarto rei. Você recebe os seguintes beneficios: Aumente seu valor de Constituição em 1, até o máximo de 20. Você aprender a falar, ler e escrever Abissal. Você se torna imune à condição Amedrontado,",
-      "a": "pt"
-  },
-  {
-    "uuid": "EABBAA6EE61CEDEA0627BB43F98B010D",
-    "d": "Grappler",
-    "c": "Prerequisite: Strength 13 or higher\nYou’ve developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n - You have advantage on attack rolls against a creature you are grappling.\n - You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.",
-    "a": "en"
-  }
+    {
+        "uuid": "3187AF6D0CA4EA648859D9160EC6B329",
+        "d": "Agarrador",
+        "c": "Pré-requisito: Força 13 ou maior\nVocê desenvolveu a perícia necessária para se prender a alguém em um combate engajado. Você recebe os seguintes benefícios:\n - Você tem vantagem nas jogadas de ataque contra uma criatura agarrada.\n - Você pode usar sua ação para tentar imobilizar uma criatura agarrada por você. Para tanto, realize outro teste de agarrar. Se você for bem sucedido, você e a criatura estarão ambos impedidos até o agarre terminar.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "10982429556008190467908621531227", 
+        "d": "Acrobata", 
+        "c": " Você se torna mais ágil, ganhando os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia Acrobacia. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Com uma ação bônus, você pode fazer um teste de Destreza de CD 15 (Acrobacia). Se você conseguir, terreno difícil não lhe custa deslocamento extra até o final do turno atual.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "79432049702869504879041711080430", 
+        "d": "Adepto elemental", 
+        "c": " Pré-requisito: Capacidade de conjurar pelo menos \n uma magia Quando você ganha esse talento, escolha um dos tipos de dano a seguir: ácido, elétrico, fogo, frio ou trovão. As magias que você conjurar ignoram resistência a dano do tipo escolhido. Além disso, quando você rola o dano para uma magia que você conjurar que causar dano desse tipo, você pode tratar qualquer 1 num dado de dano como um 2. Você pode escolher esse talento diversas vezes. A cada vez que o fizer, você deve escolher um tipo diferente de dano.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "40810211811596673355769768839831", 
+        "d": "Adepto marcial", 
+        "c": " Você tem treinamento marcial que permite a você realizar manobras de combate especiais. Você ganha os seguintes benefícios: Você aprende duas manobras, à sua escolha, das que estão disponíveis ao arquétipo Mestre de Batalha na classe guerreiro. Se a manobra que você usar obrigar um alvo a realizar um teste de resistência, a CD do teste de resistência será igual a 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha). Se você já tiver dados de superioridade, você ganha um adicional; do contrário, você terá um dado de superioridade, que é um d6. Esse dado é usado para abastecer suas manobras. Um dado de superioridade é gasto quando você o usa. Você recupera seus dados de superioridade gastos quando termina um descanso curto ou longo. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "73966466191807462059591125982497", 
+        "d": "Agilidade rasteira", 
+        "c": " Pré-requisito: Anão, Gnomo ou Halfling \n Você é excepcionalmente ágil para sua raça. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Destreza em 1, até um máximo de 20. Aumente seu deslocamento para 1,5 metros. Você ganha proficiência na perícia Acrobacia ou Atletismo. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "95638286866809929242580731758026", 
+        "d": "Agressão orc", 
+        "c": " Pré-requisito: Meio-Orc \n Com uma ação bônus, você pode mover seu deslocamento em direção a um inimigo de sua escolha que você possa ver ou ouvir. Você deve terminar este movimento mais perto do inimigo do que começou.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "39988676380618826008973794315190", 
+        "d": "Alerta", 
+        "c": " Sempre a espera de perigo, você ganha os seguintes benefícios: Você recebe +5 de bônus em iniciativa. Você não pode ser surpreso enquanto estiver consciente. Outras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "17409641008774446853378196030299", 
+        "d": "Alquimista", 
+        "c": " Você tem estudado os segredos da alquimia, tornando-se um mestre em sua prática, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, para no máximo 20. Você ganha proficiência com os suprimentos de alquimista. Se você já for proficiente, dobre o seu bônus de proficiência nos testes que você fizer com estes suprimentos. Como uma ação, você pode identificar uma poção a até 1,5 metros de você, como se você a tivesse provado. Você deve poder ver o líquido para este benefício funcionar. Durante o seu descanso curto, você pode aprimorar temporariamente a potência de uma poção de cura de qualquer raridade. Para usar este benefício, você deve ter os suprimentos de alquimista com você, e uma poção ao seu alcance. Se a poção for utilizada a até 1 hora após o término do descanso curto, a criatura que bebeu a poção pode desistir de jogar os dados da poção e recuperar o número máximo de pontos de vida que a poção pode restaurar.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "92011834253285287835951995156801", 
+        "d": "Alta magia drow", 
+        "c": " Pré-requisito: Elfo (drow) \n Você aprende mais magias típicas do seu povo. Você aprende detectar magia e pode conjurá-la à vontade, sem gastar espaços de magia. Você também aprende levitar e dissipar magia, cada um dos qual você pode conjurar uma vez sem gastar um espaço de magia. Você recupera a habilidade de conjurar a magia desta forma quando você terminar um descanso longo. Carisma é sua habilidade de conjuração para essas magias.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "70143193668082458870209929150102", 
+        "d": "Ambidestro", 
+        "c": " Você dominou o estilo de luta com duas armas, ganhando os seguintes benefícios: Você ganha +1 de bônus na CA enquanto estiver empunhando uma arma corpo-a-corpo em cada mão. Você pode usar combater com duas armas mesmo que a arma de uma mão que você está empunhando não seja leve. Você pode sacar ou guardar duas armas de uma mão quando você, normalmente, seria capaz de sacar ou guardar apenas uma.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "45407270092929645123495562467889", 
+        "d": "Ameaçador", 
+        "c": " Você se torna temível para os outros, ganhando os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia Intimidação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de ataque em seu turno, você pode substituir um ataquepor uma tentativa de desmoralizar um humanoide que você possa ver a até 9 metros de você que possa ver e ouvilo. Faça um teste de Carisma (Intimidação) contestado por um teste de Sabedoria (Intuição) do alvo. Se o seu teste for bem-sucedido, o alvo fica assustado até o final do seu próximo turno. Se o seu teste falhar, o alvo não pode ser assustado por você desta maneira por 1 hora. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "96072598214748066579299592237804", 
+        "d": "Amigo animal", 
+        "c": " Pré-requisito: Gnomo (floresta) \n Sua amizade com os animais se aprofunda misticamente. Você ganha os seguintes benefícios: Você ganha proficiência na perícia Lidar com Animais. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela. Você aprende a magia falar com animais e pode conjurar ela à vontade, sem gastar um espaço de magia. Você também aprende a magia amizade animal, e você pode conjurar ela uma vez com este feito, sem gastar um espaço de magia. Você recupera a capacidade de conjurá-la desta maneira quando você terminar um descanso longo. A inteligência é sua habilidade de conjuração para essas magias.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "21006804807929257650081188108352", 
+        "d": "Amigo de todos", 
+        "c": " Pré-requisito: Meio-Elfo \n Você desenvolve sua personalidade magnética para facilitar seu caminho através do mundo. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência nas perícias Enganação e Persuasão. Se você já for proficiente em qualquer uma delas, seu bônus de proficiência é dobrado para qualquer teste que você fizer com essa perícia.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "25080888869343995032902552549072", 
+        "d": "Arcanista", 
+        "c": " Você estuda as artes arcanas, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia Arcanismo. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você aprende as magias prestidigitação e detectar magia. Você pode conjurar detectar magia uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "94876150648831616374817812320451", 
+        "d": "Arrombador",
+        "c": " Você se orgulha de sua velocidade e estudos minuciosos de certas atividades clandestinas. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, para no máximo 20. Você ganha proficiência com as ferramentas de ladrão. Se você já é proficiente, dobre o seu bônus de proficiência nos testes feitos com estas ferramentas.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "88006905945187350246756263798069", 
+        "d": "Artista", 
+        "c": " Você domina a atuação de modo que você pode comandar qualquer palco. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia atuação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Durante a atuação, você pode tentar distrair um humanoide que você possa ver e que pode ver e ouvi-lo. Faça um teste de Carisma (Atuação) contestado por um teste de Sabedoria (Intuição) do humanoide. Se o seu teste for bem sucedido, você pega a atenção do humanoide o suficiente para fazer com que a Sabedoria (Percepção) e a Inteligência (Investigação) sejam feitos com desvantagem até que você pare de se apresentar.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "25426395023130554471997883084176", 
+        "d": "Asas de dragão", 
+        "c": " Pré-requisito: Draconato \n Você cria asas dracônicas. Com suas asas, você tem um deslocamento de vôo de 6 metros se você não estiver usando armadura pesada e não estiver excedendo sua capacidade de carga.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "58444298151162386673100823062438", 
+        "d": "Asas urd", 
+        "c": " Pré-requisito: Kobold \n Você desenvolveu asas de couro, transformando-se em um urd. Você recebe os seguintes beneficios: Aumente seu valor de Destreza em 1, até o máximo de 20. Você ganha um descolamento de voo de 9 metros. Para usar esse deslocamento você não pode estar usando armadura média ou pesada.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "91130632358139198037914114590841", 
+        "d": "Atacante bestial", 
+        "c": " Uma vez por turno, quando você rolar o dano para um ataque corpo-a-corpo com arma, você pode jogar novamente o dado de dano da arma e usar qualquer dos valores. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "36686352628103054328707189340518", 
+        "d": "Atirador aguçado", 
+        "c": " Você dominou o uso de armas à distância e pode realizar tiros que seriam impossíveis para outros. Você ganha os seguintes benefícios: Atacar um alvo além da distância normal não impõe desvantagem nas suas jogadas de ataque com armas à distância. Seus ataques com armas à distância ignoram meia cobertura e três-quartos de cobertura. Antes de realizar um ataque com uma arma à distância na qual você seja proficiente, você pode escolher sofrer –5 de penalidade na jogada de ataque. Se o ataque atingir, você adiciona +10 no dano do ataque.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "65745972377439811005765955286584", 
+        "d": "Atirador de magia", 
+        "c": " Pré-requisito: Capacidade de conjurar pelo menos \n uma magia Você aprendeu técnicas para aprimorar seus ataques com certos tipos de magia, ganhando os seguintes benefícios: Quando você conjura uma magia que requer que você realize uma jogada de ataque, o alcance da magia é dobrado. Seus ataques à distância com magia ignoram meia cobertura ou três-quartos de cobertura. Você aprende um truque que requer uma jogada de ataque. Escolha o truque da lista de magias do bardo, bruxo, clérigo, druida, feiticeiro ou mago. Sua habilidade de conjuração para esse truque depende da lista de magia a qual você escolheu o truque: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "04508302133648054334047274996130", 
+        "d": "Atleta",
+        "c": " Você passou por extenso treinamento físico para ganhar os seguintes benefícios: Aumente seu valor de Força ou Destreza em 1, até o máximo de 20. Quando você estiver caído, se levantar requer apenas 1,5 m do seu deslocamento. Escalar não custa movimento adicional a você. Você pode realizar um salto em distância correndo ou um salto em altura correndo se movendo apenas um passo de ajuste de 1,5 m, ao invés de 3 m.",
+        "a": "pt"
+    }, 
+    {
+        "uuid": "41436421940222523445496460397226",
+        "d": "Ator",
+        "c": "Perito em mimica e dramaturgia, você recebe os seguintes benefícios: Aumente seu valor de Carisma em 1, até o máximo de 20. Você tem vantagem em testes de Carisma (Atuação) e Carisma (Enganação) quando você estiver tentando se passar por uma pessoa diferente. Você pode imitar a articulação de outra pessoa ou os sons feitos por outras criaturas. Você deve ter ouvido a pessoa falando ou ouvido a criatura fazendo o som por, pelo menos, 1 minuto. Um sucesso num teste de Sabedoria (Intuição) resistido pelo seu teste de Carisma (Enganação) permite que um ouvinte determine que o efeito é falso.",
+        "a": "pt"
+    },
+    { 
+        "uuid": "80222888745608749292099561784249", 
+        "d": "Bem descansado", 
+        "c": " Pré-requisito: Bugbear \n Suas cochiladas o deixam revigorado quando você está acordado. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Destreza em 1, até o máximo de 20. Quando você usa um dado de vida durante um descanso curto, recupera 1d6 pontos de vidas adicionais. No final de um descanso longo, você ganha inspiração (descrita no capítulo 4 do Livro do Jogador).",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "25254065843741456746744259071201", 
+        "d": "Chamas de phlegethos",
+        "c": " Pré-requisito: Tiefling \n Você aprende a invocar o fogo do inferno para servir seus comandos. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência ou Carisma em 1, até um máximo de 20. Quando você rolar dano de fogo para uma magia que você conjurar, você pode rolar novamente qualquer rolagem de 1 no dado de dano de fogo, mas você deve usar a nova rolagem, mesmo que seja outro 1. Sempre que você conjurar um feitiço que inflige dano de fogo, você pode fazer com que as chamas o envolvam até o final do próximo turno. As chamas não prejudicam você ou seus pertences, e eles lançam luz brilhante a ate 9 metros e luz fraca por mais 9 metros. Enquanto as chamas estão presentes, qualquer criatura a até 1,5 metros de você que ataque com um ataque corpo a corpo leva 1d4 de dano de fogo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "18284193077455550483673267072688", 
+        "d": "Combatente montado", 
+        "c": " Você é um oponente perigoso de se enfrentar quando está montado. Enquanto estiver montado e não estiver incapacitado, você ganha os seguintes benefícios: Você tem vantagem nas jogadas de ataque corpoa-corpo contra qualquer criatura desmontada que seja menor que a sua montaria. Você pode forçar que um ataque direcionado a sua montaria seja direcionado a você, em seu lugar. Se sua montaria for alvo de um efeito que permita a ela realizar um teste de resistência de Destreza para reduzir o dano à metade, ao invés disso, ela não sofre qualquer dano se for bem sucedida no teste de resistência, e apenas metade se falhar.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "18809708502741999499798000583043", 
+        "d": "Conjurador de guerra", 
+        "c": " Pré-requisito: Capacidade de conjurar pelo menos uma \n magia Você praticou a conjuração de magias no meio do combate, aprendendo técnicas que lhe concedem os seguintes benefícios: Você tem vantagem em testes de resistência de Constituição para manter sua concentração em uma magia quando você sofrer dano. Você pode realizar os componentes somáticos de uma magia mesmo quando está com armas ou um escudo em uma ou ambas as mãos. Quando o movimento de uma criatura hostil provocar um ataque de oportunidade para você, você pode usar sua reação para conjurar uma magia na criatura, ao invés de realizar o ataque de oportunidade. A magia deve ter um tempo de conjuração de 1 ação e deve ter apenas uma criatura como alvo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "37019082718375455838580035452545", 
+        "d": "Conjurador de ritual",
+        "c": " Pré-requisito: Inteligência ou Sabedoria 13 ou maior \n Você aprendeu um número de magias que você pode conjurar como rituais. Essas magias são escritas em um livro de rituais, o qual deve estar em suas mãos enquanto você conjura uma dessas magias. Quando você escolhe esse talento, você adquire um livro de rituais que contem duas magias de 1° nível, à sua escolha. Escolha uma das seguintes classes: bardo, bruxo, clérigo, druida, feiticeiro ou mago. Você deve escolher suas magias da lista de magias dessa classe e as magias escolhidas devem ter o descritor ritual. A classe que você escolheu também determina a habilidade de conjuração dessas magias: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago. Se você encontrar uma magia na forma escrita, como a contida em um pergaminho de magia ou o grimório de um mago, você é capaz de adicioná-la ao seu livro de rituais. A magia deve estar na lista de magias da classe escolhida, o nível da magia não pode ser maior que metade do seu nível (arredondado para cima) e deve conter o descritor ritual. O processo para copiar a magia no seu livro de rituais leva 2 horas por nível da magia e custa 50 po por nível. O custo representa os componentes materiais que você gasta para experimentar a magia até dominá-la, bem como as finas tintas utilizadas para escrevê-la.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "24309033073025848870899337696033", 
+        "d": "Constituição infernal", 
+        "c": " Pré-requisito: Tiefling \n O sangue diabólico corre forte em você. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até um máximo de 20. Você tem resistência a dano de frio e venenoso. Você tem vantagem em teste de resistência contra ser envenenado.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "29016915400377234845631568027731", 
+        "d": "Criador de maravilhas",
+        "c": " Pré-requisito: Gnomo (rochas) \n Você domina as técnicas do seu povo. Você ganha os seguintes benefícios: Aumente seu valor de Destreza ou Inteligência em 1, até um máximo de 20. Quando você faz um teste usando sua proficiência com as ferramentas de artesão, você adiciona o dobro do seu bônus de proficiência ao teste. Quando você faz um dispositivo com suas ferramentas de artesão, você tem as seguintes opções adicionais para o que você faz: Alarme. Este dispositivo detecta quando uma criatura se move para dentro de 4,5 metros dele sem falar em voz alta uma senha escolhida quando você o cria. Um turno depois que uma criatura se move em alcance, o alarme faz um toque estridente que dura 1 minuto e pode ser ouvido a até 90 metros de distância. Calculadora. Este dispositivo torna fácil fazer somas. Elevador. Este dispositivo pode ser usado como um bloco e roldana, permitindo seu usuário içar cinco vezes o peso que o usuário normalmente pode levantar. Cronometrista. Este relógio de bolso mantém o tempo exato. Sensor Climático. Quando usado como uma ação, este dispositivo prevê condições meteorológicas em um raio de 1,6 km durante as próximas 4 horas, mostrando um símbolo (nuvens, sol/lua, chuva ou neve) para cada hora.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "33071978805488758526389872418609", 
+        "d": "Curandeiro", 
+        "c": " Você é um cirurgião capacitado, permitindo que você trate de ferimentos rapidamente, trazendo seus aliados de volta à luta. Você adquire os seguintes benefícios: Quando você usar um kit de primeiros-socorros para estabilizar uma criatura morrendo, a criatura recupera 1 ponto de vida, ao invés disso. Com uma ação, você pode gastar um uso do kit de primeiros-socorros para tratar de uma criatura e restaurar 1d6 + 4 pontos de vida mais uma quantidade de pontos de vida adicionais igual ao número total de Dados de Vida da criatura. A criatura não pode recuperar pontos de vida através desse talento novamente até ter terminado um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "63881945213034573922857862780167", 
+        "d": "Dedos rápidos", 
+        "c": " Seus dedos ágeis e agilidade permitem que você execute truques de mão. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia prestidigitação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Como uma ação bônus, você pode fazer um teste de Destreza (Prestidigitação) para plantar algo em outra pessoa, ocultar um objeto em uma criatura, roubar uma bolsa ou tirar algo de um bolso. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "51414413533201928660619900214264", 
+        "d": "Defender a legião", 
+        "c": " Pré-requisito: Hobgoblin \n Você nasceu para a vida na legião. Você recebe os seguintes beneficios: Aumente seu valor de Constituição ou Inteligência em 1, até o máximo de 20. Você pode dar um dano adicional de 2d6 em uma criatura que acerte com um ataque corpo-a- corpo com arma se a criatura estiver a até 1,5 metros de um aliado que não esteja incapacitado. Você pode usar essa característica apenas uma vez por combate. Você pode estender o beneficio de sua característica Rosto Salvador para um aliado. Como uma reação, se um aliado erra uma jogada de ataque ou falha num teste de resistência ou de habilidade, você pode conceder um bônus na jogada igual ao número de aliados que o possam ver a até 9 metros (incluindo você, bônus máximo de +5). Uma vez que utilize essa característica, não pode usa-la novamente até finalizar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "41068171247815813166836641664966", 
+        "d": "Desaparecer", 
+        "c": " Pré-requisito: Gnomo \n Você pode extrair sua herança mágica para escapar do perigo. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Quando você recebe dano, você pode usar uma reação para tornar-se magicamente invisível até o final de seu próximo turno ou até você atacar, causar dano, ou forçar alguém a fazer um teste de resistência. Depois de usar essa habilidade, você não pode fazer isso novamente até que você termine um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "64422637768464794286089096288848", 
+        "d": "Determinação humana", 
+        "c": " Pré-requisito: Humano \n Você está cheio de uma determinação que pode trazer o inacessível ao seu alcance. Você ganha os seguintes benefícios: Aumente seu valor de uma habilidade em 1, até um máximo de 20. Quando você faz um ataque, um teste de habilidade ou um teste de resistência, você pode fazer isso com vantagem. Depois de usar essa habilidade, você não pode usá-la novamente até que você termine um descanso curto ou longo. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "74178838670885994830887695391910", 
+        "d": "Diplomata", 
+        "c": " Você domina as artes da diplomacia, obtendo os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia Persuasão. e você já for proficiente nesta Perícia, você adiciona o dobro do seu bônus de proficiência aos testes feitos com ela. Se você gastar 1 minuto falando com alguém que possa entender o que você diz, você pode fazer um teste de Carisma (Persuasão) contestado por um teste de Sabedoria (Intuição) da criatura. Se você ou seus companheiros estão lutando contra a criatura, seu teste falha automaticamente. Se o teste for bem-sucedido, o alvo é encantado por você enquanto permanecer a até 18 metros de você e por 1 minuto depois disso.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "36109643868053443396494452051835", 
+        "d": "Domador de animais", 
+        "c": " Você dominou as técnicas necessárias para treinar e lidar com animais. Você ganha os seguintes benefícios. Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia Adestrar Animais. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você pode usar uma ação bônus em seu turno para comandar uma besta amigável a até 18 metros de você que possa ouvi-lo e que não está atualmente seguindo o comando de outra pessoa. Você decide que ação a besta tomará e para onde se moverá durante seu próximo turno, ou emitirá um comando geral que durará 1 minuto, como para proteger uma determinada área.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "31957303053586236015425605907349", 
+        "d": "Duelista defensivo", 
+        "c": " Pré-requisito: Destreza 13 ou maior \n Quando você estiver empunhando uma arma de acuidade com a qual você seja proficiente e outra criatura atingir você com um ataque corpo-a-corpo, você pode usar sua reação para adicionar seu bônus de proficiência a sua CA para esse ataque, potencialmente fazendo o ataque errar. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "28146309898097113106481566021473", 
+        "d": "Eloquente", 
+        "c": " Você desenvolveu sua habilidade de conversação para enganar melhor os outros. Você ganha os seguintes benefícios: Aumente seu valor de Carisma em 1, até um máximo de 20. Você ganha proficiência na Perícia enganação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de Ataque em seu turno, você pode substituir um ataque com uma tentativa de enganar um humanoide que você possa ver a até 9 metros de você que possa ver e ouvir você. Faça um teste de Carisma (Enganação) contestado por um teste de Sabedoria (Intuição) do alvo. Se o seu teste for bem-sucedido, seu movimento não provocará ataques de oportunidade do alvo e seus ataques contra ele terão vantagem. Ambos os benefícios duram até o final do seu róximo turno ou até que você use essa habilidade em um alvo diferente. Se o seu teste falhar, o alvo não pode ser enganado por você desta maneira por 1 hora.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "75174311738273987416684701097016", 
+        "d": "Empático", 
+        "c": " Você possui perspicácia afiada em como as outras pessoas pensam e sentem. Você ganha os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia Intuição. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que fizer com ela. Você pode usar sua ação para tentar obter uma visão misteriosa sobre um humanoide que você possa ver a até 1,5 metros de você. Faça um teste de Sabedoria (Intuição) contestado por um teste de Carisma (Enganação) do alvo. Se o seu teste for bem-sucedido, você terá vantagem nas rolagens de de ataque e nos testes de habilidade contra o alvo até o final de seu próximo turno.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "74239576776570360755581045159689", 
+        "d": "Especialista em besta",
+        "c": " Graças a sua pratica extensiva com bestas, você ganha os seguintes benefícios: Você ignora a qualidade de recarga de bestas nas quais você é proficiente. Estar a 1,5 m de uma criatura hostil não impõe desvantagem nas suas jogadas de ataque à distância. Quando você usa a ação de Ataque e ataca com uma arma de uma mão, você pode usar sua ação bônus para atacar com uma besta de mão carregada que você esteja empunhando.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "91689740143191736218906776633115", 
+        "d": "Especialista em briga", 
+        "c": " Acostumado a brigas de bar usando qualquer coisa como armas, e na falta, os punhos, você ganha os seguintes benefícios: Aumente o valor de Força ou Constituição em 1, até o máximo de 20. Seus ataques desarmados causam 1d4 de dano. Quando você atinge uma criatura com um ataque desarmado ou com uma arma improvisada, no seu turno, você pode usar uma ação bônus para tentar agarrar o alvo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "59162838621567008298711768757033", 
+        "d": "Explorador de cavernas", 
+        "c": " Alerta às armadilhas escondidas e portas secretas encontradas em muitas masmorras, você ganha os seguintes benefícios: Você tem vantagem em testes de Sabedoria (Percepção) e de Inteligência (Investigação) feitos para detectar a presença de portas secretas. Você tem vantagem em testes de resistência feitos para evitar ou resistir a armadilhas. Você tem resistência ao dano causado por armadilhas. Você pode procurar armadilhas enquanto viaja a um ritmo normal, ao invés de metade do ritmo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "32492847954533379173121935628709", 
+        "d": "Forma de serpente",
+        "c": " Pré-requisito: Yuan-ti Puro-Sangue \n Você liberou mais da sua herança dos homens serpente. Você recebe os seguintes benefícios: Aumente seu valor de Inteligência ou Carisma em 1, até o máximo de 20. Você pode usar uma ação para se transformar em uma cobra de tamanho Médio ou retornar para sua forma original. Suas estatísticas são as mesmas em cada forma. Qualquer equipamento que estiver usando ou carregando não é transformado. Se você morrer, permanece na forma atual. Enquanto estiver na forma de cobra, você ganha Mordida como um ataque natural, que pode ser usada para realizar ataques desarmados. Se você acertar o ataque, causa 1d4 +modificador de Força de dano perfurante, ao invés do dano de concussão característico de um ataque desarmado. Caso acerte o alvo, você pode escolher causar 2d6 de dano venenoso adicional. Uma vez que cause esse dano venenoso adicional, não pode fazê-lo novamente até terminar um descanso longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "35166408231910373544007844755583", 
+        "d": "Fúria orc", 
+        "c": " Pré-requisito: Meio-Orc \n Sua fúria queima incansavelmente. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Constituição em 1, até um máximo de 20. Quando você ataca com um ataque feito com uma arma simples ou marcial, você pode rolar um dado de dano da arma adicional e adicioná-lo como dano extra do tipo de dano da arma. Depois de usar essa habilidade, você não pode usá-la novamente até que você termine um descanso curto ou longo. Imediatamente após você usar sua característica de resistência implacável, você pode usar sua reação para fazer um ataque com arma.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "55467368905212932054020768829389", 
+        "d": "Furtivo", 
+        "c": " Você sabe como se esconder melhor. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Você ganha proficiência na Perícia furtividade. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Se você estiver escondido, você pode mover-se até 3 metros no aberto sem revelar-se, se você terminar o deslocamento em uma posição onde você não está claramente visível.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "55593531439303567032117903039196", 
+        "d": "Gourmand",
+        "c": " Você dominou uma variedade de receitas especiais, permitindo que você prepare pratos exóticos com diversos efeitos úteis. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, para no máximo 20. Você ganha proficiência com os utensílios de cozinheiro. Se você já for proficiente, dobre o seu bônus de proficiência nos testes realizados com estes utensílios. Como uma ação, você pode inspecionar uma bebida ou um prato de comida a até 1,5 metros de você e determinar se algum deles está envenenado, desde que você possa ver e cheirar. Durante um descanso longo, você pode preparar e servir uma refeição que ajuda você e seus aliados a recuperarem-se das mazelas de suas aventuras, desde que você possua comida adequada, os utensílios de cozinheiros e outros suprimentos à mão. A refeição alimenta até 6 pessoas e cada uma delas recupera 2 Dados de Vida adicionais ao final de seus respectivos descansos longo. Além disso, aqueles que partilharam da refeição possuem vantagem nos testes de resistência de Constituição realizados contra doenças pelas próximas 24 horas.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "56048422393081935010155592623876", 
+        "d": "Graciosidade felina", 
+        "c": " Pré-requisito: Tabaxi \n Seus incríveis reflexos e agilidade são melhorados ainda mais. Você recebe os seguintes beneficios. Aumente seu valor de Destreza em 1, até o máximo de 20. Você pode usar seu traço Agilidade Felina duas vezes antes de ter que permanecer sem se mover em um turno para poder usar o traço novamente. Você ainda pode usar esta característica somente uma vez por turno quando se move. Você não recebe dano de queda de até 6 metros ou menos, caso não esteja incapacitado.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "38721571805983251979830650814690", 
+        "d": "Guardião do céu", 
+        "c": " Pré-requisito: Aarakocra \n Você foi treinado para ser um batedor dos céus e em combate aéreo. Você recebe os seguintes benefícios: Aumente seu valor de Destreza ou Sabedoria em 1, até o máximo de 20. Você ganha proficiência na pericia Percepção caso ainda não possua. Você adiciona o dobro de seu bônus de proficiência para os testes de Percepção em testes relacionados à visão. Uma vez por turno, se você estiver voando e realizar um mergulho de pelo menos 9 metros em direção ao alvo e o então atingir com um ataque corpo-a-corpo com arma, o ataque causa 1d6 de dano adicional ao alvo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "46230046689267553105754129469988", 
+        "d": "Herança dao",
+        "c": " Pré-requisito: Genasi (terra) \n Você manifesta mais do poder mágico de sua herança dao. Você recebe os seguintes benefícios: Aumente seu valor de Força ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você ganha armadura natural. Quando não estiver vestindo armadura, sua CA é calculada como 13 + modificador de Destreza. Você pode usar um escudo e ainda ganhar esse benefício.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "67319203084329791444095538303827", 
+        "d": "Herança djinn", 
+        "c": " Pré-requisito: Genasi (ar) \n Você manifesta mais do poder mágico de sua herança djinn. Você recebe os seguintes benefícios: Aumente seu valor de Destreza ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você tem resistência a dano elétrico e trovejante.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "83650413604636907616226582476809", 
+        "d": "Herança efreet", 
+        "c": " Pré-requisito: Genasi (fogo) \n Você manifesta mais do poder mágico de sua herança efreet. Você recebe os seguintes beneficios: Aumente seu valor de Inteligência ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Sua visão no escuro com um alcance de 36 metros.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "46856970098125196202052461413828", 
+        "d": "Herança marid", 
+        "c": " Pré-requisito: Genasi (água) \n Você manifesta mais do poder mágico de sua herança madrid Você recebe os seguintes beneficios: Aumente seu valor de Sabedoria ou Constituição em 1, até o máximo de 20. Você aprende a magia detectar magia e pode conjura-la à vontade, sem gastar um espaço de magia. Você tem Resistência a Frio.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "49067228359419113963071158352214", 
+        "d": "Historiador", 
+        "c": " Seu estudo da história recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia História. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Quando você usa a ação de Ajuda para ajudar o teste de habilidade de outra criatura, você pode fazer um teste de CD 15 Inteligência (História). Em  um sucesso, o teste da criatura ganha um bônus igual ao seu bônus de proficiência, à medida que compartilhar conselhos pertinentes e exemplos históricos. Para receber esse bônus, a criatura deve ser capaz de entender o que você está dizendo.",
+        "a": "pt"
+    },  
+    { 
+        "uuid": "23763767514375461439517854908074", 
+        "d": "Imobilizador", 
+        "c": " Pré-requisito: Força 13 ou maior \n Você desenvolveu a perícia necessária para se prender a alguém em um combate engajado. Você recebe os seguintes benefícios: Você tem vantagem nas jogadas de ataque contra uma criatura agarrada. Você pode usar sua ação para tentar imobilizar uma criatura agarrada por você. Para tanto, realize outro teste de agarrar. Se você for bem-sucedido, você e a criatura estarão ambos impedidos até o agarre terminar.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "49023062389369695199621294411891", 
+        "d": "Iniciado em magia", 
+        "c": " Escolha uma classe: bardo, bruxo, clérigo, druida, feiticeiro ou mago. Você aprende dois truques da lista de magias da classe escolhida. Além disso, escolha uma magia de 1° nível da mesma lista. Você aprende essa magia e pode conjura-la com o menor nível possível. Uma vez que a conjure, você precisa terminar um descanso longo para poder conjura-la novamente. Essa restrição aplica-se apenas à magia adquirida através desse talento. Sua habilidade de conjuração depende da classe que você escolher: Carisma para bardo, bruxo ou feiticeiro; Sabedoria para clérigo ou druida; ou Inteligência para mago.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "81920793517602167568358481285535", 
+        "d": "Investida poderosa", 
+        "c": " Quando você usa a ação de Disparada, você pode usar sua ação bônus para realizar um ataque corpo-acorpo com arma ou para empurrar uma criatura. Se você se mover, pelo menos, 3 metros em linha reta, imediatamente antes de realizar essa ação bônus, você pode tanto ganhar +5 de bônus na jogada de dano do ataque (se você escolher realizar um ataque corpo-a-corpo e atingir) ou empurrar o alvo até 3 metros de você (se você escolher empurrar e for bem sucedido). ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "53652546468992813591451728872030", 
+        "d": "Investigador", 
+        "c": " Você tem um olho para o detalhe e pode pegar as pistas menores. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia investigação. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você pode usar a ação de procurar como uma ação bônus.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "95289220197406666739305444897466", 
+        "d": "Líder inspirador", 
+        "c": " Pré-requisito: Carisma 13 ou maior \n Você pode gastar 10 minutos inspirando seus companheiros, suportando a vontade deles de lutar. Quando fizer isso, escolha até seis criaturas amigáveis (que pode incluir você) a até 9 metros de você que possam ver ou ouvir você e possam te compreender. Cada criatura ganha pontos de vida temporários igual ao seu nível + seu modificador de Carisma. Uma criatura não pode ganhar pontos de vida temporários desse talento novamente até terminar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "32783267073111415531153511828822", 
+        "d": "Maestria com lança",
+        "c": " Embora a lança seja uma arma simples de se aprender, ela recompensa todo o tempo que você leva para dominá-la. Você ganha os seguintes benefícios: Você ganha +1 de bônus nas jogadas de ataque realizados com a lança. Quando você usar uma lança, o dado de dano da lança muda de d6 para d8 e de d8 para d10 quando você a estiver empunhando com as duas mãos. (Este benefício não possui efeito se outra característica já tiver aprimorado o dado de dano da arma). Você pode ajustar sua lança para receber uma investida. Como uma ação bônus, escolha uma criatura que você possa ver a até 6 m de você. Se esta criatura se mover para dentro do alcance de sua lança em seu próximo turno, você pode fazer um ataque corpo-a-corpo com sua lança como uma reação. Se o ataque acertar, o alvo sofre um dano adicional de 1d8 perfurante, ou um dano adicional de 1d10 perfurante se você estiver empunhando a lança com as duas mãos. Você não pode usar esta habilidade se a criatura usar a ação Desengajar antes de se mover. Como uma ação bônus no seu turno, você pode aumentar seu alcance com a lança em 1,5 m pelo resto do seu turno.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "07043973599433410966143732058658", 
+        "d": "Maestria em arma de haste", 
+        "c": " Você consegue manter seus inimigos afastados utilizando armas de haste. Você ganha os seguintes benefícios: Quando você realiza a ação de Ataque e ataca com uma glaive, alabarda ou bordão, você pode usar uma ação bônus para realizar um ataque corpo-a-corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de habilidade do ataque primário. O dado de dano da arma para esse ataque é um d4 e o ataque causa dano de concussão. Enquanto você estiver empunhando uma glaive, alabarda, lança longa ou bastão, as outras criaturas provocam um ataque de oportunidade a você quando entrarem no seu alcance.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "08901668497797496219440177010034", 
+        "d": "Maestria em armadura média", 
+        "c": " Pré-requisito: Proficiência em armadura média \n Você praticou seus movimentos usando armaduras pesadas para ganhar os seguintes benefícios: Vestir uma armadura média não lhe impõe desvantagem em testes de Destreza (Furtividade). Quando você estiver vestindo uma armadura média, você pode adicionar 3, ao invés de 2, à sua CA, se você tiver Destreza 16 ou maior.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "57130368322817358845207774509064", 
+        "d": "Maestria em armadura pesada", 
+        "c": " Pré-requisito: Proficiência em armadura pesada \n Você pode usar sua armadura para defletir ataques potencialmente fatais a outros. Você ganha os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Quando você estiver vestindo uma armadura pesada, dano de concussão, cortante e perfurante que você receba de ataques não-mágicos será reduzido em 3.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "19930882825654713853642401827602", 
+        "d": "Magia bestial firbolg",
+        "c": " Pré-requisito: Firbolg \n Sua conexão com os animais se toma mais profunda. Você aprende a magia falar com animais e pode conjura-la à vontade, sem utilizar um espaço de magia. Você também aprende as magias amizade animal e sentido bestial, que você pode conjurar uma vez cada, sem gastar espaços de magia. Você recupera a habilidade de conjurar essas duas magias com essa característica terminando um descanso longo. Sabedoria é sua habilidade de conjuração para todas as três magias. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "65037757196522630117833986465180", 
+        "d": "Magia das profundezas tritônicas", 
+        "c": " Pré-requisito: Tritão \n Você domina mais que a magia elemental do ar e da água. Você aprende a magia criar ou destruir água e pode conjura-la como uma magia de 1o nível a vontade, sem gastar espaço de magia. Você também aprende as magias vento protetor e respirar na água, que pode conjurar uma vez cada, sem gastar espaços de magia. Você recupera a habilidade de conjurar essas duas magias com essa caracteristica terminando um descanso longo. Carisma é sua habilidade de conjuração para todas as três magias.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "63880166429828117000772056930153", 
+        "d": "Magia do elfo da floresta", 
+        "c": " Pré-requisito: Elfo (floresta) \n Você aprende a magia primitiva da floresta. Você aprende um truque de Druida a sua escolha. Você também aprende passos longos e passos sem pegadas, cada um do qual você pode conjurar uma vez sem gastar um espaço de magia. Você recupera a habilidade de conjurar estas magias desta forma quando você terminar um descanso longo. Sabedoria é sua habilidade de conjuração para essas magias.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "18500229941115888754613446821356", 
+        "d": "Magia svirfneblin", 
+        "c": " Pré-Requisito: Gnomo (gnomo das profundezas) \n Você herdou a habilidade de conjuração inata dos seus ancestrais. Esta habilidade permite você conjurar não detecção em si mesmo sem limite e sem precisar de componente material. Você também pode lançar cada uma das seguintes magias com esta habilidade: cegueira/surdez, borrão e disfarce. Você recupera a habilidade de lançar estas magias novamente quando terminar um descanso longo. Inteligência é sua habilidade de conjuração para estas magias.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "73397705533164125349794010999063", 
+        "d": "Mãos destruidoras",
+        "c": " Você se tornou um mestre da machadinha, machado de batalha, machado grande, martelo de guerra e malho. Você ganha os seguintes benefícios quando estiver usando uma destas armas: Você ganha +1 de bônus nas jogadas de ataque que fizer com a arma. Toda vez que você tiver vantagem nas jogadas de ataque corpo-a-corpo feitas com a arma e acertar, você pode derrubar o oponente se o resultado menor dentre os dois d20 ainda acertar o oponente. Toda vez que você sofrer desvantagem em uma jogada de ataque corpo-a-corpo feita com a arma, o alvo sofre dano de concussão igual ao seu modificador de Força (mínimo de 0) se o ataque errar, mas se o maior resultado de um dos d20 acertar o oponente. Se você usar a ação Ajudar para prestar auxílio a um ataque corpo-a-corpo de um aliado, enquanto você estiver empunhando a arma, você pode empurrar o escudo do oponente momentaneamente. Além de o aliado ganhar vantagem na jogada de ataque, o aliado também ganha +2 de bônus na jogada de ataque se o alvo estiver usando um escudo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "58489729571646060801108981886659", 
+        "d": "Matador de conjuradores", 
+        "c": " Você praticou técnicas úteis em combate corpo-a-corpo contra conjuradores, ganhando os seguintes benefícios: Quando uma criatura a até 1,5 m de você conjurar uma magia, você pode usar sua reação para realizar um ataque corpo-a-corpo contra ela. Quando você causa dano em uma criatura que está se concentrando em uma magia, a criatura terá desvantagem no teste de resistência que ela fizer para manter a concentração. Você tem vantagem em testes de resistência contra magias conjuradas por criaturas a até 1,5 m de você.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "10455167929188097301488537425405", 
+        "d": "Médico",
+        "c": " Você domina as artes médicas, obtendo os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia medicina. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Durante um descanso curto, você pode limpar e dar pontos nas feridas de até seis animais e humanoides dispostos. Faça um teste de Sabedoria CD 15 (Medicina) para cada criatura. Em um sucesso, se uma criatura gastar um Dado de Vida durante este descanso, essa criatura pode renunciar a rolagem e em vez disso recuperar o número máximo de pontos de vida que o dado pode restaurar. Uma criatura pode fazê-lo apenas uma vez por descanso, independentemente de quantos dados de vida ela gaste.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "05821178531149238117533626380455", 
+        "d": "Medo de dragão", 
+        "c": " Pré-requisito: Draconato \n Quando irritado, você irradia ameaça. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Carisma em 1, até um máximo de 20. Em vez de exalar energia destrutiva, você pode rugir e gastar um uso de seu ataque de sopro para forçar cada criatura de sua escolha a até 9 metros de fazer um teste de resistência de Sabedoria (CD 8 + seu bônus de proficiência + seu modificador Carisma). Um alvo é bem sucedido automaticamente se ele não puder ouvi-lo ou vê- lo. Em um fracasso, um alvo fica assustado por 1 minuto. Se o alvo assustado tomar qualquer dano, ele pode repetir o teste de resistência, terminando o efeito sobre si mesmo em um sucesso.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "89341574164208569391983307485535", 
+        "d": "Mente afiada", 
+        "c": " Você tem uma mente que pode cronometrar o tempo e memorizar direção e detalhes com precisão absurda. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até o máximo de 20. Você sempre sabe qual a direção do norte. Você sempre sabe o número de horas restantes para o próximo nascer ou pôr do sol. Você pode relembrar, com precisão, qualquer coisa que você tenha visto ou ouvido no último mês.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "37328081216192637187576362674056", 
+        "d": "Mestre da lâmina",
+        "c": " Você se tornou um mestre da espada curta, espada longa, cimitarra, rapieira e espada larga. Você ganha os seguintes benefícios quando estiver empunhando alguma destas armas: Você ganha +1 nas jogadas de ataque que fizer com a arma. No seu turno, você pode usar sua reação para assumir uma postura de aparar, desde que você esteja empunhando a arma. Ao fazê-lo, você ganha +1 de bônus na sua CA até o começo do seu próximo turno ou até você não estiver mais empunhando a arma. Quando fizer um ataque de oportunidade com a arma, você possui vantagem nas jogadas de ataque.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "28826310529498363524515034245436", 
+        "d": "Mestre de armas", 
+        "c": " Você tem praticado extensamente com uma variedade de armas, ganhando os seguintes benefícios: Aumente o valor de Força ou Destreza em 1, até o máximo de 20. Você ganha proficiência com quatro armas simples ou marciais, à sua escolha.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "88728003696750843516583248591107", 
+        "d": "Mestre de armas grandes", 
+        "c": " Você aprendeu a usar o peso em sua vantagem, deixando o balanço potencializar seus golpes. Você recebe os seguintes benefícios: No seu turno, quando você atingir um acerto crítico com uma arma corpo-a-corpo ou reduzir os pontos de vida de uma criatura a 0, você pode realizar um ataque corpo-a-corpo com arma, com uma ação bônus. Antes de você realizar um ataque corpo-a-corpo com uma arma pesada na qual você seja proficiente, você pode escolher sofrer –5 de penalidade em sua jogada de ataque. Se o ataque atingir, você adiciona +10 ao dano do ataque.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "68853615235021932917649354273698", 
+        "d": "Mestre de escudo", 
+        "c": " Você não usa escudos apenas para proteção, mas também de forma ofensiva. Você ganha os seguintes benefícios enquanto estiver empunhando um escudo: Se você realizar a ação de Ataque no seu turno, você pode usar uma ação bônus para tentar empurrar uma criatura, a até 1,5 m de você, com seu escudo. Se você não estiver incapacitado, você pode adicionar seu bônus de CA do escudo a qualquer teste de resistência de Destreza que você fizer contra uma magia ou outro efeito nocivo que tenha você como alvo. Se você for alvo de um efeito que permita realizar um teste de resistência de Destreza para sofrer apenas metade do dano, você pode usar sua reação para não sofrer dano se passar no teste de resistência, interpondo seu escudo entre você e a fonte do efeito. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "76265193034759833734620779012668", 
+        "d": "Mestre do disfarce", 
+        "c": " Você tem aperfeiçoado sua habilidade em moldar sua personalidade e ler a personalidade dos outros. Você ganha os seguintes benefícios: Aumente o seu valor de Carisma em 1, para no máximo 20. Você ganha proficiência com o kit de disfarce. Se você já for proficiente, dobre o seu bônus de proficiência nos testes realizados com este kit. Se você gastar 1 hora observando uma criatura, você pode, então, dedicar 8 horas de seu tempo para criar um disfarce que você possa rapidamente vestir e imitar aquela criatura. Fazer o disfarce requer um kit de disfarce. Você deve realizar um teste normalmente para disfarçar-se, mas pode assumir o disfarce como uma ação.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "52605940541131782954967415639505", 
+        "d": "Mestre do mangual", 
+        "c": " O mangual é uma arma capciosa, a qual você deve gastar incontáveis horas para dominá-la. Você ganha os seguintes benefícios: Você ganha +1 de bônus nas jogadas de ataques realizados com um mangual. Como uma ação bônus em seu turno, você pode se preparar para estender seu mangual e sobrepujar o escudo do alvo. Até o final de seu próximo turno, suas jogadas de ataque com o mangual ganham +2 de bônus contra qualquer alvo que estiver usando um escudo. Quando você acertar um ataque de oportunidade usando um mangual, o alvo deve passar em um teste de resistência de Força (CD 8 + seu bônus de proficiência + seu modificador de Força) ou será derrubado.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "71754807029120155858068609024937", 
+        "d": "Mestre do mimetismo",
+        "c": " Pré-requisito: Kenku \n Você aprendeu a mimetizar temporariamente até mesmo os treinamentos dos outros. Você recebe os seguintes beneficios: Aumente seu valor de Sabedora ou Destreza em 1, até o máximo de 20. Quando uma criatura que possa ver usa uma pericia ou ferramenta, você pode usar sua reação para ganhar proficiência naquela pericia ou ferramenta. Proficiências recebidas dessa forma tem duração de 1 hora, e você pode mimetizar somente uma proficiência de cada vez. Uma vez que use essa caracteristica, não pode usá-la novamente até terminar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "99367641286830827099654840262628", 
+        "d": "Mobilidade", 
+        "c": " Você é excepcionalmente rápido e ágil. Você ganha os seguintes benefícios: Seu deslocamento aumenta em 3 metros. Quando você usa a ação de Disparada, mover- se através de terreno difícil não lhe custa qualquer movimento adicional neste turno. Quando você realiza um ataque corpo-a-corpo contra uma criatura, você não provoca ataques de oportunidade para essa criatura pelo resto do turno, independentemente de ter atingido ou não.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "56688075242315696834160278333987", 
+        "d": "Musculoso", 
+        "c": " Você se torna mais forte, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até um máximo de 20. Você ganha proficiência na Perícia Atletismo. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você fizer com ela. Você conta como se você fosse de um tamanho maior para determinar sua capacidade de carga.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "84038115845648341209929120138096", 
+        "d": "Naturalista", 
+        "c": " Seu extenso estudo da natureza recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia Natureza. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende as magias druidismo e detectar veneno e doença. Você pode conjurar detectar veneno e doença uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "64842107251894232270758432499287", 
+        "d": "Observado",
+        "c": " Rápido em perceber os detalhes do ambiente, você ganha os seguintes benefícios: Aumente seu valor de Inteligência ou Sabedoria em 1, até o máximo de 20. Se você puder ver a boca de uma criatura enquanto ela fala um idioma que você compreende, você pode interpretar o que ela está dizendo ao ler os seus lábios. Você tem +5 de bônus nos seus valores passivos de Sabedoria (Percepção) e Inteligência (Investigação).",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "01642824114018155546987379909557", 
+        "d": "Ocultar o dragão", 
+        "c": " Pré-requisito: Draconato \n Você herdou o poder e a majestade de seus antepassados dragões. Você ganha os seguintes benefícios: Aumente seu valor de Força ou Carisma em 1, até um máximo de 20. Você cria garras retráteis nas pontas de seus dedos. Estender ou retrair as garras não requer ação. As garras são armas naturais, que você pode usar para fazer ataques desarmados. Se você atacar com eles, você causa dano cortante igual a 1d4 + seu modificador de Força, em vez do dano de golpear normal para um ataque desarmado. Suas escamas endurecem; Você ganha um bônus de +1 na CA enquanto não estiver usando armadura.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "13621817249709338800542521567516", 
+        "d": "Ocultar o farpado", 
+        "c": " Pré-requisito: Tiefling \n Um de seus antepassados era um demônio farpado ou outro demônio espinhoso. Protrusões de barba saem da sua cabeça. Você ganha os seguintes benefícios: Aumente seu valor de Constituição ou Carisma em 1, até um máximo de 20. Com uma ação bônus, você pode fazer com que pequenas farpas sobressaiam por todo o corpo ou fazer com que elas se retraiam. No início de cada um de seus turnos, enquanto as farpas estão para fora, você causa 1d6 de dano perfurante a qualquer criatura lutando contra você ou qualquer criatura agarrada por você. Você ganha proficiência na perícia Intimidação. Se você já for proficiente, seu bônus de proficiência é dobrado para qualquer teste que você fizer com ela.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "77648577198371653496112445838144", 
+        "d": "Pagando de patrão",
+        "c": " Pré-requisito: Goblin \n Você se acostumou a usar os outros para evitar ser atacado. Você ganha os seguintes beneficios: Aumente seu valor de Destreza em 1, até o máximo de 20. Quando uma criatura que possa ver lhe escolhe como alvo para de um ataque e outra criatura está a 1,5 metros de alcance, você pode usar sua reação para impor desvantagem a seu teste de ataque. Uma vez que usou esta característica, não pode usar novamente até terminar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "97901221514719696357353393954820", 
+        "d": "Perceptivo", 
+        "c": " Você aprimora seus sentidos até que se tornem afiados. Você ganha os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia percepção. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Estar em uma área levemente obscurecida não impõe desvantagem em seus testes de Sabedoria (Percepção) se você puder ver e ouvir.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "39928721680626204218167816538531", 
+        "d": "Perito", 
+        "c": " Você ganha proficiência em qualquer combinação de três perícias ou ferramentas, à sua escolha.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "29396877098684238865351038323659", 
+        "d": "Poliglota", 
+        "c": " Você estudou línguas e códigos, ganhando os seguintes benefícios: Aumente seu valor de Inteligência em 1, até o máximo de 20. Você aprende três idiomas, à sua escolha. Você é capaz de criar criptogramas escritos. Outros não podem decifrar um código criado por você a não ser que você os ensine, elas sejam bem sucedidas num teste de inteligência (CD igual ao seu valor de Inteligência + seu bônus de proficiência) ou usem mágica para decifrá-lo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "08387238151120316609724926306177", 
+        "d": "Portador do rancor",
+        "c": " Pré-requisito: Anão \n Você tem um ódio profundo por um tipo particular de criatura. Escolha um tipo de criatura para serem seus inimigos, para suportar a carga de sua ira: aberrações, bestas, celestiais, constructos, dragões, elementais, demonios, gigantes, monstruosidades, limos, plantas, ou mortos-vivos. Alternativamente, você pode escolher duas raças de humanoide (como gnolls e orcs). Você ganha os seguintes benefícios: Aumente seu valor de Força, Constituição ou Sabedoria em 1, até um máximo de 20. Durante a primeira rodada de qualquer combate contra os inimigos escolhidos, as suas rolagens de ataque contra qualquer um deles têm vantagem. Quando qualquer um de seus inimigos escolhidos faz um ataque de oportunidade contra você, ele faz o ataque com desvantagem. Sempre que você fizer um teste de Inteligência (Arcanismo, História, Natureza ou Religião) para recuperar informações sobre seus inimigos escolhidos, você adicionará o dobro do seu bônus de proficiência ao teste, mesmo que você não seja normalmente proficiente.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "57904376659728106916174309731228", 
+        "d": "Precisão élfica", 
+        "c": " Pré-requisito: Elfo ou Meio-Elfo \n Você tem uma pontaria misteriosa. Você ganha os seguintes benefícios: Aumente seu valor de Destreza em 1, até um máximo de 20. Sempre que você tiver vantagem em um teste de ataque, você pode rolar novamente um dos dados uma vez.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "72930256261733017012272654327063", 
+        "d": "Prodígio", 
+        "c": " Pré-requisito: Meio-Elfo ou Humano \n Você tem um dom para aprender coisas novas. Você ganha os seguintes benefícios: Aumente seu valor de uma habilidade em 1, até um máximo de 20. Você ganha proficiência em uma perícia de sua escolha, proficiência em uma ferramenta de sua escolha, e fluência em uma língua de sua escolha.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "95328259769393697275950167319860", 
+        "d": "Proteção angelical", 
+        "c": " Pré-requisito: Aasimar \n A resistência inata à magia possuída pelos anjos se estende a você. Você recebe vantagem em testes de resistência contra magias e outros efeitos mágicos.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "54842801466325351945435409057541", 
+        "d": "Proteção leve", 
+        "c": " Você treinou até dominar o uso de armaduras leves, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura leves. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "45950152777395781417449671730553", 
+        "d": "Proteção moderada", 
+        "c": " Pré-requisito: Proficiência em armadura leve \n Você treinou até dominar o uso de armaduras médias e escudos, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura média e escudos.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "58437898356991616944789721554812", 
+        "d": "Proteção pesada", 
+        "c": " Pré-requisito: Proficiência em armadura média \n Você treinou até dominar o uso de armaduras pesadas, ganhando os seguintes benefícios: Aumente seu valor de Força em 1, até o máximo de 20. Você ganha proficiência com armadura pesada.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "57101015519946119912068386903750", 
+        "d": "Protetor tortle", 
+        "c": " Pré-requisito: Tortle \n Você dominou a técnica de usar seu casco para proteger tanto você quanto os outros. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Sabedoria em 1, até o màximo de 20. Sua característica armadura natural agora concede uma CA base 18. Cmmo de costume, seu modificador de Destreza não afeta esse número. Como uma reação, quando for você forçado a realizar um teste de resistência, escolha qualquer número de criaturas a até 1,5 metros de alcance. Cada uma das criaturas escolhidas consideram que estejam como em meia cobertura contra qualquer ataque ou efeito, enquanto estiverem a até 1,5 metros de você até o começo do seu próximo tumo. Uma vez usada essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "29774038245543812527188284987566", 
+        "d": "Resiliência anã", 
+        "c": " Pré-requisito: Anão \n Você tem o sangue dos heróis anões fluindo através de suas veias. Você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até um máximo de 20. Sempre que você usar a ação Esquiva em combate, você pode gastar um Dado de Vida para curar a si mesmo. Role o dado, adicione seu modificador Constituição, e recupere um número de pontos de vida igual ao total (mínimo de 1). ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "35759263899277783856514630253275", 
+        "d": "Resiliente", 
+        "c": " Escolha um valor de habilidade. Você ganha os seguintes benefícios: Aumente o valor de habilidade escolhido em 1, até o máximo de 20. Você ganha proficiência em testes de resistência usando a habilidade escolhida.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "16299670496631935169881152218720", 
+        "d": "Resistência da montanha", 
+        "c": " Pré-requisito: Golias \n Sua habilidade de ignorar alguns ferimentos é lendária, mesmo para os padrões de sua raça. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Constituição em 1, até o màximo de 20. Quando você usa o traço racial Resistência da Pedra como reação para reduzir o dano, ao invés de rolar um d 12 e adicionar seu modificador de Constituição, pode escolher ganhar resistência ao tipo de dano do ataque desencadeador até o começo do seu próximo tumo. Se o ataque desencadeador causar mais de um tipo de dano, escolha um deles. Depois de usar essa característica, não pode usá-la novamente até terminar um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "82028651181862176672255609667584", 
+        "d": "Resistente", 
+        "c": " Duro e resistente, você ganha os seguintes benefícios: Aumente seu valor de Constituição em 1, até o máximo de 20. Quando você rolar um Dado de Vida para recuperar pontos de vida, o valor mínimo de pontos de vida que você recupera dessa rolagem será igual a duas vezes seu modificador de Constituição (mínimo de 2).",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "61825604138795180776479770361197", 
+        "d": "Robusto", 
+        "c": " Seu máximo de pontos de vida aumenta em um valor igual a duas vezes seu nível quando você adquire esse talento. Toda vez que você ganhar um nível, após isso, seu máximo de pontos de vida aumenta em 2 pontos de vida adicionais.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "17756823500282328113981903712064", 
+        "d": "Sangue Tanarukk",
+        "c": " Pré-requisito: Ore \n Seja através de magia ou por um ancestral, você foi tocado pelo poder corruptor de Baphomet. Você recebe os seguintes beneficios: Aumente seu valor de Força ou Constituição em 1, até o màximo de 20. Você tem resistência a dano de fogo e veneno. Você ganha Mordida como um ataque natural, que pode ser usada para realizar ataques desarmados. Se você acertar o ataque, causa 1d6 +modificador de Força de dano perfurante, ao invés do dano de concussão característico de um ataque desarmado.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "37119699111029552170392806394886", 
+        "d": "Segunda chance", 
+        "c": " Pré-requisito: Halfling \n A sorte o favorece. Você ganha os seguintes benefícios: Aumente seu valor de Destreza, Constituição ou Carisma em 1, até um máximo de 20. Quando uma criatura que você possa ver o acerta com uma rolagem de ataque, você pode usar sua reação para forçar essa criatura rolar novamente o ataque. Depois de usar essa habilidade, você não pode fazer isso novamente até que você termine um descanso curto ou longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "52347346021072271257683778209908", 
+        "d": "Sentinela", 
+        "c": " Você domina técnicas para obter vantagem a cada vez que qualquer inimigo baixar a guarda, ganhando os seguintes benefícios: Quando você atinge uma criatura com um ataque de oportunidade, o deslocamento da criatura se torna 0 pelo resto do turno. As criaturas provocam ataques de oportunidade de você mesmo se realizarem a ação de Desengajar antes de saírem do seu alcance. Quando uma criatura a até 1,5 m de você realizar um ataque contra um alvo diferente de você (e o alvo não possuir esse talento), você pode usar sua reação para realizar um ataque corpo-a-corpo com arma contra a criatura atacante.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "05025764773538102751618673085248", 
+        "d": "Sobrevivente",     
+        "c": " Você domina a sabedoria dos lugares selvagens, obtendo os seguintes benefícios: Aumente seu valor de Sabedoria em 1, até um máximo de 20. Você ganha proficiência na Perícia sobrevivência. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende a magia alarme. Você pode conjurar alarme uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você termina um descanso longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "51646727795661036335392062099292", 
+        "d": "Sorrateiro", 
+        "c": " Pré-requisito: Destreza 13 ou maior \n Você é especialista em espreitar através das sombras. Você ganha os seguintes benefícios: Você pode tentar se esconder quando estiver levemente obscurecido para a criatura de quem você está tentando se esconder. Quando você estiver escondido de uma criatura e errar um ataque à distância contra ela, realizar esse ataque não revelará sua posição. Penumbra não impõem desvantagem nos seus testes de Sabedoria (Percepção) relacionados a visão.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "77769531375625945665277354327444", 
+        "d": "Sorte abundante", 
+        "c": " Pré-requisito: Halfling \n Sempre que um aliado que você possa ver a até 9 metros de você rolar um 1 no d20 em uma rolagem de ataque, teste de habilidade, ou um teste de resistência, você pode usar sua reação para deixar o aliado rolar novamente o dado. O aliado deve usar a nova rolagem.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "29646728942710245907476610568484", 
+        "d": "Sortudo", 
+        "c": " Você tem uma sorte inexplicável que parece surgir nos momentos exatos. Você tem 3 pontos de sorte. A qualquer momento que você realizar uma jogada de ataque, teste de habilidade ou teste de resistência, você pode gastar um ponto de sorte para rolar um d20 adicional. Você pode escolher gastar um dos seus pontos de sorte depois de rolar o dado, mas antes de saber o resultado da jogada. Você escolhe qual dos d20s irá usar para a jogada de ataque, teste de habilidade ou teste de resistência. Você também pode gastar um ponto de sorte quando uma jogada de ataque for feita contra você. Role um d20, e então escolha se o ataque irá usar a jogada do atacante ou a sua. Se mais de uma criatura gastar um ponto de sorte para influenciar uma mesma jogada, os pontos se cancelam mutuamente; nenhum dado adicional é rolado. Você recupera seus pontos de sorte gastos após terminar um descanso longo. ",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "92001012436579181345450426479757", 
+        "d": "Teleportação feérica", 
+        "c": " Pré-requisito: Elfo (alto) \n Extraindo sua ascendência feérica, você aprendeu como teletransportar. Você ganha os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você aprende a magia passo nebuloso e pode conjurá-la uma vez sem gastar espaço de magia. Você recupera a capacidade de conjurá-la desta forma quando você terminar um descanso curto ou longo. Inteligência é a sua habilidade de conjuração para este feitiço.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "24969281808766139368057188177848", 
+        "d": "Teólogo", 
+        "c": " Seu extenso estudo da religião recompensa você com os seguintes benefícios: Aumente seu valor de Inteligência em 1, até um máximo de 20. Você ganha proficiência na Perícia religião. Se você já for proficiente na Perícia, você adiciona o dobro do seu bônus de proficiência aos testes que você faz com ela. Você aprende a magia taumaturgia e detectar o bem e mal. Você pode conjurar detectar o bem e mal uma vez sem gastar um espaço de magia, e você recupera a capacidade de fazê-lo quando você terminar um descanso longo.",
+        "a": "pt"
+    }, 
+    { 
+        "uuid": "28550352955030119343192039440810", 
+        "d": "Toque de Sess'inek", 
+        "c": " Pré-requisito: Povo-Lagarto \n Você personifica a conduta demoníaca de um lagarto rei. Você recebe os seguintes beneficios: Aumente seu valor de Constituição em 1, até o máximo de 20. Você aprender a falar, ler e escrever Abissal. Você se torna imune à condição Amedrontado,",
+        "a": "pt"
+    }
 ]

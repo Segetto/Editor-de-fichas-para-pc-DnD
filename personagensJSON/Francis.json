@@ -8,16 +8,15 @@
         "uuid": "df11tab4vs6l7toirip2bnh1p",
         "id": 0,
         "a": "Francis Astond",
-        "b": 111,
-        "d": 11523,
+        "d": 0,
         "e": false,
         "f": 2,
         "g": 0,
         "h": 0,
         "i": 9,
-        "j": 115,
+        "j": 11,
         "k": 0,
-        "l": 115,
+        "l": 11,
         "m": 7.5,
         "n": 0,
         "o": 0,
@@ -26,7 +25,7 @@
         "q": 0,
         "1": "",
         "r": 0,
-        "3": "Nobre",
+        "3": "",
         "s": 0,
         "t": 0,
         "4": "",
@@ -42,96 +41,100 @@
         "y": 7.5,
         "z": ""
     }],
-    "b": [{
-        "b": "Caótico bom",
-        "uuid": "5812E1AF60D451834834A20176C904CC"
-    }],
-    "c": [{
-        "b": "Humano",
-        "uuid": "B1FE7F0F4A37B7F5EE79CD46968D1917"
-    }],
+    "b": [],
+    "c": [],
     "d": [
         {
             "a": {
                 "a": "A5E89D3735FE621E3F3B4F943079755A",
-                "c": 11
+                "b": "df11tab4vs6l7toirip2bnh1p",
+                "c": 11,
+                "uuid": "ql7biud7c5bl5upihkovj6mb5p"
             },
             "b": {
+                "a": "pt",
                 "b": "Bárbaro",
+                "c": "",
+                "d": false,
+                "e": 12,
+                "f": true,
                 "uuid": "A5E89D3735FE621E3F3B4F943079755A"
             }
         },
         {
             "a": {
                 "a": "4FB3D7A12EA923B5E8EC3CDA14564CD2",
-                "c": 4
+                "b": "df11tab4vs6l7toirip2bnh1p",
+                "c": 4,
+                "uuid": "r0nuj6b6pgeflmqf6r0ajef2t5"
             },
             "b": {
+                "a": "pt",
                 "b": "Bardo",
+                "c": "",
+                "d": false,
+                "e": 8,
+                "f": true,
                 "uuid": "4FB3D7A12EA923B5E8EC3CDA14564CD2"
             }
         },
         {
             "a": {
                 "a": "BE7427B68511031EFF6654CA8EC058E4",
-                "c": 3
+                "b": "df11tab4vs6l7toirip2bnh1p",
+                "c": 6,
+                "uuid": "v0ppoolcei7pdsu8f1i180a939"
             },
             "b": {
+                "a": "pt",
                 "b": "Bruxo",
+                "c": "",
+                "d": false,
+                "e": 8,
+                "f": true,
                 "uuid": "BE7427B68511031EFF6654CA8EC058E4"
-            }
-        },
-        {
-            "a": {
-                "a": "UN84PJXJAAR3AXP2LPEEJWKUZPC9KS9E",
-                "c": 4
-            },
-            "b": {
-                "b": "Ranger revisado",
-                "uuid": "UN84PJXJAAR3AXP2LPEEJWKUZPC9KS9E"
             }
         }
     ],
     "e": [
         {
             "a": "STRENGTH",
-            "b": 20,
+            "b": 10,
             "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
-            "j": 0,
             "uuid": "g3d1j6inkl9k4h9r5isdl6ua5p"
         },
         {
             "a": "DEXTERITY",
-            "b": 13,
-            "c": true,
+            "b": 10,
+            "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "9hmadfhc3d7u0u0856jjdn1in4"
         },
         {
             "a": "CONSTITUTION",
-            "b": 19,
-            "c": true,
+            "b": 10,
+            "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "3iun3f0574tm2q61infho3nqtf"
         },
         {
             "a": "INTELLIGENCE",
-            "b": 17,
+            "b": 10,
             "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "h34hn24absiikjojogdk4getv5"
         },
         {
             "a": "WISDOM",
-            "b": 15,
-            "c": true,
+            "b": 10,
+            "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "f6ttnf6mdhth1ikgt6rkfj27s8"
         },
         {
             "a": "CHARISMA",
-            "b": 11,
+            "b": 10,
             "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "gt9di81ijmt5qcvkcn14j9vi92"
@@ -140,7 +143,7 @@
     "f": [
         {"a": {
             "a": "ATHLETICS",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -176,7 +179,7 @@
         }},
         {"a": {
             "a": "ARCANA",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -185,7 +188,7 @@
         }},
         {"a": {
             "a": "HISTORY",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -212,7 +215,7 @@
         }},
         {"a": {
             "a": "RELIGION",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -239,7 +242,7 @@
         }},
         {"a": {
             "a": "MEDICINE",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -257,7 +260,7 @@
         }},
         {"a": {
             "a": "SURVIVAL",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -266,7 +269,7 @@
         }},
         {"a": {
             "a": "PERFORMANCE",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -293,7 +296,7 @@
         }},
         {"a": {
             "a": "PERSUASION",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "df11tab4vs6l7toirip2bnh1p",
@@ -372,43 +375,61 @@
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "24qanq8qv6me95phljpmlth3cj"
+            "uuid": "kq0o2k5lf7iams0q2dv1q4srmd"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "c6jeg2k7si1kc20qkqdpk3htqo"
+            "uuid": "j47alcmmqes45tc2v3fo73kt2f"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "pqcnao9bkto97cv9u3k2hribn3"
+            "uuid": "5oseetkuv9ho2tenbl8v4fecjp"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "knug4hc0u44tpsljab4ih0luba"
+            "uuid": "r41dcg22vorf1rb8tar1pqv3du"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "u3ie5br0lt5n12mevp0ju6v9l0"
+            "uuid": "hkikha9e7pvvp9bc7i5t9vivt8"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "eo7l6qkl2pbms9hv10tm3l92k5"
+            "uuid": "5dlue5jmmkigprqqkl6e7fk5oc"
         },
         {
             "a": 8,
             "b": false,
             "c": "df11tab4vs6l7toirip2bnh1p",
-            "uuid": "v8ui2ospfnscio2jqeti7dcdud"
+            "uuid": "u2ldk1vm9nl13klhggk5rj7dco"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "eu938soqml6oodklkh49b6qbqe"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "etngsu6m08j0i9dbmdut9rid0c"
+        },
+        {
+            "a": 8,
+            "b": false,
+            "c": "df11tab4vs6l7toirip2bnh1p",
+            "uuid": "fge987t81o9h2lesuiutv5i9tu"
         }
     ],
     "h": [
@@ -452,175 +473,316 @@
     "i": [
         {
             "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "c": 1,
                 "d": false,
-                "f": ""
+                "e": false,
+                "f": "",
+                "uuid": "m81vnarnmahgdkeggj12v4c12u"
             },
             "b": {
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "a": "pt",
                 "b": "perfurante",
                 "c": 2,
                 "d": "GP",
                 "e": 0.5,
+                "f": 1,
                 "g": 1,
                 "h": "UN",
-                "i": "Arma",
+                "i": "WEAPON",
                 "j": 0,
-                "k": "",
                 "l": 0,
-                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
                 "m": false,
                 "n": 0,
                 "o": 0,
                 "q": "DEXORSTR",
                 "1": "1d4",
+                "r": 0,
+                "s": 0,
                 "t": false,
                 "u": "Adaga",
-                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
-                "w": "Acuidade, leve, arremesso (distância 6/18)"
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta.",
+                "w": "Acuidade, leve, arremesso (distância 6/18)",
+                "x": "Acuidade, leve, arremesso (distância 20/60)",
+                "y": "",
+                "z": true
             },
-            "c": []
+            "c": [{
+                "a": 4,
+                "b": false,
+                "d": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "uuid": "g5cvp74s9oglgk1akuek039jec"
+            }]
         },
         {
             "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "C2D50D1D155A7E6B55712C7A09C1A6B1",
+                "c": 1,
                 "d": false,
-                "f": ""
+                "e": false,
+                "f": "",
+                "uuid": "7mnnc0p2s8h7c2krrlpngkeidl"
             },
             "b": {
-                "b": "cortante",
-                "c": 20,
-                "d": "GP",
-                "e": 3,
+                "uuid": "C2D50D1D155A7E6B55712C7A09C1A6B1",
+                "a": "pt",
+                "b": "concussão",
+                "c": 2,
+                "d": "SP",
+                "e": 5,
+                "f": 10,
                 "g": 1,
                 "h": "UN",
-                "i": "Arma",
+                "i": "WEAPON",
                 "j": 0,
-                "k": "",
                 "l": 0,
-                "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E",
                 "m": false,
                 "n": 0,
                 "o": 0,
                 "q": "STRENGTH",
-                "1": "1d10",
-                "t": false,
-                "u": "Alabarda",
-                "v": "",
-                "w": "Pesada, alcance, duas mãos"
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "d": false,
-                "f": ""
-            },
-            "b": {
-                "b": "perfurante",
-                "c": 50,
-                "d": "GP",
-                "e": 1,
-                "g": 1,
-                "h": "UN",
-                "i": "Arma",
-                "j": 0,
-                "k": "",
-                "l": 0,
-                "uuid": "0E679E998A201676AB652F6B31A961E0",
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXTERITY",
                 "1": "1d8",
+                "r": 0,
+                "s": 0,
                 "t": false,
-                "u": "Arco Longo",
+                "u": "Clava Grande",
                 "v": "",
-                "w": "pesada, duas mãos"
+                "w": "Pesada, duas mãos",
+                "x": "Pesada, duas mãos",
+                "y": "",
+                "z": true
             },
-            "c": []
+            "c": [{
+                "a": 8,
+                "b": false,
+                "d": "C2D50D1D155A7E6B55712C7A09C1A6B1",
+                "uuid": "349D5112A27598148E5AD03DB057DC61"
+            }]
         },
         {
             "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "1204634EDC99FE53B6B40E0F294721D8",
+                "c": 1,
                 "d": false,
-                "f": ""
+                "e": false,
+                "f": "",
+                "uuid": "fv9jg9el2u441jo8j2n4umbt05"
             },
             "b": {
+                "uuid": "1204634EDC99FE53B6B40E0F294721D8",
+                "a": "pt",
                 "b": "perfurante",
-                "c": 10,
+                "c": 1,
                 "d": "GP",
-                "e": 0.5,
+                "e": 1.5,
+                "f": 3,
                 "g": 1,
                 "h": "UN",
-                "i": "Arma",
+                "i": "WEAPON",
                 "j": 0,
-                "k": "",
                 "l": 0,
-                "uuid": "B016C5F2C20262369B730BB8061AED00",
-                "m": false,
-                "n": 0,
-                "o": 0,
-                "q": "DEXTERITY",
-                "1": "1",
-                "t": false,
-                "u": "Zarabatana",
-                "v": "",
-                "w": "Dano 1, Munição (distância 7,5/30), recarga"
-            },
-            "c": []
-        },
-        {
-            "a": {
-                "d": false,
-                "f": ""
-            },
-            "b": {
-                "b": "perfurante",
-                "c": 5,
-                "d": "GP",
-                "e": 2,
-                "g": 1,
-                "h": "UN",
-                "i": "Arma",
-                "j": 0,
-                "k": "",
-                "l": 0,
-                "uuid": "F973A3E9705888BBBE815DB7BFBF57EC",
                 "m": false,
                 "n": 0,
                 "o": 0,
                 "q": "STRENGTH",
                 "1": "1d6",
+                "r": 0,
+                "s": 0,
                 "t": false,
-                "u": "Tridente",
+                "u": "Lança",
                 "v": "",
-                "w": "Arremesso (6/18), versátil (1d8)"
+                "w": "Arremesso (distância 6/18), versátil (1d8)",
+                "x": "Arremesso (distância 20/60), versátil (1d8)",
+                "y": "",
+                "z": true
+            },
+            "c": [{
+                "a": 6,
+                "b": false,
+                "d": "1204634EDC99FE53B6B40E0F294721D8",
+                "uuid": "2ED68CE84E283F9F2781EE2CC20B870D"
+            }]
+        },
+        {
+            "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "A3C88FAA6551B365D6DAB6485C93C053",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "nt16802ul9amvcku06sldhpkjv"
+            },
+            "b": {
+                "uuid": "A3C88FAA6551B365D6DAB6485C93C053",
+                "a": "pt",
+                "b": "",
+                "c": 5,
+                "d": "GP",
+                "e": 4,
+                "f": 8,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 11,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": true,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura Acolchoada",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "mrscv5nmhqmd8f0jd7piv324gi"
+            },
+            "b": {
+                "uuid": "2F18668F602E0DA0E8806A30B4EC0DEF",
+                "a": "pt",
+                "b": "",
+                "c": 10,
+                "d": "GP",
+                "e": 5,
+                "f": 10,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 11,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "a": "df11tab4vs6l7toirip2bnh1p",
+                "b": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "3rj28sgnno3f8fbnkol9rac41m"
+            },
+            "b": {
+                "uuid": "6EE5585CF75328CBAE9EEE6C893170FF",
+                "a": "pt",
+                "b": "",
+                "c": 45,
+                "d": "GP",
+                "e": 6.5,
+                "f": 13,
+                "g": 1,
+                "h": "UN",
+                "i": "ARMOR",
+                "j": 12,
+                "k": "DEXTERITY",
+                "l": 0,
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "r": 0,
+                "s": 0,
+                "t": false,
+                "u": "Armadura de Couro Batido",
+                "v": "",
+                "w": "",
+                "x": "",
+                "y": "",
+                "z": true
             },
             "c": []
         },
         {
             "a": {
                 "d": false,
-                "f": ""
+                "e": false,
+                "f": "",
+                "uuid": "PT4TTGEX3F07ATKOTMJ7UPLN2IMAV0L3"
             },
             "b": {
-                "b": "-",
-                "c": 1,
+                "b": "",
+                "c": 75,
                 "d": "GP",
-                "e": 1.5,
+                "e": 27.5,
                 "g": 1,
                 "h": "UN",
-                "i": "Arma",
-                "j": 0,
+                "i": "Armadura",
+                "j": 16,
                 "k": "",
                 "l": 0,
-                "uuid": "7A5DC89B16E2AFEE2F111D09D4E5828B",
-                "m": false,
-                "n": 0,
+                "uuid": "3DB451EDA94A8136A33C968D06C13D51",
+                "m": true,
+                "n": 13,
                 "o": 0,
-                "q": "DEXTERITY",
-                "1": "-",
+                "q": "",
                 "t": false,
-                "u": "Rede",
+                "u": "Cota de Malha",
                 "v": "",
-                "w": "Especial, arremesso (distância 1,5/4,5)"
+                "w": ""
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "e": true,
+                "f": "",
+                "uuid": "KS4V5EZYAEIW1XZIZCCJLYBKL04IVS9N"
+            },
+            "b": {
+                "b": "",
+                "c": 1500,
+                "d": "GP",
+                "e": 32.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Armadura",
+                "j": 18,
+                "k": "",
+                "l": 0,
+                "uuid": "4B526C5F79C4CDB528115E456DA363E7",
+                "m": true,
+                "n": 15,
+                "o": 0,
+                "q": "",
+                "t": false,
+                "u": "Armadura de Placas",
+                "v": "",
+                "w": ""
             },
             "c": []
         }

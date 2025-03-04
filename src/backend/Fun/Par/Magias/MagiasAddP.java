@@ -20,8 +20,8 @@ public class MagiasAddP {
          AddEquip.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 trocarPainel mudar = new trocarPainel();
-                Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens);
-                mudar.painelChange(novoFrame);
+                //Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens);
+                //mudar.painelChange(novoFrame);
             }
         });
     }
