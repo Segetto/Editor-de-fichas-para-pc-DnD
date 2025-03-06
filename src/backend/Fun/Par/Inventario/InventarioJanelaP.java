@@ -14,6 +14,8 @@ import java.awt.GridBagConstraints;
 import java.awt.*;
 import java.awt.event.*;
 import backend.Fun.VirtualObjects.*;
+import backend.jsonParser;
+import static backend.Fun.FichaLer.FichaLerString;
 
 /**
  *
@@ -41,7 +43,7 @@ public class InventarioJanelaP {
         gbc.insets = new Insets(0, 0, 5, 0); // Espaço entre os itens
         JSONArray ItensNovos = new JSONArray();
         JPanel[] OpcoesVetor = new JPanel[itens.length()];
-
+        jsonParser Sobrescrever = new jsonParser();
         for (int i = 0; i < itens.length(); i++) {
 
             JPanel PainelItem = new JPanel();
@@ -51,6 +53,7 @@ public class InventarioJanelaP {
             JPanel PainelTituloItem = new JPanel();
             PainelTituloItem.setLayout(new BoxLayout(PainelTituloItem, BoxLayout.Y_AXIS));
             JPanel PainelNomeItem = new JPanel(new BorderLayout());
+
             JLabel NomeItem = new JLabel(itens.getJSONObject(i).getString("u"));
             NomeItem.setForeground(cor);
             ImageIcon Icone = new ImageIcon("src/visual/res/SmallDown.png");
@@ -60,6 +63,8 @@ public class InventarioJanelaP {
 
             JPanel PainelDescricaoItem = new JPanel();
             JLabel DescricaoItem = new JLabel();
+            PainelDescricaoItem.setLayout(new BoxLayout(PainelDescricaoItem, BoxLayout.Y_AXIS));
+
             int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
             if (itens.getJSONObject(i).has("v")) {
                 DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(i).getString("v") + "</body></html>");
@@ -71,7 +76,15 @@ public class InventarioJanelaP {
             PainelNomeItem.add(NomeItem, BorderLayout.CENTER);
             PainelNomeItem.add(UpOrDown, BorderLayout.EAST);
 
-            PainelDescricaoItem.add(DescricaoItem);
+            JPanel PDescricaoTextoItem = new JPanel();
+            PDescricaoTextoItem.add(DescricaoItem);
+            PDescricaoTextoItem.setOpaque(false);
+            PainelDescricaoItem.add(PDescricaoTextoItem);
+            JLabel RemoverItem = new JLabel("Remover item");
+            JPanel RemoverItemPainel = new JPanel();
+            final String idItem = itens.getJSONObject(i).getString("uuid");
+            RemoverItem.setForeground(new Color(255, 105, 105));
+            RemoverItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             gbc.gridy = i; // Define a posição na grade
             PainelNomeItem.setOpaque(false);
             PainelDescricaoItem.setOpaque(false);
@@ -91,13 +104,21 @@ public class InventarioJanelaP {
                 JLabel InfArmaAtaqueT = new JLabel("Ataque");
                 JLabel InfArmaDanoT = new JLabel("Dano");
                 JLabel InfArmaTipoT = new JLabel("Tipo de dano");
-                int Status;
+                int Status = 0;
                 switch (itens.getJSONObject(i).getString("q")) {
                     case "STRENGTH" ->
                         Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
                     case "DEXTERITY" ->
                         Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                    default -> {
+                    case "CONSTITUTION" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(2).getInt("b");
+                    case "INTELLIGENCE" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(3).getInt("b");
+                    case "WISDOM" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(4).getInt("b");
+                    case "CHARISMA" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(5).getInt("b");
+                    case "DEXORSTR" -> {
                         if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
                             Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
                         } else {
@@ -107,13 +128,17 @@ public class InventarioJanelaP {
                 }
                 JLabel InfArmaAtaque = new JLabel("-");
                 String Modificador;
-                Modificador = mod(Status, 0);
+                Modificador = mod(Status, itens.getJSONObject(i).getInt("2"));
                 if (Modificador.equals("0")) {
                     Modificador = "";
                 }
                 InfArmaAtaque.setText("1d20" + Modificador);
                 JLabel InfArmaDano = new JLabel("-");
-                InfArmaDano.setText(itens.getJSONObject(i).getString("1"));
+                String DanoMod = "+" + itens.getJSONObject(i).getInt("3");
+                if (DanoMod.equals("+0")) {
+                    DanoMod = "";
+                }
+                InfArmaDano.setText(itens.getJSONObject(i).getString("1") + DanoMod);
                 JLabel InfArmaTipo = new JLabel(itens.getJSONObject(i).getString("b"));
 
                 InfArmaAtaqueT.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -166,7 +191,31 @@ public class InventarioJanelaP {
                 if (itens.getJSONObject(i).has("m")) {
                     InfArmaduraDesvantagem.setText("Desvantagem");
                 }
-                int Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                int Status = 10;
+                if (itens.getJSONObject(i).has("k")) {
+
+                    switch (itens.getJSONObject(i).getString("k")) {
+                        case "STRENGTH" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                        case "DEXTERITY" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                        case "CONSTITUTION" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(2).getInt("b");
+                        case "INTELLIGENCE" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(3).getInt("b");
+                        case "WISDOM" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(4).getInt("b");
+                        case "CHARISMA" ->
+                            Status = ficha.getJSONArray("e").getJSONObject(5).getInt("b");
+                        case "DEXORSTR" -> {
+                            if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
+                                Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                            } else {
+                                Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                            }
+                        }
+                    }
+                }
                 String CA = mod(Status, itens.getJSONObject(i).getInt("j"));
                 JLabel InfArmaduraForca = new JLabel("-");
                 int ForcaMin = 0;
@@ -205,6 +254,12 @@ public class InventarioJanelaP {
                 InfArmaduraDesvantagem.setForeground(cor);
 
             }
+            if (itens.getJSONObject(i).getBoolean("t")) {
+                RemoverItemPainel.add(RemoverItem);
+                RemoverItemPainel.setOpaque(false);
+                PainelDescricaoItem.add(RemoverItemPainel);
+            }
+            PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 10)));
             PainelItem.add(PainelTituloItem);
             PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             PainelTituloItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
@@ -243,6 +298,23 @@ public class InventarioJanelaP {
                 }
             });
 
+            RemoverItem.addMouseListener(new MouseAdapter() {
+
+                @Override
+
+                public void mouseClicked(MouseEvent e) {
+                    for (int j = 0; j < ficha.getJSONArray("i").length(); j++) {
+                        if (itens.getJSONObject(j).getString("uuid").equals(idItem)) {
+                            PainelItens.remove(PainelItem);
+                            itens.remove(j);
+                        }
+                    }
+                    Sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", itens.toString(4));
+                    PainelItens.revalidate();
+                    PainelItens.repaint();
+
+                }
+            });
             check.addItemListener(new ItemListener() {
                 int posicao = 0;
 

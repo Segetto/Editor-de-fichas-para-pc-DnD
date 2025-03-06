@@ -116,12 +116,11 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacaoPanelP(personagemCaminho, ficha, PCarRacaC, "n", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PIdiomasC, "p", "c", "d", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PTalentosC, "o", "d", "c", PainelEspecializacoes);
-
         jScrollPaneMochilaItens.getVerticalScrollBar().setUnitIncrement(10);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);  
     }
 
     /**

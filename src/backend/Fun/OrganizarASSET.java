@@ -13,7 +13,7 @@ import org.json.*;
  * @author Admin
  */
 public class OrganizarASSET {
-    public JSONArray OrganizarJSONArray(JSONArray ArrayEntrada){
+    public static JSONArray OrganizarJSONArray(JSONArray ArrayEntrada){
          java.util.List<JSONObject> lista = new java.util.ArrayList<>();
                     for (int i = 0; i < ArrayEntrada.length(); i++) {
                         lista.add(ArrayEntrada.getJSONObject(i));

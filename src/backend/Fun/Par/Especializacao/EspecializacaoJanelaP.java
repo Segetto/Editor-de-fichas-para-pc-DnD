@@ -4,6 +4,7 @@
  */
 package backend.Fun.Par.Especializacao;
 
+import static backend.Fun.FichaLer.FichaLerString;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import backend.Fun.Rand;
 import org.json.*;
@@ -26,6 +27,12 @@ public class EspecializacaoJanelaP {
         if (OpcoesComboBox != null) {
             for (int i = 0; i < OpcoesComboBox.length(); i++) {
                 Opcoes.addItem(OpcoesComboBox.getJSONObject(i).getString("b")); // Adiciona cada item individualmente
+            }
+            if (VetorCaminho.equals("m")) {
+                Opcoes.setSelectedItem(FichaLerString(ficha, "classe", 0));
+            }
+            else if (VetorCaminho.equals("n")) {
+                Opcoes.setSelectedItem(FichaLerString(ficha, "Raca", 0));
             }
         }
         AdicionarEquipamentos(personagemCaminho, ficha, PainelEspecializacao, Opcoes, PainelEspecializacaoFicha, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, Especializacoes, OpcoesComboBox);

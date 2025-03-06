@@ -14,11 +14,13 @@ import visual.Equipamento;
  * @author Admin
  */
 public class EquipamentosAddP {
-    public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens, JLabel BonusCALabel){
-                         trocarPainel mudar = new trocarPainel();
-                Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel);
+
+    public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens, JLabel BonusCALabel) {
+
         AddEquip.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
+                trocarPainel mudar = new trocarPainel();
+                Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel);
                 mudar.painelChange(novoFrame);
             }
         });

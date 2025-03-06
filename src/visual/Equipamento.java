@@ -5,6 +5,7 @@
 package visual;
 
 import org.json.*;
+import static backend.Fun.Par.Inventario.CriarItemLabelP.CriarItemLabelP;
 import static backend.Fun.Par.Geral.ScrollP.ScrollP;
 import backend.Fun.Par.Inventario.InventarioJanelaP;
 import static backend.Fun.Par.Inventario.InventarioPanelP.ItensPanelP;
@@ -30,6 +31,7 @@ public class Equipamento extends javax.swing.JFrame {
                 ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel);
             }
         });
+        CriarItemLabelP(itens, CriarNovoItem);
 
     }
 
@@ -50,6 +52,7 @@ public class Equipamento extends javax.swing.JFrame {
         EquipamentoSelect = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         AdicionarNovosItens = new javax.swing.JLabel();
+        CriarNovoItem = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -96,25 +99,30 @@ public class Equipamento extends javax.swing.JFrame {
         AdicionarNovosItens.setText("Adicionar");
         AdicionarNovosItens.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        CriarNovoItem.setForeground(new java.awt.Color(122, 255, 255));
+        CriarNovoItem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CriarNovoItem.setText("Criar");
+        CriarNovoItem.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(115, 115, 115)
-                        .addComponent(BotaoSair)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(AdicionarNovosItens, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPaneItens)
-                            .addComponent(jLabel1)
-                            .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPaneItens)
+                    .addComponent(jLabel1)
+                    .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(CriarNovoItem, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(BotaoSair)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(AdicionarNovosItens, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -125,11 +133,12 @@ public class Equipamento extends javax.swing.JFrame {
                 .addComponent(EquipamentoSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPaneItens, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addGap(86, 86, 86)
+                .addGap(87, 87, 87)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BotaoSair)
-                    .addComponent(AdicionarNovosItens, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24))
+                    .addComponent(AdicionarNovosItens, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CriarNovoItem, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -211,6 +220,7 @@ public class Equipamento extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel AdicionarNovosItens;
     private javax.swing.JButton BotaoSair;
+    private javax.swing.JLabel CriarNovoItem;
     private javax.swing.JPanel EquipamentoPainel;
     private javax.swing.JComboBox<String> EquipamentoSelect;
     private javax.swing.JLabel jLabel1;

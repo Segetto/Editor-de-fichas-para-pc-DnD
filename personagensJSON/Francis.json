@@ -99,14 +99,14 @@
     "e": [
         {
             "a": "STRENGTH",
-            "b": 10,
+            "b": 20,
             "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "g3d1j6inkl9k4h9r5isdl6ua5p"
         },
         {
             "a": "DEXTERITY",
-            "b": 10,
+            "b": 20,
             "c": false,
             "d": "df11tab4vs6l7toirip2bnh1p",
             "uuid": "9hmadfhc3d7u0u0856jjdn1in4"
@@ -692,7 +692,7 @@
                 "b": "6EE5585CF75328CBAE9EEE6C893170FF",
                 "c": 1,
                 "d": false,
-                "e": false,
+                "e": true,
                 "f": "",
                 "uuid": "3rj28sgnno3f8fbnkol9rac41m"
             },
@@ -759,7 +759,7 @@
         {
             "a": {
                 "d": false,
-                "e": true,
+                "e": false,
                 "f": "",
                 "uuid": "KS4V5EZYAEIW1XZIZCCJLYBKL04IVS9N"
             },
@@ -783,6 +783,37 @@
                 "u": "Armadura de Placas",
                 "v": "",
                 "w": ""
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "4COWKEBWJM97JMNKJ9MA8JJXZRXP42SL"
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 2,
+                "d": "GP",
+                "e": 0.5,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "DEXORSTR",
+                "1": "1d4",
+                "t": false,
+                "u": "Adaga",
+                "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
+                "w": "Acuidade, leve, arremesso (distância 6/18)"
             },
             "c": []
         }

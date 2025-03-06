@@ -7,6 +7,7 @@ package visual;
 import static backend.Fun.Rand.NovoId;
 import org.json.*;
 import static backend.Fun.FichaLer.FichaLerString;
+import backend.Fun.OrganizarASSET;
 import com.formdev.flatlaf.FlatDarkLaf;
 import javax.swing.*;
 import java.io.File;
@@ -19,8 +20,7 @@ import java.awt.event.ActionListener;
 import backend.jsonParser;
 import backend.Fun.trocarPainel;
 import java.awt.Color;
-import java.awt.Insets;
-import javax.swing.border.MatteBorder;
+import backend.Fun.VirtualObjects.NewItemArrayVO;
 
 /**
  *
@@ -61,7 +61,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
             JSONObject ficha = new JSONObject(jsonParser.LerArquivo("personagensJSON/" + nomeArquivo));
             jComboBox1.addItem(new Item(nomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
         });
-        
+
         jComboBox1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -236,6 +236,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
         fileChooser.setDialogTitle("Selecione um Arquivo");
         int result = fileChooser.showOpenDialog(null);
         if (result == JFileChooser.APPROVE_OPTION) {
+            JSONArray itens = new JSONArray(jsonParser.LerArray("ASSETS/Equipamento.json"));
             File selectedFile = fileChooser.getSelectedFile();
             String destinationPath = "personagensJSON/" + selectedFile.getName();
             String novoNomeArquivo = NovoId(32) + ".json";
@@ -244,14 +245,62 @@ public class SelectPersonagem extends javax.swing.JFrame {
                 Files.copy(Paths.get(selectedFile.getAbsolutePath()), destinoArquivo.toPath());
                 String nomeArquivo = selectedFile.getName();
                 JSONObject ficha = new JSONObject(jsonParser.LerArquivo(destinoArquivo.getAbsolutePath()));
-                jComboBox1.addItem(new Item(nomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
+                NewItemArrayVO ItemCustom = new NewItemArrayVO();
+                for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
+                    if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        String ExtraK = "";
+                        String Extra1 = "";
+                        int Extra2 = 0;
+                        int Extra3 = 0;
+                        if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("1")) {
+                            Extra1 = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("1");
+                        }
+                        if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("2")) {
+                            Extra2 = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("2");
+                        }
+                        if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("2")) {
+                            Extra3 = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("3");
+                        }
+                        if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("k")) {
+                            ExtraK = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("k");
+                        }
+
+                        itens.put(ItemCustom.NovoItem(
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("b"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("c"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("d"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getDouble("e"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getDouble("g"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("h"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i"),
+                                "",
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j"),
+                                ExtraK,
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("m"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("n"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("q"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("o"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("u"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("v"),
+                                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("w"),
+                                Extra1,
+                                Extra2,
+                                Extra3)
+                        );
+                    }
+                }
+                jComboBox1.addItem(new Item(novoNomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
             } catch (IOException e) {
                 System.out.println("Erro ao enviar o arquivo: " + e);
             }
             System.out.println("Arquivo selecionado: " + selectedFile.getAbsolutePath());
+            jsonParser salvar = new jsonParser();
+            salvar.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(itens).toString(4));
         } else {
             System.out.println("Nenhum arquivo selecionado.");
         }
+
     }//GEN-LAST:event_AdicionarPersonagemExistenteBotaoActionPerformed
 
     /**
@@ -270,7 +319,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
             UIManager.put("Spinner.buttonArrowColor", new Color(255, 255, 255));
             UIManager.put("Spinner.buttonBackground", new Color(23, 23, 23));
             UIManager.put("Spinner.buttonSeparatorColor", new Color(23, 23, 23));
-            
+
         } catch (Exception e) {
             e.printStackTrace();
         }

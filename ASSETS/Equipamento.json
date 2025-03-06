@@ -39,14 +39,15 @@
         "i": "Arma",
         "uuid": "D87FB7AC26BA171031B2EA0CF92EFCB2",
         "q": "DEXORSTR",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Adaga",
         "v": "Tipo de espada curta, de perfuração, com duplo corte de têmpera forte, serrada ou compacta",
-        "w": "Acuidade, leve, arremesso (distância 6/18)",
-        "1": "1d4"
-       
+        "w": "Acuidade, leve, arremesso (distância 6/18)"
     },
     {
         "a": "pt",
@@ -74,13 +75,14 @@
         "i": "Arma",
         "uuid": "1BC5B5EAB9E16142C5520C3E9B555E3E",
         "q": "STRENGTH",
+        "1": "1d10",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Alabarda",
-        "w": "Pesada, alcance, duas mãos",
-        "1": "1d10"
-       
+        "w": "Pesada, alcance, duas mãos"
     },
     {
         "a": "pt",
@@ -176,13 +178,14 @@
         "i": "Arma",
         "uuid": "9822810FE68E42BB459E016473630D46",
         "q": "DEXTERITY",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Arco Curto",
-        "w": "Munição (distância 24/96), duas mãos",
-        "1": "1d6"
-       
+        "w": "Munição (distância 24/96), duas mãos"
     },
     {
         "a": "pt",
@@ -196,13 +199,14 @@
         "i": "Arma",
         "uuid": "0E679E998A201676AB652F6B31A961E0",
         "q": "DEXTERITY",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Arco Longo",
-        "w": "pesada, duas mãos",
-        "1": "1d8"
-       
+        "w": "pesada, duas mãos"
     },
     {
         "a": "pt",
@@ -319,13 +323,14 @@
         "i": "Arma",
         "uuid": "0BA0F1CDC2248BBC350D9D3D5E8D61ED",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Azagaia",
-        "w": "Arremesso (distância 9/36)",
-        "1": "1d6"
-       
+        "w": "Arremesso (distância 9/36)"
     },
     {
         "a": "pt",
@@ -392,13 +397,14 @@
         "i": "Arma",
         "uuid": "08F9ED9421B238637CA001FC88BE59E1",
         "q": "DEXTERITY",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Besta de Mão",
-        "w": "Munição (distância 9/36), leve, recarga",
-        "1": "1d6"
-       
+        "w": "Munição (distância 9/36), leve, recarga"
     },
     {
         "a": "pt",
@@ -412,12 +418,14 @@
         "i": "Arma",
         "uuid": "93E042157FEF32C14A37719FAE56488A",
         "q": "DEXTERITY",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Besta Leve",
-        "w": "Munição (distância 24/96), recarga, duas mãos",
-       "1": "1d8"
+        "w": "Munição (distância 24/96), recarga, duas mãos"
     },
     {
         "a": "pt",
@@ -431,12 +439,14 @@
         "i": "Arma",
         "uuid": "3D9880F2528541337CFD2ABDCF8230EF",
         "q": "DEXTERITY",
+        "1": "1d10",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Besta Pesada",
-        "w": "Munição (distância 9/36), pesada, recarga, duas mãos",
-       "1": "1d10"
+        "w": "Munição (distância 9/36), pesada, recarga, duas mãos"
     },
     {
         "a": "pt",
@@ -464,12 +474,14 @@
         "i": "Arma",
         "uuid": "9CD29C32E6803818C2F75C2EA5B5CC31",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Bordão",
-        "w": "Versátil (1d8)",
-       "1": "1d6"
+        "w": "Versátil (1d8)"
     },
     {
         "a": "pt",
@@ -582,12 +594,14 @@
         "i": "Arma",
         "uuid": "BAA3BEBB5A052DA6FB63EC232819F2DE",
         "q": "DEXORSTR",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Chicote",
-        "w": "Acuidade, alcance",
-       "1": "1d4"
+        "w": "Acuidade, alcance"
     },
     {
         "a": "pt",
@@ -601,12 +615,14 @@
         "i": "Arma",
         "uuid": "F36AA3D28A9B77E1967F5D6D8BC11641",
         "q": "DEXORSTR",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Cimitarra",
-        "w": "Acuidade, leve",
-       "1": "1d6"
+        "w": "Acuidade, leve"
     },
     {
         "a": "pt",
@@ -620,12 +636,14 @@
         "i": "Arma",
         "uuid": "C2D50D1D155A7E6B55712C7A09C1A6B1",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Clava Grande",
-        "w": "Pesada, duas mãos",
-       "1": "1d8"
+        "w": "Pesada, duas mãos"
     },
     {
         "a": "pt",
@@ -740,12 +758,14 @@
         "i": "Arma",
         "uuid": "6066F363D6264D70D50C77976F3F4255",
         "q": "DEXORSTR",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Dardo",
-        "w": "Acuidade, arremesso (distância 6/18)",
-       "1": "1d4"
+        "w": "Acuidade, arremesso (distância 6/18)"
     },
     {
         "a": "pt",
@@ -814,12 +834,14 @@
         "i": "Arma",
         "uuid": "00CE379CF6D788794771D7D7701574B5",
         "q": "DEXORSTR",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Espada Curta",
-        "w": "Acuidade, leve",
-       "1": "1d6"
+        "w": "Acuidade, leve"
     },
     {
         "a": "pt",
@@ -833,12 +855,14 @@
         "i": "Arma",
         "uuid": "C2C302444323A568237BC5D58F755C77",
         "q": "STRENGTH",
+        "1": "2d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Espada Grande",
-        "w": "Pesada, duas mãos",
-       "1": "2d6"
+        "w": "Pesada, duas mãos"
     },
     {
         "a": "pt",
@@ -852,12 +876,14 @@
         "i": "Arma",
         "uuid": "691679D7316F2DBC2518CC6BD4F79BB2",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Espada Longa",
-        "w": "Versátil (1d10)",
-       "1": "1d8"
+        "w": "Versátil (1d10)"
     },
     {
         "a": "pt",
@@ -1052,12 +1078,14 @@
         "i": "Arma",
         "uuid": "635F99BEBFE1C40A72E66A47D7164F7B",
         "q": "STRENGTH",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Foice Curta",
-        "w": "Leve",
-       "1": "1d4"
+        "w": "Leve"
     },
     {
         "a": "pt",
@@ -1084,31 +1112,14 @@
         "i": "Arma",
         "uuid": "0F9C11019E511FFE0EAF5E5B380356C7",
         "q": "DEXTERITY",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Funda",
-        "w": "Munição (distância 9/36)",
-       "1": "1d4"
-    },
-    {
-        "a": "pt",
-        "b": "cortante",
-        "c": 25,
-        "d": "GP",
-        "e": 3,
-        "f": 6,
-        "g": 1,
-        "h": "UN",
-        "i": "Arma",
-        "uuid": "2F071C0D3C6BF6606EB9F7B0A88B4E40",
-        "q": "STRENGTH",
-        "r": 0,
-        "s": 0,
-        "t": false,
-        "u": "Glaive",
-        "w": "Pesada, alcance, duas mãos",
-       "1": "1d10"
+        "w": "Munição (distância 9/36)"
     },
     {
         "a": "pt",
@@ -1151,6 +1162,27 @@
         "h": "UN",
         "i": "Outros",
         "uuid": "B377BEBC22BB941370A802EB8A540B8C"
+    },
+    {
+        "a": "pt",
+        "b": "cortante",
+        "c": 25,
+        "d": "GP",
+        "e": 3,
+        "f": 6,
+        "g": 1,
+        "h": "UN",
+        "i": "Arma",
+        "uuid": "2F071C0D3C6BF6606EB9F7B0A88B4E40",
+        "q": "STRENGTH",
+        "1": "1d10",
+        "r": 0,
+        "2": 0,
+        "s": 0,
+        "3": 0,
+        "t": false,
+        "u": "Glaive",
+        "w": "Pesada, alcance, duas mãos"
     },
     {
         "a": "pt",
@@ -1233,12 +1265,14 @@
         "i": "Arma",
         "uuid": "1204634EDC99FE53B6B40E0F294721D8",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Lança",
-        "w": "Arremesso (distância 6/18), versátil (1d8)",
-       "1": "1d6"
+        "w": "Arremesso (distância 6/18), versátil (1d8)"
     },
     {
         "a": "pt",
@@ -1252,12 +1286,14 @@
         "i": "Arma",
         "uuid": "E6891A9958D7FD1E86AF1D4684CE107E",
         "q": "STRENGTH",
+        "1": "1d12",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Lança de Montaria",
-        "w": "Alcance, especial",
-       "1": "1d12"
+        "w": "Alcance, especial"
     },
     {
         "a": "pt",
@@ -1271,12 +1307,14 @@
         "i": "Arma",
         "uuid": "FB235BCCA5CB226F09431C32CDD6E866",
         "q": "STRENGTH",
+        "1": "1d10",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Lança Longa",
-        "w": "Pesada, alcance, duas mãos",
-       "1": "1d10"
+        "w": "Pesada, alcance, duas mãos"
     },
     {
         "a": "pt",
@@ -1360,13 +1398,14 @@
         "i": "Arma",
         "uuid": "1245785A8A7F15FE7E41F72353C86074",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Maça",
-        "w": "-",
-        "1": "1d6"
-       
+        "w": "-"
     },
     {
         "a": "pt",
@@ -1380,13 +1419,14 @@
         "i": "Arma",
         "uuid": "942021B87F048307AE26D724E9C3F272",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Maça Estrela",
-        "w": "-",
-        "1": "1d8"
-       
+        "w": "-"
     },
     {
         "a": "pt",
@@ -1400,12 +1440,14 @@
         "i": "Arma",
         "uuid": "3F2405A75349AC1F7C78B989D2BB21CD",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Machadinha",
-        "w": "Leve, arremesso (distância 6/18)",
-       "1": "1d6"
+        "w": "Leve, arremesso (distância 6/18)"
     },
     {
         "a": "pt",
@@ -1419,12 +1461,14 @@
         "i": "Arma",
         "uuid": "83294158E63D5BBE16C131E9EFCECB78",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Machado de Batalha",
-        "w": "Versátil (1d10)",
-        "1": "1d8"
+        "w": "Versátil (1d10)"
     },
     {
         "a": "pt",
@@ -1438,12 +1482,14 @@
         "i": "Arma",
         "uuid": "412722876B8DC5D47D750239897B1712",
         "q": "STRENGTH",
+        "1": "1d12",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Machado Grande",
-        "w": "Pesada, duas mãos",
-       "1": "1d12"
+        "w": "Pesada, duas mãos"
     },
     {
         "a": "pt",
@@ -1457,13 +1503,14 @@
         "i": "Arma",
         "uuid": "F92167419AD15E876E680663E8360B38",
         "q": "STRENGTH",
+        "1": "2d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Malho",
-        "w": "Pesada, duas mãos",
-        "1": "2d6"
-       
+        "w": "Pesada, duas mãos"
     },
     {
         "a": "pt",
@@ -1477,12 +1524,14 @@
         "i": "Arma",
         "uuid": "5687887AA3971D5B0CD94C4CA6C1DB5A",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Mangual",
-        "w": "-",
-       "1": "1d8"
+        "w": "-"
     },
     {
         "a": "pt",
@@ -1535,12 +1584,14 @@
         "i": "Arma",
         "uuid": "072E65A2067227FD28DFA95BC6662259",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Martelo de Guerra",
-        "w": "Versátil (1d10)",
-       "1": "1d8"
+        "w": "Versátil (1d10)"
     },
     {
         "a": "pt",
@@ -1554,12 +1605,14 @@
         "i": "Arma",
         "uuid": "9546C178076D0528B33CFEA81B11FCCF",
         "q": "STRENGTH",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Martelo Leve",
-        "w": "Leve, arremesso (distância 6/18)",
-       "1": "1d4"
+        "w": "Leve, arremesso (distância 6/18)"
     },
     {
         "a": "pt",
@@ -1777,12 +1830,14 @@
         "i": "Arma",
         "uuid": "7EE49FC774D25C6C4FBFEA0C80F1951A",
         "q": "STRENGTH",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Picareta de Guerra",
-        "w": "-",
-       "1": "1d8"
+        "w": "-"
     },
     {
         "a": "pt",
@@ -1836,12 +1891,14 @@
         "i": "Arma",
         "uuid": "1DD5337EFE23089409D3533FF740B3AD",
         "q": "STRENGTH",
+        "1": "1d4",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Porrete",
-        "w": "Leve",
-       "1": "1d4"
+        "w": "Leve"
     },
     {
         "a": "pt",
@@ -1910,12 +1967,14 @@
         "i": "Arma",
         "uuid": "8F5927A16191C5F06FFB6D71806B1F17",
         "q": "DEXORSTR",
+        "1": "1d8",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Rapieira",
-        "w": "Acuidade",
-       "1": "1d8"
+        "w": "Acuidade"
     },
     {
         "a": "pt",
@@ -1929,12 +1988,14 @@
         "i": "Arma",
         "uuid": "7A5DC89B16E2AFEE2F111D09D4E5828B",
         "q": "DEXTERITY",
+        "1": "-",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Rede",
-        "w": "Especial, arremesso (distância 1,5/4,5)",
-       "1": "-"
+        "w": "Especial, arremesso (distância 1,5/4,5)"
     },
     {
         "a": "pt",
@@ -2171,12 +2232,14 @@
         "i": "Arma",
         "uuid": "F973A3E9705888BBBE815DB7BFBF57EC",
         "q": "STRENGTH",
+        "1": "1d6",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Tridente",
-        "w": "Arremesso (6/18), versátil (1d8)",
-       "1": "1d6"
+        "w": "Arremesso (6/18), versátil (1d8)"
     },
     {
         "a": "pt",
@@ -2229,12 +2292,14 @@
         "i": "Arma",
         "uuid": "B016C5F2C20262369B730BB8061AED00",
         "q": "DEXTERITY",
+        "1": "1",
         "r": 0,
+        "2": 0,
         "s": 0,
+        "3": 0,
         "t": false,
         "u": "Zarabatana",
-        "w": "Dano 1, Munição (distância 7,5/30), recarga",
-       "1": "1"
+        "w": "Dano 1, Munição (distância 7,5/30), recarga"
     },
     {
         "a": "pt",

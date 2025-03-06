@@ -145,6 +145,7 @@ public class InventarioPanelP {
             RemoverItemPainel.setOpaque(false);
             PainelDescricaoItem.add(PInfAdicionais);
             PainelDescricaoItem.add(RemoverItemPainel);
+            PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 10)));
             final String idItemFicha = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getString("uuid");
             gbc.gridy = i;
             PainelItem.setOpaque(false);
@@ -168,13 +169,21 @@ public class InventarioPanelP {
                 JLabel InfArmaAtaqueT = new JLabel("Ataque");
                 JLabel InfArmaDanoT = new JLabel("Dano");
                 JLabel InfArmaTipoT = new JLabel("Tipo de dano");
-                int Status;
+                int Status = 10;
                 switch (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("q")) {
                     case "STRENGTH" ->
                         Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
                     case "DEXTERITY" ->
                         Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
-                    default -> {
+                    case "CONSTITUTION" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(2).getInt("b");
+                    case "INTELLIGENCE" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(3).getInt("b");
+                    case "WISDOM" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(4).getInt("b");
+                    case "CHARISMA" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(5).getInt("b");
+                    case "DEXORSTR" -> {
                         if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
                             Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
                         } else {
@@ -184,17 +193,25 @@ public class InventarioPanelP {
                 }
                 JLabel InfArmaAtaque = new JLabel("-");
                 String Modificador;
+                int BonusAtaque = 0;
+                if(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("2")){
+                    BonusAtaque = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("2");
+                }
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("d")) {
-                    Modificador = mod(Status, Proficiencia(ficha));
+                    Modificador = mod(Status, Proficiencia(ficha) + BonusAtaque);
                 } else {
-                    Modificador = mod(Status, 0);
+                    Modificador = mod(Status, BonusAtaque);
                 }
                 if (Modificador.equals("0")) {
                     Modificador = "";
                 }
                 InfArmaAtaque.setText("1d20" + Modificador);
                 JLabel InfArmaDano = new JLabel("-");
-                String ModDano = mod(Status, 0);
+                int BonusDano = 0;
+                if(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("3")){
+                    BonusDano = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("3");
+                }
+                String ModDano = mod(Status, BonusDano);
                 if (ModDano.equals("0")) {
                     ModDano = "";
                 }
@@ -266,17 +283,34 @@ public class InventarioPanelP {
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("m")) {
                     InfArmaduraDesvantagem.setText("Desvantagem");
                 }
-                int Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                int Status = 10;
+                switch (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("k")) {
+                    case "STRENGTH" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                    case "DEXTERITY" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                    case "CONSTITUTION" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(2).getInt("b");
+                    case "INTELLIGENCE" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(3).getInt("b");
+                    case "WISDOM" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(4).getInt("b");
+                    case "CHARISMA" ->
+                        Status = ficha.getJSONArray("e").getJSONObject(5).getInt("b");
+                    case "DEXORSTR" -> {
+                        if (ficha.getJSONArray("e").getJSONObject(1).getInt("b") > ficha.getJSONArray("e").getJSONObject(0).getInt("b")) {
+                            Status = ficha.getJSONArray("e").getJSONObject(1).getInt("b");
+                        } else {
+                            Status = ficha.getJSONArray("e").getJSONObject(0).getInt("b");
+                        }
+                    }
+                }
                 JRadioButton InfArmaduraPreparada = new JRadioButton();
                 grupoArmaduras.add(InfArmaduraPreparada);
                 String CA = mod(Status, ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j"));
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l") != 0 && Math.floor((Status / 2) - 5) > ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l")) {
-                    Status = 14;
-                    CA = mod(Status, ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j"));
+                    CA = mod(10, ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j") + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("l"));
 
-                }
-                if (!ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("k")) {
-                    CA = "" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("j");
                 }
                 InfArmaduraPreparada.setSelected(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("e"));
                 JLabel InfArmaduraForca = new JLabel("-");

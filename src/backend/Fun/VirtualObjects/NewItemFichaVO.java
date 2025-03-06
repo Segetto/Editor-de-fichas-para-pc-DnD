@@ -6,6 +6,7 @@ package backend.Fun.VirtualObjects;
 
 import org.json.*;
 import backend.Fun.Rand;
+
 /**
  *
  * @author Admin
@@ -24,7 +25,9 @@ public class NewItemFichaVO {
         int CABonusEscudo = 0;
         String StatusArma = "";
         String PropriedadeArma = "";
-
+        String DadosDano = "";
+        int BonusAtaque = 0;
+        int BonusDano = 0;
         if (itens.getJSONObject(pos).has("v")) {
             descricao = itens.getJSONObject(pos).getString("v");
         }
@@ -55,6 +58,15 @@ public class NewItemFichaVO {
         if (itens.getJSONObject(pos).has("w")) {
             PropriedadeArma = itens.getJSONObject(pos).getString("w");
         }
+        if (itens.getJSONObject(pos).has("1")) {
+            DadosDano = itens.getJSONObject(pos).getString("1");
+        }
+        if (itens.getJSONObject(pos).has("2")) {
+            BonusAtaque = itens.getJSONObject(pos).getInt("2");
+        }
+        if (itens.getJSONObject(pos).has("3")) {
+            BonusDano = itens.getJSONObject(pos).getInt("3");
+        }
         NovoItem
                 .put("a", new JSONObject()
                         .put("f", "")
@@ -81,8 +93,11 @@ public class NewItemFichaVO {
                         .put("t", itens.getJSONObject(pos).getBoolean("t")) //É customizado
                         .put("u", itens.getJSONObject(pos).getString("u")) //Nome
                         .put("v", descricao)
-                        .put("w", PropriedadeArma)) //Propriedade especial da arma
-                .put("c", new JSONArray());  
+                        .put("w", PropriedadeArma) //Propriedade especial da arma
+                        .put("1", DadosDano)
+                        .put("2", BonusAtaque)
+                        .put("3", BonusDano))
+                .put("c", new JSONArray());
         return NovoItem;
     }
 }

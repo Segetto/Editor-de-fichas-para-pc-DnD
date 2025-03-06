@@ -36,7 +36,7 @@ public class Classes extends javax.swing.JFrame {
                 SalvarFicha(ficha, personagemCaminho);
             }
         });
-        NewClasseP(BotaoCriar);
+        NewClasseP(BotaoCriar, ClasseLabel, personagemCaminho);
     }
 
     public void recarregar() {
