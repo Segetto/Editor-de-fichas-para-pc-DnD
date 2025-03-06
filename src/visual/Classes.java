@@ -10,6 +10,8 @@ import backend.ClassesP;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import static backend.Fun.ClassesLabel.ClassesLabel;
 import static backend.Fun.Par.ClassesJanela.NewClasseP.NewClasseP;
+import static backend.Fun.Par.Geral.PericiasP.PericiasP;
+import static backend.Fun.Par.Geral.ProfP.ProfP;
 import org.json.JSONObject;
 
 /**
@@ -22,7 +24,7 @@ public class Classes extends javax.swing.JFrame {
     /**
      * Creates new form Classes
      */
-    public Classes(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, String nome, JLabel LevelLabel) {
+    public Classes(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, String nome, JLabel LevelLabel, JPanel PericiasContainer, JLabel ProfLabel) {
         initComponents();
 
         ClassesP Classes = new ClassesP();
@@ -33,7 +35,9 @@ public class Classes extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 dispose();
                 ClassesLabel(ficha, ClasseLabel, LevelLabel);
+                PericiasP(personagemCaminho, ficha, PericiasContainer);
                 SalvarFicha(ficha, personagemCaminho);
+                ProfP(ficha, ProfLabel);
             }
         });
         NewClasseP(BotaoCriar, ClasseLabel, personagemCaminho);

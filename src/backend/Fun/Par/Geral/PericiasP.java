@@ -14,6 +14,8 @@ import backend.jsonParser;
 import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import javax.swing.*;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
@@ -30,7 +32,9 @@ import visual.personagemFicha;
 public class PericiasP {
 
     public static void PericiasP(String personagemCaminho, JSONObject ficha, JPanel PericiasContainer) {
-
+        PericiasContainer.removeAll();
+        PericiasContainer.revalidate();
+        PericiasContainer.repaint();
         JSONArray Pericias = new JSONArray(jsonParser.LerArray("ASSETS/Pericias.json"));
 
         PericiasContainer.setLayout(new BoxLayout(PericiasContainer, BoxLayout.Y_AXIS));
@@ -99,11 +103,12 @@ public class PericiasP {
                 PericiaRow.add(pericia);
                 final int PericiaIListener = periciaI;
                 final int iListener = i;
-                checkbox.addItemListener(new ItemListener() {
-
-                    public void itemStateChanged(ItemEvent e) {
+                checkbox.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
                         int bonusI = 0;
-                        if (e.getStateChange() == ItemEvent.SELECTED) {
+                        ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("b", checkbox.isSelected());
+                        if (checkbox.isSelected()) {
                             if (ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("c") && ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("b")) {
                                 bonusI = Proficiencia(ficha) * 2;
                             } else if (ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("d") && ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("b")) {
@@ -124,10 +129,10 @@ public class PericiasP {
                             }
                         }
 
-                        ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("b", checkbox.isSelected());
+                        SalvarFicha(ficha, personagemCaminho);
                         ModLabel.revalidate();
                         ModLabel.repaint();
-                        SalvarFicha(ficha, personagemCaminho);
+
                     }
                 });
                 PericiaLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -149,6 +154,8 @@ public class PericiasP {
                         if (resultado == JOptionPane.OK_OPTION) {
                             boolean dobro = DobroCheck.isSelected();
                             boolean metade = MetadeCheck.isSelected();
+                            ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("c", dobro);
+                            ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("d", metade);
                             int bonusJ = 0;
                             if (ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("c") && ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").getBoolean("b")) {
                                 bonusJ = Proficiencia(ficha) * 2;
@@ -162,8 +169,6 @@ public class PericiasP {
                             } else {
                                 ModLabel.setText("" + mod(FichaLerInt(ficha, "Status", iListener), bonusJ));
                             }
-                            ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("c", dobro);
-                            ficha.getJSONArray("f").getJSONObject(PericiaIListener).getJSONObject("a").put("d", metade);
                             ModLabel.revalidate();
                             ModLabel.repaint();
                             SalvarFicha(ficha, personagemCaminho);

@@ -3,21 +3,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package visual;
+
 import backend.OpcoesP;
 import javax.swing.*;
 import org.json.JSONObject;
+
 /**
  *
  * @author Admin
  */
 public class Opcoes extends javax.swing.JFrame {
-OpcoesP OpcoesVo = new OpcoesP();
-   
+
+    OpcoesP OpcoesVo = new OpcoesP();
+
     public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha, String ArrayNome) {
         initComponents();
         jScrollPane2.getVerticalScrollBar().setUnitIncrement(5);
-       OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
-        OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha);
+        OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
+        OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha, TipoOpcao);
     }
 
     /**

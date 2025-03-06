@@ -62,11 +62,11 @@ public class OpcoesP {
         });
     }
 
-    public void SairP(String personagemCaminho, JSONObject ficha, JButton sair, JLabel OpcaoSelect) {
+    public void SairP(String personagemCaminho, JSONObject ficha, JButton sair, JLabel OpcaoSelect, String TipoOpcao) {
         sair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                OptionLabel(ficha, OpcaoSelect, "Alinhamento");
+                OptionLabel(ficha, OpcaoSelect, TipoOpcao);
                 SalvarFicha(ficha, personagemCaminho);
             }
         });

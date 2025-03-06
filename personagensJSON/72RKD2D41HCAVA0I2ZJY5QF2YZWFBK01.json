@@ -45,28 +45,18 @@
         "z": "Pretos"
     }],
     "b": [{
-        "a": "pt",
         "b": "Caótico bom",
-        "c": "É a tendência de criaturas que agem de acordo com sua própria consciência, se importando pouco com as expectativas dos outros. Dragões de cobre, muitos elfos e unicórnios são caóticos e bons.",
-        "d": false,
         "uuid": "5812E1AF60D451834834A20176C904CC"
     }],
     "c": [{
-        "a": "pt",
         "b": "Alto Elfo",
-        "c": "",
-        "d": false,
-        "e": false,
-        "f": 0,
-        "g": 0,
-        "h": true,
         "uuid": "F540B1E3C9F15F8202BB07D6B355106C"
     }],
     "d": [{
         "a": {
             "a": "66DDC67E7D8B9AE65FAFC661A1E9C807",
             "b": "jema1585f0m2j5eea36jrai2hq",
-            "c": 6,
+            "c": 7,
             "uuid": "kgn9vi7gotkjd49h21dofg9lpo"
         },
         "b": {
@@ -135,7 +125,7 @@
         }},
         {"a": {
             "a": "ACROBATICS",
-            "b": true,
+            "b": false,
             "c": false,
             "d": false,
             "e": "jema1585f0m2j5eea36jrai2hq",
@@ -171,8 +161,8 @@
         }},
         {"a": {
             "a": "HISTORY",
-            "b": false,
-            "c": false,
+            "b": true,
+            "c": true,
             "d": false,
             "e": "jema1585f0m2j5eea36jrai2hq",
             "f": "po9gmn9m5cc5na060fmke6sq3l",

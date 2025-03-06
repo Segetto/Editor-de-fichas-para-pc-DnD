@@ -11,8 +11,7 @@ import static backend.Fun.Mod.mod;
 import static backend.Fun.Par.Inventario.InformacoesAdicionaisP.InformacoesP;
 import backend.jsonParser;
 import java.awt.event.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+import visual.EditarItem;
 import org.json.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -42,6 +41,7 @@ public class InventarioPanelP {
             PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
             JPanel PainelNomeItem = new JPanel(new FlowLayout(FlowLayout.LEFT));
             JLabel RemoverItem = new JLabel("Remover item");
+
             String placeholder = "Informações adicionais";
             String Texto = placeholder;
 
@@ -66,8 +66,7 @@ public class InventarioPanelP {
             InformacoesAdicionais.setBorder(BorderFactory.createEmptyBorder());
             PInfAdicionais.add(scrollPaneInf);
             PInfAdicionais.setOpaque(false);
-            RemoverItem.setPreferredSize(new Dimension(84, 15));
-            JPanel RemoverItemPainel = new JPanel();
+            JPanel RemoverItemPainel = new JPanel(new FlowLayout());
             RemoverItemPainel.setPreferredSize(new Dimension(500, 20));
             RemoverItem.setPreferredSize(new Dimension(84, 20));
 
@@ -115,7 +114,24 @@ public class InventarioPanelP {
             InfItemUn.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemPrecoT.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemPreco.setAlignmentX(Component.CENTER_ALIGNMENT);
+            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                JLabel EditarItem = new JLabel("Editar item");
+                EditarItem.setForeground(new Color(255, 255, 255));
+                EditarItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+                EditarItem.setPreferredSize(new Dimension(58, 15));
+                EditarItem.setBorder(new MatteBorder(0, 0, 3, 0, new Color(255, 255, 255)));
+                RemoverItemPainel.add(EditarItem);
+                final int iCompEdit = i;
+                EditarItem.addMouseListener(new MouseAdapter() {
+                    @Override
 
+                    public void mouseClicked(MouseEvent e) {
+                        EditarItem EditItem = new EditarItem(null, ficha, iCompEdit);
+                        EditItem.setVisible(true);
+
+                    }
+                });
+            }
             PInfItemPeso.add(InfItemPesoT);
             PInfItemPeso.add(Box.createRigidArea(new Dimension(0, 5)));
             PInfItemPeso.add(InfItemPeso);
@@ -194,7 +210,7 @@ public class InventarioPanelP {
                 JLabel InfArmaAtaque = new JLabel("-");
                 String Modificador;
                 int BonusAtaque = 0;
-                if(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("2")){
+                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("2")) {
                     BonusAtaque = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("2");
                 }
                 if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("d")) {
@@ -206,9 +222,32 @@ public class InventarioPanelP {
                     Modificador = "";
                 }
                 InfArmaAtaque.setText("1d20" + Modificador);
+                JCheckBox proficiente = new JCheckBox();
+                proficiente.setSelected(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("d"));
+                int iCompCheck = i;
+                String ModificadorCheck = Modificador;
+                int StatusCheck = Status;
+                int BonusAtaqueCheck = BonusAtaque;
+                proficiente.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                        String ModificadorCheckNew;
+                        ficha.getJSONArray("i").getJSONObject(iCompCheck).getJSONObject("a").put("d", proficiente.isSelected());
+                        if (ficha.getJSONArray("i").getJSONObject(iCompCheck).getJSONObject("a").getBoolean("d")) {
+                            ModificadorCheckNew = mod(StatusCheck, Proficiencia(ficha) + BonusAtaqueCheck);
+                        } else {
+                            ModificadorCheckNew = mod(StatusCheck, BonusAtaqueCheck);
+                        }
+                        if (ModificadorCheck.equals("0")) {
+                            ModificadorCheckNew = "";
+                        }
+                        InfArmaAtaque.setText("1d20" + ModificadorCheckNew);
+                        SalvarFicha(ficha, personagemCaminho);
+                    }
+                });
                 JLabel InfArmaDano = new JLabel("-");
                 int BonusDano = 0;
-                if(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("3")){
+                if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").has("3")) {
                     BonusDano = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("3");
                 }
                 String ModDano = mod(Status, BonusDano);
@@ -232,6 +271,7 @@ public class InventarioPanelP {
 
                 InfArmaAtaqueT.setAlignmentX(Component.CENTER_ALIGNMENT);
                 InfArmaAtaque.setAlignmentX(Component.CENTER_ALIGNMENT);
+                proficiente.setAlignmentX(Component.CENTER_ALIGNMENT);
                 InfArmaDanoT.setAlignmentX(Component.CENTER_ALIGNMENT);
                 InfArmaDano.setAlignmentX(Component.CENTER_ALIGNMENT);
                 InfArmaTipoT.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -240,6 +280,7 @@ public class InventarioPanelP {
                 PInfArmaAtaque.add(InfArmaAtaqueT);
                 PInfArmaAtaque.add(Box.createRigidArea(new Dimension(0, 5)));
                 PInfArmaAtaque.add(InfArmaAtaque);
+                PInfArmaAtaque.add(proficiente);
                 PInfArmaDano.add(InfArmaDanoT);
                 PInfArmaDano.add(Box.createRigidArea(new Dimension(0, 5)));
                 PInfArmaDano.add(InfArmaDano);

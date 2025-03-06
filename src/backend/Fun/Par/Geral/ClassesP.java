@@ -7,6 +7,7 @@ package backend.Fun.Par.Geral;
 import static backend.Fun.ClassesLabel.ClassesLabel;
 import backend.Fun.trocarPainel;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import org.json.JSONObject;
 import visual.Classes;
 
@@ -15,14 +16,14 @@ import visual.Classes;
  * @author Admin
  */
 public class ClassesP {
-     public static void ClassesP(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, JLabel ClassesAdd, String personagem, JLabel LevelLabel) {
+     public static void ClassesP(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, JLabel ClassesAdd, String personagem, JLabel LevelLabel, JPanel PericiasContainer, JLabel ProfLabel) {
 
         ClassesLabel(ficha, ClasseLabel, LevelLabel);
 
         ClassesAdd.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 trocarPainel mudar = new trocarPainel();
-                Classes novoFrame = new Classes(personagemCaminho, ficha, ClasseLabel, personagem, LevelLabel);
+                Classes novoFrame = new Classes(personagemCaminho, ficha, ClasseLabel, personagem, LevelLabel, PericiasContainer, ProfLabel);
                 mudar.painelChange(novoFrame);
             }
         });
