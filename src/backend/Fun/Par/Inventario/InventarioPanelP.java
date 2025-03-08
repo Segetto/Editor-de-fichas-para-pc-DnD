@@ -22,7 +22,7 @@ import javax.swing.border.*;
  */
 public class InventarioPanelP {
 
-    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JLabel CALabel) {
+    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JLabel CALabel, JPanel AddEquip) {
         Color cor = new Color(255, 255, 255);
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -126,7 +126,7 @@ public class InventarioPanelP {
                     @Override
 
                     public void mouseClicked(MouseEvent e) {
-                        EditarItem EditItem = new EditarItem(null, ficha, iCompEdit);
+                        EditarItem EditItem = new EditarItem(null, ficha, iCompEdit, personagemCaminho, PainelItens, CALabel, null, AddEquip, "Ficha");
                         EditItem.setVisible(true);
 
                     }

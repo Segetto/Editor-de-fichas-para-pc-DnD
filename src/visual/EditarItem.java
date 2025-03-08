@@ -5,7 +5,9 @@
 package visual;
 
 import org.json.*;
-import backend.Fun.Par.NewItemJanela.NewItemSelectDinamico;
+import backend.Fun.Par.EditarItemJanela.EditarItemSelectDinamico;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 /**
  *
@@ -16,10 +18,10 @@ public class EditarItem extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public EditarItem(JSONArray Equipamento, JSONObject ficha, int pos) {
+    public EditarItem(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
-        NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento);
+        EditarItemSelectDinamico.EditarItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos);
         Nome.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("u"));
         Descricao.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("v"));
         PrecoValor.setText("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("c"));

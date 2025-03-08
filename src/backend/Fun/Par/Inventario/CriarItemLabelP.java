@@ -15,9 +15,9 @@ import visual.CriarItem;
  */
 public class CriarItemLabelP {
 
-    public static void CriarItemLabelP(JSONArray equipamentos, JLabel NewEquip) {
+    public static void CriarItemLabelP(JSONArray equipamentos, JLabel NewEquip, String personagemCaminho, JSONObject ficha, JPanel EquipamentosPanelFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip) {
         trocarPainel mudar = new trocarPainel();
-        CriarItem novoFrame = new CriarItem(equipamentos);
+        CriarItem novoFrame = new CriarItem(equipamentos, personagemCaminho, ficha, EquipamentosPanelFicha, BonusCALabel, EquipamentoPainel, AddEquip);
         NewEquip.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mudar.painelChange(novoFrame);

@@ -12,7 +12,9 @@ import java.awt.event.*;
 import backend.Fun.VirtualObjects.NewItemArrayVO;
 import backend.jsonParser;
 import static backend.Fun.IntCampo.*;
+import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import javax.swing.border.MatteBorder;
+import backend.Fun.Par.Inventario.EquipamentosAddP;
 
 /**
  *
@@ -20,7 +22,7 @@ import javax.swing.border.MatteBorder;
  */
 public class NewItemSelectDinamico {
 
-    public static void NewItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos) {
+    public static void NewItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip) {
         JPanel[] TiposItem = new JPanel[4];
         OpcoesExtra.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -113,7 +115,7 @@ public class NewItemSelectDinamico {
         BonusEscudoT.setForeground(new Color(255, 255, 255));
         JTextField BonusEscudo = new JTextField("0");
         PBonusEscudoT.add(BonusEscudoT);
-        
+
         JTextField[] camposTexto = {
             ArmaTipo, ArmaPropriedades, ArmaDadosDano, ArmaDanoBonus, ArmaAtaqueBonus, CABase, LimiteStatus, ForcaMinima, BonusEscudo
         };
@@ -169,7 +171,7 @@ public class NewItemSelectDinamico {
         OpcoesEscudo.add(Box.createRigidArea(new Dimension(0, 23)));
         OpcoesEscudo.add(PBonusEscudoT);
         OpcoesEscudo.add(BonusEscudo);
-        
+
         OpcoesArma.setBounds(10, 10, 100, 100);
         OpcoesArmadura.setBounds(10, 10, 100, 100);
         OpcoesEscudo.setBounds(10, 10, 100, 100);
@@ -194,7 +196,7 @@ public class NewItemSelectDinamico {
         IntCampo(BonusEscudo);
         IntCampo(ValorComp);
         DoubleCampo(PesoComp);
-        DoubleCampo(QtdPadraoComp);        
+        DoubleCampo(QtdPadraoComp);
         TiposItem[TipoItemComp.getSelectedIndex()].setVisible(true);
         AddItem.addMouseListener(new MouseAdapter() {
             @Override
@@ -244,6 +246,13 @@ public class NewItemSelectDinamico {
                         ArmaAtaqueBonusInt,
                         ArmaDanoBonusInt));
                 sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos).toString(4));
+                if (EquipamentoPainel != null) {
+                    Window janela = SwingUtilities.getWindowAncestor(EquipamentoPainel);
+                    janela.dispose();
+                    janela = null;
+                    EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, equipamentos, BonusCALabel);
+                    SwingUtilities.getWindowAncestor(NomeComp).dispose();
+                }
             }
         });
         TipoItemComp.addActionListener(new ActionListener() {
@@ -256,22 +265,23 @@ public class NewItemSelectDinamico {
             }
         });
     }
+
     public static String SetNome(String atributo) {
-    switch (atributo) {
-        case "Força":
-            return "STRENGTH";
-        case "Destreza":
-            return "DEXTERITY";
-        case "Constituição":
-            return "CONSTITUTION";
-        case "Inteligência":
-            return "INTELLIGENCE";
-        case "Sabedoria":
-            return "WISDOM";
-        case "Carisma":
-            return "CHARISMA";
-        default:
-            return "NONE"; // Caso a string não corresponda a nenhum atributo
+        switch (atributo) {
+            case "Força":
+                return "STRENGTH";
+            case "Destreza":
+                return "DEXTERITY";
+            case "Constituição":
+                return "CONSTITUTION";
+            case "Inteligência":
+                return "INTELLIGENCE";
+            case "Sabedoria":
+                return "WISDOM";
+            case "Carisma":
+                return "CHARISMA";
+            default:
+                return "NONE"; // Caso a string não corresponda a nenhum atributo
+        }
     }
-}
 }

@@ -4,6 +4,7 @@
  */
 package backend.Fun.Par.Inventario;
 
+import java.awt.event.MouseListener;
 import backend.Fun.trocarPainel;
 import javax.swing.*;
 import org.json.*;
@@ -16,11 +17,15 @@ import visual.Equipamento;
 public class EquipamentosAddP {
 
     public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens, JLabel BonusCALabel) {
-
+        Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel, AddEquip);
+        novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        for (MouseListener ml : AddEquip.getMouseListeners()) {
+            AddEquip.removeMouseListener(ml);
+        }
+        System.gc();
         AddEquip.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 trocarPainel mudar = new trocarPainel();
-                Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel);
                 mudar.painelChange(novoFrame);
             }
         });

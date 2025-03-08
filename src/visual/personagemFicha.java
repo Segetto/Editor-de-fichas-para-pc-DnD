@@ -110,7 +110,7 @@ public class personagemFicha extends javax.swing.JFrame {
         InspiracaoP(personagemCaminho, ficha, InspiracaoLabel);
         PercepcaoPassivaP(ficha, PercepcaoPassivaLabel);
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
-        ItensPanelP(personagemCaminho, ficha, PainelItens, BonusCALabel);
+        ItensPanelP(personagemCaminho, ficha, PainelItens, BonusCALabel, AddEquip);
         EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario, BonusCALabel);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarClasseC, "m", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarRacaC, "n", "d", "e", PainelEspecializacoes);

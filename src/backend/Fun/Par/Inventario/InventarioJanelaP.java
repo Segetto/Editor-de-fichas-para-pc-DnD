@@ -23,12 +23,12 @@ import static backend.Fun.FichaLer.FichaLerString;
  */
 public class InventarioJanelaP {
 
-    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel) {
+    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip) {
         String Opcao = (String) Opcoes.getSelectedItem();
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel);
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel, AddEquip);
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel, JPanel AddEquip) {
 
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -339,7 +339,7 @@ public class InventarioJanelaP {
                 for (Object ItemNewTemp : ItensNovos) {
                     ficha.getJSONArray("i").put(ItemNewTemp);
                 }
-                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel);
+                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip);
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).setVisible(false);
                 SalvarFicha(ficha, personagemCaminho);
 

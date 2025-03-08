@@ -12,6 +12,7 @@ import java.awt.event.*;
 import backend.Fun.VirtualObjects.NewItemArrayVO;
 import backend.jsonParser;
 import static backend.Fun.IntCampo.*;
+import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import javax.swing.border.MatteBorder;
 
 /**
@@ -20,7 +21,7 @@ import javax.swing.border.MatteBorder;
  */
 public class EditarItemSelectDinamico {
 
-    public static void EditarItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos) {
+    public static void EditarItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, int pos) {
         JPanel[] TiposItem = new JPanel[4];
         OpcoesExtra.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -44,18 +45,22 @@ public class EditarItemSelectDinamico {
         ArmaTipoT.setForeground(new Color(255, 255, 255));
         ArmaTipoT.setHorizontalAlignment(SwingConstants.LEFT);
         ArmaTipoT.setHorizontalAlignment(SwingConstants.LEFT);
-        JTextField ArmaTipo = new JTextField("cortante");
+        JTextField ArmaTipo = new JTextField(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("b"));
 
         JPanel PArmaPropriedadesT = new JPanel(new BorderLayout());
         PArmaPropriedadesT.setOpaque(false);
         JLabel ArmaPropriedadesT = new JLabel("Propriedades especiais da arma:");
         ArmaPropriedadesT.setForeground(new Color(255, 255, 255));
-        JTextField ArmaPropriedades = new JTextField("nenhuma");
+        JTextField ArmaPropriedades = new JTextField(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("w"));
         JPanel PArmaDadosDanoT = new JPanel(new BorderLayout());
         PArmaDadosDanoT.setOpaque(false);
         JLabel ArmaDadosDanoT = new JLabel("Dados de dano");
         ArmaDadosDanoT.setForeground(new Color(255, 255, 255));
-        JTextField ArmaDadosDano = new JTextField("1d4");
+        String DadosDano = "1d4";
+        if (ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").has("1")) {
+            DadosDano = ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("1");
+        }
+        JTextField ArmaDadosDano = new JTextField(DadosDano);
 
         JPanel PArmaAtributo = new JPanel(new FlowLayout(FlowLayout.LEFT));
         PArmaAtributo.setOpaque(false);
@@ -63,6 +68,7 @@ public class EditarItemSelectDinamico {
         ArmaAtributoT.setForeground(new Color(255, 255, 255));
         String[] Status = {"Força", "Destreza", "Constituição", "Inteligência", "Sabedoria", "Carisma", "Nenhum"};
         JComboBox<String> ArmaAtributo = new JComboBox<>(Status);
+        ArmaAtributo.setSelectedItem(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("q"));
         ArmaAtributo.setBackground(new Color(23, 23, 23));
         ArmaAtributo.setForeground(new Color(255, 255, 255));
         PArmaAtributo.add(ArmaAtributoT);
@@ -71,12 +77,20 @@ public class EditarItemSelectDinamico {
         PArmaDanoBonusT.setOpaque(false);
         JLabel ArmaDanoBonusT = new JLabel("Bônus de dano");
         ArmaDanoBonusT.setForeground(new Color(255, 255, 255));
-        JTextField ArmaDanoBonus = new JTextField("0");
+        int BonusDano = 0;
+        if (ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").has("3")) {
+            BonusDano = ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("3");
+        }
+        JTextField ArmaDanoBonus = new JTextField("" + BonusDano);
         JPanel PArmaAtaqueBonusT = new JPanel(new BorderLayout());
         PArmaAtaqueBonusT.setOpaque(false);
         JLabel ArmaAtaqueBonusT = new JLabel("Bônus de ataque");
         ArmaAtaqueBonusT.setForeground(new Color(255, 255, 255));
-        JTextField ArmaAtaqueBonus = new JTextField("0");
+        int BonusAtaque = 0;
+        if (ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").has("2")) {
+            BonusAtaque = ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("2");
+        }
+        JTextField ArmaAtaqueBonus = new JTextField("" + BonusAtaque);
 
 // Campo armadura
         JPanel PCABaseT = new JPanel(new BorderLayout());
@@ -85,12 +99,17 @@ public class EditarItemSelectDinamico {
         CABaseT.setForeground(new Color(255, 255, 255));
         CABaseT.setHorizontalAlignment(SwingConstants.LEFT);
         CABaseT.setHorizontalAlignment(SwingConstants.LEFT);
-        JTextField CABase = new JTextField("10");
+        JTextField CABase = new JTextField("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("j"));
         JPanel PArmaduraAtributo = new JPanel(new FlowLayout(FlowLayout.LEFT));
         PArmaduraAtributo.setOpaque(false);
         JLabel ArmaduraAtributoT = new JLabel("Atributo: ");
         ArmaduraAtributoT.setForeground(new Color(255, 255, 255));
         JComboBox<String> ArmaduraAtributo = new JComboBox<>(Status);
+        String ArmaduraAtributoFicha = "";
+        if (ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").has("k")) {
+            ArmaduraAtributoFicha = ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("k");
+        }
+        ArmaduraAtributo.setSelectedItem(ArmaduraAtributoFicha);
         ArmaduraAtributo.setBackground(new Color(23, 23, 23));
         ArmaduraAtributo.setForeground(new Color(255, 255, 255));
         PArmaduraAtributo.add(ArmaduraAtributoT);
@@ -99,21 +118,22 @@ public class EditarItemSelectDinamico {
         PLimiteStatusT.setOpaque(false);
         JLabel LimiteStatusT = new JLabel("Máximo do modificador de Status (0 = sem limite máximo):");
         LimiteStatusT.setForeground(new Color(255, 255, 255));
-        JTextField LimiteStatus = new JTextField("0");
+        JTextField LimiteStatus = new JTextField("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("l"));
         JPanel PForcaMinimaT = new JPanel(new BorderLayout());
         PForcaMinimaT.setOpaque(false);
         JLabel ForcaMinimaT = new JLabel("Força mínima");
         ForcaMinimaT.setForeground(new Color(255, 255, 255));
-        JTextField ForcaMinima = new JTextField("0");
+        JTextField ForcaMinima = new JTextField("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("n"));
         JCheckBox Desvantagem = new JCheckBox("Desvantagem em furtividade");
+        Desvantagem.setSelected(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getBoolean("m"));
 // Campo escudo
         JPanel PBonusEscudoT = new JPanel(new BorderLayout());
         PBonusEscudoT.setOpaque(false);
         JLabel BonusEscudoT = new JLabel("Bônus de CA");
         BonusEscudoT.setForeground(new Color(255, 255, 255));
-        JTextField BonusEscudo = new JTextField("0");
+        JTextField BonusEscudo = new JTextField("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("o"));
         PBonusEscudoT.add(BonusEscudoT);
-        
+
         JTextField[] camposTexto = {
             ArmaTipo, ArmaPropriedades, ArmaDadosDano, ArmaDanoBonus, ArmaAtaqueBonus, CABase, LimiteStatus, ForcaMinima, BonusEscudo
         };
@@ -169,7 +189,7 @@ public class EditarItemSelectDinamico {
         OpcoesEscudo.add(Box.createRigidArea(new Dimension(0, 23)));
         OpcoesEscudo.add(PBonusEscudoT);
         OpcoesEscudo.add(BonusEscudo);
-        
+
         OpcoesArma.setBounds(10, 10, 100, 100);
         OpcoesArmadura.setBounds(10, 10, 100, 100);
         OpcoesEscudo.setBounds(10, 10, 100, 100);
@@ -194,7 +214,7 @@ public class EditarItemSelectDinamico {
         IntCampo(BonusEscudo);
         IntCampo(ValorComp);
         DoubleCampo(PesoComp);
-        DoubleCampo(QtdPadraoComp);        
+        DoubleCampo(QtdPadraoComp);
         TiposItem[TipoItemComp.getSelectedIndex()].setVisible(true);
         AddItem.addMouseListener(new MouseAdapter() {
             @Override
@@ -220,30 +240,67 @@ public class EditarItemSelectDinamico {
                 int BonusEscudoInt = Integer.parseInt(BonusEscudo.getText());
                 boolean DesvantagemBool = Desvantagem.isSelected();
                 jsonParser sobrescrever = new jsonParser();
-                NewItemArrayVO NewItem = new NewItemArrayVO();
-                equipamentos.put(NewItem.NovoItem(
-                        ArmaTipoString,
-                        Valor,
-                        TipoValor,
-                        Peso,
-                        QtdPadrao,
-                        TipoQtd,
-                        TipoItem,
-                        "",
-                        CABaseInt,
-                        ArmaduraAtributoString,
-                        LimiteStatusInt,
-                        DesvantagemBool,
-                        ForcaMinimaInt,
-                        ArmaAtributoString,
-                        BonusEscudoInt,
-                        Nome,
-                        Descricao,
-                        ArmaPropriedadesString,
-                        ArmaDadosDanoString,
-                        ArmaAtaqueBonusInt,
-                        ArmaDanoBonusInt));
-                sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos).toString(4));
+                switch (TipoEdit) {
+                    case "Ficha" -> {
+
+                        ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b")
+                                .put("b", ArmaTipoString)
+                                .put("c", Valor) //Valor item
+                                .put("d", TipoValor) //Tipo moeda
+                                .put("e", Peso) //Peso
+                                .put("g", QtdPadrao) //Quantidade padrão
+                                .put("h", TipoQtd) //Tipo Quantidade padrão
+                                .put("i", TipoItem) //Tipo item
+                                .put("j", CABaseInt) //CA Base (Armadura)
+                                .put("k", ArmaduraAtributoString) //Tipo de status armadura
+                                .put("l", LimiteStatusInt) //Limite bonus de CA status
+                                .put("m", DesvantagemBool) //Desvantagem de furtividade armadura
+                                .put("n", ForcaMinimaInt) //Status necessário armadura
+                                .put("o", BonusEscudoInt) //Bonus CA escudo
+                                .put("q", ArmaAtributoString) //Status da arma
+                                .put("u", Nome) //Nome
+                                .put("v", Descricao)
+                                .put("w", ArmaPropriedadesString) //Propriedade especial da arma
+                                .put("1", ArmaDadosDanoString)
+                                .put("2", ArmaAtaqueBonusInt)
+                                .put("3", ArmaDanoBonusInt);
+
+                    }
+                    case "Vetor" -> {
+                        NewItemArrayVO NewItem = new NewItemArrayVO();
+                        equipamentos.put(NewItem.NovoItem(
+                                ArmaTipoString,
+                                Valor,
+                                TipoValor,
+                                Peso,
+                                QtdPadrao,
+                                TipoQtd,
+                                TipoItem,
+                                "",
+                                CABaseInt,
+                                ArmaduraAtributoString,
+                                LimiteStatusInt,
+                                DesvantagemBool,
+                                ForcaMinimaInt,
+                                ArmaAtributoString,
+                                BonusEscudoInt,
+                                Nome,
+                                Descricao,
+                                ArmaPropriedadesString,
+                                ArmaDadosDanoString,
+                                ArmaAtaqueBonusInt,
+                                ArmaDanoBonusInt));
+                        sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos).toString(4));
+                        if (EquipamentoPainel != null) {
+                            Window janela = SwingUtilities.getWindowAncestor(EquipamentoPainel);
+                            janela.dispose();
+                            janela = null;
+                            EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, equipamentos, BonusCALabel);
+                            SwingUtilities.getWindowAncestor(NomeComp).dispose();
+                        }
+                    }
+                }
+
             }
         });
         TipoItemComp.addActionListener(new ActionListener() {
@@ -256,22 +313,23 @@ public class EditarItemSelectDinamico {
             }
         });
     }
+
     public static String SetNome(String atributo) {
-    switch (atributo) {
-        case "Força":
-            return "STRENGTH";
-        case "Destreza":
-            return "DEXTERITY";
-        case "Constituição":
-            return "CONSTITUTION";
-        case "Inteligência":
-            return "INTELLIGENCE";
-        case "Sabedoria":
-            return "WISDOM";
-        case "Carisma":
-            return "CHARISMA";
-        default:
-            return "NONE"; // Caso a string não corresponda a nenhum atributo
+        switch (atributo) {
+            case "Força":
+                return "STRENGTH";
+            case "Destreza":
+                return "DEXTERITY";
+            case "Constituição":
+                return "CONSTITUTION";
+            case "Inteligência":
+                return "INTELLIGENCE";
+            case "Sabedoria":
+                return "WISDOM";
+            case "Carisma":
+                return "CHARISMA";
+            default:
+                return "NONE"; // Caso a string não corresponda a nenhum atributo
+        }
     }
-}
 }

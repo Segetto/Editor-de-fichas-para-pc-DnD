@@ -6,6 +6,8 @@ package visual;
 
 import org.json.*;
 import backend.Fun.Par.NewItemJanela.NewItemSelectDinamico;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 /**
  *
@@ -16,10 +18,10 @@ public class CriarItem extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public CriarItem(JSONArray Equipamento) {
+    public CriarItem(JSONArray Equipamento,  String personagemCaminho, JSONObject ficha, JPanel EquipamentoPainelFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
-        NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento);
+        NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, EquipamentoPainelFicha, BonusCALabel, EquipamentoPainel, AddEquip);
     }
 
     /**
