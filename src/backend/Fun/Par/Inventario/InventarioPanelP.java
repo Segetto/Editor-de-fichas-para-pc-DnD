@@ -11,7 +11,7 @@ import static backend.Fun.Mod.mod;
 import static backend.Fun.Par.Inventario.InformacoesAdicionaisP.InformacoesP;
 import backend.jsonParser;
 import java.awt.event.*;
-import visual.EditarItem;
+import visual.EditarItemFicha;
 import org.json.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -35,13 +35,20 @@ public class InventarioPanelP {
         gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
         gbc.insets = new Insets(0, 0, 0, 0); // Espaço entre os itens
         ButtonGroup grupoArmaduras = new ButtonGroup();
+        ButtonGroup grupoEscudos = new ButtonGroup();
 
         for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
             JPanel PainelItem = new JPanel();
             PainelItem.setLayout(new BoxLayout(PainelItem, BoxLayout.Y_AXIS));
             JPanel PainelNomeItem = new JPanel(new FlowLayout(FlowLayout.LEFT));
             JLabel RemoverItem = new JLabel("Remover item");
-
+            int QtdItem = 1;
+            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").has("c")) {
+                QtdItem = ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getInt("c");
+            } else {
+                ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").put("c", QtdItem);
+                SalvarFicha(ficha, personagemCaminho);
+            }
             String placeholder = "Informações adicionais";
             String Texto = placeholder;
 
@@ -86,52 +93,65 @@ public class InventarioPanelP {
             JLabel DescricaoItem = new JLabel("<html><div style='width: 404px; padding: 7px;'>" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("v") + "</div></html>");
             PainelNomeItem.add(NomeItem);
             PainelNomeItem.add(SetaItem);
-            JPanel PInfItem = new JPanel(new GridLayout(1, 3));
+            JPanel PInfItem = new JPanel(new FlowLayout(FlowLayout.CENTER));
             PInfItem.setOpaque(false);
             JPanel PInfItemPeso = new JPanel();
             PInfItemPeso.setLayout(new BoxLayout(PInfItemPeso, BoxLayout.Y_AXIS));
             PInfItemPeso.setOpaque(false);
+            PInfItemPeso.setPreferredSize(new Dimension(150, 50));
+            PInfItemPeso.setBorder(new MatteBorder(0, 1, 0, 1, new Color(241, 241, 241)));
             JPanel PInfItemUn = new JPanel();
             PInfItemUn.setLayout(new BoxLayout(PInfItemUn, BoxLayout.Y_AXIS));
             PInfItemUn.setOpaque(false);
+            PInfItemUn.setPreferredSize(new Dimension(150, 50));
             JPanel PInfItemPreco = new JPanel();
             PInfItemPreco.setLayout(new BoxLayout(PInfItemPreco, BoxLayout.Y_AXIS));
             PInfItemPreco.setOpaque(false);
+            PInfItemPreco.setPreferredSize(new Dimension(150, 50));
+            JPanel PSpinnerQtd = new JPanel();
+            PSpinnerQtd.setLayout(new BoxLayout(PSpinnerQtd, BoxLayout.Y_AXIS));
+            PSpinnerQtd.setOpaque(false);
             JLabel InfItemPesoT = new JLabel("Peso");
+
             JLabel InfItemUnT = new JLabel("Quantidade");
             JLabel InfItemPrecoT = new JLabel("Preço");
 
             JLabel InfItemPeso = new JLabel("-");
-            InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getDouble("e") + "Kg");
+            InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getDouble("e") * QtdItem + "Kg");
             JLabel InfItemUn = new JLabel("-");
-            InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("g") + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("h"));
+            InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("g") * QtdItem + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("h"));
+            JLabel InfItemPreco = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("c") * QtdItem + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("d"));
 
-            JLabel InfItemPreco = new JLabel(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("c") + " " + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("d"));
-
+            ImageIcon SpinnerQtdUp = new ImageIcon("src/visual/res/SmallUp.png");
+            ImageIcon SpinnerQtdDown = new ImageIcon("src/visual/res/SmallDown.png");
+            JLabel SpinnerQtdUpLabel = new JLabel(SpinnerQtdUp);
+            JLabel SpinnerQtdDownLabel = new JLabel(SpinnerQtdDown);
+            SpinnerQtdUpLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            SpinnerQtdDownLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            PSpinnerQtd.add(SpinnerQtdUpLabel);
+            PSpinnerQtd.add(SpinnerQtdDownLabel);
             InfItemPesoT.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemPeso.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemUnT.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemUn.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemPrecoT.setAlignmentX(Component.CENTER_ALIGNMENT);
             InfItemPreco.setAlignmentX(Component.CENTER_ALIGNMENT);
-            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
-                JLabel EditarItem = new JLabel("Editar item");
-                EditarItem.setForeground(new Color(255, 255, 255));
-                EditarItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-                EditarItem.setPreferredSize(new Dimension(58, 15));
-                EditarItem.setBorder(new MatteBorder(0, 0, 3, 0, new Color(255, 255, 255)));
-                RemoverItemPainel.add(EditarItem);
-                final int iCompEdit = i;
-                EditarItem.addMouseListener(new MouseAdapter() {
-                    @Override
+            JLabel EditarItem = new JLabel("Editar item");
+            EditarItem.setForeground(new Color(255, 255, 255));
+            EditarItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            EditarItem.setPreferredSize(new Dimension(58, 15));
+            EditarItem.setBorder(new MatteBorder(0, 0, 3, 0, new Color(255, 255, 255)));
+            RemoverItemPainel.add(EditarItem);
+            final int iCompEdit = i;
+            EditarItem.addMouseListener(new MouseAdapter() {
+                @Override
 
-                    public void mouseClicked(MouseEvent e) {
-                        EditarItem EditItem = new EditarItem(null, ficha, iCompEdit, personagemCaminho, PainelItens, CALabel, null, AddEquip, "Ficha");
-                        EditItem.setVisible(true);
+                public void mouseClicked(MouseEvent e) {
+                    EditarItemFicha EditItem = new EditarItemFicha(null, ficha, iCompEdit, personagemCaminho, PainelItens, CALabel, null, AddEquip, "Ficha");
+                    EditItem.setVisible(true);
 
-                    }
-                });
-            }
+                }
+            });
             PInfItemPeso.add(InfItemPesoT);
             PInfItemPeso.add(Box.createRigidArea(new Dimension(0, 5)));
             PInfItemPeso.add(InfItemPeso);
@@ -144,6 +164,7 @@ public class InventarioPanelP {
             PInfItem.add(PInfItemPreco);
             PInfItem.add(PInfItemPeso);
             PInfItem.add(PInfItemUn);
+            PInfItem.add(PSpinnerQtd);
             PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 10)));
             PainelDescricaoItem.add(PInfItem);
             PainelDescricaoItem.add(Box.createRigidArea(new Dimension(0, 0)));
@@ -413,9 +434,67 @@ public class InventarioPanelP {
                     }
                 });
             }
+            if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("Escudo") || ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getString("i").equals("SHIELD")) {
+                JPanel PInfEscudo = new JPanel(new GridLayout(1, 2));
+                PInfEscudo.setOpaque(false);
+                JPanel PInfEscudoPreparado = new JPanel();
+                PInfEscudoPreparado.setLayout(new BoxLayout(PInfEscudoPreparado, BoxLayout.Y_AXIS));
+                PInfEscudoPreparado.setOpaque(false);
+                JPanel PInfEscudoCA = new JPanel();
+                PInfEscudoCA.setLayout(new BoxLayout(PInfEscudoCA, BoxLayout.Y_AXIS));
+                PInfEscudoCA.setOpaque(false);
+                JLabel InfEscudoPreparadoT = new JLabel("Preparado");
+                JLabel InfEscudoCAT = new JLabel("CA");
+                JCheckBox InfEscudoPreparado = new JCheckBox();
+                String CABonus = "+" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("o");
+                InfEscudoPreparado.setSelected(ficha.getJSONArray("i").getJSONObject(i).getJSONObject("a").getBoolean("e"));
+                JLabel InfEscudoCA = new JLabel(CABonus);
+                if (InfEscudoPreparado.isSelected()) {
+                    CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) + Integer.parseInt(CABonus)));
+                }
+                InfEscudoPreparadoT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfEscudoPreparado.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfEscudoCAT.setAlignmentX(Component.CENTER_ALIGNMENT);
+                InfEscudoCA.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+                PInfEscudoPreparado.add(InfEscudoPreparadoT);
+                PInfEscudoPreparado.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfEscudoPreparado.add(InfEscudoPreparado);
+                PInfEscudoCA.add(InfEscudoCAT);
+                PInfEscudoCA.add(Box.createRigidArea(new Dimension(0, 5)));
+                PInfEscudoCA.add(InfEscudoCA);
+                PInfEscudo.add(PInfEscudoPreparado);
+                PInfEscudo.add(PInfEscudoCA);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 0)));
+                PainelTituloItem.add(PInfEscudo);
+                PainelTituloItem.add(Box.createRigidArea(new Dimension(0, 10)));
+                InfEscudoPreparadoT.setForeground(cor);
+                InfEscudoPreparado.setForeground(cor);
+                InfEscudoCAT.setForeground(cor);
+                InfEscudoCA.setForeground(cor);
+
+                String CAComp = CABonus;
+                InfEscudoPreparado.addMouseListener(new MouseAdapter() {
+                    @Override
+
+                    public void mouseClicked(MouseEvent e) {
+                        for (int j = 0; j < ficha.getJSONArray("i").length(); j++) {
+                                if (ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                                    ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").put("e", InfEscudoPreparado.isSelected());
+                                }
+                            }
+                        if (InfEscudoPreparado.isSelected()) {
+                            CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) + Integer.parseInt(CABonus)));
+                        }else{
+                            CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) - Integer.parseInt(CABonus)));
+                        
+                        }
+                    }
+                });
+            }
             PainelItem.add(PainelTituloItem);
             PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            PainelTituloItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
+            PainelItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
             PainelItens.add(PainelItem, gbc);
             PainelTituloItem.addMouseListener(new MouseAdapter() {
                 @Override
@@ -432,6 +511,35 @@ public class InventarioPanelP {
                     }
                     PainelItem.revalidate();
                     PainelItem.repaint();
+                }
+            });
+
+            SpinnerQtdUpLabel.addMouseListener(new MouseAdapter() {
+                int QtdItemUp;
+
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").put("c", ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").getInt("c") + 1);
+                    QtdItemUp = ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").getInt("c");
+                    InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e") * QtdItemUp + "Kg");
+                    InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("g") * QtdItemUp + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("h"));
+                    InfItemPreco.setText(ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("c") * QtdItemUp + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("d"));
+                    SalvarFicha(ficha, personagemCaminho);
+                }
+            });
+            SpinnerQtdDownLabel.addMouseListener(new MouseAdapter() {
+                int QtdItemDown;
+
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    if (ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").getInt("c") > 0) {
+                        ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").put("c", ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").getInt("c") - 1);
+                        QtdItemDown = ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("a").getInt("c");
+                        InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e") * QtdItemDown + "Kg");
+                        InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("g") * QtdItemDown + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("h"));
+                        InfItemPreco.setText(ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("c") * QtdItemDown + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("d"));
+                        SalvarFicha(ficha, personagemCaminho);
+                    }
                 }
             });
             RemoverItem.addMouseListener(new MouseAdapter() {

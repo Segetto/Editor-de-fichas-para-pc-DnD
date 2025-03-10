@@ -13,6 +13,8 @@ import backend.Fun.VirtualObjects.NewItemArrayVO;
 import backend.jsonParser;
 import static backend.Fun.IntCampo.*;
 import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
+import static backend.Fun.Par.Inventario.InventarioPanelP.ItensPanelP;
+import static backend.Fun.SalvarFicha.SalvarFicha;
 import javax.swing.border.MatteBorder;
 
 /**
@@ -68,7 +70,7 @@ public class EditarItemSelectDinamico {
         ArmaAtributoT.setForeground(new Color(255, 255, 255));
         String[] Status = {"Força", "Destreza", "Constituição", "Inteligência", "Sabedoria", "Carisma", "Nenhum"};
         JComboBox<String> ArmaAtributo = new JComboBox<>(Status);
-        ArmaAtributo.setSelectedItem(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("q"));
+        ArmaAtributo.setSelectedItem(GetNome(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("q")));
         ArmaAtributo.setBackground(new Color(23, 23, 23));
         ArmaAtributo.setForeground(new Color(255, 255, 255));
         PArmaAtributo.add(ArmaAtributoT);
@@ -109,7 +111,7 @@ public class EditarItemSelectDinamico {
         if (ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").has("k")) {
             ArmaduraAtributoFicha = ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("k");
         }
-        ArmaduraAtributo.setSelectedItem(ArmaduraAtributoFicha);
+        ArmaduraAtributo.setSelectedItem(GetNome(ArmaduraAtributoFicha));
         ArmaduraAtributo.setBackground(new Color(23, 23, 23));
         ArmaduraAtributo.setForeground(new Color(255, 255, 255));
         PArmaduraAtributo.add(ArmaduraAtributoT);
@@ -239,68 +241,29 @@ public class EditarItemSelectDinamico {
                 int ForcaMinimaInt = Integer.parseInt(ForcaMinima.getText());
                 int BonusEscudoInt = Integer.parseInt(BonusEscudo.getText());
                 boolean DesvantagemBool = Desvantagem.isSelected();
-                jsonParser sobrescrever = new jsonParser();
-                switch (TipoEdit) {
-                    case "Ficha" -> {
-
-                        ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b")
-                                .put("b", ArmaTipoString)
-                                .put("c", Valor) //Valor item
-                                .put("d", TipoValor) //Tipo moeda
-                                .put("e", Peso) //Peso
-                                .put("g", QtdPadrao) //Quantidade padrão
-                                .put("h", TipoQtd) //Tipo Quantidade padrão
-                                .put("i", TipoItem) //Tipo item
-                                .put("j", CABaseInt) //CA Base (Armadura)
-                                .put("k", ArmaduraAtributoString) //Tipo de status armadura
-                                .put("l", LimiteStatusInt) //Limite bonus de CA status
-                                .put("m", DesvantagemBool) //Desvantagem de furtividade armadura
-                                .put("n", ForcaMinimaInt) //Status necessário armadura
-                                .put("o", BonusEscudoInt) //Bonus CA escudo
-                                .put("q", ArmaAtributoString) //Status da arma
-                                .put("u", Nome) //Nome
-                                .put("v", Descricao)
-                                .put("w", ArmaPropriedadesString) //Propriedade especial da arma
-                                .put("1", ArmaDadosDanoString)
-                                .put("2", ArmaAtaqueBonusInt)
-                                .put("3", ArmaDanoBonusInt);
-
-                    }
-                    case "Vetor" -> {
-                        NewItemArrayVO NewItem = new NewItemArrayVO();
-                        equipamentos.put(NewItem.NovoItem(
-                                ArmaTipoString,
-                                Valor,
-                                TipoValor,
-                                Peso,
-                                QtdPadrao,
-                                TipoQtd,
-                                TipoItem,
-                                "",
-                                CABaseInt,
-                                ArmaduraAtributoString,
-                                LimiteStatusInt,
-                                DesvantagemBool,
-                                ForcaMinimaInt,
-                                ArmaAtributoString,
-                                BonusEscudoInt,
-                                Nome,
-                                Descricao,
-                                ArmaPropriedadesString,
-                                ArmaDadosDanoString,
-                                ArmaAtaqueBonusInt,
-                                ArmaDanoBonusInt));
-                        sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos).toString(4));
-                        if (EquipamentoPainel != null) {
-                            Window janela = SwingUtilities.getWindowAncestor(EquipamentoPainel);
-                            janela.dispose();
-                            janela = null;
-                            EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, equipamentos, BonusCALabel);
-                            SwingUtilities.getWindowAncestor(NomeComp).dispose();
-                        }
-                    }
-                }
-
+                ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b")
+                        .put("b", ArmaTipoString)
+                        .put("c", Valor) //Valor item
+                        .put("d", TipoValor) //Tipo moeda
+                        .put("e", Peso) //Peso
+                        .put("g", QtdPadrao) //Quantidade padrão
+                        .put("h", TipoQtd) //Tipo Quantidade padrão
+                        .put("i", TipoItem) //Tipo item
+                        .put("j", CABaseInt) //CA Base (Armadura)
+                        .put("k", ArmaduraAtributoString) //Tipo de status armadura
+                        .put("l", LimiteStatusInt) //Limite bonus de CA status
+                        .put("m", DesvantagemBool) //Desvantagem de furtividade armadura
+                        .put("n", ForcaMinimaInt) //Status necessário armadura
+                        .put("o", BonusEscudoInt) //Bonus CA escudo
+                        .put("q", ArmaAtributoString) //Status da arma
+                        .put("u", Nome) //Nome
+                        .put("v", Descricao)
+                        .put("w", ArmaPropriedadesString) //Propriedade especial da arma
+                        .put("1", ArmaDadosDanoString)
+                        .put("2", ArmaAtaqueBonusInt)
+                        .put("3", ArmaDanoBonusInt);
+                SalvarFicha(ficha, personagemCaminho);
+                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip);
             }
         });
         TipoItemComp.addActionListener(new ActionListener() {
@@ -315,21 +278,40 @@ public class EditarItemSelectDinamico {
     }
 
     public static String SetNome(String atributo) {
-        switch (atributo) {
-            case "Força":
-                return "STRENGTH";
-            case "Destreza":
-                return "DEXTERITY";
-            case "Constituição":
-                return "CONSTITUTION";
-            case "Inteligência":
-                return "INTELLIGENCE";
-            case "Sabedoria":
-                return "WISDOM";
-            case "Carisma":
-                return "CHARISMA";
-            default:
-                return "NONE"; // Caso a string não corresponda a nenhum atributo
-        }
+        return switch (atributo) {
+            case "Força" ->
+                "STRENGTH";
+            case "Destreza" ->
+                "DEXTERITY";
+            case "Constituição" ->
+                "CONSTITUTION";
+            case "Inteligência" ->
+                "INTELLIGENCE";
+            case "Sabedoria" ->
+                "WISDOM";
+            case "Carisma" ->
+                "CHARISMA";
+            default ->
+                "NONE";
+        }; // Caso a string não corresponda a nenhum atributo
+    }
+
+    public static String GetNome(String atributo) {
+        return switch (atributo) {
+            case "STRENGTH" ->
+                "Força";
+            case "DEXTERITY" ->
+                "Destreza";
+            case "CONSTITUTION" ->
+                "Constituição";
+            case "INTELLIGENCE" ->
+                "Inteligência";
+            case "WISDOM" ->
+                "Sabedoria";
+            case "CHARISMA" ->
+                "Carisma";
+            default ->
+                "NONE";
+        }; // Caso a string não corresponda a nenhum atributo
     }
 }
