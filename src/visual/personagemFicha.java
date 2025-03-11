@@ -31,8 +31,8 @@ import static backend.Fun.Par.Geral.MovimentacaoP.*;
 import static backend.Fun.Par.Inventario.InventarioPanelP.*;
 import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
-import backend.Fun.Par.Especializacao.EspecializacaoJanelaP;
 import backend.Fun.Par.Especializacao.EspecializacoesAddP;
+import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
 import org.json.*;
 
 /**
@@ -121,6 +121,11 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);  
+        MoedaP(personagemCaminho, ficha, CobreInput, "o");
+        MoedaP(personagemCaminho, ficha, PrataInput, "p");
+        MoedaP(personagemCaminho, ficha, ElectroInput, "q");
+        MoedaP(personagemCaminho, ficha, OuroInput, "r");
+        MoedaP(personagemCaminho, ficha, PlatinaInput, "s");
     }
 
     /**
@@ -245,11 +250,11 @@ public class personagemFicha extends javax.swing.JFrame {
         jScrollPaneInventario = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
+        CobreInput = new javax.swing.JTextField();
+        PrataInput = new javax.swing.JTextField();
+        ElectroInput = new javax.swing.JTextField();
+        OuroInput = new javax.swing.JTextField();
+        PlatinaInput = new javax.swing.JTextField();
         jLabel33 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
@@ -1389,57 +1394,74 @@ public class personagemFicha extends javax.swing.JFrame {
 
         jScrollPaneGeral.setViewportView(jPanel2);
 
+        jScrollPaneInventario.setBackground(null);
         jScrollPaneInventario.setBorder(null);
+        jScrollPaneInventario.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPaneInventario.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel15.setBackground(new java.awt.Color(23, 23, 23));
         jPanel15.setMinimumSize(new java.awt.Dimension(672, 0));
         jPanel15.setPreferredSize(new java.awt.Dimension(672, 438));
 
-        jPanel6.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel6.setBackground(new java.awt.Color(35, 35, 35));
 
-        jTextField1.setBackground(new java.awt.Color(35, 35, 35));
-        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField1.setText("0");
-        jTextField1.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        CobreInput.setBackground(new java.awt.Color(35, 35, 35));
+        CobreInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        CobreInput.setForeground(new java.awt.Color(255, 255, 255));
+        CobreInput.setText("0");
+        CobreInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        CobreInput.setOpaque(true);
+        CobreInput.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                CobreInputActionPerformed(evt);
             }
         });
 
-        jTextField2.setBackground(new java.awt.Color(35, 35, 35));
-        jTextField2.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField2.setText("0");
-        jTextField2.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PrataInput.setBackground(new java.awt.Color(35, 35, 35));
+        PrataInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        PrataInput.setForeground(new java.awt.Color(255, 255, 255));
+        PrataInput.setText("0");
+        PrataInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PrataInput.setOpaque(true);
 
-        jTextField3.setBackground(new java.awt.Color(35, 35, 35));
-        jTextField3.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField3.setText("0");
-        jTextField3.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        ElectroInput.setBackground(new java.awt.Color(35, 35, 35));
+        ElectroInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        ElectroInput.setForeground(new java.awt.Color(255, 255, 255));
+        ElectroInput.setText("0");
+        ElectroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        ElectroInput.setOpaque(true);
 
-        jTextField4.setBackground(new java.awt.Color(35, 35, 35));
-        jTextField4.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField4.setText("0");
-        jTextField4.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        OuroInput.setBackground(new java.awt.Color(35, 35, 35));
+        OuroInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        OuroInput.setForeground(new java.awt.Color(255, 255, 255));
+        OuroInput.setText("0");
+        OuroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        OuroInput.setOpaque(true);
 
-        jTextField5.setBackground(new java.awt.Color(35, 35, 35));
-        jTextField5.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField5.setText("0");
-        jTextField5.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PlatinaInput.setBackground(new java.awt.Color(35, 35, 35));
+        PlatinaInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        PlatinaInput.setForeground(new java.awt.Color(255, 255, 255));
+        PlatinaInput.setText("0");
+        PlatinaInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PlatinaInput.setOpaque(true);
 
+        jLabel33.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setText("Cobre:");
 
+        jLabel42.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel42.setForeground(new java.awt.Color(255, 255, 255));
         jLabel42.setText("Prata:");
 
+        jLabel49.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel49.setForeground(new java.awt.Color(255, 255, 255));
         jLabel49.setText("Electro:");
 
+        jLabel52.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel52.setForeground(new java.awt.Color(255, 255, 255));
         jLabel52.setText("Ouro:");
 
+        jLabel53.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         jLabel53.setForeground(new java.awt.Color(255, 255, 255));
         jLabel53.setText("Platina:");
 
@@ -1451,47 +1473,48 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel33)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(CobreInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel42)
                 .addGap(4, 4, 4)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(PrataInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel49)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(ElectroInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel52)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(OuroInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel53)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(PlatinaInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
+                .addContainerGap(45, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CobreInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PrataInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ElectroInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(OuroInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PlatinaInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel33)
                     .addComponent(jLabel42)
                     .addComponent(jLabel49)
                     .addComponent(jLabel52)
                     .addComponent(jLabel53))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         AddEquip.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         AddEquip.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         AddEquip.setOpaque(false);
 
+        jLabel20.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Adicionar equipamento");
 
@@ -1547,12 +1570,11 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
                 .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE))
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 276, Short.MAX_VALUE))
         );
 
         jScrollPaneInventario.setViewportView(jPanel15);
@@ -2065,9 +2087,9 @@ public class personagemFicha extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_MovimentacaoTextActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void CobreInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CobreInputActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_CobreInputActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2115,6 +2137,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel CaracteristicasNavBar;
     private javax.swing.JLabel ClasseLabel;
     private javax.swing.JPanel ClassesRow;
+    private javax.swing.JTextField CobreInput;
     private javax.swing.JTextField ConLabel;
     private javax.swing.JLabel ConMod;
     private javax.swing.JCheckBox ConResCheck;
@@ -2123,6 +2146,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel DesMod;
     private javax.swing.JCheckBox DesResCheck;
     private javax.swing.JLabel DesResMod;
+    private javax.swing.JTextField ElectroInput;
     private javax.swing.JTextField ForLabel;
     private javax.swing.JLabel ForMod;
     private javax.swing.JCheckBox ForResCheck;
@@ -2141,6 +2165,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel LevelLabel;
     private javax.swing.JLabel MagiasNavBar;
     private javax.swing.JTextField MovimentacaoText;
+    private javax.swing.JTextField OuroInput;
     private javax.swing.JPanel PCarClasse;
     private javax.swing.JPanel PCarClasseC;
     private javax.swing.JPanel PCarClasseT;
@@ -2160,6 +2185,8 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel PainelItens;
     private javax.swing.JLabel PercepcaoPassivaLabel;
     private javax.swing.JPanel PericiasContainer;
+    private javax.swing.JTextField PlatinaInput;
+    private javax.swing.JTextField PrataInput;
     private javax.swing.JLabel RacaSelect;
     private javax.swing.JTextField SabLabel;
     private javax.swing.JLabel SabMod;
@@ -2252,11 +2279,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPaneMochilaItens;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
     private javax.swing.JButton salvarBotao;
     // End of variables declaration//GEN-END:variables
 }

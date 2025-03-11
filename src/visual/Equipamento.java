@@ -62,6 +62,7 @@ public class Equipamento extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195), 2));
         jPanel2.setPreferredSize(new java.awt.Dimension(303, 284));
 
+        BotaoSair.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         BotaoSair.setText("Sair");
         BotaoSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         BotaoSair.addActionListener(new java.awt.event.ActionListener() {
@@ -94,11 +95,13 @@ public class Equipamento extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Tipo de equipamento:");
 
+        AdicionarNovosItens.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         AdicionarNovosItens.setForeground(new java.awt.Color(122, 255, 255));
         AdicionarNovosItens.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         AdicionarNovosItens.setText("Adicionar");
         AdicionarNovosItens.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        CriarNovoItem.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         CriarNovoItem.setForeground(new java.awt.Color(122, 255, 255));
         CriarNovoItem.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CriarNovoItem.setText("Criar");

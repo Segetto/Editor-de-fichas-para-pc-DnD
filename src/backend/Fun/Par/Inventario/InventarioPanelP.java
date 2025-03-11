@@ -379,7 +379,7 @@ public class InventarioPanelP {
                 InfArmaduraForca.setText("" + ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getInt("n"));
                 JLabel InfArmaduraCA = new JLabel(CA);
                 if (InfArmaduraPreparada.isSelected()) {
-                    CALabel.setText(CA);
+                    CALabel.setText("+" + (Integer.valueOf(CALabel.getText()) - (Integer.valueOf(mod(ficha.getJSONArray("e").getJSONObject(1).getInt("b"), 10))) + Integer.parseInt(CA)));
                 }
                 InfArmaduraPreparadaT.setAlignmentX(Component.CENTER_ALIGNMENT);
                 InfArmaduraPreparada.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -419,6 +419,7 @@ public class InventarioPanelP {
                 InfArmaduraDesvantagem.setForeground(cor);
 
                 String CAComp = CA;
+                int StatusComp = Status;
                 InfArmaduraPreparada.addItemListener(new ItemListener() {
                     @Override
                     public void itemStateChanged(ItemEvent e) {
@@ -428,7 +429,9 @@ public class InventarioPanelP {
                             }
                         }
                         if (InfArmaduraPreparada.isSelected()) {
-                            CALabel.setText(CAComp);
+                            CALabel.setText("+" + (Integer.valueOf(CALabel.getText()) - (Integer.valueOf(mod(ficha.getJSONArray("e").getJSONObject(1).getInt("b"), 10))) + Integer.parseInt(CAComp)));
+                        } else {
+                            CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) - (Integer.valueOf(CAComp) - Integer.valueOf(mod(ficha.getJSONArray("e").getJSONObject(1).getInt("b"), 10)))));
                         }
                         SalvarFicha(ficha, personagemCaminho);
                     }
@@ -479,15 +482,15 @@ public class InventarioPanelP {
 
                     public void mouseClicked(MouseEvent e) {
                         for (int j = 0; j < ficha.getJSONArray("i").length(); j++) {
-                                if (ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
-                                    ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").put("e", InfEscudoPreparado.isSelected());
-                                }
+                            if (ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                                ficha.getJSONArray("i").getJSONObject(j).getJSONObject("a").put("e", InfEscudoPreparado.isSelected());
                             }
+                        }
                         if (InfEscudoPreparado.isSelected()) {
                             CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) + Integer.parseInt(CABonus)));
-                        }else{
+                        } else {
                             CALabel.setText("+" + (Integer.parseInt(CALabel.getText()) - Integer.parseInt(CABonus)));
-                        
+
                         }
                     }
                 });
