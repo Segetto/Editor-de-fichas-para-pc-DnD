@@ -33,6 +33,7 @@ import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
 import backend.Fun.Par.Especializacao.EspecializacoesAddP;
 import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
+import static backend.Fun.Par.Inventario.ChangeMochilaIcon.ChangeMochilaIcon;
 import org.json.*;
 
 /**
@@ -126,6 +127,7 @@ public class personagemFicha extends javax.swing.JFrame {
         MoedaP(personagemCaminho, ficha, ElectroInput, "q");
         MoedaP(personagemCaminho, ficha, OuroInput, "r");
         MoedaP(personagemCaminho, ficha, PlatinaInput, "s");
+        ChangeMochilaIcon(personagemCaminho, ficha, AddEquip, MochilaIcon);
     }
 
     /**
@@ -261,7 +263,7 @@ public class personagemFicha extends javax.swing.JFrame {
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         AddEquip = new javax.swing.JPanel();
-        jLabel20 = new javax.swing.JLabel();
+        MochilaIcon = new javax.swing.JLabel();
         jScrollPaneMochilaItens = new javax.swing.JScrollPane();
         PainelItens = new javax.swing.JPanel();
         jScrollPaneMagias = new javax.swing.JScrollPane();
@@ -1394,7 +1396,6 @@ public class personagemFicha extends javax.swing.JFrame {
 
         jScrollPaneGeral.setViewportView(jPanel2);
 
-        jScrollPaneInventario.setBackground(null);
         jScrollPaneInventario.setBorder(null);
         jScrollPaneInventario.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPaneInventario.setPreferredSize(new java.awt.Dimension(672, 438));
@@ -1409,7 +1410,7 @@ public class personagemFicha extends javax.swing.JFrame {
         CobreInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         CobreInput.setForeground(new java.awt.Color(255, 255, 255));
         CobreInput.setText("0");
-        CobreInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        CobreInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
         CobreInput.setOpaque(true);
         CobreInput.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1421,28 +1422,28 @@ public class personagemFicha extends javax.swing.JFrame {
         PrataInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         PrataInput.setForeground(new java.awt.Color(255, 255, 255));
         PrataInput.setText("0");
-        PrataInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PrataInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
         PrataInput.setOpaque(true);
 
         ElectroInput.setBackground(new java.awt.Color(35, 35, 35));
         ElectroInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         ElectroInput.setForeground(new java.awt.Color(255, 255, 255));
         ElectroInput.setText("0");
-        ElectroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        ElectroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
         ElectroInput.setOpaque(true);
 
         OuroInput.setBackground(new java.awt.Color(35, 35, 35));
         OuroInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         OuroInput.setForeground(new java.awt.Color(255, 255, 255));
         OuroInput.setText("0");
-        OuroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        OuroInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
         OuroInput.setOpaque(true);
 
         PlatinaInput.setBackground(new java.awt.Color(35, 35, 35));
         PlatinaInput.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         PlatinaInput.setForeground(new java.awt.Color(255, 255, 255));
         PlatinaInput.setText("0");
-        PlatinaInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(155, 155, 155)));
+        PlatinaInput.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
         PlatinaInput.setOpaque(true);
 
         jLabel33.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
@@ -1510,13 +1511,14 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        AddEquip.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        AddEquip.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195)));
         AddEquip.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         AddEquip.setOpaque(false);
 
-        jLabel20.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setText("Adicionar equipamento");
+        MochilaIcon.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
+        MochilaIcon.setForeground(new java.awt.Color(255, 255, 255));
+        MochilaIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/MochilaFechada.png"))); // NOI18N
+        MochilaIcon.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
 
         javax.swing.GroupLayout AddEquipLayout = new javax.swing.GroupLayout(AddEquip);
         AddEquip.setLayout(AddEquipLayout);
@@ -1524,14 +1526,14 @@ public class personagemFicha extends javax.swing.JFrame {
             AddEquipLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddEquipLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel20)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(MochilaIcon)
+                .addGap(34, 34, 34))
         );
         AddEquipLayout.setVerticalGroup(
             AddEquipLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AddEquipLayout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel20)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddEquipLayout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
+                .addComponent(MochilaIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
@@ -1573,8 +1575,8 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
                 .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 276, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 229, Short.MAX_VALUE))
         );
 
         jScrollPaneInventario.setViewportView(jPanel15);
@@ -1630,8 +1632,8 @@ public class personagemFicha extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaTLayout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addComponent(jLabel21)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 313, Short.MAX_VALUE)
-                .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 339, Short.MAX_VALUE)
+                .addComponent(jLabel27))
         );
         PCarRacaTLayout.setVerticalGroup(
             PCarRacaTLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2164,6 +2166,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JTextField LabelNome;
     private javax.swing.JLabel LevelLabel;
     private javax.swing.JLabel MagiasNavBar;
+    private javax.swing.JLabel MochilaIcon;
     private javax.swing.JTextField MovimentacaoText;
     private javax.swing.JTextField OuroInput;
     private javax.swing.JPanel PCarClasse;
@@ -2213,7 +2216,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
