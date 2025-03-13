@@ -23,12 +23,12 @@ import visual.EditarItemASSET;
  */
 public class InventarioJanelaP {
 
-    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip) {
+    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         String Opcao = (String) Opcoes.getSelectedItem();
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel, AddEquip);
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel, JPanel AddEquip) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
 
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -346,7 +346,7 @@ public class InventarioJanelaP {
                     @Override
 
                     public void mouseClicked(MouseEvent e) {
-                        EditarItemASSET EditItem = new EditarItemASSET(itens, ficha, iCompEdit, personagemCaminho, PainelItensFicha, BonusCALabel, PainelItens, AddEquip, "Vetor");
+                        EditarItemASSET EditItem = new EditarItemASSET(itens, ficha, iCompEdit, personagemCaminho, PainelItensFicha, BonusCALabel, PainelItens, AddEquip, "Vetor", PesoAtual, PesoMaximo);
                         EditItem.setVisible(true);
 
                     }
@@ -424,7 +424,7 @@ public class InventarioJanelaP {
                 for (Object ItemNewTemp : ItensNovos) {
                     ficha.getJSONArray("i").put(ItemNewTemp);
                 }
-                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip);
+                InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).setVisible(false);
                 SalvarFicha(ficha, personagemCaminho);
 

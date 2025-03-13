@@ -23,7 +23,7 @@ import javax.swing.border.MatteBorder;
  */
 public class EditarItemSelectDinamico {
 
-    public static void EditarItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, int pos) {
+    public static void EditarItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, int pos, JLabel PesoAtual, JLabel PesoMaximo) {
         JPanel[] TiposItem = new JPanel[4];
         OpcoesExtra.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -263,7 +263,7 @@ public class EditarItemSelectDinamico {
                         .put("2", ArmaAtaqueBonusInt)
                         .put("3", ArmaDanoBonusInt);
                 SalvarFicha(ficha, personagemCaminho);
-                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip);
+                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
             }
         });
         TipoItemComp.addActionListener(new ActionListener() {

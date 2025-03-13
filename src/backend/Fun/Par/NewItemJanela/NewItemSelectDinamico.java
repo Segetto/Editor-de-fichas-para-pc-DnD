@@ -22,7 +22,7 @@ import backend.Fun.Par.Inventario.EquipamentosAddP;
  */
 public class NewItemSelectDinamico {
 
-    public static void NewItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip) {
+    public static void NewItemSelectDinamico(JTextField NomeComp, JTextArea DescricaoComp, JTextField ValorComp, JComboBox TipoValorComp, JTextField PesoComp, JTextField QtdPadraoComp, JComboBox TipoQtdComp, JComboBox TipoItemComp, JPanel OpcoesExtra, JLabel AddItem, JSONArray equipamentos, String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         JPanel[] TiposItem = new JPanel[4];
         OpcoesExtra.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -250,7 +250,7 @@ public class NewItemSelectDinamico {
                     Window janela = SwingUtilities.getWindowAncestor(EquipamentoPainel);
                     janela.dispose();
                     janela = null;
-                    EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, equipamentos, BonusCALabel);
+                    EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, equipamentos, BonusCALabel, PesoAtual, PesoMaximo);
                     SwingUtilities.getWindowAncestor(NomeComp).dispose();
                 }
             }

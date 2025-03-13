@@ -18,10 +18,10 @@ public class EditarItemASSET extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public EditarItemASSET(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit) {
+    public EditarItemASSET(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
-        EditarItemAssetSelectDinamico.EditarItemAssetSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos);
+        EditarItemAssetSelectDinamico.EditarItemAssetSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos, PesoAtual, PesoMaximo);
         Nome.setText(Equipamento.getJSONObject(pos).getString("u"));
         Descricao.setText(Equipamento.getJSONObject(pos).getString("v"));
         PrecoValor.setText("" + Equipamento.getJSONObject(pos).getInt("c"));

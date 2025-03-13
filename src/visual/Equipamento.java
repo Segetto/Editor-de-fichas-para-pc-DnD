@@ -21,17 +21,17 @@ public class Equipamento extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip) {
+    public Equipamento(String personagemCaminho, JSONObject ficha, JPanel PainelItensFicha, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPaneItens.getVerticalScrollBar().setUnitIncrement(10);
-        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens, itens, BonusCALabel, AddEquip);
+        InventarioJanelaP.EquipamentosJanelaP(personagemCaminho, ficha, EquipamentoPainel, EquipamentoSelect, PainelItensFicha, AdicionarNovosItens, itens, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip);
+                ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
             }
         });
-        CriarItemLabelP(itens, CriarNovoItem, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip);
+        CriarItemLabelP(itens, CriarNovoItem, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, PesoAtual, PesoMaximo);
 
     }
 

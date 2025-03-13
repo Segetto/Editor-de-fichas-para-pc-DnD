@@ -4,10 +4,10 @@
  */
 package backend.Fun.Par.Inventario;
 
-import static backend.Fun.FichaLer.FichaLerInt;
 import backend.Fun.IntCampo;
+import static backend.Fun.Par.Inventario.PesoCalc.PesoCalc;
 import static backend.Fun.SalvarFicha.SalvarFicha;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import org.json.JSONObject;
@@ -17,7 +17,8 @@ import org.json.JSONObject;
  * @author Admin
  */
 public class MoedasP {
-         public static void MoedaP(String personagemCaminho, JSONObject ficha, JTextField MoedaLabel, String CampoNome) {
+
+    public static void MoedaP(String personagemCaminho, JSONObject ficha, JTextField MoedaLabel, String CampoNome, JLabel PesoAtual, JLabel PesoMaximoLabel) {
         MoedaLabel.setText("" + ficha.getJSONArray("a").getJSONObject(0).getInt(CampoNome));
         IntCampo.IntCampo(MoedaLabel);
         MoedaLabel.getDocument().addDocumentListener(new DocumentListener() {
@@ -28,6 +29,7 @@ public class MoedasP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put(CampoNome, Integer.parseInt(MoedaLabel.getText()));
                 }
+                PesoCalc(ficha, PesoMaximoLabel, PesoAtual);
                 SalvarFicha(ficha, personagemCaminho);
             }
 
@@ -39,6 +41,7 @@ public class MoedasP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put(CampoNome, Integer.parseInt(MoedaLabel.getText()));
                 }
+                PesoCalc(ficha, PesoMaximoLabel, PesoAtual);
                 SalvarFicha(ficha, personagemCaminho);
             }
 

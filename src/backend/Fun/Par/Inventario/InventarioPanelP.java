@@ -22,7 +22,7 @@ import javax.swing.border.*;
  */
 public class InventarioPanelP {
 
-    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JLabel CALabel, JPanel AddEquip) {
+    public static void ItensPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JLabel CALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         Color cor = new Color(255, 255, 255);
         PainelItens.removeAll();
         PainelItens.revalidate();
@@ -147,7 +147,7 @@ public class InventarioPanelP {
                 @Override
 
                 public void mouseClicked(MouseEvent e) {
-                    EditarItemFicha EditItem = new EditarItemFicha(null, ficha, iCompEdit, personagemCaminho, PainelItens, CALabel, null, AddEquip, "Ficha");
+                    EditarItemFicha EditItem = new EditarItemFicha(null, ficha, iCompEdit, personagemCaminho, PainelItens, CALabel, null, AddEquip, "Ficha", PesoAtual, PesoMaximo);
                     EditItem.setVisible(true);
 
                 }
@@ -497,7 +497,7 @@ public class InventarioPanelP {
             }
             PainelItem.add(PainelTituloItem);
             PainelTituloItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            PainelItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
+            PainelItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(35, 35, 195)));
             PainelItens.add(PainelItem, gbc);
             PainelTituloItem.addMouseListener(new MouseAdapter() {
                 @Override
@@ -527,6 +527,7 @@ public class InventarioPanelP {
                     InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e") * QtdItemUp + "Kg");
                     InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("g") * QtdItemUp + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("h"));
                     InfItemPreco.setText(ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("c") * QtdItemUp + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("d"));
+                    PesoAtual.setText((Double.valueOf(PesoAtual.getText().replace("Kg", "")) + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e")) + "Kg");
                     SalvarFicha(ficha, personagemCaminho);
                 }
             });
@@ -541,6 +542,7 @@ public class InventarioPanelP {
                         InfItemPeso.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e") * QtdItemDown + "Kg");
                         InfItemUn.setText("" + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("g") * QtdItemDown + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("h"));
                         InfItemPreco.setText(ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getInt("c") * QtdItemDown + " " + ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getString("d"));
+                        PesoAtual.setText((Double.valueOf(PesoAtual.getText().replace("Kg", "")) - ficha.getJSONArray("i").getJSONObject(iCompEdit).getJSONObject("b").getDouble("e")) + "Kg");
                         SalvarFicha(ficha, personagemCaminho);
                     }
                 }

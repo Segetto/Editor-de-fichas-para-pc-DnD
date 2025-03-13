@@ -18,10 +18,10 @@ public class EditarItemFicha extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public EditarItemFicha(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit) {
+    public EditarItemFicha(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
-        EditarItemSelectDinamico.EditarItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos);
+        EditarItemSelectDinamico.EditarItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos, PesoAtual, PesoMaximo);
         Nome.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("u"));
         Descricao.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("v"));
         PrecoValor.setText("" + ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getInt("c"));

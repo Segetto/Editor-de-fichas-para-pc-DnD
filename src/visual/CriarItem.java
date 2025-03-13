@@ -18,10 +18,10 @@ public class CriarItem extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public CriarItem(JSONArray Equipamento,  String personagemCaminho, JSONObject ficha, JPanel EquipamentoPainelFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip) {
+    public CriarItem(JSONArray Equipamento,  String personagemCaminho, JSONObject ficha, JPanel EquipamentoPainelFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
-        NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, EquipamentoPainelFicha, BonusCALabel, EquipamentoPainel, AddEquip);
+        NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, EquipamentoPainelFicha, BonusCALabel, EquipamentoPainel, AddEquip, PesoAtual, PesoMaximo);
     }
 
     /**

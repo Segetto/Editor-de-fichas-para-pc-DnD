@@ -34,6 +34,7 @@ import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.Especializacao
 import backend.Fun.Par.Especializacao.EspecializacoesAddP;
 import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
 import static backend.Fun.Par.Inventario.ChangeMochilaIcon.ChangeMochilaIcon;
+import static backend.Fun.Par.Inventario.PesoCalc.PesoCalc;
 import org.json.*;
 
 /**
@@ -111,8 +112,8 @@ public class personagemFicha extends javax.swing.JFrame {
         InspiracaoP(personagemCaminho, ficha, InspiracaoLabel);
         PercepcaoPassivaP(ficha, PercepcaoPassivaLabel);
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
-        ItensPanelP(personagemCaminho, ficha, PainelItens, BonusCALabel, AddEquip);
-        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario, BonusCALabel);
+        ItensPanelP(personagemCaminho, ficha, PainelItens, BonusCALabel, AddEquip, PesoAtualLabel, PesoMaximoLabel);
+        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, Inventario, BonusCALabel, PesoAtualLabel, PesoMaximoLabel);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarClasseC, "m", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PCarRacaC, "n", "d", "e", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PIdiomasC, "p", "c", "d", PainelEspecializacoes);
@@ -122,12 +123,13 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);  
-        MoedaP(personagemCaminho, ficha, CobreInput, "o");
-        MoedaP(personagemCaminho, ficha, PrataInput, "p");
-        MoedaP(personagemCaminho, ficha, ElectroInput, "q");
-        MoedaP(personagemCaminho, ficha, OuroInput, "r");
-        MoedaP(personagemCaminho, ficha, PlatinaInput, "s");
+        MoedaP(personagemCaminho, ficha, CobreInput, "o", PesoAtualLabel, PesoMaximoLabel);
+        MoedaP(personagemCaminho, ficha, PrataInput, "p", PesoAtualLabel, PesoMaximoLabel);
+        MoedaP(personagemCaminho, ficha, ElectroInput, "q", PesoAtualLabel, PesoMaximoLabel);
+        MoedaP(personagemCaminho, ficha, OuroInput, "r", PesoAtualLabel, PesoMaximoLabel);
+        MoedaP(personagemCaminho, ficha, PlatinaInput, "s", PesoAtualLabel, PesoMaximoLabel);
         ChangeMochilaIcon(personagemCaminho, ficha, AddEquip, MochilaIcon);
+        PesoCalc(ficha, PesoMaximoLabel, PesoAtualLabel);
     }
 
     /**
@@ -138,6 +140,7 @@ public class personagemFicha extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
 
         jPanel8 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
@@ -264,8 +267,15 @@ public class personagemFicha extends javax.swing.JFrame {
         jLabel53 = new javax.swing.JLabel();
         AddEquip = new javax.swing.JPanel();
         MochilaIcon = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
         jScrollPaneMochilaItens = new javax.swing.JScrollPane();
         PainelItens = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel58 = new javax.swing.JLabel();
+        PesoAtualLabel = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel57 = new javax.swing.JLabel();
+        PesoMaximoLabel = new javax.swing.JLabel();
         jScrollPaneMagias = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
@@ -1511,30 +1521,36 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        AddEquip.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 195)));
+        AddEquip.setBackground(new java.awt.Color(35, 35, 35));
+        AddEquip.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(35, 35, 193)));
         AddEquip.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        AddEquip.setOpaque(false);
 
         MochilaIcon.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         MochilaIcon.setForeground(new java.awt.Color(255, 255, 255));
         MochilaIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/MochilaFechada.png"))); // NOI18N
         MochilaIcon.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
 
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Adicionar itens");
+
         javax.swing.GroupLayout AddEquipLayout = new javax.swing.GroupLayout(AddEquip);
         AddEquip.setLayout(AddEquipLayout);
         AddEquipLayout.setHorizontalGroup(
             AddEquipLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddEquipLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(34, 34, 34)
                 .addComponent(MochilaIcon)
-                .addGap(34, 34, 34))
+                .addGap(15, 15, 15)
+                .addComponent(jLabel20)
+                .addGap(0, 34, Short.MAX_VALUE))
         );
         AddEquipLayout.setVerticalGroup(
             AddEquipLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddEquipLayout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
-                .addComponent(MochilaIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addGap(0, 13, Short.MAX_VALUE)
+                .addComponent(jLabel20)
+                .addGap(0, 14, Short.MAX_VALUE))
+            .addComponent(MochilaIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jScrollPaneMochilaItens.setBorder(null);
@@ -1542,41 +1558,85 @@ public class personagemFicha extends javax.swing.JFrame {
         jScrollPaneMochilaItens.setPreferredSize(new java.awt.Dimension(606, 200));
 
         PainelItens.setBackground(new java.awt.Color(23, 23, 23));
+        PainelItens.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 0, 0, 0, new java.awt.Color(35, 35, 195)));
         PainelItens.setMaximumSize(new java.awt.Dimension(43, 606));
 
         javax.swing.GroupLayout PainelItensLayout = new javax.swing.GroupLayout(PainelItens);
         PainelItens.setLayout(PainelItensLayout);
         PainelItensLayout.setHorizontalGroup(
             PainelItensLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 596, Short.MAX_VALUE)
         );
         PainelItensLayout.setVerticalGroup(
             PainelItensLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 432, Short.MAX_VALUE)
+            .addGap(0, 364, Short.MAX_VALUE)
         );
 
         jScrollPaneMochilaItens.setViewportView(PainelItens);
+
+        jPanel13.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel13.setOpaque(false);
+        jPanel13.setLayout(new java.awt.GridBagLayout());
+
+        jLabel58.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel58.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel58.setText("Carga atual");
+        jPanel13.add(jLabel58, new java.awt.GridBagConstraints());
+
+        PesoAtualLabel.setForeground(new java.awt.Color(255, 255, 255));
+        PesoAtualLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PesoAtualLabel.setText("0.0Kg");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        jPanel13.add(PesoAtualLabel, gridBagConstraints);
+
+        jPanel9.setBackground(new java.awt.Color(23, 23, 23));
+        jPanel9.setOpaque(false);
+        jPanel9.setLayout(new java.awt.GridBagLayout());
+
+        jLabel57.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel57.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel57.setText("Carga máxima");
+        jPanel9.add(jLabel57, new java.awt.GridBagConstraints());
+
+        PesoMaximoLabel.setForeground(new java.awt.Color(255, 255, 255));
+        PesoMaximoLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PesoMaximoLabel.setText("0.0Kg");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        jPanel9.add(PesoMaximoLabel, gridBagConstraints);
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addGap(34, 34, 34)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(AddEquip, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(32, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(15, 15, 15)
+                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(15, 15, 15)
+                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
-                .addComponent(AddEquip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 229, Short.MAX_VALUE))
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(AddEquip, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(23, 23, 23)
+                .addComponent(jScrollPaneMochilaItens, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE))
         );
 
         jScrollPaneInventario.setViewportView(jPanel15);
@@ -2188,6 +2248,8 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel PainelItens;
     private javax.swing.JLabel PercepcaoPassivaLabel;
     private javax.swing.JPanel PericiasContainer;
+    private javax.swing.JLabel PesoAtualLabel;
+    private javax.swing.JLabel PesoMaximoLabel;
     private javax.swing.JTextField PlatinaInput;
     private javax.swing.JTextField PrataInput;
     private javax.swing.JLabel RacaSelect;
@@ -2216,6 +2278,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
@@ -2252,6 +2315,8 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -2261,6 +2326,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
@@ -2274,6 +2340,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPaneEspecializacao;
     private javax.swing.JScrollPane jScrollPaneGeral;
     private javax.swing.JScrollPane jScrollPaneInventario;

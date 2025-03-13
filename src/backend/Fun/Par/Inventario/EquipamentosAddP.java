@@ -16,8 +16,8 @@ import visual.Equipamento;
  */
 public class EquipamentosAddP {
 
-    public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens, JLabel BonusCALabel) {
-        Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel, AddEquip);
+    public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens, JLabel BonusCALabel, JLabel PesoAtual, JLabel PesoMaximo) {
+        Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
         novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         for (MouseListener ml : AddEquip.getMouseListeners()) {
             AddEquip.removeMouseListener(ml);
