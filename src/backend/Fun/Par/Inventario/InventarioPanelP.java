@@ -9,6 +9,7 @@ import java.awt.*;
 import static backend.Fun.Proficiencia.Proficiencia;
 import static backend.Fun.Mod.mod;
 import static backend.Fun.Par.Inventario.InformacoesAdicionaisP.InformacoesP;
+import static backend.Fun.Par.Inventario.PesoCalc.PesoCalc;
 import backend.jsonParser;
 import java.awt.event.*;
 import visual.EditarItemFicha;
@@ -558,6 +559,7 @@ public class InventarioPanelP {
                             ficha.getJSONArray("i").remove(j);
                         }
                     }
+                    PesoCalc(ficha, PesoMaximo, PesoAtual);
                     PainelItens.revalidate();
                     PainelItens.repaint();
                     SalvarFicha(ficha, personagemCaminho);

@@ -5,6 +5,7 @@
 package backend.Fun.Par.Inventario;
 
 import static backend.Fun.Mod.mod;
+import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import org.json.*;
 import javax.swing.*;
@@ -66,11 +67,11 @@ public class InventarioJanelaP {
             PainelDescricaoItem.setLayout(new BoxLayout(PainelDescricaoItem, BoxLayout.Y_AXIS));
 
             int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
+            String descricao = "";
             if (itens.getJSONObject(i).has("v")) {
-                DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(i).getString("v") + "</body></html>");
-            } else {
-                DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
+                descricao = itens.getJSONObject(i).getString("v");
             }
+            DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + descricao + "</body></html>");
             DescricaoItem.setLocation(0, 0);
             PainelNomeItem.add(check, BorderLayout.WEST);
             PainelNomeItem.add(NomeItem, BorderLayout.CENTER);
@@ -351,6 +352,7 @@ public class InventarioJanelaP {
 
                     }
                 });
+                final int iCompRemove = i;
                 RemoverItem.addMouseListener(new MouseAdapter() {
 
                     @Override
@@ -358,10 +360,13 @@ public class InventarioJanelaP {
                     public void mouseClicked(MouseEvent e) {
                         for (int j = 0; j < itens.length(); j++) {
                             if (itens.getJSONObject(j).getString("uuid").equals(idItem)) {
-                                PainelItens.remove(PainelItem);
                                 itens.remove(j);
+                                j = itens.length();
                             }
                         }
+                        SwingUtilities.getWindowAncestor(PainelItens).dispose();
+                        EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItens, itens, BonusCALabel, PesoAtual, PesoMaximo);
+
                         Sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", itens.toString(4));
                         PainelItens.revalidate();
                         PainelItens.repaint();
@@ -370,16 +375,13 @@ public class InventarioJanelaP {
                 });
             }
             int iComp = i;
-
+            String descricaoComp = descricao;
             SwingUtilities.getWindowAncestor(PainelItens).addComponentListener(new ComponentAdapter() {
                 @Override
                 public void componentResized(ComponentEvent e) {
-                    int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
-                    // Atualiza o texto, ajustando a largura do body no HTML
-                    if (itens.getJSONObject(iComp).has("v")) {
-                        DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + itens.getJSONObject(iComp).getString("v") + "</body></html>");
-                    } else {
-                        DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
+                    if (OpcoesVetor[iComp] != null) {
+                        int width = SwingUtilities.getWindowAncestor(PainelItens).getSize().width;
+                        DescricaoItem.setText("<html><body style='width:" + (width / 2.5) + "px'>" + descricaoComp + "</body></html>");
                     }
                 }
             });
@@ -405,9 +407,13 @@ public class InventarioJanelaP {
 
                 public void itemStateChanged(ItemEvent e) {
                     if (e.getStateChange() == ItemEvent.SELECTED) {
-
-                        ItensNovos.put(NewItemFichaVO.NovoItemFicha(itens, iComp));
-                        posicao = ItensNovos.length() - 1;
+                        for (int j = 0; j < itens.length(); j++) {
+                            if (itens.getJSONObject(j).getString("uuid").equals(idItem)) {
+                                ItensNovos.put(NewItemFichaVO.NovoItemFicha(itens, j));
+                                posicao = ItensNovos.length() - 1;
+                                j = itens.length();
+                            }
+                        }
                     } else {
                         ItensNovos.remove(posicao);
                     }
@@ -426,6 +432,7 @@ public class InventarioJanelaP {
                 }
                 InventarioPanelP.ItensPanelP(personagemCaminho, ficha, PainelItensFicha, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).setVisible(false);
+                desmarcarTodasCheckBoxes(PainelItens);
                 SalvarFicha(ficha, personagemCaminho);
 
             }
@@ -444,7 +451,7 @@ public class InventarioJanelaP {
     public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc) {
         PainelOpcoes.removeAll();
         for (Component Opcao : OpcoesLista) {
-            if (TipoOpcoes.equals(Opcao.getName())) {
+            if (Opcao != null && TipoOpcoes.equals(Opcao.getName())) {
                 PainelOpcoes.add(Opcao, gbc);
                 gbc.gridy++;
 
@@ -452,5 +459,19 @@ public class InventarioJanelaP {
         }
         PainelOpcoes.revalidate();
         PainelOpcoes.repaint();
+    }
+     private static void desmarcarTodasCheckBoxes(JPanel painel) {
+        // Percorrer todos os componentes do painel
+        for (Component componente : painel.getComponents()) {
+            // Se o componente for um JPanel, chamar recursivamente
+            if (componente instanceof JPanel) {
+                desmarcarTodasCheckBoxes((JPanel) componente); // Chamada recursiva
+            }
+            // Verificar se o componente é uma JCheckBox
+            else if (componente instanceof JCheckBox) {
+                JCheckBox checkBox = (JCheckBox) componente;
+                checkBox.setSelected(false); // Desmarcar a checkbox
+            }
+        }
     }
 }

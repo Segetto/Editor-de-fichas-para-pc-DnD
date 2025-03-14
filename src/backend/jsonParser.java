@@ -6,6 +6,8 @@ package backend;
 
 import java.io.IOException;
 import java.io.FileWriter;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.LinkedHashMap;
@@ -42,30 +44,17 @@ public class jsonParser {
     public static String LerArray(String caminho) {
         String valores;  // Inicializando antes do bloco try-catch
         try {
-            String caminhoArquivo = caminho;
-            String conteudo = new String(Files.readAllBytes(Paths.get(caminhoArquivo)));
-
-            JSONArray personagemVO = new JSONArray(conteudo);
-
-            /*JSONArray personagemArray = personagemVO.getJSONArray("e");*/
-            valores = personagemVO.toString();
-            /*
-        }*/
-
+            valores = Files.readString(Paths.get(caminho));
         } catch (IOException e) {
-            e.printStackTrace();
             valores = "Erro ao ler arquivo.";  // Mensagem de erro se houver uma exceção
         }
-
         return valores;  // Retorna o valor ou a mensagem de erro
     }
 
     public void sobrescreverArquivo(String CaminhoArquivo, String ArquivoString) {
         try {
-            String caminhoArquivo = CaminhoArquivo;
-            JSONObject ArquivoNovo = new JSONObject(ArquivoString);
-            FileWriter file = new FileWriter(caminhoArquivo, false);
-            file.write(ArquivoNovo.toString(4)); // O '4' é para formatar o JSON com uma indentação de 4 espaços
+            FileWriter file = new FileWriter(CaminhoArquivo, false);
+            file.write(ArquivoString); // O '4' é para formatar o JSON com uma indentação de 4 espaços
             file.close();
 
             System.out.println("Arquivo JSON sobrescrito com sucesso.");

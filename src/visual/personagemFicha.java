@@ -107,8 +107,8 @@ public class personagemFicha extends javax.swing.JFrame {
         XpP(personagemCaminho, ficha, XpLabel);
         AntecedenteP(personagemCaminho, ficha, AntecedenteLabel);
         PericiasP(personagemCaminho, ficha, PericiasContainer);
-        CAP(ficha, BonusCALabel);
-        IniciativaP(ficha, BonusIniciativaLabel);
+        CAP(personagemCaminho, ficha, BonusCALabel);
+        IniciativaP(personagemCaminho, ficha, BonusIniciativaLabel);
         InspiracaoP(personagemCaminho, ficha, InspiracaoLabel);
         PercepcaoPassivaP(ficha, PercepcaoPassivaLabel);
         MovimentacaoP(personagemCaminho, ficha, MovimentacaoText);
@@ -996,6 +996,7 @@ public class personagemFicha extends javax.swing.JFrame {
         BonusIniciativaLabel.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         BonusIniciativaLabel.setForeground(new java.awt.Color(255, 255, 255));
         BonusIniciativaLabel.setText("+0");
+        BonusIniciativaLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -1029,6 +1030,7 @@ public class personagemFicha extends javax.swing.JFrame {
         BonusCALabel.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         BonusCALabel.setForeground(new java.awt.Color(255, 255, 255));
         BonusCALabel.setText("10");
+        BonusCALabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);

@@ -5,25 +5,19 @@
 package backend.Fun.Par.Geral;
 
 import static backend.Fun.FichaLer.FichaLerInt;
-import static backend.Fun.IntCampo.IntCampo;
 import static backend.Fun.Mod.mod;
 import static backend.Fun.Proficiencia.Proficiencia;
 import static backend.Fun.SalvarFicha.SalvarFicha;
-import backend.Fun.VirtualObjects.NewClasseVO;
 import backend.jsonParser;
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.*;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.SwingConstants;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import visual.personagemFicha;
 
 /**
  *

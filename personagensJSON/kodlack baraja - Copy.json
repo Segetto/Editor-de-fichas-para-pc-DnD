@@ -750,6 +750,74 @@
                 "z": true
             },
             "c": []
+        },
+        {
+            "a": {
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "QI2O5BXFOPAWUX9QNJB8Q45WQC558JY3"
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 5,
+                "d": "SP",
+                "e": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "0BA0F1CDC2248BBC350D9D3D5E8D61ED",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "1": "1d6",
+                "2": 0,
+                "3": 0,
+                "t": false,
+                "u": "Azagaia",
+                "v": "",
+                "w": "Arremesso (distância 9/36)"
+            },
+            "c": []
+        },
+        {
+            "a": {
+                "c": 1,
+                "d": false,
+                "e": false,
+                "f": "",
+                "uuid": "QI2O5BXFOPAWUX9QNJB8Q45WQC558JY3"
+            },
+            "b": {
+                "b": "perfurante",
+                "c": 5,
+                "d": "SP",
+                "e": 1,
+                "g": 1,
+                "h": "UN",
+                "i": "Arma",
+                "j": 0,
+                "k": "",
+                "l": 0,
+                "uuid": "0BA0F1CDC2248BBC350D9D3D5E8D61ED",
+                "m": false,
+                "n": 0,
+                "o": 0,
+                "q": "STRENGTH",
+                "1": "1d6",
+                "2": 0,
+                "3": 0,
+                "t": false,
+                "u": "Azagaia",
+                "v": "",
+                "w": "Arremesso (distância 9/36)"
+            },
+            "c": []
         }
     ],
     "j": [

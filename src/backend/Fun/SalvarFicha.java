@@ -4,7 +4,6 @@
  */
 package backend.Fun;
 
-import static backend.Fun.FichaLer.FichaLerString;
 import backend.jsonParser;
 import org.json.JSONObject;
 
@@ -15,6 +14,6 @@ import org.json.JSONObject;
 public class SalvarFicha {
      public static void SalvarFicha(JSONObject ficha, String personagemCaminho) {
         jsonParser leitor = new jsonParser();
-        leitor.sobrescreverArquivo(personagemCaminho, ficha.toString());
+        leitor.sobrescreverArquivo(personagemCaminho, ficha.toString(4));
      }
 }
