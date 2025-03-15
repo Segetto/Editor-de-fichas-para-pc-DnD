@@ -5,7 +5,7 @@
 package visual;
 
 import org.json.*;
-import static backend.Fun.Par.Geral.ScrollP.ScrollP;
+import backend.Fun.Par.Especializacao.NewEspecializacao;
 import backend.Fun.Par.Especializacao.EspecializacaoJanelaP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
 import javax.swing.*;
@@ -20,10 +20,11 @@ public class Especializacao extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox) {
+    public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
         EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox);
+        NewEspecializacao.NewEsp(personagemCaminho, especializacoes, TituloCaminho, DescricaoCaminho, CriarNovasEspecializacoes, OpcoesComboBox, CaminhoArquivo);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -50,6 +51,7 @@ public class Especializacao extends javax.swing.JFrame {
         EspSelect = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         AdicionarNovasEspecializacoes = new javax.swing.JLabel();
+        CriarNovasEspecializacoes = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -94,25 +96,30 @@ public class Especializacao extends javax.swing.JFrame {
         AdicionarNovasEspecializacoes.setText("Adicionar");
         AdicionarNovasEspecializacoes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        CriarNovasEspecializacoes.setForeground(new java.awt.Color(122, 255, 255));
+        CriarNovasEspecializacoes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CriarNovasEspecializacoes.setText("Criar");
+        CriarNovasEspecializacoes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(115, 115, 115)
-                        .addComponent(BotaoSair)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPaneIEspecializacoes)
-                            .addComponent(jLabel1)
-                            .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPaneIEspecializacoes)
+                    .addComponent(jLabel1)
+                    .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(BotaoSair)
+                .addGap(18, 18, 18)
+                .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -126,7 +133,8 @@ public class Especializacao extends javax.swing.JFrame {
                 .addGap(86, 86, 86)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BotaoSair)
-                    .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24))
         );
 
@@ -212,6 +220,7 @@ public class Especializacao extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel AdicionarNovasEspecializacoes;
     private javax.swing.JButton BotaoSair;
+    private javax.swing.JLabel CriarNovasEspecializacoes;
     private javax.swing.JComboBox<String> EspSelect;
     private javax.swing.JPanel EspecializacaoPainel;
     private javax.swing.JLabel jLabel1;

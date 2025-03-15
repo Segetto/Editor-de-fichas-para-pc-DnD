@@ -13,7 +13,7 @@ import org.json.*;
  * @author Admin
  */
 public class OrganizarASSET {
-    public static JSONArray OrganizarJSONArray(JSONArray ArrayEntrada){
+    public static JSONArray OrganizarJSONArray(JSONArray ArrayEntrada, String campo){
          java.util.List<JSONObject> lista = new java.util.ArrayList<>();
                     for (int i = 0; i < ArrayEntrada.length(); i++) {
                         lista.add(ArrayEntrada.getJSONObject(i));
@@ -25,8 +25,8 @@ public class OrganizarASSET {
                         public int compare(JSONObject a, JSONObject b) {
                             Collator collator = Collator.getInstance(new Locale("pt", "BR"));
                             collator.setStrength(Collator.PRIMARY); // Ignora diferenças de acento
-                            String nomeA = a.getString("u");
-                            String nomeB = b.getString("u");
+                            String nomeA = a.getString(campo);
+                            String nomeB = b.getString(campo);
                             return collator.compare(nomeA, nomeB);
                         }
                     });

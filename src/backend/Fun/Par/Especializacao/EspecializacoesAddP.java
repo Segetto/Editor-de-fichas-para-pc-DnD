@@ -16,9 +16,9 @@ import visual.Especializacao;
  */
 public class EspecializacoesAddP {
 
-    public static void EspecializacoesAddP(String personagemCaminho, JSONObject ficha, JPanel PEspT, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox) {
+    public static void EspecializacoesAddP(String personagemCaminho, JSONObject ficha, JPanel PEspT, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
         trocarPainel mudar = new trocarPainel();
-        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox);
+        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox, CaminhoArquivo);
         PEspT.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mudar.painelChange(novoFrame);

@@ -89,6 +89,8 @@ public class VidaP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put("l", Integer.parseInt(VidaTotal.getText()));
                 }
+                VidaAtual.revalidate();
+                VidaAtual.repaint();
                 SalvarFicha(ficha, personagemCaminho);
             }
 
@@ -100,6 +102,8 @@ public class VidaP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put("l", Integer.parseInt(VidaTotal.getText()));
                 }
+                VidaAtual.revalidate();
+                VidaAtual.repaint();
                 SalvarFicha(ficha, personagemCaminho);
             }
 
@@ -118,6 +122,8 @@ public class VidaP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put("j", Integer.parseInt(VidaTotal.getText()));
                 }
+                VidaTotal.revalidate();
+                VidaTotal.repaint();
                 SalvarFicha(ficha, personagemCaminho);
             }
 
@@ -129,6 +135,8 @@ public class VidaP {
                 } else {
                     ficha.getJSONArray("a").getJSONObject(0).put("j", Integer.parseInt(VidaTotal.getText()));
                 }
+                VidaTotal.revalidate();
+                VidaTotal.repaint();
                 SalvarFicha(ficha, personagemCaminho);
             }
 

@@ -296,7 +296,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
             }
             System.out.println("Arquivo selecionado: " + selectedFile.getAbsolutePath());
             jsonParser salvar = new jsonParser();
-            salvar.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(itens).toString(4));
+            salvar.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(itens, "u").toString(4));
         } else {
             System.out.println("Nenhum arquivo selecionado.");
         }

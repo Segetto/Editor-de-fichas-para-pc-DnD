@@ -297,12 +297,12 @@ public class EditarItemAssetSelectDinamico {
                         ArmaDadosDanoString,
                         ArmaAtaqueBonusInt,
                         ArmaDanoBonusInt));
-                sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos).toString(4));
+                sobrescrever.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(equipamentos, "u").toString(4));
                 if (EquipamentoPainel != null) {
                     Window janela = SwingUtilities.getWindowAncestor(EquipamentoPainel);
                     janela.dispose();
                     janela = null;
-                    EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, OrganizarASSET.OrganizarJSONArray(equipamentos), BonusCALabel, PesoAtual, PesoMaximo);
+                    EquipamentosAddP(personagemCaminho, ficha, AddEquip, PainelItensFicha, OrganizarASSET.OrganizarJSONArray(equipamentos, "u"), BonusCALabel, PesoAtual, PesoMaximo);
                     SwingUtilities.getWindowAncestor(OpcoesExtra).dispose();
                 }
             }

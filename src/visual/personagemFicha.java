@@ -119,10 +119,10 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacaoPanelP(personagemCaminho, ficha, PIdiomasC, "p", "c", "d", PainelEspecializacoes);
         EspecializacaoPanelP(personagemCaminho, ficha, PTalentosC, "o", "d", "c", PainelEspecializacoes);
         jScrollPaneMochilaItens.getVerticalScrollBar().setUnitIncrement(10);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null);  
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas, CarRacaCaminho);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes, CarClasseCaminho);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null, IdiomasCaminho);
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null, TalentosCaminho);  
         MoedaP(personagemCaminho, ficha, CobreInput, "o", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, PrataInput, "p", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, ElectroInput, "q", PesoAtualLabel, PesoMaximoLabel);
@@ -647,12 +647,13 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(VidaAtual, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
+                .addGap(40, 40, 40)
+                .addComponent(VidaAtual, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel39)
                 .addGap(0, 0, 0)
-                .addComponent(VidaTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(VidaTotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1270,12 +1271,12 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(220, 220, 220)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(VidaDano, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(VidaCura))
-                .addContainerGap(185, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLayeredPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
