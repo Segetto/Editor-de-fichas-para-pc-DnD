@@ -14,7 +14,7 @@ import org.json.*;
  */
 public class NewEspecializacao {
     public static void NewEsp(String personagemCaminho, JSONArray EspJson, String EspTitCam, String EspDescCam, JLabel NewEsp, JSONArray OpcoesSelect, String CaminhoArquivo){
-        CriarEspecializacao NewEspJanela = new CriarEspecializacao(personagemCaminho, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo);
+        CriarEspecializacao NewEspJanela = new CriarEspecializacao(personagemCaminho, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo, NewEsp);
         NewEsp.addMouseListener(new MouseAdapter() {
         @Override
         public void mouseClicked(MouseEvent e){

@@ -908,5 +908,12 @@
         "d": "Visão no Escuro",
         "e": "Graças a sua herança infernal, você tem uma visão superior no escuro e na penumbra. Você enxerga na penumbra a até 18 metros como se fosse luz plena, e no escuro como se fosse na penumbra. Você não pode discernir cores no escuro, apenas tons de cinza.",
         "uuid": "C65135C08197FD1427017CD5807771B7"
+    },
+    {
+        "b": "45926CBFE02091BA6C664E416C4A20BE",
+        "d": "pau mágigo",
+        "t": true,
+        "e": "mudou!",
+        "uuid": "I4D7EI67N3202OWST0730NB2740JH1CK"
     }
 ]

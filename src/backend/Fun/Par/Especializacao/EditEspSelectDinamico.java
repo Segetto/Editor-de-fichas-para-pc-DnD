@@ -16,41 +16,38 @@ import org.json.*;
  *
  * @author Admin
  */
-public class NewEspSelectDinamico {
+public class EditEspSelectDinamico {
 
-    public static void NewEspSelectDinamico(JTextField NomeComp, JTextArea DescComp, JPanel EspExtra, JLabel AddNewEsp, JSONArray opcoes, String NomeCampoArray, String DescCampoArray, JSONArray OpcoesSelect, String CaminhoArquivo, JLabel NewEsp) {
+    public static void EditEspSelectDinamico(JTextField NomeComp, JTextArea DescComp, JPanel EspExtra, JLabel AddNewEsp, JSONArray opcoes, String NomeCampoArray, String DescCampoArray, JSONArray OpcoesSelect, String CaminhoArquivo, int ComboOpcaoInt, int pos, JLabel EditarEsp) {
         JComboBox<String> OpcoesExtra = new JComboBox<>();
         if (OpcoesSelect != null) {
             for (int i = 0; i < OpcoesSelect.length(); i++) {
                 OpcoesExtra.addItem(OpcoesSelect.getJSONObject(i).getString("b"));
             }
+            OpcoesExtra.setSelectedIndex(ComboOpcaoInt);
             EspExtra.add(OpcoesExtra);
         }
         AddNewEsp.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (OpcoesSelect != null) {
-                    opcoes.put(
-                            new JSONObject()
-                                    .put(NomeCampoArray, NomeComp.getText())
-                                    .put(DescCampoArray, DescComp.getText())
-                                    .put("b", OpcoesSelect.getJSONObject(OpcoesExtra.getSelectedIndex()).getString("uuid"))
-                                    .put("t", true)
-                                    .put("uuid", Rand.NovoId(32))
-                    );
+                    opcoes.getJSONObject(pos)
+                            .put(NomeCampoArray, NomeComp.getText())
+                            .put(DescCampoArray, DescComp.getText())
+                            .put("b", OpcoesSelect.getJSONObject(OpcoesExtra.getSelectedIndex()).getString("uuid"))
+                            .put("t", true)
+                            .put("uuid", Rand.NovoId(32));
                 } else {
-                    opcoes.put(
-                            new JSONObject()
-                                    .put(NomeCampoArray, NomeComp.getText())
-                                    .put(DescCampoArray, DescComp.getText())
-                                    .put("t", true)
-                                    .put("uuid", Rand.NovoId(32))
-                    );
+                    opcoes.getJSONObject(pos)
+                            .put(NomeCampoArray, NomeComp.getText())
+                            .put(DescCampoArray, DescComp.getText())
+                            .put("t", true)
+                            .put("uuid", Rand.NovoId(32));
                 }
                 jsonParser sobrescrever = new jsonParser();
                 sobrescrever.sobrescreverArray(CaminhoArquivo, OrganizarASSET.OrganizarJSONArray(opcoes, NomeCampoArray).toString(4));
                 SwingUtilities.getWindowAncestor(NomeComp).dispose();
-                SwingUtilities.getWindowAncestor(NewEsp).dispose();
+                SwingUtilities.getWindowAncestor(EditarEsp).dispose();
             }
         });
     }

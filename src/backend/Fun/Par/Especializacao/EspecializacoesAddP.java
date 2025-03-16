@@ -4,8 +4,9 @@
  */
 package backend.Fun.Par.Especializacao;
 
-import backend.Fun.Par.Inventario.*;
 import backend.Fun.trocarPainel;
+import java.awt.event.MouseListener;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import org.json.*;
 import visual.Especializacao;
@@ -18,7 +19,12 @@ public class EspecializacoesAddP {
 
     public static void EspecializacoesAddP(String personagemCaminho, JSONObject ficha, JPanel PEspT, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
         trocarPainel mudar = new trocarPainel();
-        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox, CaminhoArquivo);
+        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox, CaminhoArquivo, PEspT);
+        novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        for (MouseListener ml : PEspT.getMouseListeners()) {
+            PEspT.removeMouseListener(ml);
+        }
+        System.gc();
         PEspT.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mudar.painelChange(novoFrame);

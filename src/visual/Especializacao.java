@@ -20,10 +20,10 @@ public class Especializacao extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
+    public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PEspT) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox);
+        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT);
         NewEspecializacao.NewEsp(personagemCaminho, especializacoes, TituloCaminho, DescricaoCaminho, CriarNovasEspecializacoes, OpcoesComboBox, CaminhoArquivo);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
@@ -79,7 +79,7 @@ public class Especializacao extends javax.swing.JFrame {
         EspecializacaoPainel.setLayout(EspecializacaoPainelLayout);
         EspecializacaoPainelLayout.setHorizontalGroup(
             EspecializacaoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 232, Short.MAX_VALUE)
+            .addGap(0, 399, Short.MAX_VALUE)
         );
         EspecializacaoPainelLayout.setVerticalGroup(
             EspecializacaoPainelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,18 +107,23 @@ public class Especializacao extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPaneIEspecializacoes)
-                    .addComponent(jLabel1)
-                    .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 409, Short.MAX_VALUE)
                 .addGap(34, 34, 34))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(BotaoSair)
                 .addGap(18, 18, 18)
                 .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel1)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -144,7 +149,7 @@ public class Especializacao extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(35, 35, 35)
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
                 .addGap(35, 35, 35))
         );
         jPanel1Layout.setVerticalGroup(

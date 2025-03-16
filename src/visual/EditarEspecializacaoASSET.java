@@ -5,22 +5,23 @@
 package visual;
 
 import org.json.*;
-import backend.Fun.Par.Especializacao.NewEspSelectDinamico;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
+import backend.Fun.Par.Especializacao.EditEspSelectDinamico;
 
 /**
  *
  * @author Admin
  */
-public class CriarEspecializacao extends javax.swing.JFrame {
+public class EditarEspecializacaoASSET extends javax.swing.JFrame {
 
     /**
      * Creates new form CriarItem
      */
-    public CriarEspecializacao(String personagemCaminho, JSONArray EspJson, String EspTitCam, String EspDescCam, JSONArray OpcoesSelect, String CaminhoArquivo, JLabel NewEsp) {
+    public EditarEspecializacaoASSET(JSONArray EspJson, int pos, String EspTitCam, String EspDescCam, JSONArray OpcoesSelect, String CaminhoArquivo, String NomeCampo, String DescCampo, int ComboOpcaoInt, JLabel EditarEsp) {
         initComponents();
-        NewEspSelectDinamico.NewEspSelectDinamico(Nome, Descricao, PEspOpAdicionais, AddNewEsp, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo, NewEsp);
+        Nome.setText(NomeCampo);
+        Descricao.setText(DescCampo);
+        EditEspSelectDinamico.EditEspSelectDinamico(Nome, Descricao, PEspOpAdicionais, EditEsp, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo, ComboOpcaoInt, pos, EditarEsp);
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
     }
 
@@ -37,7 +38,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         BotaoSair = new javax.swing.JButton();
-        AddNewEsp = new javax.swing.JLabel();
+        EditEsp = new javax.swing.JLabel();
         Nome = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         Descricao = new javax.swing.JTextArea();
@@ -60,10 +61,10 @@ public class CriarEspecializacao extends javax.swing.JFrame {
             }
         });
 
-        AddNewEsp.setForeground(new java.awt.Color(122, 255, 255));
-        AddNewEsp.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        AddNewEsp.setText("Adicionar");
-        AddNewEsp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        EditEsp.setForeground(new java.awt.Color(122, 255, 255));
+        EditEsp.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        EditEsp.setText("Salvar");
+        EditEsp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         Nome.setBackground(new java.awt.Color(23, 23, 23));
         Nome.setForeground(new java.awt.Color(255, 255, 255));
@@ -91,7 +92,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(BotaoSair)
                 .addGap(23, 23, 23)
-                .addComponent(AddNewEsp, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(EditEsp, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(59, 59, 59)
@@ -122,7 +123,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BotaoSair)
-                    .addComponent(AddNewEsp, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(EditEsp, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
         );
 
@@ -139,7 +140,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
-                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 335, Short.MAX_VALUE)
                 .addGap(34, 34, 34))
         );
 
@@ -156,7 +157,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 401, Short.MAX_VALUE)
+                .addComponent(jScrollPane1)
                 .addGap(0, 0, 0))
         );
 
@@ -184,14 +185,20 @@ public class CriarEspecializacao extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CriarEspecializacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EditarEspecializacaoASSET.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CriarEspecializacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EditarEspecializacaoASSET.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CriarEspecializacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EditarEspecializacaoASSET.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CriarEspecializacao.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EditarEspecializacaoASSET.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
@@ -203,9 +210,9 @@ public class CriarEspecializacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel AddNewEsp;
     private javax.swing.JButton BotaoSair;
     private javax.swing.JTextArea Descricao;
+    private javax.swing.JLabel EditEsp;
     private javax.swing.JTextField Nome;
     private javax.swing.JPanel PEspOpAdicionais;
     private javax.swing.JLabel jLabel1;

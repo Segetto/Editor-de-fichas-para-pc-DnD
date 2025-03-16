@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs:
+ * Click nbfs:
  */
 package backend.Fun.Par.Especializacao;
 
@@ -25,17 +25,17 @@ public class EspecializacaoPanelP {
         int HeightInicialJanela = 192;
         PainelCaracteristicas.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.BOTH; // Expande horizontal e verticalmente
-        gbc.weightx = 1.0; // Permite expansão horizontal
-        gbc.weighty = 0.0; // Não cresce infinitamente
-        gbc.gridwidth = GridBagConstraints.REMAINDER; // Ocupa toda a linha
-        gbc.insets = new Insets(0, 0, 10, 0); // Espaço entre os itens
+        gbc.fill = GridBagConstraints.BOTH; 
+        gbc.weightx = 1.0; 
+        gbc.weighty = 0.0; 
+        gbc.gridwidth = GridBagConstraints.REMAINDER; 
+        gbc.insets = new Insets(0, 0, 10, 0); 
 
         for (int i = 0; i < ficha.getJSONArray(VetorNome).length(); i++) {
             JPanel PainelCaracteristica = new JPanel();
             PainelCaracteristica.setLayout(new BoxLayout(PainelCaracteristica, BoxLayout.Y_AXIS));
-            JPanel PainelNomeItem = new JPanel(new FlowLayout(FlowLayout.LEFT));
-            JLabel RemoverItem = new JLabel("Remover Caracteristíca");
+            JPanel PainelNomeEsp = new JPanel(new FlowLayout(FlowLayout.LEFT));
+            JLabel RemoverEsp = new JLabel("Remover Especialização");
             String placeholder = "Informações adicionais";
             String Texto = placeholder;
 
@@ -47,9 +47,9 @@ public class EspecializacaoPanelP {
             JPanel PainelInformacoesAdicionais = new JPanel(new FlowLayout());
             InformacoesTamanho(InformacoesAdicionais);
             InformacoesP(personagemCaminho, i, ficha, InformacoesAdicionais);
-            int maxHeight = 150; // Altura máxima (em pixels)
-            int maxWidth = 400;  // Largura máxima (em pixels)
-            InformacoesAdicionais.setLineWrap(true);  // Para que o texto quebre automaticamente
+            int maxHeight = 150; 
+            int maxWidth = 400;  
+            InformacoesAdicionais.setLineWrap(true);  
             InformacoesAdicionais.setWrapStyleWord(true);
             InformacoesAdicionais.setOpaque(true);
 
@@ -60,66 +60,64 @@ public class EspecializacaoPanelP {
             InformacoesAdicionais.setBorder(BorderFactory.createEmptyBorder());
             PainelInformacoesAdicionais.add(scrollPaneInf);
             PainelInformacoesAdicionais.setOpaque(false);
-            RemoverItem.setPreferredSize(new Dimension(84, 15));
-            JPanel RemoverItemPainel = new JPanel();
-            RemoverItemPainel.setPreferredSize(new Dimension(470, 20));
-            RemoverItem.setPreferredSize(new Dimension(84, 20));
+            JPanel RemoverEspPainel = new JPanel();
+            RemoverEspPainel.setPreferredSize(new Dimension(470, 20));
 
-            RemoverItem.setForeground(new Color(255, 105, 105));
-            RemoverItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            JLabel NomeItem = new JLabel(ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(TituloCaminho));
+            RemoverEsp.setForeground(new Color(255, 105, 105));
+            RemoverEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            JLabel NomeEsp = new JLabel(ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(TituloCaminho));
             ImageIcon icone = new ImageIcon("src/visual/res/down.png");
-            JLabel SetaItem = new JLabel(icone);
-            SetaItem.setBounds(0, 0, icone.getIconWidth(), icone.getIconHeight());
-            NomeItem.setPreferredSize(new Dimension(470, 15));
-            NomeItem.setHorizontalAlignment(SwingConstants.LEFT);
+            JLabel SetaEsp = new JLabel(icone);
+            SetaEsp.setBounds(0, 0, icone.getIconWidth(), icone.getIconHeight());
+            NomeEsp.setPreferredSize(new Dimension(470, 15));
+            NomeEsp.setHorizontalAlignment(SwingConstants.LEFT);
 
-            JPanel PainelDescricaoItem = new JPanel();
-            PainelDescricaoItem.setLayout(new BoxLayout(PainelDescricaoItem, BoxLayout.Y_AXIS));
-            JLabel DescricaoItem = new JLabel("<html><div style='width: 304px; padding: 7px;'>" + ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(DescricaoCaminho) + "</div></html>");
-            PainelNomeItem.add(NomeItem);
-            PainelNomeItem.add(SetaItem);
-            PainelDescricaoItem.add(DescricaoItem);
-            RemoverItemPainel.add(RemoverItem);
-            RemoverItemPainel.setOpaque(false);
-            PainelDescricaoItem.add(PainelInformacoesAdicionais);
-            PainelDescricaoItem.add(RemoverItemPainel);
-            final String idItemFicha = ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").getString("uuid");
+            JPanel PainelDescricaoEsp = new JPanel();
+            PainelDescricaoEsp.setLayout(new BoxLayout(PainelDescricaoEsp, BoxLayout.Y_AXIS));
+            JLabel DescricaoEsp = new JLabel("<html><div style='width: 304px; padding: 7px;'>" + ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("b").getString(DescricaoCaminho) + "</div></html>");
+            PainelNomeEsp.add(NomeEsp);
+            PainelNomeEsp.add(SetaEsp);
+            PainelDescricaoEsp.add(DescricaoEsp);
+            RemoverEspPainel.add(RemoverEsp);
+            RemoverEspPainel.setOpaque(false);
+            PainelDescricaoEsp.add(PainelInformacoesAdicionais);
+            PainelDescricaoEsp.add(RemoverEspPainel);
+            final String idEspFicha = ficha.getJSONArray(VetorNome).getJSONObject(i).getJSONObject("a").getString("uuid");
             gbc.gridy = i;
             PainelCaracteristica.setOpaque(false);
-            PainelNomeItem.setOpaque(false);
-            PainelDescricaoItem.setOpaque(false);
-            PainelDescricaoItem.setPreferredSize(new Dimension(300, PainelDescricaoItem.getPreferredSize().height));
-            PainelCaracteristica.add(PainelNomeItem);
-            PainelNomeItem.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            PainelNomeItem.setBorder(new MatteBorder(0, 0, 1, 0, new Color(105, 105, 195)));
+            PainelNomeEsp.setOpaque(false);
+            PainelDescricaoEsp.setOpaque(false);
+            PainelDescricaoEsp.setPreferredSize(new Dimension(300, PainelDescricaoEsp.getPreferredSize().height));
+            PainelCaracteristica.add(PainelNomeEsp);
+            PainelNomeEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            PainelNomeEsp.setBorder(new MatteBorder(0, 0, 1, 0, new Color(35, 35, 195)));
             PainelCaracteristicas.add(PainelCaracteristica, gbc);
 
-            PainelNomeItem.addMouseListener(new MouseAdapter() {
+            PainelNomeEsp.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
                     int heightChange = 0;
 
-                    if (PainelDescricaoItem.getParent() != null) {
-                        PainelCaracteristica.remove(PainelDescricaoItem);
+                    if (PainelDescricaoEsp.getParent() != null) {
+                        PainelCaracteristica.remove(PainelDescricaoEsp);
                         ImageIcon icone = new ImageIcon("src/visual/res/down.png");
-                        SetaItem.setIcon(icone);
+                        SetaEsp.setIcon(icone);
                         for (Component comp : PainelEspecializacoes.getComponents()) {
                             if (comp instanceof JPanel) {
                                 JPanel panel = (JPanel) comp;
-                                // Faça algo com cada JPanel encontrado
+                                
                                 heightChange += panel.getPreferredSize().height;
                             }
                         }
                         PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChange + HeightInicialJanela)));
                     } else {
-                        PainelCaracteristica.add(PainelDescricaoItem);
+                        PainelCaracteristica.add(PainelDescricaoEsp);
                         ImageIcon icone = new ImageIcon("src/visual/res/up.png");
-                        SetaItem.setIcon(icone);
+                        SetaEsp.setIcon(icone);
                         for (Component comp : PainelEspecializacoes.getComponents()) {
                             if (comp instanceof JPanel) {
                                 JPanel panel = (JPanel) comp;
-                                // Faça algo com cada JPanel encontrado
+                                
                                 heightChange += panel.getPreferredSize().height;
                             }
                         }
@@ -131,13 +129,13 @@ public class EspecializacaoPanelP {
                 }
             });
             int RemoveI = i;
-            RemoverItem.addMouseListener(new MouseAdapter() {
+            RemoverEsp.addMouseListener(new MouseAdapter() {
 
                 @Override
 
                 public void mouseClicked(MouseEvent e) {
                     for (int j = 0; j < ficha.getJSONArray(VetorNome).length(); j++) {
-                        if (ficha.getJSONArray(VetorNome).getJSONObject(j).getJSONObject("a").getString("uuid").equals(idItemFicha)) {
+                        if (ficha.getJSONArray(VetorNome).getJSONObject(j).getJSONObject("a").getString("uuid").equals(idEspFicha)) {
                             PainelCaracteristicas.remove(PainelCaracteristica);
                             ficha.getJSONArray(VetorNome).remove(j);
                         }
@@ -146,7 +144,7 @@ public class EspecializacaoPanelP {
                     for (Component comp : PainelEspecializacoes.getComponents()) {
                             if (comp instanceof JPanel) {
                                 JPanel panel = (JPanel) comp;
-                                // Faça algo com cada JPanel encontrado
+                                
                                 heightChangeDelete += panel.getPreferredSize().height;
                             }
                         }
@@ -159,19 +157,19 @@ public class EspecializacaoPanelP {
             InformacoesAdicionais.addFocusListener(new FocusListener() {
                 @Override
                 public void focusGained(FocusEvent e) {
-                    // Quando o JTextArea recebe o foco, apaga o placeholder, mas apenas se o campo estiver vazio
+                    
                     if (InformacoesAdicionais.getText().equals(placeholder)) {
                         InformacoesAdicionais.setText("");
-                        InformacoesAdicionais.setForeground(new Color(255, 255, 255));  // Cor do texto normal
+                        InformacoesAdicionais.setForeground(new Color(255, 255, 255));  
                     }
                 }
 
                 @Override
                 public void focusLost(FocusEvent e) {
-                    // Quando o JTextArea perde o foco, e o texto está vazio, mostra o placeholder
+                    
                     if (InformacoesAdicionais.getText().isEmpty()) {
                         InformacoesAdicionais.setText(placeholder);
-                        InformacoesAdicionais.setForeground(Color.GRAY);  // Cor do placeholder
+                        InformacoesAdicionais.setForeground(Color.GRAY);  
                     }
                 }
             });
@@ -180,7 +178,7 @@ public class EspecializacaoPanelP {
         for (Component comp : PainelEspecializacoes.getComponents()) {
             if (comp instanceof JPanel) {
                 JPanel panel = (JPanel) comp;
-                // Faça algo com cada JPanel encontrado
+                
                 height += panel.getPreferredSize().height;
             }
         }
