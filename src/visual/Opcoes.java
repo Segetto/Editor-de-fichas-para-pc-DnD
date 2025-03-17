@@ -19,6 +19,7 @@ public class Opcoes extends javax.swing.JFrame {
     public Opcoes(String personagemCaminho, JSONObject ficha, String TipoOpcao, JLabel OpcaoLabelFicha, String ArrayNome) {
         initComponents();
         jScrollPane2.getVerticalScrollBar().setUnitIncrement(5);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
         OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha, TipoOpcao);
     }

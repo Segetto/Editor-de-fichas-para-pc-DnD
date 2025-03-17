@@ -35,6 +35,7 @@ import backend.Fun.Par.Especializacao.EspecializacoesAddP;
 import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
 import static backend.Fun.Par.Inventario.ChangeMochilaIcon.ChangeMochilaIcon;
 import static backend.Fun.Par.Inventario.PesoCalc.PesoCalc;
+import static backend.Fun.Par.Geral.OpcoesNavBar.MostrarDrawer;
 import org.json.*;
 
 /**
@@ -70,7 +71,6 @@ public class personagemFicha extends javax.swing.JFrame {
         JSONArray Racas = new JSONArray(jsonParser.LerArray(RacasCaminho));
         JSONArray Classes = new JSONArray(jsonParser.LerArray(ClassesCaminho));
 
-        
         JanelaP(jPanel2);
         JanelaP(jPanel15);
         JanelaP(PainelItens);
@@ -99,7 +99,6 @@ public class personagemFicha extends javax.swing.JFrame {
 
         ProfP(ficha, BonusProficienciaLabel);
         VidaP(personagemCaminho, ficha, VidaAtual, VidaTotal, VidaCura, VidaDano);
-        SalvarP(ficha, salvarBotao, personagemCaminho);
         NomeP(personagemCaminho, ficha, LabelNome);
         ClassesP(personagemCaminho, ficha, ClasseLabel, ClasseLabel, personagem, LevelLabel, PericiasContainer, BonusProficienciaLabel);
         RacaP(personagemCaminho, ficha, RacaSelect);
@@ -122,7 +121,7 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas, CarRacaCaminho);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes, CarClasseCaminho);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null, IdiomasCaminho);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null, TalentosCaminho);  
+        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null, TalentosCaminho);
         MoedaP(personagemCaminho, ficha, CobreInput, "o", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, PrataInput, "p", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, ElectroInput, "q", PesoAtualLabel, PesoMaximoLabel);
@@ -130,6 +129,7 @@ public class personagemFicha extends javax.swing.JFrame {
         MoedaP(personagemCaminho, ficha, PlatinaInput, "s", PesoAtualLabel, PesoMaximoLabel);
         ChangeMochilaIcon(personagemCaminho, ficha, AddEquip, MochilaIcon);
         PesoCalc(ficha, PesoMaximoLabel, PesoAtualLabel);
+        MostrarDrawer(personagemCaminho, ficha, OpcoesNavBar, jPanel8);
     }
 
     /**
@@ -148,6 +148,7 @@ public class personagemFicha extends javax.swing.JFrame {
         InventarioNavBar = new javax.swing.JLabel();
         MagiasNavBar = new javax.swing.JLabel();
         CaracteristicasNavBar = new javax.swing.JLabel();
+        OpcoesNavBar = new javax.swing.JLabel();
         AppScrollPane = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         jScrollPaneGeral = new javax.swing.JScrollPane();
@@ -278,7 +279,56 @@ public class personagemFicha extends javax.swing.JFrame {
         PesoMaximoLabel = new javax.swing.JLabel();
         jScrollPaneMagias = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
-        jLabel25 = new javax.swing.JLabel();
+        PCarRaca1 = new javax.swing.JPanel();
+        PCarRacaT1 = new javax.swing.JPanel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        PCarRacaC1 = new javax.swing.JPanel();
+        PCarClasse1 = new javax.swing.JPanel();
+        PCarClasseT1 = new javax.swing.JPanel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        PCarClasseC1 = new javax.swing.JPanel();
+        PTalentos1 = new javax.swing.JPanel();
+        PTalentosT1 = new javax.swing.JPanel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        PTalentosC1 = new javax.swing.JPanel();
+        PIdiomas1 = new javax.swing.JPanel();
+        PIdiomasT1 = new javax.swing.JPanel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        PIdiomasC1 = new javax.swing.JPanel();
+        PCarClasse2 = new javax.swing.JPanel();
+        PCarClasseT2 = new javax.swing.JPanel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        PCarClasseC2 = new javax.swing.JPanel();
+        PCarRaca2 = new javax.swing.JPanel();
+        PCarRacaT2 = new javax.swing.JPanel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        PCarRacaC2 = new javax.swing.JPanel();
+        PTalentos2 = new javax.swing.JPanel();
+        PTalentosT2 = new javax.swing.JPanel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        PTalentosC2 = new javax.swing.JPanel();
+        PIdiomas2 = new javax.swing.JPanel();
+        PIdiomasT2 = new javax.swing.JPanel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        PIdiomasC2 = new javax.swing.JPanel();
+        PTalentos3 = new javax.swing.JPanel();
+        PTalentosT3 = new javax.swing.JPanel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        PTalentosC3 = new javax.swing.JPanel();
+        PIdiomas3 = new javax.swing.JPanel();
+        PIdiomasT3 = new javax.swing.JPanel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        PIdiomasC3 = new javax.swing.JPanel();
         jScrollPaneEspecializacao = new javax.swing.JScrollPane();
         PainelEspecializacoes = new javax.swing.JPanel();
         PCarRaca = new javax.swing.JPanel();
@@ -333,6 +383,11 @@ public class personagemFicha extends javax.swing.JFrame {
         CaracteristicasNavBar.setText("Especialização");
         CaracteristicasNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        OpcoesNavBar.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        OpcoesNavBar.setForeground(new java.awt.Color(255, 255, 255));
+        OpcoesNavBar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/MaisOp.png"))); // NOI18N
+        OpcoesNavBar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
@@ -346,7 +401,9 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(MagiasNavBar)
                 .addGap(34, 34, 34)
                 .addComponent(CaracteristicasNavBar)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(OpcoesNavBar)
+                .addGap(34, 34, 34))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -358,7 +415,8 @@ public class personagemFicha extends javax.swing.JFrame {
                         .addComponent(InventarioNavBar))
                     .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(MagiasNavBar)
-                        .addComponent(CaracteristicasNavBar)))
+                        .addComponent(CaracteristicasNavBar)
+                        .addComponent(OpcoesNavBar)))
                 .addGap(0, 19, Short.MAX_VALUE))
         );
 
@@ -1656,26 +1714,686 @@ public class personagemFicha extends javax.swing.JFrame {
         jScrollPaneMagias.setPreferredSize(new java.awt.Dimension(672, 438));
 
         jPanel16.setBackground(new java.awt.Color(23, 23, 23));
-        jPanel16.setPreferredSize(new java.awt.Dimension(400, 600));
+        jPanel16.setPreferredSize(new java.awt.Dimension(662, 826));
 
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setText("Feitiços");
+        PCarRaca1.setOpaque(false);
+
+        PCarRacaT1.setBackground(new java.awt.Color(35, 35, 35));
+        PCarRacaT1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel44.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel44.setText("Truques");
+
+        jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarRacaT1Layout = new javax.swing.GroupLayout(PCarRacaT1);
+        PCarRacaT1.setLayout(PCarRacaT1Layout);
+        PCarRacaT1Layout.setHorizontalGroup(
+            PCarRacaT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaT1Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel44)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel55))
+        );
+        PCarRacaT1Layout.setVerticalGroup(
+            PCarRacaT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaT1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel55, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PCarRacaC1.setOpaque(false);
+
+        javax.swing.GroupLayout PCarRacaC1Layout = new javax.swing.GroupLayout(PCarRacaC1);
+        PCarRacaC1.setLayout(PCarRacaC1Layout);
+        PCarRacaC1Layout.setHorizontalGroup(
+            PCarRacaC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarRacaC1Layout.setVerticalGroup(
+            PCarRacaC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarRaca1Layout = new javax.swing.GroupLayout(PCarRaca1);
+        PCarRaca1.setLayout(PCarRaca1Layout);
+        PCarRaca1Layout.setHorizontalGroup(
+            PCarRaca1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarRaca1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarRaca1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarRacaC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarRacaT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarRaca1Layout.setVerticalGroup(
+            PCarRaca1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRaca1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaT1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        PCarClasse1.setOpaque(false);
+
+        PCarClasseT1.setBackground(new java.awt.Color(35, 35, 35));
+        PCarClasseT1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel56.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel56.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel56.setText("1° Nível");
+
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarClasseT1Layout = new javax.swing.GroupLayout(PCarClasseT1);
+        PCarClasseT1.setLayout(PCarClasseT1Layout);
+        PCarClasseT1Layout.setHorizontalGroup(
+            PCarClasseT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseT1Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel56)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel59))
+        );
+        PCarClasseT1Layout.setVerticalGroup(
+            PCarClasseT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseT1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel56, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PCarClasseC1.setOpaque(false);
+
+        javax.swing.GroupLayout PCarClasseC1Layout = new javax.swing.GroupLayout(PCarClasseC1);
+        PCarClasseC1.setLayout(PCarClasseC1Layout);
+        PCarClasseC1Layout.setHorizontalGroup(
+            PCarClasseC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarClasseC1Layout.setVerticalGroup(
+            PCarClasseC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarClasse1Layout = new javax.swing.GroupLayout(PCarClasse1);
+        PCarClasse1.setLayout(PCarClasse1Layout);
+        PCarClasse1Layout.setHorizontalGroup(
+            PCarClasse1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarClasse1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarClasse1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarClasseC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarClasseT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarClasse1Layout.setVerticalGroup(
+            PCarClasse1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasse1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseC1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PTalentos1.setOpaque(false);
+
+        PTalentosT1.setBackground(new java.awt.Color(35, 35, 35));
+        PTalentosT1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel60.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel60.setText("2° Nível");
+
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PTalentosT1Layout = new javax.swing.GroupLayout(PTalentosT1);
+        PTalentosT1.setLayout(PTalentosT1Layout);
+        PTalentosT1Layout.setHorizontalGroup(
+            PTalentosT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT1Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel60)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 488, Short.MAX_VALUE)
+                .addComponent(jLabel61))
+        );
+        PTalentosT1Layout.setVerticalGroup(
+            PTalentosT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel61, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PTalentosC1.setOpaque(false);
+
+        javax.swing.GroupLayout PTalentosC1Layout = new javax.swing.GroupLayout(PTalentosC1);
+        PTalentosC1.setLayout(PTalentosC1Layout);
+        PTalentosC1Layout.setHorizontalGroup(
+            PTalentosC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PTalentosC1Layout.setVerticalGroup(
+            PTalentosC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PTalentos1Layout = new javax.swing.GroupLayout(PTalentos1);
+        PTalentos1.setLayout(PTalentos1Layout);
+        PTalentos1Layout.setHorizontalGroup(
+            PTalentos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PTalentos1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PTalentos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PTalentosC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentosT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PTalentos1Layout.setVerticalGroup(
+            PTalentos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentos1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosT1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosC1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PIdiomas1.setOpaque(false);
+
+        PIdiomasT1.setBackground(new java.awt.Color(35, 35, 35));
+        PIdiomasT1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel62.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel62.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel62.setText("3° Nível");
+
+        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PIdiomasT1Layout = new javax.swing.GroupLayout(PIdiomasT1);
+        PIdiomasT1.setLayout(PIdiomasT1Layout);
+        PIdiomasT1Layout.setHorizontalGroup(
+            PIdiomasT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT1Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel62)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel63))
+        );
+        PIdiomasT1Layout.setVerticalGroup(
+            PIdiomasT1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PIdiomasC1.setOpaque(false);
+
+        javax.swing.GroupLayout PIdiomasC1Layout = new javax.swing.GroupLayout(PIdiomasC1);
+        PIdiomasC1.setLayout(PIdiomasC1Layout);
+        PIdiomasC1Layout.setHorizontalGroup(
+            PIdiomasC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PIdiomasC1Layout.setVerticalGroup(
+            PIdiomasC1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PIdiomas1Layout = new javax.swing.GroupLayout(PIdiomas1);
+        PIdiomas1.setLayout(PIdiomas1Layout);
+        PIdiomas1Layout.setHorizontalGroup(
+            PIdiomas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PIdiomas1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PIdiomas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PIdiomasC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomasT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PIdiomas1Layout.setVerticalGroup(
+            PIdiomas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomas1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasT1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasC1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        PCarClasse2.setOpaque(false);
+
+        PCarClasseT2.setBackground(new java.awt.Color(35, 35, 35));
+        PCarClasseT2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel64.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel64.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel64.setText("5° Nível");
+
+        jLabel65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarClasseT2Layout = new javax.swing.GroupLayout(PCarClasseT2);
+        PCarClasseT2.setLayout(PCarClasseT2Layout);
+        PCarClasseT2Layout.setHorizontalGroup(
+            PCarClasseT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseT2Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel64)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel65))
+        );
+        PCarClasseT2Layout.setVerticalGroup(
+            PCarClasseT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasseT2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PCarClasseC2.setOpaque(false);
+
+        javax.swing.GroupLayout PCarClasseC2Layout = new javax.swing.GroupLayout(PCarClasseC2);
+        PCarClasseC2.setLayout(PCarClasseC2Layout);
+        PCarClasseC2Layout.setHorizontalGroup(
+            PCarClasseC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarClasseC2Layout.setVerticalGroup(
+            PCarClasseC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarClasse2Layout = new javax.swing.GroupLayout(PCarClasse2);
+        PCarClasse2.setLayout(PCarClasse2Layout);
+        PCarClasse2Layout.setHorizontalGroup(
+            PCarClasse2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarClasse2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarClasse2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarClasseC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarClasseT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarClasse2Layout.setVerticalGroup(
+            PCarClasse2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarClasse2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarClasseC2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PCarRaca2.setOpaque(false);
+
+        PCarRacaT2.setBackground(new java.awt.Color(35, 35, 35));
+        PCarRacaT2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel66.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel66.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel66.setText("4° Nível");
+
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PCarRacaT2Layout = new javax.swing.GroupLayout(PCarRacaT2);
+        PCarRacaT2.setLayout(PCarRacaT2Layout);
+        PCarRacaT2Layout.setHorizontalGroup(
+            PCarRacaT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaT2Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel66)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel67))
+        );
+        PCarRacaT2Layout.setVerticalGroup(
+            PCarRacaT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRacaT2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PCarRacaC2.setOpaque(false);
+
+        javax.swing.GroupLayout PCarRacaC2Layout = new javax.swing.GroupLayout(PCarRacaC2);
+        PCarRacaC2.setLayout(PCarRacaC2Layout);
+        PCarRacaC2Layout.setHorizontalGroup(
+            PCarRacaC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PCarRacaC2Layout.setVerticalGroup(
+            PCarRacaC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PCarRaca2Layout = new javax.swing.GroupLayout(PCarRaca2);
+        PCarRaca2.setLayout(PCarRaca2Layout);
+        PCarRaca2Layout.setHorizontalGroup(
+            PCarRaca2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PCarRaca2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PCarRaca2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PCarRacaC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarRacaT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PCarRaca2Layout.setVerticalGroup(
+            PCarRaca2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PCarRaca2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaT2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PCarRacaC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        PTalentos2.setOpaque(false);
+
+        PTalentosT2.setBackground(new java.awt.Color(35, 35, 35));
+        PTalentosT2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel68.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel68.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel68.setText("6° Nível");
+
+        jLabel69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PTalentosT2Layout = new javax.swing.GroupLayout(PTalentosT2);
+        PTalentosT2.setLayout(PTalentosT2Layout);
+        PTalentosT2Layout.setHorizontalGroup(
+            PTalentosT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT2Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel68)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 488, Short.MAX_VALUE)
+                .addComponent(jLabel69))
+        );
+        PTalentosT2Layout.setVerticalGroup(
+            PTalentosT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel68, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PTalentosC2.setOpaque(false);
+
+        javax.swing.GroupLayout PTalentosC2Layout = new javax.swing.GroupLayout(PTalentosC2);
+        PTalentosC2.setLayout(PTalentosC2Layout);
+        PTalentosC2Layout.setHorizontalGroup(
+            PTalentosC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PTalentosC2Layout.setVerticalGroup(
+            PTalentosC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PTalentos2Layout = new javax.swing.GroupLayout(PTalentos2);
+        PTalentos2.setLayout(PTalentos2Layout);
+        PTalentos2Layout.setHorizontalGroup(
+            PTalentos2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PTalentos2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PTalentos2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PTalentosC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentosT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PTalentos2Layout.setVerticalGroup(
+            PTalentos2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentos2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosT2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosC2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PIdiomas2.setOpaque(false);
+
+        PIdiomasT2.setBackground(new java.awt.Color(35, 35, 35));
+        PIdiomasT2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel70.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel70.setText("7° Nível");
+
+        jLabel71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PIdiomasT2Layout = new javax.swing.GroupLayout(PIdiomasT2);
+        PIdiomasT2.setLayout(PIdiomasT2Layout);
+        PIdiomasT2Layout.setHorizontalGroup(
+            PIdiomasT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT2Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel70)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel71))
+        );
+        PIdiomasT2Layout.setVerticalGroup(
+            PIdiomasT2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel70, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PIdiomasC2.setOpaque(false);
+
+        javax.swing.GroupLayout PIdiomasC2Layout = new javax.swing.GroupLayout(PIdiomasC2);
+        PIdiomasC2.setLayout(PIdiomasC2Layout);
+        PIdiomasC2Layout.setHorizontalGroup(
+            PIdiomasC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PIdiomasC2Layout.setVerticalGroup(
+            PIdiomasC2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PIdiomas2Layout = new javax.swing.GroupLayout(PIdiomas2);
+        PIdiomas2.setLayout(PIdiomas2Layout);
+        PIdiomas2Layout.setHorizontalGroup(
+            PIdiomas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PIdiomas2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PIdiomas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PIdiomasC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomasT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PIdiomas2Layout.setVerticalGroup(
+            PIdiomas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomas2Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasT2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasC2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        PTalentos3.setOpaque(false);
+
+        PTalentosT3.setBackground(new java.awt.Color(35, 35, 35));
+        PTalentosT3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel72.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel72.setText("8° Nível");
+
+        jLabel73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PTalentosT3Layout = new javax.swing.GroupLayout(PTalentosT3);
+        PTalentosT3.setLayout(PTalentosT3Layout);
+        PTalentosT3Layout.setHorizontalGroup(
+            PTalentosT3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT3Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel72)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 488, Short.MAX_VALUE)
+                .addComponent(jLabel73))
+        );
+        PTalentosT3Layout.setVerticalGroup(
+            PTalentosT3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentosT3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel73, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PTalentosC3.setOpaque(false);
+
+        javax.swing.GroupLayout PTalentosC3Layout = new javax.swing.GroupLayout(PTalentosC3);
+        PTalentosC3.setLayout(PTalentosC3Layout);
+        PTalentosC3Layout.setHorizontalGroup(
+            PTalentosC3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PTalentosC3Layout.setVerticalGroup(
+            PTalentosC3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PTalentos3Layout = new javax.swing.GroupLayout(PTalentos3);
+        PTalentos3.setLayout(PTalentos3Layout);
+        PTalentos3Layout.setHorizontalGroup(
+            PTalentos3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PTalentos3Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PTalentos3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PTalentosC3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentosT3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PTalentos3Layout.setVerticalGroup(
+            PTalentos3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PTalentos3Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosT3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(PTalentosC3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
+        );
+
+        PIdiomas3.setOpaque(false);
+
+        PIdiomasT3.setBackground(new java.awt.Color(35, 35, 35));
+        PIdiomasT3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
+        jLabel74.setFont(new java.awt.Font("SansSerif", 0, 16)); // NOI18N
+        jLabel74.setForeground(new java.awt.Color(101, 219, 219));
+        jLabel74.setText("9° Nível");
+
+        jLabel75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/plus.png"))); // NOI18N
+
+        javax.swing.GroupLayout PIdiomasT3Layout = new javax.swing.GroupLayout(PIdiomasT3);
+        PIdiomasT3.setLayout(PIdiomasT3Layout);
+        PIdiomasT3Layout.setHorizontalGroup(
+            PIdiomasT3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT3Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addComponent(jLabel74)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel75))
+        );
+        PIdiomasT3Layout.setVerticalGroup(
+            PIdiomasT3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomasT3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel74, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addComponent(jLabel75, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        PIdiomasC3.setOpaque(false);
+
+        javax.swing.GroupLayout PIdiomasC3Layout = new javax.swing.GroupLayout(PIdiomasC3);
+        PIdiomasC3.setLayout(PIdiomasC3Layout);
+        PIdiomasC3Layout.setHorizontalGroup(
+            PIdiomasC3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PIdiomasC3Layout.setVerticalGroup(
+            PIdiomasC3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout PIdiomas3Layout = new javax.swing.GroupLayout(PIdiomas3);
+        PIdiomas3.setLayout(PIdiomas3Layout);
+        PIdiomas3Layout.setHorizontalGroup(
+            PIdiomas3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PIdiomas3Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addGroup(PIdiomas3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PIdiomasC3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomasT3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, 0))
+        );
+        PIdiomas3Layout.setVerticalGroup(
+            PIdiomas3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PIdiomas3Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasT3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(PIdiomasC3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
         jPanel16.setLayout(jPanel16Layout);
         jPanel16Layout.setHorizontalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
-                .addContainerGap(345, Short.MAX_VALUE)
-                .addComponent(jLabel25)
-                .addGap(277, 277, 277))
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(PTalentos1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomas1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarRaca1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarClasse1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentos2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomas2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarRaca2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PCarClasse2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PTalentos3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PIdiomas3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(38, 38, 38))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel16Layout.createSequentialGroup()
-                .addGap(116, 116, 116)
-                .addComponent(jLabel25)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(34, 34, 34)
+                .addComponent(PCarRaca1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PCarClasse1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PTalentos1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PIdiomas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
+                .addComponent(PCarRaca2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PCarClasse2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PTalentos2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PIdiomas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
+                .addComponent(PTalentos3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(PIdiomas3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         jScrollPaneMagias.setViewportView(jPanel16);
@@ -2243,22 +2961,53 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel MagiasNavBar;
     private javax.swing.JLabel MochilaIcon;
     private javax.swing.JTextField MovimentacaoText;
+    private javax.swing.JLabel OpcoesNavBar;
     private javax.swing.JTextField OuroInput;
     private javax.swing.JPanel PCarClasse;
+    private javax.swing.JPanel PCarClasse1;
+    private javax.swing.JPanel PCarClasse2;
     private javax.swing.JPanel PCarClasseC;
+    private javax.swing.JPanel PCarClasseC1;
+    private javax.swing.JPanel PCarClasseC2;
     private javax.swing.JPanel PCarClasseT;
+    private javax.swing.JPanel PCarClasseT1;
+    private javax.swing.JPanel PCarClasseT2;
     private javax.swing.JPanel PCarExtra;
     private javax.swing.JPanel PCarExtraC;
     private javax.swing.JPanel PCarExtraT;
     private javax.swing.JPanel PCarRaca;
+    private javax.swing.JPanel PCarRaca1;
+    private javax.swing.JPanel PCarRaca2;
     private javax.swing.JPanel PCarRacaC;
+    private javax.swing.JPanel PCarRacaC1;
+    private javax.swing.JPanel PCarRacaC2;
     private javax.swing.JPanel PCarRacaT;
+    private javax.swing.JPanel PCarRacaT1;
+    private javax.swing.JPanel PCarRacaT2;
     private javax.swing.JPanel PIdiomas;
+    private javax.swing.JPanel PIdiomas1;
+    private javax.swing.JPanel PIdiomas2;
+    private javax.swing.JPanel PIdiomas3;
     private javax.swing.JPanel PIdiomasC;
+    private javax.swing.JPanel PIdiomasC1;
+    private javax.swing.JPanel PIdiomasC2;
+    private javax.swing.JPanel PIdiomasC3;
     private javax.swing.JPanel PIdiomasT;
+    private javax.swing.JPanel PIdiomasT1;
+    private javax.swing.JPanel PIdiomasT2;
+    private javax.swing.JPanel PIdiomasT3;
     private javax.swing.JPanel PTalentos;
+    private javax.swing.JPanel PTalentos1;
+    private javax.swing.JPanel PTalentos2;
+    private javax.swing.JPanel PTalentos3;
     private javax.swing.JPanel PTalentosC;
+    private javax.swing.JPanel PTalentosC1;
+    private javax.swing.JPanel PTalentosC2;
+    private javax.swing.JPanel PTalentosC3;
     private javax.swing.JPanel PTalentosT;
+    private javax.swing.JPanel PTalentosT1;
+    private javax.swing.JPanel PTalentosT2;
+    private javax.swing.JPanel PTalentosT3;
     private javax.swing.JPanel PainelEspecializacoes;
     private javax.swing.JPanel PainelItens;
     private javax.swing.JLabel PercepcaoPassivaLabel;
@@ -2298,7 +3047,6 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
@@ -2319,6 +3067,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
@@ -2330,10 +3079,29 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;

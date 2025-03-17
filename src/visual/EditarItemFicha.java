@@ -6,6 +6,7 @@ package visual;
 
 import org.json.*;
 import backend.Fun.Par.EditarItemJanela.EditarItemSelectDinamico;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -21,6 +22,7 @@ public class EditarItemFicha extends javax.swing.JFrame {
     public EditarItemFicha(JSONArray Equipamento, JSONObject ficha, int pos, String personagemCaminho, JPanel PainelItensFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, String TipoEdit, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         EditarItemSelectDinamico.EditarItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, PainelItensFicha, BonusCALabel, EquipamentoPainel, AddEquip, TipoEdit, pos, PesoAtual, PesoMaximo);
         Nome.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("u"));
         Descricao.setText(ficha.getJSONArray("i").getJSONObject(pos).getJSONObject("b").getString("v"));

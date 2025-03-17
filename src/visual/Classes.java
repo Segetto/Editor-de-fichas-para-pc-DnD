@@ -26,7 +26,7 @@ public class Classes extends javax.swing.JFrame {
      */
     public Classes(String personagemCaminho, JSONObject ficha, JLabel ClasseLabel, String nome, JLabel LevelLabel, JPanel PericiasContainer, JLabel ProfLabel) {
         initComponents();
-
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         ClassesP Classes = new ClassesP();
         Classes.ClassesOptions(ClassesPainel, ficha);
 

@@ -6,6 +6,7 @@ package visual;
 
 import org.json.*;
 import backend.Fun.Par.Especializacao.NewEspSelectDinamico;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -22,6 +23,7 @@ public class CriarEspecializacao extends javax.swing.JFrame {
         initComponents();
         NewEspSelectDinamico.NewEspSelectDinamico(Nome, Descricao, PEspOpAdicionais, AddNewEsp, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo, NewEsp);
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     /**

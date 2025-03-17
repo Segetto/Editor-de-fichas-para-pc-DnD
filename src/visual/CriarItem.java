@@ -6,6 +6,7 @@ package visual;
 
 import org.json.*;
 import backend.Fun.Par.NewItemJanela.NewItemSelectDinamico;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -21,6 +22,7 @@ public class CriarItem extends javax.swing.JFrame {
     public CriarItem(JSONArray Equipamento,  String personagemCaminho, JSONObject ficha, JPanel EquipamentoPainelFicha, JLabel BonusCALabel, JPanel EquipamentoPainel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
         initComponents();
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         NewItemSelectDinamico.NewItemSelectDinamico(Nome, Descricao, PrecoValor, PrecoTipo, Peso, QuantidadeValor, QuantidadeTipo, TipoSelect, PNewOpcoes, AdicionarNovoItem, Equipamento, personagemCaminho, ficha, EquipamentoPainelFicha, BonusCALabel, EquipamentoPainel, AddEquip, PesoAtual, PesoMaximo);
     }
 

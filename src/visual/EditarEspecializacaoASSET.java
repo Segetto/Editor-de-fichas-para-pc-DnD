@@ -7,6 +7,7 @@ package visual;
 import org.json.*;
 import javax.swing.JLabel;
 import backend.Fun.Par.Especializacao.EditEspSelectDinamico;
+import javax.swing.JFrame;
 
 /**
  *
@@ -19,6 +20,7 @@ public class EditarEspecializacaoASSET extends javax.swing.JFrame {
      */
     public EditarEspecializacaoASSET(JSONArray EspJson, int pos, String EspTitCam, String EspDescCam, JSONArray OpcoesSelect, String CaminhoArquivo, String NomeCampo, String DescCampo, int ComboOpcaoInt, JLabel EditarEsp) {
         initComponents();
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         Nome.setText(NomeCampo);
         Descricao.setText(DescCampo);
         EditEspSelectDinamico.EditEspSelectDinamico(Nome, Descricao, PEspOpAdicionais, EditEsp, EspJson, EspTitCam, EspDescCam, OpcoesSelect, CaminhoArquivo, ComboOpcaoInt, pos, EditarEsp);
