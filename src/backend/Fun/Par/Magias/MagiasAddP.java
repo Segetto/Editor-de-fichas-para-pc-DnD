@@ -4,24 +4,29 @@
  */
 package backend.Fun.Par.Magias;
 
-import backend.Fun.Par.Especializacao.*;
-import backend.Fun.Par.Inventario.*;
 import backend.Fun.trocarPainel;
+import java.awt.event.MouseListener;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import org.json.*;
-import visual.Equipamento;
+import visual.Especializacao;
 
 /**
  *
  * @author Admin
  */
 public class MagiasAddP {
-    public static void EquipamentosAddP(String personagemCaminho, JSONObject ficha, JPanel AddEquip, JPanel FichaEquip, JSONArray itens){
-         AddEquip.addMouseListener(new java.awt.event.MouseAdapter() {
+    public static void MagiasAddP(String personagemCaminho, JSONObject ficha, JPanel PEspT, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
+        trocarPainel mudar = new trocarPainel();
+        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox, CaminhoArquivo, PEspT);
+        novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        for (MouseListener ml : PEspT.getMouseListeners()) {
+            PEspT.removeMouseListener(ml);
+        }
+        System.gc();
+        PEspT.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                trocarPainel mudar = new trocarPainel();
-                //Equipamento novoFrame = new Equipamento(personagemCaminho, ficha, FichaEquip, itens);
-                //mudar.painelChange(novoFrame);
+                mudar.painelChange(novoFrame);
             }
         });
     }

@@ -347,14 +347,6 @@
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="salvarBotao" min="-2" pref="147" max="-2" attributes="0"/>
-                                      <Component id="jButton1" min="-2" pref="147" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
@@ -433,36 +425,12 @@
                                       </Group>
                                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="359" max="32767" attributes="0"/>
-                                  <Component id="salvarBotao" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace pref="434" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                       </Layout>
                       <SubComponents>
-                        <Component class="javax.swing.JButton" name="jButton1">
-                          <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="4f" green="4f" red="4f" type="rgb"/>
-                            </Property>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="SansSerif" size="12" style="0"/>
-                            </Property>
-                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="voltar para sele&#xe7;&#xe3;o"/>
-                            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                              <Color id="Hand Cursor"/>
-                            </Property>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JSeparator" name="jSeparator1">
                           <Properties>
                             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -492,26 +460,6 @@
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LabelNomeActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JButton" name="salvarBotao">
-                          <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="4f" green="4f" red="4f" type="rgb"/>
-                            </Property>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="SansSerif" size="12" style="0"/>
-                            </Property>
-                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Salvar altera&#xe7;&#xf5;es"/>
-                            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                              <Color id="Hand Cursor"/>
-                            </Property>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salvarBotaoActionPerformed"/>
                           </Events>
                         </Component>
                         <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
@@ -2815,7 +2763,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Container class="javax.swing.JPanel" name="jPanel16">
+                    <Container class="javax.swing.JPanel" name="PMagias">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="17" green="17" red="17" type="rgb"/>
@@ -2829,20 +2777,20 @@
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="PTalentos1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PIdiomas1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PCarRaca1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PCarClasse1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PTalentos2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PIdiomas2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PCarRaca2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PCarClasse2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PTalentos3" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="PIdiomas3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="PMagiaN2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN0" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN9" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2850,32 +2798,32 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Component id="PCarRaca1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PCarClasse1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PTalentos1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PIdiomas1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN0" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Component id="PCarRaca2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PCarClasse2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PTalentos2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PIdiomas2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN1" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Component id="PTalentos3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                  <Component id="PIdiomas3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="65" max="32767" attributes="0"/>
+                                  <Component id="PMagiaN2" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN3" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN4" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN5" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN6" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN7" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN8" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="PMagiaN9" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                       </Layout>
                       <SubComponents>
-                        <Container class="javax.swing.JPanel" name="PCarRaca1">
+                        <Container class="javax.swing.JPanel" name="PMagiaN0">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -2886,8 +2834,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PCarRacaC1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PCarRacaT1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN0C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN0T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -2897,15 +2845,15 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarRacaT1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN0T" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarRacaC1" max="32767" attributes="0"/>
+                                      <Component id="PMagiaN0C" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PCarRacaT1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN0T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -2921,7 +2869,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="492" max="32767" attributes="0"/>
                                           <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -2958,7 +2906,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PCarRacaC1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN0C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -2978,7 +2926,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PCarClasse1">
+                        <Container class="javax.swing.JPanel" name="PMagiaN1">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -2989,8 +2937,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PCarClasseC1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PCarClasseT1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN1C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN1T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3000,16 +2948,16 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarClasseT1" max="32767" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarClasseC1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN1T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN1C" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PCarClasseT1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN1T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3025,7 +2973,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3062,7 +3010,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PCarClasseC1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN1C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3082,7 +3030,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PTalentos1">
+                        <Container class="javax.swing.JPanel" name="PMagiaN2">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3093,8 +3041,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PTalentosC1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PTalentosT1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN2C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN2T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3104,16 +3052,16 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosT1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosC1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN2T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN2C" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PTalentosT1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN2T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3129,7 +3077,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel60" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="488" max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3166,7 +3114,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PTalentosC1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN2C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3186,7 +3134,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PIdiomas1">
+                        <Container class="javax.swing.JPanel" name="PMagiaN3">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3197,8 +3145,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PIdiomasC1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PIdiomasT1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN3C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN3T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3207,16 +3155,16 @@
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasT1" max="32767" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasC1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN3T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN3C" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PIdiomasT1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN3T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3232,7 +3180,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel62" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel63" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3269,7 +3217,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PIdiomasC1">
+                            <Container class="javax.swing.JPanel" name="PMagiaN3C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3289,111 +3237,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PCarClasse2">
-                          <Properties>
-                            <Property name="opaque" type="boolean" value="false"/>
-                          </Properties>
-
-                          <Layout>
-                            <DimensionLayout dim="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PCarClasseC2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PCarClasseT2" alignment="0" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                            <DimensionLayout dim="1">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarClasseT2" max="32767" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarClasseC2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                          </Layout>
-                          <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PCarClasseT2">
-                              <Properties>
-                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                  <Color blue="23" green="23" red="23" type="rgb"/>
-                                </Property>
-                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                                  <Color id="Hand Cursor"/>
-                                </Property>
-                              </Properties>
-
-                              <Layout>
-                                <DimensionLayout dim="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                                          <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                </DimensionLayout>
-                                <DimensionLayout dim="1">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jLabel64" max="32767" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="jLabel65" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
-                                </DimensionLayout>
-                              </Layout>
-                              <SubComponents>
-                                <Component class="javax.swing.JLabel" name="jLabel64">
-                                  <Properties>
-                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                      <Font name="SansSerif" size="16" style="0"/>
-                                    </Property>
-                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                      <Color blue="db" green="db" red="65" type="rgb"/>
-                                    </Property>
-                                    <Property name="text" type="java.lang.String" value="5&#xb0; N&#xed;vel"/>
-                                  </Properties>
-                                </Component>
-                                <Component class="javax.swing.JLabel" name="jLabel65">
-                                  <Properties>
-                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                      <Image iconType="3" name="/visual/res/plus.png"/>
-                                    </Property>
-                                  </Properties>
-                                </Component>
-                              </SubComponents>
-                            </Container>
-                            <Container class="javax.swing.JPanel" name="PCarClasseC2">
-                              <Properties>
-                                <Property name="opaque" type="boolean" value="false"/>
-                              </Properties>
-
-                              <Layout>
-                                <DimensionLayout dim="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                                </DimensionLayout>
-                                <DimensionLayout dim="1">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                                </DimensionLayout>
-                              </Layout>
-                            </Container>
-                          </SubComponents>
-                        </Container>
-                        <Container class="javax.swing.JPanel" name="PCarRaca2">
+                        <Container class="javax.swing.JPanel" name="PMagiaN4">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3404,8 +3248,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PCarRacaC2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PCarRacaT2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN4C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN4T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3415,15 +3259,15 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarRacaT2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN4T" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PCarRacaC2" max="32767" attributes="0"/>
+                                      <Component id="PMagiaN4C" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PCarRacaT2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN4T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3439,7 +3283,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel67" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3476,7 +3320,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PCarRacaC2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN4C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3496,7 +3340,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PTalentos2">
+                        <Container class="javax.swing.JPanel" name="PMagiaN5">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3507,8 +3351,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PTalentosC2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PTalentosT2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN5C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN5T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3518,16 +3362,120 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosT2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosC2" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN5T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN5C" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PTalentosT2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN5T">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="23" green="23" red="23" type="rgb"/>
+                                </Property>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                              </Properties>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                          <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
+                                          <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel64" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabel65" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="jLabel64">
+                                  <Properties>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="SansSerif" size="16" style="0"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="db" green="db" red="65" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="5&#xb0; N&#xed;vel"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="jLabel65">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="3" name="/visual/res/plus.png"/>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="PMagiaN5C">
+                              <Properties>
+                                <Property name="opaque" type="boolean" value="false"/>
+                              </Properties>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="PMagiaN6">
+                          <Properties>
+                            <Property name="opaque" type="boolean" value="false"/>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="PMagiaN6C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN6T" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN6T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN6C" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Container class="javax.swing.JPanel" name="PMagiaN6T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3543,7 +3491,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="488" max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel69" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3580,7 +3528,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PTalentosC2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN6C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3600,7 +3548,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PIdiomas2">
+                        <Container class="javax.swing.JPanel" name="PMagiaN7">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3611,8 +3559,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PIdiomasC2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PIdiomasT2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN7C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN7T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3621,16 +3569,16 @@
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasT2" max="32767" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasC2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN7T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN7C" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PIdiomasT2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN7T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3646,7 +3594,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel70" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3683,7 +3631,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PIdiomasC2">
+                            <Container class="javax.swing.JPanel" name="PMagiaN7C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3703,7 +3651,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PTalentos3">
+                        <Container class="javax.swing.JPanel" name="PMagiaN8">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3714,8 +3662,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PTalentosC3" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PTalentosT3" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN8C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN8T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3725,16 +3673,16 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosT3" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PTalentosC3" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN8T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN8C" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PTalentosT3">
+                            <Container class="javax.swing.JPanel" name="PMagiaN8T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3750,7 +3698,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="488" max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3787,7 +3735,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PTalentosC3">
+                            <Container class="javax.swing.JPanel" name="PMagiaN8C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>
@@ -3807,7 +3755,7 @@
                             </Container>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="PIdiomas3">
+                        <Container class="javax.swing.JPanel" name="PMagiaN9">
                           <Properties>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
@@ -3818,8 +3766,8 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="PIdiomasC3" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="PIdiomasT3" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN9C" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="PMagiaN9T" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                                   </Group>
@@ -3828,16 +3776,16 @@
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasT3" max="32767" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Component id="PIdiomasC3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN9T" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                      <Component id="PMagiaN9C" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JPanel" name="PIdiomasT3">
+                            <Container class="javax.swing.JPanel" name="PMagiaN9T">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="23" green="23" red="23" type="rgb"/>
@@ -3853,7 +3801,7 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                           <Component id="jLabel74" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="496" max="32767" attributes="0"/>
                                           <Component id="jLabel75" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3890,7 +3838,7 @@
                                 </Component>
                               </SubComponents>
                             </Container>
-                            <Container class="javax.swing.JPanel" name="PIdiomasC3">
+                            <Container class="javax.swing.JPanel" name="PMagiaN9C">
                               <Properties>
                                 <Property name="opaque" type="boolean" value="false"/>
                               </Properties>

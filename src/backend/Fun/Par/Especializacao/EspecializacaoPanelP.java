@@ -25,11 +25,11 @@ public class EspecializacaoPanelP {
         int HeightInicialJanela = 192;
         PainelCaracteristicas.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.fill = GridBagConstraints.BOTH; 
-        gbc.weightx = 1.0; 
-        gbc.weighty = 0.0; 
-        gbc.gridwidth = GridBagConstraints.REMAINDER; 
-        gbc.insets = new Insets(0, 0, 10, 0); 
+        gbc.fill = GridBagConstraints.BOTH;
+        gbc.weightx = 1.0;
+        gbc.weighty = 0.0;
+        gbc.gridwidth = GridBagConstraints.REMAINDER;
+        gbc.insets = new Insets(0, 0, 10, 0);
 
         for (int i = 0; i < ficha.getJSONArray(VetorNome).length(); i++) {
             JPanel PainelCaracteristica = new JPanel();
@@ -47,9 +47,9 @@ public class EspecializacaoPanelP {
             JPanel PainelInformacoesAdicionais = new JPanel(new FlowLayout());
             InformacoesTamanho(InformacoesAdicionais);
             InformacoesP(personagemCaminho, i, ficha, InformacoesAdicionais);
-            int maxHeight = 150; 
-            int maxWidth = 400;  
-            InformacoesAdicionais.setLineWrap(true);  
+            int maxHeight = 150;
+            int maxWidth = 400;
+            InformacoesAdicionais.setLineWrap(true);
             InformacoesAdicionais.setWrapStyleWord(true);
             InformacoesAdicionais.setOpaque(true);
 
@@ -71,6 +71,7 @@ public class EspecializacaoPanelP {
             SetaEsp.setBounds(0, 0, icone.getIconWidth(), icone.getIconHeight());
             NomeEsp.setPreferredSize(new Dimension(470, 15));
             NomeEsp.setHorizontalAlignment(SwingConstants.LEFT);
+            NomeEsp.setForeground(new Color(255, 255, 255));
 
             JPanel PainelDescricaoEsp = new JPanel();
             PainelDescricaoEsp.setLayout(new BoxLayout(PainelDescricaoEsp, BoxLayout.Y_AXIS));
@@ -105,7 +106,7 @@ public class EspecializacaoPanelP {
                         for (Component comp : PainelEspecializacoes.getComponents()) {
                             if (comp instanceof JPanel) {
                                 JPanel panel = (JPanel) comp;
-                                
+
                                 heightChange += panel.getPreferredSize().height;
                             }
                         }
@@ -117,7 +118,7 @@ public class EspecializacaoPanelP {
                         for (Component comp : PainelEspecializacoes.getComponents()) {
                             if (comp instanceof JPanel) {
                                 JPanel panel = (JPanel) comp;
-                                
+
                                 heightChange += panel.getPreferredSize().height;
                             }
                         }
@@ -142,13 +143,13 @@ public class EspecializacaoPanelP {
                     }
                     int heightChangeDelete = 0;
                     for (Component comp : PainelEspecializacoes.getComponents()) {
-                            if (comp instanceof JPanel) {
-                                JPanel panel = (JPanel) comp;
-                                
-                                heightChangeDelete += panel.getPreferredSize().height;
-                            }
+                        if (comp instanceof JPanel) {
+                            JPanel panel = (JPanel) comp;
+
+                            heightChangeDelete += panel.getPreferredSize().height;
                         }
-                        PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChangeDelete + HeightInicialJanela)));
+                    }
+                    PainelEspecializacoes.setPreferredSize(new Dimension(PainelEspecializacoes.getWidth(), (heightChangeDelete + HeightInicialJanela)));
                     PainelCaracteristicas.revalidate();
                     PainelCaracteristicas.repaint();
                     SalvarFicha(ficha, personagemCaminho);
@@ -157,19 +158,19 @@ public class EspecializacaoPanelP {
             InformacoesAdicionais.addFocusListener(new FocusListener() {
                 @Override
                 public void focusGained(FocusEvent e) {
-                    
+
                     if (InformacoesAdicionais.getText().equals(placeholder)) {
                         InformacoesAdicionais.setText("");
-                        InformacoesAdicionais.setForeground(new Color(255, 255, 255));  
+                        InformacoesAdicionais.setForeground(new Color(255, 255, 255));
                     }
                 }
 
                 @Override
                 public void focusLost(FocusEvent e) {
-                    
+
                     if (InformacoesAdicionais.getText().isEmpty()) {
                         InformacoesAdicionais.setText(placeholder);
-                        InformacoesAdicionais.setForeground(Color.GRAY);  
+                        InformacoesAdicionais.setForeground(Color.GRAY);
                     }
                 }
             });
@@ -178,7 +179,7 @@ public class EspecializacaoPanelP {
         for (Component comp : PainelEspecializacoes.getComponents()) {
             if (comp instanceof JPanel) {
                 JPanel panel = (JPanel) comp;
-                
+
                 height += panel.getPreferredSize().height;
             }
         }
