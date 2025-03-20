@@ -255,7 +255,23 @@ public class EspecializacaoJanelaP {
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
                 SalvarFicha(ficha, personagemCaminho);
                 Sobrescrever.sobrescreverArray(CaminhoArquivo, Especializacoes.toString(4));
+                desmarcarTodasCheckBoxes(PainelEspecializacao);
+
             }
         });
+    }
+
+    public static void desmarcarTodasCheckBoxes(JPanel painel) {
+        // Percorrer todos os componentes do painel
+        for (Component componente : painel.getComponents()) {
+            // Se o componente for um JPanel, chamar recursivamente
+            if (componente instanceof JPanel) {
+                desmarcarTodasCheckBoxes((JPanel) componente); // Chamada recursiva
+            } // Verificar se o componente é uma JCheckBox
+            else if (componente instanceof JCheckBox) {
+                JCheckBox checkBox = (JCheckBox) componente;
+                checkBox.setSelected(false); // Desmarcar a checkbox
+            }
+        }
     }
 }

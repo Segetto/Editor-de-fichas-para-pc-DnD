@@ -9,22 +9,22 @@ import java.awt.event.MouseListener;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import org.json.*;
-import visual.Especializacao;
+import visual.Magias;
 
 /**
  *
  * @author Admin
  */
 public class MagiasAddP {
-    public static void MagiasAddP(String personagemCaminho, JSONObject ficha, JPanel PEspT, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo) {
+    public static void MagiasAddP(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasF, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PMagiasFTl, JSONArray OpcoesComboBox, int MagiaLvl) {
         trocarPainel mudar = new trocarPainel();
-        Especializacao novoFrame = new Especializacao(personagemCaminho, ficha, PainelEspecializacaoFicha, especializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, OpcoesComboBox, CaminhoArquivo, PEspT);
+        Magias novoFrame = new Magias(personagemCaminho, ficha, PMagiasF, Magias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, CaminhoArquivo, PMagiasFTl, OpcoesComboBox, PMagiasT, MagiaLvl);
         novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        for (MouseListener ml : PEspT.getMouseListeners()) {
-            PEspT.removeMouseListener(ml);
+        for (MouseListener ml : PMagiasT.getMouseListeners()) {
+            PMagiasT.removeMouseListener(ml);
         }
         System.gc();
-        PEspT.addMouseListener(new java.awt.event.MouseAdapter() {
+        PMagiasT.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 mudar.painelChange(novoFrame);
             }

@@ -1286,681 +1286,6 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
-                "e": false,
-                "uuid": "1ap3nd588idf3egakmnd8d2655"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Raio de Gelo",
-                "c": "Um raio frigido de luz azul clara parte em direção de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, ele sofre 1d8 de dano de frio e seu deslocamento é reduzido em 3 metros até o começo do seu próximo turno.\nO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
-                "d": "evocação",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 0,
-                "l": false,
-                "m": true,
-                "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "AA587241C9A969D82BFFFBD0CBABD253",
-                "e": false,
-                "uuid": "qkfdo17ttna84df8v71cepkfl0"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Toque Arrepiante",
-                "c": "Você cria uma mão esquelética fantasmagórica no espaço de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra a criatura para afeta-la com o frio sepulcral. Se atingir, a criatura sofre 1d8 de dano necrótico e não poderá recuperar pontos de vida até o início do seu próximo turno. Até lá, a mão ficará presa ao alvo.\nSe você atingir um alvo morto-vivo, ele terá desvantagem nas jogadas de ataque contra você até o final do seu próximo turno.\nO dano dessa magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
-                "d": "necromância",
-                "e": "1 rodada",
-                "f": "1 ação",
-                "g": "36 m",
-                "h": "120 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 0,
-                "l": false,
-                "m": true,
-                "uuid": "AA587241C9A969D82BFFFBD0CBABD253"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "BD61C436903DB2D0A88FE7342E515113",
-                "e": false,
-                "uuid": "ncvqut54cpfm0nkn0jlre7f7al"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Globo de Luz",
-                "c": "Você cria até quatro luzes do tamanho de tochas dentro do alcance, fazendo-as parecerem tochas, lanternas ou esferas luminosas que flutuam no ar pela duração. Você também pode combinar as quatro luzes em uma forma luminosa, vagamente humanoide, de tamanho Médio. Qualquer que seja a forma que você escolher, cada luz produz penumbra num raio de 3 metros.\nCom uma ação bônus, no seu turno, você pode mover as luzes, até 18 metros, para um novo local dentro do alcance. Uma luz deve estar a, pelo menos, 6 metros de outra luz criada por essa magia e uma luz some se exceder o alcance da magia.",
-                "d": "evocação",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "36 m",
-                "h": "120 ft",
-                "i": "V, S, M (um pouco de fósforo ou wychwood ou um inseto luminoso)",
-                "j": false,
-                "k": 0,
-                "l": false,
-                "m": true,
-                "uuid": "BD61C436903DB2D0A88FE7342E515113"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "CAC28CFC119D235DA93800FA652CB0D3",
-                "e": true,
-                "uuid": "6hervr8l12kjjan7jb68gtp7e1"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Convocar Familiar",
-                "c": "Você adquire os serviços de uma familiar, um espírito que toma a forma de um animal, à sua escolha: aranha, caranguejo, cavalo marinho, coruja, corvo, doninha, gato, falcão, lagarto, morcego, peixe (arenque), polvo, rato, rã (sapo) ou serpente venenosa. Aparecendo em um espaço desocupado dentro do alcance, o familiar tem as mesmas estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés de uma besta.\nSeu familiar até independentemente de você, mas ele sempre obedece aos seus comandos. Em combate, ele rola sua a própria iniciativa e age no seu próprio turno. Um familiar não pode atacar, mas ele pode realizar outras ações, como de costume.\nQuando um familiar cai a 0 pontos de vida, ele desaparece, não deixando qualquer corpo físico para trás. Ele reaparece depois de você conjurar essa magia novamente.\nEnquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, com uma ação, você pode ver através dos olhos do familiar e ouvir através dos ouvidos dele, até o início do seu próximo turno, adquirindo os benefícios de qualquer sentido especial que o familiar possua. Durante esse período, você estará cego e surdo em relação aos seus próprios sentidos.\nCom uma ação, você pode, temporariamente, dispensar seu familiar. Ele desaparece dentro de uma bolsa dimensional onde ele aguarda sua convocação. Alternativamente, você pode dispensa-lo para sempre. Com uma ação, enquanto ele estiver temporariamente dispensado, você pode fazê-lo reaparecer em qualquer espaço desocupado a até 9 metros de você.\nVocê não pode ter mais de um familiar por vez. Se você conjurar essa magia enquanto já tiver um familiar, ao invés disso, você faz seu familiar existente adotar uma nova forma. Escolha uma das formas da lista acima. Seu familiar se transforma na criatura escolhida.\nFinalmente, quando você conjura uma magia com alcance de toque, seu familiar pode transmitir a magia, como se ele tivesse conjurado ela. Seu familiar precisa estar a até 30 metros de você e deve usar a reação dele para transmitir a magia quando você a conjurar. Se a magia necessitar de uma jogada de ataque, você usa seu modificador de ataque para essa jogada.",
-                "d": "conjuração",
-                "e": "Instantânea",
-                "f": "1 hora",
-                "g": "3 m",
-                "h": "10 ft",
-                "i": "V, S, M (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
-                "j": false,
-                "k": 1,
-                "l": true,
-                "m": true,
-                "uuid": "CAC28CFC119D235DA93800FA652CB0D3"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "27B82C2A97E3CBCFE37303322836000B",
-                "e": false,
-                "uuid": "2theehpn267j9hvi6ra7n2cqd9"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Proteção Contra o Bem e o Mal",
-                "c": "Até a magia acabar, uma criatura voluntária que você tocar estará protegida contra certos tipos de criaturas: aberrações, celestiais, corruptores, elementais, fadas e mortos-vivos.\nA proteção garante diversos benefícios. As criaturas desse tipo tem desvantagem nas jogadas de ataque contra o alvo. O alvo não pode ser enfeitiçado, amedrontado ou possuído por elas. Se o alvo já estiver enfeitiçado, amedrontado ou possuído por uma dessas criaturas, o alvo terá vantagem em qualquer novo teste de resistência contra o efeito relevante.",
-                "d": "abjuração",
-                "e": "Concentração, até 10 minutos",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (água benta ou pó de prata e ferro, consumidos pela magia)",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "27B82C2A97E3CBCFE37303322836000B"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "99B6CF62F2751F957EC1C373C3358934",
-                "e": true,
-                "uuid": "bekk9b5jkjq22p9ei0qfrdngue"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Escudo Arcano",
-                "c": "Uma barreira de energia invisível aparece e protege você. Até o início do seu próximo turno, você recebe +5 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dano de mísseis mágicos.",
-                "d": "abjuração",
-                "e": "1 rodada",
-                "f": "1 reação, que você faz quando é atingido por um ataque ou alvo da magia mísseis mágicos",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "99B6CF62F2751F957EC1C373C3358934"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "42C625650D6653D9748ABA72B44CDFB3",
-                "e": true,
-                "uuid": "5d4n82hhe58okq5hl74jdav2pc"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Orbe Cromática",
-                "c": "Você arremessa uma esfera de energia de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você escolhe ácido, frio, fogo, elétrico, veneno ou trovejante para o tipo de orbe que você cria e, então, realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano do tipo escolhido.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 1°.",
-                "d": "evocação",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "27 m",
-                "h": "90 ft",
-                "i": "V, S, M (um diamante valendo, no mínimo, 50 po)",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "42C625650D6653D9748ABA72B44CDFB3"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "B67E49FD76E981E0F19FBE457D7D4D15",
-                "e": false,
-                "uuid": "4a897cmfnog802v3rtmrsihqe9"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Enfeitiçar Pessoa",
-                "c": "Você tenta enfeitiçar um humanoide que você possa ver dentro do alcance. Ele deve realizar um teste de resistência de Sabedoria, e recebe vantagem nesse teste se você ou seus companheiros estiverem lutando com ele. Se ele falhar, ficará enfeitiçado por você até a magia acabar ou até você ou seus companheiros fizerem qualquer coisa nociva contra ele. A criatura enfeitiçada reconhece você como um conhecido amigável. Quando a magia acabar, a criatura saberá que foi enfeitiçada por você.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 1°. As criaturas devem estar a até 9 metros umas das outras quando você for afeta-las.",
-                "d": "encantamento",
-                "e": "1 hora",
-                "f": "1 ação",
-                "g": "9 m",
-                "h": "30 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "B67E49FD76E981E0F19FBE457D7D4D15"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "EFF0510C3B7010B2CC5FCF710DB298DD",
-                "e": false,
-                "uuid": "mmfu0n6qt1u62p6tr86uldljlf"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Raio de Bruxa",
-                "c": "Um raio crepitante de energia azul é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo. Faça um ataque à distância com magia contra a criatura. Se atingir, o alvo sofrerá 1d12 de dano elétrico e, em cada um dos seus turnos, pela duração, você pode usar sua ação para causar 1d12 de dano elétrico ao alvo, automaticamente. A magia acaba se você usar sua ação para fazer qualquer outra coisa. A magia também acaba se o alvo estiver fora do alcance da magia ou se você tiver cobertura total para ele.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano inicial aumenta em 1d12 para cada nível do espaço acima do 1°.",
-                "d": "evocação",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "9 m",
-                "h": "30 ft",
-                "i": "V, S, M (um galho de uma árvore que tenha sido atingida por um relâmpago)",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "EFF0510C3B7010B2CC5FCF710DB298DD"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "F935B6AC0B092A569C4281B565F94EDD",
-                "e": false,
-                "uuid": "dfj9nr3aoo8vt1gq8ljhmateap"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Identificação",
-                "c": "Você escolhe um objeto que você deve tocar durante toda a conjuração da magia. Se ele for um item mágico ou algum outro objeto imbuído por magia, você descobre suas propriedades e como usá-lo, se exige sintonia para ser usado e quantas cargas ele tem, se aplicável. Você descobre se quaisquer magias estão afetando o item e quais eles são. Se o item foi criado por magia, você descobre que magia o criou.\nSe você, ao invés, tocar uma criatura durante toda a conjuração, você descobre quais magias, se houver alguma, estão afetando-a atualmente.",
-                "d": "adivinhação",
-                "e": "Instantânea",
-                "f": "1 minuto",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
-                "j": false,
-                "k": 1,
-                "l": true,
-                "m": true,
-                "uuid": "F935B6AC0B092A569C4281B565F94EDD"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "1695C34429B32A6441E345C25413A4BC",
-                "e": true,
-                "uuid": "6c2qfp8pn3ummn00jnuvjn96kt"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Riso Histérico de Tasha",
-                "c": "Uma criatura, à sua escolha, que você possa ver, dentro do alcance, acha tudo hilariantemente engraçado e cai na gargalhada, se essa magia afeta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria ou cairá no chão, ficando incapacitado e incapaz de se levantar pela duração. Uma criatura com valor de Inteligência 4 ou inferior não é afetada.\nAo final de cada um dos turnos dela e, toda vez que sofrer dano, o alvo pode realizar outro teste de resistência de Sabedoria. O alvo terá vantagem no teste de resistência se ele for garantido por ele ter sofrido dano. Se obtiver sucesso, a magia acaba.",
-                "d": "encantamento",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "9 m",
-                "h": "30 ft",
-                "i": "V, S, M (pequenas tortas e uma pena que é balançada no ar)",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "1695C34429B32A6441E345C25413A4BC"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "1D64D6C7B7232E75931E1615F2B9A2D4",
-                "e": false,
-                "uuid": "6m8a37er2o0cpi9r2h63k2fi0d"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Raio do Enfraquecimento",
-                "c": "Um raio negro de energia enervante parte do seu dedo em direção de uma criatura, dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo causará metade do dano com ataques com armas que usem Força, até a magia acabar.\nNo final de cada um dos turnos do alvo, ele pode realizar um teste de resistência de Constituição contra a magia. Se obtiver sucesso, a magia acaba.",
-                "d": "necromância",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "1D64D6C7B7232E75931E1615F2B9A2D4"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "E2060061E984FF6943C53A18A758ADFB",
-                "e": false,
-                "uuid": "crk7iifkbeigrsdu7i6518s7ao"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Coroa da Loucura",
-                "c": "Um humanoide, à sua escolha, que você possa ver dentro do alcance, deve ser bem sucedido num teste de resistência de Sabedoria ou ficará enfeitiçado por você pela duração. Enquanto o alvo estiver enfeitiçado dessa forma, uma coroa retorcida de ferro denteado aparece na cabeça dele e a loucura brilha em seus olhos.\nA criatura enfeitiçada deve usar sua ação antes de se mover, em cada um dos turnos dela, para realizar um ataque corpo-a-corpo contra uma criatura, diferente de si mesma, que você escolher mentalmente.\nO alvo pode agir normalmente no turno dele se você não escolher uma criatura ou se você não estiver dentro do alcance.\nNos seus turnos subsequentes, você deve usar sua ação para manter o controle sobre o alvo, ou a magia termina. Igualmente, o alvo pode realizar um teste de resistência de Sabedoria no final de cada um dos turnos dele. Se obtiver sucesso, a magia termina.",
-                "d": "encantamento",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "36 m",
-                "h": "120 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "E2060061E984FF6943C53A18A758ADFB"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "7B8CC8DCC73BD714F2F006E00526390D",
-                "e": true,
-                "uuid": "t36buib7skq8eq8i5lcgg9ern9"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Raio Ardente",
-                "c": "Você cria três raios de fogo e os arremessa em alvos dentro do alcance. Você pode arremessa-los em um alvo ou em vários.\nRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano de fogo.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 3° nível ou superior, você cria um raio adicional para cada nível do espaço acima do 2°.",
-                "d": "evocação",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "36 m",
-                "h": "120 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "7B8CC8DCC73BD714F2F006E00526390D"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "ED3DAA84AB27105CA8CC610805A8CEA1",
-                "e": false,
-                "uuid": "g501di3ovut5iu45jdun9tlptq"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Sugestão",
-                "c": "Você sugere um curso de atividade (limitado a uma ou duas sentenças) e, magicamente, influencia um criatura que você possa ver, dentro do alcance, e que possa ouvir e compreender você. Criaturas que não podem ser enfeitiçadas são imunes a esse efeito. A sugestão deve ser formulada de modo que o curso de ação soe razoável. Dizer para a criatura se esfaquear, se arremessar em uma lança, tocar fogo em si mesma ou fazer algum outro ato obviamente nocivo anulará o efeito da magia.\nO alvo deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, ele seguirá o curso de ação que você descreveu, da melhor forma possível. O curso de ação sugerido pode continuar por toda a duração. Se a atividade sugerida puder ser completada em um tempo menor, a magia termina quando o alvo completar o que lhe foi dito para que fizesse.\nVocê pode, também, especificar condições que irão ativar uma atividade especial pela duração. Por exemplo, você poderia sugerir a um cavaleiro que entregasse seu cavalo de guerra ao primeiro mendigo que ele encontrar. Se a condição não for satisfeita antes da magia expirar, a atividade não será concluída.\nSe você ou um dos seus companheiros causar dano a uma criatura afetada por essa magia, a magia termina.",
-                "d": "encantamento",
-                "e": "Concentração, até 8 horas",
-                "f": "1 ação",
-                "g": "9 m",
-                "h": "30 ft",
-                "i": "V, M (uma língua de cobra e, ou um pedaço de favo de mel ou uma gota de azeite doce)",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "ED3DAA84AB27105CA8CC610805A8CEA1"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "C43E23AB89939917A60FBE629D9F722A",
-                "e": true,
-                "uuid": "12nds2vhl7p9k4pnif2krd6cps"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Bola de Fogo",
-                "c": "Um veio brilhante lampeja na ponta do seu dedo em direção a um ponto que você escolher, dentro do alcance, e então eclode com um estampido baixo, explodindo em chamas. Cada criatura em uma esfera de 6 metros de raio, centrada no ponto, deve realizar um teste de resistência de Destreza. Um alvo sofre 8d6 de dano de fogo se falhar na resistência, ou metade desse dano se obtiver sucesso.\nO fogo se espalha, dobrando esquinas. Ele incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
-                "d": "evocação",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "45 m",
-                "h": "150 ft",
-                "i": "V, S, M (uma minúscula bola de guano de morcego e enxofre)",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "C43E23AB89939917A60FBE629D9F722A"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "68FB3E51A8C0245DAE4264EF1A0FE46D",
-                "e": false,
-                "uuid": "nm1r8r23aq5hu19plup2ru6b7b"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Visão no Escuro",
-                "c": "Você toca uma criatura voluntária para conceder a ela a habilidade de ver nas trevas. Pela duração, a criatura terá visão no escuro com alcance de 18 metros.",
-                "d": "transmutacao",
-                "e": "8 horas",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (ou um pedaço de cenoura seca ou uma ágata)",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "68FB3E51A8C0245DAE4264EF1A0FE46D"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "54D40A660E8CA318F0545739C66EC03C",
-                "e": false,
-                "uuid": "occopiap6q9kptohsmppj8qtdt"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Prestidigicação",
-                "c": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance: ? Você cria, instantaneamente, um efeito sensorial inofensivo, como uma chuva de faíscas, um sopro de vento, notas musicais suaves ou um odor estranho.\n - Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n - Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico.\n - Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria inorgânica por 1 hora.\n - Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície por 1 hora.\n - Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\nSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
-                "d": "transmutacao",
-                "e": "Até 1 hora",
-                "f": "1 ação",
-                "g": "3 m",
-                "h": "10 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 0,
-                "l": false,
-                "m": true,
-                "uuid": "54D40A660E8CA318F0545739C66EC03C"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "C12A37A65BBBFF61177E159FC5A449C1",
-                "e": true,
-                "uuid": "ps6018a1qka9s8pruj3ncfbgjv"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Proteção Contra a Energia",
-                "c": "Pela duração, a criatura voluntária que você tocar terá resistência a um tipo de dano de sua escolha: ácido, elétrico, fogo, frio ou trovejante.",
-                "d": "abjuração",
-                "e": "Concentração, até 1 hora",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "C12A37A65BBBFF61177E159FC5A449C1"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "4205197A24BF8CA0EC1A29050949BCA6",
-                "e": false,
-                "uuid": "6efk4ba62df802fnpg72jpends"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Respirar na Água",
-                "c": "Essa magia concede a até dez criaturas voluntária que você possa ver, dentro do alcance, a habilidade de respirar embaixo d\u2019água até a magia acabar. As criaturas afetadas também mantem sua forma normal de respiração.",
-                "d": "transmutacao",
-                "e": "24 horas",
-                "f": "1 ação",
-                "g": "9 m",
-                "h": "30 ft",
-                "i": "V, S, M (um pedaço de cana ou palha)",
-                "j": false,
-                "k": 3,
-                "l": true,
-                "m": true,
-                "uuid": "4205197A24BF8CA0EC1A29050949BCA6"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "6AEA1C2D29D9159CABBA14BF280A29B9",
-                "e": false,
-                "uuid": "igrsf9o0d5h5ua2am2fb3h887f"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Toque Vampírico",
-                "c": "O toque da sua mão coberta de sombras pode drenar a força vital dos outros para curar seus ferimentos. Realize um ataque corpo-a-corpo com magia contra uma criatura ao seu alcance. Se atingir, o alvo sofre 3d6 de dano necrótico e você recupera pontos de vida igual à metade do dano necrótico causado. Até a magia acabar, você pode realizar o ataque novamente, no seu turno, com uma ação.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
-                "d": "necromância",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "6AEA1C2D29D9159CABBA14BF280A29B9"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "1438224E73FAB6ACA644CEED7CA6D6BE",
-                "e": false,
-                "uuid": "cokqu0thp55e3adi2i37agmi2a"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Relêmpago",
-                "c": "Um relâmpago forma uma linha de 30 metros de comprimento e 1,5 metro de largura que é disparado por você em uma direção, à sua escolha. Cada criatura na linha deve realizar um teste de resistência de Destreza. Uma criatura sofre 8d6 de dano elétrico se falhar na resistência ou metade desse dano se obtiver sucesso.\nO relâmpago incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
-                "d": "evocação",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "Pessoal (linha de 30 m)",
-                "h": "Pessoal (linha de 100 ft)",
-                "i": "V, S, M (um pouco de pelo e uma haste de âmbar, cristal ou vidro)",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "1438224E73FAB6ACA644CEED7CA6D6BE"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "58543C399ECB451EC2EDF23AD55B0CF9",
-                "e": false,
-                "uuid": "93al4h1brkgjfr09l4ojo810th"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Metamorfose",
-                "c": "Essa magia transforma uma criatura que você possa ver, dentro do alcance, em uma nova forma. Uma criatura involuntária deve realizar um teste de resistência de Sabedoria para evitar o efeito. Um metamorfo obtém sucesso automaticamente nesse teste de resistência.\nA transformação permanece pela duração, ou até o alvo cair a 0 pontos de vida ou morrer. A nova forma pode ser qualquer besta a qual o nível de desafio seja igual ou menor que o do alvo (ou o nível do alvo, se ele não possuir um nível de desafio). As estatísticas de jogo do alvo, incluindo seus valores de habilidades mentais, são substituídas pelas estatísticas da besta escolhida. Ele mantem sua tendência e personalidade.\nO alvo assume os pontos de vida da sua nova forma. Quando ele reverter a sua forma normal, a criatura retorna à quantidade de pontos de vida que ela tinha antes da transformação. Se ela reverter como resultado de ter caído a 0 pontos de vida, qualquer dano excedente é recebido pela sua forma normal. Contato que o dano excedente não reduza os pontos de vida da forma normal da criatura a 0, ela não cairá inconsciente. Essa magia não pode afetar um alvo com 0 pontos de vida.\nA criatura é limitada em suas ações pela natureza da sua nova forma e ela não pode falar, conjurar magias ou realizar qualquer outra ação que precise de mãos ou de vocalização.\nO equipamento do alvo mescla-se a sua nova forma. O alvo não pode ativar, empunhar ou, de outra forma, se beneficiar de qualquer de seus equipamentos.",
-                "d": "transmutacao",
-                "e": "Concentração, até 1 hora",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S, M (um casulo de lagarta)",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "58543C399ECB451EC2EDF23AD55B0CF9"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "8F4EEA786D078C859588132DF69C9E6C",
-                "e": false,
-                "uuid": "v6b1n6rvk9gublfk58vn1097s"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Escudo de Fogo",
-                "c": "Finas e discretas chamas rodeiam seu corpo pela duração, emitindo luz plena em 3 metros de raio e penumbra por mais 3 metros adicionais. Você pode terminar a magia prematuramente usando sua ação para dissipa-la.\nAs chamas lhe conferem um escudo quente ou um escudo frio, à sua escolha. O escudo quente lhe garante resistência a dano de frio e o escudo frio lhe concede resistência a dano de fogo.\nAlém disso, sempre que uma criatura a 1,5 metro de você atingir você com um ataque corpo-a-corpo, o escudo expele chamas. O atacante sofre 2d8 de dano de fogo do escudo quente ou 2d8 de dano de frio do escudo frio.",
-                "d": "evocação",
-                "e": "10 minutos",
-                "f": "1 ação",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S, M (um pouco de fósforo ou um vaga-lume)",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "8F4EEA786D078C859588132DF69C9E6C"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "331DBABE2743DFC86996186D0887CF88",
-                "e": false,
-                "uuid": "21ui64bmmp29gqtvgmagu8an4i"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Vitalidade Falsa",
-                "c": "Reforçando-se com uma vitalidade necromântica ilusória, você ganha 1d4 + 4 pontos de vida temporários pela duração.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você ganha 5 pontos de vida temporários adicionais para cada nível do espaço de magia acima do 1°.",
-                "d": "necromância",
-                "e": "1 hora",
-                "f": "1 ação",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S, M (uma pequena quantidade de álcool ou bebidas destiladas)",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "331DBABE2743DFC86996186D0887CF88"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 1,
-                "c": "F6954977C1E2E816F81FD8057EEDFF98",
-                "e": false,
-                "uuid": "pfkgh1ealcvf7iv5ibao9i20gj"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Raio Adoecente",
-                "c": "Um raio adoecente de energia esverdeada chicoteia na direção de uma criatura dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofrerá 2d8 de dano de veneno e deve realizar um teste de resistência de Constituição. Se falhar na resistência, ele também ficará envenenado até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano da magia aumenta em 1d8 para cada nível do espaço acima do 1°.",
-                "d": "necromância",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 1,
-                "l": false,
-                "m": true,
-                "uuid": "F6954977C1E2E816F81FD8057EEDFF98"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "C252BF9E1642E6A9A013B109501A4155",
-                "e": false,
-                "uuid": "met6994n1ml434tdg7dn8qg855"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Teia",
-                "c": "Você conjura uma massa de teias espessas e pegajosas num ponto, à sua escolha, dentro do alcance. As teias preenchem um cubo de 6 metros naquele ponto, pela duração. As teias são terreno difícil e causam escuridão leve na área delas.\nSe as teias não estiverem sendo suportadas por duas massas sólidas (como duas paredes ou árvores) ou em camadas sobre um chão, parede ou teto, a teia conjurada desaba sobre si mesma e a magia termina no início do seu próximo turno. As teias em camadas sobre uma superfície plana terão 1,5 metro de profundidade.\nCada criatura que começar seu turno nas teias ou entrar nelas durante seu turno, deve realizar um teste de resistência de Destreza. Se falhar na resistência, a criatura estará impedida enquanto permanecer nas teias ou até se libertar.\nUma criatura impedida pelas teias pode usar sua ação para realizar um teste de Força contra a CD da magia. Se obtiver sucesso, ela não estará mais impedida.\nAs teias são inflamáveis. Qualquer cubo de 1,5 metro de teia exposto ao fogo, é consumida por ele em 1 rodada, causando 2d4 de dano de fogo a qualquer criatura que começar seu turno nas chamas.",
-                "d": "conjuração",
-                "e": "Concentração, até 1 hora",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S, M (um pedaço de teia de aranha)",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "C252BF9E1642E6A9A013B109501A4155"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
                 "c": "4B956A58525678C1274E045B4D5C1557",
                 "e": false,
@@ -1986,117 +1311,17 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "DA044330A7AE48496DC8764075E7BD31",
-                "e": false,
-                "uuid": "m4sdmhf5v0ps0bo8pg20snqsr6"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Rogar Maldição",
-                "c": "Você toca uma criatura e a criatura deve ser bem sucedida em um teste de resistência de Sabedoria ou será amaldiçoada pela duração da magia. Quando você conjura essa magia, escolha a natureza da maldição dentre as seguintes opções:\n - Escolha um valor de habilidade. Enquanto amaldiçoado, o alvo tem desvantagem em testes de habilidade e testes de resistência feitos com esse valor de habilidade,\n - Enquanto amaldiçoado, o alvo tem desvantagem nas jogadas de ataque contra você.\n - Enquanto amaldiçoado, o alvo deve realizar um teste de resistência de Sabedoria no começo de cada um dos turnos dela. Se ela falhar, ela perderá sua ação aquele turno, não fazendo nada.\n - Enquanto o alvo estiver amaldiçoado, seus ataques e magias causam 1d8 de dano necrótico extra a ele.\nUma magia remover maldição termina esse efeito. Com a permissão do Mestre, você pode escolher um efeito alternativo de maldição, mas ele não deve ser mais poderoso que os descritos acima. O Mestre tem a palavra final sobre o efeito de uma maldição.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível, a duração da concentração sobe para 10 minutos. Se você usar um espaço de magia de 5° ou 6° nível, a duração será de 8 horas. Se você usar um espaço de magia de 7° ou 8° nível, a duração será de 24 horas. Se você usar um espaço de magia de 9° nível, a magia dura até ser dissipada. Usar um espaço de magia de 5° nível ou superior faz com que a duração não necessite de concentração.",
-                "d": "necromância",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "DA044330A7AE48496DC8764075E7BD31"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0",
-                "e": false,
-                "uuid": "5fdfs0irsrmm7mpn1fn99ahsiq"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Malogro",
-                "c": "Energia necromântica inunda uma criatura, à sua escolha, que você possa ver dentro do alcance, drenando sua umidade e vitalidade. O alvo deve realizar um teste de resistência de Concentração. O alvo sofre 8d8 de dano necrótico se falhar no teste, ou metade desse dano se obtiver sucesso. Essa magia não surte efeito em mortosvivos ou constructos.\nSe você afetar uma criatura planta ou planta mágica, ela faz seu teste de resistência com desvantagem e a magia causa o máximo de dano a ela.\nSe você afetar uma planta não-mágica que não seja uma criatura, como uma árvore ou arbusto, ele não faz um teste de resistência; ela simplesmente seca e morre.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 4°.",
-                "d": "necromância",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "0E0F9D10C4D31E185A1E66449FC89AC9",
-                "e": false,
-                "uuid": "r1mk06gp1c78jal0d2ke1cjg9m"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Pele de Pedra",
-                "c": "Essa magia transforma a pele de uma criatura voluntária que você tocar em rocha sólida. Até a magia acabar, o alvo tem resistência a dano de concussão, cortante e perfurante não-mágico.",
-                "d": "abjuração",
-                "e": "Concentração, até 1 hora",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (pó de diamante no valor de 100 po, consumido pela magia)",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "0E0F9D10C4D31E185A1E66449FC89AC9"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "858F877B42D2E478A01E4E167C735CE4",
-                "e": true,
-                "uuid": "2d1q0ici5mmcaabhcnjeoom8vu"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Portal Dimensional",
-                "c": "Você se teletransporte da sua posição atual para qualquer local dentro do alcance. Você aparece exatamente no local desejado. Pode ser um lugar que você possa ver, um que você possa visualizar ou um que você possa descrever indicando a distância e direção, como \u201c60 metros diretamente pra baixo\u201d ou \u201c90 metros, subindo para noroeste num ângulo de 45 graus\u201d.\nVocê pode levar objetos com você, contanto que o peso deles não exceda o que você pode carregar. Você também pode levar uma criatura voluntária do seu tamanho ou menor, que esteja carregando equipamento até o limite da capacidade de carga dela. A criatura deve estar a 1,5 metro de você quando você conjurar a magia.\nSe você aparecer em um lugar que já esteja ocupado por um objeto ou uma criatura, você e qualquer criatura viajando com você, sofrem 4d6 de dano de energia cada um e a magia falha em teletransportar vocês.",
-                "d": "conjuração",
-                "e": "Instantânea",
-                "f": "1 ação",
-                "g": "150 m",
-                "h": "500 ft",
-                "i": "V",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "858F877B42D2E478A01E4E167C735CE4"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 5,
-                "c": "BD57E0AA3B23A6D6449F293C9BE9B241",
-                "e": false,
-                "uuid": "cglo021ql5rcutp4c9ovtgruat"
+                "c": "6F468FEFEF14E5DB445B2DCBE9194C5A",
+                "e": true,
+                "uuid": "hdpaa2teiujh8tru98qi99a2v4"
             },
             "b": {
                 "a": "pt",
-                "b": "Névoa Mortal",
-                "c": "Você cria uma esfera de nevoeiro venenoso de cor amarelo-esverdeado, com 6 metros de raio, centrado em um ponto, à sua escolha, dentro do alcance. O nevoeiro se espalha, dobrando esquinas. Ele permanece pela duração ou até um vento forte dispersar o nevoeiro, terminando a magia. Sua área é de escuridão densa.\nQuando uma criatura entra na área da magia pela primeira vez no turno dela ou começa seu turno lá, essa criatura deve realizar um teste de resistência de Constituição. A criatura sofre 5d8 de dano de veneno, ou metade desse dano, se passar no teste. As criaturas serão afetadas mesmo se prenderem a respiração ou não precisarem respirar.\nO nevoeiro se afasta 3 metros de você no começo de cada um dos seus turnos, deslizando pela superfície do solo. Os vapores são mais pesados que o ar, mantendo-se nos níveis mais baixos do terreno, até mesmo caindo em aberturas.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 5°.",
-                "d": "conjuração",
-                "e": "Concentração, até 10 minutos",
+                "b": "Animar Objetos",
+                "c": "Objetos ganham vida ao seu comando. Escolha até dez objetos não-mágicos dentro do alcance, que não estejam sendo vestidos ou carregados. Alvos Médios contam como dois objetos, alvos Grandes contam como quatro objetos e alvos Enormes contam como oito objetos. Você não pode animar um objeto maior que Enorme. Cada alvo se anima e torna-se uma criatura sob seu controle até o final da magia ou até ser reduzido a 0 pontos de vida. Com uma ação bônus, você pode comandar mentalmente qualquer criatura que você criar com essa magia se a criatura estiver a até 150 metros de você (se você controla várias criaturas, você pode comandar qualquer ou todas elas ao mesmo tempo, emitindo o mesmo comando para cada uma). Você decide qual ação a criatura irá fazer e para onde ela irá se mover durante o próximo turno dela, ou você pode emitir um comando geral, como para guardar uma câmara ou corredor especifico. Se você não der nenhum comando, as criaturas apenas se defenderão contra criaturas hostis. Uma vez que receba uma ordem, a criatura continuará a segui-la até a tarefa estar concluída.\nEstatísticas de objeto animado:\n(Tamanho; PV; CA; Ataque; Força; Destreza)\nMiúdo; 20; 18; +8 para atingir, 1d4 + 4 dano; 4; 18\nPequeno; 25; 16; +6 para atingir, 1d8 +  2 dano; 6; 14\nMédio; 40; 13; +5 para atingir, 2d6 + 1 dano; 10; 12\nGrande; 50; 10; +6 para atingir, 2d10 + 2 dano; 14; 10\nEnorme; 80; 10; +8 para atingir, 2d12 + 4 dano; 18; 6\nUm objeto animado é um constructo com CA, pontos de vida, ataques, Força e Destreza determinados pelo seu tamanho. Sua Constituição é 10 e sua Inteligência e Sabedoria são 3 e seu Carisma é 1. Seu deslocamento é 9 metros; se o objeto não tiver pernas ou outros apêndices que ele possa usar para locomoção, ao invés, ele terá deslocamento de voo 9 metros e poderá planar. Se o objeto estiver firmemente preso a uma superfície ou objeto maior, como uma corrente presa a uma parede, seu deslocamento será 0. Ele tem percepção às cegas num raio de 9 metros e é cego além dessa distância. Quando o objeto animado cair a 0 pontos de vida, ele reverte a sua forma normal de objeto e qualquer dano restante é transferido para sua forma de objeto original.\nSe você ordenar a um objeto que ataque, ele pode realizar um único ataque corpo-a-corpo contra uma criatura a até 1,5 metro dele. Ele realiza um ataque de pancada com um bônus de ataque e dano de concussão determinado pelo seu tamanho. O Mestre pode definir que um objeto especifico inflige dano cortante ou perfurante, baseado na forma dele.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, você pode animar dois objetos adicionais para cada nível do espaço acima do 5°.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 minuto",
                 "f": "1 ação",
                 "g": "36 m",
                 "h": "120 ft",
@@ -2105,7 +1330,7 @@
                 "k": 5,
                 "l": false,
                 "m": true,
-                "uuid": "BD57E0AA3B23A6D6449F293C9BE9B241"
+                "uuid": "6F468FEFEF14E5DB445B2DCBE9194C5A"
             }
         },
         {
@@ -2136,151 +1361,26 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 2,
-                "c": "BDD8A3901BBEC081C19287ACD43D819B",
-                "e": true,
-                "uuid": "vqfcdh6mroj4v99hdlokpop3bj"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Ver o Invisível",
-                "c": "Pela duração, você vê criaturas e objetos invisíveis como se eles fossem visíveis e você pode ver no Plano Etéreo. Criaturas e objetos etéreos parecem espectrais e translúcidos.",
-                "d": "adivinhação",
-                "e": "1 hora",
-                "f": "1 ação",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S, M (um pouco de talco e um pó de prata polvilhado)",
-                "j": false,
-                "k": 2,
-                "l": false,
-                "m": true,
-                "uuid": "BDD8A3901BBEC081C19287ACD43D819B"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 3,
-                "c": "255A48F0F9B1552F3485A5D6221F5F76",
+                "c": "C43E23AB89939917A60FBE629D9F722A",
                 "e": true,
-                "uuid": "plbifumlsr0l3fs48pnn4i3t8l"
+                "uuid": "12nds2vhl7p9k4pnif2krd6cps"
             },
             "b": {
                 "a": "pt",
-                "b": "Contramágica",
-                "c": "Você tenta interromper uma criatura no processo de conjuração de uma magia. Se a criatura estiver conjurando uma magia de 3° nível ou inferior, a magia falha e não gera nenhum efeito. Se ela estiver conjurando uma magia de 4° nível ou superior, faça um teste de habilidade usando sua habilidade de conjuração. A CD é igual a 10 + o nível da magia. Caso seja bem sucedido, a magia da criatura falha e não gera nenhum efeito.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível ou superior, a magia interrompida não vai gerar efeito se o nível dela for menor ou igual ao nível do espaço de magia que você usar.",
-                "d": "abjuração",
-                "e": "Instantânea",
-                "f": "1 reação, que você realiza quando vê uma criatura a até 18 metros conjurando uma magia",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "S",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "255A48F0F9B1552F3485A5D6221F5F76"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "4A7DB4B42B5990BB3DC166F6FB8C214C",
-                "e": true,
-                "uuid": "8i93mfl8cmavb2i47em2sanr8e"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Voo",
-                "c": "Você toca uma criatura voluntária. O alvo ganha deslocamento de voo de 18 metros, pela duração. Quando a magia acabar, o alvo cai se ainda estiver no ar, a não ser que ele possa impedir a queda.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 3°.",
-                "d": "transmutacao",
-                "e": "Concentração, até 10 minutos",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (uma pena da asa de qualquer pássaro)",
-                "j": false,
-                "k": 3,
-                "l": false,
-                "m": true,
-                "uuid": "4A7DB4B42B5990BB3DC166F6FB8C214C"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "A714A244DFA359002EBDE008C4EC83FA",
-                "e": false,
-                "uuid": "c5c29v9uqgd0s36s56tvliqf6n"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Invisibilidade Maior",
-                "c": "Você ou uma criatura que você possa tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo estiver vestindo ou carregando fica invisível enquanto estiver de posse do alvo.",
-                "d": "ilusão",
-                "e": "Concentração, até 1 minuto",
-                "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S",
-                "j": false,
-                "k": 4,
-                "l": false,
-                "m": true,
-                "uuid": "A714A244DFA359002EBDE008C4EC83FA"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "1DF022F668AC4EBD5746EDE45B6FA67E",
-                "e": false,
-                "uuid": "d8jspcvkafc0h70s913afarknf"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Tempestade de Gelo",
-                "c": "Uma rajada de pedras de gelo batem no chão em um cilindro de 6 metros de raio por 12 metros de altura, centrado num ponto dentro do alcance. Cada criatura no cilindro deve realizar um teste de resistência de Destreza. Uma criatura sofre 2d8 de dano de concussão e 4d6 de dano de frio se falhar na resistência ou metade desse dano se obtiver sucesso.\nO granizo torna a área da tempestade em terreno difícil até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano de concussão aumenta em 1d8 para cada nível do espaço acima do 4°.",
+                "b": "Bola de Fogo",
+                "c": "Um veio brilhante lampeja na ponta do seu dedo em direção a um ponto que você escolher, dentro do alcance, e então eclode com um estampido baixo, explodindo em chamas. Cada criatura em uma esfera de 6 metros de raio, centrada no ponto, deve realizar um teste de resistência de Destreza. Um alvo sofre 8d6 de dano de fogo se falhar na resistência, ou metade desse dano se obtiver sucesso.\nO fogo se espalha, dobrando esquinas. Ele incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
                 "d": "evocação",
                 "e": "Instantânea",
                 "f": "1 ação",
-                "g": "90 m",
-                "h": "300 ft",
-                "i": "V, S, M (um pouco de poeira e algumas gotas de água)",
+                "g": "45 m",
+                "h": "150 ft",
+                "i": "V, S, M (uma minúscula bola de guano de morcego e enxofre)",
                 "j": false,
-                "k": 4,
+                "k": 3,
                 "l": false,
                 "m": true,
-                "uuid": "1DF022F668AC4EBD5746EDE45B6FA67E"
-            }
-        },
-        {
-            "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 5,
-                "c": "52156B71A5EBC86E9B505D25B7B451E9",
-                "e": false,
-                "uuid": "31fu18fribg9viudvm70odr9j0"
-            },
-            "b": {
-                "a": "pt",
-                "b": "Telecinésia",
-                "c": "Você adquire a habilidade de mover ou manipular criaturas ou objetos através do pensamento. Quando você conjura a magia e, com sua ação a cada turno, pela duração, você pode exercer sua vontade sobre uma criatura ou objeto que você possa ver, dentro do alcance, causando os efeitos apropriados abaixo. Você pode afetar o mesmo alvo rodada após rodada, ou escolher um novo a qualquer momento. Se você mudar de alvos, o alvo anterior não será mais afetado pela magia.\n - Criatura. Você pode tentar mover uma criatura Enorme ou menor. Faça um teste de habilidade com sua habilidade de conjuração resistido por um teste Força da criatura. Se você vencer a disputa, você move a criatura até 9 metros em qualquer direção, incluindo para cima, mas não além do alcance da magia. Até o final do seu próximo turno, a criatura estará impedida pelo seu agarrão telecinético. Uma criatura erguida para cima estará suspensa no ar.\nEm rodadas subsequente, você pode usar sua ação para tentar manter seu agarrão telecinético na criatura repetindo o teste resistido.\n - Objeto. Você pode tentar mover um objeto pesando até 500 quilos. Se o objeto não estiver sendo vestido ou carregado, você o move, automaticamente, até 9 metros em qualquer direção, mas não além do alcance dessa magia.\nSe o objeto estiver sendo vestido ou carregado por uma criatura, você deve realizar um teste de habilidade com sua habilidade de conjuração resistido por um teste de Força da criatura. Se você for bem sucedido, você arranca o objeto da criatura e o move até 9 metros, em qualquer direção, mas não além do alcance dessa magia.\nVocê pode exercer um controle refinado sobre os objetos com seu agarrão telecinético, como manipular ferramentas simples, abrir uma porta ou um recipiente, guardar ou recuperar um item de um recipiente aberto ou derramar o conteúdo de um frasco.",
-                "d": "transmutacao",
-                "e": "Concentração, até 10 minutos",
-                "f": "1 ação",
-                "g": "18 m",
-                "h": "60 ft",
-                "i": "V, S",
-                "j": false,
-                "k": 5,
-                "l": false,
-                "m": true,
-                "uuid": "52156B71A5EBC86E9B505D25B7B451E9"
+                "uuid": "C43E23AB89939917A60FBE629D9F722A"
             }
         },
         {
@@ -2361,26 +1461,151 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 4,
-                "c": "CBB2158346C8942675F2793BD065E407",
-                "e": false,
-                "uuid": "9g3hkt8auvnv3i7tdamfbu2k13"
+                "b": 3,
+                "c": "255A48F0F9B1552F3485A5D6221F5F76",
+                "e": true,
+                "uuid": "plbifumlsr0l3fs48pnn4i3t8l"
             },
             "b": {
                 "a": "pt",
-                "b": "Moldar Rochas",
-                "c": "Você toca um objeto de pedra de tamanho Médio ou menor, ou uma seção de rocha com não mais de 1,5 metro em qualquer dimensão e modela-a em qualquer forma que sirva aos seus propósitos. Então, por exemplo, você poderia modelar uma pedra grande em uma arma, ídolo ou caixão, ou fazer uma pequena passagem através de um muro, contanto que o muro não tenha mais de 1,5 metro de espessura. Você poderia, também, modelar uma porta de pedra ou sua moldura para selar a porta. O objeto que você cria pode ter até duas dobradiças e um trinco, mas detalhes mecânicos mais complexos não são possíveis.",
-                "d": "transmutacao",
+                "b": "Contramágica",
+                "c": "Você tenta interromper uma criatura no processo de conjuração de uma magia. Se a criatura estiver conjurando uma magia de 3° nível ou inferior, a magia falha e não gera nenhum efeito. Se ela estiver conjurando uma magia de 4° nível ou superior, faça um teste de habilidade usando sua habilidade de conjuração. A CD é igual a 10 + o nível da magia. Caso seja bem sucedido, a magia da criatura falha e não gera nenhum efeito.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível ou superior, a magia interrompida não vai gerar efeito se o nível dela for menor ou igual ao nível do espaço de magia que você usar.",
+                "d": "abjuração",
                 "e": "Instantânea",
+                "f": "1 reação, que você realiza quando vê uma criatura a até 18 metros conjurando uma magia",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "255A48F0F9B1552F3485A5D6221F5F76"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "CAC28CFC119D235DA93800FA652CB0D3",
+                "e": true,
+                "uuid": "6hervr8l12kjjan7jb68gtp7e1"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Convocar Familiar",
+                "c": "Você adquire os serviços de uma familiar, um espírito que toma a forma de um animal, à sua escolha: aranha, caranguejo, cavalo marinho, coruja, corvo, doninha, gato, falcão, lagarto, morcego, peixe (arenque), polvo, rato, rã (sapo) ou serpente venenosa. Aparecendo em um espaço desocupado dentro do alcance, o familiar tem as mesmas estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés de uma besta.\nSeu familiar até independentemente de você, mas ele sempre obedece aos seus comandos. Em combate, ele rola sua a própria iniciativa e age no seu próprio turno. Um familiar não pode atacar, mas ele pode realizar outras ações, como de costume.\nQuando um familiar cai a 0 pontos de vida, ele desaparece, não deixando qualquer corpo físico para trás. Ele reaparece depois de você conjurar essa magia novamente.\nEnquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, com uma ação, você pode ver através dos olhos do familiar e ouvir através dos ouvidos dele, até o início do seu próximo turno, adquirindo os benefícios de qualquer sentido especial que o familiar possua. Durante esse período, você estará cego e surdo em relação aos seus próprios sentidos.\nCom uma ação, você pode, temporariamente, dispensar seu familiar. Ele desaparece dentro de uma bolsa dimensional onde ele aguarda sua convocação. Alternativamente, você pode dispensa-lo para sempre. Com uma ação, enquanto ele estiver temporariamente dispensado, você pode fazê-lo reaparecer em qualquer espaço desocupado a até 9 metros de você.\nVocê não pode ter mais de um familiar por vez. Se você conjurar essa magia enquanto já tiver um familiar, ao invés disso, você faz seu familiar existente adotar uma nova forma. Escolha uma das formas da lista acima. Seu familiar se transforma na criatura escolhida.\nFinalmente, quando você conjura uma magia com alcance de toque, seu familiar pode transmitir a magia, como se ele tivesse conjurado ela. Seu familiar precisa estar a até 30 metros de você e deve usar a reação dele para transmitir a magia quando você a conjurar. Se a magia necessitar de uma jogada de ataque, você usa seu modificador de ataque para essa jogada.",
+                "d": "conjuração",
+                "e": "Instantânea",
+                "f": "1 hora",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S, M (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
+                "j": false,
+                "k": 1,
+                "l": true,
+                "m": true,
+                "uuid": "CAC28CFC119D235DA93800FA652CB0D3"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "E2060061E984FF6943C53A18A758ADFB",
+                "e": false,
+                "uuid": "crk7iifkbeigrsdu7i6518s7ao"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Coroa da Loucura",
+                "c": "Um humanoide, à sua escolha, que você possa ver dentro do alcance, deve ser bem sucedido num teste de resistência de Sabedoria ou ficará enfeitiçado por você pela duração. Enquanto o alvo estiver enfeitiçado dessa forma, uma coroa retorcida de ferro denteado aparece na cabeça dele e a loucura brilha em seus olhos.\nA criatura enfeitiçada deve usar sua ação antes de se mover, em cada um dos turnos dela, para realizar um ataque corpo-a-corpo contra uma criatura, diferente de si mesma, que você escolher mentalmente.\nO alvo pode agir normalmente no turno dele se você não escolher uma criatura ou se você não estiver dentro do alcance.\nNos seus turnos subsequentes, você deve usar sua ação para manter o controle sobre o alvo, ou a magia termina. Igualmente, o alvo pode realizar um teste de resistência de Sabedoria no final de cada um dos turnos dele. Se obtiver sucesso, a magia termina.",
+                "d": "encantamento",
+                "e": "Concentração, até 1 minuto",
                 "f": "1 ação",
-                "g": "Toque",
-                "h": "Toque",
-                "i": "V, S, M (barro mole, que deve ser trabalhado aproximadamente com a forma desejada para o objeto de pedra)",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "E2060061E984FF6943C53A18A758ADFB"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "B67E49FD76E981E0F19FBE457D7D4D15",
+                "e": false,
+                "uuid": "4a897cmfnog802v3rtmrsihqe9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Enfeitiçar Pessoa",
+                "c": "Você tenta enfeitiçar um humanoide que você possa ver dentro do alcance. Ele deve realizar um teste de resistência de Sabedoria, e recebe vantagem nesse teste se você ou seus companheiros estiverem lutando com ele. Se ele falhar, ficará enfeitiçado por você até a magia acabar ou até você ou seus companheiros fizerem qualquer coisa nociva contra ele. A criatura enfeitiçada reconhece você como um conhecido amigável. Quando a magia acabar, a criatura saberá que foi enfeitiçada por você.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 2° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 1°. As criaturas devem estar a até 9 metros umas das outras quando você for afeta-las.",
+                "d": "encantamento",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "B67E49FD76E981E0F19FBE457D7D4D15"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "99B6CF62F2751F957EC1C373C3358934",
+                "e": true,
+                "uuid": "bekk9b5jkjq22p9ei0qfrdngue"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Escudo Arcano",
+                "c": "Uma barreira de energia invisível aparece e protege você. Até o início do seu próximo turno, você recebe +5 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dano de mísseis mágicos.",
+                "d": "abjuração",
+                "e": "1 rodada",
+                "f": "1 reação, que você faz quando é atingido por um ataque ou alvo da magia mísseis mágicos",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "99B6CF62F2751F957EC1C373C3358934"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "8F4EEA786D078C859588132DF69C9E6C",
+                "e": false,
+                "uuid": "v6b1n6rvk9gublfk58vn1097s"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Escudo de Fogo",
+                "c": "Finas e discretas chamas rodeiam seu corpo pela duração, emitindo luz plena em 3 metros de raio e penumbra por mais 3 metros adicionais. Você pode terminar a magia prematuramente usando sua ação para dissipa-la.\nAs chamas lhe conferem um escudo quente ou um escudo frio, à sua escolha. O escudo quente lhe garante resistência a dano de frio e o escudo frio lhe concede resistência a dano de fogo.\nAlém disso, sempre que uma criatura a 1,5 metro de você atingir você com um ataque corpo-a-corpo, o escudo expele chamas. O atacante sofre 2d8 de dano de fogo do escudo quente ou 2d8 de dano de frio do escudo frio.",
+                "d": "evocação",
+                "e": "10 minutos",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (um pouco de fósforo ou um vaga-lume)",
                 "j": false,
                 "k": 4,
                 "l": false,
                 "m": true,
-                "uuid": "CBB2158346C8942675F2793BD065E407"
+                "uuid": "8F4EEA786D078C859588132DF69C9E6C"
             }
         },
         {
@@ -2411,51 +1636,76 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 5,
-                "c": "6F468FEFEF14E5DB445B2DCBE9194C5A",
-                "e": true,
-                "uuid": "hdpaa2teiujh8tru98qi99a2v4"
+                "b": 0,
+                "c": "BD61C436903DB2D0A88FE7342E515113",
+                "e": false,
+                "uuid": "ncvqut54cpfm0nkn0jlre7f7al"
             },
             "b": {
                 "a": "pt",
-                "b": "Animar Objetos",
-                "c": "Objetos ganham vida ao seu comando. Escolha até dez objetos não-mágicos dentro do alcance, que não estejam sendo vestidos ou carregados. Alvos Médios contam como dois objetos, alvos Grandes contam como quatro objetos e alvos Enormes contam como oito objetos. Você não pode animar um objeto maior que Enorme. Cada alvo se anima e torna-se uma criatura sob seu controle até o final da magia ou até ser reduzido a 0 pontos de vida. Com uma ação bônus, você pode comandar mentalmente qualquer criatura que você criar com essa magia se a criatura estiver a até 150 metros de você (se você controla várias criaturas, você pode comandar qualquer ou todas elas ao mesmo tempo, emitindo o mesmo comando para cada uma). Você decide qual ação a criatura irá fazer e para onde ela irá se mover durante o próximo turno dela, ou você pode emitir um comando geral, como para guardar uma câmara ou corredor especifico. Se você não der nenhum comando, as criaturas apenas se defenderão contra criaturas hostis. Uma vez que receba uma ordem, a criatura continuará a segui-la até a tarefa estar concluída.\nEstatísticas de objeto animado:\n(Tamanho; PV; CA; Ataque; Força; Destreza)\nMiúdo; 20; 18; +8 para atingir, 1d4 + 4 dano; 4; 18\nPequeno; 25; 16; +6 para atingir, 1d8 +  2 dano; 6; 14\nMédio; 40; 13; +5 para atingir, 2d6 + 1 dano; 10; 12\nGrande; 50; 10; +6 para atingir, 2d10 + 2 dano; 14; 10\nEnorme; 80; 10; +8 para atingir, 2d12 + 4 dano; 18; 6\nUm objeto animado é um constructo com CA, pontos de vida, ataques, Força e Destreza determinados pelo seu tamanho. Sua Constituição é 10 e sua Inteligência e Sabedoria são 3 e seu Carisma é 1. Seu deslocamento é 9 metros; se o objeto não tiver pernas ou outros apêndices que ele possa usar para locomoção, ao invés, ele terá deslocamento de voo 9 metros e poderá planar. Se o objeto estiver firmemente preso a uma superfície ou objeto maior, como uma corrente presa a uma parede, seu deslocamento será 0. Ele tem percepção às cegas num raio de 9 metros e é cego além dessa distância. Quando o objeto animado cair a 0 pontos de vida, ele reverte a sua forma normal de objeto e qualquer dano restante é transferido para sua forma de objeto original.\nSe você ordenar a um objeto que ataque, ele pode realizar um único ataque corpo-a-corpo contra uma criatura a até 1,5 metro dele. Ele realiza um ataque de pancada com um bônus de ataque e dano de concussão determinado pelo seu tamanho. O Mestre pode definir que um objeto especifico inflige dano cortante ou perfurante, baseado na forma dele.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, você pode animar dois objetos adicionais para cada nível do espaço acima do 5°.",
-                "d": "transmutacao",
+                "b": "Globo de Luz",
+                "c": "Você cria até quatro luzes do tamanho de tochas dentro do alcance, fazendo-as parecerem tochas, lanternas ou esferas luminosas que flutuam no ar pela duração. Você também pode combinar as quatro luzes em uma forma luminosa, vagamente humanoide, de tamanho Médio. Qualquer que seja a forma que você escolher, cada luz produz penumbra num raio de 3 metros.\nCom uma ação bônus, no seu turno, você pode mover as luzes, até 18 metros, para um novo local dentro do alcance. Uma luz deve estar a, pelo menos, 6 metros de outra luz criada por essa magia e uma luz some se exceder o alcance da magia.",
+                "d": "evocação",
                 "e": "Concentração, até 1 minuto",
                 "f": "1 ação",
                 "g": "36 m",
                 "h": "120 ft",
-                "i": "V, S",
+                "i": "V, S, M (um pouco de fósforo ou wychwood ou um inseto luminoso)",
                 "j": false,
-                "k": 5,
+                "k": 0,
                 "l": false,
                 "m": true,
-                "uuid": "6F468FEFEF14E5DB445B2DCBE9194C5A"
+                "uuid": "BD61C436903DB2D0A88FE7342E515113"
             }
         },
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 1,
-                "c": "757E6192C5AF46C7A0E418B80EAC219A",
+                "c": "F935B6AC0B092A569C4281B565F94EDD",
                 "e": false,
-                "uuid": "srvr9va9dh5miu7o1utkcp4619"
+                "uuid": "dfj9nr3aoo8vt1gq8ljhmateap"
             },
             "b": {
                 "a": "pt",
-                "b": "Recuo Acelerado",
-                "c": "Essa magia permite que você se mova a um ritmo incrível. Quando você conjura essa magia e, a partir de então, com uma ação bônus em cada um dos seus turnos, até a magia acabar, você pode realizar a ação de Disparada.",
-                "d": "transmutacao",
-                "e": "Concentração, até 10 minutos",
-                "f": "1 ação bônus",
-                "g": "Pessoal",
-                "h": "Pessoal",
-                "i": "V, S",
+                "b": "Identificação",
+                "c": "Você escolhe um objeto que você deve tocar durante toda a conjuração da magia. Se ele for um item mágico ou algum outro objeto imbuído por magia, você descobre suas propriedades e como usá-lo, se exige sintonia para ser usado e quantas cargas ele tem, se aplicável. Você descobre se quaisquer magias estão afetando o item e quais eles são. Se o item foi criado por magia, você descobre que magia o criou.\nSe você, ao invés, tocar uma criatura durante toda a conjuração, você descobre quais magias, se houver alguma, estão afetando-a atualmente.",
+                "d": "adivinhação",
+                "e": "Instantânea",
+                "f": "1 minuto",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
                 "j": false,
                 "k": 1,
+                "l": true,
+                "m": true,
+                "uuid": "F935B6AC0B092A569C4281B565F94EDD"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "A714A244DFA359002EBDE008C4EC83FA",
+                "e": false,
+                "uuid": "c5c29v9uqgd0s36s56tvliqf6n"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Invisibilidade Maior",
+                "c": "Você ou uma criatura que você possa tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo estiver vestindo ou carregando fica invisível enquanto estiver de posse do alvo.",
+                "d": "ilusão",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 4,
                 "l": false,
                 "m": true,
-                "uuid": "757E6192C5AF46C7A0E418B80EAC219A"
+                "uuid": "A714A244DFA359002EBDE008C4EC83FA"
             }
         },
         {
@@ -2486,26 +1736,101 @@
         {
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 3,
-                "c": "6DB339EAD8174025888918059F1D0272",
+                "b": 4,
+                "c": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0",
                 "e": false,
-                "uuid": "cpo9sumtckor23r67fl8rk30eg"
+                "uuid": "5fdfs0irsrmm7mpn1fn99ahsiq"
             },
             "b": {
                 "a": "pt",
-                "b": "Velocidade",
-                "c": "Escolha uma criatura voluntária que você possa ver, dentro do alcance. Até a magia acabar, o deslocamento do alvo é dobrado, ele ganha +2 de bônus na CA, ele tem vantagem em testes de resistência de Destreza e ganha uma ação adicional em cada um dos turnos dele. A ação pode ser usada apenas para realizar as ações de Atacar (um ataque com arma, apenas), Disparada, Desengajar, Esconder ou Usar um Objeto.\nQuando a magia acabar, o alvo não poderá se mover ou realizar ações até depois do seu próximo turno, à medida que uma onda de letargia toma conta dele.",
-                "d": "transmutacao",
-                "e": "Concentração, até 1 minuto",
+                "b": "Malogro",
+                "c": "Energia necromântica inunda uma criatura, à sua escolha, que você possa ver dentro do alcance, drenando sua umidade e vitalidade. O alvo deve realizar um teste de resistência de Concentração. O alvo sofre 8d8 de dano necrótico se falhar no teste, ou metade desse dano se obtiver sucesso. Essa magia não surte efeito em mortosvivos ou constructos.\nSe você afetar uma criatura planta ou planta mágica, ela faz seu teste de resistência com desvantagem e a magia causa o máximo de dano a ela.\nSe você afetar uma planta não-mágica que não seja uma criatura, como uma árvore ou arbusto, ele não faz um teste de resistência; ela simplesmente seca e morre.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 4°.",
+                "d": "necromância",
+                "e": "Instantânea",
                 "f": "1 ação",
                 "g": "18 m",
                 "h": "60 ft",
-                "i": "V, S, M (uma raspa de raiz de alcaçuz)",
+                "i": "V, S",
                 "j": false,
-                "k": 3,
+                "k": 4,
                 "l": false,
                 "m": true,
-                "uuid": "6DB339EAD8174025888918059F1D0272"
+                "uuid": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "AB2231901D098F68EFEAC636A9814AED",
+                "e": false,
+                "uuid": "3u02a6ploeckv4d9puhcfr1k6e"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Mão de Bigby",
+                "c": "Você cria uma mão Grande de energia cintilante e translucida em um espaço desocupado que você possa ver dentro do alcance. A mão permanece pela duração da magia e ela se move ao seu comando, imitando os movimentos da sua própria mão.\nA mão é um objeto com CA 20 e pontos de vida igual ao seu máximo de pontos de vida. Se ela cair a 0 pontos de vida, a magia termina. Ela tem Força 26 (+8) e Destreza 10 (+0). A mão não preenche o espaço dela.\nQuando você conjura essa magia você pode, com uma ação bônus, nos seus turnos subsequentes, mover a mão até 18 metros e então causar um dos seguintes efeitos com ela.\n - Mão Esmagadora. A mão tenta agarrar uma criatura Enorme ou menor a 1,5 metro dela. Você usa o valor de Força da mão para determinar o agarrão. Se o alvo for Médio ou menor, você terá vantagem no teste. Enquanto a mão estiver agarrando o alvo, você pode usar uma ação bônus para fazer a mão esmaga-lo. Quando o fizer, o alvo sofre dano de concussão igual a 2d6 + seu modificador de habilidade de conjuração.\n - Mão Interposta. A mão se interpõem entre você e uma criatura a sua escolha até você lhe dar um comando diferente. A mão se move para ficar entre você e o alvo, concedendo a você meia-cobertura contra o alvo. O alvo não pode se mover através do espaço da mão se o valor de Força dele for menor ou igual ao valor de Força da mão. Se o valor de Força dele for maior que o valor de Força da mão, o alvo pode se mover até você através do espaço da mão, mas aquele espaço será considerado terreno difícil para o alvo.\n - Mão Poderosa. A mão tenta empurrar uma criatura a 1,5 metro dela em uma direção a sua escolha. Realize um teste com a Força da mão, resistido por um teste de Força (Atletismo) do alvo. Se o alvo for Médio ou menor, você tem vantagem no teste. Se você for bem sucedido, a mão empurra o alvo até 1,5 metro mais uma quantidade de metros igual ao modificador da sua habilidade de conjuração multiplicado por 1,5. A mão se move com o alvo, permanecendo a 1,5 metro dele.\n - Punho Cerrado. A mão golpeia uma criatura ou objeto a 1,5 metro dela. Realize uma jogada de ataque corpo-a-corpo com magia para a mão usando suas estatísticas de jogo. Se atingir, o alvo sofre 4d8 de dano de energia.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano da opção punho cerrado aumenta em 2d8 e o dano da mão esmagadora aumenta em 2d6 para cada nível do espaço acima do 5°.",
+                "d": "evocação",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S, M (uma casca de ovo e uma luva de couro de cobra)",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "AB2231901D098F68EFEAC636A9814AED"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "58543C399ECB451EC2EDF23AD55B0CF9",
+                "e": false,
+                "uuid": "93al4h1brkgjfr09l4ojo810th"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Metamorfose",
+                "c": "Essa magia transforma uma criatura que você possa ver, dentro do alcance, em uma nova forma. Uma criatura involuntária deve realizar um teste de resistência de Sabedoria para evitar o efeito. Um metamorfo obtém sucesso automaticamente nesse teste de resistência.\nA transformação permanece pela duração, ou até o alvo cair a 0 pontos de vida ou morrer. A nova forma pode ser qualquer besta a qual o nível de desafio seja igual ou menor que o do alvo (ou o nível do alvo, se ele não possuir um nível de desafio). As estatísticas de jogo do alvo, incluindo seus valores de habilidades mentais, são substituídas pelas estatísticas da besta escolhida. Ele mantem sua tendência e personalidade.\nO alvo assume os pontos de vida da sua nova forma. Quando ele reverter a sua forma normal, a criatura retorna à quantidade de pontos de vida que ela tinha antes da transformação. Se ela reverter como resultado de ter caído a 0 pontos de vida, qualquer dano excedente é recebido pela sua forma normal. Contato que o dano excedente não reduza os pontos de vida da forma normal da criatura a 0, ela não cairá inconsciente. Essa magia não pode afetar um alvo com 0 pontos de vida.\nA criatura é limitada em suas ações pela natureza da sua nova forma e ela não pode falar, conjurar magias ou realizar qualquer outra ação que precise de mãos ou de vocalização.\nO equipamento do alvo mescla-se a sua nova forma. O alvo não pode ativar, empunhar ou, de outra forma, se beneficiar de qualquer de seus equipamentos.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (um casulo de lagarta)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "58543C399ECB451EC2EDF23AD55B0CF9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "CBB2158346C8942675F2793BD065E407",
+                "e": false,
+                "uuid": "9g3hkt8auvnv3i7tdamfbu2k13"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Moldar Rochas",
+                "c": "Você toca um objeto de pedra de tamanho Médio ou menor, ou uma seção de rocha com não mais de 1,5 metro em qualquer dimensão e modela-a em qualquer forma que sirva aos seus propósitos. Então, por exemplo, você poderia modelar uma pedra grande em uma arma, ídolo ou caixão, ou fazer uma pequena passagem através de um muro, contanto que o muro não tenha mais de 1,5 metro de espessura. Você poderia, também, modelar uma porta de pedra ou sua moldura para selar a porta. O objeto que você cria pode ter até duas dobradiças e um trinco, mas detalhes mecânicos mais complexos não são possíveis.",
+                "d": "transmutacao",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (barro mole, que deve ser trabalhado aproximadamente com a forma desejada para o objeto de pedra)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "CBB2158346C8942675F2793BD065E407"
             }
         },
         {
@@ -2537,25 +1862,675 @@
             "a": {
                 "a": "btgln1ldr4mbderngsfenvddqq",
                 "b": 5,
-                "c": "AB2231901D098F68EFEAC636A9814AED",
+                "c": "BD57E0AA3B23A6D6449F293C9BE9B241",
                 "e": false,
-                "uuid": "3u02a6ploeckv4d9puhcfr1k6e"
+                "uuid": "cglo021ql5rcutp4c9ovtgruat"
             },
             "b": {
                 "a": "pt",
-                "b": "Mão de Bigby",
-                "c": "Você cria uma mão Grande de energia cintilante e translucida em um espaço desocupado que você possa ver dentro do alcance. A mão permanece pela duração da magia e ela se move ao seu comando, imitando os movimentos da sua própria mão.\nA mão é um objeto com CA 20 e pontos de vida igual ao seu máximo de pontos de vida. Se ela cair a 0 pontos de vida, a magia termina. Ela tem Força 26 (+8) e Destreza 10 (+0). A mão não preenche o espaço dela.\nQuando você conjura essa magia você pode, com uma ação bônus, nos seus turnos subsequentes, mover a mão até 18 metros e então causar um dos seguintes efeitos com ela.\n - Mão Esmagadora. A mão tenta agarrar uma criatura Enorme ou menor a 1,5 metro dela. Você usa o valor de Força da mão para determinar o agarrão. Se o alvo for Médio ou menor, você terá vantagem no teste. Enquanto a mão estiver agarrando o alvo, você pode usar uma ação bônus para fazer a mão esmaga-lo. Quando o fizer, o alvo sofre dano de concussão igual a 2d6 + seu modificador de habilidade de conjuração.\n - Mão Interposta. A mão se interpõem entre você e uma criatura a sua escolha até você lhe dar um comando diferente. A mão se move para ficar entre você e o alvo, concedendo a você meia-cobertura contra o alvo. O alvo não pode se mover através do espaço da mão se o valor de Força dele for menor ou igual ao valor de Força da mão. Se o valor de Força dele for maior que o valor de Força da mão, o alvo pode se mover até você através do espaço da mão, mas aquele espaço será considerado terreno difícil para o alvo.\n - Mão Poderosa. A mão tenta empurrar uma criatura a 1,5 metro dela em uma direção a sua escolha. Realize um teste com a Força da mão, resistido por um teste de Força (Atletismo) do alvo. Se o alvo for Médio ou menor, você tem vantagem no teste. Se você for bem sucedido, a mão empurra o alvo até 1,5 metro mais uma quantidade de metros igual ao modificador da sua habilidade de conjuração multiplicado por 1,5. A mão se move com o alvo, permanecendo a 1,5 metro dele.\n - Punho Cerrado. A mão golpeia uma criatura ou objeto a 1,5 metro dela. Realize uma jogada de ataque corpo-a-corpo com magia para a mão usando suas estatísticas de jogo. Se atingir, o alvo sofre 4d8 de dano de energia.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano da opção punho cerrado aumenta em 2d8 e o dano da mão esmagadora aumenta em 2d6 para cada nível do espaço acima do 5°.",
-                "d": "evocação",
-                "e": "Concentração, até 1 minuto",
+                "b": "Névoa Mortal",
+                "c": "Você cria uma esfera de nevoeiro venenoso de cor amarelo-esverdeado, com 6 metros de raio, centrado em um ponto, à sua escolha, dentro do alcance. O nevoeiro se espalha, dobrando esquinas. Ele permanece pela duração ou até um vento forte dispersar o nevoeiro, terminando a magia. Sua área é de escuridão densa.\nQuando uma criatura entra na área da magia pela primeira vez no turno dela ou começa seu turno lá, essa criatura deve realizar um teste de resistência de Constituição. A criatura sofre 5d8 de dano de veneno, ou metade desse dano, se passar no teste. As criaturas serão afetadas mesmo se prenderem a respiração ou não precisarem respirar.\nO nevoeiro se afasta 3 metros de você no começo de cada um dos seus turnos, deslizando pela superfície do solo. Os vapores são mais pesados que o ar, mantendo-se nos níveis mais baixos do terreno, até mesmo caindo em aberturas.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 6° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 5°.",
+                "d": "conjuração",
+                "e": "Concentração, até 10 minutos",
                 "f": "1 ação",
                 "g": "36 m",
                 "h": "120 ft",
-                "i": "V, S, M (uma casca de ovo e uma luva de couro de cobra)",
+                "i": "V, S",
                 "j": false,
                 "k": 5,
                 "l": false,
                 "m": true,
-                "uuid": "AB2231901D098F68EFEAC636A9814AED"
+                "uuid": "BD57E0AA3B23A6D6449F293C9BE9B241"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "42C625650D6653D9748ABA72B44CDFB3",
+                "e": true,
+                "uuid": "5d4n82hhe58okq5hl74jdav2pc"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Orbe Cromática",
+                "c": "Você arremessa uma esfera de energia de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você escolhe ácido, frio, fogo, elétrico, veneno ou trovejante para o tipo de orbe que você cria e, então, realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano do tipo escolhido.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 1°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "27 m",
+                "h": "90 ft",
+                "i": "V, S, M (um diamante valendo, no mínimo, 50 po)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "42C625650D6653D9748ABA72B44CDFB3"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "0E0F9D10C4D31E185A1E66449FC89AC9",
+                "e": false,
+                "uuid": "r1mk06gp1c78jal0d2ke1cjg9m"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Pele de Pedra",
+                "c": "Essa magia transforma a pele de uma criatura voluntária que você tocar em rocha sólida. Até a magia acabar, o alvo tem resistência a dano de concussão, cortante e perfurante não-mágico.",
+                "d": "abjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (pó de diamante no valor de 100 po, consumido pela magia)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "0E0F9D10C4D31E185A1E66449FC89AC9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "858F877B42D2E478A01E4E167C735CE4",
+                "e": true,
+                "uuid": "2d1q0ici5mmcaabhcnjeoom8vu"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Portal Dimensional",
+                "c": "Você se teletransporte da sua posição atual para qualquer local dentro do alcance. Você aparece exatamente no local desejado. Pode ser um lugar que você possa ver, um que você possa visualizar ou um que você possa descrever indicando a distância e direção, como \u201c60 metros diretamente pra baixo\u201d ou \u201c90 metros, subindo para noroeste num ângulo de 45 graus\u201d.\nVocê pode levar objetos com você, contanto que o peso deles não exceda o que você pode carregar. Você também pode levar uma criatura voluntária do seu tamanho ou menor, que esteja carregando equipamento até o limite da capacidade de carga dela. A criatura deve estar a 1,5 metro de você quando você conjurar a magia.\nSe você aparecer em um lugar que já esteja ocupado por um objeto ou uma criatura, você e qualquer criatura viajando com você, sofrem 4d6 de dano de energia cada um e a magia falha em teletransportar vocês.",
+                "d": "conjuração",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "150 m",
+                "h": "500 ft",
+                "i": "V",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "858F877B42D2E478A01E4E167C735CE4"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "54D40A660E8CA318F0545739C66EC03C",
+                "e": false,
+                "uuid": "occopiap6q9kptohsmppj8qtdt"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Prestidigicação",
+                "c": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance: ? Você cria, instantaneamente, um efeito sensorial inofensivo, como uma chuva de faíscas, um sopro de vento, notas musicais suaves ou um odor estranho.\n - Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n - Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico.\n - Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria inorgânica por 1 hora.\n - Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície por 1 hora.\n - Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\nSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
+                "d": "transmutacao",
+                "e": "Até 1 hora",
+                "f": "1 ação",
+                "g": "3 m",
+                "h": "10 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "54D40A660E8CA318F0545739C66EC03C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "C12A37A65BBBFF61177E159FC5A449C1",
+                "e": true,
+                "uuid": "ps6018a1qka9s8pruj3ncfbgjv"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Proteção Contra a Energia",
+                "c": "Pela duração, a criatura voluntária que você tocar terá resistência a um tipo de dano de sua escolha: ácido, elétrico, fogo, frio ou trovejante.",
+                "d": "abjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "C12A37A65BBBFF61177E159FC5A449C1"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "27B82C2A97E3CBCFE37303322836000B",
+                "e": false,
+                "uuid": "2theehpn267j9hvi6ra7n2cqd9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Proteção Contra o Bem e o Mal",
+                "c": "Até a magia acabar, uma criatura voluntária que você tocar estará protegida contra certos tipos de criaturas: aberrações, celestiais, corruptores, elementais, fadas e mortos-vivos.\nA proteção garante diversos benefícios. As criaturas desse tipo tem desvantagem nas jogadas de ataque contra o alvo. O alvo não pode ser enfeitiçado, amedrontado ou possuído por elas. Se o alvo já estiver enfeitiçado, amedrontado ou possuído por uma dessas criaturas, o alvo terá vantagem em qualquer novo teste de resistência contra o efeito relevante.",
+                "d": "abjuração",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (água benta ou pó de prata e ferro, consumidos pela magia)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "27B82C2A97E3CBCFE37303322836000B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "F6954977C1E2E816F81FD8057EEDFF98",
+                "e": false,
+                "uuid": "pfkgh1ealcvf7iv5ibao9i20gj"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio Adoecente",
+                "c": "Um raio adoecente de energia esverdeada chicoteia na direção de uma criatura dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofrerá 2d8 de dano de veneno e deve realizar um teste de resistência de Constituição. Se falhar na resistência, ele também ficará envenenado até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano da magia aumenta em 1d8 para cada nível do espaço acima do 1°.",
+                "d": "necromância",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "F6954977C1E2E816F81FD8057EEDFF98"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "7B8CC8DCC73BD714F2F006E00526390D",
+                "e": true,
+                "uuid": "t36buib7skq8eq8i5lcgg9ern9"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio Ardente",
+                "c": "Você cria três raios de fogo e os arremessa em alvos dentro do alcance. Você pode arremessa-los em um alvo ou em vários.\nRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano de fogo.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 3° nível ou superior, você cria um raio adicional para cada nível do espaço acima do 2°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "7B8CC8DCC73BD714F2F006E00526390D"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "EFF0510C3B7010B2CC5FCF710DB298DD",
+                "e": false,
+                "uuid": "mmfu0n6qt1u62p6tr86uldljlf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio de Bruxa",
+                "c": "Um raio crepitante de energia azul é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo. Faça um ataque à distância com magia contra a criatura. Se atingir, o alvo sofrerá 1d12 de dano elétrico e, em cada um dos seus turnos, pela duração, você pode usar sua ação para causar 1d12 de dano elétrico ao alvo, automaticamente. A magia acaba se você usar sua ação para fazer qualquer outra coisa. A magia também acaba se o alvo estiver fora do alcance da magia ou se você tiver cobertura total para ele.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano inicial aumenta em 1d12 para cada nível do espaço acima do 1°.",
+                "d": "evocação",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (um galho de uma árvore que tenha sido atingida por um relâmpago)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "EFF0510C3B7010B2CC5FCF710DB298DD"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
+                "e": false,
+                "uuid": "1ap3nd588idf3egakmnd8d2655"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio de Gelo",
+                "c": "Um raio frigido de luz azul clara parte em direção de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, ele sofre 1d8 de dano de frio e seu deslocamento é reduzido em 3 metros até o começo do seu próximo turno.\nO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "1D64D6C7B7232E75931E1615F2B9A2D4",
+                "e": false,
+                "uuid": "6m8a37er2o0cpi9r2h63k2fi0d"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Raio do Enfraquecimento",
+                "c": "Um raio negro de energia enervante parte do seu dedo em direção de uma criatura, dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo causará metade do dano com ataques com armas que usem Força, até a magia acabar.\nNo final de cada um dos turnos do alvo, ele pode realizar um teste de resistência de Constituição contra a magia. Se obtiver sucesso, a magia acaba.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "1D64D6C7B7232E75931E1615F2B9A2D4"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "757E6192C5AF46C7A0E418B80EAC219A",
+                "e": false,
+                "uuid": "srvr9va9dh5miu7o1utkcp4619"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Recuo Acelerado",
+                "c": "Essa magia permite que você se mova a um ritmo incrível. Quando você conjura essa magia e, a partir de então, com uma ação bônus em cada um dos seus turnos, até a magia acabar, você pode realizar a ação de Disparada.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação bônus",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "757E6192C5AF46C7A0E418B80EAC219A"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "1438224E73FAB6ACA644CEED7CA6D6BE",
+                "e": false,
+                "uuid": "cokqu0thp55e3adi2i37agmi2a"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Relêmpago",
+                "c": "Um relâmpago forma uma linha de 30 metros de comprimento e 1,5 metro de largura que é disparado por você em uma direção, à sua escolha. Cada criatura na linha deve realizar um teste de resistência de Destreza. Uma criatura sofre 8d6 de dano elétrico se falhar na resistência ou metade desse dano se obtiver sucesso.\nO relâmpago incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "Pessoal (linha de 30 m)",
+                "h": "Pessoal (linha de 100 ft)",
+                "i": "V, S, M (um pouco de pelo e uma haste de âmbar, cristal ou vidro)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "1438224E73FAB6ACA644CEED7CA6D6BE"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "4205197A24BF8CA0EC1A29050949BCA6",
+                "e": false,
+                "uuid": "6efk4ba62df802fnpg72jpends"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Respirar na Água",
+                "c": "Essa magia concede a até dez criaturas voluntária que você possa ver, dentro do alcance, a habilidade de respirar embaixo d\u2019água até a magia acabar. As criaturas afetadas também mantem sua forma normal de respiração.",
+                "d": "transmutacao",
+                "e": "24 horas",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (um pedaço de cana ou palha)",
+                "j": false,
+                "k": 3,
+                "l": true,
+                "m": true,
+                "uuid": "4205197A24BF8CA0EC1A29050949BCA6"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 1,
+                "c": "1695C34429B32A6441E345C25413A4BC",
+                "e": true,
+                "uuid": "6c2qfp8pn3ummn00jnuvjn96kt"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Riso Histérico de Tasha",
+                "c": "Uma criatura, à sua escolha, que você possa ver, dentro do alcance, acha tudo hilariantemente engraçado e cai na gargalhada, se essa magia afeta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria ou cairá no chão, ficando incapacitado e incapaz de se levantar pela duração. Uma criatura com valor de Inteligência 4 ou inferior não é afetada.\nAo final de cada um dos turnos dela e, toda vez que sofrer dano, o alvo pode realizar outro teste de resistência de Sabedoria. O alvo terá vantagem no teste de resistência se ele for garantido por ele ter sofrido dano. Se obtiver sucesso, a magia acaba.",
+                "d": "encantamento",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, S, M (pequenas tortas e uma pena que é balançada no ar)",
+                "j": false,
+                "k": 1,
+                "l": false,
+                "m": true,
+                "uuid": "1695C34429B32A6441E345C25413A4BC"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "DA044330A7AE48496DC8764075E7BD31",
+                "e": false,
+                "uuid": "m4sdmhf5v0ps0bo8pg20snqsr6"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Rogar Maldição",
+                "c": "Você toca uma criatura e a criatura deve ser bem sucedida em um teste de resistência de Sabedoria ou será amaldiçoada pela duração da magia. Quando você conjura essa magia, escolha a natureza da maldição dentre as seguintes opções:\n - Escolha um valor de habilidade. Enquanto amaldiçoado, o alvo tem desvantagem em testes de habilidade e testes de resistência feitos com esse valor de habilidade,\n - Enquanto amaldiçoado, o alvo tem desvantagem nas jogadas de ataque contra você.\n - Enquanto amaldiçoado, o alvo deve realizar um teste de resistência de Sabedoria no começo de cada um dos turnos dela. Se ela falhar, ela perderá sua ação aquele turno, não fazendo nada.\n - Enquanto o alvo estiver amaldiçoado, seus ataques e magias causam 1d8 de dano necrótico extra a ele.\nUma magia remover maldição termina esse efeito. Com a permissão do Mestre, você pode escolher um efeito alternativo de maldição, mas ele não deve ser mais poderoso que os descritos acima. O Mestre tem a palavra final sobre o efeito de uma maldição.\nEm Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 4° nível, a duração da concentração sobe para 10 minutos. Se você usar um espaço de magia de 5° ou 6° nível, a duração será de 8 horas. Se você usar um espaço de magia de 7° ou 8° nível, a duração será de 24 horas. Se você usar um espaço de magia de 9° nível, a magia dura até ser dissipada. Usar um espaço de magia de 5° nível ou superior faz com que a duração não necessite de concentração.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "DA044330A7AE48496DC8764075E7BD31"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "ED3DAA84AB27105CA8CC610805A8CEA1",
+                "e": false,
+                "uuid": "g501di3ovut5iu45jdun9tlptq"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Sugestão",
+                "c": "Você sugere um curso de atividade (limitado a uma ou duas sentenças) e, magicamente, influencia um criatura que você possa ver, dentro do alcance, e que possa ouvir e compreender você. Criaturas que não podem ser enfeitiçadas são imunes a esse efeito. A sugestão deve ser formulada de modo que o curso de ação soe razoável. Dizer para a criatura se esfaquear, se arremessar em uma lança, tocar fogo em si mesma ou fazer algum outro ato obviamente nocivo anulará o efeito da magia.\nO alvo deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, ele seguirá o curso de ação que você descreveu, da melhor forma possível. O curso de ação sugerido pode continuar por toda a duração. Se a atividade sugerida puder ser completada em um tempo menor, a magia termina quando o alvo completar o que lhe foi dito para que fizesse.\nVocê pode, também, especificar condições que irão ativar uma atividade especial pela duração. Por exemplo, você poderia sugerir a um cavaleiro que entregasse seu cavalo de guerra ao primeiro mendigo que ele encontrar. Se a condição não for satisfeita antes da magia expirar, a atividade não será concluída.\nSe você ou um dos seus companheiros causar dano a uma criatura afetada por essa magia, a magia termina.",
+                "d": "encantamento",
+                "e": "Concentração, até 8 horas",
+                "f": "1 ação",
+                "g": "9 m",
+                "h": "30 ft",
+                "i": "V, M (uma língua de cobra e, ou um pedaço de favo de mel ou uma gota de azeite doce)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "ED3DAA84AB27105CA8CC610805A8CEA1"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "C252BF9E1642E6A9A013B109501A4155",
+                "e": false,
+                "uuid": "met6994n1ml434tdg7dn8qg855"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Teia",
+                "c": "Você conjura uma massa de teias espessas e pegajosas num ponto, à sua escolha, dentro do alcance. As teias preenchem um cubo de 6 metros naquele ponto, pela duração. As teias são terreno difícil e causam escuridão leve na área delas.\nSe as teias não estiverem sendo suportadas por duas massas sólidas (como duas paredes ou árvores) ou em camadas sobre um chão, parede ou teto, a teia conjurada desaba sobre si mesma e a magia termina no início do seu próximo turno. As teias em camadas sobre uma superfície plana terão 1,5 metro de profundidade.\nCada criatura que começar seu turno nas teias ou entrar nelas durante seu turno, deve realizar um teste de resistência de Destreza. Se falhar na resistência, a criatura estará impedida enquanto permanecer nas teias ou até se libertar.\nUma criatura impedida pelas teias pode usar sua ação para realizar um teste de Força contra a CD da magia. Se obtiver sucesso, ela não estará mais impedida.\nAs teias são inflamáveis. Qualquer cubo de 1,5 metro de teia exposto ao fogo, é consumida por ele em 1 rodada, causando 2d4 de dano de fogo a qualquer criatura que começar seu turno nas chamas.",
+                "d": "conjuração",
+                "e": "Concentração, até 1 hora",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (um pedaço de teia de aranha)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "C252BF9E1642E6A9A013B109501A4155"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 5,
+                "c": "52156B71A5EBC86E9B505D25B7B451E9",
+                "e": false,
+                "uuid": "31fu18fribg9viudvm70odr9j0"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Telecinésia",
+                "c": "Você adquire a habilidade de mover ou manipular criaturas ou objetos através do pensamento. Quando você conjura a magia e, com sua ação a cada turno, pela duração, você pode exercer sua vontade sobre uma criatura ou objeto que você possa ver, dentro do alcance, causando os efeitos apropriados abaixo. Você pode afetar o mesmo alvo rodada após rodada, ou escolher um novo a qualquer momento. Se você mudar de alvos, o alvo anterior não será mais afetado pela magia.\n - Criatura. Você pode tentar mover uma criatura Enorme ou menor. Faça um teste de habilidade com sua habilidade de conjuração resistido por um teste Força da criatura. Se você vencer a disputa, você move a criatura até 9 metros em qualquer direção, incluindo para cima, mas não além do alcance da magia. Até o final do seu próximo turno, a criatura estará impedida pelo seu agarrão telecinético. Uma criatura erguida para cima estará suspensa no ar.\nEm rodadas subsequente, você pode usar sua ação para tentar manter seu agarrão telecinético na criatura repetindo o teste resistido.\n - Objeto. Você pode tentar mover um objeto pesando até 500 quilos. Se o objeto não estiver sendo vestido ou carregado, você o move, automaticamente, até 9 metros em qualquer direção, mas não além do alcance dessa magia.\nSe o objeto estiver sendo vestido ou carregado por uma criatura, você deve realizar um teste de habilidade com sua habilidade de conjuração resistido por um teste de Força da criatura. Se você for bem sucedido, você arranca o objeto da criatura e o move até 9 metros, em qualquer direção, mas não além do alcance dessa magia.\nVocê pode exercer um controle refinado sobre os objetos com seu agarrão telecinético, como manipular ferramentas simples, abrir uma porta ou um recipiente, guardar ou recuperar um item de um recipiente aberto ou derramar o conteúdo de um frasco.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 5,
+                "l": false,
+                "m": true,
+                "uuid": "52156B71A5EBC86E9B505D25B7B451E9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 4,
+                "c": "1DF022F668AC4EBD5746EDE45B6FA67E",
+                "e": false,
+                "uuid": "d8jspcvkafc0h70s913afarknf"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Tempestade de Gelo",
+                "c": "Uma rajada de pedras de gelo batem no chão em um cilindro de 6 metros de raio por 12 metros de altura, centrado num ponto dentro do alcance. Cada criatura no cilindro deve realizar um teste de resistência de Destreza. Uma criatura sofre 2d8 de dano de concussão e 4d6 de dano de frio se falhar na resistência ou metade desse dano se obtiver sucesso.\nO granizo torna a área da tempestade em terreno difícil até o final do seu próximo turno.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 5° nível ou superior, o dano de concussão aumenta em 1d8 para cada nível do espaço acima do 4°.",
+                "d": "evocação",
+                "e": "Instantânea",
+                "f": "1 ação",
+                "g": "90 m",
+                "h": "300 ft",
+                "i": "V, S, M (um pouco de poeira e algumas gotas de água)",
+                "j": false,
+                "k": 4,
+                "l": false,
+                "m": true,
+                "uuid": "1DF022F668AC4EBD5746EDE45B6FA67E"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 0,
+                "c": "AA587241C9A969D82BFFFBD0CBABD253",
+                "e": false,
+                "uuid": "qkfdo17ttna84df8v71cepkfl0"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Toque Arrepiante",
+                "c": "Você cria uma mão esquelética fantasmagórica no espaço de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra a criatura para afeta-la com o frio sepulcral. Se atingir, a criatura sofre 1d8 de dano necrótico e não poderá recuperar pontos de vida até o início do seu próximo turno. Até lá, a mão ficará presa ao alvo.\nSe você atingir um alvo morto-vivo, ele terá desvantagem nas jogadas de ataque contra você até o final do seu próximo turno.\nO dano dessa magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+                "d": "necromância",
+                "e": "1 rodada",
+                "f": "1 ação",
+                "g": "36 m",
+                "h": "120 ft",
+                "i": "V, S",
+                "j": false,
+                "k": 0,
+                "l": false,
+                "m": true,
+                "uuid": "AA587241C9A969D82BFFFBD0CBABD253"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "6AEA1C2D29D9159CABBA14BF280A29B9",
+                "e": false,
+                "uuid": "igrsf9o0d5h5ua2am2fb3h887f"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Toque Vampírico",
+                "c": "O toque da sua mão coberta de sombras pode drenar a força vital dos outros para curar seus ferimentos. Realize um ataque corpo-a-corpo com magia contra uma criatura ao seu alcance. Se atingir, o alvo sofre 3d6 de dano necrótico e você recupera pontos de vida igual à metade do dano necrótico causado. Até a magia acabar, você pode realizar o ataque novamente, no seu turno, com uma ação.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 3°.",
+                "d": "necromância",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "6AEA1C2D29D9159CABBA14BF280A29B9"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "6DB339EAD8174025888918059F1D0272",
+                "e": false,
+                "uuid": "cpo9sumtckor23r67fl8rk30eg"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Velocidade",
+                "c": "Escolha uma criatura voluntária que você possa ver, dentro do alcance. Até a magia acabar, o deslocamento do alvo é dobrado, ele ganha +2 de bônus na CA, ele tem vantagem em testes de resistência de Destreza e ganha uma ação adicional em cada um dos turnos dele. A ação pode ser usada apenas para realizar as ações de Atacar (um ataque com arma, apenas), Disparada, Desengajar, Esconder ou Usar um Objeto.\nQuando a magia acabar, o alvo não poderá se mover ou realizar ações até depois do seu próximo turno, à medida que uma onda de letargia toma conta dele.",
+                "d": "transmutacao",
+                "e": "Concentração, até 1 minuto",
+                "f": "1 ação",
+                "g": "18 m",
+                "h": "60 ft",
+                "i": "V, S, M (uma raspa de raiz de alcaçuz)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "6DB339EAD8174025888918059F1D0272"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "BDD8A3901BBEC081C19287ACD43D819B",
+                "e": true,
+                "uuid": "vqfcdh6mroj4v99hdlokpop3bj"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Ver o Invisível",
+                "c": "Pela duração, você vê criaturas e objetos invisíveis como se eles fossem visíveis e você pode ver no Plano Etéreo. Criaturas e objetos etéreos parecem espectrais e translúcidos.",
+                "d": "adivinhação",
+                "e": "1 hora",
+                "f": "1 ação",
+                "g": "Pessoal",
+                "h": "Pessoal",
+                "i": "V, S, M (um pouco de talco e um pó de prata polvilhado)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "BDD8A3901BBEC081C19287ACD43D819B"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 2,
+                "c": "68FB3E51A8C0245DAE4264EF1A0FE46D",
+                "e": false,
+                "uuid": "nm1r8r23aq5hu19plup2ru6b7b"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Visão no Escuro",
+                "c": "Você toca uma criatura voluntária para conceder a ela a habilidade de ver nas trevas. Pela duração, a criatura terá visão no escuro com alcance de 18 metros.",
+                "d": "transmutacao",
+                "e": "8 horas",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (ou um pedaço de cenoura seca ou uma ágata)",
+                "j": false,
+                "k": 2,
+                "l": false,
+                "m": true,
+                "uuid": "68FB3E51A8C0245DAE4264EF1A0FE46D"
+            }
+        },
+        {
+            "a": {
+                "a": "btgln1ldr4mbderngsfenvddqq",
+                "b": 3,
+                "c": "4A7DB4B42B5990BB3DC166F6FB8C214C",
+                "e": true,
+                "uuid": "8i93mfl8cmavb2i47em2sanr8e"
+            },
+            "b": {
+                "a": "pt",
+                "b": "Voo",
+                "c": "Você toca uma criatura voluntária. O alvo ganha deslocamento de voo de 18 metros, pela duração. Quando a magia acabar, o alvo cai se ainda estiver no ar, a não ser que ele possa impedir a queda.\nEm Níveis Superiores. Quando você conjurar essa magia usando um espaço de magia de 4° nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 3°.",
+                "d": "transmutacao",
+                "e": "Concentração, até 10 minutos",
+                "f": "1 ação",
+                "g": "Toque",
+                "h": "Toque",
+                "i": "V, S, M (uma pena da asa de qualquer pássaro)",
+                "j": false,
+                "k": 3,
+                "l": false,
+                "m": true,
+                "uuid": "4A7DB4B42B5990BB3DC166F6FB8C214C"
             }
         }
     ],
