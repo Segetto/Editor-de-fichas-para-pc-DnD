@@ -5,7 +5,7 @@
 package backend.Fun.Par.Magias;
 import backend.Fun.Par.Especializacao.*;
 import javax.swing.*;
-import visual.CriarEspecializacao;
+import visual.CriarMagia;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import org.json.*;
@@ -14,12 +14,12 @@ import org.json.*;
  * @author Admin
  */
 public class NewMagia {
-    public static void NewMagia(String personagemCaminho, JSONArray EspJson, String EspTitCam, String EspDescCam, JLabel NewEsp, JSONArray OpcoesSelect){
-        // CriarEspecializacao NewEspJanela = new CriarEspecializacao(personagemCaminho, EspJson, EspTitCam, EspDescCam, OpcoesSelect, NewEsp);
-        NewEsp.addMouseListener(new MouseAdapter() {
+    public static void NewMagia(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, JSONArray Magias, JSONArray Classes, JSONArray CLasseMagias, String CaminhoArquivo, JLabel NewMagia){
+        CriarMagia NewMagiaJanela = new CriarMagia(personagemCaminho, ficha, PMagiasT, PMagiasTF, PMagiasF, Magias, Classes, CLasseMagias, CaminhoArquivo, NewMagia);
+        NewMagia.addMouseListener(new MouseAdapter() {
         @Override
         public void mouseClicked(MouseEvent e){
-           // NewEspJanela.setVisible(true);
+           NewMagiaJanela.setVisible(true);
         }
     });
     }

@@ -63,13 +63,14 @@ public class personagemFicha extends javax.swing.JFrame {
         String RacasCaminho = "ASSETS/Raca.json";
         String ClassesCaminho = "ASSETS/Classe.json";
         String MagiasCaminho = "ASSETS/Magias.json";
-
+        String ClassesMagiasCaminho = "ASSETS/ClasseMagias.json";
         JSONArray Inventario = new JSONArray(jsonParser.LerArray(equipamentosCaminho));
         JSONArray CarRaca = new JSONArray(jsonParser.LerArray(CarRacaCaminho));
         JSONArray CarClasse = new JSONArray(jsonParser.LerArray(CarClasseCaminho));
         JSONArray Idiomas = new JSONArray(jsonParser.LerArray(IdiomasCaminho));
         JSONArray Talentos = new JSONArray(jsonParser.LerArray(TalentosCaminho));
         JSONArray Magias = new JSONArray(jsonParser.LerArray(MagiasCaminho));
+        JSONArray ClassesMagias = new JSONArray(jsonParser.LerArray(ClassesMagiasCaminho));
 
         JSONArray Racas = new JSONArray(jsonParser.LerArray(RacasCaminho));
         JSONArray Classes = new JSONArray(jsonParser.LerArray(ClassesCaminho));
@@ -143,16 +144,16 @@ public class personagemFicha extends javax.swing.JFrame {
         MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagias, PMagiaN7C, 7);
         MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagias, PMagiaN8C, 8);
         MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagias, PMagiaN9C, 9);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN0T, PMagiaN0C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 0);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN1T, PMagiaN1C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 1);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN2T, PMagiaN2C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 2);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN3T, PMagiaN3C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 3);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN4T, PMagiaN4C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 4);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN5T, PMagiaN5C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 5);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN6T, PMagiaN6C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 6);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN7T, PMagiaN7C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 7);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN8T, PMagiaN8C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 8);
-        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN9T, PMagiaN9C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 9);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN0T, PMagiaN0C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 0, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN1T, PMagiaN1C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 1, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN2T, PMagiaN2C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 2, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN3T, PMagiaN3C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 3, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN4T, PMagiaN4C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 4, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN5T, PMagiaN5C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 5, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN6T, PMagiaN6C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 6, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN7T, PMagiaN7C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 7, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN8T, PMagiaN8C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 8, ClassesMagias);
+        MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN9T, PMagiaN9C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 9, ClassesMagias);       
     }
 
     /**

@@ -20,11 +20,11 @@ public class Magias extends javax.swing.JFrame {
     /**
      * Creates new form Equipamento
      */
-    public Magias(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasFicha, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PainelMagiasTela, JSONArray OpcoesComboBox, JPanel PmagiasT, int LvlMagia) {
+    public Magias(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasFicha, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PainelMagiasTela, JSONArray OpcoesComboBox, JPanel PmagiasT, int LvlMagia, JSONArray ClassesMagias) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia);
-        NewMagia.NewMagia(personagemCaminho, Magias, TituloCaminho, DescricaoCaminho, CriarNovasMagias, OpcoesComboBox);
+        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, ClassesMagias);
+        NewMagia.NewMagia(personagemCaminho, ficha, PmagiasT, PainelMagiasTela, PainelMagiasFicha, Magias, OpcoesComboBox, ClassesMagias, CaminhoArquivo, CriarNovasMagias);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

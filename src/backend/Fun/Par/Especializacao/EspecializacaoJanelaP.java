@@ -37,27 +37,7 @@ public class EspecializacaoJanelaP {
             }
         }
         AdicionarEquipamentos(personagemCaminho, ficha, PainelEspecializacao, Opcoes, PainelEspecializacaoFicha, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, Especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT);
-        java.util.List<JSONObject> lista = new java.util.ArrayList<>();
-        for (int i = 0; i < ficha.getJSONArray(VetorCaminho).length(); i++) {
-            lista.add(ficha.getJSONArray(VetorCaminho).getJSONObject(i));
-        }
-
-        // Ordenando a lista com base no campo "b.u"
-        Collections.sort(lista, new Comparator<JSONObject>() {
-            @Override
-            public int compare(JSONObject a, JSONObject b) {
-                Collator collator = Collator.getInstance(new Locale("pt", "BR"));
-                collator.setStrength(Collator.PRIMARY); // Ignora diferenças de acento
-                String nomeA = a.getJSONObject("b").getString(TituloCaminho);
-                String nomeB = b.getJSONObject("b").getString(TituloCaminho);
-                return collator.compare(nomeA, nomeB);
-            }
-        });
-
-        // Convertendo de volta para JSONArray
-        JSONArray jsonArrayOrdenado = new JSONArray(lista);
-        ficha.put(VetorCaminho, jsonArrayOrdenado);
-        SalvarFicha(ficha, personagemCaminho);
+        
 
         Opcoes.addActionListener(new ActionListener() {
             @Override
@@ -85,6 +65,9 @@ public class EspecializacaoJanelaP {
         if (ComboBoxArray == null) {
             ComboBoxOpcao.setVisible(false);
         }
+        SwingWorker<Void, JPanel[]> worker = new SwingWorker<>() {
+            @Override
+            protected Void doInBackground() {
         for (int i = 0; i < Especializacoes.length(); i++) {
             if (ComboBoxArray == null || ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid").equals(Especializacoes.getJSONObject(i).getString("b"))) {
 
@@ -236,6 +219,11 @@ public class EspecializacaoJanelaP {
             }
 
         }
+                return null;
+            }
+
+        };
+        worker.execute();
         AdicionarSelecionados.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
