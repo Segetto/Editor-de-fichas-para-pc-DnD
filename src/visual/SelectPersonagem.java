@@ -20,7 +20,7 @@ import java.awt.event.ActionListener;
 import backend.jsonParser;
 import backend.Fun.trocarPainel;
 import java.awt.Color;
-import backend.Fun.VirtualObjects.NewItemArrayVO;
+import backend.Fun.VirtualObjects.*;
 
 /**
  *
@@ -237,6 +237,12 @@ public class SelectPersonagem extends javax.swing.JFrame {
         int result = fileChooser.showOpenDialog(null);
         if (result == JFileChooser.APPROVE_OPTION) {
             JSONArray itens = new JSONArray(jsonParser.LerArray("ASSETS/Equipamento.json"));
+            JSONArray CarClasse = new JSONArray(jsonParser.LerArray("ASSETS/CarClasse.json"));
+            JSONArray CarRaca = new JSONArray(jsonParser.LerArray("ASSETS/CarRaca.json"));
+            JSONArray Talentos = new JSONArray(jsonParser.LerArray("ASSETS/Talentos.json"));
+            JSONArray Idiomas = new JSONArray(jsonParser.LerArray("ASSETS/Idiomas.json"));
+            JSONArray Magias = new JSONArray(jsonParser.LerArray("ASSETS/Magias.json"));
+            
             File selectedFile = fileChooser.getSelectedFile();
             String destinationPath = "personagensJSON/" + selectedFile.getName();
             String novoNomeArquivo = NovoId(32) + ".json";
@@ -246,6 +252,7 @@ public class SelectPersonagem extends javax.swing.JFrame {
                 String nomeArquivo = selectedFile.getName();
                 JSONObject ficha = new JSONObject(jsonParser.LerArquivo(destinoArquivo.getAbsolutePath()));
                 NewItemArrayVO ItemCustom = new NewItemArrayVO();
+                NewMagiaArrayVO MagiaCustom = new NewMagiaArrayVO();
                 for (int i = 0; i < ficha.getJSONArray("i").length(); i++) {
                     if (ficha.getJSONArray("i").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
                         String ExtraK = "";
@@ -290,6 +297,61 @@ public class SelectPersonagem extends javax.swing.JFrame {
                         );
                     }
                 }
+                for (int i = 0; i < ficha.getJSONArray("r").length(); i++) {
+                    if (ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        Magias.put(MagiaCustom.NewMagia(
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("b"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("d"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("e"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("g"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("h"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("i"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("c"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getInt("k"),
+                                ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("uuid"))
+                        );
+                    }
+                }
+                for (int i = 0; i < ficha.getJSONArray("p").length(); i++) {
+                    if (ficha.getJSONArray("p").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        Idiomas.put(new JSONObject()
+                                .put("b", ficha.getJSONArray("p").getJSONObject(i).getJSONObject("b").getString("b"))
+                                .put("d", ficha.getJSONArray("p").getJSONObject(i).getJSONObject("b").getString("d"))
+                                .put("e", ficha.getJSONArray("p").getJSONObject(i).getJSONObject("b").getString("e"))
+                                .put("f", ficha.getJSONArray("p").getJSONObject(i).getJSONObject("b").getString("f"))
+                                .put("uuid", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("uuid"))
+                        );
+                    }
+                }
+                for (int i = 0; i < ficha.getJSONArray("o").length(); i++) {
+                    if (ficha.getJSONArray("o").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        Talentos.put(new JSONObject()
+                                .put("c", ficha.getJSONArray("o").getJSONObject(i).getJSONObject("b").getString("c"))
+                                .put("d", ficha.getJSONArray("o").getJSONObject(i).getJSONObject("b").getString("d"))
+                                .put("uuid", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("uuid"))
+                        );
+                    }
+                }
+                for (int i = 0; i < ficha.getJSONArray("n").length(); i++) {
+                    if (ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        CarRaca.put(new JSONObject()
+                                .put("b", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("b"))
+                                .put("d", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("d"))
+                                .put("e", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("e"))
+                                .put("uuid", ficha.getJSONArray("n").getJSONObject(i).getJSONObject("b").getString("uuid"))
+                        );
+                    }
+                }
+                for (int i = 0; i < ficha.getJSONArray("m").length(); i++) {
+                    if (ficha.getJSONArray("m").getJSONObject(i).getJSONObject("b").getBoolean("t")) {
+                        CarClasse.put(new JSONObject()
+                                .put("b", ficha.getJSONArray("m").getJSONObject(i).getJSONObject("b").getString("b"))
+                                .put("d", ficha.getJSONArray("m").getJSONObject(i).getJSONObject("b").getString("d"))
+                                .put("e", ficha.getJSONArray("m").getJSONObject(i).getJSONObject("b").getString("e"))
+                                .put("uuid", ficha.getJSONArray("m").getJSONObject(i).getJSONObject("b").getString("uuid"))
+                        );
+                    }
+                }
                 jComboBox1.addItem(new Item(novoNomeArquivo.replace(".json", ""), FichaLerString(ficha, "nome", 0)));
             } catch (IOException e) {
                 System.out.println("Erro ao enviar o arquivo: " + e);
@@ -297,6 +359,11 @@ public class SelectPersonagem extends javax.swing.JFrame {
             System.out.println("Arquivo selecionado: " + selectedFile.getAbsolutePath());
             jsonParser salvar = new jsonParser();
             salvar.sobrescreverArray("ASSETS/Equipamento.json", OrganizarASSET.OrganizarJSONArray(itens, "u").toString(4));
+            salvar.sobrescreverArray("ASSETS/CarClasse.json", OrganizarASSET.OrganizarJSONArray(CarClasse, "d").toString(4));
+            salvar.sobrescreverArray("ASSETS/CarRaca.json", OrganizarASSET.OrganizarJSONArray(CarRaca, "d").toString(4));
+            salvar.sobrescreverArray("ASSETS/Idiomas.json", OrganizarASSET.OrganizarJSONArray(Idiomas, "c").toString(4));
+            salvar.sobrescreverArray("ASSETS/Talentos.json", OrganizarASSET.OrganizarJSONArray(Talentos, "d").toString(4));
+            salvar.sobrescreverArray("ASSETS/Magias.json", OrganizarASSET.OrganizarJSONArray(Magias, "b").toString(4));
         } else {
             System.out.println("Nenhum arquivo selecionado.");
         }

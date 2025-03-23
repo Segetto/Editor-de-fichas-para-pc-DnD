@@ -12,7 +12,16 @@ import backend.Fun.Rand;
  */
 public class NewMagiaArrayVO {
 
-    public static JSONObject NewMagia(String Nome, String Escola, String Duracao, String Tempo, String Alcance, String Comp, String Descricao, int Lvl, String id) {
+    public static JSONObject NewMagia(
+            String Nome,
+            String Escola,
+            String Duracao,
+            String Tempo,
+            String Alcance,
+            String Comp,
+            String Descricao,
+            int Lvl,
+            String id) {
         if(id == null){
             id = Rand.NovoId(32);
         }
