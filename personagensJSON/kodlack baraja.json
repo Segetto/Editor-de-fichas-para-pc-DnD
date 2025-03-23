@@ -1247,6 +1247,19 @@
                 "g": true,
                 "uuid": "7E47E0099B0DC5B64DF0D614D89997B3"
             }
+        },
+        {
+            "a": {
+                "f": "",
+                "uuid": "GFBOOU50C8XXYV8VTFK44VVFI3VFUAYH"
+            },
+            "b": {
+                "c": "Goblinoide",
+                "d": "",
+                "e": "Goblinoides",
+                "f": "Anão",
+                "uuid": "77813F6B750B057956C5A7041E488FCC"
+            }
         }
     ],
     "q": [

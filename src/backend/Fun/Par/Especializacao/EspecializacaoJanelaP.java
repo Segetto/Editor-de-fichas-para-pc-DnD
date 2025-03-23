@@ -200,6 +200,19 @@ public class EspecializacaoJanelaP {
                             if (Especializacoes.getJSONObject(iComp).has(DescricaoCaminho)) {
                                 descricao = Especializacoes.getJSONObject(iComp).getString(DescricaoCaminho);
                             }
+                            if(CaminhoArquivo.equals("ASSETS/Idiomas.json")){
+                                NovaEspecializacao
+                                    .put("a", new JSONObject()
+                                            .put("f", "")
+                                            .put("uuid", Rand.NovoId(32))
+                                    )
+                                    .put("b", new JSONObject()
+                                            .put("uuid", Especializacoes.getJSONObject(iComp).getString("uuid"))
+                                            .put(TituloCaminho, Especializacoes.getJSONObject(iComp).getString(TituloCaminho))
+                                            .put("e", Especializacoes.getJSONObject(iComp).getString("e"))
+                                            .put("f", Especializacoes.getJSONObject(iComp).getString("f"))
+                                            .put(DescricaoCaminho, descricao));
+                            }else{
                             NovaEspecializacao
                                     .put("a", new JSONObject()
                                             .put("f", "")
@@ -209,6 +222,7 @@ public class EspecializacaoJanelaP {
                                             .put("uuid", Especializacoes.getJSONObject(iComp).getString("uuid"))
                                             .put(TituloCaminho, Especializacoes.getJSONObject(iComp).getString(TituloCaminho))
                                             .put(DescricaoCaminho, descricao));
+                            }
                             EspecializacoesNovas.put(NovaEspecializacao);
                             posicao = EspecializacoesNovas.length() - 1;
                         } else {
