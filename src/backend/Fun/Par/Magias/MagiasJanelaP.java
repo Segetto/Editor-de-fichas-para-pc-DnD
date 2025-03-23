@@ -267,7 +267,7 @@ public class MagiasJanelaP {
                     }
                 }
                 PMagiasTF.setPreferredSize(new Dimension(PMagiasTF.getWidth(), (heightChangeAdd + HeightInicialJanela)));
-                MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagiasTF, PMagiasF, MagiaLvl);
+                MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagiasTF, PMagiasF, MagiaLvl, PMagiasT);
                 SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
                 SalvarFicha(ficha, personagemCaminho);
                 Sobrescrever.sobrescreverArray(CaminhoArquivo, Magias.toString(4));

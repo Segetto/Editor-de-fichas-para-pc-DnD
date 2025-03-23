@@ -1,15 +1,19 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs:
+ * Click nbfs:
  */
 package backend.Fun.Par.Magias;
 
+import static backend.Fun.SalvarFicha.SalvarFicha;
+import static backend.Fun.IntCampo.IntCampo;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import java.awt.*;
 import java.awt.event.*;
 import org.json.*;
 import javax.swing.*;
 import javax.swing.border.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 
 /**
  *
@@ -17,7 +21,7 @@ import javax.swing.border.*;
  */
 public class MagiasPanelP {
 
-    public static void MagiasPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasTela, JPanel PainelMagias, int MagiaLvl) {
+    public static void MagiasPanelP(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasTela, JPanel PainelMagias, int MagiaLvl, JPanel PMagiasT) {
         PainelMagias.removeAll();
         int HeightInicialJanela = 826;
         PainelMagias.setLayout(new GridBagLayout());
@@ -28,6 +32,52 @@ public class MagiasPanelP {
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.insets = new Insets(0, 0, 10, 0);
         JPanel[] MagiasVetor = new JPanel[ficha.getJSONArray("r").length()];
+
+        JPanel PSpinnerUsos = new JPanel();
+        PSpinnerUsos.setLayout(new BoxLayout(PSpinnerUsos, BoxLayout.Y_AXIS));
+        PSpinnerUsos.setOpaque(false);
+
+        PSpinnerUsos.setPreferredSize(new Dimension(70, 30));
+        PSpinnerUsos.setMaximumSize(new Dimension(70, 30));
+
+        ImageIcon SetaUp = new ImageIcon("src/visual/res/SmallUp.png");
+        JLabel LSetaUp = new JLabel(SetaUp);
+        LSetaUp.setAlignmentX(Component.CENTER_ALIGNMENT);
+        LSetaUp.setAlignmentY(Component.TOP_ALIGNMENT);
+
+        JPanel UsosNumeros = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+        UsosNumeros.setOpaque(false);
+
+        UsosNumeros.setPreferredSize(new Dimension(70, 20));
+        UsosNumeros.setMinimumSize(new Dimension(70, 20));
+        UsosNumeros.setMaximumSize(new Dimension(70, 20));
+
+        JLabel UsosAtuais = new JLabel("" + ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c"));
+        JLabel Barra = new JLabel("/");
+        JTextField UsosTotais = new JTextField("" + ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("b"));
+        IntCampo(UsosTotais);
+        UsosTotais.setOpaque(false);
+        UsosTotais.setBorder(null);
+        UsosTotais.setPreferredSize(new Dimension(7, 20));
+        UsosAtuais.setForeground(Color.WHITE);
+        Barra.setForeground(Color.WHITE);
+        UsosTotais.setForeground(Color.WHITE);
+
+        UsosNumeros.add(UsosAtuais);
+        UsosNumeros.add(Barra);
+        UsosNumeros.add(UsosTotais);
+
+        ImageIcon SetaDown = new ImageIcon("src/visual/res/SmallDown.png");
+        JLabel LSetaDown = new JLabel(SetaDown, JLabel.CENTER);
+        LSetaDown.setAlignmentX(Component.CENTER_ALIGNMENT);
+        LSetaDown.setAlignmentY(Component.TOP_ALIGNMENT);
+
+        PSpinnerUsos.add(LSetaUp);
+        PSpinnerUsos.add(UsosNumeros);
+        PSpinnerUsos.add(LSetaDown);
+        if (MagiaLvl > 0) {
+            PMagiasT.add(PSpinnerUsos, BorderLayout.EAST);
+        }
         SwingWorker<Void, JPanel[]> worker = new SwingWorker<>() {
             @Override
             protected Void doInBackground() {
@@ -183,6 +233,52 @@ public class MagiasPanelP {
 
         };
         worker.execute();
+        LSetaUp.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent e) {
+                if (ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c") < ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("b")) {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("c", ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c") + 1);
+                    UsosAtuais.setText("" + ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c"));
+                    SalvarFicha(ficha, personagemCaminho);
+                }
+            }
+        });
+        LSetaDown.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent e) {
+                if (ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c") > 0) {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("c", ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c") - 1);
+                    UsosAtuais.setText("" + ficha.getJSONArray("t").getJSONObject(MagiaLvl).getInt("c"));
+                    SalvarFicha(ficha, personagemCaminho);
+                }
+            }
+        });
+        UsosTotais.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                if (UsosTotais.getText().trim().isEmpty()) {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("b", 0);
+                } else {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("b", Integer.parseInt(UsosTotais.getText()));
+                }
+                SalvarFicha(ficha, personagemCaminho);
+            }
 
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+
+                if (UsosTotais.getText().trim().isEmpty()) {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("b", 0);
+                } else {
+                    ficha.getJSONArray("t").getJSONObject(MagiaLvl).put("b", Integer.parseInt(UsosTotais.getText()));
+                }
+                SalvarFicha(ficha, personagemCaminho);
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                SalvarFicha(ficha, personagemCaminho);
+            }
+        });
     }
 }

@@ -28,7 +28,7 @@ public class Magias extends javax.swing.JFrame {
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MagiasPanelP(personagemCaminho, ficha, PainelMagiasTela, PainelMagiasFicha, LvlMagia);
+                MagiasPanelP(personagemCaminho, ficha, PainelMagiasTela, PainelMagiasFicha, LvlMagia, PmagiasT);
             }
         });
 
