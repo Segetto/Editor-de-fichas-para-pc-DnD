@@ -24,7 +24,7 @@ public class Magias extends javax.swing.JFrame {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
         MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, ClassesMagias);
-        NewMagia.NewMagia(personagemCaminho, ficha, PmagiasT, PainelMagiasTela, PainelMagiasFicha, Magias, OpcoesComboBox, ClassesMagias, CaminhoArquivo, CriarNovasMagias);
+        NewMagia.NewMagia(personagemCaminho, ficha, PmagiasT, PainelMagiasTela, PainelMagiasFicha, Magias, OpcoesComboBox, ClassesMagias, CaminhoArquivo, CriarNovasMagias, LvlMagia);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

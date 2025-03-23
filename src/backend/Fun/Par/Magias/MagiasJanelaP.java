@@ -15,8 +15,6 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.*;
 import java.awt.event.*;
-import java.text.Collator;
-import java.util.*;
 //import visual.EditarMagiaASSET;
 
 /**
@@ -30,9 +28,9 @@ public class MagiasJanelaP {
             Opcoes.addItem(OpcoesComboBox.getJSONObject(i).getString("b"));
         }
         Opcoes.setSelectedItem(FichaLerString(ficha, "classe", 0));
-
+        Opcoes.addItem("Todos");
         AdicionarEquipamentos(personagemCaminho, ficha, PMagias, Opcoes, PMagiasTF, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PMagiasF, Magias, OpcoesComboBox, CaminhoArquivo, PMagiasT, MagiaLvl, ClassesMagias);
-       
+
     }
 
     public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox ComboBoxOpcao, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JSONArray ClassesMagias) {
@@ -246,9 +244,12 @@ public class MagiasJanelaP {
         ComboBoxOpcao.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
-                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, ClassesMagias);
-
+                if (ComboBoxOpcao.getSelectedIndex() > ComboBoxArray.length() - 1) {
+                    ExibirOpcoes(null, PMagias, PaineisMagiasOpcoes, gbc, null);
+                } else {
+                    String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
+                    ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, ClassesMagias);
+                }
             }
         });
         AdicionarSelecionados.addMouseListener(new MouseAdapter() {
@@ -287,12 +288,17 @@ public class MagiasJanelaP {
             if (nomeOpcao == null) {
                 continue; // Evita NullPointerException
             }
-            for (int j = 0; j < ClassesMagias.length(); j++) {
-                if (nomeOpcao.equals(ClassesMagias.getJSONObject(j).getString("b")) && TipoOpcoes.equals(ClassesMagias.getJSONObject(j).getString("a"))) {
-                    PainelOpcoes.add(opcao, gbc);
-                    gbc.gridy++;
-                    j = ClassesMagias.length();
+            if (ClassesMagias != null) {
+                for (int j = 0; j < ClassesMagias.length(); j++) {
+                    if (nomeOpcao.equals(ClassesMagias.getJSONObject(j).getString("b")) && TipoOpcoes.equals(ClassesMagias.getJSONObject(j).getString("a"))) {
+                        PainelOpcoes.add(opcao, gbc);
+                        gbc.gridy++;
+                        j = ClassesMagias.length();
+                    }
                 }
+            } else {
+                PainelOpcoes.add(opcao, gbc);
+                gbc.gridy++;
             }
         }
         PainelOpcoes.revalidate();
