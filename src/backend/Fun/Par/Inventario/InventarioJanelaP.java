@@ -14,8 +14,11 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.*;
 import java.awt.event.*;
+import java.text.Normalizer;
 import backend.Fun.VirtualObjects.*;
 import backend.jsonParser;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import visual.EditarItemASSET;
 
 /**
@@ -24,12 +27,12 @@ import visual.EditarItemASSET;
  */
 public class InventarioJanelaP {
 
-    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
+    public static void EquipamentosJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelItens, JComboBox Opcoes, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo, JTextField Search) {
         String Opcao = (String) Opcoes.getSelectedItem();
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel, AddEquip, PesoAtual, PesoMaximo);
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelItens, Opcao, PainelItensFicha, AdicionarSelecionados, itens, Opcoes, BonusCALabel, AddEquip, PesoAtual, PesoMaximo, Search);
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelItens, String TipoItem, JPanel PainelItensFicha, JLabel AdicionarSelecionados, JSONArray itens, JComboBox OpcaoSelect, JLabel BonusCALabel, JPanel AddEquip, JLabel PesoAtual, JLabel PesoMaximo, JTextField Search) {
         Color cor = new Color(255, 255, 255);
         PainelItens.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -429,7 +432,7 @@ public class InventarioJanelaP {
             protected void done() {
                 try {
                     get();
-                    ExibirOpcoes(TipoItem, PainelItens, OpcoesVetor, gbc);
+                    ExibirOpcoes(TipoItem, PainelItens, OpcoesVetor, gbc, null, itens);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -454,19 +457,39 @@ public class InventarioJanelaP {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String NewOpcao = (String) OpcaoSelect.getSelectedItem();
-                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc);
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, null, itens);
+                Search.setText("");
+            }
+        });
+        Search.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                String NewOpcao = (String) OpcaoSelect.getSelectedItem();
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, Search.getText(), itens);
+            }
 
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                String NewOpcao = (String) OpcaoSelect.getSelectedItem();
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, Search.getText(), itens);
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                String NewOpcao = (String) OpcaoSelect.getSelectedItem();
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, Search.getText(), itens);
             }
         });
     }
 
-    public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc) {
+    public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc, String BuscaString, JSONArray itens) {
         PainelOpcoes.removeAll();
         for (Component Opcao : OpcoesLista) {
-            if (Opcao != null && TipoOpcoes.equals(Opcao.getName())) {
+             Normalizer.normalize("", Normalizer.Form.NFD);
+            String Titulo =  Normalizer.normalize(((JLabel) ((JPanel) ((JPanel) ((JPanel) Opcao).getComponent(0)).getComponent(0)).getComponent(1)).getText().toLowerCase(), Normalizer.Form.NFD);
+            if (Opcao != null && TipoOpcoes.equals(Opcao.getName()) && (BuscaString == null || Titulo.contains(Normalizer.normalize(BuscaString.toLowerCase(), Normalizer.Form.NFD)))) {
                 PainelOpcoes.add(Opcao, gbc);
                 gbc.gridy++;
-
             }
         }
         PainelOpcoes.revalidate();

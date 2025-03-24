@@ -695,13 +695,13 @@ public class personagemFicha extends javax.swing.JFrame {
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(VidaAtual, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(VidaAtual, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
                 .addComponent(jLabel39)
                 .addGap(0, 0, 0)
-                .addComponent(VidaTotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40))
+                .addComponent(VidaTotal, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1718,7 +1718,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN0CLayout.setVerticalGroup(
             PMagiaN0CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN0Layout = new javax.swing.GroupLayout(PMagiaN0);
@@ -1761,7 +1761,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN1CLayout.setVerticalGroup(
             PMagiaN1CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN1Layout = new javax.swing.GroupLayout(PMagiaN1);
@@ -1804,7 +1804,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN2CLayout.setVerticalGroup(
             PMagiaN2CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN2Layout = new javax.swing.GroupLayout(PMagiaN2);
@@ -1847,7 +1847,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN3CLayout.setVerticalGroup(
             PMagiaN3CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN3Layout = new javax.swing.GroupLayout(PMagiaN3);
@@ -1890,7 +1890,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN4CLayout.setVerticalGroup(
             PMagiaN4CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN4Layout = new javax.swing.GroupLayout(PMagiaN4);
@@ -1933,7 +1933,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN5CLayout.setVerticalGroup(
             PMagiaN5CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN5Layout = new javax.swing.GroupLayout(PMagiaN5);
@@ -1976,7 +1976,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN6CLayout.setVerticalGroup(
             PMagiaN6CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN6Layout = new javax.swing.GroupLayout(PMagiaN6);
@@ -2019,7 +2019,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN7CLayout.setVerticalGroup(
             PMagiaN7CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN7Layout = new javax.swing.GroupLayout(PMagiaN7);
@@ -2062,7 +2062,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN8CLayout.setVerticalGroup(
             PMagiaN8CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 7, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN8Layout = new javax.swing.GroupLayout(PMagiaN8);
@@ -2105,7 +2105,7 @@ public class personagemFicha extends javax.swing.JFrame {
         );
         PMagiaN9CLayout.setVerticalGroup(
             PMagiaN9CLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 9, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout PMagiaN9Layout = new javax.swing.GroupLayout(PMagiaN9);

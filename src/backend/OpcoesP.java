@@ -11,11 +11,15 @@ import backend.jsonParser;
 import static backend.Fun.FichaLer.FichaLerString;
 import static backend.Fun.OptionLabel.OptionLabel;
 import static backend.Fun.SalvarFicha.SalvarFicha;
+import backend.Fun.Rand;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import visual.personagemFicha;
 
 /**
  *
@@ -23,7 +27,7 @@ import org.json.JSONObject;
  */
 public class OpcoesP {
 
-    public void AddOpcoes(JSONObject ficha, String TipoOpcao, ButtonGroup BotoesGrupo, JPanel Painel, String ArrayNome) {
+    public void AddOpcoes(JSONObject ficha, String TipoOpcao, ButtonGroup BotoesGrupo, JPanel Painel, String ArrayNome, JLabel CriarRacaLabel, String personagemCaminho, JLabel OpcaoLabelFicha) {
         Painel.setLayout(new BoxLayout(Painel, BoxLayout.Y_AXIS));
         String OpcaoCaminho = "ASSETS/" + TipoOpcao + ".json";
         jsonParser leitor = new jsonParser();
@@ -42,7 +46,24 @@ public class OpcoesP {
 
             Painel.add(opcao);
         }
-
+        if (TipoOpcao.equals("Raca")) {
+            CriarRacaLabel.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    String NewRaca = JOptionPane.showInputDialog(null, "Digite o nome da nova raça:");
+                    if (NewRaca != null) {
+                        opcoes.put(new JSONObject()
+                                .put("b", NewRaca)
+                                .put("uuid", Rand.NovoId(32)));
+                        leitor.sobrescreverArray(OpcaoCaminho, opcoes.toString(4));
+                        SwingUtilities.getWindowAncestor(CriarRacaLabel).dispose();
+                        SwingUtilities.getWindowAncestor(OpcaoLabelFicha).dispose();
+                        personagemFicha novaJanela = new personagemFicha(personagemCaminho.replace("personagensJSON/", "").replace(".json", ""));
+                        novaJanela.setVisible(true);
+                    }
+                }
+            });
+        }
     }
 
     public void OpcaoEvent(JRadioButton opcao, JSONObject ficha, int i, JSONArray opcoes, String ArrayNome) {

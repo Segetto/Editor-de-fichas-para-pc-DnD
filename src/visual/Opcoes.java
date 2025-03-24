@@ -20,7 +20,7 @@ public class Opcoes extends javax.swing.JFrame {
         initComponents();
         jScrollPane2.getVerticalScrollBar().setUnitIncrement(5);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome);
+        OpcoesVo.AddOpcoes(ficha, TipoOpcao, BotoesGrupo, OpcaoPainel, ArrayNome, CriarRacaLabel, personagemCaminho, OpcaoLabelFicha);
         OpcoesVo.SairP(personagemCaminho, ficha, BotaoSair, OpcaoLabelFicha, TipoOpcao);
     }
 
@@ -40,6 +40,7 @@ public class Opcoes extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         OpcaoContainer = new javax.swing.JPanel();
         OpcaoPainel = new javax.swing.JPanel();
+        CriarRacaLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -96,6 +97,11 @@ public class Opcoes extends javax.swing.JFrame {
 
         jScrollPane2.setViewportView(OpcaoContainer);
 
+        CriarRacaLabel.setForeground(new java.awt.Color(101, 219, 219));
+        CriarRacaLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CriarRacaLabel.setText("Criar");
+        CriarRacaLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -103,6 +109,8 @@ public class Opcoes extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(BotaoSair)
+                .addGap(18, 18, 18)
+                .addComponent(CriarRacaLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(59, 59, 59)
@@ -115,7 +123,9 @@ public class Opcoes extends javax.swing.JFrame {
                 .addGap(53, 53, 53)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
-                .addComponent(BotaoSair)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BotaoSair)
+                    .addComponent(CriarRacaLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20))
         );
 
@@ -197,6 +207,7 @@ public class Opcoes extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotaoSair;
     private javax.swing.ButtonGroup BotoesGrupo;
+    private javax.swing.JLabel CriarRacaLabel;
     private javax.swing.JPanel OpcaoContainer;
     private javax.swing.JPanel OpcaoPainel;
     private javax.swing.JPanel jPanel1;

@@ -6,6 +6,7 @@
         "D": "btgln1ldr4mbderngsfenvddqqic_character.png",
         "E": "btgln1ldr4mbderngsfenvddqqalliesOrganizations.png",
         "uuid": "btgln1ldr4mbderngsfenvddqq",
+        "A1": 17,
         "id": 0,
         "a": "Kodlack Baraja",
         "b": "B1FE7F0F4A37B7F5EE79CD46968D1917",
@@ -28,7 +29,7 @@
         "1": "castanho",
         "r": 1000,
         "2": "q7plhnc5lrg509ri8sm699a97m",
-        "3": "sábio",
+        "3": "Sábio",
         "s": 0,
         "t": 19,
         "4": "Eu voluntariamente escuto cada lado, e seus argumentos, \r\nantes de tomar uma decisão final.",
@@ -85,6 +86,7 @@
             "b": 10,
             "c": false,
             "d": "btgln1ldr4mbderngsfenvddqq",
+            "l": 0,
             "uuid": "pqagsu0khi67ibfseesi86td0u"
         },
         {
