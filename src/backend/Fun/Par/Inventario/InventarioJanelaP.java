@@ -432,7 +432,7 @@ public class InventarioJanelaP {
             protected void done() {
                 try {
                     get();
-                    ExibirOpcoes(TipoItem, PainelItens, OpcoesVetor, gbc, null, itens);
+                    ExibirOpcoes(TipoItem, PainelItens, OpcoesVetor, gbc, Search.getText(), itens);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -457,7 +457,7 @@ public class InventarioJanelaP {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String NewOpcao = (String) OpcaoSelect.getSelectedItem();
-                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, null, itens);
+                ExibirOpcoes(NewOpcao, PainelItens, OpcoesVetor, gbc, Search.getText(), itens);
                 Search.setText("");
             }
         });

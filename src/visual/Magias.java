@@ -8,6 +8,7 @@ import org.json.*;
 import backend.Fun.Par.Magias.NewMagia;
 import backend.Fun.Par.Magias.MagiasJanelaP;
 import static backend.Fun.Par.Magias.MagiasPanelP.MagiasPanelP;
+import static backend.Fun.Par.SearchP.SearchP;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -23,8 +24,9 @@ public class Magias extends javax.swing.JFrame {
     public Magias(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasFicha, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PainelMagiasTela, JSONArray OpcoesComboBox, JPanel PmagiasT, int LvlMagia, JSONArray ClassesMagias) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, ClassesMagias);
+        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, ClassesMagias, Search);
         NewMagia.NewMagia(personagemCaminho, ficha, PmagiasT, PainelMagiasTela, PainelMagiasFicha, Magias, OpcoesComboBox, ClassesMagias, CaminhoArquivo, CriarNovasMagias, LvlMagia);
+        SearchP(Search, Delete);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -52,6 +54,8 @@ public class Magias extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         AddNovasMagias = new javax.swing.JLabel();
         CriarNovasMagias = new javax.swing.JLabel();
+        Search = new javax.swing.JTextField();
+        Delete = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -101,26 +105,39 @@ public class Magias extends javax.swing.JFrame {
         CriarNovasMagias.setText("Criar");
         CriarNovasMagias.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        Search.setBackground(new java.awt.Color(23, 23, 23));
+        Search.setForeground(new java.awt.Color(255, 255, 255));
+        Search.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
+
+        Delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/Search.png"))); // NOI18N
+        Delete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(BotaoSair)
+                .addGap(18, 18, 18)
+                .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 409, Short.MAX_VALUE)
                 .addGap(34, 34, 34))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(116, 116, 116)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(BotaoSair)
-                        .addGap(18, 18, 18)
-                        .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(ClasseSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
-                .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jLabel1)
+                    .addComponent(ClasseSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(34, 34, 34)
+                .addComponent(Search, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addGap(0, 0, 0)
+                .addComponent(Delete)
+                .addGap(116, 116, 116))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -128,15 +145,22 @@ public class Magias extends javax.swing.JFrame {
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ClasseSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addGap(86, 86, 86)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BotaoSair)
-                    .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(ClasseSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 368, Short.MAX_VALUE)
+                        .addGap(86, 86, 86)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(BotaoSair)
+                            .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(24, 24, 24))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Delete)
+                            .addComponent(Search, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -227,7 +251,9 @@ public class Magias extends javax.swing.JFrame {
     private javax.swing.JButton BotaoSair;
     private javax.swing.JComboBox<String> ClasseSelect;
     private javax.swing.JLabel CriarNovasMagias;
+    private javax.swing.JLabel Delete;
     private javax.swing.JPanel PMagias;
+    private javax.swing.JTextField Search;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
