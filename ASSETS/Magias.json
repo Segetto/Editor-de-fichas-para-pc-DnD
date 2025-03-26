@@ -11,7 +11,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "7E144E03069A951CA8CE53EBE1C0FCFD"
+        "uuid": "7E144E03069A951CA8CE53EBE1C0FCFD",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -25,7 +29,8 @@
         "i": "V, S, M (incenso e uma oferenda apropriada para sacrifício à sua religião, juntos valendo, no mínimo, 25 po, consumidos pela magia)",
         "k": 4,
         "l": false,
-        "uuid": "A58BA95790D192AE489036144EE565E4"
+        "uuid": "A58BA95790D192AE489036144EE565E4",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -39,7 +44,11 @@
         "i": "V, S, M (uma pequena fita de tecido branco)",
         "k": 2,
         "l": false,
-        "uuid": "9390D3EA1EE33432BB979A1FA9E88157"
+        "uuid": "9390D3EA1EE33432BB979A1FA9E88157",
+        "z": [
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -53,7 +62,11 @@
         "i": "V, S, M (um pequeno sino e um pequeno fio de prata)",
         "k": 1,
         "l": true,
-        "uuid": "AC8930F20D70092A8894BEC911EBFE5F"
+        "uuid": "AC8930F20D70092A8894BEC911EBFE5F",
+        "z": [
+            "5817BF17BC0F7F865E685695DFA3EB11",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -67,7 +80,8 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "6461696971A2F3E552FD50E9F3CC81C3"
+        "uuid": "6461696971A2F3E552FD50E9F3CC81C3",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -81,7 +95,8 @@
         "i": "V, S, M (uma aljava contendo, pelo menos, uma munição)",
         "k": 5,
         "l": false,
-        "uuid": "013555D07823A33E074664221DD0CD9D"
+        "uuid": "013555D07823A33E074664221DD0CD9D",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -95,7 +110,11 @@
         "i": "V, S, M (uma argola de jade valendo, no mínimo, 1.500 po, que você deve colocar na sua cabeça antes de conjurar a magia)",
         "k": 9,
         "l": false,
-        "uuid": "B9D603A1C7092104C2042BD6530600D6"
+        "uuid": "B9D603A1C7092104C2042BD6530600D6",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -109,7 +128,8 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "8BFDC7B8D6CE562C7BA41A049E3C78BC"
+        "uuid": "8BFDC7B8D6CE562C7BA41A049E3C78BC",
+        "z": ["5C7EC183E8C43F9D1A6C44645CAB39AC"]
     },
     {
         "a": "pt",
@@ -123,7 +143,13 @@
         "i": "S, M (uma pequena quantidade de maquiagem aplicada ao rosto durante a conjuração da magia)",
         "k": 0,
         "l": false,
-        "uuid": "081F3F35EC37CC90EC7A75EBC62C2381"
+        "uuid": "081F3F35EC37CC90EC7A75EBC62C2381",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -137,7 +163,12 @@
         "i": "V, S, M (um punhado de comida)",
         "k": 1,
         "l": false,
-        "uuid": "75812B33EECAF2CBE5C84075ABC7C4E0"
+        "uuid": "75812B33EECAF2CBE5C84075ABC7C4E0",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -151,7 +182,12 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "3B178614E5C98E4AABC33EADAF41B075"
+        "uuid": "3B178614E5C98E4AABC33EADAF41B075",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -165,7 +201,13 @@
         "i": "V, S, M (uma joia valendo, no mínimo, 1.000 po, consumida pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "2829F1537ACAD13C22658AFC00A1B96A"
+        "uuid": "2829F1537ACAD13C22658AFC00A1B96A",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -179,7 +221,13 @@
         "i": "V, S, M (uma rolha)",
         "k": 3,
         "l": true,
-        "uuid": "3C6AB66562A7DA8D6FAE596D77B39596"
+        "uuid": "3C6AB66562A7DA8D6FAE596D77B39596",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -193,7 +241,11 @@
         "i": "V, S, M (uma gota de sangue, um pedaço de carne e uma punhado de pó de osso)",
         "k": 3,
         "l": false,
-        "uuid": "4B956A58525678C1274E045B4D5C1557"
+        "uuid": "4B956A58525678C1274E045B4D5C1557",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -207,7 +259,12 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "6F468FEFEF14E5DB445B2DCBE9194C5A"
+        "uuid": "6F468FEFEF14E5DB445B2DCBE9194C5A",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -221,7 +278,8 @@
         "i": "V, S, M (ou um pedaço de alume embebido em vinagre para o efeito de antipatia, ou uma gota de mel para o efeito de simpatia)",
         "k": 8,
         "l": false,
-        "uuid": "5103BCE546F8BDFF1BB296432B59BF75"
+        "uuid": "5103BCE546F8BDFF1BB296432B59BF75",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -235,7 +293,13 @@
         "i": "V, S, M (pelo ou penas de uma besta)",
         "k": 2,
         "l": false,
-        "uuid": "DA5B9B65F30BA618E5A7FBA816BA898E"
+        "uuid": "DA5B9B65F30BA618E5A7FBA816BA898E",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -249,7 +313,11 @@
         "i": "V, S, M (um pergaminho de representação ou uma estatueta esculpida para se parecer com o alvo e um componente especial, que varia de acordo com a versão da magia que você escolher, valendo, no mínimo, 500 po por Dado de Vida)",
         "k": 9,
         "l": false,
-        "uuid": "C637E745D075B3C20065CA5197791D31"
+        "uuid": "C637E745D075B3C20065CA5197791D31",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "BE7427B68511031EFF6654CA8EC058E4"
+        ]
     },
     {
         "a": "pt",
@@ -263,7 +331,8 @@
         "i": "V, S, M (um baú requintado, de 90 cm por 60 cm por 60 cm, construído com materiais raros valendo, no mínimo, 5.000 po e uma réplica Miúda feita do mesmo material valendo, no mínimo, 50 po)",
         "k": 4,
         "l": false,
-        "uuid": "A04770561EAEBF6AC48274EDA8B5239F"
+        "uuid": "A04770561EAEBF6AC48274EDA8B5239F",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -277,7 +346,8 @@
         "i": "V, S, M (um pouco de pele de porco ou manteiga)",
         "k": 1,
         "l": false,
-        "uuid": "6D90C935104825FC27B88238C0AE9E63"
+        "uuid": "6D90C935104825FC27B88238C0AE9E63",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -291,7 +361,11 @@
         "i": "V, S, M (um pedaço de couro curado)",
         "k": 1,
         "l": false,
-        "uuid": "913110B21AFAB0096EE452EEE85F16D4"
+        "uuid": "913110B21AFAB0096EE452EEE85F16D4",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -305,7 +379,8 @@
         "i": "V, S, M (um copo de água)",
         "k": 1,
         "l": false,
-        "uuid": "DB795D9ECE6324229865BC86AF1E18DA"
+        "uuid": "DB795D9ECE6324229865BC86AF1E18DA",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -319,7 +394,8 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "3D45EC809670CD45AC07472E42CF9C3B"
+        "uuid": "3D45EC809670CD45AC07472E42CF9C3B",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -333,7 +409,8 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "33DE37E5F9E6C396768B6F8142F423D7"
+        "uuid": "33DE37E5F9E6C396768B6F8142F423D7",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -347,7 +424,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "DB066DD3DEA9BD9E209A0A41978CDA49"
+        "uuid": "DB066DD3DEA9BD9E209A0A41978CDA49",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -361,7 +442,8 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "4AFF9CF5B60182F368BF638F1B34C35C"
+        "uuid": "4AFF9CF5B60182F368BF638F1B34C35C",
+        "z": ["5C7EC183E8C43F9D1A6C44645CAB39AC"]
     },
     {
         "a": "pt",
@@ -375,7 +457,8 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "D94C4F46C0605FA79EE16FD83507B2BD"
+        "uuid": "D94C4F46C0605FA79EE16FD83507B2BD",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -389,7 +472,13 @@
         "i": "S",
         "k": 0,
         "l": false,
-        "uuid": "A42DFC3D9F3046A5AD386E7C917FEAFD"
+        "uuid": "A42DFC3D9F3046A5AD386E7C917FEAFD",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -403,7 +492,13 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "864CE425DF4FE2E48D9B8F5A61CE48A4"
+        "uuid": "864CE425DF4FE2E48D9B8F5A61CE48A4",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -417,7 +512,8 @@
         "i": "V, S, M (varetas, ossos ou objetos similarmente marcados valendo, no mínimo, 25 po)",
         "k": 2,
         "l": true,
-        "uuid": "8C1EE7076E401D5C94F797AE707B9AFF"
+        "uuid": "8C1EE7076E401D5C94F797AE707B9AFF",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -431,7 +527,11 @@
         "i": "V, S, M (um pouco de pó de ferro)",
         "k": 2,
         "l": false,
-        "uuid": "7C44EE139B76E35DA43A3439E64DDDFE"
+        "uuid": "7C44EE139B76E35DA43A3439E64DDDFE",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -445,7 +545,8 @@
         "i": "V",
         "k": 4,
         "l": false,
-        "uuid": "ADAE27C6ED8EB99C9178EE8ECF60F3E2"
+        "uuid": "ADAE27C6ED8EB99C9178EE8ECF60F3E2",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -459,7 +560,8 @@
         "i": "V",
         "k": 4,
         "l": false,
-        "uuid": "C58716088734C6BD505616FC57C2875B"
+        "uuid": "C58716088734C6BD505616FC57C2875B",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -473,7 +575,8 @@
         "i": "V",
         "k": 3,
         "l": false,
-        "uuid": "F146003D14A758373361390A5BD8F9E4"
+        "uuid": "F146003D14A758373361390A5BD8F9E4",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -487,7 +590,8 @@
         "i": "V, S, M (um pequeno quadrado de seda)",
         "k": 2,
         "l": false,
-        "uuid": "95D5CE946BBB9DC3CC614769F263ECB7"
+        "uuid": "95D5CE946BBB9DC3CC614769F263ECB7",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -501,7 +605,8 @@
         "i": "V, S, M (um minúsculo relicário valendo, no mínimo, 1.000 po, contendo uma relíquia sagrada, como um pedaço de tecido do robe de um santo ou um pedaço de pergaminho de um texto religioso)",
         "k": 8,
         "l": false,
-        "uuid": "51598C199464B9FD2A699A906EA84EBF"
+        "uuid": "51598C199464B9FD2A699A906EA84EBF",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -515,7 +620,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "5CD5CF8282F4C26D025572A2C3434196"
+        "uuid": "5CD5CF8282F4C26D025572A2C3434196",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -529,7 +635,13 @@
         "i": "V, S, M (um item desagradável ao alvo) Duração: Concentração, até 1 minuto",
         "k": 4,
         "l": false,
-        "uuid": "21EC9BB30469705A18D7729DDFE2F879"
+        "uuid": "21EC9BB30469705A18D7729DDFE2F879",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -543,7 +655,8 @@
         "i": "V, S, M (uma tigela encrustada de gemas valendo, no mínimo, 1.000 po, que é consumida pela magia)",
         "k": 6,
         "l": false,
-        "uuid": "60FF3758DEB688EB65F268651B74D2B4"
+        "uuid": "60FF3758DEB688EB65F268651B74D2B4",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -557,7 +670,8 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "2AA6CA6BD1290EA4102163AC9BCD264F"
+        "uuid": "2AA6CA6BD1290EA4102163AC9BCD264F",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -571,7 +685,11 @@
         "i": "V, S, M (um borrifo de água benta)",
         "k": 1,
         "l": false,
-        "uuid": "1D55F5B961AEE6E9E4A6B10E5F765AD8"
+        "uuid": "1D55F5B961AEE6E9E4A6B10E5F765AD8",
+        "z": [
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -585,7 +703,11 @@
         "i": "V, S, M (um pedaço de favo de mel e pó de jade valendo, no mínimo, 10 po, consumidos pela magia)",
         "k": 2,
         "l": true,
-        "uuid": "6D7258B591A2E22ECEF34F0956AD00D1"
+        "uuid": "6D7258B591A2E22ECEF34F0956AD00D1",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -599,7 +721,11 @@
         "i": "V, S, M (uma minúscula bola de guano de morcego e enxofre)",
         "k": 3,
         "l": false,
-        "uuid": "C43E23AB89939917A60FBE629D9F722A"
+        "uuid": "C43E23AB89939917A60FBE629D9F722A",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -613,7 +739,11 @@
         "i": "V, S, M (uma minúscula bola de guano de morcego e enxofre)",
         "k": 7,
         "l": false,
-        "uuid": "E54E3CFD440B57C54523C62295E5C0A6"
+        "uuid": "E54E3CFD440B57C54523C62295E5C0A6",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -627,7 +757,11 @@
         "i": "V, S, M (um raminho de visco)",
         "k": 1,
         "l": false,
-        "uuid": "A5BAEDA0C4AB2BA334B5CF3494C650D2"
+        "uuid": "A5BAEDA0C4AB2BA334B5CF3494C650D2",
+        "z": [
+            "5817BF17BC0F7F865E685695DFA3EB11",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -641,7 +775,8 @@
         "i": "V, S, M (visco, uma folha de trevo e uma clava ou bordão)",
         "k": 0,
         "l": false,
-        "uuid": "3538C4EAF3C9186D40C89E1EEBA52432"
+        "uuid": "3538C4EAF3C9186D40C89E1EEBA52432",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -655,7 +790,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "A7C06200627C5751A674CA469C3CB3A5"
+        "uuid": "A7C06200627C5751A674CA469C3CB3A5",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -669,7 +805,8 @@
         "i": "V, S, M (o olho petrificado de um tritão)",
         "k": 1,
         "l": false,
-        "uuid": "22ABDBEA2DB5F2869E8ABEA3CFE744A8"
+        "uuid": "22ABDBEA2DB5F2869E8ABEA3CFE744A8",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -683,7 +820,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "92E31F68EBDA08EFE241515900BE481F"
+        "uuid": "92E31F68EBDA08EFE241515900BE481F",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -697,7 +838,8 @@
         "i": "V, S, M (fogo e água benta)",
         "k": 6,
         "l": false,
-        "uuid": "6697C3AF6A27B0F944B4F1B0126252FB"
+        "uuid": "6697C3AF6A27B0F944B4F1B0126252FB",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -711,7 +853,11 @@
         "i": "V, S, M (um punhado de pó de ferro ou limalhas de ferro)",
         "k": 8,
         "l": false,
-        "uuid": "5FCEC0B9EDFD2290591F67695E8775B9"
+        "uuid": "5FCEC0B9EDFD2290591F67695E8775B9",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -725,7 +871,8 @@
         "i": "V, S, M (um minúsculo apito de prata, um pedaço de osso e um fio)",
         "k": 4,
         "l": false,
-        "uuid": "385A385D5F14C314117829305D2425F1"
+        "uuid": "385A385D5F14C314117829305D2425F1",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -739,7 +886,11 @@
         "i": "V, S, M (uma pitada de cal, água e terra)",
         "k": 6,
         "l": false,
-        "uuid": "0F337CFE6FF44710C5A7CDF4F184B16C"
+        "uuid": "0F337CFE6FF44710C5A7CDF4F184B16C",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -753,7 +904,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "5993AA59A4FB68F318C2DCEF1E026D87"
+        "uuid": "5993AA59A4FB68F318C2DCEF1E026D87",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4"
+        ]
     },
     {
         "a": "pt",
@@ -767,7 +922,12 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "A5DFD562F72CF7CEB4B72589466B29D9"
+        "uuid": "A5DFD562F72CF7CEB4B72589466B29D9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -781,7 +941,11 @@
         "i": "V, S, M (pó de rubi no valor de 50 po, consumido pela magia)",
         "k": 2,
         "l": false,
-        "uuid": "AE300A25C85C7AB5F46439D35A61B026"
+        "uuid": "AE300A25C85C7AB5F46439D35A61B026",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -795,7 +959,8 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "29581850B3E44CECB0F05C8D7307B70C"
+        "uuid": "29581850B3E44CECB0F05C8D7307B70C",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -809,7 +974,8 @@
         "i": "V, S, M (um muda de uma planta com espinhos)",
         "k": 0,
         "l": false,
-        "uuid": "04B4C11E5905F3E62063C4B45A65D4C6"
+        "uuid": "04B4C11E5905F3E62063C4B45A65D4C6",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -823,7 +989,11 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "30AE833DA043CE9DBADA25E11567510B"
+        "uuid": "30AE833DA043CE9DBADA25E11567510B",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -837,7 +1007,11 @@
         "i": "V, S, M (o pó de uma pérola negra esmagada valendo, no mínimo, 500 po)",
         "k": 6,
         "l": false,
-        "uuid": "9145A4D2501E55A1EA5484128BF11FE8"
+        "uuid": "9145A4D2501E55A1EA5484128BF11FE8",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -851,7 +1025,8 @@
         "i": "V",
         "k": 5,
         "l": false,
-        "uuid": "45139CC39B49EB46A4449B835A3593E5"
+        "uuid": "45139CC39B49EB46A4449B835A3593E5",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -865,7 +1040,12 @@
         "i": "V, M (giz e tintas raros infundidos com pedras preciosas no valor de 50 po, consumidos pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "052E0A2692EF852CEF910E548240D760"
+        "uuid": "052E0A2692EF852CEF910E548240D760",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -879,7 +1059,12 @@
         "i": "V, S, M (água benta ou pó de prata e ferro valendo, no mínimo, 100 po, consumidos pela magia)",
         "k": 3,
         "l": false,
-        "uuid": "D91A433FD3EE91BDA4A398A57754B077"
+        "uuid": "D91A433FD3EE91BDA4A398A57754B077",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -893,7 +1078,12 @@
         "i": "V, S, M (um foco valendo, no mínimo, 100 po, também um chifre cravejado de joias para ouvir ou um olho de vidro para ver)",
         "k": 3,
         "l": false,
-        "uuid": "1EAAC1D8B45DE5AC6BC2C2F99FD3D0D9"
+        "uuid": "1EAAC1D8B45DE5AC6BC2C2F99FD3D0D9",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -907,7 +1097,8 @@
         "i": "V, S, M (um diamante valendo, no mínimo, 1.000 po e, no mínimo 3 centímetros cúbicos de carne da criatura que será clonada, consumida pela magia, e um receptáculo valendo, no mínimo, 2.000 po que tenha uma tampa selada e seja grande o suficiente para comportar uma criatura Média, como uma urna enorme, um caixão, um cisto cheio de lama no solo ou um recipiente de cristal cheio de água salgada)",
         "k": 8,
         "l": false,
-        "uuid": "B8BA7D0428012E5E18F3CA7462FCA004"
+        "uuid": "B8BA7D0428012E5E18F3CA7462FCA004",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -921,7 +1112,8 @@
         "i": "V, S, M (uma pitada de enxofre)",
         "k": 5,
         "l": false,
-        "uuid": "14EE0339C792A96AF30877538F46FFB7"
+        "uuid": "14EE0339C792A96AF30877538F46FFB7",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -935,7 +1127,11 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "EDB21157CDEB3D9F6B5934C62559488B"
+        "uuid": "EDB21157CDEB3D9F6B5934C62559488B",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -949,7 +1145,13 @@
         "i": "V, S, M (um pitada de fuligem e sal)",
         "k": 1,
         "l": true,
-        "uuid": "ED702D4A745D5060000B0CCC83CD84F1"
+        "uuid": "ED702D4A745D5060000B0CCC83CD84F1",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -963,7 +1165,8 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "093BBC68A8ED3091A435098206B68D13"
+        "uuid": "093BBC68A8ED3091A435098206B68D13",
+        "z": ["4FB3D7A12EA923B5E8EC3CDA14564CD2"]
     },
     {
         "a": "pt",
@@ -977,7 +1180,8 @@
         "i": "V, S, M (incenso e um frasco de água benta ou profana)",
         "k": 5,
         "l": true,
-        "uuid": "75FFCB15BD6D61C1CD6A8CD3E6BE3DB2"
+        "uuid": "75FFCB15BD6D61C1CD6A8CD3E6BE3DB2",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -991,7 +1195,11 @@
         "i": "V, S",
         "k": 5,
         "l": true,
-        "uuid": "2C1F98300126052D945A248B720DE2DA"
+        "uuid": "2C1F98300126052D945A248B720DE2DA",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1005,7 +1213,11 @@
         "i": "V, S, M (um pequeno cristal ou cone de vidro)",
         "k": 5,
         "l": false,
-        "uuid": "B5E8B86115E4B40E6B881E8F993B3060"
+        "uuid": "B5E8B86115E4B40E6B881E8F993B3060",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1019,7 +1231,13 @@
         "i": "V, S, M (três cascas de noz)",
         "k": 4,
         "l": false,
-        "uuid": "EEA6FB492CE6BD1D72DC299BACD849DE"
+        "uuid": "EEA6FB492CE6BD1D72DC299BACD849DE",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1033,7 +1251,12 @@
         "i": "V, S, M (incenso valendo, no mínimo, 250 po, consumido pela magia e quatro tiras de marfim valendo, no mínimo, 50 po cada)",
         "k": 5,
         "l": false,
-        "uuid": "3FFE50554150111F0A4CA41E8AAC5A37"
+        "uuid": "3FFE50554150111F0A4CA41E8AAC5A37",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1047,7 +1270,11 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "14B2959E4266A215D82B1DA364B9CC17"
+        "uuid": "14B2959E4266A215D82B1DA364B9CC17",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1061,7 +1288,8 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "7B974DAAA37694991B0CB2E287575E94"
+        "uuid": "7B974DAAA37694991B0CB2E287575E94",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -1075,7 +1303,11 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "AD95369E7E40747B8C8A78B3644F6B73"
+        "uuid": "AD95369E7E40747B8C8A78B3644F6B73",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1089,7 +1321,11 @@
         "i": "V, S, M (incenso aceso para ar, argila mole para terra, enxofre e fósforo para fogo ou água e areia para água)",
         "k": 5,
         "l": false,
-        "uuid": "7CEA22368FA1F9C39A6A69F7D2896832"
+        "uuid": "7CEA22368FA1F9C39A6A69F7D2896832",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1103,7 +1339,11 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "DAD64703F55472C6B40F0BA79280EEB5"
+        "uuid": "DAD64703F55472C6B40F0BA79280EEB5",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1117,7 +1357,8 @@
         "i": "V, S, M (uma munição ou arma de arremesso)",
         "k": 3,
         "l": false,
-        "uuid": "39B24C2FF0B4C18583801ADF35729623"
+        "uuid": "39B24C2FF0B4C18583801ADF35729623",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -1131,7 +1372,8 @@
         "i": "V, S, M (uma munição ou arma de arremesso)",
         "k": 5,
         "l": false,
-        "uuid": "58C5641AECD254F38A6EAAB509932945"
+        "uuid": "58C5641AECD254F38A6EAAB509932945",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -1145,7 +1387,11 @@
         "i": "V, S, M (um fruto sagrado por criatura invocada)",
         "k": 4,
         "l": false,
-        "uuid": "A7F8904D132D61A24CD24232397222CE"
+        "uuid": "A7F8904D132D61A24CD24232397222CE",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1159,7 +1405,8 @@
         "i": "V, S, M (ervas, óleos e incenso valendo, no mínimo, 1.000 po, consumidos pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "540B6AD0C5E24E3DAED15E8EB3268F24"
+        "uuid": "540B6AD0C5E24E3DAED15E8EB3268F24",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -1173,7 +1420,13 @@
         "i": "V, S, M (dois ímãs)",
         "k": 0,
         "l": false,
-        "uuid": "D7F274F39311DA19FB7367EB5D0DC37C"
+        "uuid": "D7F274F39311DA19FB7367EB5D0DC37C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -1187,7 +1440,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "CEDC7022055F0D67B567A86FFC8A464C"
+        "uuid": "CEDC7022055F0D67B567A86FFC8A464C",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -1201,7 +1455,11 @@
         "i": "V",
         "k": 5,
         "l": true,
-        "uuid": "E8AC4BC45E2731254ED60CC53AED7567"
+        "uuid": "E8AC4BC45E2731254ED60CC53AED7567",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1215,7 +1473,8 @@
         "i": "V, S, M (uma estátua sua esculpida em marfim e decorada com gemas valendo, no mínimo, 1.500 po)",
         "k": 6,
         "l": false,
-        "uuid": "5031252F0444D3EF9E0A32F538153CA2"
+        "uuid": "5031252F0444D3EF9E0A32F538153CA2",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -1229,7 +1488,12 @@
         "i": "S",
         "k": 3,
         "l": false,
-        "uuid": "255A48F0F9B1552F3485A5D6221F5F76"
+        "uuid": "255A48F0F9B1552F3485A5D6221F5F76",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1243,7 +1507,12 @@
         "i": "V, S, M (uma gota de água e uma pitada de poeira)",
         "k": 4,
         "l": false,
-        "uuid": "495EE72C130C2D4903135FC43D8B5CD7"
+        "uuid": "495EE72C130C2D4903135FC43D8B5CD7",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1257,7 +1526,12 @@
         "i": "V, S, M (incenso aceso e pedaços de terra e madeira misturados em água)",
         "k": 8,
         "l": false,
-        "uuid": "240CA5B489D2B82BA198D1F7C70D827D"
+        "uuid": "240CA5B489D2B82BA198D1F7C70D827D",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1271,7 +1545,8 @@
         "i": "V, S, M (carvão, incenso e ervas no valor de 10 po, que devem ser consumidos pelo fogo em um braseiro de bronze)",
         "k": 1,
         "l": true,
-        "uuid": "CAC28CFC119D235DA93800FA652CB0D3"
+        "uuid": "CAC28CFC119D235DA93800FA652CB0D3",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -1285,7 +1560,8 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "FE54A661A7E7BF97B0A304B7B113ED47"
+        "uuid": "FE54A661A7E7BF97B0A304B7B113ED47",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1299,7 +1575,8 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "8087318F94CEF96DD3AE64871F4B6AED"
+        "uuid": "8087318F94CEF96DD3AE64871F4B6AED",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -1313,7 +1590,8 @@
         "i": "V, S, M (quatro ou mais flechas ou virotes)",
         "k": 2,
         "l": false,
-        "uuid": "8781D2B68F241C058E34179ECF200005"
+        "uuid": "8781D2B68F241C058E34179ECF200005",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -1327,7 +1605,13 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "E2060061E984FF6943C53A18A758ADFB"
+        "uuid": "E2060061E984FF6943C53A18A758ADFB",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1341,7 +1625,11 @@
         "i": "V, S, M (um pouco de pelo; um pedaço de âmbar, vidro ou um bastão de cristal; e três pinos de prata)",
         "k": 6,
         "l": false,
-        "uuid": "DBE9287E3D1C58F62BF507888670E3C6"
+        "uuid": "DBE9287E3D1C58F62BF507888670E3C6",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1355,7 +1643,11 @@
         "i": "V, S, M (sete espinhos afiados ou sete gravetos, todos com uma ponta afiada)",
         "k": 2,
         "l": false,
-        "uuid": "257817B5D2D47F1C862C0DF419BAF36D"
+        "uuid": "257817B5D2D47F1C862C0DF419BAF36D",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1369,7 +1661,11 @@
         "i": "V, S, M (um pequeno pedaço de material do mesmo tipo do item que você planeja criar)",
         "k": 5,
         "l": false,
-        "uuid": "20FB1ECBA7DD3A766923FA7F71DCFC64"
+        "uuid": "20FB1ECBA7DD3A766923FA7F71DCFC64",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1383,7 +1679,11 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "F524BA8DCE81DE11C95BDF304A7F481E"
+        "uuid": "F524BA8DCE81DE11C95BDF304A7F481E",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -1397,7 +1697,8 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "FD2F95C0BC974E7778EC4350AC036764"
+        "uuid": "FD2F95C0BC974E7778EC4350AC036764",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -1411,7 +1712,12 @@
         "i": "V, S, M (um pote de barro cheio de terra de sepultura, um pote de barro cheio de água salobra, e uma ônix negra no valor de 150 po, para cada corpo)",
         "k": 6,
         "l": false,
-        "uuid": "EACE85952A34D685C50F5A98324079A1"
+        "uuid": "EACE85952A34D685C50F5A98324079A1",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1425,7 +1731,11 @@
         "i": "V, S, M (uma gota de água se estiver criando ou alguns grãos de areia se estiver destruindo)",
         "k": 1,
         "l": false,
-        "uuid": "A08D2274C037A4F77C3F091544D7EC99"
+        "uuid": "A08D2274C037A4F77C3F091544D7EC99",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1439,7 +1749,8 @@
         "i": "V, S, M (algumas sementes de gergelim)",
         "k": 5,
         "l": false,
-        "uuid": "499EB1D7DEAEC3F345BE97921F1C53CA"
+        "uuid": "499EB1D7DEAEC3F345BE97921F1C53CA",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -1453,7 +1764,8 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "EB7EDB6F3DFE27CCE6A6B7E49AAE5EE7"
+        "uuid": "EB7EDB6F3DFE27CCE6A6B7E49AAE5EE7",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -1467,7 +1779,11 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "CA7FC11F65656EA7F8F147BDB56E03B7"
+        "uuid": "CA7FC11F65656EA7F8F147BDB56E03B7",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1481,7 +1797,8 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "8FC7AB5DFAB7D8A274A9B4D6204B8AB5"
+        "uuid": "8FC7AB5DFAB7D8A274A9B4D6204B8AB5",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -1495,7 +1812,14 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "310408F2A235F38ADF2CEECADF2FCC5F"
+        "uuid": "310408F2A235F38ADF2CEECADF2FCC5F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1509,7 +1833,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "C5F812589B86A4F99E3F43EB1A036CA9"
+        "uuid": "C5F812589B86A4F99E3F43EB1A036CA9",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1523,7 +1851,11 @@
         "i": "V",
         "k": 6,
         "l": false,
-        "uuid": "8EC4F1767F7FAF563C9A6BAD4F67596D"
+        "uuid": "8EC4F1767F7FAF563C9A6BAD4F67596D",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1537,7 +1869,12 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "632C25CE563C03FC66BD69176F6ED17F"
+        "uuid": "632C25CE563C03FC66BD69176F6ED17F",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1551,7 +1888,11 @@
         "i": "V",
         "k": 9,
         "l": false,
-        "uuid": "1A8FA2C63EA3CF2418AD3324FCA98AF0"
+        "uuid": "1A8FA2C63EA3CF2418AD3324FCA98AF0",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1565,7 +1906,11 @@
         "i": "V, S, M (um ímã e uma pitada de poeira)",
         "k": 6,
         "l": false,
-        "uuid": "9E5C75094D413C4B92A056290102AAAB"
+        "uuid": "9E5C75094D413C4B92A056290102AAAB",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1579,7 +1924,13 @@
         "i": "V, S, M (uma lasca de mica)",
         "k": 2,
         "l": false,
-        "uuid": "67FF6DB89D1B786285786F53E30FF167"
+        "uuid": "67FF6DB89D1B786285786F53E30FF167",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1593,7 +1944,11 @@
         "i": "V, S, M (uma ágata valendo, no mínimo, 1.000 po que será consumida pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "A5F4CD2FB8CD59B0325FD0DFC895913F"
+        "uuid": "A5F4CD2FB8CD59B0325FD0DFC895913F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1607,7 +1962,11 @@
         "i": "S",
         "k": 5,
         "l": false,
-        "uuid": "3AB078CBE947EF8F2FFB09A0A480B520"
+        "uuid": "3AB078CBE947EF8F2FFB09A0A480B520",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1621,7 +1980,8 @@
         "i": "V",
         "k": 5,
         "l": false,
-        "uuid": "282FD3CEB221D0A4A87CBFBBA75709EC"
+        "uuid": "282FD3CEB221D0A4A87CBFBBA75709EC",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1635,7 +1995,8 @@
         "i": "V",
         "k": 3,
         "l": false,
-        "uuid": "8572FEC1215FA63D0FDB96710C984556"
+        "uuid": "8572FEC1215FA63D0FDB96710C984556",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1649,7 +2010,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "F2921D37B38D4368C0D6C1D01F84925A"
+        "uuid": "F2921D37B38D4368C0D6C1D01F84925A",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1663,7 +2025,8 @@
         "i": "V",
         "k": 4,
         "l": false,
-        "uuid": "29ECF00AF56A65DCFFC55E6DEDB39FC8"
+        "uuid": "29ECF00AF56A65DCFFC55E6DEDB39FC8",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1677,7 +2040,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "828FCDC31C9108BFB26612B97BAB76F2"
+        "uuid": "828FCDC31C9108BFB26612B97BAB76F2",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1691,7 +2055,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "9F55DA013FC5C39B4F4589370B14C3D3"
+        "uuid": "9F55DA013FC5C39B4F4589370B14C3D3",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1705,7 +2070,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "6780C8BD57B1CEA7382525F02B3BD396"
+        "uuid": "6780C8BD57B1CEA7382525F02B3BD396",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -1719,7 +2088,13 @@
         "i": "V, S",
         "k": 1,
         "l": true,
-        "uuid": "C1209262D330D894FB987435FFB10591"
+        "uuid": "C1209262D330D894FB987435FFB10591",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -1733,7 +2108,12 @@
         "i": "V, S, M (um pedaço de cobre)",
         "k": 2,
         "l": false,
-        "uuid": "AC69D1F15940BDBA00603BF66996AB7B"
+        "uuid": "AC69D1F15940BDBA00603BF66996AB7B",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1747,7 +2127,11 @@
         "i": "V, S, M (uma folha de teixo)",
         "k": 1,
         "l": true,
-        "uuid": "B624D1D798B758513F43393C74FD8455"
+        "uuid": "B624D1D798B758513F43393C74FD8455",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1761,7 +2145,12 @@
         "i": "V, S, M (um pouco de pó de diamante valendo 25 po polvilhado sobre o alvo, consumido pela magia)",
         "k": 3,
         "l": false,
-        "uuid": "864047C40D7E55B560F866312C60C656"
+        "uuid": "864047C40D7E55B560F866312C60C656",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1775,7 +2164,8 @@
         "i": "V, S, M (uma gota de mercúrio)",
         "k": 1,
         "l": true,
-        "uuid": "E454C7FC89DD8F2368A55DB2C76C251B"
+        "uuid": "E454C7FC89DD8F2368A55DB2C76C251B",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -1789,7 +2179,12 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "C18E154304CDDA09A91EB0AB26AC7580"
+        "uuid": "C18E154304CDDA09A91EB0AB26AC7580",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1803,7 +2198,13 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "384E069FF85F145350B24271D833DFF7"
+        "uuid": "384E069FF85F145350B24271D833DFF7",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1817,7 +2218,12 @@
         "i": "V, S, M (água benta ou pó de prata e ferro)",
         "k": 5,
         "l": false,
-        "uuid": "75861149DB24069ABBA98F74C2F8E05C"
+        "uuid": "75861149DB24069ABBA98F74C2F8E05C",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -1831,7 +2237,8 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "6EAFC74319382E7FE35BC7D5215C391D"
+        "uuid": "6EAFC74319382E7FE35BC7D5215C391D",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -1845,7 +2252,11 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "39E391A5CC0521DE61292E023EAAC280"
+        "uuid": "39E391A5CC0521DE61292E023EAAC280",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -1859,7 +2270,13 @@
         "i": "V, S",
         "k": 8,
         "l": false,
-        "uuid": "C2A126BE06A4DA75AB9135D8F76A2C8D"
+        "uuid": "C2A126BE06A4DA75AB9135D8F76A2C8D",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1873,7 +2290,12 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "B464F35F174EDCADBC4E13B88D210386"
+        "uuid": "B464F35F174EDCADBC4E13B88D210386",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1887,7 +2309,8 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "D4BBA30040AC69AD5744E0D2F25198AF"
+        "uuid": "D4BBA30040AC69AD5744E0D2F25198AF",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -1901,7 +2324,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "17ED576A46FD46D6FF6FC7B2171D9B1F"
+        "uuid": "17ED576A46FD46D6FF6FC7B2171D9B1F",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -1915,7 +2339,8 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "6597AB10724C4CB3BA591DAAD3E6DC01"
+        "uuid": "6597AB10724C4CB3BA591DAAD3E6DC01",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -1929,7 +2354,12 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "A83FB365FC59804AA1DCE8FF8564691B"
+        "uuid": "A83FB365FC59804AA1DCE8FF8564691B",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -1943,7 +2373,12 @@
         "i": "V, S, M (um conjunto de ferramentas de adivinhação \u2013 como ossos, bastões de marfim, dentes ou runas esculpidas \u2013 no valor de 100 po e um objeto do lugar que você deseja encontrar)",
         "k": 6,
         "l": false,
-        "uuid": "94D6260C8C103F2DBDE44E495A4F1119"
+        "uuid": "94D6260C8C103F2DBDE44E495A4F1119",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -1957,7 +2392,13 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "B67E49FD76E981E0F19FBE457D7D4D15"
+        "uuid": "B67E49FD76E981E0F19FBE457D7D4D15",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1971,7 +2412,13 @@
         "i": "V, S, M (um punhado de barro, cristal, vidro ou esferas minerais)",
         "k": 8,
         "l": false,
-        "uuid": "55ADF9FB227237B55B5B6EA6BC71B222"
+        "uuid": "55ADF9FB227237B55B5B6EA6BC71B222",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1985,7 +2432,12 @@
         "i": "V, S, M (um pequeno e fino pedaço de fio de cobre)",
         "k": 3,
         "l": false,
-        "uuid": "4856D5085D757E1E8837750F8C032FE9"
+        "uuid": "4856D5085D757E1E8837750F8C032FE9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -1999,7 +2451,12 @@
         "i": "S, M (uma tinta à base de chumbo valendo, no mínimo, 10 po, que é consumida pela magia)",
         "k": 1,
         "l": true,
-        "uuid": "0DB52502E857A0F0E601DF9B5D91CF6C"
+        "uuid": "0DB52502E857A0F0E601DF9B5D91CF6C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2013,7 +2470,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "99B6CF62F2751F957EC1C373C3358934"
+        "uuid": "99B6CF62F2751F957EC1C373C3358934",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2027,7 +2488,11 @@
         "i": "V, S, M (um pequeno pergaminho com alguns textos sagrados escritos nele)",
         "k": 1,
         "l": false,
-        "uuid": "9EFD38162B4C9D4DC736E2A23D3491E9"
+        "uuid": "9EFD38162B4C9D4DC736E2A23D3491E9",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -2041,7 +2506,8 @@
         "i": "V, S, M (um pouco de fósforo ou um vaga-lume)",
         "k": 4,
         "l": false,
-        "uuid": "8F4EEA786D078C859588132DF69C9E6C"
+        "uuid": "8F4EEA786D078C859588132DF69C9E6C",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2055,7 +2521,12 @@
         "i": "V, M (pelo de morcego e uma gota de piche ou pedaço de carvão)",
         "k": 2,
         "l": false,
-        "uuid": "EBDCA97236B8C3414F475C14C8B9DB10"
+        "uuid": "EBDCA97236B8C3414F475C14C8B9DB10",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2069,7 +2540,8 @@
         "i": "V, S, M (uma pequena esfera de cristal)",
         "k": 6,
         "l": false,
-        "uuid": "62F642901E874F1166184C6C8E6DE1BC"
+        "uuid": "62F642901E874F1166184C6C8E6DE1BC",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2083,7 +2555,11 @@
         "i": "V, S, M (um pouco de seco, uma pitada de enxofre e uma camada de pó de ferro)",
         "k": 2,
         "l": false,
-        "uuid": "0343FB0F2FBD9CE7C93C5ADDE3780695"
+        "uuid": "0343FB0F2FBD9CE7C93C5ADDE3780695",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2097,7 +2573,8 @@
         "i": "V, S, M (uma peça hemisférica de cristal transparente e uma peça hemisférica que combine de goma arábica)",
         "k": 4,
         "l": false,
-        "uuid": "21EE1E7401441AAFD81C3D814B78E7D9"
+        "uuid": "21EE1E7401441AAFD81C3D814B78E7D9",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2111,7 +2588,11 @@
         "i": "V, S, M (espada de platina em miniatura com cabo e pomo de cobre e zinco valendo, no mínimo, 250 po)",
         "k": 7,
         "l": false,
-        "uuid": "FF4C8C18B55A1442B6D947F7E54559E6"
+        "uuid": "FF4C8C18B55A1442B6D947F7E54559E6",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2125,7 +2606,8 @@
         "i": "V, S, M (um símbolo sagrado)",
         "k": 3,
         "l": false,
-        "uuid": "FFE16F9C8A657DB03261DF6260E31196"
+        "uuid": "FFE16F9C8A657DB03261DF6260E31196",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -2139,7 +2621,11 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "8E3C31968FC3121D35360BB763677686"
+        "uuid": "8E3C31968FC3121D35360BB763677686",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2153,7 +2639,11 @@
         "i": "V, S, M (um pedaço de ferro e uma chama)",
         "k": 2,
         "l": false,
-        "uuid": "1BECD79C4ED693D1C620C0F01E79D56A"
+        "uuid": "1BECD79C4ED693D1C620C0F01E79D56A",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -2167,7 +2657,26 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "1EC115C97E51803FF703E584CCB2C37E"
+        "uuid": "1EC115C97E51803FF703E584CCB2C37E",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
+    },
+    {
+        "b": "explosão da megumin",
+        "c": "",
+        "d": "",
+        "e": "",
+        "f": "",
+        "g": "",
+        "i": "",
+        "z": [
+            "A5E89D3735FE621E3F3B4F943079755A",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
+        "k": 1,
+        "l": true,
+        "uuid": "KM6YKRJPV8EYMKTBL1HHTCPXNO1AE1PF"
     },
     {
         "a": "pt",
@@ -2181,7 +2690,12 @@
         "i": "V, S, M (fogo e um pedaço de pedra do sol)",
         "k": 8,
         "l": false,
-        "uuid": "05FAC5D0B77DF06141244E7F4C00348D"
+        "uuid": "05FAC5D0B77DF06141244E7F4C00348D",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2195,7 +2709,8 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "72E416DBC27BAC205D858FAC241AF04B"
+        "uuid": "72E416DBC27BAC205D858FAC241AF04B",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2209,7 +2724,12 @@
         "i": "V, S",
         "k": 1,
         "l": true,
-        "uuid": "C681024B804C13E4BFF309A4D6FBE907"
+        "uuid": "C681024B804C13E4BFF309A4D6FBE907",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -2223,7 +2743,11 @@
         "i": "V, S, M (incenso aceso)",
         "k": 3,
         "l": false,
-        "uuid": "CACC47162C6CA21CD44F53CD196D9B10"
+        "uuid": "CACC47162C6CA21CD44F53CD196D9B10",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -2237,7 +2761,11 @@
         "i": "V, S",
         "k": 1,
         "l": true,
-        "uuid": "A3F3E607C43D7C282D0F63D78CF214C9"
+        "uuid": "A3F3E607C43D7C282D0F63D78CF214C9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -2251,7 +2779,8 @@
         "i": "V, S, M (folha de ruibarbo em pó e o estômago de uma víbora)",
         "k": 2,
         "l": false,
-        "uuid": "F09498D356787C84C22663BE36D883E5"
+        "uuid": "F09498D356787C84C22663BE36D883E5",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2265,7 +2794,8 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "D12713E633246B6E3E09D66C69637D79"
+        "uuid": "D12713E633246B6E3E09D66C69637D79",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -2279,7 +2809,11 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "3D664836CE4B216F31FACE555862A9F3"
+        "uuid": "3D664836CE4B216F31FACE555862A9F3",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -2293,7 +2827,8 @@
         "i": "V, S, M (um tentáculo de polvo em conserva)",
         "k": 3,
         "l": false,
-        "uuid": "9674BD5EE02320857354D0D602272753"
+        "uuid": "9674BD5EE02320857354D0D602272753",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -2307,7 +2842,12 @@
         "i": "V, S, M (um pouco de lã)",
         "k": 2,
         "l": false,
-        "uuid": "05AC0ADC060561E46337B0995AFBEF07"
+        "uuid": "05AC0ADC060561E46337B0995AFBEF07",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2321,7 +2861,13 @@
         "i": "V, S, M (uma pitada de terra de cemitério)",
         "k": 3,
         "l": true,
-        "uuid": "C68BB6D2182FCD2E8918FDCE9D95825C"
+        "uuid": "C68BB6D2182FCD2E8918FDCE9D95825C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2335,7 +2881,13 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "D6E53415629ED887DD35326BB1381053"
+        "uuid": "D6E53415629ED887DD35326BB1381053",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -2349,7 +2901,12 @@
         "i": "V, S, M (um pouco de gaze e um pouco de fumaça)",
         "k": 3,
         "l": false,
-        "uuid": "2347EB170BD2AB8F8162D7D400866076"
+        "uuid": "2347EB170BD2AB8F8162D7D400866076",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2363,7 +2920,8 @@
         "i": "V, S",
         "k": 8,
         "l": false,
-        "uuid": "BF1AAA73DB76B42F39468674D0BACE34"
+        "uuid": "BF1AAA73DB76B42F39468674D0BACE34",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "b": "furia do meu cu",
@@ -2373,6 +2931,13 @@
         "f": "",
         "g": "",
         "i": "",
+        "z": [
+            "A5E89D3735FE621E3F3B4F943079755A",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 3,
         "l": true,
         "uuid": "4174QHJ06Z9NXTETZG4A1M87QFD1NSVP"
@@ -2389,7 +2954,12 @@
         "i": "V, S, M (incenso e pó de diamante valendo, no mínimo, 200 po, consumidos pela magia)",
         "k": 3,
         "l": false,
-        "uuid": "7669DB7AA3A06A06DE1F6B1912E4AC72"
+        "uuid": "7669DB7AA3A06A06DE1F6B1912E4AC72",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2403,7 +2973,11 @@
         "i": "V, S, M (uma perola de vidro ou cristal que se despedaça quando a magia termina)",
         "k": 6,
         "l": false,
-        "uuid": "1807310F2609A3C389B64FA8F34E74D4"
+        "uuid": "1807310F2609A3C389B64FA8F34E74D4",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2417,7 +2991,12 @@
         "i": "V, S, M (um pouco de fósforo ou wychwood ou um inseto luminoso)",
         "k": 0,
         "l": false,
-        "uuid": "BD61C436903DB2D0A88FE7342E515113"
+        "uuid": "BD61C436903DB2D0A88FE7342E515113",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2431,7 +3010,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "AF59D6735F911B9E61A81AF977800AE3"
+        "uuid": "AF59D6735F911B9E61A81AF977800AE3",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -2445,7 +3025,8 @@
         "i": "V",
         "k": 4,
         "l": false,
-        "uuid": "F523306D4E45A36E49BF2C05B1E24CE2"
+        "uuid": "F523306D4E45A36E49BF2C05B1E24CE2",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -2459,7 +3040,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "AC4E2122DB928F380B35E65F3192A048"
+        "uuid": "AC4E2122DB928F380B35E65F3192A048",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -2473,7 +3058,11 @@
         "i": "V, S, M (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
         "k": 1,
         "l": true,
-        "uuid": "F935B6AC0B092A569C4281B565F94EDD"
+        "uuid": "F935B6AC0B092A569C4281B565F94EDD",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2487,7 +3076,13 @@
         "i": "V, M (uma pequena estátua de argila de um zigurate)",
         "k": 3,
         "l": false,
-        "uuid": "B8C7937C7132FAC3E4B9EF59DA1474ED"
+        "uuid": "B8C7937C7132FAC3E4B9EF59DA1474ED",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -2501,7 +3096,13 @@
         "i": "V, M (um pouco de lã)",
         "k": 0,
         "l": false,
-        "uuid": "0EDAAB218FB209946BC35D33CE6697F9"
+        "uuid": "0EDAAB218FB209946BC35D33CE6697F9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2515,7 +3116,11 @@
         "i": "V, S, M (um pouco de lã e pó de jade valendo, no mínimo, 25 po)",
         "k": 6,
         "l": false,
-        "uuid": "DF8EB375057385FFF5E286B75927396F"
+        "uuid": "DF8EB375057385FFF5E286B75927396F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2529,7 +3134,13 @@
         "i": "V, S, M (um pedaço de lã)",
         "k": 3,
         "l": false,
-        "uuid": "7BE73226521C33A2877C88813FA6F6F8"
+        "uuid": "7BE73226521C33A2877C88813FA6F6F8",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2543,7 +3154,12 @@
         "i": "V, S, M (um pouco de lã)",
         "k": 1,
         "l": false,
-        "uuid": "7A136C1AAF76F74B7B9BD8E967E78CD2"
+        "uuid": "7A136C1AAF76F74B7B9BD8E967E78CD2",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2557,7 +3173,13 @@
         "i": "V, S, M (uma pequena peça de ferro reta)V, S, M (um pedaço de lã)",
         "k": 5,
         "l": false,
-        "uuid": "B8F49D4BE222248B27053E3DBD038336"
+        "uuid": "B8F49D4BE222248B27053E3DBD038336",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2571,7 +3193,13 @@
         "i": "V, S, M (uma pequena peça de ferro reta)",
         "k": 2,
         "l": false,
-        "uuid": "7748323E5F87F187C85D74682EB48714"
+        "uuid": "7748323E5F87F187C85D74682EB48714",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -2585,7 +3213,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "602DD547E2EB7BAB8AA1429DF7B8F2AF"
+        "uuid": "602DD547E2EB7BAB8AA1429DF7B8F2AF",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -2599,7 +3228,8 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "3C771196BAEE12A709D43FA2C4D0478D"
+        "uuid": "3C771196BAEE12A709D43FA2C4D0478D",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -2613,7 +3243,12 @@
         "i": "V, S, M (um ímã e limalhas de ferro)",
         "k": 7,
         "l": false,
-        "uuid": "C95F6DC951CCEE084B6ED88B9A97821C"
+        "uuid": "C95F6DC951CCEE084B6ED88B9A97821C",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2627,7 +3262,13 @@
         "i": "V, S, M (uma pestana envolta em gomaarábica)",
         "k": 2,
         "l": false,
-        "uuid": "9A0C19CD7931B36A9996B80847EE2648"
+        "uuid": "9A0C19CD7931B36A9996B80847EE2648",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2641,7 +3282,12 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "A714A244DFA359002EBDE008C4EC83FA"
+        "uuid": "A714A244DFA359002EBDE008C4EC83FA",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2655,7 +3301,8 @@
         "i": "V, S, M (uma safira no valor de 1.000 po)",
         "k": 6,
         "l": true,
-        "uuid": "4650BE8C0E60FC84FC6EEAD18E24DB06"
+        "uuid": "4650BE8C0E60FC84FC6EEAD18E24DB06",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2669,7 +3316,8 @@
         "i": "V, S, M (um composto de pós de diamante, esmeralda, rubi e safira valendo, no mínimo, 5.000 po, consumidos pela magia)",
         "k": 7,
         "l": false,
-        "uuid": "933E79FAE34DC395B7E5C0A115A01E37"
+        "uuid": "933E79FAE34DC395B7E5C0A115A01E37",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2683,7 +3331,8 @@
         "i": "V, S",
         "k": 8,
         "l": false,
-        "uuid": "1D132333E31E5A579AAD5D83564538A6"
+        "uuid": "1D132333E31E5A579AAD5D83564538A6",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2697,7 +3346,8 @@
         "i": "V, S, M (folha de sumagre)",
         "k": 2,
         "l": false,
-        "uuid": "38B7BD4CB39FE1C85D00BC3050DE494C"
+        "uuid": "38B7BD4CB39FE1C85D00BC3050DE494C",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -2711,7 +3361,11 @@
         "i": "V, S, M (uma gota de melaço)",
         "k": 3,
         "l": false,
-        "uuid": "339187F6124603E08EADA5BBBD14F5F8"
+        "uuid": "339187F6124603E08EADA5BBBD14F5F8",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2725,7 +3379,11 @@
         "i": "V, S, M (um punhado de pó ou areia nas cores vermelha, amarela e azul)",
         "k": 1,
         "l": false,
-        "uuid": "2791D2D233B62FA4BD8B8862F34F9DAF"
+        "uuid": "2791D2D233B62FA4BD8B8862F34F9DAF",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2739,7 +3397,11 @@
         "i": "V, S, M (uma pequena presilha de couro ou um pedaço de fio dourado dobrado em forma de copo com uma haste longa em uma extremidade)",
         "k": 2,
         "l": false,
-        "uuid": "0F86E3E7A6EB8E715A012EA134B84ABF"
+        "uuid": "0F86E3E7A6EB8E715A012EA134B84ABF",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2753,7 +3415,8 @@
         "i": "V, S, M (pedaços de cascas de ovos de dois tipos diferentes de criatura)",
         "k": 5,
         "l": true,
-        "uuid": "CBEFCEFD15E6FB4D8AABD87A5334A489"
+        "uuid": "CBEFCEFD15E6FB4D8AABD87A5334A489",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2767,7 +3430,11 @@
         "i": "V, S",
         "k": 8,
         "l": false,
-        "uuid": "9F5312334C8C138CFDC111D0AA4C218C"
+        "uuid": "9F5312334C8C138CFDC111D0AA4C218C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2781,7 +3448,12 @@
         "i": "V, S, M (um pouco de pelo de um cão de caça)",
         "k": 2,
         "l": true,
-        "uuid": "B22336BFEEF8181475031D4D9997F7ED"
+        "uuid": "B22336BFEEF8181475031D4D9997F7ED",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -2795,7 +3467,13 @@
         "i": "V, S, M (um pouco de pelo de um cão de caça)",
         "k": 4,
         "l": false,
-        "uuid": "6727FE8C1CFF91F8B506C2550E796F94"
+        "uuid": "6727FE8C1CFF91F8B506C2550E796F94",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2809,7 +3487,13 @@
         "i": "V, S, M (um galho bifurcado)",
         "k": 2,
         "l": false,
-        "uuid": "9EA8BE180BC413C80882EFCAF5386056"
+        "uuid": "9EA8BE180BC413C80882EFCAF5386056",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -2823,7 +3507,11 @@
         "i": "V",
         "k": 8,
         "l": false,
-        "uuid": "09A803DFB3F678EA89CD31FC9241613F"
+        "uuid": "09A803DFB3F678EA89CD31FC9241613F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4"
+        ]
     },
     {
         "a": "pt",
@@ -2837,7 +3525,12 @@
         "i": "V, S, M (uma semente de legume)",
         "k": 2,
         "l": false,
-        "uuid": "A8F7F24ECCECB1E23529445956CF59E9"
+        "uuid": "A8F7F24ECCECB1E23529445956CF59E9",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2851,7 +3544,12 @@
         "i": "V, M (um vaga-lume ou musgo fosforescente)",
         "k": 0,
         "l": false,
-        "uuid": "A2723C5BAB3614D13AC56860F4BF5714"
+        "uuid": "A2723C5BAB3614D13AC56860F4BF5714",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2865,7 +3563,13 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "A1588230138494A540019FCD42A9823A"
+        "uuid": "A1588230138494A540019FCD42A9823A",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -2879,7 +3583,13 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0"
+        "uuid": "D44BBD2DE7B2FCE3E49E1C6D5C93CEA0",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2893,7 +3603,11 @@
         "i": "V, S, M (um portal em miniatura esculpido em marfim, um pedaço de mármore polido e uma pequena colher de prata, cada item valendo, no mínimo, 5 po)",
         "k": 7,
         "l": false,
-        "uuid": "22753B7C102188891BC5DFCA0FC191DF"
+        "uuid": "22753B7C102188891BC5DFCA0FC191DF",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2907,7 +3621,8 @@
         "i": "V",
         "k": 3,
         "l": false,
-        "uuid": "8B700BF372BA332237763F08E9AD4CE4"
+        "uuid": "8B700BF372BA332237763F08E9AD4CE4",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -2921,7 +3636,8 @@
         "i": "V, S, M (uma casca de ovo e uma luva de couro de cobra)",
         "k": 5,
         "l": false,
-        "uuid": "AB2231901D098F68EFEAC636A9814AED"
+        "uuid": "AB2231901D098F68EFEAC636A9814AED",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -2935,7 +3651,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "57DB44F3F41012C43ECF9C821204F77B"
+        "uuid": "57DB44F3F41012C43ECF9C821204F77B",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2949,7 +3669,13 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "0CAF6032D2E212FA0B8592C6E6EF8A84"
+        "uuid": "0CAF6032D2E212FA0B8592C6E6EF8A84",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -2963,7 +3689,8 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "2A46147A2E2DB7F81AAF82CB7BE61EF9"
+        "uuid": "2A46147A2E2DB7F81AAF82CB7BE61EF9",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -2977,7 +3704,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "9F8280F0E1E556BBD552B3FB25E607A5"
+        "uuid": "9F8280F0E1E556BBD552B3FB25E607A5",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -2991,7 +3719,13 @@
         "i": "V, S, M (uma pena branca ou o coração de uma galinha)",
         "k": 3,
         "l": false,
-        "uuid": "C406EC6B5E3F27F13C3A5CE9F2BD5572"
+        "uuid": "C406EC6B5E3F27F13C3A5CE9F2BD5572",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3005,7 +3739,12 @@
         "i": "V, S, M (um punhado de comida)",
         "k": 2,
         "l": true,
-        "uuid": "CBCA0177138D1D71FE81A86123C3AB3E"
+        "uuid": "CBCA0177138D1D71FE81A86123C3AB3E",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3019,7 +3758,12 @@
         "i": "V, S, M (um pedaço curto de fio de cobre)",
         "k": 0,
         "l": false,
-        "uuid": "772FB0C2A8E354F2EEF9668E8C3A777A"
+        "uuid": "772FB0C2A8E354F2EEF9668E8C3A777A",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3033,7 +3777,11 @@
         "i": "V, S",
         "k": 3,
         "l": true,
-        "uuid": "D64BA674D119D5AEA9C8CB8CFADA9DD5"
+        "uuid": "D64BA674D119D5AEA9C8CB8CFADA9DD5",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -3047,7 +3795,13 @@
         "i": "V, S, M (um casulo de lagarta)",
         "k": 4,
         "l": false,
-        "uuid": "58543C399ECB451EC2EDF23AD55B0CF9"
+        "uuid": "58543C399ECB451EC2EDF23AD55B0CF9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3061,7 +3815,12 @@
         "i": "V, S, M (uma gota de mercúrio, uma porção de goma arábica e um pouco de fumaça)",
         "k": 9,
         "l": false,
-        "uuid": "305ADD36B1CFB53FE4D073BA03169DBA"
+        "uuid": "305ADD36B1CFB53FE4D073BA03169DBA",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3075,7 +3834,12 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "6E151691A7E825F73B7622E7BA9ABD01"
+        "uuid": "6E151691A7E825F73B7622E7BA9ABD01",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3089,7 +3853,13 @@
         "i": "V",
         "k": 5,
         "l": false,
-        "uuid": "168F74290FD2037AF503884D2442F621"
+        "uuid": "168F74290FD2037AF503884D2442F621",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3103,7 +3873,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "283B6F4DAD2E5C75AB477A2CC47E134C"
+        "uuid": "283B6F4DAD2E5C75AB477A2CC47E134C",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3117,7 +3891,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "FC52B2D816B4A2AF5A37131B4DA0088D"
+        "uuid": "FC52B2D816B4A2AF5A37131B4DA0088D",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3131,7 +3909,12 @@
         "i": "V, S, M (barro mole, que deve ser trabalhado aproximadamente com a forma desejada para o objeto de pedra)",
         "k": 4,
         "l": false,
-        "uuid": "CBB2158346C8942675F2793BD065E407"
+        "uuid": "CBB2158346C8942675F2793BD065E407",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3145,7 +3928,8 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "9B11291286B309E9912D167CE75A1E5B"
+        "uuid": "9B11291286B309E9912D167CE75A1E5B",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -3159,7 +3943,12 @@
         "i": "V, S, M (uma lâmina de ferro e uma pequena sacola contendo uma mistura de solos \u2013 argila, barro e areia)",
         "k": 6,
         "l": false,
-        "uuid": "00352D40A54C41EBE3759C64FD33ABE3"
+        "uuid": "00352D40A54C41EBE3759C64FD33ABE3",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3173,7 +3962,13 @@
         "i": "V, S, M (uma fita de couro, enrolada no braço ou apêndice similar)",
         "k": 4,
         "l": false,
-        "uuid": "91D61B45545FDCE1BBE6297727D114F6"
+        "uuid": "91D61B45545FDCE1BBE6297727D114F6",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3187,7 +3982,8 @@
         "i": "V, S, M (um pouco de pó feito de uma gema transparente esmagada)",
         "k": 5,
         "l": false,
-        "uuid": "A7EE7B8700E0FD5DF9404AB30BE8A6D1"
+        "uuid": "A7EE7B8700E0FD5DF9404AB30BE8A6D1",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -3201,7 +3997,8 @@
         "i": "V, S, M (um punhado de espinhos)",
         "k": 6,
         "l": false,
-        "uuid": "E91F4911CCC25BF1BD3BCE68DA4F600E"
+        "uuid": "E91F4911CCC25BF1BD3BCE68DA4F600E",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -3215,7 +4012,12 @@
         "i": "V, S, M (um pequeno pedaço de fósforo)",
         "k": 4,
         "l": false,
-        "uuid": "64E4B4BDCC601C047BB898DC3393094C"
+        "uuid": "64E4B4BDCC601C047BB898DC3393094C",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3229,7 +4031,8 @@
         "i": "V, S, M (um pequeno pedaço de quartzo)",
         "k": 6,
         "l": false,
-        "uuid": "325D2E74D7D6E2A3E1F4FEB199E57ED5"
+        "uuid": "325D2E74D7D6E2A3E1F4FEB199E57ED5",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -3243,7 +4046,12 @@
         "i": "V, S, M (um pequeno bloco de granito)",
         "k": 5,
         "l": false,
-        "uuid": "F6BD841DBFEBC8345EDDFFACE4C1A8A2"
+        "uuid": "F6BD841DBFEBC8345EDDFFACE4C1A8A2",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3257,7 +4065,11 @@
         "i": "V, S, M (um leque minúsculo e uma pena de origem exótica)",
         "k": 3,
         "l": false,
-        "uuid": "6C2AF43F5C9BFDC9DE8FBDCB9D61D169"
+        "uuid": "6C2AF43F5C9BFDC9DE8FBDCB9D61D169",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3271,7 +4083,8 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "95F42BED6E199B269A9072B3C94A0CB3"
+        "uuid": "95F42BED6E199B269A9072B3C94A0CB3",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -3285,7 +4098,12 @@
         "i": "V, S, M (um punhado de poeira e algumas gotas de água)",
         "k": 3,
         "l": false,
-        "uuid": "C3F8DAD93F7CAF5AF2A78B7A52CE5818"
+        "uuid": "C3F8DAD93F7CAF5AF2A78B7A52CE5818",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3299,7 +4117,12 @@
         "i": "V, S, M (um ovo podre ou várias folhas de repolho)",
         "k": 3,
         "l": false,
-        "uuid": "D37F235B62A6FC858669C607A1C33928"
+        "uuid": "D37F235B62A6FC858669C607A1C33928",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3313,7 +4136,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "BD57E0AA3B23A6D6449F293C9BE9B241"
+        "uuid": "BD57E0AA3B23A6D6449F293C9BE9B241",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3327,7 +4154,13 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "EB70385D9272FC782056E8DFDD1EE53A"
+        "uuid": "EB70385D9272FC782056E8DFDD1EE53A",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3341,7 +4174,11 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "509B52702B998F3DDCCF66482CBF7A50"
+        "uuid": "509B52702B998F3DDCCF66482CBF7A50",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3355,7 +4192,12 @@
         "i": "V, S, M (uma lasca de vidro)",
         "k": 2,
         "l": false,
-        "uuid": "974AC0073AFC4EF70EDC6C91642302CD"
+        "uuid": "974AC0073AFC4EF70EDC6C91642302CD",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3369,7 +4211,11 @@
         "i": "V, S",
         "k": 8,
         "l": false,
-        "uuid": "E9BC3D208354239268B14D024DE65D07"
+        "uuid": "E9BC3D208354239268B14D024DE65D07",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3383,7 +4229,8 @@
         "i": "V, S, M (um punhado de pelo de morcego)",
         "k": 4,
         "l": false,
-        "uuid": "FBE47413AAE2C1711AFE9BB61CA5C436"
+        "uuid": "FBE47413AAE2C1711AFE9BB61CA5C436",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -3397,7 +4244,8 @@
         "i": "V",
         "k": 5,
         "l": false,
-        "uuid": "EF72B29DD90A01496E7083148B128FB3"
+        "uuid": "EF72B29DD90A01496E7083148B128FB3",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"]
     },
     {
         "a": "pt",
@@ -3411,7 +4259,13 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "B85BD55F74B7F4D066D0522A841E0EF2"
+        "uuid": "B85BD55F74B7F4D066D0522A841E0EF2",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -3425,7 +4279,8 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "CD3F1340A0F8135F7C1EB45A6D93CE7F"
+        "uuid": "CD3F1340A0F8135F7C1EB45A6D93CE7F",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -3439,7 +4294,11 @@
         "i": "V, S, M (um diamante valendo, no mínimo, 50 po)",
         "k": 1,
         "l": false,
-        "uuid": "42C625650D6653D9748ABA72B44CDFB3"
+        "uuid": "42C625650D6653D9748ABA72B44CDFB3",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3453,7 +4312,11 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "62A9FDBFFFE63D5C699399E907A641A4"
+        "uuid": "62A9FDBFFFE63D5C699399E907A641A4",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -3467,7 +4330,13 @@
         "i": "S, M (uma vareta brilhante de incenso ou um frasco de cristal cheio de material fosforescente)",
         "k": 3,
         "l": false,
-        "uuid": "F7E57F6F7A6D157F7CC915B62655BE6C"
+        "uuid": "F7E57F6F7A6D157F7CC915B62655BE6C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3481,7 +4350,12 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "58A64565C08B70056C16DFD1BEBFADA0"
+        "uuid": "58A64565C08B70056C16DFD1BEBFADA0",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -3495,7 +4369,11 @@
         "i": "V",
         "k": 3,
         "l": false,
-        "uuid": "069E66DEFDD7FCA894C9385F94353CCC"
+        "uuid": "069E66DEFDD7FCA894C9385F94353CCC",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -3509,7 +4387,13 @@
         "i": "V",
         "k": 8,
         "l": false,
-        "uuid": "29B1DF5B70D591001CA73336CD9FE663"
+        "uuid": "29B1DF5B70D591001CA73336CD9FE663",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3523,7 +4407,8 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "1802CD963D19E0CC9D262D4037BCFB46"
+        "uuid": "1802CD963D19E0CC9D262D4037BCFB46",
+        "z": ["4FB3D7A12EA923B5E8EC3CDA14564CD2"]
     },
     {
         "a": "pt",
@@ -3537,7 +4422,13 @@
         "i": "V",
         "k": 9,
         "l": false,
-        "uuid": "AF618724B2E1D41D8E947B61108C22CC"
+        "uuid": "AF618724B2E1D41D8E947B61108C22CC",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3551,7 +4442,8 @@
         "i": "V",
         "k": 6,
         "l": false,
-        "uuid": "189622C6F1D70966200513B72AC4F8D4"
+        "uuid": "189622C6F1D70966200513B72AC4F8D4",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -3565,7 +4457,8 @@
         "i": "V",
         "k": 7,
         "l": false,
-        "uuid": "16F4FA9391C77FCE2CC7F14388C0CD41"
+        "uuid": "16F4FA9391C77FCE2CC7F14388C0CD41",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -3579,7 +4472,11 @@
         "i": "V",
         "k": 9,
         "l": false,
-        "uuid": "D1C892FE975F1BFD534CEFE0B58F5A0B"
+        "uuid": "D1C892FE975F1BFD534CEFE0B58F5A0B",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3593,7 +4490,12 @@
         "i": "V",
         "k": 2,
         "l": false,
-        "uuid": "75DA9918536315A90859773939AA2A3A"
+        "uuid": "75DA9918536315A90859773939AA2A3A",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3607,7 +4509,13 @@
         "i": "V, S, M (um pouco de barro)",
         "k": 1,
         "l": false,
-        "uuid": "90EF467A5F029CA6A9CEF24DCD83154C"
+        "uuid": "90EF467A5F029CA6A9CEF24DCD83154C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3621,7 +4529,11 @@
         "i": "V, S, M (cinzas de uma folha de visco queimada e um ramo de pinheiro)",
         "k": 2,
         "l": false,
-        "uuid": "6CBEAC84747FC17C02436D4ED03C3192"
+        "uuid": "6CBEAC84747FC17C02436D4ED03C3192",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3635,7 +4547,12 @@
         "i": "V, S, M (uma gota de betume e uma aranha)",
         "k": 2,
         "l": false,
-        "uuid": "B6D7CAF27F1C2300A2378A20492BFAAB"
+        "uuid": "B6D7CAF27F1C2300A2378A20492BFAAB",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3649,7 +4566,11 @@
         "i": "V, S, M (um pedaço de casca de carvalho)",
         "k": 2,
         "l": false,
-        "uuid": "81ECFD1C2A4EC95D7F13AE6CF3FCA21A"
+        "uuid": "81ECFD1C2A4EC95D7F13AE6CF3FCA21A",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3663,7 +4584,13 @@
         "i": "V, S, M (pó de diamante no valor de 100 po, consumido pela magia)",
         "k": 4,
         "l": false,
-        "uuid": "0E0F9D10C4D31E185A1E66449FC89AC9"
+        "uuid": "0E0F9D10C4D31E185A1E66449FC89AC9",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3677,7 +4604,11 @@
         "i": "V, S, M (uma pequena conta de cristal)",
         "k": 3,
         "l": true,
-        "uuid": "572801ACCF056B48343B8CFB7047EA95"
+        "uuid": "572801ACCF056B48343B8CFB7047EA95",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3691,7 +4622,11 @@
         "i": "V, S, M (uma gota de sangue)",
         "k": 1,
         "l": false,
-        "uuid": "DDDCD01E5D6469CB13565F3C8D7FE53B"
+        "uuid": "DDDCD01E5D6469CB13565F3C8D7FE53B",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -3705,7 +4640,11 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "9DFABCC7F9FE222F983F79DD96114089"
+        "uuid": "9DFABCC7F9FE222F983F79DD96114089",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3719,7 +4658,12 @@
         "i": "V, S, M (um diamante alendo, no mínimo, 5.000 po)",
         "k": 9,
         "l": false,
-        "uuid": "60C2D8BDDD0C2BF8E156AA2ED101C28F"
+        "uuid": "60C2D8BDDD0C2BF8E156AA2ED101C28F",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3733,7 +4677,12 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "35E28A2E61086CC21EFA96176C5FF63E"
+        "uuid": "35E28A2E61086CC21EFA96176C5FF63E",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3747,7 +4696,13 @@
         "i": "V",
         "k": 4,
         "l": false,
-        "uuid": "858F877B42D2E478A01E4E167C735CE4"
+        "uuid": "858F877B42D2E478A01E4E167C735CE4",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3761,7 +4716,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "C5C89CE59B5008266646CBB7F2BADC0C"
+        "uuid": "C5C89CE59B5008266646CBB7F2BADC0C",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -3775,7 +4734,12 @@
         "i": "V, S, M (alguns grãos de açúcar, alguns miolos de grão e uma mancha de gordura)",
         "k": 5,
         "l": false,
-        "uuid": "19E2D8CC0A768494B3885D6E83BFE0A9"
+        "uuid": "19E2D8CC0A768494B3885D6E83BFE0A9",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -3789,7 +4753,13 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "54D40A660E8CA318F0545739C66EC03C"
+        "uuid": "54D40A660E8CA318F0545739C66EC03C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3803,7 +4773,12 @@
         "i": "V, S, M (pó de rubi no valor de 1.500 po)",
         "k": 7,
         "l": false,
-        "uuid": "5E99C4C4FC92A52FE127CB9A5A20F0FE"
+        "uuid": "5E99C4C4FC92A52FE127CB9A5A20F0FE",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3817,7 +4792,8 @@
         "i": "V, S, M (uma borrifada de água benta, incensos raros e pó de rubi valendo, no mínimo, 1.000 po)",
         "k": 6,
         "l": true,
-        "uuid": "350385D09FE92AE6B85AC60E1702F6F1"
+        "uuid": "350385D09FE92AE6B85AC60E1702F6F1",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -3831,7 +4807,12 @@
         "i": "V, S, M (para cada criatura que você afetar com essa magia, você deve fornecer um jacinto valendo, no mínimo, 1.000 po e uma barra de prata com ornamentos esculpidos valendo, no mínimo, 100 po, todos consumidos pela magia)",
         "k": 9,
         "l": false,
-        "uuid": "C534B04DD160DAA3A71EBB2C11D9C23C"
+        "uuid": "C534B04DD160DAA3A71EBB2C11D9C23C",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3845,7 +4826,11 @@
         "i": "V, S, M (uma pequena réplica sua feita com materiais valendo, no mínimo, 5 po)",
         "k": 7,
         "l": false,
-        "uuid": "CAA773909DC877251146C0252F4C89B3"
+        "uuid": "CAA773909DC877251146C0252F4C89B3",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3859,7 +4844,13 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "C12A37A65BBBFF61177E159FC5A449C1"
+        "uuid": "C12A37A65BBBFF61177E159FC5A449C1",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3873,7 +4864,11 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "FF37E2C4BC745B11AEBB9F245A6D1071"
+        "uuid": "FF37E2C4BC745B11AEBB9F245A6D1071",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -3887,7 +4882,13 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "DCBB11221F5D5D66170F574172019370"
+        "uuid": "DCBB11221F5D5D66170F574172019370",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3901,7 +4902,13 @@
         "i": "V, S, M (água benta ou pó de prata e ferro, consumidos pela magia)",
         "k": 1,
         "l": false,
-        "uuid": "27B82C2A97E3CBCFE37303322836000B"
+        "uuid": "27B82C2A97E3CBCFE37303322836000B",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -3915,7 +4922,13 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "3436825F8F8BA2C9B9D12967661A001F"
+        "uuid": "3436825F8F8BA2C9B9D12967661A001F",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -3929,7 +4942,11 @@
         "i": "V, S, M (incenso aceso, uma porção de enxofre e óleo, uma corda amarrada, uma porção de sangue de tribulo brutal e um pequeno bastão de prata valendo, no mínimo, 10 po)",
         "k": 6,
         "l": false,
-        "uuid": "81E897CF083AA2415D236C08481E5E1C"
+        "uuid": "81E897CF083AA2415D236C08481E5E1C",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3943,7 +4960,12 @@
         "i": "V, S",
         "k": 1,
         "l": true,
-        "uuid": "5BCE3B21C312873633079D4430C1DF09"
+        "uuid": "5BCE3B21C312873633079D4430C1DF09",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -3957,7 +4979,12 @@
         "i": "V, M (uma pequena pena ou penugem similar)",
         "k": 1,
         "l": false,
-        "uuid": "222DB7EFCD68568D4274359C4C5464B7"
+        "uuid": "222DB7EFCD68568D4274359C4C5464B7",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3971,7 +4998,11 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "F6954977C1E2E816F81FD8057EEDFF98"
+        "uuid": "F6954977C1E2E816F81FD8057EEDFF98",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3985,7 +5016,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "7B8CC8DCC73BD714F2F006E00526390D"
+        "uuid": "7B8CC8DCC73BD714F2F006E00526390D",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -3999,7 +5034,12 @@
         "i": "V, S, M (um galho de uma árvore que tenha sido atingida por um relâmpago)",
         "k": 1,
         "l": false,
-        "uuid": "EFF0510C3B7010B2CC5FCF710DB298DD"
+        "uuid": "EFF0510C3B7010B2CC5FCF710DB298DD",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4013,7 +5053,11 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "25B34F888E2C376B5082A23100C345C8"
+        "uuid": "25B34F888E2C376B5082A23100C345C8",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4027,7 +5071,11 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C"
+        "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4041,7 +5089,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "1D64D6C7B7232E75931E1615F2B9A2D4"
+        "uuid": "1D64D6C7B7232E75931E1615F2B9A2D4",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4055,7 +5107,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "52358B4354D47D6E332D155F23B0867A"
+        "uuid": "52358B4354D47D6E332D155F23B0867A",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -4069,7 +5122,8 @@
         "i": "V, S, M (várias sementes de qualquer planta lunar e um pedaço de feldspato opalescente)",
         "k": 2,
         "l": false,
-        "uuid": "7C91B94385ECB2CBF03CBF0DC98366B0"
+        "uuid": "7C91B94385ECB2CBF03CBF0DC98366B0",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -4083,7 +5137,12 @@
         "i": "V, S, M (uma lente de aumento)",
         "k": 6,
         "l": false,
-        "uuid": "49050E36BA0515D7E72C596C2088549D"
+        "uuid": "49050E36BA0515D7E72C596C2088549D",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4097,7 +5156,13 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "3481FDC77AD845D2F3A43DC4E6ECAFB6"
+        "uuid": "3481FDC77AD845D2F3A43DC4E6ECAFB6",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4111,7 +5176,8 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "A77F0275EFC5A4A8867871FF2B57589F"
+        "uuid": "A77F0275EFC5A4A8867871FF2B57589F",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -4125,7 +5191,11 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "D5C07F2501E6B0DD56B42094E954C32C"
+        "uuid": "D5C07F2501E6B0DD56B42094E954C32C",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4139,7 +5209,8 @@
         "i": "V, S, M (uma gema, cristal, relicário ou algum outro tipo de recipiente ornamental valendo, no mínimo, 500 po)",
         "k": 6,
         "l": false,
-        "uuid": "5BF80B3B1695ECB8585FDD8368830A2A"
+        "uuid": "5BF80B3B1695ECB8585FDD8368830A2A",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -4153,7 +5224,12 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "757E6192C5AF46C7A0E418B80EAC219A"
+        "uuid": "757E6192C5AF46C7A0E418B80EAC219A",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4167,7 +5243,8 @@
         "i": "V, S, M (óleos e unguentos raros valendo, no mínimo, 1.000 po, consumidos pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "4368C1AFAFD875ADCFD0CF5298E8827B"
+        "uuid": "4368C1AFAFD875ADCFD0CF5298E8827B",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -4181,7 +5258,12 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "4C4103102885F43BB9B78D56E7F9FEA6"
+        "uuid": "4C4103102885F43BB9B78D56E7F9FEA6",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4195,7 +5277,12 @@
         "i": "V, S, M (uma conta de oração e água benta)",
         "k": 7,
         "l": false,
-        "uuid": "7B0B978971F274B513CF769E1BE63BB9"
+        "uuid": "7B0B978971F274B513CF769E1BE63BB9",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -4209,7 +5296,11 @@
         "i": "V, S, M (um pouco de pelo e uma haste de âmbar, cristal ou vidro)",
         "k": 3,
         "l": false,
-        "uuid": "1438224E73FAB6ACA644CEED7CA6D6BE"
+        "uuid": "1438224E73FAB6ACA644CEED7CA6D6BE",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4223,7 +5314,13 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "DE962156365EAE7FF0E10C626E220690"
+        "uuid": "DE962156365EAE7FF0E10C626E220690",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -4237,7 +5334,11 @@
         "i": "V, S, M (uma pitada de sal e uma peça de cobre colocada em cada um dos olhos do corpo, que devem permanecer ai pela duração)",
         "k": 2,
         "l": true,
-        "uuid": "654543A616386E5E4E962D89FEE457E4"
+        "uuid": "654543A616386E5E4E962D89FEE457E4",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4251,7 +5352,8 @@
         "i": "V, S",
         "k": 1,
         "l": false,
-        "uuid": "7E10924583572C635AE3549F22DE438F"
+        "uuid": "7E10924583572C635AE3549F22DE438F",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"]
     },
     {
         "a": "pt",
@@ -4265,7 +5367,11 @@
         "i": "V, S, M (um manto em miniatura)",
         "k": 0,
         "l": false,
-        "uuid": "809139FA280D9A559EA20C2A6C2868B6"
+        "uuid": "809139FA280D9A559EA20C2A6C2868B6",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -4279,7 +5385,13 @@
         "i": "V, S, M (um pedaço de cana ou palha)",
         "k": 3,
         "l": true,
-        "uuid": "4205197A24BF8CA0EC1A29050949BCA6"
+        "uuid": "4205197A24BF8CA0EC1A29050949BCA6",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -4293,7 +5405,11 @@
         "i": "V, S, M (um diamante valendo, no mínimo, 1.000 po, consumido pela magia)",
         "k": 7,
         "l": false,
-        "uuid": "E270B7A55C82731878E11C462B5A44B3"
+        "uuid": "E270B7A55C82731878E11C462B5A44B3",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ]
     },
     {
         "a": "pt",
@@ -4307,7 +5423,11 @@
         "i": "V, S, M (um borrifo de água benta e diamantes valendo, no mínimo, 25.000 po, consumidos pela magia)",
         "k": 9,
         "l": false,
-        "uuid": "91C86282F3517B0CBBA8D45F1C0E1793"
+        "uuid": "91C86282F3517B0CBBA8D45F1C0E1793",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -4321,7 +5441,12 @@
         "i": "V, S, M (pó de diamante valendo, no mínimo, 100 po, consumido pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "9278B2C5ABB3BDB6613DFF6CFBF7F23F"
+        "uuid": "9278B2C5ABB3BDB6613DFF6CFBF7F23F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -4335,7 +5460,13 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "1C0C84DC10DD1E77D827A9A06A10D19D"
+        "uuid": "1C0C84DC10DD1E77D827A9A06A10D19D",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -4349,7 +5480,12 @@
         "i": "V, S, M (um diamante valendo, no mínimo, 500 po, consumido pela magia)",
         "k": 5,
         "l": false,
-        "uuid": "6AD03E84E680D9CE3D1DB3EB41B28150"
+        "uuid": "6AD03E84E680D9CE3D1DB3EB41B28150",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -4363,7 +5499,11 @@
         "i": "V, S, M (um diamante no valor de 300 po, consumido pela magia)",
         "k": 3,
         "l": false,
-        "uuid": "E19D3FACEA69C57C387D5B36687F2EB2"
+        "uuid": "E19D3FACEA69C57C387D5B36687F2EB2",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     },
     {
         "a": "pt",
@@ -4377,7 +5517,11 @@
         "i": "V, S, M (pequenas tortas e uma pena que é balançada no ar)",
         "k": 1,
         "l": false,
-        "uuid": "1695C34429B32A6441E345C25413A4BC"
+        "uuid": "1695C34429B32A6441E345C25413A4BC",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4391,7 +5535,12 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "DA044330A7AE48496DC8764075E7BD31"
+        "uuid": "DA044330A7AE48496DC8764075E7BD31",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4405,7 +5554,13 @@
         "i": "V, S, M (uma perna de gafanhoto)",
         "k": 1,
         "l": false,
-        "uuid": "B2AC828214D686BEBEB9ACA61A2E670A"
+        "uuid": "B2AC828214D686BEBEB9ACA61A2E670A",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -4419,7 +5574,8 @@
         "i": "V, S, M (um pequeno espelho de prata)",
         "k": 1,
         "l": false,
-        "uuid": "D2351D590E6B6C79237883460E1AABBB"
+        "uuid": "D2351D590E6B6C79237883460E1AABBB",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -4433,7 +5589,8 @@
         "i": "V, S, M (uma folha de chumbo, um pedaço de vidro opaco, um chumaço de algodão ou pano e pó de crisólita)",
         "k": 4,
         "l": false,
-        "uuid": "B49543738AFF627F40C3B01E8B0F316D"
+        "uuid": "B49543738AFF627F40C3B01E8B0F316D",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -4447,7 +5604,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "A1B4209F1B712BA6754419DEE670E498"
+        "uuid": "A1B4209F1B712BA6754419DEE670E498",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"]
     },
     {
         "a": "pt",
@@ -4461,7 +5619,11 @@
         "i": "V",
         "k": 8,
         "l": false,
-        "uuid": "09F39DC7715DA9B30E6BE22077C81050"
+        "uuid": "09F39DC7715DA9B30E6BE22077C81050",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4475,7 +5637,11 @@
         "i": "S",
         "k": 2,
         "l": true,
-        "uuid": "3062A8FC0CD46147F81767D249C836DF"
+        "uuid": "3062A8FC0CD46147F81767D249C836DF",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -4489,7 +5655,12 @@
         "i": "V, S, M (um pedaço de barbante e um pouco de madeira)",
         "k": 1,
         "l": true,
-        "uuid": "7BFBAFD39FC7B05D95F3832F73F15B80"
+        "uuid": "7BFBAFD39FC7B05D95F3832F73F15B80",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4503,7 +5674,13 @@
         "i": "V, S, M (uma pena de colibri)",
         "k": 9,
         "l": false,
-        "uuid": "0EAD04C184C2F9D50BAB3577F8AA4D92"
+        "uuid": "0EAD04C184C2F9D50BAB3577F8AA4D92",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4517,7 +5694,12 @@
         "i": "V, S",
         "k": 2,
         "l": true,
-        "uuid": "DCE34104B93F0CEF9BDD15391396DDB4"
+        "uuid": "DCE34104B93F0CEF9BDD15391396DDB4",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -4531,7 +5713,12 @@
         "i": "V, S, M (mercúrio, fósforo e pó de diamante e opala, com um valor total de, no mínimo, 1.000 po, consumidos pela magia)",
         "k": 7,
         "l": false,
-        "uuid": "00091F7F7621DE5ABE7E64838D5AFF95"
+        "uuid": "00091F7F7621DE5ABE7E64838D5AFF95",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4545,7 +5732,12 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "387E188D7AD4B4FF1899B5B74A2299A1"
+        "uuid": "387E188D7AD4B4FF1899B5B74A2299A1",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4559,7 +5751,8 @@
         "i": "V, S, M (neve ou gelo em quantidade suficiente para fazer uma cópia em tamanho real da criatura duplicada; algum cabelo, recortes de unha ou outro pedaço do corpo da criatura, colocado dentro da neve ou gelo; e pó de rubi no valor de 1.500 po, polvilhado sobre a duplicata e consumido pela magia)",
         "k": 7,
         "l": false,
-        "uuid": "5F1A59C252409565339DFC7077035B2C"
+        "uuid": "5F1A59C252409565339DFC7077035B2C",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -4573,7 +5766,8 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "94BD6587F4E1A4E0AD718FDAA2D30BF1"
+        "uuid": "94BD6587F4E1A4E0AD718FDAA2D30BF1",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -4587,7 +5781,12 @@
         "i": "V, S, M (um punhado de areia, um pouco de tinta e uma pena de escrita arrancada de um pássaro adormecido)",
         "k": 5,
         "l": false,
-        "uuid": "4DB04247D5152D5C11143F428364E581"
+        "uuid": "4DB04247D5152D5C11143F428364E581",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4601,7 +5800,12 @@
         "i": "V, S, M (um punhado de areia fina, pétalas de rosas ou um grilo)",
         "k": 1,
         "l": false,
-        "uuid": "4D3837242F68724C720FB416B51DBE29"
+        "uuid": "4D3837242F68724C720FB416B51DBE29",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4615,7 +5819,13 @@
         "i": "V, M (uma língua de cobra e, ou um pedaço de favo de mel ou uma gota de azeite doce)",
         "k": 2,
         "l": false,
-        "uuid": "ED3DAA84AB27105CA8CC610805A8CEA1"
+        "uuid": "ED3DAA84AB27105CA8CC610805A8CEA1",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4629,7 +5839,13 @@
         "i": "V, M (uma língua de cobra e, ou um pedaço de favo de mel ou uma gota de azeite doce)",
         "k": 6,
         "l": false,
-        "uuid": "544413FDC1BDE492ECB98D26764B26CC"
+        "uuid": "544413FDC1BDE492ECB98D26764B26CC",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4643,7 +5859,8 @@
         "i": "V",
         "k": 1,
         "l": false,
-        "uuid": "4173DF5EE37AC223A7C234D374B17B53"
+        "uuid": "4173DF5EE37AC223A7C234D374B17B53",
+        "z": ["4FB3D7A12EA923B5E8EC3CDA14564CD2"]
     },
     {
         "a": "pt",
@@ -4655,6 +5872,10 @@
         "g": "Pessoal (Linha de 9m).",
         "h": "Pessoal (Linha de 9m).",
         "i": "V, S, M (um pedaço de comida apodrecida).",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 1,
         "uuid": "24602743648776078087398554494150"
     },
@@ -4668,6 +5889,10 @@
         "g": "Pessoal (raio de 4,5m)",
         "h": "Pessoal (raio de 4,5m)",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 0,
         "uuid": "61629994396239740078625725421843"
     },
@@ -4681,6 +5906,10 @@
         "g": "27m",
         "h": "27m",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 2,
         "uuid": "22516861301091124269318185824081"
     },
@@ -4694,6 +5923,10 @@
         "g": "Pessoal.",
         "h": "Pessoal.",
         "i": "V, S, M (um objeto entalhado com o símbolo dos Planos Exteriores).",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 6,
         "uuid": "68005903335030422231492723724520"
     },
@@ -4707,6 +5940,10 @@
         "g": "18m",
         "h": "18m",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 0,
         "uuid": "02654932310256490284592234290088"
     },
@@ -4720,6 +5957,10 @@
         "g": "9m",
         "h": "9m",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 3,
         "uuid": "34151037750287157838951076063405"
     },
@@ -4733,6 +5974,7 @@
         "g": "27m",
         "h": "27m",
         "i": "V, S, M (Um tentáculo em conserva e um globo ocular em um frasco banhado em platina com valor mínimo de 400 po).",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 4,
         "uuid": "71233734000249437167076784244661"
     },
@@ -4746,6 +5988,10 @@
         "g": "27m.",
         "h": "27m.",
         "i": "V, S, M (Um relicário de ouro no valor mínimo de 500 po).",
+        "z": [
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ],
         "k": 5,
         "uuid": "34657429368347694233958652957359"
     },
@@ -4759,6 +6005,7 @@
         "g": "27m.",
         "h": "27m.",
         "i": "V, S, M (uma pedra ornamentada e um cofre no valor de 400 po).",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 4,
         "uuid": "82259047407387672499948835697808"
     },
@@ -4772,6 +6019,7 @@
         "g": "27m",
         "h": "27m",
         "i": "V, S, M (Sangue humanóide em um frasco de rubi no valor de 600 po).",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 6,
         "uuid": "43658625867328182969948588517633"
     },
@@ -4785,6 +6033,11 @@
         "g": "27m",
         "h": "27m",
         "i": "V, S, M (ar, um cascalho, cinzas, e água dentro de um frasco banhado a ouro no valor de 400 po)",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 4,
         "uuid": "98589500448323476727134340207275"
     },
@@ -4798,6 +6051,10 @@
         "g": "27m",
         "h": "27m",
         "i": "V, S, M (Uma flor feita de ouro no valor de 300 po).",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 3,
         "uuid": "74081240638153294667754981388207"
     },
@@ -4811,6 +6068,11 @@
         "g": "18m",
         "h": "18m",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 2,
         "uuid": "63649622521054496502183047978676"
     },
@@ -4824,6 +6086,7 @@
         "g": "27m",
         "h": "27m",
         "i": "V,S,M (um crânio de ouro no valor de 300 po)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 3,
         "uuid": "11930126987209878413755656623037"
     },
@@ -4837,6 +6100,7 @@
         "g": "18m",
         "h": "18m",
         "i": "V",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 8,
         "uuid": "68792084720095242523521360308865"
     },
@@ -4850,6 +6114,10 @@
         "g": "Pessoal (raio de 1,5m)",
         "h": "Pessoal (raio de 1,5m)",
         "i": "S, M (uma arma corpo a corpo com valor mínimo de 1 pp)",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 0,
         "uuid": "12320117062207610880991101553838"
     },
@@ -4863,6 +6131,10 @@
         "g": "18m",
         "h": "18m",
         "i": "V, S",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 9,
         "uuid": "26673684944680171658120926422671"
     },
@@ -4876,6 +6148,10 @@
         "g": "Pessoal (raio de 1,5)",
         "h": "Pessoal (raio de 1,5)",
         "i": "(uma arma corpo a corpo com valor mínimo de 1 pp)",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 0,
         "uuid": "51530333034768127190146535468639"
     },
@@ -4889,6 +6165,11 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "35654E025C3AA7B5F5C85015E902F4B8",
+            "8C61F8EDB313E7F7CFFB7A1A50991165"
+        ],
         "k": 3,
         "uuid": "34579136673111869207928651261009"
     },
@@ -4902,6 +6183,10 @@
         "g": "Pessoal (1,5m de raio)",
         "h": "Pessoal (1,5m de raio)",
         "i": "V",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 0,
         "uuid": "18638554195122662133082436600651"
     },
@@ -4915,6 +6200,10 @@
         "g": "6m",
         "h": "6m",
         "i": "V, S, M (um item mágico ou criatura voluntária no mundo de destino)",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ],
         "k": 7,
         "uuid": "92634364036127208638890496942038"
     },
@@ -4930,7 +6219,8 @@
         "i": "V",
         "k": 0,
         "l": false,
-        "uuid": "772BEC597DBD1288D22A9A1F6B6F9AFA"
+        "uuid": "772BEC597DBD1288D22A9A1F6B6F9AFA",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -4944,7 +6234,11 @@
         "i": "V, S, M (um pedaço de teia de aranha)",
         "k": 2,
         "l": false,
-        "uuid": "C252BF9E1642E6A9A013B109501A4155"
+        "uuid": "C252BF9E1642E6A9A013B109501A4155",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4958,7 +6252,11 @@
         "i": "V, S",
         "k": 5,
         "l": false,
-        "uuid": "52156B71A5EBC86E9B505D25B7B451E9"
+        "uuid": "52156B71A5EBC86E9B505D25B7B451E9",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -4972,7 +6270,8 @@
         "i": "V, S, M (um par de anéis de prata unidos)",
         "k": 8,
         "l": false,
-        "uuid": "5FDD39CDA6E337151C60539A6272308C"
+        "uuid": "5FDD39CDA6E337151C60539A6272308C",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -4986,7 +6285,12 @@
         "i": "V",
         "k": 7,
         "l": false,
-        "uuid": "840EFAA71E337E776FB1D2CFF3E5FEDD"
+        "uuid": "840EFAA71E337E776FB1D2CFF3E5FEDD",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5000,7 +6304,8 @@
         "i": "V, S",
         "k": 6,
         "l": false,
-        "uuid": "88BB5D7679FAB49DA37801B1486A64CC"
+        "uuid": "88BB5D7679FAB49DA37801B1486A64CC",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -5014,7 +6319,8 @@
         "i": "V, S",
         "k": 9,
         "l": false,
-        "uuid": "F8649C6AA1DC1BB1CE90191C0FF6930E"
+        "uuid": "F8649C6AA1DC1BB1CE90191C0FF6930E",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -5028,7 +6334,12 @@
         "i": "V, S",
         "k": 7,
         "l": false,
-        "uuid": "B5667D3EA648CC3BB8D3C264108A6F80"
+        "uuid": "B5667D3EA648CC3BB8D3C264108A6F80",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -5042,7 +6353,12 @@
         "i": "V, S, M (um pouco de poeira e algumas gotas de água)",
         "k": 4,
         "l": false,
-        "uuid": "1DF022F668AC4EBD5746EDE45B6FA67E"
+        "uuid": "1DF022F668AC4EBD5746EDE45B6FA67E",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5056,7 +6372,8 @@
         "i": "V, S, M (um pedaço de tentáculo de um polvo gigante ou lula gigante)",
         "k": 4,
         "l": false,
-        "uuid": "1FD79BA9BB91986B8875895AE181829F"
+        "uuid": "1FD79BA9BB91986B8875895AE181829F",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -5070,7 +6387,12 @@
         "i": "V, S, M (um pouco de poeira, uma pedra e um pedaço de barro)",
         "k": 8,
         "l": false,
-        "uuid": "E9DB1428839E1CF90BAC903579DBCCE4"
+        "uuid": "E9DB1428839E1CF90BAC903579DBCCE4",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -5084,7 +6406,13 @@
         "i": "V, S, M (uma pedra, um galho e um pouco de planta verde)",
         "k": 4,
         "l": false,
-        "uuid": "ED1634E202DE37942863C7A84AA771C8"
+        "uuid": "ED1634E202DE37942863C7A84AA771C8",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5098,7 +6426,12 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "AA587241C9A969D82BFFFBD0CBABD253"
+        "uuid": "AA587241C9A969D82BFFFBD0CBABD253",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5112,7 +6445,11 @@
         "i": "V, S",
         "k": 0,
         "l": false,
-        "uuid": "2773EAE14F2E87C87BE47E61E0EB32F2"
+        "uuid": "2773EAE14F2E87C87BE47E61E0EB32F2",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5126,7 +6463,11 @@
         "i": "V, S",
         "k": 3,
         "l": false,
-        "uuid": "6AEA1C2D29D9159CABBA14BF280A29B9"
+        "uuid": "6AEA1C2D29D9159CABBA14BF280A29B9",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5140,7 +6481,8 @@
         "i": "V, S, M (pó de ouro valendo, no mínimo, 25 po, consumido pela magia)",
         "k": 2,
         "l": false,
-        "uuid": "B1F15CC855ED3E666075D590F95B4B5D"
+        "uuid": "B1F15CC855ED3E666075D590F95B4B5D",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -5154,7 +6496,8 @@
         "i": "V, S, M (pó de extrato de milho e um laço de pergaminho trançado)",
         "k": 2,
         "l": false,
-        "uuid": "C74A8A48A1477DBB222633F84A27EAED"
+        "uuid": "C74A8A48A1477DBB222633F84A27EAED",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"]
     },
     {
         "a": "pt",
@@ -5168,7 +6511,8 @@
         "i": "V,  S",
         "k": 8,
         "l": false,
-        "uuid": "550F957324F2E5C3D37C4E97785FFA3E"
+        "uuid": "550F957324F2E5C3D37C4E97785FFA3E",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"]
     },
     {
         "a": "pt",
@@ -5182,7 +6526,11 @@
         "i": "V, S, M (uma raspa de raiz de alcaçuz)",
         "k": 3,
         "l": false,
-        "uuid": "6DB339EAD8174025888918059F1D0272"
+        "uuid": "6DB339EAD8174025888918059F1D0272",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5196,7 +6544,12 @@
         "i": "V, S, M (um pouco de talco e um pó de prata polvilhado)",
         "k": 2,
         "l": false,
-        "uuid": "BDD8A3901BBEC081C19287ACD43D819B"
+        "uuid": "BDD8A3901BBEC081C19287ACD43D819B",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5210,7 +6563,13 @@
         "i": "V, S, M (uma haste metálica bifurcada valendo, no mínimo, 250 po, sintonizada com um plano de existência em particular)",
         "k": 7,
         "l": false,
-        "uuid": "F72274A9A70DD751DD4253A55A9746DE"
+        "uuid": "F72274A9A70DD751DD4253A55A9746DE",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC"
+        ]
     },
     {
         "a": "pt",
@@ -5224,7 +6583,8 @@
         "i": "V, S, M (um par de anéis de platina valendo, no mínimo, 50 po cada, que você e o alvo devem usar pela duração)",
         "k": 2,
         "l": false,
-        "uuid": "B23220AC9AFBD2B9E12B054B0EA4C0A0"
+        "uuid": "B23220AC9AFBD2B9E12B054B0EA4C0A0",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"]
     },
     {
         "a": "pt",
@@ -5238,7 +6598,13 @@
         "i": "V, S, M (um foco valendo, no mínimo, 1.000 po, como uma bola de cristal, espelho de prata ou fonte cheia de água benta)",
         "k": 5,
         "l": false,
-        "uuid": "FDC5678C39D283364C7BB4B665CD814F"
+        "uuid": "FDC5678C39D283364C7BB4B665CD814F",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ]
     },
     {
         "a": "pt",
@@ -5252,7 +6618,11 @@
         "i": "V, S",
         "k": 4,
         "l": false,
-        "uuid": "A14E4E6BCD12D90045D1008672C0547F"
+        "uuid": "A14E4E6BCD12D90045D1008672C0547F",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -5266,7 +6636,13 @@
         "i": "V, S, M (unguento para os olhos no valor de 25 po; ele é feito de pó de cogumelo, açafrão e gordura; e é consumido pela magia)",
         "k": 6,
         "l": false,
-        "uuid": "8CF138E0671A6EE2E5D5F8C6AE0972A6"
+        "uuid": "8CF138E0671A6EE2E5D5F8C6AE0972A6",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5280,7 +6656,13 @@
         "i": "V, S, M (ou um pedaço de cenoura seca ou uma ágata)",
         "k": 2,
         "l": false,
-        "uuid": "68FB3E51A8C0245DAE4264EF1A0FE46D"
+        "uuid": "68FB3E51A8C0245DAE4264EF1A0FE46D",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ]
     },
     {
         "a": "pt",
@@ -5294,7 +6676,11 @@
         "i": "V, S, M (uma pequena quantidade de álcool ou bebidas destiladas)",
         "k": 1,
         "l": false,
-        "uuid": "331DBABE2743DFC86996186D0887CF88"
+        "uuid": "331DBABE2743DFC86996186D0887CF88",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5308,7 +6694,12 @@
         "i": "V, S, M (uma pena da asa de qualquer pássaro)",
         "k": 3,
         "l": false,
-        "uuid": "4A7DB4B42B5990BB3DC166F6FB8C214C"
+        "uuid": "4A7DB4B42B5990BB3DC166F6FB8C214C",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ]
     },
     {
         "a": "pt",
@@ -5320,6 +6711,10 @@
         "g": "90 metros",
         "h": "90 metros",
         "i": "V, S, M (uma mão em miniatura esculpida em barro)",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "68389544004426668620508962983557"
     },
@@ -5333,6 +6728,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 1,
         "uuid": "61388656100182770650278465121632"
     },
@@ -5346,6 +6747,11 @@
         "g": "90 metros",
         "h": "90 metros",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "70529009419348650050131078014569"
     },
@@ -5359,6 +6765,10 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ],
         "k": 5,
         "uuid": "00568152475552549003721569426828"
     },
@@ -5372,6 +6782,10 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "S, M (uma arma de combate corpo-a-corpo valendo, no mínimo, 1pp)",
+        "z": [
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 5,
         "uuid": "59465606640073354529686457589822"
     },
@@ -5385,6 +6799,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (um pingente de raio solar valendo, no mínimo, 100po)",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "74313418143101479492040985403528"
     },
@@ -5398,6 +6816,7 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S, M (uma pimenta ardida)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 2,
         "uuid": "25057524168114127072413154278575"
     },
@@ -5411,6 +6830,7 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S, M (visco que foi colhido com uma foice dourada sob a luz de uma lua cheia que a magia cons,ome)",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"],
         "k": 6,
         "uuid": "09571321762139195133528922499943"
     },
@@ -5424,6 +6844,10 @@
         "g": "45 metros",
         "h": "45 metros",
         "i": "S",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 1,
         "uuid": "71739432540371368604085922051227"
     },
@@ -5437,6 +6861,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 1,
         "uuid": "28998793602553094006121525048299"
     },
@@ -5450,6 +6878,10 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S, M (pó de prata valendo, no mínimo, 25po que a magia consome)",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ],
         "k": 1,
         "uuid": "16157542506294062451120924873317"
     },
@@ -5463,6 +6895,10 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V, S, M (um rubi valendo, no mínimo, 999po)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "29543137281994439441643226647541"
     },
@@ -5476,6 +6912,7 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V, S, M (um pedaço de gelo ou uma pequena lasca de pe,dra branca)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 2,
         "uuid": "75565369854296297038875001713364"
     },
@@ -5489,6 +6926,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "99135296380456304755253042061864"
     },
@@ -5502,6 +6944,11 @@
         "g": "90 metros",
         "h": "90 metros",
         "i": "V, S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "39835012515856737487981048481758"
     },
@@ -5515,6 +6962,11 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 7,
         "uuid": "94971286803847244170249035226638"
     },
@@ -5528,6 +6980,12 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "97085771458587605979896710927708"
     },
@@ -5541,6 +6999,7 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S, M (argila, cinzas e raiz de mandrágora e uma adaga incrustada com joias valendo, no mínimo, 1000po que a magia consome)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 6,
         "uuid": "05645596878336278847425736270020"
     },
@@ -5554,6 +7013,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "21484089636715156500547772489005"
     },
@@ -5567,6 +7030,11 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "52271835667670220779320205603368"
     },
@@ -5580,6 +7048,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (um punhado de pó)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "90518623900188255471408812147787"
     },
@@ -5593,6 +7065,11 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "20826603984060747822995343678696"
     },
@@ -5606,6 +7083,7 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "S",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 8,
         "uuid": "93006709416043157872525049725007"
     },
@@ -5619,6 +7097,7 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "V, S",
+        "z": ["35654E025C3AA7B5F5C85015E902F4B8"],
         "k": 4,
         "uuid": "30509177902080084493163066284668"
     },
@@ -5632,6 +7111,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "79645927187133591944666271110503"
     },
@@ -5645,6 +7129,13 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "42903121998311803559284553970115"
     },
@@ -5658,6 +7149,11 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S, M (um pedaço de obsidiana)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "32230128410155075105476871423633"
     },
@@ -5671,6 +7167,11 @@
         "g": "Linha de visão",
         "h": "Linha de visão",
         "i": "V, S",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "10030494326983765408976397834322"
     },
@@ -5684,6 +7185,7 @@
         "g": "45 metros",
         "h": "45 metros",
         "i": "V, M (uma gota de piche misturada com uma gota de mercúrio)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 8,
         "uuid": "81080129208037888262107271245481"
     },
@@ -5697,6 +7199,11 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V, S, M (uma gotícula de água)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "70702863252611348493267951885395"
     },
@@ -5710,6 +7217,10 @@
         "g": "45 metros",
         "h": "45 metros",
         "i": "V, S, M (uma gota de bile de lesma gigante)",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "89677420280444832978950169729627"
     },
@@ -5723,6 +7234,10 @@
         "g": "45 metros",
         "h": "45 metros",
         "i": "V, S",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "54082104768905889638789105245904"
     },
@@ -5736,6 +7251,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "92805728749912505208540929005393"
     },
@@ -5749,6 +7268,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 2,
         "uuid": "53223513747868248146903757025811"
     },
@@ -5762,6 +7285,12 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "85117497316485977277460269395782"
     },
@@ -5775,6 +7304,10 @@
         "g": "45 metros",
         "h": "45 metros",
         "i": "V, S, M (um pedaço de esponja)",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 8,
         "uuid": "15784274995036900142778568706448"
     },
@@ -5788,6 +7321,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "S, M (uma gota de água ou pedaço de gelo)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 1,
         "uuid": "32297983864140795043976620365894"
     },
@@ -5801,6 +7339,12 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 3,
         "uuid": "18295553560802727865746943936454"
     },
@@ -5814,6 +7358,11 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "97522529234731368277255897061281"
     },
@@ -5827,6 +7376,7 @@
         "g": "1,5 quilômetros",
         "h": "1,5 quilômetros",
         "i": "V, S, M (um diamante valendo, no mínimo, 500po que a, magia consome)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 8,
         "uuid": "21836582520767070554057756277720"
     },
@@ -5840,6 +7390,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (uma pequena jaula de prata valendo, no mín,imo, 100po)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "06171836656646161779573594968439"
     },
@@ -5853,6 +7407,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V",
+        "z": ["5817BF17BC0F7F865E685695DFA3EB11"],
         "k": 1,
         "uuid": "11812219754214088931310061129774"
     },
@@ -5866,6 +7421,13 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "53382177091709683870833150990702"
     },
@@ -5879,6 +7441,12 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 9,
         "uuid": "01840847313879113687633928682254"
     },
@@ -5892,6 +7460,10 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 4,
         "uuid": "46075348464755773429308618059508"
     },
@@ -5905,6 +7477,10 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "42899028399426789448497520824024"
     },
@@ -5918,6 +7494,12 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "V, S, M (uma pulga viva)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "65546284119419614677401306081911"
     },
@@ -5931,6 +7513,12 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "13906436257297317975474711167927"
     },
@@ -5944,6 +7532,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, M (um osso quebrado e um quadrado de seda ne,gra)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "08350334053204382534840228313263"
     },
@@ -5957,6 +7549,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (um frasco de sangue de um humanoide morto nas últimas 24 horas)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "01699138706008847195483096435006"
     },
@@ -5970,6 +7566,10 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (um frasco de sangue de um humanoide morto nas últimas 24 horas)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "89743204312971040980663274112945"
     },
@@ -5983,6 +7583,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S, M (um pequeno pedaço de adamantina valendo, no mínimo, 500po que a magia cons ome)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 9,
         "uuid": "84079569976978539281197614918066"
     },
@@ -5996,6 +7597,10 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 5,
         "uuid": "88425426721432170234688403736826"
     },
@@ -6009,6 +7614,11 @@
         "g": "Toque",
         "h": "Toque",
         "i": "S, M (7,5 metros de corda que a magia consome)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 1,
         "uuid": "83866358006846932848088918659407"
     },
@@ -6022,6 +7632,11 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "47550889609036129763866111934241"
     },
@@ -6035,6 +7650,11 @@
         "g": "90 metros",
         "h": "90 metros",
         "i": "V S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "26199012638419747185978950749934"
     },
@@ -6048,6 +7668,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "71131563632836744617744361585057"
     },
@@ -6061,6 +7687,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "58926986574898150324824886204959"
     },
@@ -6074,6 +7706,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "13925693020080602644473609554175"
     },
@@ -6087,6 +7725,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "33531607069055271847693155690874"
     },
@@ -6100,6 +7744,11 @@
         "g": "36",
         "h": "36",
         "i": "V, S, M (uma gota de água)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "28202262023616119165277020692179"
     },
@@ -6113,6 +7762,11 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S, M (um casulo, de uma lagarta)",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 9,
         "uuid": "33521603015881413392662265827127"
     },
@@ -6126,6 +7780,10 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S, M (salitre, enxofre e alcatrão de pinheiro formando um cordão)",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "53097185447559254580562761815513"
     },
@@ -6139,6 +7797,11 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "20554174919696089206474266421554"
     },
@@ -6152,6 +7815,11 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "26754741704377672438106770316916"
     },
@@ -6165,6 +7833,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S, M (uma gota de á,gua)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "17269634811406059640402570029258"
     },
@@ -6178,6 +7851,7 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V, S, M (um punhado de, areia)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 3,
         "uuid": "49526568599932350887122940425868"
     },
@@ -6191,6 +7865,7 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"],
         "k": 6,
         "uuid": "38237550674417945761607480132757"
     },
@@ -6204,6 +7879,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 7,
         "uuid": "65835427193872103347110313413471"
     },
@@ -6217,6 +7897,7 @@
         "g": "1,5 metros",
         "h": "1,5 metros",
         "i": "V, M (um símbolo sagrado)",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"],
         "k": 0,
         "uuid": "69317901454066123423131727282120"
     },
@@ -6230,6 +7911,11 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S, M (um espelho de mão)",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "63047038836648027655793925627136"
     },
@@ -6243,6 +7929,11 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "61472949513738065198635010743966"
     },
@@ -6256,6 +7947,11 @@
         "g": "27 metros",
         "h": "27 metros",
         "i": "V",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "42596812987435042760272790892991"
     },
@@ -6269,6 +7965,10 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5"
+        ],
         "k": 0,
         "uuid": "73380371162717524107304033003547"
     },
@@ -6282,6 +7982,7 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 3,
         "uuid": "40292530404605527735984633613314"
     },
@@ -6295,6 +7996,12 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "21091907845194838563253146119239"
     },
@@ -6308,6 +8015,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "73869619501461820942237475653063"
     },
@@ -6321,6 +8033,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 6,
         "uuid": "23430945367531640221253632583672"
     },
@@ -6334,6 +8051,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"],
         "k": 6,
         "uuid": "18160779097426107179928467360963"
     },
@@ -6347,6 +8065,10 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S, M (uma escama de dragão vermelho)",
+        "z": [
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "95863950409590590915337454632313"
     },
@@ -6360,6 +8082,7 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": ["5C7EC183E8C43F9D1A6C44645CAB39AC"],
         "k": 1,
         "uuid": "53987670411481269577245623836880"
     },
@@ -6373,6 +8096,7 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S, M (papel ou folhas no formato de um funil)",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"],
         "k": 5,
         "uuid": "53756209201027791227879126477878"
     },
@@ -6386,6 +8110,11 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 4,
         "uuid": "55636563737215417476562380973866"
     },
@@ -6399,6 +8128,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "S",
+        "z": ["2718AD086213B7F0CC96B21CD87DC6B5"],
         "k": 0,
         "uuid": "93190925609838629604907725219800"
     },
@@ -6412,6 +8142,11 @@
         "g": "18 metros",
         "h": "18 metros",
         "i": "V, S",
+        "z": [
+            "BE7427B68511031EFF6654CA8EC058E4",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 0,
         "uuid": "17933842569812752129186971372874"
     },
@@ -6425,6 +8160,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S, M (um globo ocular de morto vivo encoberto por uma gema valendo, no mínimo, 150po)",
+        "z": ["BE7427B68511031EFF6654CA8EC058E4"],
         "k": 4,
         "uuid": "93869966249087720517975010401992"
     },
@@ -6438,6 +8174,11 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "S, M, (uma pitada de areia)",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "31445047375817230898999299952633"
     },
@@ -6451,6 +8192,7 @@
         "g": "36 metros",
         "h": "36 metros",
         "i": "V, S, M (um símbolo sagrado valendo, no mínimo, Spo)",
+        "z": ["8C61F8EDB313E7F7CFFB7A1A50991165"],
         "k": 7,
         "uuid": "88639599996522758851298091725026"
     },
@@ -6464,6 +8206,10 @@
         "g": "9 metros",
         "h": "9 metros",
         "i": "V, S",
+        "z": [
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 3,
         "uuid": "46776356319411032739957971355077"
     },
@@ -6477,6 +8223,7 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S, M (alguns pelos de um touro)",
+        "z": ["DD61B226A538F1C99C5053140935B4F8"],
         "k": 6,
         "uuid": "26422918128937941978128416969290"
     },
@@ -6490,6 +8237,10 @@
         "g": "36",
         "h": "36",
         "i": "V, S, M (barro e água)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 5,
         "uuid": "98169597786095101569872838086788"
     },
@@ -6503,6 +8254,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V, S",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 1,
         "uuid": "67685272581894658824167974887566"
     },
@@ -6516,6 +8273,11 @@
         "g": "90 metros",
         "h": "90 metros",
         "i": "V, S",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 7,
         "uuid": "33839498164241452858303600117464"
     },
@@ -6529,6 +8291,12 @@
         "g": "Pessoal",
         "h": "Pessoal",
         "i": "V",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5C7EC183E8C43F9D1A6C44645CAB39AC",
+            "DD61B226A538F1C99C5053140935B4F8"
+        ],
         "k": 2,
         "uuid": "89994059080752192623426752957623"
     },
@@ -6542,6 +8310,10 @@
         "g": "Toque",
         "h": "Toque",
         "i": "V, S, M (um tufo de pelos envolto por um pano)",
+        "z": [
+            "2718AD086213B7F0CC96B21CD87DC6B5",
+            "5817BF17BC0F7F865E685695DFA3EB11"
+        ],
         "k": 1,
         "uuid": "55156875744143977832306046925651"
     },
@@ -6557,7 +8329,8 @@
         "i": "V",
         "k": 0,
         "l": false,
-        "uuid": "1FC7BF34081FF31FDAAF59523C63970D"
+        "uuid": "1FC7BF34081FF31FDAAF59523C63970D",
+        "z": ["4FB3D7A12EA923B5E8EC3CDA14564CD2"]
     },
     {
         "a": "pt",
@@ -6571,6 +8344,11 @@
         "i": "V, S",
         "k": 2,
         "l": false,
-        "uuid": "22EC3453954C8A5CC327EA34FA23E49A"
+        "uuid": "22EC3453954C8A5CC327EA34FA23E49A",
+        "z": [
+            "4FB3D7A12EA923B5E8EC3CDA14564CD2",
+            "8C61F8EDB313E7F7CFFB7A1A50991165",
+            "35654E025C3AA7B5F5C85015E902F4B8"
+        ]
     }
 ]

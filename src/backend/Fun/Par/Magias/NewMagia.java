@@ -14,8 +14,8 @@ import org.json.*;
  * @author Admin
  */
 public class NewMagia {
-    public static void NewMagia(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, JSONArray Magias, JSONArray Classes, JSONArray CLasseMagias, String CaminhoArquivo, JLabel NewMagia, int LvlMagia){
-        CriarMagia NewMagiaJanela = new CriarMagia(personagemCaminho, ficha, PMagiasT, PMagiasTF, PMagiasF, Magias, Classes, CLasseMagias, CaminhoArquivo, NewMagia, LvlMagia);
+    public static void NewMagia(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, JSONArray Magias, JSONArray Classes, String CaminhoArquivo, JLabel NewMagia, int LvlMagia){
+        CriarMagia NewMagiaJanela = new CriarMagia(personagemCaminho, ficha, PMagiasT, PMagiasTF, PMagiasF, Magias, Classes, CaminhoArquivo, NewMagia, LvlMagia);
         NewMagia.addMouseListener(new MouseAdapter() {
         @Override
         public void mouseClicked(MouseEvent e){

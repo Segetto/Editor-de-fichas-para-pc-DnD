@@ -24,9 +24,10 @@ import java.awt.event.MouseEvent;
  */
 public class NewMagiaAdd {
 
-    public static void NewMagiaAdd(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, String caminhoArquivo, JSONArray Magias, JSONArray CLasseMagias, JSONArray Classes, JTextField NomeMagia, JTextField EscolaMagia, JTextField DuracaoMagia, JTextField TempoMagia, JTextField AlcanceMagia, JTextField CompMagia, JTextArea Descricao, int LvlMagia, JLabel AddNewMagia, JLabel NewMagiaL, JLabel ClassesMagias, JPanel MagiaClasses) {
+    public static void NewMagiaAdd(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, String caminhoArquivo, JSONArray Magias, JSONArray Classes, JTextField NomeMagia, JTextField EscolaMagia, JTextField DuracaoMagia, JTextField TempoMagia, JTextField AlcanceMagia, JTextField CompMagia, JTextArea Descricao, int LvlMagia, JLabel AddNewMagia, JLabel NewMagiaL, JLabel ClassesMagias, JPanel MagiaClasses) {
         jsonParser sobrescrever = new jsonParser();
         String[] SelectedClasses = new String[Classes.length()];
+        JSONArray z = new JSONArray();
         AddNewMagia.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 String NomeString = NomeMagia.getText();
@@ -37,20 +38,16 @@ public class NewMagiaAdd {
                 String CompString = CompMagia.getText();
                 String DescricaoString = Descricao.getText();
                 String id = Rand.NovoId(32);
-                Magias.put(NewMagiaArrayVO.NewMagia(NomeString, EscolaString, DuracaoString, TempoString, AlcanceString, CompString, DescricaoString, LvlMagia, id));
                 for (String ClasseId : SelectedClasses) {
                     if (ClasseId != null) {
-                        CLasseMagias.put(new JSONObject()
-                                .put("uuid", Rand.NovoId(32))
-                                .put("a", ClasseId)
-                                .put("b", id));
+                        z.put(ClasseId);
                     }
                 }
+                Magias.put(NewMagiaArrayVO.NewMagia(NomeString, EscolaString, DuracaoString, TempoString, AlcanceString, CompString, DescricaoString, LvlMagia, id).put("z", z));
                 sobrescrever.sobrescreverArray(caminhoArquivo, OrganizarASSET.OrganizarJSONArray(Magias, "b").toString(4));
-                sobrescrever.sobrescreverArray("ASSETS/ClasseMagias.json", CLasseMagias.toString(4));
                 SwingUtilities.getWindowAncestor(NomeMagia).dispose();
                 SwingUtilities.getWindowAncestor(NewMagiaL).dispose();
-                MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiasT, PMagiasF, Magias, "r", "b", "c", "ASSETS/Magias.json", PMagiasTF, Classes, LvlMagia, CLasseMagias);
+                MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiasT, PMagiasF, Magias, "r", "b", "c", "ASSETS/Magias.json", PMagiasTF, Classes, LvlMagia);
             }
         });
         MagiaClasses.addMouseListener(new java.awt.event.MouseAdapter() {

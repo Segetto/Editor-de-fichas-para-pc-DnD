@@ -8,6 +8,7 @@ import org.json.*;
 import backend.Fun.Par.Especializacao.NewEspecializacao;
 import backend.Fun.Par.Especializacao.EspecializacaoJanelaP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
+import static backend.Fun.Par.SearchP.SearchP;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -23,8 +24,9 @@ public class Especializacao extends javax.swing.JFrame {
     public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PEspT) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT);
+        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT, Search);
         NewEspecializacao.NewEsp(personagemCaminho, especializacoes, TituloCaminho, DescricaoCaminho, CriarNovasEspecializacoes, OpcoesComboBox, CaminhoArquivo);
+        SearchP(Search, Delete);
         BotaoSair.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -52,6 +54,8 @@ public class Especializacao extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         AdicionarNovasEspecializacoes = new javax.swing.JLabel();
         CriarNovasEspecializacoes = new javax.swing.JLabel();
+        Search = new javax.swing.JTextField();
+        Delete = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -101,13 +105,30 @@ public class Especializacao extends javax.swing.JFrame {
         CriarNovasEspecializacoes.setText("Criar");
         CriarNovasEspecializacoes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
+        Search.setBackground(new java.awt.Color(23, 23, 23));
+        Search.setForeground(new java.awt.Color(255, 255, 255));
+        Search.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(35, 35, 195)));
+
+        Delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visual/res/Search.png"))); // NOI18N
+        Delete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(33, 33, 33)
-                .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 409, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 408, Short.MAX_VALUE)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(161, 161, 161)
+                        .addComponent(Search, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                        .addGap(0, 0, 0)
+                        .addComponent(Delete)))
                 .addGap(34, 34, 34))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -117,30 +138,26 @@ public class Especializacao extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(17, 17, 17)
+                .addGap(34, 34, 34)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addGap(86, 86, 86)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(EspSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(Delete)
+                        .addComponent(Search, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(34, 34, 34)
+                .addComponent(jScrollPaneIEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 368, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BotaoSair)
                     .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24))
+                .addGap(34, 34, 34))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -226,8 +243,10 @@ public class Especializacao extends javax.swing.JFrame {
     private javax.swing.JLabel AdicionarNovasEspecializacoes;
     private javax.swing.JButton BotaoSair;
     private javax.swing.JLabel CriarNovasEspecializacoes;
+    private javax.swing.JLabel Delete;
     private javax.swing.JComboBox<String> EspSelect;
     private javax.swing.JPanel EspecializacaoPainel;
+    private javax.swing.JTextField Search;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

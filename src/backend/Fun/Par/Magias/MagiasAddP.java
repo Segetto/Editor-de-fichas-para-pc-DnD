@@ -16,9 +16,9 @@ import visual.Magias;
  * @author Admin
  */
 public class MagiasAddP {
-    public static void MagiasAddP(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasF, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PMagiasFTl, JSONArray OpcoesComboBox, int MagiaLvl,JSONArray ClassesMagias) {
+    public static void MagiasAddP(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasF, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PMagiasFTl, JSONArray OpcoesComboBox, int MagiaLvl) {
         trocarPainel mudar = new trocarPainel();
-        Magias novoFrame = new Magias(personagemCaminho, ficha, PMagiasF, Magias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, CaminhoArquivo, PMagiasFTl, OpcoesComboBox, PMagiasT, MagiaLvl, ClassesMagias);
+        Magias novoFrame = new Magias(personagemCaminho, ficha, PMagiasF, Magias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, CaminhoArquivo, PMagiasFTl, OpcoesComboBox, PMagiasT, MagiaLvl);
         novoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         for (MouseListener ml : PMagiasT.getMouseListeners()) {
             PMagiasT.removeMouseListener(ml);

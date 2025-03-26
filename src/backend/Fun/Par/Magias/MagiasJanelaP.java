@@ -26,18 +26,17 @@ import javax.swing.event.DocumentListener;
  */
 public class MagiasJanelaP {
 
-    public static void MagiasJanelaP(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox Opcoes, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JSONArray ClassesMagias, JTextField Search) {
+    public static void MagiasJanelaP(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox Opcoes, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
         for (int i = 0; i < OpcoesComboBox.length(); i++) {
             Opcoes.addItem(OpcoesComboBox.getJSONObject(i).getString("b"));
         }
         Opcoes.setSelectedItem(FichaLerString(ficha, "classe", 0));
         Opcoes.addItem("Todos");
-        AdicionarEquipamentos(personagemCaminho, ficha, PMagias, Opcoes, PMagiasTF, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PMagiasF, Magias, OpcoesComboBox, CaminhoArquivo, PMagiasT, MagiaLvl, ClassesMagias, Search);
+        AdicionarEquipamentos(personagemCaminho, ficha, PMagias, Opcoes, PMagiasTF, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PMagiasF, Magias, OpcoesComboBox, CaminhoArquivo, PMagiasT, MagiaLvl, Search);
 
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox ComboBoxOpcao, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JSONArray ClassesMagias, JTextField Search) {
-
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox ComboBoxOpcao, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
         PMagias.removeAll();
         PMagias.revalidate();
         PMagias.repaint();
@@ -106,12 +105,12 @@ public class MagiasJanelaP {
                         PNewMagia.add(PNomeMagia);
                         PNomeMagia.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                         PNomeMagia.setBorder(new MatteBorder(0, 0, 1, 0, new Color(35, 35, 195)));
-                        if (Magias.getJSONObject(i).has("t") && Magias.getJSONObject(i).getBoolean("t")) {
+                        if (Magias.getJSONObject(i).has("l") && Magias.getJSONObject(i).getBoolean("l")) {
                             JPanel RemoverEspP = new JPanel();
-                            JLabel EditarEsp = new JLabel("Editar Especialização");
+                            JLabel EditarEsp = new JLabel("Editar Magia");
                             EditarEsp.setForeground(new Color(255, 255, 255));
                             EditarEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-                            JLabel RemoverEsp = new JLabel("Remover Especialização");
+                            JLabel RemoverEsp = new JLabel("Remover Magia");
                             RemoverEsp.setForeground(new Color(255, 105, 105));
                             RemoverEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                             EditarEsp.setBorder(new MatteBorder(0, 0, 1, 0, new Color(255, 255, 255)));
@@ -142,7 +141,7 @@ public class MagiasJanelaP {
                                         }
                                     }
                                     SwingUtilities.getWindowAncestor(PMagias).dispose();
-                                    MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiasT, PMagiasTF, Magias, VetorCaminho, TituloCaminho, DescricaoCaminho, CaminhoArquivo, PMagiasF, ComboBoxArray, MagiaLvl, ClassesMagias);
+                                    MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiasT, PMagiasTF, Magias, VetorCaminho, TituloCaminho, DescricaoCaminho, CaminhoArquivo, PMagiasF, ComboBoxArray, MagiaLvl);
                                     Sobrescrever.sobrescreverArray(CaminhoArquivo, Magias.toString(4));
                                     PMagias.revalidate();
                                     PMagias.repaint();
@@ -164,15 +163,13 @@ public class MagiasJanelaP {
                             @Override
                             public void componentResized(ComponentEvent e) {
                                 int width = SwingUtilities.getWindowAncestor(PMagias).getSize().width;
-                                // Atualiza o texto, ajustando a largura do body no HTML
                                 if (Magias.getJSONObject(iComp).has(DescricaoCaminho)) {
                                     DescricaoMagia.setText("<html><body style='width:" + (width / 2.5) + "px'>"
                                             + "<br> <b>Escola</b>: " + Magias.getJSONObject(iComp).getString("d") + "<br><br>"
                                             + "<b>Duração: </b>" + Magias.getJSONObject(iComp).getString("e") + "<br><br>"
                                             + "<b>Tempo de conjuração: </b>" + Magias.getJSONObject(iComp).getString("f") + "<br><br>"
                                             + "<b>Alcance: </b>" + Magias.getJSONObject(iComp).getString("g") + "<br><br>"
-                                            + "<b>Componentes: </b>" + Magias.getJSONObject(iComp).getString("i") + "<br><br>"
-                                            + Magias.getJSONObject(iComp).getString(DescricaoCaminho) + "</body></html>");
+                                            + "<b>Componentes: </b>" + Magias.getJSONObject(iComp).getString("i") + "</body></html>");
                                 } else {
                                     DescricaoMagia.setText("<html><body style='width:" + (width / 2.5) + "px'> " + "</body></html>");
                                 }
@@ -235,7 +232,7 @@ public class MagiasJanelaP {
             protected void done() {
                 try {
                     get();
-                    ExibirOpcoes(ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid"), PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), ClassesMagias);
+                    ExibirOpcoes(ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid"), PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -250,7 +247,7 @@ public class MagiasJanelaP {
                     ExibirOpcoes(null, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), null);
                 } else {
                     String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
-                    ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), ClassesMagias);
+                    ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
                 }
             }
         });
@@ -276,50 +273,56 @@ public class MagiasJanelaP {
                 desmarcarTodasCheckBoxes(PMagias);
             }
         });
-         Search.getDocument().addDocumentListener(new DocumentListener() {
+        Search.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
-                String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
-                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), ClassesMagias);
+                String NewOpcao = null;
+                if (ComboBoxArray.length() - 1 > ComboBoxOpcao.getSelectedIndex()) {
+                    NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
+                }
+                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
             }
 
             @Override
             public void removeUpdate(DocumentEvent e) {
-                String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
-                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(),  ClassesMagias);
+                String NewOpcao = null;
+                if (ComboBoxArray.length() - 1 > ComboBoxOpcao.getSelectedIndex()) {
+                    NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
+                }
+                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
             }
 
             @Override
             public void changedUpdate(DocumentEvent e) {
-                String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
-                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), ClassesMagias);
+                String NewOpcao = null;
+                if (ComboBoxArray.length() - 1 > ComboBoxOpcao.getSelectedIndex()) {
+                    NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
+                }
+                ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
             }
         });
     }
 
-    public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc, String BuscaString, JSONArray ClassesMagias) {
+    public static void ExibirOpcoes(String TipoOpcoes, JPanel PainelOpcoes, JPanel[] OpcoesLista, GridBagConstraints gbc, String BuscaString, JSONArray Magias) {
         PainelOpcoes.removeAll();
-        PainelOpcoes.revalidate();
-        PainelOpcoes.repaint();
-        for (JPanel opcao : OpcoesLista) {
-            if (opcao == null) {
+        for (int i = 0; i < OpcoesLista.length; i++) {
+            if (OpcoesLista[i] == null) {
                 continue;
             }
-            String nomeOpcao = opcao.getName();
+            String nomeOpcao = OpcoesLista[i].getName();
             if (nomeOpcao == null) {
                 continue;
             }
-            String Titulo =  Normalizer.normalize( ((JLabel) ((JPanel) opcao.getComponent(0)).getComponent(1)).getText().toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-            if (ClassesMagias != null) {
-                for (int j = 0; j < ClassesMagias.length(); j++) {
-                    if (nomeOpcao.equals(ClassesMagias.getJSONObject(j).getString("b")) && TipoOpcoes.equals(ClassesMagias.getJSONObject(j).getString("a")) && (BuscaString == null || Titulo.contains(Normalizer.normalize(BuscaString.toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "")))) {
-                        PainelOpcoes.add(opcao, gbc);
+            String Titulo = Normalizer.normalize(((JLabel) ((JPanel) OpcoesLista[i].getComponent(0)).getComponent(1)).getText().toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+            if (Magias != null) {
+                for(int j = 0; j < Magias.getJSONObject(i).getJSONArray("z").length(); j++){
+                    if ((TipoOpcoes == null || TipoOpcoes.equals(Magias.getJSONObject(i).getJSONArray("z").getString(j))) && (BuscaString == null || Titulo.contains(Normalizer.normalize(BuscaString.toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "")))) {
+                        PainelOpcoes.add(OpcoesLista[i], gbc);
                         gbc.gridy++;
-                        j = ClassesMagias.length();
                     }
                 }
             } else {
-                PainelOpcoes.add(opcao, gbc);
+                PainelOpcoes.add(OpcoesLista[i], gbc);
                 gbc.gridy++;
             }
         }

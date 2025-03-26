@@ -18,9 +18,9 @@ public class CriarMagia extends javax.swing.JFrame {
     /**
      * Creates new form CriarItem
      */
-    public CriarMagia(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, JSONArray Magias, JSONArray Classes, JSONArray CLasseMagias, String CaminhoArquivo, JLabel NewMagia, int LvlMagia) {
+    public CriarMagia(String personagemCaminho, JSONObject ficha, JPanel PMagiasT, JPanel PMagiasTF, JPanel PMagiasF, JSONArray Magias, JSONArray Classes, String CaminhoArquivo, JLabel NewMagia, int LvlMagia) {
         initComponents();
-        NewMagiaAdd.NewMagiaAdd(personagemCaminho, ficha, PMagiasT, PMagiasTF, PMagiasF, CaminhoArquivo, Magias, CLasseMagias, Classes, Nome, Escola, Duracao, Tempo, Alcance, Componentes, Descricao, LvlMagia, AddNewMagia, NewMagia, ClassesLabel, AddClasses);
+        NewMagiaAdd.NewMagiaAdd(personagemCaminho, ficha, PMagiasT, PMagiasTF, PMagiasF, CaminhoArquivo, Magias, Classes, Nome, Escola, Duracao, Tempo, Alcance, Componentes, Descricao, LvlMagia, AddNewMagia, NewMagia, ClassesLabel, AddClasses);
         jScrollPane1.getVerticalScrollBar().setUnitIncrement(10);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
