@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/visual/Equipamento.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Inventario/InventarioJanelaP.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Geral/VidaP.java</file>
             <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/visual/personagemFicha.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Magias/MagiasJanelaP.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/visual/Magias.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/SearchP.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/personagensJSON/kodlack%20baraja.json</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/rpgNovoAnt/src/backend/Fun/Par/Magias/ConjuracaoP.java</file>
         </group>
     </open-files>
 </project-private>

@@ -36,6 +36,7 @@ import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
 import static backend.Fun.Par.Inventario.ChangeMochilaIcon.ChangeMochilaIcon;
 import static backend.Fun.Par.Inventario.PesoCalc.PesoCalc;
 import static backend.Fun.Par.Geral.OpcoesNavBar.MostrarDrawer;
+import static backend.Fun.Par.Magias.ConjuracaoP.ConjuracaoP;
 import backend.Fun.Par.Magias.MagiasPanelP;
 import org.json.*;
 
@@ -152,6 +153,7 @@ public class personagemFicha extends javax.swing.JFrame {
         MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN7T, PMagiaN7C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 7);
         MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN8T, PMagiaN8C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 8);
         MagiasAddP.MagiasAddP(personagemCaminho, ficha, PMagiaN9T, PMagiaN9C, Magias, "r", "b", "c", MagiasCaminho, PMagias, Classes, 9);       
+        ConjuracaoP(personagemCaminho, ficha, StatusConj, CDConj, BonusConj);
     }
 
     /**
@@ -339,6 +341,19 @@ public class personagemFicha extends javax.swing.JFrame {
         PMagiaN9T = new javax.swing.JPanel();
         jLabel80 = new javax.swing.JLabel();
         PMagiaN9C = new javax.swing.JPanel();
+        jPanel16 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel64 = new javax.swing.JLabel();
+        jSeparator3 = new javax.swing.JSeparator();
+        StatusConj = new javax.swing.JComboBox<>();
+        jPanel20 = new javax.swing.JPanel();
+        jLabel65 = new javax.swing.JLabel();
+        jSeparator4 = new javax.swing.JSeparator();
+        CDConj = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        jLabel66 = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        BonusConj = new javax.swing.JLabel();
         jScrollPaneEspecializacao = new javax.swing.JScrollPane();
         PainelEspecializacoes = new javax.swing.JPanel();
         PCarRaca = new javax.swing.JPanel();
@@ -2124,6 +2139,84 @@ public class personagemFicha extends javax.swing.JFrame {
                 .addComponent(PMagiaN9C, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jPanel16.setBackground(new java.awt.Color(35, 35, 35));
+
+        jPanel17.setOpaque(false);
+        jPanel17.setLayout(new javax.swing.BoxLayout(jPanel17, javax.swing.BoxLayout.Y_AXIS));
+
+        jLabel64.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel64.setText("Status de conjuração");
+        jLabel64.setAlignmentX(0.5F);
+        jPanel17.add(jLabel64);
+
+        jSeparator3.setBackground(new java.awt.Color(35, 35, 35));
+        jSeparator3.setForeground(new java.awt.Color(35, 35, 35));
+        jPanel17.add(jSeparator3);
+
+        StatusConj.setBackground(new java.awt.Color(35, 35, 35));
+        StatusConj.setForeground(new java.awt.Color(255, 255, 255));
+        StatusConj.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Inteligência", "Sabedoria", "Carisma" }));
+        StatusConj.setBorder(null);
+        jPanel17.add(StatusConj);
+
+        jPanel20.setOpaque(false);
+        jPanel20.setLayout(new javax.swing.BoxLayout(jPanel20, javax.swing.BoxLayout.Y_AXIS));
+
+        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel65.setText("Classe de dificuldade");
+        jLabel65.setAlignmentX(0.5F);
+        jPanel20.add(jLabel65);
+
+        jSeparator4.setBackground(new java.awt.Color(35, 35, 35));
+        jSeparator4.setForeground(new java.awt.Color(35, 35, 35));
+        jPanel20.add(jSeparator4);
+
+        CDConj.setForeground(new java.awt.Color(255, 255, 255));
+        CDConj.setText("0");
+        CDConj.setAlignmentX(0.5F);
+        jPanel20.add(CDConj);
+
+        jPanel22.setOpaque(false);
+        jPanel22.setLayout(new javax.swing.BoxLayout(jPanel22, javax.swing.BoxLayout.Y_AXIS));
+
+        jLabel66.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel66.setText("Bônus de ataque");
+        jLabel66.setAlignmentX(0.5F);
+        jPanel22.add(jLabel66);
+
+        jSeparator5.setBackground(new java.awt.Color(35, 35, 35));
+        jSeparator5.setForeground(new java.awt.Color(35, 35, 35));
+        jPanel22.add(jSeparator5);
+
+        BonusConj.setForeground(new java.awt.Color(255, 255, 255));
+        BonusConj.setText("0");
+        BonusConj.setAlignmentX(0.5F);
+        jPanel22.add(BonusConj);
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap(19, Short.MAX_VALUE)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout PMagiasLayout = new javax.swing.GroupLayout(PMagias);
         PMagias.setLayout(PMagiasLayout);
         PMagiasLayout.setHorizontalGroup(
@@ -2142,10 +2235,12 @@ public class personagemFicha extends javax.swing.JFrame {
                     .addComponent(PMagiaN1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(PMagiaN0, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
+            .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         PMagiasLayout.setVerticalGroup(
             PMagiasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PMagiasLayout.createSequentialGroup()
+                .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
                 .addComponent(PMagiaN0, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(23, 23, 23)
@@ -2685,8 +2780,10 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JTextField AntecedenteLabel;
     private javax.swing.JScrollPane AppScrollPane;
     private javax.swing.JLabel BonusCALabel;
+    private javax.swing.JLabel BonusConj;
     private javax.swing.JLabel BonusIniciativaLabel;
     private javax.swing.JLabel BonusProficienciaLabel;
+    private javax.swing.JLabel CDConj;
     private javax.swing.JTextField CarLabel;
     private javax.swing.JLabel CarMod;
     private javax.swing.JCheckBox CarResCheck;
@@ -2784,6 +2881,7 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel SabMod;
     private javax.swing.JCheckBox SabResCheck;
     private javax.swing.JLabel SabResMod;
+    private javax.swing.JComboBox<String> StatusConj;
     private javax.swing.JCheckBox Sucesso1;
     private javax.swing.JCheckBox Sucesso2;
     private javax.swing.JCheckBox Sucesso3;
@@ -2848,6 +2946,9 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
@@ -2864,10 +2965,14 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -2882,5 +2987,8 @@ public class personagemFicha extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPaneMochilaItens;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
     // End of variables declaration//GEN-END:variables
 }

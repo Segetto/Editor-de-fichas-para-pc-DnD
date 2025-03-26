@@ -2792,11 +2792,13 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                               </Group>
+                              <Component id="jPanel16" alignment="0" max="32767" attributes="0"/>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jPanel16" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                                   <Component id="PMagiaN0" max="32767" attributes="0"/>
                                   <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
@@ -3630,6 +3632,175 @@
                                   </Group>
                                 </DimensionLayout>
                               </Layout>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel16">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="23" green="23" red="23" type="rgb"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jPanel17" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jPanel20" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jPanel17" max="32767" attributes="0"/>
+                                          <Component id="jPanel20" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jPanel22" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Container class="javax.swing.JPanel" name="jPanel17">
+                              <Properties>
+                                <Property name="opaque" type="boolean" value="false"/>
+                              </Properties>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                                <Property name="axis" type="int" value="1"/>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="jLabel64">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Status de conjura&#xe7;&#xe3;o"/>
+                                    <Property name="alignmentX" type="float" value="0.5"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JSeparator" name="jSeparator3">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JComboBox" name="StatusConj">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                      <StringArray count="3">
+                                        <StringItem index="0" value="Intelig&#xea;ncia"/>
+                                        <StringItem index="1" value="Sabedoria"/>
+                                        <StringItem index="2" value="Carisma"/>
+                                      </StringArray>
+                                    </Property>
+                                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                      <Border info="null"/>
+                                    </Property>
+                                  </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                                  </AuxValues>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="jPanel20">
+                              <Properties>
+                                <Property name="opaque" type="boolean" value="false"/>
+                              </Properties>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                                <Property name="axis" type="int" value="1"/>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="jLabel65">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Classe de dificuldade"/>
+                                    <Property name="alignmentX" type="float" value="0.5"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JSeparator" name="jSeparator4">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="CDConj">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="0"/>
+                                    <Property name="alignmentX" type="float" value="0.5"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="jPanel22">
+                              <Properties>
+                                <Property name="opaque" type="boolean" value="false"/>
+                              </Properties>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                                <Property name="axis" type="int" value="1"/>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="jLabel66">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="B&#xf4;nus de ataque"/>
+                                    <Property name="alignmentX" type="float" value="0.5"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JSeparator" name="jSeparator5">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="23" green="23" red="23" type="rgb"/>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="BonusConj">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="0"/>
+                                    <Property name="alignmentX" type="float" value="0.5"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
                             </Container>
                           </SubComponents>
                         </Container>
