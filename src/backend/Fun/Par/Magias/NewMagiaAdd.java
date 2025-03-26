@@ -87,7 +87,6 @@ public class NewMagiaAdd {
             StringBuilder ClassesStringLabel = new StringBuilder("Classes:");
             String v = "";
             for (int i = 0; i < SelectedClasses.length; i++) {
-                System.out.println(SelectedClasses[i]);
                 if (SelectedClasses[i] != null) {
                     ClassesStringLabel.append(v + " " + Classes.getJSONObject(i).getString("b"));
                     v = ",";
