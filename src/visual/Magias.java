@@ -24,7 +24,7 @@ public class Magias extends javax.swing.JFrame {
     public Magias(String personagemCaminho, JSONObject ficha, JPanel PainelMagiasFicha, JSONArray Magias, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, String CaminhoArquivo, JPanel PainelMagiasTela, JSONArray OpcoesComboBox, JPanel PmagiasT, int LvlMagia) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, AddNovasMagias, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, Search);
+        MagiasJanelaP.MagiasJanelaP(personagemCaminho, ficha, PMagias, ClasseSelect, PainelMagiasTela, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, PmagiasT, LvlMagia, Search);
         NewMagia.NewMagia(personagemCaminho, ficha, PmagiasT, PainelMagiasTela, PainelMagiasFicha, Magias, OpcoesComboBox, CaminhoArquivo, CriarNovasMagias, LvlMagia);
         SearchP(Search, Delete);
         BotaoSair.addActionListener(new ActionListener() {
@@ -52,7 +52,6 @@ public class Magias extends javax.swing.JFrame {
         PMagias = new javax.swing.JPanel();
         ClasseSelect = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
-        AddNovasMagias = new javax.swing.JLabel();
         CriarNovasMagias = new javax.swing.JLabel();
         Search = new javax.swing.JTextField();
         Delete = new javax.swing.JLabel();
@@ -95,11 +94,6 @@ public class Magias extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Selecione:");
 
-        AddNovasMagias.setForeground(new java.awt.Color(122, 255, 255));
-        AddNovasMagias.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        AddNovasMagias.setText("Adicionar");
-        AddNovasMagias.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
         CriarNovasMagias.setForeground(new java.awt.Color(122, 255, 255));
         CriarNovasMagias.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CriarNovasMagias.setText("Criar");
@@ -121,8 +115,6 @@ public class Magias extends javax.swing.JFrame {
                 .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(BotaoSair)
-                .addGap(18, 18, 18)
-                .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
@@ -153,7 +145,6 @@ public class Magias extends javax.swing.JFrame {
                         .addGap(86, 86, 86)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(BotaoSair)
-                            .addComponent(AddNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(CriarNovasMagias, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(24, 24, 24))
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -247,7 +238,6 @@ public class Magias extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel AddNovasMagias;
     private javax.swing.JButton BotaoSair;
     private javax.swing.JComboBox<String> ClasseSelect;
     private javax.swing.JLabel CriarNovasMagias;

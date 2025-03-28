@@ -24,6 +24,7 @@ public class ConjuracaoP {
         }else{
             StatusPos = Status.getSelectedIndex() + 3;
             ficha.getJSONArray("a").getJSONObject(0).put("A1", StatusPos);
+            SalvarFicha(ficha, personagemCaminho);
         }
         if(ficha.getJSONArray("a").getJSONObject(0).has("A2")){
             ResB = ficha.getJSONArray("a").getJSONObject(0).getInt("A2");
@@ -32,6 +33,7 @@ public class ConjuracaoP {
             ResB = 0;
             ficha.getJSONArray("a").getJSONObject(0).put("A2", ResB);
             CD.setText(mod(ficha.getJSONArray("e").getJSONObject(StatusPos).getInt("b"), 8 + Proficiencia(ficha) + ResB));
+            SalvarFicha(ficha, personagemCaminho);
         }
         if(ficha.getJSONArray("a").getJSONObject(0).has("A3")){
            ConjB = ficha.getJSONArray("a").getJSONObject(0).getInt("A3");
@@ -40,6 +42,10 @@ public class ConjuracaoP {
             ConjB = 0;
             ficha.getJSONArray("a").getJSONObject(0).put("A3", ConjB);
             Bonus.setText(mod(ficha.getJSONArray("e").getJSONObject(StatusPos).getInt("b"), Proficiencia(ficha) + ConjB));
+            SalvarFicha(ficha, personagemCaminho);
+        }
+        for (ActionListener ml : Status.getActionListeners()) {
+            Status.removeActionListener(ml);
         }
         for (MouseListener ml : CD.getMouseListeners()) {
             CD.removeMouseListener(ml);
@@ -47,7 +53,6 @@ public class ConjuracaoP {
         for (MouseListener ml : Bonus.getMouseListeners()) {
             Bonus.removeMouseListener(ml);
         }
-        SalvarFicha(ficha, personagemCaminho);
         Status.addActionListener(new java.awt.event.ActionListener() {
             int NewStatusPos;
             @Override

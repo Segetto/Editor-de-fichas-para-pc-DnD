@@ -56,6 +56,8 @@ public class SelectPersonagem extends javax.swing.JFrame {
 
     public SelectPersonagem() {
         initComponents();
+        ImageIcon IconeApp = new ImageIcon("src/visual/res/Kvasir.png");
+        SwingUtilities.getWindowAncestor(jComboBox1).setIconImage(IconeApp.getImage());
         Arrays.stream(arquivos).filter(File::isFile).forEach(arquivo -> {
             String nomeArquivo = arquivo.getName();
             JSONObject ficha = new JSONObject(jsonParser.LerArquivo("personagensJSON/" + nomeArquivo));
@@ -68,8 +70,10 @@ public class SelectPersonagem extends javax.swing.JFrame {
                 // Quando a seleção mudar, troca para o segundo JFrame
                 Item selectedItem = (Item) jComboBox1.getSelectedItem();
                 String selectedOption = selectedItem.getId();
+                setVisible(false);
                 dispose();
                 personagemFicha novoFrame = new personagemFicha(selectedOption);
+                novoFrame.setIconImage(IconeApp.getImage());
                 trocarPainel mudar = new trocarPainel();
                 mudar.painelChange(novoFrame);
             }
@@ -380,7 +384,6 @@ public class SelectPersonagem extends javax.swing.JFrame {
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
         try {
-            // Define o Look and Feel para FlatDarkLaf
             UIManager.setLookAndFeel(new FlatDarkLaf());
             FlatDarkLaf.setup();
             UIManager.put("Spinner.buttonArrowColor", new Color(255, 255, 255));

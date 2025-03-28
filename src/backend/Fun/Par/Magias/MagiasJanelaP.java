@@ -7,6 +7,7 @@ package backend.Fun.Par.Magias;
 import static backend.Fun.FichaLer.FichaLerString;
 import backend.Fun.Rand;
 import static backend.Fun.SalvarFicha.SalvarFicha;
+import static backend.Fun.BuscaJSONArrayFicha.BBArray;
 import backend.jsonParser;
 import org.json.*;
 import javax.swing.*;
@@ -26,17 +27,17 @@ import javax.swing.event.DocumentListener;
  */
 public class MagiasJanelaP {
 
-    public static void MagiasJanelaP(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox Opcoes, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
+    public static void MagiasJanelaP(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox Opcoes, JPanel PMagiasTF, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
         for (int i = 0; i < OpcoesComboBox.length(); i++) {
             Opcoes.addItem(OpcoesComboBox.getJSONObject(i).getString("b"));
         }
         Opcoes.setSelectedItem(FichaLerString(ficha, "classe", 0));
         Opcoes.addItem("Todos");
-        AdicionarEquipamentos(personagemCaminho, ficha, PMagias, Opcoes, PMagiasTF, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PMagiasF, Magias, OpcoesComboBox, CaminhoArquivo, PMagiasT, MagiaLvl, Search);
+        AdicionarEquipamentos(personagemCaminho, ficha, PMagias, Opcoes, PMagiasTF, VetorCaminho, TituloCaminho, DescricaoCaminho, PMagiasF, Magias, OpcoesComboBox, CaminhoArquivo, PMagiasT, MagiaLvl, Search);
 
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox ComboBoxOpcao, JPanel PMagiasTF, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PMagias, JComboBox ComboBoxOpcao, JPanel PMagiasTF, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PMagiasF, JSONArray Magias, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PMagiasT, int MagiaLvl, JTextField Search) {
         PMagias.removeAll();
         PMagias.revalidate();
         PMagias.repaint();
@@ -62,7 +63,10 @@ public class MagiasJanelaP {
 
                         JPanel PNewMagia = new JPanel();
                         JCheckBox check = new JCheckBox();
-
+                        int FichaPos = BBArray(ficha.getJSONArray("r"), "b", Magias.getJSONObject(i).getString(TituloCaminho));
+                        if (FichaPos != -1) {
+                            check.setSelected(true);
+                        }
                         PNewMagia.setLayout(new BoxLayout(PNewMagia, BoxLayout.Y_AXIS));
                         JPanel PNomeMagia = new JPanel(new BorderLayout());
                         JLabel NomeMagia = new JLabel(Magias.getJSONObject(i).getString(TituloCaminho));
@@ -205,6 +209,7 @@ public class MagiasJanelaP {
                                     NovaMagia
                                             .put("a", new JSONObject()
                                                     .put("uuid", Rand.NovoId(32))
+                                                    .put("e", false)
                                             )
                                             .put("b", new JSONObject()
                                                     .put("uuid", Magias.getJSONObject(iComp).getString("uuid"))
@@ -215,10 +220,16 @@ public class MagiasJanelaP {
                                                     .put("g", Magias.getJSONObject(iComp).getString("g"))
                                                     .put("i", Magias.getJSONObject(iComp).getString("i"))
                                                     .put("k", Magias.getJSONObject(iComp).getInt("k")));
-                                    MagiasNovas.put(NovaMagia);
-                                    posicao = MagiasNovas.length() - 1;
+                                    ficha.getJSONArray("r").put(NovaMagia);
+                                    MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagiasTF, PMagiasF, MagiaLvl, PMagiasT);
+                                    SalvarFicha(ficha, personagemCaminho);
                                 } else {
-                                    MagiasNovas.remove(posicao);
+                                    int FichaPosDelete = BBArray(ficha.getJSONArray("r"), "b", Magias.getJSONObject(iComp).getString(TituloCaminho));
+                                    if (FichaPosDelete != -1) {
+                                        ficha.getJSONArray("r").remove(FichaPosDelete);
+                                        MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagiasTF, PMagiasF, MagiaLvl, PMagiasT);
+                                        SalvarFicha(ficha, personagemCaminho);
+                                    }
                                 }
                             }
                         });
@@ -249,28 +260,6 @@ public class MagiasJanelaP {
                     String NewOpcao = ComboBoxArray.getJSONObject(ComboBoxOpcao.getSelectedIndex()).getString("uuid");
                     ExibirOpcoes(NewOpcao, PMagias, PaineisMagiasOpcoes, gbc, Search.getText(), Magias);
                 }
-            }
-        });
-        AdicionarSelecionados.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                MagiasNovas.forEach(Magia -> {
-                    ficha.getJSONArray(VetorCaminho).put(Magia);
-                });
-                int heightChangeAdd = 0;
-                for (Component comp : PMagiasTF.getComponents()) {
-                    if (comp instanceof JPanel) {
-                        JPanel panel = (JPanel) comp;
-                        // Faça algo com cada JPanel encontrado
-                        heightChangeAdd += panel.getPreferredSize().height;
-                    }
-                }
-                PMagiasTF.setPreferredSize(new Dimension(PMagiasTF.getWidth(), (heightChangeAdd + HeightInicialJanela)));
-                MagiasPanelP.MagiasPanelP(personagemCaminho, ficha, PMagiasTF, PMagiasF, MagiaLvl, PMagiasT);
-                SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
-                SalvarFicha(ficha, personagemCaminho);
-                Sobrescrever.sobrescreverArray(CaminhoArquivo, Magias.toString(4));
-                desmarcarTodasCheckBoxes(PMagias);
             }
         });
         Search.getDocument().addDocumentListener(new DocumentListener() {
@@ -315,7 +304,7 @@ public class MagiasJanelaP {
             }
             String Titulo = Normalizer.normalize(((JLabel) ((JPanel) OpcoesLista[i].getComponent(0)).getComponent(1)).getText().toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
             if (Magias != null) {
-                for(int j = 0; j < Magias.getJSONObject(i).getJSONArray("z").length(); j++){
+                for (int j = 0; j < Magias.getJSONObject(i).getJSONArray("z").length(); j++) {
                     if ((TipoOpcoes == null || TipoOpcoes.equals(Magias.getJSONObject(i).getJSONArray("z").getString(j))) && (BuscaString == null || Titulo.contains(Normalizer.normalize(BuscaString.toLowerCase(), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "")))) {
                         PainelOpcoes.add(OpcoesLista[i], gbc);
                         gbc.gridy++;

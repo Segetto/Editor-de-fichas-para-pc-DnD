@@ -1947,26 +1947,18 @@
         },
         {
             "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "54D40A660E8CA318F0545739C66EC03C",
                 "e": false,
-                "uuid": "occopiap6q9kptohsmppj8qtdt"
+                "uuid": "56P72WMAL2BGILJCNN12MJNLVHN1AOE6"
             },
             "b": {
-                "a": "pt",
                 "b": "Prestidigicação",
                 "c": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance: ? Você cria, instantaneamente, um efeito sensorial inofensivo, como uma chuva de faíscas, um sopro de vento, notas musicais suaves ou um odor estranho.\n - Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n - Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico.\n - Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria inorgânica por 1 hora.\n - Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície por 1 hora.\n - Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\nSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
-                "d": "transmutacao",
+                "d": "Transmutação",
                 "e": "Até 1 hora",
                 "f": "1 ação",
                 "g": "3 m",
-                "h": "10 ft",
                 "i": "V, S",
-                "j": false,
                 "k": 0,
-                "l": false,
-                "m": true,
                 "uuid": "54D40A660E8CA318F0545739C66EC03C"
             }
         },
@@ -2097,26 +2089,18 @@
         },
         {
             "a": {
-                "a": "btgln1ldr4mbderngsfenvddqq",
-                "b": 0,
-                "c": "9935A0B1DD2594E5CB9B8CA44ED8B05C",
                 "e": false,
-                "uuid": "1ap3nd588idf3egakmnd8d2655"
+                "uuid": "3SW0PCASB0KWKN909I6QB0BIEE7I3Y0F"
             },
             "b": {
-                "a": "pt",
                 "b": "Raio de Gelo",
                 "c": "Um raio frigido de luz azul clara parte em direção de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, ele sofre 1d8 de dano de frio e seu deslocamento é reduzido em 3 metros até o começo do seu próximo turno.\nO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
-                "d": "evocação",
+                "d": "Evocação",
                 "e": "Instantânea",
                 "f": "1 ação",
                 "g": "18 m",
-                "h": "60 ft",
                 "i": "V, S",
-                "j": false,
                 "k": 0,
-                "l": false,
-                "m": true,
                 "uuid": "9935A0B1DD2594E5CB9B8CA44ED8B05C"
             }
         },

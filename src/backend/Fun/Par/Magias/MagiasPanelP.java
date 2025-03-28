@@ -4,7 +4,7 @@
  */
 package backend.Fun.Par.Magias;
 
-import static backend.Fun.SalvarFicha.SalvarFicha;
+import static backend.Fun.OrgJSONArrayFicha.Organizar;
 import static backend.Fun.IntCampo.IntCampo;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import java.awt.*;
@@ -31,6 +31,7 @@ public class MagiasPanelP {
         gbc.weighty = 0.0;
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.insets = new Insets(0, 0, 10, 0);
+        ficha.put("r", Organizar(ficha.getJSONArray("r"), "b"));
         JPanel[] MagiasVetor = new JPanel[ficha.getJSONArray("r").length()];
 
         JPanel PSpinnerUsos = new JPanel();
@@ -108,6 +109,8 @@ public class MagiasPanelP {
                         NomeEsp.setPreferredSize(new Dimension(470, 15));
                         NomeEsp.setHorizontalAlignment(SwingConstants.LEFT);
                         NomeEsp.setForeground(new Color(255, 255, 255));
+                        JRadioButton Preparada = new JRadioButton();
+                        Preparada.setSelected(ficha.getJSONArray("r").getJSONObject(i).getJSONObject("a").getBoolean("e"));
                         JPanel PainelDescricaoEsp = new JPanel();
                         PainelDescricaoEsp.setLayout(new BoxLayout(PainelDescricaoEsp, BoxLayout.Y_AXIS));
                         JPanel PDescricaoEspTexto = new JPanel();
@@ -120,6 +123,9 @@ public class MagiasPanelP {
                                 + ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("c")
                                 + "</div></html>");
                         DescricaoEsp.setForeground(new Color(255, 255, 255));
+                        if(MagiaLvl > 0){
+                            PainelNomeEsp.add(Preparada, BorderLayout.WEST);
+                        }
                         PainelNomeEsp.add(NomeEsp, BorderLayout.CENTER);
                         PainelNomeEsp.add(SetaEsp, BorderLayout.EAST);
                         PDescricaoEspTexto.add(DescricaoEsp);
@@ -137,7 +143,14 @@ public class MagiasPanelP {
                         PainelNomeEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                         PainelNomeEsp.setBorder(new MatteBorder(0, 0, 1, 0, new Color(35, 35, 195)));
                         MagiasVetor[i] = PainelMagia;
-
+                        final int PosIP = i;
+                        Preparada.addMouseListener(new MouseAdapter() {
+                            @Override
+                            public void mouseClicked(MouseEvent e) {
+                                ficha.getJSONArray("r").getJSONObject(PosIP).getJSONObject("a").put("e", Preparada.isSelected());
+                                SalvarFicha(ficha, personagemCaminho);
+                            }
+                        });
                         PainelNomeEsp.addMouseListener(new MouseAdapter() {
                             @Override
                             public void mouseClicked(MouseEvent e) {
@@ -168,7 +181,6 @@ public class MagiasPanelP {
                                     }
                                     PainelMagiasTela.setPreferredSize(new Dimension(PainelMagiasTela.getWidth(), (heightChange + HeightInicialJanela)));
                                 }
-                                System.out.println(PainelMagiasTela.getHeight());
                                 PainelMagia.revalidate();
                                 PainelMagia.repaint();
                             }
@@ -211,8 +223,8 @@ public class MagiasPanelP {
                     get();
                     for (JPanel Painel : MagiasVetor) {
                         if (Painel != null) {
-                            PainelMagias.add(Painel, gbc);
                             gbc.gridy++;
+                            PainelMagias.add(Painel, gbc); 
                         }
                     }
                     int height = 0;
