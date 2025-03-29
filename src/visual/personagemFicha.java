@@ -30,6 +30,7 @@ import static backend.Fun.Par.Geral.MovimentacaoP.*;
 import static backend.Fun.Par.Inventario.InventarioPanelP.*;
 import static backend.Fun.Par.Inventario.EquipamentosAddP.EquipamentosAddP;
 import static backend.Fun.Par.Especializacao.EspecializacaoPanelP.EspecializacaoPanelP;
+import backend.Fun.Par.Talentos.TalentosAddP;
 import backend.Fun.Par.Especializacao.EspecializacoesAddP;
 import backend.Fun.Par.Magias.MagiasAddP;
 import static backend.Fun.Par.Inventario.MoedasP.MoedaP;
@@ -124,7 +125,7 @@ public class personagemFicha extends javax.swing.JFrame {
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarRacaT, PCarRacaC, CarRaca, "n", "d", "e", PainelEspecializacoes, Racas, CarRacaCaminho);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PCarClasseT, PCarClasseC, CarClasse, "m", "d", "e", PainelEspecializacoes, Classes, CarClasseCaminho);
         EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PIdiomasT, PIdiomasC, Idiomas, "p", "c", "d", PainelEspecializacoes, null, IdiomasCaminho);
-        EspecializacoesAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null, TalentosCaminho);
+        TalentosAddP.EspecializacoesAddP(personagemCaminho, ficha, PTalentosT, PTalentosC, Talentos, "o", "d", "c", PainelEspecializacoes, null, TalentosCaminho);
         MoedaP(personagemCaminho, ficha, CobreInput, "o", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, PrataInput, "p", PesoAtualLabel, PesoMaximoLabel);
         MoedaP(personagemCaminho, ficha, ElectroInput, "q", PesoAtualLabel, PesoMaximoLabel);

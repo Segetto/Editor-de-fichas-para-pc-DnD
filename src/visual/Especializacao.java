@@ -24,7 +24,7 @@ public class Especializacao extends javax.swing.JFrame {
     public Especializacao(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacaoFicha, JSONArray especializacoes, String VetorNomeFicha, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PEspT) {
         initComponents();
         jScrollPaneIEspecializacoes.getVerticalScrollBar().setUnitIncrement(10);
-        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, AdicionarNovasEspecializacoes, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT, Search);
+        EspecializacaoJanelaP.EspecializacaoJanelaP(personagemCaminho, ficha, EspecializacaoPainel, EspSelect, PainelEspecializacaoFicha, VetorNomeFicha, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT, Search);
         NewEspecializacao.NewEsp(personagemCaminho, especializacoes, TituloCaminho, DescricaoCaminho, CriarNovasEspecializacoes, OpcoesComboBox, CaminhoArquivo);
         SearchP(Search, Delete);
         BotaoSair.addActionListener(new ActionListener() {
@@ -52,7 +52,6 @@ public class Especializacao extends javax.swing.JFrame {
         EspecializacaoPainel = new javax.swing.JPanel();
         EspSelect = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
-        AdicionarNovasEspecializacoes = new javax.swing.JLabel();
         CriarNovasEspecializacoes = new javax.swing.JLabel();
         Search = new javax.swing.JTextField();
         Delete = new javax.swing.JLabel();
@@ -95,11 +94,6 @@ public class Especializacao extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Selecione:");
 
-        AdicionarNovasEspecializacoes.setForeground(new java.awt.Color(122, 255, 255));
-        AdicionarNovasEspecializacoes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        AdicionarNovasEspecializacoes.setText("Adicionar");
-        AdicionarNovasEspecializacoes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
         CriarNovasEspecializacoes.setForeground(new java.awt.Color(122, 255, 255));
         CriarNovasEspecializacoes.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         CriarNovasEspecializacoes.setText("Criar");
@@ -135,8 +129,6 @@ public class Especializacao extends javax.swing.JFrame {
                 .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(BotaoSair)
-                .addGap(18, 18, 18)
-                .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -155,7 +147,6 @@ public class Especializacao extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BotaoSair)
-                    .addComponent(AdicionarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(CriarNovasEspecializacoes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34))
         );
@@ -240,7 +231,6 @@ public class Especializacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel AdicionarNovasEspecializacoes;
     private javax.swing.JButton BotaoSair;
     private javax.swing.JLabel CriarNovasEspecializacoes;
     private javax.swing.JLabel Delete;

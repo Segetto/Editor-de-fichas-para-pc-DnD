@@ -19,7 +19,7 @@ public class BuscaJSONArrayFicha {
         while (esquerda <= direita) {
             int meio = esquerda + (direita - esquerda) / 2; // Evita estouro de inteiro
 
-            int comparacao = ArrayBusca.getJSONObject(meio).getJSONObject("b").getString(Campo).compareTo(Valor);
+            int comparacao = ArrayBusca.getJSONObject(meio).getJSONObject("b").getString(Campo).toLowerCase().replaceAll("[^\\p{ASCII}]", "").compareTo(Valor.toLowerCase().replaceAll("[^\\p{ASCII}]", ""));
 
             if (comparacao == 0) {
                 return meio; // Encontrou o elemento

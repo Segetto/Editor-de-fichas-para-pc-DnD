@@ -87,19 +87,9 @@ public class MagiasPanelP {
                         JPanel PainelMagia = new JPanel();
                         PainelMagia.setLayout(new BoxLayout(PainelMagia, BoxLayout.Y_AXIS));
                         JPanel PainelNomeEsp = new JPanel(new BorderLayout());
-                        JLabel RemoverEsp = new JLabel("Remover Especialização");
-                        String placeholder = "Informações adicionais";
-                        String Texto = placeholder;
-
-                        if (ficha.getJSONArray("r").getJSONObject(i).getJSONObject("a").has("c") && !ficha.getJSONArray("r").getJSONObject(i).getJSONObject("a").getString("c").equals("")) {
-                            Texto = ficha.getJSONArray("r").getJSONObject(i).getJSONObject("a").getString("c");
-                        }
-                        int maxHeight = 150;
-                        int maxWidth = 400;
-
+                        JLabel RemoverEsp = new JLabel("Remover Magia");
                         JPanel RemoverEspPainel = new JPanel();
                         RemoverEspPainel.setPreferredSize(new Dimension(470, 20));
-
                         RemoverEsp.setForeground(new Color(255, 105, 105));
                         RemoverEsp.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
                         JLabel NomeEsp = new JLabel("    " + ficha.getJSONArray("r").getJSONObject(i).getJSONObject("b").getString("b"));
@@ -185,7 +175,6 @@ public class MagiasPanelP {
                                 PainelMagia.repaint();
                             }
                         });
-                        int RemoveI = i;
                         RemoverEsp.addMouseListener(new MouseAdapter() {
 
                             @Override

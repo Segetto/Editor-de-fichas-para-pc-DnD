@@ -4,9 +4,9 @@
  */
 package backend.Fun.Par.Especializacao;
 
+import static backend.Fun.BuscaJSONArrayFicha.BBArray;
 import visual.EditarEspecializacaoASSET;
 import static backend.Fun.FichaLer.FichaLerString;
-import static backend.Fun.Par.Magias.MagiasJanelaP.ExibirOpcoes;
 import static backend.Fun.SalvarFicha.SalvarFicha;
 import backend.Fun.Rand;
 import backend.jsonParser;
@@ -18,8 +18,6 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.*;
 import java.awt.event.*;
-import java.text.Collator;
-import java.util.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
@@ -29,7 +27,7 @@ import javax.swing.event.DocumentListener;
  */
 public class EspecializacaoJanelaP {
 
-    public static void EspecializacaoJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacao, JComboBox Opcoes, JPanel PainelEspecializacaoFicha, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray Especializacoes, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PEspT, JTextField Search) {
+    public static void EspecializacaoJanelaP(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacao, JComboBox Opcoes, JPanel PainelEspecializacaoFicha, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray Especializacoes, JSONArray OpcoesComboBox, String CaminhoArquivo, JPanel PEspT, JTextField Search) {
         if (OpcoesComboBox != null) {
             for (int i = 0; i < OpcoesComboBox.length(); i++) {
                 Opcoes.addItem(OpcoesComboBox.getJSONObject(i).getString("b")); // Adiciona cada item individualmente
@@ -40,10 +38,10 @@ public class EspecializacaoJanelaP {
                 Opcoes.setSelectedItem(FichaLerString(ficha, "Raca", 0));
             }
         }
-        AdicionarEquipamentos(personagemCaminho, ficha, PainelEspecializacao, Opcoes, PainelEspecializacaoFicha, AdicionarSelecionados, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, Especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT, Search);
+        AdicionarEquipamentos(personagemCaminho, ficha, PainelEspecializacao, Opcoes, PainelEspecializacaoFicha, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha, Especializacoes, OpcoesComboBox, CaminhoArquivo, PEspT, Search);
     }
 
-    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacao, JComboBox ComboBoxOpcao, JPanel PainelEspecializacaoFicha, JLabel AdicionarSelecionados, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray Especializacoes, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PEspT, JTextField Search) {
+    public static void AdicionarEquipamentos(String personagemCaminho, JSONObject ficha, JPanel PainelEspecializacao, JComboBox ComboBoxOpcao, JPanel PainelEspecializacaoFicha, String VetorCaminho, String TituloCaminho, String DescricaoCaminho, JPanel PainelEspecializacoesFicha, JSONArray Especializacoes, JSONArray ComboBoxArray, String CaminhoArquivo, JPanel PEspT, JTextField Search) {
 
         PainelEspecializacao.removeAll();
         PainelEspecializacao.revalidate();
@@ -69,7 +67,10 @@ public class EspecializacaoJanelaP {
 
                     JPanel PainelNewEspecializacao = new JPanel();
                     JCheckBox check = new JCheckBox();
-
+                    int FichaPosBB = BBArray(ficha.getJSONArray(VetorCaminho), TituloCaminho, Especializacoes.getJSONObject(i).getString(TituloCaminho));
+                    if (FichaPosBB != -1) {
+                        check.setSelected(true);
+                    }
                     PainelNewEspecializacao.setLayout(new BoxLayout(PainelNewEspecializacao, BoxLayout.Y_AXIS));
                     JPanel PainelNomeEspecializacao = new JPanel(new BorderLayout());
                     JLabel NomeEspecializacao = new JLabel(Especializacoes.getJSONObject(i).getString(TituloCaminho));
@@ -222,10 +223,14 @@ public class EspecializacaoJanelaP {
                                                     .put(TituloCaminho, Especializacoes.getJSONObject(iComp).getString(TituloCaminho))
                                                     .put(DescricaoCaminho, descricao));
                                 }
-                                EspecializacoesNovas.put(NovaEspecializacao);
-                                posicao = EspecializacoesNovas.length() - 1;
+                                ficha.getJSONArray(VetorCaminho).put(NovaEspecializacao);
                             } else {
-                                EspecializacoesNovas.remove(posicao);
+                                int FichaPosDelete = BBArray(ficha.getJSONArray(VetorCaminho), TituloCaminho, Especializacoes.getJSONObject(iComp).getString(TituloCaminho));
+                                if (FichaPosDelete != -1) {
+                                    ficha.getJSONArray("r").remove(FichaPosDelete);
+                                    EspecializacaoPanelP.EspecializacaoPanelP(personagemCaminho, ficha, PainelEspecializacaoFicha, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha);
+                                    SalvarFicha(ficha, personagemCaminho);
+                                }
                             }
                         }
                     });
@@ -256,29 +261,6 @@ public class EspecializacaoJanelaP {
 
         };
         worker.execute();
-        AdicionarSelecionados.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                EspecializacoesNovas.forEach(Especializacao -> {
-                    ficha.getJSONArray(VetorCaminho).put(Especializacao);
-                });
-                int heightChangeAdd = 0;
-                for (Component comp : PainelEspecializacaoFicha.getComponents()) {
-                    if (comp instanceof JPanel) {
-                        JPanel panel = (JPanel) comp;
-                        // Faça algo com cada JPanel encontrado
-                        heightChangeAdd += panel.getPreferredSize().height;
-                    }
-                }
-                PainelEspecializacaoFicha.setPreferredSize(new Dimension(PainelEspecializacaoFicha.getWidth(), (heightChangeAdd + HeightInicialJanela)));
-                EspecializacaoPanelP.EspecializacaoPanelP(personagemCaminho, ficha, PainelEspecializacaoFicha, VetorCaminho, TituloCaminho, DescricaoCaminho, PainelEspecializacoesFicha);
-                SwingUtilities.getWindowAncestor(AdicionarSelecionados).dispose();
-                SalvarFicha(ficha, personagemCaminho);
-                Sobrescrever.sobrescreverArray(CaminhoArquivo, Especializacoes.toString(4));
-                desmarcarTodasCheckBoxes(PainelEspecializacao);
-
-            }
-        });
         Search.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
